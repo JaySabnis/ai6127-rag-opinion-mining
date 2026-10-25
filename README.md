@@ -1,669 +1,821 @@
-# RAG-Based Aspect-Level Opinion Mining for Smartphone Reviews
+# AI6127 RAG-Based Aspect-Level Opinion Mining
 
-An AI6127 group project that develops a Retrieval-Augmented Generation
-(RAG) system for aspect-level opinion mining over smartphone reviews.
+An AI6127 project for building a Retrieval-Augmented Generation (RAG)
+system for **aspect-level opinion mining on smartphone reviews**.
 
-The system allows users to ask questions about a specific smartphone and
-aspect, such as:
+The target is to answer queries such as:
 
--   How is the battery life on the Samsung Galaxy S24?
--   What do people think of the iPhone 15 camera?
--   Is the Pixel 8 good for gaming?
--   What are common complaints about the iPhone 15 Pro Max?
+> **"How is the camera on the iPhone 15?"**
 
-The system retrieves relevant review passages, analyzes their sentiment,
-aggregates opinions, and generates a concise evidence-grounded summary.
+using retrieved review evidence and generating a grounded aspect-level
+opinion.
 
 ------------------------------------------------------------------------
 
-## Project Overview
-
-The project combines information retrieval, aspect-level sentiment
-analysis, and RAG to answer questions about consumer opinions on
-smartphones.
-
-For a user query, the system aims to:
-
-1.  Identify the relevant smartphone and aspect.
-2.  Retrieve relevant review passages.
-3.  Combine sparse and dense retrieval.
-4.  Fuse and re-rank retrieved results.
-5.  Detect whether retrieved text is opinionated.
-6.  Classify opinion polarity as positive or negative.
-7.  Aggregate sentiment for the queried aspect.
-8.  Generate a short summary grounded in retrieved evidence.
-9.  Present supporting review snippets, metadata, and source
-    information.
-
-------------------------------------------------------------------------
-
-## System Architecture
+## Project Pipeline
 
 ``` text
-                         User Query
-                             |
-                             v
-                    Query Processing
-                             |
-                 +-----------+-----------+
-                 |                       |
-                 v                       v
-             BM25 Search          Dense Retrieval
-                                     |
-                              Sentence-Transformers
-                                     |
-                 +-----------+-----------+
-                             |
-                             v
-                    Hybrid Fusion (RRF)
-                             |
-                             v
-                    Cross-Encoder
-                      Re-ranking
-                             |
-                             v
-                    Metadata Filtering
-                             |
-                             v
-                 Retrieved Review Chunks
-                             |
-                             v
-                 Subjectivity Detection
-                             |
-                             v
-                    Polarity Detection
-                             |
-                             v
-                 Sentiment Aggregation
-                             |
-                             v
-                      LLM Generation
-                             |
-                             v
-                    Grounded Summary
-                             |
-                             v
-                      Streamlit UI
+Raw Smartphone Reviews
+        |
+        v
+Cleaning & Filtering
+        |
+        v
+Clean Review Dataset
+        |
+        v
+Chunking + Metadata Enrichment
+        |
+        v
+Validated corpus.jsonl
+        |
+        v
+Embeddings + Retrieval
+        |
+        v
+Reranking
+        |
+        v
+Aspect-Level Opinion Analysis
+        |
+        v
+Grounded LLM Response
 ```
 
+The Knowledge Base / Chunking stage is responsible for producing the
+validated `corpus.jsonl` that is handed to the downstream retrieval
+team.
+
 ------------------------------------------------------------------------
 
-## Data Pipeline
-
-The project uses a large smartphone review corpus that is cleaned and
-transformed into retrieval-ready passages.
+# Repository Structure
 
 ``` text
-Source Dataset
-      |
-      v
-Cleaning Pipeline
-      |
-      v
-Cleaned Review Dataset
-      |
-      v
-Chunking + Metadata
-      |
-      v
-Embeddings
-      |
-      v
-Weaviate
-      |
-      v
-Retrieval Pipeline
-```
-
-The large dataset is **not stored in this Git repository**.
-
-The cleaned/chunked data, embeddings, and associated metadata are stored
-externally, with **Weaviate** used for vector storage and retrieval.
-
-------------------------------------------------------------------------
-
-## Data Sources
-
-The primary corpus is based on the Amazon Customer Reviews / Amazon
-Reviews 2023 dataset from the Hugging Face Hub, filtered to smartphones.
-
-A supplementary set of public phone-review pages may be collected to
-increase source diversity.
-
-A separate held-out evaluation set of approximately 1,000+ reviews is
-maintained for evaluation and is kept separate from the
-training/indexing corpus.
-
-------------------------------------------------------------------------
-
-## Data Processing
-
-The cleaning pipeline performs:
-
--   Product/phone extraction
--   De-duplication
--   English-language filtering
--   Removal of boilerplate and spam reviews
--   Basic text normalization
--   Review-specific microtext normalization
-
-Reviews are naturally short passages. Reviews above approximately 150
-words are split into smaller sub-passages using sentence boundaries.
-
-Each chunk can contain metadata such as:
-
-``` text
-chunk_id
-text
-product
-aspect
-rating
-timestamp
-source_url
-```
-
-------------------------------------------------------------------------
-
-## Retrieval Pipeline
-
-### Sparse Retrieval
-
-BM25 is used for lexical matching between the query and review passages.
-
-### Dense Retrieval
-
-Sentence-Transformer models are used to generate embeddings for semantic
-similarity search.
-
-The embeddings and associated chunk information are stored in Weaviate.
-
-### Hybrid Retrieval
-
-Sparse and dense retrieval results are combined using Reciprocal Rank
-Fusion (RRF).
-
-### Re-ranking
-
-A Sentence-Transformers Cross-Encoder is used to re-score the top
-candidates after hybrid retrieval.
-
-### Metadata Filtering
-
-Metadata can be used to restrict retrieval by:
-
--   Smartphone model
--   Aspect
--   Date
--   Other available review metadata
-
-------------------------------------------------------------------------
-
-## Opinion Mining and Generation
-
-The downstream pipeline follows a two-stage classification approach.
-
-### 1. Subjectivity Detection
-
-Determine whether a retrieved passage expresses an opinion or is
-primarily factual/neutral.
-
-### 2. Polarity Detection
-
-For opinionated passages, classify the sentiment as:
-
--   Positive
--   Negative
-
-The polarity results are aggregated to produce an aspect-level sentiment
-split.
-
-Example:
-
-``` text
-iPhone 15 — Camera
-
-Positive: 78%
-Negative: 22%
-
-Reviews analyzed: 143
-```
-
-The retrieved and polarity-labelled passages are then provided to an LLM
-to generate a concise natural-language summary.
-
-The generator is instructed to remain grounded in retrieved evidence and
-avoid unsupported claims.
-
-------------------------------------------------------------------------
-
-## Repository Structure
-
-``` text
-rag-aspect-opinion-mining/
+ai6127-rag-opinion-mining/
 │
-├── README.md
-├── pyproject.toml
-├── uv.lock
-├── .gitignore
-├── .env.example
-│
-├── cleaning_pipeline/
-│   ├── __init__.py
-│   ├── 01_extract_phones.py
-│   ├── 02_clean.py
-│   ├── common.py
-│   ├── microtext.py
-│   └── README.md
+├── app/
 │
 ├── chunking/
 │   ├── __init__.py
 │   ├── chunk.py
 │   └── metadata.py
 │
-├── retrieval/
-│   ├── __init__.py
-│   ├── embeddings.py
-│   ├── weaviate_client.py
-│   ├── bm25.py
-│   ├── hybrid_search.py
-│   └── reranker.py
-│
-├── generation/
-│   ├── __init__.py
-│   ├── classifier.py
-│   ├── llm.py
-│   └── prompts.py
+├── cleaning_pipeline/
 │
 ├── evaluation/
+│
+├── generation/
+│
+├── retrieval/
+│
+├── scripts/
 │   ├── __init__.py
-│   ├── retrieval.py
-│   ├── classification.py
-│   ├── ragas.py
-│   └── ablation.py
+│   ├── check_missing_models.py
+│   ├── find_missing_corpus_docs.py
+│   ├── ingest_weaviate.py
+│   ├── run_chunking.py
+│   └── validate_corpus.py
 │
-├── app/
-│   ├── __init__.py
-│   └── streamlit_app.py
-│
-├── tests/
-│   ├── test_cleaning.py
-│   ├── test_chunking.py
-│   ├── test_retrieval.py
-│   └── test_generation.py
-│
-└── scripts/
-    ├── run_cleaning.py
-    ├── run_chunking.py
-    ├── ingest_weaviate.py
-    └── run_evaluation.py
+├── .gitignore
+├── .python-version
+├── main.py
+├── pyproject.toml
+├── uv.lock
+└── README.md
 ```
-
-### Directory Responsibilities
-
-#### `cleaning_pipeline/`
-
-Contains the existing data extraction and cleaning pipeline.
-
-Responsibilities:
-
--   Extract smartphone-related reviews
--   Clean review text
--   Remove duplicates and unwanted content
--   Normalize review-specific microtext
--   Prepare the cleaned corpus for chunking
-
-#### `chunking/`
-
-Converts cleaned reviews into retrieval-ready passages and attaches
-metadata.
-
-#### `retrieval/`
-
-Contains:
-
--   Embedding generation
--   Weaviate connection
--   BM25 retrieval
--   Dense retrieval
--   Hybrid retrieval
--   Reciprocal Rank Fusion
--   Cross-encoder re-ranking
--   Metadata filtering
-
-#### `generation/`
-
-Contains:
-
--   Subjectivity classification
--   Polarity/sentiment classification
--   LLM integration
--   Prompt templates
--   Grounding and citation logic
-
-#### `evaluation/`
-
-Contains evaluation code for:
-
--   Retrieval metrics
--   Classification metrics
--   RAGAS evaluation
--   Ablation experiments
-
-#### `app/`
-
-Contains the Streamlit application used for the project demonstration.
-
-The UI is intended to provide:
-
--   Query input
--   Product/aspect filters
--   Retrieved review snippets
--   Rating and source information
--   Sentiment distribution
--   Generated summary
--   Query latency
-
-#### `tests/`
-
-Contains unit and integration tests for project components.
-
-#### `scripts/`
-
-Contains executable entry points for running major pipeline stages.
 
 ------------------------------------------------------------------------
 
-## Environment and Dependency Management
+# Environment Setup
 
-The project uses **uv** for Python environment and dependency
-management.
+This repository already contains:
 
-The virtual environment is local to each developer and is **not
-committed to Git**.
+-   `pyproject.toml` --- project dependencies/configuration
+-   `uv.lock` --- locked dependency versions
+-   `.python-version` --- project Python version
 
-### Create the environment
+## If you have cloned the repository
 
-``` bash
-uv venv
-```
+**Do not run `uv init`.**
 
-### Activate the environment
+The project is already initialized.
 
-macOS / Linux:
-
-``` bash
-source .venv/bin/activate
-```
-
-Windows:
-
-``` bash
-.venv\Scripts\activate
-```
-
-### Install dependencies
+From the repository root, simply run:
 
 ``` bash
 uv sync
 ```
 
-Dependencies are defined in `pyproject.toml`, while `uv.lock` records
-locked versions for reproducible team environments.
+This creates/updates the project's `.venv` and installs the dependencies
+defined by `pyproject.toml` and `uv.lock`.
+
+After that, use `uv run` to execute project commands.
+
+For example:
+
+``` bash
+uv run python -m scripts.run_chunking --help
+```
+
+You do not need to manually activate the virtual environment.
+
+### Typical workflow
+
+``` bash
+git clone <repository-url>
+cd ai6127-rag-opinion-mining
+
+uv sync
+
+uv run python -m scripts.run_chunking --help
+```
+
+If the environment is already set up, **just use `uv run ...`**. There
+is no need to initialize the project again.
 
 ------------------------------------------------------------------------
 
-## Environment Variables
+# Knowledge Base / Chunking
 
-Create a local `.env` file based on `.env.example`.
+The Knowledge Base stage converts cleaned smartphone reviews into
+retrieval-ready chunks with metadata.
+
+The main files are:
+
+``` text
+chunking/
+├── chunk.py
+└── metadata.py
+```
+
+and:
+
+``` text
+scripts/
+├── run_chunking.py
+├── validate_corpus.py
+├── check_missing_models.py
+└── find_missing_corpus_docs.py
+```
+
+------------------------------------------------------------------------
+
+## `chunking/chunk.py`
+
+Contains the core review-to-chunk logic.
+
+### Reviews ≤150 words
+
+A short review remains one chunk:
+
+``` text
+1 review → 1 chunk
+```
+
+The complete review is retained.
+
+### Reviews \>150 words
+
+Long reviews are split at sentence boundaries.
+
+The target is approximately:
+
+``` text
+100–150 words per chunk
+```
+
+with:
+
+``` text
+one-sentence overlap
+```
 
 Example:
 
 ``` text
-WEAVIATE_URL=
-WEAVIATE_API_KEY=
+Chunk 0:
+S1 S2 S3 S4
 
-# Add only if required by the selected models/APIs
-OPENAI_API_KEY=
-HF_TOKEN=
+Chunk 1:
+S4 S5 S6 S7
+
+Chunk 2:
+S7 S8 S9
 ```
 
-Do not commit `.env` or API keys to the repository.
+The overlap helps preserve context across chunk boundaries.
 
-------------------------------------------------------------------------
+### Sentence-boundary behavior
 
-## Running the Pipeline
+The implementation prioritizes complete sentence boundaries instead of
+cutting sentences in the middle.
 
-The exact commands may evolve as implementation progresses.
+Therefore, a very long individual sentence can produce a chunk above 150
+words.
 
-### Cleaning
+This is intentional and should be treated as a documented property of
+the chunking strategy.
 
-``` bash
-python cleaning_pipeline/01_extract_phones.py
-python cleaning_pipeline/02_clean.py
-```
+### Title handling
 
-### Chunking
+For a normal review, the title is placed before the text in the first
+chunk.
 
-``` bash
-python chunking/chunk.py
-```
-
-### Ingest into Weaviate
-
-``` bash
-python scripts/ingest_weaviate.py
-```
-
-### Retrieval
-
-``` bash
-python retrieval/hybrid_search.py
-```
-
-### Run the Streamlit application
-
-``` bash
-streamlit run app/streamlit_app.py
-```
-
-------------------------------------------------------------------------
-
-## Evaluation
-
-### Retrieval Metrics
-
-The retrieval pipeline will be evaluated using:
-
--   Precision@K
--   Recall@K
--   MRR
--   NDCG
-
-### Classification Metrics
-
-The subjectivity and polarity classifiers will be evaluated using:
-
--   Precision
--   Recall
--   F1
-
-### RAG Evaluation
-
-RAG-specific evaluation will include:
-
--   Faithfulness
--   Answer relevance
--   Context precision/relevance
-
-### System Evaluation
-
-Additional measurements include:
-
--   End-to-end query latency
--   Reviews processed per second
--   Indexing cost
--   Scalability
-
-------------------------------------------------------------------------
-
-## Planned Experiments
-
-### Retrieval Ablation
+For a multi-chunk review:
 
 ``` text
-BM25
-   vs
-Dense Retrieval
-   vs
-BM25 + Dense Retrieval (RRF)
-   vs
-BM25 + Dense + Cross-Encoder Re-ranking
+Title → first chunk only
 ```
 
-### Aspect-Aware Retrieval
+### Title-only reviews
 
-Compare retrieval with and without aspect/product metadata filtering.
+Some source records have a useful review title but an empty body.
 
-### Query Expansion
-
-Evaluate query rewriting or expansion for short and ambiguous queries.
-
-### Generation and RAG Ablation
-
-Evaluate the contribution of:
-
--   Re-ranking
--   Query rewriting
--   Faithfulness checking
--   Aspect-level sentiment vs whole-review sentiment
-
-------------------------------------------------------------------------
-
-## Technology Stack
-
-  Component              Technology
-  ---------------------- -------------------------------------
-  Language               Python
-  Environment            uv
-  Data Processing        Pandas, Hugging Face Datasets
-  Web/Data Extraction    Trafilatura
-  Chunking               LangChain Text Splitter
-  Sparse Retrieval       BM25
-  Embeddings             Sentence-Transformers
-  Vector Database        Weaviate
-  Re-ranking             Sentence-Transformers Cross-Encoder
-  Classification         Hugging Face Transformers
-  Generation             Ollama / Hosted API
-  UI                     Streamlit
-  Retrieval Evaluation   ir_measures
-  RAG Evaluation         RAGAS
-  Testing                Pytest
-
-------------------------------------------------------------------------
-
-## Data Storage Policy
-
-Large datasets and generated vector data are intentionally excluded from
-Git.
+These are retained as a one-chunk review:
 
 ``` text
-GitHub Repository
-│
-├── Source code
-├── Configuration
-├── Tests
-└── Documentation
-
-External Storage
-│
-├── Large cleaned dataset
-├── Chunked data
-├── Embeddings
-└── Weaviate vector collection
+empty body + useful title
+        ↓
+title becomes chunk text
 ```
 
-Do not commit:
-
--   Large datasets
--   Embedding files
--   Vector indexes
--   Model weights
--   `.env` files
--   API keys
--   Local virtual environments
+This prevents useful source information from being lost.
 
 ------------------------------------------------------------------------
 
-## Project Status
+# `chunking/metadata.py`
 
-### Completed
+Generates the metadata attached to every chunk.
 
--   [x] Initial repository setup
--   [x] Initial review cleaning pipeline
+The chunk schema is:
 
-### In Progress
+``` text
+chunk_id
+doc_id
+chunk_index
+text
+chunk_word_count
+brand
+model
+rating
+timestamp
+verified
+helpful_votes
+is_renewed
+aspect_tags
+mentions_other_model
+source_url
+```
 
--   [ ] Finalize cleaned corpus
--   [ ] Implement chunking pipeline
--   [ ] Define Weaviate schema
--   [ ] Implement Weaviate ingestion
--   [ ] Implement embedding pipeline
--   [ ] Implement BM25 retrieval
--   [ ] Implement dense retrieval
--   [ ] Implement hybrid retrieval
--   [ ] Implement cross-encoder re-ranking
--   [ ] Implement subjectivity classification
--   [ ] Implement polarity classification
--   [ ] Implement LLM generation
--   [ ] Build Streamlit application
--   [ ] Run retrieval and classification evaluation
--   [ ] Run RAGAS evaluation
--   [ ] Run ablation studies
+### Important fields
+
+  Field                    Purpose
+  ------------------------ ------------------------------------------------
+  `chunk_id`               Unique ID for the retrieval chunk
+  `doc_id`                 ID of the original review/document
+  `chunk_index`            Position of the chunk within its parent review
+  `text`                   Actual retrieval text
+  `chunk_word_count`       Word count of the chunk
+  `brand`                  Smartphone brand
+  `model`                  Smartphone model when reliably known
+  `rating`                 Original 1--5 star review rating
+  `timestamp`              Review date
+  `verified`               Verified-purchase indicator
+  `helpful_votes`          Helpful-vote count
+  `is_renewed`             Whether the product is renewed/refurbished
+  `aspect_tags`            Detected project aspects
+  `mentions_other_model`   Whether another phone model is detected
+  `source_url`             Source URL
+
+Supported aspects:
+
+``` text
+camera
+battery
+display
+performance
+service
+carrier
+```
+
+A chunk can have multiple aspects:
+
+``` json
+"aspect_tags": ["camera", "battery"]
+```
 
 ------------------------------------------------------------------------
 
-## Team Responsibilities
+# `chunk_id` and `doc_id`
 
-The project is divided into three main areas:
+These two fields are important for downstream retrieval.
 
-### Knowledge Base
+Example:
 
--   Data collection
--   Data cleaning
--   Chunking
--   Metadata tagging
+``` text
+doc_id = ce07282e5976
+
+chunk_id = ce07282e5976_0
+chunk_id = ce07282e5976_1
+chunk_id = ce07282e5976_2
+```
+
+`doc_id` identifies the original review.
+
+`chunk_id` identifies the individual retrieval chunk.
+
+This allows Group B to retrieve chunks independently while still being
+able to group evidence from the same parent review.
+
+------------------------------------------------------------------------
+
+# `scripts/run_chunking.py`
+
+This is the main entry point for generating the corpus.
+
+Input:
+
+``` text
+../clean_reviews.jsonl
+```
+
+Output:
+
+``` text
+../corpus.jsonl
+../corpus_statistics.json
+```
+
+## Full run
+
+From the repository root:
+
+``` bash
+uv run python -m scripts.run_chunking \
+  --input ../clean_reviews.jsonl \
+  --output ../corpus.jsonl \
+  --stats ../corpus_statistics.json
+```
+
+## Small test run
+
+Before processing the full dataset, a smaller test can be run:
+
+``` bash
+uv run python -m scripts.run_chunking \
+  --input ../clean_reviews.jsonl \
+  --output ../corpus_test.jsonl \
+  --stats ../corpus_statistics_test.json \
+  --max-records 1000
+```
+
+This is useful for checking code changes before regenerating the full
+corpus.
+
+------------------------------------------------------------------------
+
+# `scripts/validate_corpus.py`
+
+Validates the generated `corpus.jsonl`.
+
+It checks:
+
+-   JSONL validity
+-   Required fields
+-   Unique chunk IDs
+-   Chunk indexes
+-   Word counts
+-   Empty chunks
+-   Ratings
+-   Boolean fields
+-   Aspect tags
+-   Source URLs
+-   Duplicate text
 -   Corpus statistics
--   Held-out evaluation set preparation
 
-### Retrieval
-
--   BM25 retrieval
--   Dense retrieval
--   Weaviate integration
--   Hybrid fusion
--   Cross-encoder re-ranking
--   Streamlit retrieval interface
--   Retrieval evaluation
-
-### Generation & Evaluation
-
--   Subjectivity classification
--   Polarity classification
--   LLM generation
--   Grounding/citation
--   Manual annotation
--   Classification evaluation
--   RAGAS evaluation
--   Ablation studies
-
-All team members contribute to the final report, slides, and project
-presentation.
+The final corpus passed the structural validation.
 
 ------------------------------------------------------------------------
 
-## Academic Project
+# `scripts/check_missing_models.py`
 
-**Course:** AI6127\
-**Project:** RAG-Based Aspect-Level Opinion Mining for Smartphone
-Reviews\
-**Institution:** Nanyang Technological University (NTU)
+Checks whether missing model values are already present in the source
+dataset.
+
+The pipeline does not invent model information when the source data does
+not provide a reliable mapping.
+
+Missing model values are therefore preserved.
+
+------------------------------------------------------------------------
+
+# `scripts/find_missing_corpus_docs.py`
+
+Checks source-to-corpus completeness.
+
+It verifies that every source review is represented in the generated
+corpus.
+
+After title-only review handling was implemented:
+
+``` text
+Source reviews:       395,038
+Corpus documents:     395,038
+Missing documents:    0
+```
+
+------------------------------------------------------------------------
+
+# Final Corpus
+
+The finalized Knowledge Base contains:
+
+  Metric                           Value
+  ------------------------- ------------
+  Documents                      395,038
+  Chunks                         459,418
+  Words                       22,754,056
+  Unique word types              103,954
+  Average chunks/document         \~1.16
+
+The main artifact is:
+
+``` text
+corpus.jsonl
+```
+
+Supporting statistics:
+
+``` text
+corpus_statistics.json
+```
+
+------------------------------------------------------------------------
+
+# JSONL Format
+
+`corpus.jsonl` uses JSON Lines.
+
+**One line = one retrieval chunk.**
+
+Example:
+
+``` json
+{
+  "chunk_id": "ce07282e5976_0",
+  "doc_id": "ce07282e5976",
+  "chunk_index": 0,
+  "text": "Excellent phone. The camera quality is very good...",
+  "chunk_word_count": 42,
+  "brand": "Samsung",
+  "model": "Galaxy S10",
+  "rating": 5,
+  "timestamp": "2019-01-01",
+  "verified": true,
+  "helpful_votes": 12,
+  "is_renewed": false,
+  "aspect_tags": ["camera"],
+  "mentions_other_model": false,
+  "source_url": "..."
+}
+```
+
+The downstream embedding pipeline should primarily embed:
+
+``` text
+text
+```
+
+while keeping the remaining metadata attached to the indexed chunk.
+
+------------------------------------------------------------------------
+
+# Retrieval Architecture
+
+The finalized corpus is independent of the retrieval backend.
+
+A possible downstream architecture is:
+
+``` text
+                 User Query
+                     |
+          +----------+----------+
+          |                     |
+          v                     v
+     Dense Search           BM25 Search
+          |                     |
+          +----------+----------+
+                     |
+                     v
+              Candidate Pool
+                     |
+                     v
+              Hybrid Ranking
+                     |
+                     v
+                 Reranker
+                     |
+                     v
+              Top-k Evidence
+                     |
+                     v
+          Aspect-Level Analysis
+                     |
+                     v
+              LLM Generation
+```
+
+The retrieval team is responsible for selecting:
+
+-   Embedding model
+-   Vector/index backend
+-   BM25 implementation
+-   Hybrid retrieval strategy
+-   Reranking approach
+
+------------------------------------------------------------------------
+
+# Why Dense + BM25?
+
+Smartphone reviews contain many exact terms:
+
+``` text
+iPhone 15
+Galaxy S10
+5G
+OLED
+USB-C
+Snapdragon
+```
+
+BM25/lexical retrieval is useful for exact product and technical terms.
+
+Dense retrieval is useful for semantic matches.
+
+For example:
+
+``` text
+Query:
+"How long does the phone last on a charge?"
+
+Review:
+"The battery easily gets me through the entire day."
+```
+
+The wording differs, but the meaning is related.
+
+A hybrid approach can combine both signals.
+
+------------------------------------------------------------------------
+
+# Aspect-Level Opinion Mining
+
+The system is designed to retrieve opinions about specific aspects.
+
+Example:
+
+``` text
+Query:
+"How is the camera on the Galaxy S10?"
+```
+
+The target information is:
+
+``` text
+Product → Galaxy S10
+Aspect  → camera
+Opinion → positive / negative / mixed
+Evidence → supporting review snippets
+```
+
+The `aspect_tags` metadata can be used as an additional
+retrieval/filtering signal.
+
+------------------------------------------------------------------------
+
+# Important: Rating Is Not Aspect Sentiment
+
+The review rating represents the overall review.
+
+It should not automatically be treated as the sentiment of every aspect.
+
+Example:
+
+``` text
+Rating: 5
+
+"The camera is excellent, but the battery is terrible."
+```
+
+This means:
+
+``` text
+Overall → positive
+Camera  → positive
+Battery → negative
+```
+
+Aspect-level sentiment should therefore be inferred from the review
+text.
+
+------------------------------------------------------------------------
+
+# Weaviate Status
+
+We originally created:
+
+``` text
+scripts/ingest_weaviate.py
+```
+
+for Weaviate ingestion.
+
+A small import test worked, but the available Weaviate setup had an
+object limit that was insufficient for the full corpus.
+
+The project therefore **does not use Weaviate in the final
+architecture**.
+
+The corpus is now distributed through the shared Google Drive.
+
+The final flow is:
+
+``` text
+Google Drive
+     |
+     v
+corpus.jsonl
+     |
+     v
+Group B
+     |
+     +--> Embeddings
+     +--> BM25
+     +--> Vector/index backend
+     |
+     v
+Retrieval
+```
+
+The Knowledge Base does not depend on a particular vector database.
+
+------------------------------------------------------------------------
+
+# Data Handoff
+
+Recommended shared folder:
+
+``` text
+AI6127 RAG Opinion Mining/
+└── Knowledge Base/
+    ├── corpus.jsonl
+    ├── corpus_statistics.json
+    ├── README_PROJECT_STRUCTURE.md
+    └── README_GROUP_B_KNOWLEDGE_TRANSFER.md
+```
+
+`corpus.jsonl` is the primary handoff file.
+
+`corpus_statistics.json` contains supporting statistics.
+
+The two README files document the implementation and the handoff.
+
+------------------------------------------------------------------------
+
+# Validation Summary
+
+The finalized corpus was validated with:
+
+``` text
+Documents:                 395,038
+Chunks:                    459,418
+Unique chunk IDs:          459,418
+Duplicate chunk IDs:       0
+Malformed JSON lines:      0
+Word-count mismatches:     0
+Empty chunks:              0
+Missing required fields:   0
+Invalid ratings:           0
+Invalid boolean fields:    0
+```
+
+Expected warnings include:
+
+-   Chunks below 100 words because short reviews remain intact.
+-   Chunks above 150 words when a very long sentence cannot be split
+    without breaking sentence boundaries.
+-   Repeated text caused by legitimate overlap or repeated review
+    content.
+
+------------------------------------------------------------------------
+
+# Project Status
+
+## Knowledge Base / Chunking
+
+-   [x] Smartphone review filtering
+-   [x] Review cleaning
+-   [x] Duplicate handling
+-   [x] Brand/model metadata
+-   [x] Sentence-aware chunking
+-   [x] One-sentence overlap
+-   [x] Title preservation
+-   [x] Title-only review handling
+-   [x] Aspect tagging
+-   [x] Chunk metadata
+-   [x] Corpus generation
+-   [x] Corpus validation
+-   [x] Source-to-corpus completeness verification
+-   [x] Model metadata preservation verification
+-   [x] Corpus statistics
+-   [x] Weaviate removed from final architecture
+-   [x] Google Drive handoff
+
+## Retrieval / Generation
+
+-   [ ] Embedding pipeline
+-   [ ] Vector/index backend
+-   [ ] BM25 retrieval
+-   [ ] Hybrid retrieval
+-   [ ] Reranking
+-   [ ] Aspect-level opinion classification
+-   [ ] Final RAG generation
+-   [ ] End-to-end evaluation
+
+------------------------------------------------------------------------
+
+# Quick Commands
+
+## Install/sync the existing project
+
+**Do not run `uv init`.**
+
+The repository is already initialized.
+
+``` bash
+uv sync
+```
+
+## Run the chunking pipeline
+
+``` bash
+uv run python -m scripts.run_chunking \
+  --input ../clean_reviews.jsonl \
+  --output ../corpus.jsonl \
+  --stats ../corpus_statistics.json
+```
+
+## Run a 1,000-review test
+
+``` bash
+uv run python -m scripts.run_chunking \
+  --input ../clean_reviews.jsonl \
+  --output ../corpus_test.jsonl \
+  --stats ../corpus_statistics_test.json \
+  --max-records 1000
+```
+
+## Validate the corpus
+
+``` bash
+uv run python scripts/validate_corpus.py \
+  --input ../corpus.jsonl
+```
+
+------------------------------------------------------------------------
+
+# Responsibility Boundary
+
+``` text
+SUBGROUP A
+    |
+    +-- Cleaning
+    +-- Chunking
+    +-- Metadata
+    +-- Validation
+    |
+    v
+corpus.jsonl
+    |
+    | HANDOFF
+    v
+GROUP B
+    |
+    +-- Embeddings
+    +-- Vector / lexical indexing
+    +-- BM25
+    +-- Hybrid retrieval
+    +-- Reranking
+    |
+    v
+Aspect-Level Opinion Analysis
+    |
+    v
+Generation
+```
+
+The core handoff principle is:
+
+> **Subgroup A produces validated, sentence-aware, metadata-rich
+> retrieval chunks. Group B turns those chunks into the retrieval system
+> and downstream RAG pipeline.**
