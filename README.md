@@ -487,6 +487,14 @@ text
 ```
 
 while keeping the remaining metadata attached to the indexed chunk.
+------------------------------------------------------------------------
+## Dataset Access
+
+The finalized chunked dataset is also available on Kaggle:
+
+**[AI6127 RAG Opinion Mining — Chunked Dataset](https://www.kaggle.com/datasets/jaysabnis/ai6127-rag-opinion-mining-chunked-dataset)**
+
+The Kaggle dataset contains the generated chunked review data and can be used as an alternative to the Google Drive handoff.
 
 ------------------------------------------------------------------------
 
