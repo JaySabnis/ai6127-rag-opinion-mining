@@ -1,2 +1,11 @@
 __pycache__/
 *.pyc
+.env
+
+# Downloaded retrieval corpus
+/data/corpus.jsonl
+/data/corpus_statistics.json
+
+# Local Python environment and generated reranker runs
+/.venv/
+/results/reranking/

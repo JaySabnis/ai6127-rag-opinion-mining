@@ -498,6 +498,21 @@ The Kaggle dataset contains the generated chunked review data and can be used as
 
 ------------------------------------------------------------------------
 
+# Query Rewrite, Reranker and UI
+
+DeepSeek rewrites queries and extracts products/aspects; MiniLM ranks existing
+candidates with product context and aspect bonuses. Streamlit displays the results.
+Set `DEEPSEEK_API_KEY` in `.env`, then run:
+
+```powershell
+uv sync
+uv run streamlit run app/streamlit_app.py
+```
+
+The UI currently uses six sample chunks or uploaded candidates, without full-corpus
+retrieval or answer generation. See [retrieval/README.md](retrieval/README.md) for
+interfaces and [app/README.md](app/README.md) for UI details.
+
 # Retrieval Architecture
 
 The finalized corpus is independent of the retrieval backend.
@@ -745,7 +760,7 @@ Expected warnings include:
 -   [ ] Vector/index backend
 -   [ ] BM25 retrieval
 -   [ ] Hybrid retrieval
--   [ ] Reranking
+-   [x] Cross-encoder reranking module and standalone CLI (full pipeline integration pending)
 -   [ ] Aspect-level opinion classification
 -   [ ] Final RAG generation
 -   [ ] End-to-end evaluation
