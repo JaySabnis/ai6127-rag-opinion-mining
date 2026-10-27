@@ -521,11 +521,9 @@ products and aspect labels. MiniLM scores each candidate with its brand/model
 context, then adds a bonus for each matched aspect. A sigmoid gate reduces this
 bonus when MiniLM relevance is low; the final score determines the ranking.
 
-The dark Streamlit UI separates conversation on the left from evidence on the
+The Streamlit UI separates conversation on the left from evidence on the
 right. Evidence appears after a successful query, and saved results can be
-selected by question without rerunning the models. Review ratings use stars,
-aspects use rounded tags, and scores show the final score and aspect bonus.
-
+selected by question without rerunning the models.
 Set `DEEPSEEK_API_KEY` in `.env`, then run:
 
 ```powershell
