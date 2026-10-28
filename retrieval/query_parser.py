@@ -35,6 +35,23 @@ def model_tokens(text: str) -> tuple[str, ...]:
     return tuple(t.split())
 
 
+def variant_key(model: str, brand: str | None) -> tuple:
+    """Key shared by spellings of the same phone within one brand.
+
+    Ignores case, spacing and punctuation ("Galaxy Note9" = "Galaxy Note 9",
+    "G8X Thinq™" = "G8X Thinq"), a leading brand name ("Motorola Razr" = "Razr")
+    and Samsung's leading "Galaxy" ("Galaxy S20 FE" = "S20 FE"). Checked by hand
+    on all 85 groups this forms in the corpus catalogue.
+    """
+    btoks = model_tokens(brand) if brand else ()
+    toks = model_tokens(model)
+    if btoks and toks[: len(btoks)] == btoks and len(toks) > len(btoks):
+        toks = toks[len(btoks):]
+    if toks and toks[0] == "galaxy" and len(toks) > 1:
+        toks = toks[1:]
+    return (btoks, toks)
+
+
 @dataclass
 class ParsedQuery:
     text: str
@@ -104,6 +121,21 @@ class QueryParser:
         self.model_brand: dict[str, str | None] = (
             models.groupby("model")["brand"].agg(lambda s: s.mode().iat[0] if not s.mode().empty else None).to_dict()
         )
+        # The corpus spells some phones several ways ("Galaxy Note 9" / "Galaxy Note9",
+        # "Motorola Razr" / "Razr", "Galaxy S20 FE" / "S20 FE"). Group them so a
+        # filter covers all of a phone's reviews; the most frequent spelling is
+        # the canonical name returned by detect_model() / resolve_model().
+        groups: dict[tuple, list[str]] = {}
+        for model, brand in self.model_brand.items():
+            groups.setdefault(variant_key(model, brand), []).append(model)
+        self.canonical: dict[str, str] = {}
+        self._variants: dict[str, list[str]] = {}
+        for names in groups.values():
+            names.sort(key=lambda m: (-counts.get(m, 0), m))
+            self._variants[names[0]] = names
+            for m in names:
+                self.canonical[m] = names[0]
+
         best: dict[tuple[str, ...], tuple[tuple[int, int], str]] = {}
 
         def add(toks: tuple[str, ...], model: str, is_full: bool) -> None:
@@ -129,8 +161,9 @@ class QueryParser:
         self._by_first: dict[str, list[tuple[tuple[str, ...], str]]] = {}
         self._patterns_of: dict[str, list[tuple[str, ...]]] = {}
         for toks, (_, model) in best.items():
-            self._by_first.setdefault(toks[0], []).append((toks, model))
-            self._patterns_of.setdefault(model, []).append(toks)
+            canon = self.canonical[model]
+            self._by_first.setdefault(toks[0], []).append((toks, canon))
+            self._patterns_of.setdefault(canon, []).append(toks)
         for pats in self._by_first.values():
             pats.sort(key=lambda p: len(p[0]), reverse=True)
         for pats in self._patterns_of.values():
@@ -140,7 +173,7 @@ class QueryParser:
         # model name, ignoring case, spacing and punctuation.
         self._exact: dict[tuple[str, ...], str] = {}
         for model in sorted(self.model_brand, key=lambda m: -counts.get(m, 0)):
-            self._exact.setdefault(model_tokens(model), model)
+            self._exact.setdefault(model_tokens(model), self.canonical[model])
         brands = meta.loc[meta["brand"].notna(), "brand"].value_counts()
         self._brands: dict[tuple[str, ...], str] = {}
         for brand in brands.index:  # most frequent spelling first
@@ -166,10 +199,18 @@ class QueryParser:
         """Map a brand named elsewhere to the corpus spelling ("samsung" -> "Samsung"), else None."""
         return self._brands.get(model_tokens(brand)) if brand else None
 
+    def canonical_of(self, model: str) -> str:
+        """Canonical spelling of a corpus model ("Razr" -> "Motorola Razr"); unknown names unchanged."""
+        return self.canonical.get(model, model)
+
+    def variants_of(self, model: str) -> list[str]:
+        """All corpus spellings of the same phone, canonical first ("Razr" -> ["Motorola Razr", "Razr"])."""
+        return list(self._variants.get(self.canonical_of(model), [model]))
+
     def remove_model(self, query: str, model: str) -> str:
-        """Remove every mention of ``model`` (full name, brand + name, short alias)."""
+        """Remove every mention of ``model`` (any spelling: full name, brand + name, short alias)."""
         out = query
-        for toks in self._patterns_of.get(model, ()):
+        for toks in self._patterns_of.get(self.canonical_of(model), ()):
             out = self.remove_mention(out, toks)
         return out
 

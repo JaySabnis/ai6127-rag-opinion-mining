@@ -71,23 +71,42 @@ ai6127-rag-opinion-mining/
 │
 ├── retrieval/
 │   ├── __init__.py
-│   ├── query_rewrite.py
-│   ├── rerank.py
+│   ├── config.py            index paths and defaults
+│   ├── corpus.py            row-aligned metadata + filters
+│   ├── text.py              tokenizer
+│   ├── bm25.py              BM25 index
+│   ├── dense.py             BGE encoder + FAISS index
+│   ├── query_parser.py      model / aspect detection, LLM name resolution
+│   ├── hybrid.py            RRF fusion + aspect boost
+│   ├── retriever.py         Retriever.retrieve()
+│   ├── query_rewrite.py     DeepSeek query rewrite
+│   ├── rerank.py            MiniLM reranker
 │   └── README.md
 │
 ├── scripts/
 │   ├── __init__.py
+│   ├── build_retrieval_indexes.py
 │   ├── check_missing_models.py
+│   ├── eval_model_resolution.py
 │   ├── find_missing_corpus_docs.py
 │   ├── ingest_weaviate.py
 │   ├── run_chunking.py
 │   ├── run_reranking.py
+│   ├── search_cli.py
+│   ├── smoke_test_retrieval.py
+│   ├── test_pipeline.py
 │   └── validate_corpus.py
 │
 ├── tests/
 │   ├── fixtures/
+│   │   ├── make_fixture.py
+│   │   ├── mini_corpus.jsonl
 │   │   └── rerank_candidates.json
+│   ├── test_rerank_and_ui.py
 │   └── test_retrieval.py
+│
+├── data/                    corpus.jsonl (git-ignored)
+├── indexes/                 built retrieval indexes (git-ignored)
 │
 ├── .streamlit/
 │   └── config.toml
@@ -514,6 +533,26 @@ The Kaggle dataset contains the generated chunked review data and can be used as
 
 ------------------------------------------------------------------------
 
+# Hybrid Retrieval
+
+BM25 (implemented on a sparse weight matrix) and dense retrieval
+(`BAAI/bge-small-en-v1.5` + exact FAISS search) are fused with Reciprocal Rank
+Fusion. Model filters are applied inside both rankers and cover every corpus
+spelling of a phone; the DeepSeek rewrite's product names are checked against
+the corpus catalogue (`resolve_model()`), with the rule-based parser as the
+fallback. Put the corpus at `data/corpus.jsonl`, then:
+
+```bash
+uv sync
+uv run python -m scripts.build_retrieval_indexes --stage all
+uv run python -m scripts.search_cli "How is the camera on the Galaxy S10?" --mode all
+uv run python -m scripts.test_pipeline        # rewrite -> retrieve -> rerank on the real indexes
+```
+
+On the real index a hybrid query takes ~30–70 ms, reranking 50 candidates
+~100 ms (MPS) and the DeepSeek rewrite ~1.4 s. See
+[retrieval/README.md](retrieval/README.md) for the interface, design and measurements.
+
 # Query Rewrite, Reranker and UI
 
 DeepSeek V4 Pro rewrites questions into English retrieval queries and extracts
@@ -778,12 +817,15 @@ Expected warnings include:
 
 ## Retrieval / Generation
 
--   [ ] Embedding pipeline
--   [ ] Vector/index backend
--   [ ] BM25 retrieval
--   [ ] Hybrid retrieval
+-   [x] Embedding pipeline (bge-small, resumable sharded encoding)
+-   [x] Vector/index backend (local FAISS, exact inner-product search)
+-   [x] BM25 retrieval
+-   [x] Hybrid retrieval (RRF, model filters, aspect boost)
 -   [x] DeepSeek query rewrite with product/aspect extraction
--   [x] Cross-encoder reranking module and standalone CLI (full pipeline integration pending)
+-   [x] LLM product names checked against the corpus catalogue
+-   [x] Cross-encoder reranking module and standalone CLI
+-   [x] End-to-end check: rewrite -> retrieve -> rerank (`scripts/test_pipeline.py`)
+-   [ ] UI wired to full-corpus retrieval
 -   [x] Streamlit chat UI with separate evidence panel
 -   [ ] Aspect-level opinion classification
 -   [ ] Final RAG generation

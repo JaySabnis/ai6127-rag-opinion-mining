@@ -83,7 +83,7 @@ def load_meta(path: str | Path) -> pd.DataFrame:
 
 def rows_for(
     meta: pd.DataFrame,
-    model: str | None = None,
+    model: str | list[str] | None = None,
     brand: str | None = None,
     min_rating: int | None = None,
     max_rating: int | None = None,
@@ -91,14 +91,16 @@ def rows_for(
 ) -> np.ndarray | None:
     """Return the row ids matching hard metadata filters, or None for 'no filter'.
 
-    Aspect is deliberately NOT a hard filter here: the aspect tags are keyword
-    based and noisy (e.g. "fast delivery" is tagged as performance), so the
-    hybrid stage uses them as a soft boost instead.
+    ``model`` may be a list of spellings of the same phone (see
+    QueryParser.variants_of). Aspect is deliberately NOT a hard filter here:
+    the aspect tags are keyword based and noisy (e.g. "fast delivery" is tagged
+    as performance), so the hybrid stage uses them as a soft boost instead.
     """
     mask = np.ones(len(meta), dtype=bool)
     active = False
     if model is not None:
-        mask &= (meta["model"] == model).to_numpy()
+        names = [model] if isinstance(model, str) else list(model)
+        mask &= meta["model"].isin(names).to_numpy()
         active = True
     if brand is not None:
         mask &= (meta["brand"] == brand).to_numpy()

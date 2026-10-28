@@ -29,11 +29,20 @@ retriever's own parser detects the model from the original question.
 
 ```python
 from retrieval import Retriever
+from retrieval.dense import pick_device
 from retrieval.query_rewrite import rewrite_query
-from retrieval.rerank import CrossEncoderReranker
+from retrieval.rerank import CrossEncoderReranker, RerankerConfig
 
 r = Retriever.load("indexes")            # loads meta + BM25 + FAISS + BGE query encoder
-reranker = CrossEncoderReranker()
+# NOT device="cpu" on macOS: CPU torch next to FAISS segfaulted in testing (see 4.)
+reranker = CrossEncoderReranker(RerankerConfig(device=pick_device()))   # cuda > mps > cpu
+
+def product_filter(p):                   # LLM product -> corpus model, else brand, else none
+    model = r.parser.resolve_model(p["brand"], p["model"])
+    if model:
+        return {"model": model}
+    brand = r.parser.resolve_brand(p["brand"])
+    return {"brand": brand} if brand else None
 
 try:
     rw = rewrite_query(question)         # {query, product: [{brand, model}], aspects}
@@ -41,10 +50,9 @@ except (RuntimeError, ValueError):
     rw = None                            # no key / network / bad JSON -> fallback
 
 if rw:
-    models = [r.parser.resolve_model(p["brand"], p["model"]) for p in rw["product"]] or [None]
-    results = [r.retrieve(rw["query"], k=50, auto_filter=False, aspects=rw["aspects"],
-                          filters={"model": m} if m else None)
-               for m in models]          # one retrieval per product (comparisons)
+    filters = [product_filter(p) for p in rw["product"]] or [None]
+    results = [r.retrieve(rw["query"], k=50, auto_filter=False, aspects=rw["aspects"], filters=f)
+               for f in filters]         # one retrieval per product (comparisons)
 else:
     results = [r.retrieve(question, k=50)]   # parser detects the model itself
 
@@ -60,6 +68,14 @@ Run all tests (retrieval, reranker, UI) with:
 
 ```bash
 uv run python -m unittest discover -s tests -v
+```
+
+Check the whole pipeline on the real indexes, and compare ways of matching
+LLM product names to the corpus (both print latency per stage):
+
+```bash
+uv run python -m scripts.test_pipeline                  # rewrite -> resolve -> retrieve -> rerank, 7 question types
+uv run python -m scripts.eval_model_resolution          # parser vs LLM (+ shortlist / full catalogue), 27 hard cases
 ```
 
 ---
@@ -118,7 +134,8 @@ res = r.retrieve(
     mode="hybrid",          # "bm25" | "dense" | "hybrid"
     k=10,                   # hits returned
     candidate_k=100,        # depth taken from each ranker before fusion
-    filters=None,           # {"model", "brand", "min_rating", "max_rating", "exclude_renewed"}
+    filters=None,           # {"model", "brand", "min_rating", "max_rating", "exclude_renewed"};
+                            # "model" may be any corpus spelling, it covers all spellings of that phone
     auto_filter=True,       # use the model detected in the query as a filter
     aspect_weight=0.5,      # hybrid aspect boost, 0 = off
     max_per_doc=1,          # at most N chunks per original review, None = keep all
@@ -134,7 +151,8 @@ res = r.retrieve(
 | `res.hits` | list of `Hit`, best first |
 | `res.search_text` | text actually sent to BM25 / the encoder (model name removed when filtered) |
 | `res.parsed` | detected `model`, `brand`, `aspects` of the query |
-| `res.filters` | filters actually applied (including auto-detected model) |
+| `res.filters` | filters actually applied (including auto-detected model, canonical spelling) |
+| `res.model_variants` | corpus spellings covered by the model filter, e.g. `["Motorola Razr", "Razr"]` |
 | `res.n_candidates` | rows allowed by the filters (`None` = whole corpus) |
 | `res.timings_ms` | `parse_filter`, `bm25`, `dense_encode`, `dense_search`, `fuse_format`, `total` |
 | `res.to_dict()` | JSON-serialisable version |
@@ -217,6 +235,29 @@ case and spacing ("galaxy s10e" → "Galaxy S10e"), else the same pattern
 matching ("Galaxy S10+" → "Galaxy S10 Plus"), else `None` (do not filter).
 `resolve_brand()` does the same for brand-only questions.
 
+**One phone, several spellings.** The corpus spells some phones in several
+ways ("Galaxy Note 9" / "Galaxy Note9", "Motorola Razr" / "Razr",
+"Galaxy S20 FE" / "S20 FE", "G8X Thinq™" / "G8X Thinq"). Within one brand,
+names that are equal after ignoring case, spacing, punctuation, a leading
+brand name and Samsung's leading "Galaxy" are treated as one phone: 84 groups,
+all checked by hand. The most frequent spelling is the canonical name returned
+by `detect_model()` / `resolve_model()`, and a model filter covers every
+spelling (`res.model_variants`). Effect on the evidence available, e.g.
+Motorola Razr 3,487 → 5,748 chunks, Galaxy Note 8 808 → 1,451. Different
+phones stay apart ("Moto G Power" vs "Moto G Power (2020)"; Samsung's
+"Galaxy Note 10" vs Xiaomi's "Note 10").
+
+**LLM vs rules for product names** (`scripts/eval_model_resolution.py`, 27
+hard questions: Chinese brand names, "Note 10+", "iphone11promax", one-word
+names, comparisons). Parser alone: 20/27 correct. DeepSeek + `resolve_model()`:
+27/27, but only 20/27 of DeepSeek's own model strings were corpus spellings
+("Galaxy Note 10+", "Moto G Power 2020", "Note 8 Pro", ...), so without the
+check 6 real phones would have matched 0 rows. Putting the catalogue in the
+prompt made DeepSeek copy corpus spellings (26/27) but did not change final
+accuracy (27/27), while the full catalogue cost ~38.6k prompt tokens instead
+of ~430 and ~375 ms more per call; a 20-name shortlist cost ~200 tokens.
+Design kept: LLM + `resolve_model()` check, parser as fallback.
+
 **One chunk per review by default.** Overlapping chunks of the same review are
 not independent evidence, so `max_per_doc=1` keeps the best chunk per `doc_id`.
 
@@ -224,24 +265,35 @@ not independent evidence, so `max_per_doc=1` keeps the best chunk per `doc_id`.
 
 ## 4. Measured performance
 
-Measured in the development sandbox on **synthetic data at full corpus size**
-(459,418 docs, ~21M postings; 459,418 × 384 vectors). Re-measure on the real
-corpus for the report.
+**Real index** (459,418 chunks), Apple-silicon MacBook, BGE and reranker on
+MPS, `scripts/test_pipeline.py` (7 questions, pool of 50 per product, top 5):
 
-| step | latency |
+| stage | median | max |
+|---|---|---|
+| load indexes + BGE (once, at start-up) | 5–7 s | |
+| DeepSeek query rewrite | 1,403 ms | 1,770 ms |
+| hybrid retrieval (incl. query encoding) | 28–71 ms | 90 ms |
+| MiniLM rerank, 50 candidates | 100–114 ms | 235 ms |
+| total with rewrite | 1,594 ms | 1,944 ms |
+| total without rewrite | 155 ms | 278 ms |
+
+The LLM call is ~88 % of the latency; retrieval + reranking stay under 0.3 s.
+The first BGE encode after start-up takes ~300 ms (GPU warm-up), so
+`Retriever.load()` does one warm-up encode.
+
+**Platform note (macOS).** Running the reranker on CPU in the same process as
+FAISS crashed with a segmentation fault (exit 139, in torch `layer_norm`);
+with `device="mps"` the same run passed 7/7. Use `pick_device()` for the
+reranker; on a CPU-only machine run `scripts/test_pipeline.py` first.
+
+Micro-benchmarks on synthetic data of the same size (development sandbox):
+
+| step | latency / size |
 |---|---|
-| BM25 query, whole corpus | < 1 ms |
-| BM25 query, 20k-row filtered subset | < 1 ms |
-| Exact dense search, whole corpus (NumPy backend; FAISS is typically faster) | ~43 ms |
-| Exact dense search, 20k-row subset | ~5 ms |
+| BM25 query, whole corpus / 20k-row subset | < 1 ms |
+| exact dense search, whole corpus / 20k-row subset (NumPy; FAISS similar or faster) | ~43 ms / ~5 ms |
 | BM25 index on disk | ~170 MB |
-| Dense vectors | ~350 MB (fp16 shards), ~700 MB in RAM (fp32) |
-
-Query encoding with BGE (one short query) adds a few ms on GPU/MPS and
-~10–30 ms on CPU. On the real index on an Apple-silicon MacBook (MPS), a hybrid
-query took ~13–21 ms end to end. The first encode after start-up takes ~300 ms
-(GPU warm-up); `Retriever.load()` now does one warm-up encode so users don't
-see it.
+| dense vectors | ~350 MB (fp16 shards), ~700 MB in RAM (fp32) |
 
 ---
 
@@ -257,11 +309,15 @@ see it.
   auto-filtering safe, a model is only detected from a query when the matched
   words are distinctive: a word plus a number ("Galaxy S10", "G2"), two words
   ("iPhone SE"), or brand + name ("Nokia 3310", "Palm Pre"). Specs such as
-  "5G", "128GB", "5000mAh" never count as a model. Consequence: one-word
-  names need the brand ("Motorola Razr", not just "Razr"); BM25 still matches
-  the word itself.
-* "Galaxy S10" filters to exactly that model, not the S10e / S10 Plus / S10 Lite
-  family members, which are separate models in the corpus.
+  "5G", "128GB", "5000mAh" never count as a model. Consequence for the rule
+  parser: one-word names need the brand ("Motorola Razr", not just "Razr"),
+  and Chinese brand names are not understood. The LLM rewrite handles these
+  (see section 3); the parser is the fallback when the rewrite fails.
+* "Galaxy S10" filters to that phone (all its spellings), not the S10e /
+  S10 Plus / S10 Lite, which are separate phones in the corpus.
+* For comparison questions each product is retrieved separately, but the
+  searched text still names the other product, which favours reviews that
+  compare the two.
 * Chunks with no `model` (empty in 2,534 chunks) are only reachable without a model filter.
 
 ---
@@ -279,9 +335,11 @@ see it.
 | `retrieval/retriever.py` | `Retriever.retrieve()` |
 | `scripts/build_retrieval_indexes.py` | build all indexes |
 | `scripts/search_cli.py` | query from the terminal, compare modes, JSON output |
-| `scripts/smoke_test_retrieval.py` | end-to-end check with real FAISS + BGE |
+| `scripts/smoke_test_retrieval.py` | quick check with real FAISS + BGE on the test fixture |
+| `scripts/test_pipeline.py` | end-to-end check on the real indexes: rewrite → resolve → retrieve → rerank, latency per stage |
+| `scripts/eval_model_resolution.py` | experiment: parser vs LLM (+ shortlist / full catalogue) for product names |
 | `tests/test_retrieval.py` | unit tests (no model download) |
-| `tests/fixtures/mini_corpus.jsonl` | 18 hand-written synthetic test chunks |
+| `tests/fixtures/make_fixture.py`, `mini_corpus.jsonl` | 19 hand-written synthetic test chunks (incl. one spelling variant) |
 
 ---
 

@@ -22,6 +22,8 @@ REVIEWS = [
     ("s10d", "Samsung", "Galaxy S10", 1, ["It dies before lunch every single day and takes forever to charge."]),
     ("s10e", "Samsung", "Galaxy S10", 3, ["Pictures look washed out in low light compared to my old phone."]),
     ("s10f", "Samsung", "Galaxy S10", 5, ["Fast delivery and the seller was friendly."]),
+    # Same phone, different corpus spelling: must be covered by a "Galaxy S10" filter.
+    ("s10g", "Samsung", "Galaxy S 10", 4, ["Battery easily lasts all day with heavy use."]),
     ("i11a", "Apple", "iPhone 11", 5, ["The camera on this iPhone is incredible, portrait photos look professional."]),
     ("i11b", "Apple", "iPhone 11", 4, ["Battery life easily lasts a full day of heavy use."]),
     ("i11c", "Apple", "iPhone 11", 2, ["The LCD screen resolution is low for the price."]),

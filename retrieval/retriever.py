@@ -83,6 +83,7 @@ class RetrievalResult:
     hits: list[Hit]
     n_candidates: int | None  # rows allowed by the filters (None = whole corpus)
     timings_ms: dict[str, float] = field(default_factory=dict)
+    model_variants: list[str] | None = None  # corpus spellings covered by the model filter
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -91,6 +92,7 @@ class RetrievalResult:
             "search_text": self.search_text,
             "parsed": self.parsed.to_dict(),
             "filters": self.filters,
+            "model_variants": self.model_variants,
             "n_candidates": self.n_candidates,
             "timings_ms": self.timings_ms,
             "hits": [h.to_dict() for h in self.hits],
@@ -119,8 +121,13 @@ class Retriever:
         self.dense = dense
         self.parser = QueryParser(meta)
         self._aspects = meta["aspect_tags"].tolist()
-        # model -> row ids, so the common "model only" filter is a dict lookup.
-        self._model_rows = {m: np.sort(ix) for m, ix in meta.groupby("model").indices.items()}
+        # canonical model -> row ids of ALL its spellings ("Motorola Razr" covers
+        # "Razr" too), so the common "model only" filter is a dict lookup.
+        by_model = meta.groupby("model").indices
+        self._model_rows: dict[str, np.ndarray] = {}
+        for canon in {self.parser.canonical_of(m) for m in by_model}:
+            parts = [by_model[v] for v in self.parser.variants_of(canon) if v in by_model]
+            self._model_rows[canon] = np.sort(np.concatenate(parts))
 
     @classmethod
     def load(
@@ -155,6 +162,8 @@ class Retriever:
             raise ValueError(f"unknown filter keys {unknown}; allowed: {sorted(FILTER_KEYS)}")
         if auto_filter and parsed.model and "model" not in filters and "brand" not in filters:
             filters["model"] = parsed.model
+        if filters.get("model"):
+            filters["model"] = self.parser.canonical_of(filters["model"])  # any spelling -> canonical
         return {k: v for k, v in filters.items() if v is not None and v is not False}
 
     def _make_hit(self, rank: int, row: int, score: float, extra: dict) -> Hit:
@@ -237,10 +246,11 @@ class Retriever:
         if aspects is not None:
             parsed = replace(parsed, aspects=list(dict.fromkeys(aspects)))
         applied = self._resolve_filters(parsed, filters, auto_filter)
+        variants = self.parser.variants_of(applied["model"]) if applied.get("model") else None
         if set(applied) == {"model"}:
             rows = self._model_rows.get(applied["model"], np.empty(0, dtype=np.int64))
         else:
-            rows = rows_for(self.meta, **applied)
+            rows = rows_for(self.meta, **{**applied, **({"model": variants} if variants else {})})
 
         search_text = query
         if strip_model and applied.get("model"):
@@ -313,6 +323,7 @@ class Retriever:
             query=query,
             mode=mode,
             search_text=search_text,
+            model_variants=variants,
             parsed=parsed,
             filters=applied,
             hits=hits,

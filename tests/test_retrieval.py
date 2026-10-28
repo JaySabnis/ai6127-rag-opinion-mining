@@ -180,8 +180,9 @@ def test_retriever_end_to_end():
         r = _build(tmp)
         res = r.retrieve("How is the camera on the Galaxy S10?", mode="hybrid", k=5)
         assert res.filters == {"model": "Galaxy S10"}
-        assert res.n_candidates == 7
-        assert all(h.model == "Galaxy S10" for h in res.hits)
+        assert res.n_candidates == 8  # 7 x "Galaxy S10" + 1 x "Galaxy S 10" (same phone)
+        assert res.model_variants == ["Galaxy S10", "Galaxy S 10"]
+        assert all(h.model in res.model_variants for h in res.hits)
         assert res.hits[0].doc_id in {"s10a", "s10e"}
         assert [h.rank for h in res.hits] == list(range(1, len(res.hits) + 1))
         assert {"parse_filter", "bm25", "dense_encode", "dense_search", "total"} <= set(res.timings_ms)
@@ -221,7 +222,38 @@ def test_model_mention_removed_from_search_text():
         res = r.retrieve("How is the camera on the Samsung Galaxy S10?", k=3,
                          filters={"model": "Galaxy S10"}, auto_filter=False)
         assert res.search_text == "How is the camera on the ?"
-        assert all(h.model == "Galaxy S10" for h in res.hits)
+        assert all(h.model in ("Galaxy S10", "Galaxy S 10") for h in res.hits)
+
+
+def test_spelling_variants_are_one_phone():
+    """Spellings found in the real catalogue are grouped; different phones are not."""
+    import pandas as pd
+
+    rows = [("Motorola Razr", "Motorola", 35), ("Razr", "Motorola", 23), ("Galaxy S20 FE", "Samsung", 32),
+            ("S20 FE", "Samsung", 1), ("Galaxy Note 9", "Samsung", 30), ("Galaxy Note9", "Samsung", 2),
+            ("G8X Thinq™", "LG", 5), ("G8X Thinq", "LG", 4), ("Moto G Power", "Motorola", 3),
+            ("Moto G Power (2020)", "Motorola", 2), ("Galaxy Note 10", "Samsung", 13), ("Note 10", "Xiaomi", 4)]
+    meta = pd.DataFrame([(m, b) for m, b, n in rows for _ in range(n)], columns=["model", "brand"])
+    p = QueryParser(meta)
+    assert p.variants_of("Razr") == ["Motorola Razr", "Razr"]
+    assert p.canonical_of("S20 FE") == "Galaxy S20 FE"
+    assert p.variants_of("Galaxy Note 9") == ["Galaxy Note 9", "Galaxy Note9"]
+    assert p.variants_of("G8X Thinq") == ["G8X Thinq™", "G8X Thinq"]
+    assert p.variants_of("Moto G Power") == ["Moto G Power"]  # the 2020 model is a different phone
+    assert p.variants_of("Note 10") == ["Note 10"]  # Xiaomi, not Samsung's Galaxy Note 10
+    assert p.resolve_model("Motorola", "Razr") == "Motorola Razr"  # canonical spelling
+    assert p.detect_model("galaxy note9 battery") == "Galaxy Note 9"
+    assert p.remove_model("Is the Galaxy Note9 good?", "Galaxy Note 9") == "Is the good?"
+
+
+def test_variant_filter_in_retrieve():
+    with tempfile.TemporaryDirectory() as tmp:
+        r = _build(tmp)
+        # an explicit filter with the rarer spelling covers the whole phone too
+        res = r.retrieve("battery", k=10, auto_filter=False, filters={"model": "Galaxy S 10", "min_rating": 1})
+        assert res.filters["model"] == "Galaxy S10" and res.n_candidates == 8
+        res = r.retrieve("Galaxy S10 battery lasts all day", k=10)
+        assert "s10g_0" in {h.chunk_id for h in res.hits}  # the "Galaxy S 10" review is found
 
 
 def test_aspects_override_from_llm():
