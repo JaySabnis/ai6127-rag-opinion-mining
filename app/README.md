@@ -9,10 +9,38 @@ uv run streamlit run app/streamlit_app.py
 
 Open `http://localhost:8501`. Press `Ctrl+C` to stop the server.
 
-Questions are rewritten into English, then candidates are reranked with MiniLM and aspect bonuses. The UI supports chat history, evidence inspection and an optional reranking switch. Each question is processed independently.
+The UI supports chat history, evidence inspection and an optional reranking switch. Each question is processed independently. Answer generation is not connected yet.
 
-Use the six Galaxy S10 sample chunks or upload JSON/JSONL candidates (up to 1,000 records and 5 MB). See [candidate formats](../retrieval/README.md). Full-corpus retrieval, product filtering and answer generation are not connected yet.
+## Candidate sources (sidebar)
+
+| source | what happens to a question |
+|---|---|
+| **Sample data** (default) | DeepSeek rewrite, then the six Galaxy S10 development chunks are reranked |
+| **Upload candidates** | same, on an uploaded JSON/JSONL pool (up to 1,000 records and 5 MB; see [candidate formats](../retrieval/README.md)) |
+| **Full corpus** | DeepSeek rewrite → product names checked against the corpus → hybrid retrieval over all 459,418 chunks (50 candidates per product) → MiniLM rerank → top K |
+
+**Full corpus** needs the retrieval indexes in `indexes/` (build them with
+`uv run python -m scripts.build_retrieval_indexes --stage all`). They are
+loaded once, on the first question (about 5–7 s). Extra controls and behaviour
+in this mode:
+
+- **Query rewrite (DeepSeek)** switch. Off, or when the call fails, the
+  original question is searched and the retriever's rule-based parser picks
+  the model filter (the evidence panel says so). The same pipeline measured
+  with `scripts/test_pipeline.py` on a MacBook (MPS): ~1.6 s per question
+  with the rewrite, ~0.2 s without.
+- Comparison questions ("S10e or Pixel 3a?") are retrieved and reranked per
+  product, so each product gets its own top K.
+- The evidence panel shows, per product, the filter used (model and all its
+  corpus spellings, or brand), how many reviews were searched, and the text
+  actually searched.
+
+The full-corpus flow lives in `app/pipeline.py` (`search_full_corpus()`), which
+has no Streamlit dependency; `streamlit_app.py` only calls it. The reranker
+device is chosen automatically (CUDA > MPS > CPU): on macOS a CPU reranker in
+the same process as FAISS crashed with a segmentation fault in testing.
 
 ## Integration
 
-In `streamlit_app.py`, update `search()` to retrieve candidates using `rewritten["query"]`. Add generated text as an `answer` field in the returned reply to display it in the conversation.
+Add generated text as an `answer` field in the reply returned by `search()` /
+`search_full_corpus()` to display it in the conversation.

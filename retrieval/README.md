@@ -64,6 +64,9 @@ for res in results:
 `Hit.to_dict()` already contains the fields the reranker reads (`chunk_id`,
 `doc_id`, `text`, `brand`, `model`, `aspect_tags`).
 
+The UI's **Full corpus** mode runs this same flow through
+`app/pipeline.py` (`search_full_corpus()`).
+
 Run all tests (retrieval, reranker, UI) with:
 
 ```bash
@@ -405,10 +408,10 @@ Returned dictionaries preserve existing fields and add aspect_match_count, aspec
 
 Defaults are aspect_weight=0.5, aspect_threshold=-5 and aspect_temperature=1; these have not been tuned. Lower model scores receive smaller rewards. Half the reward is retained at the threshold. Temperature must be positive; smaller values produce a sharper transition. The gate is not a relevance probability.
 
-Omitting query_aspects disables bonuses; aspect_weight=0 also disables them. CLI flags `--aspect-threshold` and `--aspect-temperature` adjust the gate. The UI uses the defaults.
+Omitting query_aspects disables bonuses; aspect_weight=0 also disables them. CLI flags `--aspect-threshold` and `--aspect-temperature` adjust the gate. The UI uses the defaults, except the device, which it picks automatically (CUDA > MPS > CPU).
 `top_k=None` returns all candidates; `top_k=0` returns an empty list. `rerank_with_details()` also returns timings and configuration.
 
-The default model is `cross-encoder/ms-marco-MiniLM-L6-v2`, running on CPU with batch_size=16 and max_length=512. The model is downloaded on first use and cached afterward.
+The default model is `cross-encoder/ms-marco-MiniLM-L6-v2`, running on CPU by default with batch_size=16 and max_length=512 (the UI and `scripts/test_pipeline.py` pick CUDA > MPS > CPU instead; see Part A, section 4, for the macOS CPU crash). The model is downloaded on first use and cached afterward.
 The 512-token limit includes the query, product context, chunk and special tokens. The tokenizer truncates longer input.
 Raw MiniLM scores may be positive or negative; higher is more relevant. Final scores include aspect bonuses. Neither score represents sentiment.
 

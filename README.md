@@ -55,6 +55,7 @@ ai6127-rag-opinion-mining/
 │
 ├── app/
 │   ├── __init__.py
+│   ├── pipeline.py          full-corpus search used by the UI
 │   ├── streamlit_app.py
 │   └── README.md
 │
@@ -570,9 +571,11 @@ uv sync
 uv run streamlit run app/streamlit_app.py
 ```
 
-The UI currently uses six sample chunks or uploaded candidates, without full-corpus
-retrieval or answer generation. See [retrieval/README.md](retrieval/README.md) for
-interfaces and [app/README.md](app/README.md) for UI details.
+In the sidebar, **Full corpus** runs the whole pipeline over all 459,418 chunks
+(rewrite → product check → hybrid retrieval → rerank; indexes must be built
+first); **Sample data** and **Upload candidates** rerank a fixed pool. Answer
+generation is not connected yet. See [retrieval/README.md](retrieval/README.md)
+for interfaces and [app/README.md](app/README.md) for UI details.
 
 # Retrieval Architecture
 
@@ -825,7 +828,7 @@ Expected warnings include:
 -   [x] LLM product names checked against the corpus catalogue
 -   [x] Cross-encoder reranking module and standalone CLI
 -   [x] End-to-end check: rewrite -> retrieve -> rerank (`scripts/test_pipeline.py`)
--   [ ] UI wired to full-corpus retrieval
+-   [x] UI wired to full-corpus retrieval (`Full corpus` source)
 -   [x] Streamlit chat UI with separate evidence panel
 -   [ ] Aspect-level opinion classification
 -   [ ] Final RAG generation

@@ -21,8 +21,12 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from retrieval.rerank import CrossEncoderReranker
+from retrieval.rerank import CrossEncoderReranker, RerankerConfig
 from retrieval.query_rewrite import rewrite_query
+from app.pipeline import search_full_corpus
+
+INDEX_DIR = ROOT / "indexes"
+FULL_CORPUS = "Full corpus"
 
 
 # ---- candidate input
@@ -57,8 +61,22 @@ def parse_candidates(data: bytes, filename: str) -> list[dict]:
 
 @st.cache_resource
 def get_reranker() -> CrossEncoderReranker:
-    """Reuse one lazy-loading model instance instead of loading on every UI rerun."""
-    return CrossEncoderReranker()
+    """Reuse one lazy-loading model instance instead of loading on every UI rerun.
+
+    Device cuda > mps > cpu: on macOS a CPU reranker in the same process as
+    FAISS crashed with a segmentation fault in testing.
+    """
+    from retrieval.dense import pick_device
+
+    return CrossEncoderReranker(RerankerConfig(device=pick_device()))
+
+
+@st.cache_resource(show_spinner="Loading the retrieval indexes (first time only)...")
+def get_retriever():
+    """BM25 + FAISS + BGE over the full corpus, loaded once per server process."""
+    from retrieval import Retriever
+
+    return Retriever.load(INDEX_DIR)
 
 
 # ---- query processing (future retriever integration point)
@@ -121,6 +139,15 @@ def render_evidence(reply: dict) -> None:
         if products:
             st.caption(", ".join(products))
         render_aspects(rewritten["aspects"])
+    if reply.get("rewrite_error"):
+        st.caption(f"Query rewrite failed, searched the original question ({reply['rewrite_error']})")
+    for group in reply.get("retrieval") or []:
+        f = group["filters"]
+        scope = (f"Model: {', '.join(group['model_variants'] or [f['model']])}" if f.get("model")
+                 else f"Brand: {f['brand']}" if f.get("brand") else "No product filter")
+        size = f"{group['n_candidates']:,}" if group["n_candidates"] is not None else "all"
+        st.caption(f"{scope} · {size} reviews searched · {group['hits']} candidates · "
+                   f"searched for \"{group['search_text']}\"")
     chunks = reply["chunks"]
     timing = reply.get("timing_ms")
     if timing:
@@ -175,9 +202,16 @@ def main() -> None:
     candidates, source_label, ready = [], "", False
     with st.sidebar:
         st.subheader("Query settings")
-        source = st.radio("Candidate source", ["Sample data", "Upload candidates"], key="source")
+        source = st.radio("Candidate source", ["Sample data", "Upload candidates", FULL_CORPUS],
+                          key="source")
+        use_rewrite = True
         try:
-            if source == "Sample data":
+            if source == FULL_CORPUS:
+                if not (INDEX_DIR / "meta.pkl").exists():
+                    raise ValueError(f"no indexes in {INDEX_DIR}; run scripts.build_retrieval_indexes first")
+                source_label, ready = "Full corpus (hybrid retrieval)", True
+                use_rewrite = st.toggle("Query rewrite (DeepSeek)", value=True, key="use_rewrite")
+            elif source == "Sample data":
                 fixture = ROOT / "tests/fixtures/rerank_candidates.json"
                 candidates = parse_candidates(fixture.read_bytes(), fixture.name)
                 source_label, ready = "Galaxy S10 development sample", True
@@ -190,7 +224,8 @@ def main() -> None:
             st.error(f"Could not load candidates: {exc}")
         rerank = st.toggle("Rerank", value=True, key="rerank")
         top_k = st.select_slider("Number of chunks", options=[3, 5, 10], value=5, key="top_k")
-        st.caption(f"{len(candidates)} candidates loaded.")
+        st.caption("Searching all reviews (50 candidates per product)." if source == FULL_CORPUS
+                   else f"{len(candidates)} candidates loaded.")
         if st.button("Clear chat", key="clear_chat", width="stretch"):
             st.session_state.messages = []
             st.session_state.pop("evidence_turn", None)
@@ -220,7 +255,14 @@ def main() -> None:
                 with st.chat_message("assistant"):
                     try:
                         with st.spinner("Finding review evidence..."):
-                            reply = {**search(prompt, candidates, top_k, rerank), "source": source_label}
+                            if source == FULL_CORPUS:
+                                result = search_full_corpus(
+                                    prompt, get_retriever(), top_k=top_k, rerank=rerank,
+                                    reranker=get_reranker() if rerank else None,
+                                    use_rewrite=use_rewrite, rewrite_fn=rewrite_query)
+                            else:
+                                result = search(prompt, candidates, top_k, rerank)
+                            reply = {**result, "source": source_label}
                     except (RuntimeError, ValueError, OSError) as exc:
                         reply = {"error": f"Request failed: {exc}"}
                     render_reply(reply)
