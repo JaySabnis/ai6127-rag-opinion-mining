@@ -54,6 +54,9 @@ team.
 ai6127-rag-opinion-mining/
 │
 ├── app/
+│   ├── __init__.py
+│   ├── streamlit_app.py
+│   └── README.md
 │
 ├── chunking/
 │   ├── __init__.py
@@ -67,6 +70,10 @@ ai6127-rag-opinion-mining/
 ├── generation/
 │
 ├── retrieval/
+│   ├── __init__.py
+│   ├── query_rewrite.py
+│   ├── rerank.py
+│   └── README.md
 │
 ├── scripts/
 │   ├── __init__.py
@@ -74,8 +81,17 @@ ai6127-rag-opinion-mining/
 │   ├── find_missing_corpus_docs.py
 │   ├── ingest_weaviate.py
 │   ├── run_chunking.py
+│   ├── run_reranking.py
 │   └── validate_corpus.py
 │
+├── tests/
+│   ├── fixtures/
+│   │   └── rerank_candidates.json
+│   └── test_retrieval.py
+│
+├── .streamlit/
+│   └── config.toml
+├── .env.example
 ├── .gitignore
 ├── .python-version
 ├── main.py
@@ -498,6 +514,27 @@ The Kaggle dataset contains the generated chunked review data and can be used as
 
 ------------------------------------------------------------------------
 
+# Query Rewrite, Reranker and UI
+
+DeepSeek V4 Pro rewrites questions into English retrieval queries and extracts
+products and aspect labels. MiniLM scores each candidate with its brand/model
+context, then adds a bonus for each matched aspect. A sigmoid gate reduces this
+bonus when MiniLM relevance is low; the final score determines the ranking.
+
+The Streamlit UI separates conversation on the left from evidence on the
+right. Evidence appears after a successful query, and saved results can be
+selected by question without rerunning the models.
+Set `DEEPSEEK_API_KEY` in `.env`, then run:
+
+```powershell
+uv sync
+uv run streamlit run app/streamlit_app.py
+```
+
+The UI currently uses six sample chunks or uploaded candidates, without full-corpus
+retrieval or answer generation. See [retrieval/README.md](retrieval/README.md) for
+interfaces and [app/README.md](app/README.md) for UI details.
+
 # Retrieval Architecture
 
 The finalized corpus is independent of the retrieval backend.
@@ -745,7 +782,9 @@ Expected warnings include:
 -   [ ] Vector/index backend
 -   [ ] BM25 retrieval
 -   [ ] Hybrid retrieval
--   [ ] Reranking
+-   [x] DeepSeek query rewrite with product/aspect extraction
+-   [x] Cross-encoder reranking module and standalone CLI (full pipeline integration pending)
+-   [x] Streamlit chat UI with separate evidence panel
 -   [ ] Aspect-level opinion classification
 -   [ ] Final RAG generation
 -   [ ] End-to-end evaluation

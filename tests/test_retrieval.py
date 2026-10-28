@@ -4,8 +4,8 @@ The dense tests use a tiny hashing encoder and the NumPy backend, so they test
 the plumbing (sharding, ids, filters, fusion), not embedding quality.
 Real FAISS + BGE are covered by scripts/smoke_test_retrieval.py.
 
-    uv run python -m pytest tests/test_retrieval.py      (or)
-    uv run python tests/test_retrieval.py
+    uv run python -m unittest discover -s tests -v   (all tests, incl. reranker/UI)
+    uv run python tests/test_retrieval.py            (only these)
 """
 
 from __future__ import annotations
@@ -14,6 +14,7 @@ import hashlib
 import math
 import sys
 import tempfile
+import unittest
 from collections import Counter
 from pathlib import Path
 
@@ -232,8 +233,17 @@ def test_mismatched_index_is_rejected():
         raise AssertionError("expected a size-mismatch error")
 
 
+class RetrievalCoreTests(unittest.TestCase):
+    """Lets `python -m unittest discover -s tests` run the function-style tests above."""
+
+
+for _name, _fn in sorted(dict(globals()).items()):
+    if _name.startswith("test_") and callable(_fn):
+        setattr(RetrievalCoreTests, _name, staticmethod(_fn))
+
+
 if __name__ == "__main__":
-    tests = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
+    tests = [v for k, v in sorted(globals().items()) if k.startswith("test_") and callable(v)]
     for fn in tests:
         fn()
         print(f"ok  {fn.__name__}")

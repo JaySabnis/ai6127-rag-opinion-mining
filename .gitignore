@@ -1,8 +1,17 @@
 __pycache__/
 *.pyc
+.DS_Store
+
+# Secrets: keep .env local, commit .env.example only
+.env
+
+# Local Python environment
+/.venv/
 
 # Large data and generated retrieval indexes (share via Drive/Kaggle, not git)
 data/
 indexes/
 indexes_*/
-.DS_Store
+
+# Generated reranker runs
+/results/reranking/
