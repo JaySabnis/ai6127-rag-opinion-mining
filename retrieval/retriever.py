@@ -28,7 +28,7 @@ explicit model/brand filter. Aspects are never a hard filter (see hybrid.py).
 from __future__ import annotations
 
 import time
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass, field, replace
 from pathlib import Path
 from typing import Any
 
@@ -196,6 +196,7 @@ class Retriever:
         max_per_doc: int | None = 1,
         rrf_k: int = RRF_K,
         strip_model: bool = True,
+        aspects: list[str] | None = None,
     ) -> RetrievalResult:
         """Retrieve the top-k chunks for a query.
 
@@ -209,11 +210,17 @@ class Retriever:
             max_per_doc: keep at most this many chunks per original review
                 (overlapping chunks of one review are not independent evidence);
                 None keeps all.
-            strip_model: when results are already filtered to the model named in
-                the query, remove the model name from the text sent to BM25 and
-                the encoder. Otherwise every candidate shares the model, and
-                chunks that merely *repeat* the name ("works for Galaxy S10")
-                outrank chunks about the asked aspect.
+            strip_model: when results are filtered to one model (detected or
+                passed in ``filters``), remove that model's name from the text
+                sent to BM25 and the encoder. Otherwise every candidate shares
+                the model, and chunks that merely *repeat* the name ("works for
+                Galaxy S10") outrank chunks about the asked aspect.
+            aspects: aspects to boost, e.g. from the LLM query rewrite. None =
+                use the aspects detected in the query by ``detect_aspects``.
+
+        With the LLM query rewrite, map its products first and pass explicit
+        filters, e.g. ``filters={"model": r.parser.resolve_model(brand, model)}``,
+        ``auto_filter=False``, ``aspects=rewrite["aspects"]``.
         """
         if mode not in MODES:
             raise ValueError(f"mode must be one of {MODES}")
@@ -227,6 +234,8 @@ class Retriever:
 
         t = time.perf_counter()
         parsed = self.parser.parse(query)
+        if aspects is not None:
+            parsed = replace(parsed, aspects=list(dict.fromkeys(aspects)))
         applied = self._resolve_filters(parsed, filters, auto_filter)
         if set(applied) == {"model"}:
             rows = self._model_rows.get(applied["model"], np.empty(0, dtype=np.int64))
@@ -234,10 +243,11 @@ class Retriever:
             rows = rows_for(self.meta, **applied)
 
         search_text = query
-        if strip_model and parsed.model and applied.get("model") == parsed.model and parsed.without_model:
+        if strip_model and applied.get("model"):
+            stripped = self.parser.remove_model(query, applied["model"])
             # Keep the original if nothing searchable would remain ("Galaxy S10?").
-            if self.bm25 is None or self.bm25.tokenizer(parsed.without_model):
-                search_text = parsed.without_model
+            if stripped != query and (self.bm25 is None or self.bm25.tokenizer(stripped)):
+                search_text = stripped
         timings["parse_filter"] = (time.perf_counter() - t) * 1000
 
         # Retrieve deeper than k so per-review de-duplication still leaves k hits.

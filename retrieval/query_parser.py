@@ -6,7 +6,10 @@
   side and the chunk side share one keyword dictionary.
 * Models are matched against the catalogue of ``model`` values that actually
   occur in the corpus, on token boundaries, preferring the longest match
-  ("iPhone 11 Pro" wins over "iPhone 11").
+  ("iPhone 11 Pro" wins over "iPhone 11"). "+" is read as "Plus" ("S10+").
+* ``resolve_model`` / ``resolve_brand`` map product names produced elsewhere
+  (e.g. the DeepSeek query rewrite) onto names that exist in the corpus, so a
+  filter never silently matches nothing.
 """
 
 from __future__ import annotations
@@ -23,8 +26,11 @@ _LETTER_DIGIT = re.compile(r"(?<=[a-z])(?=\d)|(?<=\d)(?=[a-z])")
 
 
 def model_tokens(text: str) -> tuple[str, ...]:
-    """Lowercase, drop punctuation, split letter/digit runs: 'iPhone15-Pro' -> (iphone, 15, pro)."""
-    t = _NON_ALNUM.sub(" ", text.lower())
+    """Lowercase, drop punctuation, split letter/digit runs: 'iPhone15-Pro' -> (iphone, 15, pro).
+
+    '+' becomes the word 'plus', so "S10+" and "S10 Plus" give the same tokens.
+    """
+    t = _NON_ALNUM.sub(" ", text.lower().replace("+", " plus "))
     t = _LETTER_DIGIT.sub(" ", t)
     return tuple(t.split())
 
@@ -118,12 +124,54 @@ class QueryParser:
             if len(rest) >= 2 and _distinctive(rest):
                 add(rest, model, False)
 
-        # Index patterns by their first token for fast lookup.
+        # Index patterns by their first token for fast lookup, and keep each
+        # model's own patterns so its mentions can be removed from a query.
         self._by_first: dict[str, list[tuple[tuple[str, ...], str]]] = {}
+        self._patterns_of: dict[str, list[tuple[str, ...]]] = {}
         for toks, (_, model) in best.items():
             self._by_first.setdefault(toks[0], []).append((toks, model))
+            self._patterns_of.setdefault(model, []).append(toks)
         for pats in self._by_first.values():
             pats.sort(key=lambda p: len(p[0]), reverse=True)
+        for pats in self._patterns_of.values():
+            pats.sort(key=len, reverse=True)
+
+        # Exact lookup for names coming from elsewhere (LLM output): the full
+        # model name, ignoring case, spacing and punctuation.
+        self._exact: dict[tuple[str, ...], str] = {}
+        for model in sorted(self.model_brand, key=lambda m: -counts.get(m, 0)):
+            self._exact.setdefault(model_tokens(model), model)
+        brands = meta.loc[meta["brand"].notna(), "brand"].value_counts()
+        self._brands: dict[tuple[str, ...], str] = {}
+        for brand in brands.index:  # most frequent spelling first
+            self._brands.setdefault(model_tokens(str(brand)), brand)
+
+    # ------------------------------------------------------- external names
+    def resolve_model(self, brand: str | None, model: str | None) -> str | None:
+        """Map a product named elsewhere (e.g. by the LLM) to a model in the corpus.
+
+        1. exact name, ignoring case/spacing/punctuation ("galaxy s10" -> "Galaxy S10")
+        2. otherwise the same pattern matching used for queries, on "brand model"
+           ("Samsung", "Galaxy S10+") -> "Galaxy S10 Plus"
+        3. otherwise None: the caller should not filter by model.
+        """
+        if not model:
+            return None
+        hit = self._exact.get(model_tokens(model))
+        if hit:
+            return hit
+        return self.detect_model(" ".join(x for x in (brand, model) if x))
+
+    def resolve_brand(self, brand: str | None) -> str | None:
+        """Map a brand named elsewhere to the corpus spelling ("samsung" -> "Samsung"), else None."""
+        return self._brands.get(model_tokens(brand)) if brand else None
+
+    def remove_model(self, query: str, model: str) -> str:
+        """Remove every mention of ``model`` (full name, brand + name, short alias)."""
+        out = query
+        for toks in self._patterns_of.get(model, ()):
+            out = self.remove_mention(out, toks)
+        return out
 
     def _match(self, query: str) -> tuple[str, tuple[str, ...]] | None:
         q = model_tokens(query)
@@ -144,9 +192,10 @@ class QueryParser:
     def remove_mention(query: str, toks: tuple[str, ...]) -> str:
         """Delete the matched model mention from the query text.
 
-        ("galaxy","s","10") also matches "Galaxy S10", "galaxy-s10", "GALAXY S 10".
+        ("galaxy","s","10") also matches "Galaxy S10", "galaxy-s10", "GALAXY S 10";
+        the token "plus" also matches "+".
         """
-        body = r"[\W_]*".join(re.escape(t) for t in toks)
+        body = r"[\W_]*".join(r"(?:plus|\+)" if t == "plus" else re.escape(t) for t in toks)
         pattern = rf"(?<![a-z0-9]){body}(?![a-z0-9])"
         out = re.sub(pattern, " ", query, flags=re.IGNORECASE)
         return re.sub(r"\s+", " ", out).strip()

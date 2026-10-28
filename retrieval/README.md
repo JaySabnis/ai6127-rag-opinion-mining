@@ -21,16 +21,36 @@ app/streamlit_app.py (UI)  /  generation
 Part A covers hybrid retrieval (`retriever.py` and the modules it uses);
 Part B covers query rewrite and reranking (`query_rewrite.py`, `rerank.py`).
 
+**Agreed design: the LLM identifies, the corpus catalogue checks, rules fall back.**
+The DeepSeek rewrite decides which products and aspects the question is about;
+`resolve_model()` maps each product name onto a model that exists in the corpus
+(so a filter never silently matches nothing); if the rewrite fails, the
+retriever's own parser detects the model from the original question.
+
 ```python
 from retrieval import Retriever
+from retrieval.query_rewrite import rewrite_query
 from retrieval.rerank import CrossEncoderReranker
 
 r = Retriever.load("indexes")            # loads meta + BM25 + FAISS + BGE query encoder
-res = r.retrieve("How is the camera on the Galaxy S10?", mode="hybrid", k=50)
-
 reranker = CrossEncoderReranker()
-top = reranker.rerank(res.query, [h.to_dict() for h in res.hits],
-                      query_aspects=res.parsed.aspects, top_k=10)
+
+try:
+    rw = rewrite_query(question)         # {query, product: [{brand, model}], aspects}
+except (RuntimeError, ValueError):
+    rw = None                            # no key / network / bad JSON -> fallback
+
+if rw:
+    models = [r.parser.resolve_model(p["brand"], p["model"]) for p in rw["product"]] or [None]
+    results = [r.retrieve(rw["query"], k=50, auto_filter=False, aspects=rw["aspects"],
+                          filters={"model": m} if m else None)
+               for m in models]          # one retrieval per product (comparisons)
+else:
+    results = [r.retrieve(question, k=50)]   # parser detects the model itself
+
+for res in results:
+    top = reranker.rerank(res.query, [h.to_dict() for h in res.hits],
+                          query_aspects=res.parsed.aspects, top_k=10)
 ```
 
 `Hit.to_dict()` already contains the fields the reranker reads (`chunk_id`,
@@ -103,6 +123,7 @@ res = r.retrieve(
     aspect_weight=0.5,      # hybrid aspect boost, 0 = off
     max_per_doc=1,          # at most N chunks per original review, None = keep all
     strip_model=True,       # drop the model name from the searched text once filtered to it
+    aspects=None,           # aspects to boost, e.g. rewrite["aspects"]; None = detect from the query
 )
 ```
 
@@ -186,9 +207,15 @@ boost, not a filter, because the tags are keyword-based and noisy.
 
 **Query parsing.** Model names are matched against the models that exist in
 the corpus, on token boundaries, longest match first (`iPhone 11 Pro` beats
-`iPhone 11`; `iPhone11` and `S10` are recognised). Only distinctive name
-patterns are used, so ordinary words and specs are not mistaken for models
-(see Known limitations).
+`iPhone 11`; `iPhone11`, `S10` and `S10+` = `Galaxy S10 Plus` are recognised).
+Only distinctive name patterns are used, so ordinary words and specs are not
+mistaken for models (see Known limitations).
+
+**Names from the LLM.** `r.parser.resolve_model(brand, model)` maps a product
+name produced by the query rewrite onto a corpus model: exact name ignoring
+case and spacing ("galaxy s10e" → "Galaxy S10e"), else the same pattern
+matching ("Galaxy S10+" → "Galaxy S10 Plus"), else `None` (do not filter).
+`resolve_brand()` does the same for brand-only questions.
 
 **One chunk per review by default.** Overlapping chunks of the same review are
 not independent evidence, so `max_per_doc=1` keeps the best chunk per `doc_id`.

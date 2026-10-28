@@ -137,6 +137,30 @@ def test_query_parser_ignores_junk_model_names():
     assert p.detect_model("5000mah battery") is None  # not the accessory "7700mah Battery"
     assert p.detect_model("128gb storage") is None
     assert p.detect_model("g2 camera") == "G2"  # letter before number = series name
+    # "+" means "Plus"
+    assert p.detect_model("s10+ battery") == "Galaxy S10 Plus"
+    assert p.parse("Galaxy S10+ camera").without_model == "camera"
+
+
+def test_resolve_names_from_llm():
+    """Product names returned by the query rewrite are mapped onto corpus names."""
+    import pandas as pd
+
+    rows = [("Galaxy S10", "Samsung", 30), ("Galaxy S10e", "Samsung", 20), ("Galaxy S10 Plus", "Samsung", 25),
+            ("iPhone 11", "Apple", 30), ("3310", "Nokia", 5), ("Oneplus 7 Pro", "OnePlus", 5)]
+    meta = pd.DataFrame([(m, b) for m, b, n in rows for _ in range(n)], columns=["model", "brand"])
+    p = QueryParser(meta)
+    assert p.resolve_model("Samsung", "Galaxy S10") == "Galaxy S10"
+    assert p.resolve_model("Samsung", "galaxy s10e") == "Galaxy S10e"  # case/spacing
+    assert p.resolve_model("Samsung", "Galaxy S10+") == "Galaxy S10 Plus"  # "+" -> Plus
+    assert p.resolve_model("Samsung", "S10 Plus") == "Galaxy S10 Plus"  # family word missing
+    assert p.resolve_model("OnePlus", "OnePlus 7 Pro") == "Oneplus 7 Pro"  # corpus spelling
+    assert p.resolve_model("Nokia", "3310") == "3310"
+    assert p.resolve_model("Apple", "iPhone 99") is None  # not in the corpus -> no filter
+    assert p.resolve_model("Samsung", None) is None
+    assert p.resolve_brand("samsung") == "Samsung" and p.resolve_brand("Nokiaa") is None
+    q = "How does battery compare between Samsung Galaxy S10+ and Apple iPhone 11?"
+    assert p.remove_model(q, "Galaxy S10 Plus") == "How does battery compare between and Apple iPhone 11?"
 
 
 # ------------------------------------------------------------------ fusion
@@ -193,6 +217,22 @@ def test_model_mention_removed_from_search_text():
         # nothing left after removal -> keep the query as typed
         assert r.retrieve("Galaxy S10", k=3).search_text == "Galaxy S10"
         assert r.retrieve("Galaxy S10 camera", k=3, strip_model=False).search_text == "Galaxy S10 camera"
+        # explicit filter for the model in the query (LLM path): also removed
+        res = r.retrieve("How is the camera on the Samsung Galaxy S10?", k=3,
+                         filters={"model": "Galaxy S10"}, auto_filter=False)
+        assert res.search_text == "How is the camera on the ?"
+        assert all(h.model == "Galaxy S10" for h in res.hits)
+
+
+def test_aspects_override_from_llm():
+    with tempfile.TemporaryDirectory() as tmp:
+        r = _build(tmp)
+        # "lasts all day" has no aspect keyword; the LLM says it is about the battery
+        res = r.retrieve("does it last all day", k=10, auto_filter=False, aspects=["battery", "battery"])
+        assert res.parsed.aspects == ["battery"]
+        assert all(("battery" in h.aspect_tags) == h.aspect_boosted for h in res.hits)
+        assert any(h.aspect_boosted for h in res.hits)
+        assert r.retrieve("does it last all day", k=10, auto_filter=False).parsed.aspects == []
 
 
 def test_dedupe_by_review():
