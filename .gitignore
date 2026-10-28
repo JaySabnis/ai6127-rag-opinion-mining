@@ -1,2 +1,8 @@
 __pycache__/
 *.pyc
+
+# Large data and generated retrieval indexes (share via Drive/Kaggle, not git)
+data/
+indexes/
+indexes_*/
+.DS_Store
