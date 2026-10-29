@@ -109,10 +109,10 @@ class ClassificationTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             SentimentClassifier(client).classify([chunk()])
 
-    def test_inconsistent_stage_labels_are_rejected(self):
+    def test_subjectivity_is_derived_from_label(self):
         value = classification() | {"subjectivity": "neutral"}
-        with self.assertRaises(ValueError):
-            SentimentClassifier(QueueClient([{"results": [value]}])).classify([chunk()])
+        row = SentimentClassifier(QueueClient([{"results": [value]}])).classify([chunk()])[0]
+        self.assertEqual(row["subjectivity"], "opinionated")
 
 
 class CheckerTests(unittest.TestCase):

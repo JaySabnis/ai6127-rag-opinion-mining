@@ -65,16 +65,19 @@ class SentimentClassifier:
                     label = result["label"]
                     if label not in LABELS or type(result["aspect_present"]) is not bool:
                         raise ValueError("Invalid label or aspect presence")
-                    expected_subjectivity = "neutral" if label == "neutral" else "opinionated"
-                    if result["subjectivity"] != expected_subjectivity:
-                        raise ValueError("Inconsistent subjectivity and polarity")
+                    # Subjectivity is fully determined by the label; derive it instead of
+                    # failing the whole batch when the model writes e.g. opinionated+neutral.
+                    result["subjectivity"] = "neutral" if label == "neutral" else "opinionated"
                     if aspect is None and not result["aspect_present"]:
                         raise ValueError("Overall must be present")
                     if not result["aspect_present"] and label != "neutral":
                         raise ValueError("Absent aspects cannot have opinion labels")
                     quotes = result["evidence_quotes"]
-                    if not isinstance(quotes, list) or any(not quote_in(q, by_id[cid]["text"]) for q in quotes):
-                        raise ValueError("Classification quote not found in source")
+                    if not isinstance(quotes, list):
+                        raise ValueError("Classification quotes must be a list")
+                    # Keep only verbatim quotes (the model sometimes fixes source typos);
+                    # an opinion label still needs at least one, checked below.
+                    quotes = result["evidence_quotes"] = [q for q in quotes if quote_in(q, by_id[cid]["text"])]
                     if label != "neutral" and not quotes:
                         raise ValueError("Opinion requires source evidence")
                     if not isinstance(result["reason"], str) or not result["reason"].strip():
