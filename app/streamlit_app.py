@@ -174,9 +174,7 @@ def render_evidence(reply: dict) -> None:
                 elif chunk.get("rerank_strategy") == "retrieval_tail":
                     st.caption(f"Retrieval rank {chunk['retrieval_rank']}")
                 else:
-                    st.caption(f"Score {chunk['rerank_score']:.2f}"
-                               f" · RRF +{chunk.get('rrf_bonus', 0):.2f}"
-                               f" · Aspect +{chunk.get('aspect_bonus', 0):.2f}")
+                    st.caption(f"Score {chunk['rerank_score']:.4f}")
             url = metadata.get("source_url")
             try:
                 valid_url = isinstance(url, str) and urlparse(url).scheme in ("http", "https")

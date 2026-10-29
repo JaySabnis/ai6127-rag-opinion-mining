@@ -1,4 +1,4 @@
-# Learned Reranker v2
+# Reranker
 
 The default strategy is `learned`, using [review_ranker_v2.json](models/review_ranker_v2.json). The model combines a frozen MiniLM cross-encoder with a Ridge linear fusion layer. Training updates only fusion coefficients; MiniLM is not fine-tuned.
 
@@ -32,7 +32,7 @@ z_i = (x_i - mean(x_i)) / max(std(x_i), 1e-6)
 score = sum(w_i * z_i)
 ```
 
-The score is a query-relative ranking value, not a probability. `cross_encoder_score` remains bounded to 0-0.5 for display; the learned features use the raw logit. The learned strategy adds no separate legacy sigmoid-gated aspect reward.
+The score is a query-relative ranking value, not a probability. `cross_encoder_score` remains bounded to 0-0.5 for display; the learned features use the raw logit.
 
 ## Training
 
@@ -56,13 +56,7 @@ Run commands from the repository root. Install project dependencies with `uv syn
 uv run python -m scripts.run_reranking --input tests/fixtures/rerank_candidates.json --query "Galaxy S10 battery life" --aspects battery --top-k 3 --output results/reranking/demo.json
 ```
 
-Add `--local-files-only` when models are cached. Legacy weight flags affect their corresponding legacy strategies. To select the previous learned artifact, add:
-
-```text
---learned-model retrieval/models/review_ranker_v1.json
-```
-
-Other retained strategies are `--strategy rank_fusion` and `--strategy legacy`.
+Add `--local-files-only` when MiniLM is cached. The supported strategies are `learned` and `rank_fusion`. Rank fusion uses `0.2/(10+r) + 0.8/(10+m)` within the first 20 candidates, with no fitted coefficients. It is used by ablation configurations 6/7; configuration 8 uses the trained model. Both preserve the tail.
 
 Application integration:
 
@@ -88,9 +82,9 @@ uv run python -X utf8 -m scripts.finalize_training_100
 uv run python -X utf8 -m scripts.train_ranker_100
 ```
 
-The first command validates and exports existing labels; the second fits v2 and then checks evaluation40 with frozen parameters. Collection reuses cached candidates. Remap and verify labels if candidate order or identities change.
+The first command validates and exports existing labels; the second fits the fusion layer on training100 only. Collection reuses cached candidates. Remap and verify labels if candidate order or identities change.
 
-Nested product-group validation: P@10=0.8450, MRR@10=0.9783, nDCG@10=0.8635. Evaluation40 check: P@10=0.8925, pooled Recall@100=0.7576, MRR@10=0.9675, nDCG@10=0.8573.
+Nested product-group validation: P@10=0.8450, MRR@10=0.9783, nDCG@10=0.8635. Evaluation40 check: P@10=0.8925, pooled Recall@100=0.7585, MRR@10=0.9675, nDCG@10=0.8568.
 
 Training fit, internal validation and evaluation40 are distinct protocols. Evaluation40 influenced earlier design and is not a historically untouched final test. See the [Chinese report](../results/ablation_latest/report_zh.html) and [English report](../results/ablation_latest/report_en.html).
 

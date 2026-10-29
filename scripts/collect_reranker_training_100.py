@@ -43,33 +43,27 @@ def queries():
 def main():
     os.environ['HF_HUB_OFFLINE']='1';os.environ['TRANSFORMERS_OFFLINE']='1'
     torch.set_num_threads(8)
-    OUT.mkdir(exist_ok=True);(OUT/'collection').mkdir(exist_ok=True)
+    OUT.mkdir(exist_ok=True)
     qq=queries();qpath=OUT/'queries.jsonl'
-    serialized=''.join(json.dumps(q,ensure_ascii=False)+'\n' for q in qq)
-    if qpath.exists():assert qpath.read_text(encoding='utf8')==serialized
-    else:qpath.write_text(serialized,encoding='utf8')
+    if qpath.exists():assert list(map(json.loads,qpath.read_text(encoding='utf8').splitlines()))==qq
+    else:qpath.write_text(''.join(json.dumps(q,ensure_ascii=False)+'\n' for q in qq),encoding='utf8',newline='\n')
+    cache=OUT/'scored_candidates.jsonl'
+    data={r['query_id']:r for r in map(json.loads,cache.read_text(encoding='utf8').splitlines())} if cache.exists() else {}
+    if len(data)==100:
+        assert set(data)=={q['query_id'] for q in qq}
+        print('100 fixed candidate pools already available.');return
     retriever=Retriever.load(ROOT/'indexes')
-    scorer=CrossEncoderReranker(RerankerConfig(strategy='legacy',local_files_only=True))
-    old_models={p['model'] for line in (ROOT/'evaluation/retrieval_ablation_40_v2/queries.jsonl').read_text(encoding='utf8').splitlines() for p in json.loads(line)['target_products']}
-    assert all(model not in old_models for _,model in PRODUCTS)
-    old_ids={json.loads(s)['chunk_id'] for s in (ROOT/'evaluation/retrieval_ablation_40_v2/corpus.jsonl').read_text(encoding='utf8').splitlines()}
+    encoder=CrossEncoderReranker(RerankerConfig(local_files_only=True))._load_model()
+    eval_models={p['model'] for r in map(json.loads,(ROOT/'evaluation/retrieval_ablation_40_v2/queries.jsonl').read_text(encoding='utf8').splitlines()) for p in r['target_products']}
+    assert all(model not in eval_models for _,model in PRODUCTS)
     for q in qq:
-        dest=OUT/'collection'/f"{q['query_id']}.json"
-        if dest.exists():continue
-        res=retriever.retrieve(q['query'],mode='hybrid',k=50,candidate_k=150,
-                               strip_model=True,aspect_weight=.5,max_per_doc=1)
-        hits=[h.to_dict() for h in res.hits[:20]]
-        assert len(hits)==20 and len({h['doc_id'] for h in hits})==20
-        assert res.filters and res.parsed.model==retriever.parser.resolve_model(q['target_products'][0]['brand'],q['target_products'][0]['model'])
-        assert not ({h['chunk_id'] for h in hits}&old_ids)
-        # Save all raw logits before annotation; MiniLM remains frozen.
-        scores=scorer.rerank(res.search_text,hits,query_aspects=[])
-        logits={h['chunk_id']:h['cross_encoder_raw_score'] for h in scores}
-        payload={**q,'search_text':res.search_text,'filters':res.filters,
-                 'parsed_aspects':res.parsed.aspects,'rows':hits,
-                 'scores':[logits[h['chunk_id']] for h in hits]}
-        dest.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf8')
-        print(q['query_id'],q['product_group'],q['aspects'],flush=True)
-    print('100 fixed Top20 collections complete. No labels assigned by a model API.')
+        if q['query_id'] in data:continue
+        res=retriever.retrieve(q['query'],mode='hybrid',k=50,candidate_k=150,strip_model=True,aspect_weight=.5,max_per_doc=1)
+        rows=[h.to_dict() for h in res.hits[:20]]
+        assert len(rows)==len({r['doc_id'] for r in rows})==20
+        logits=[float(v) for v in encoder.predict([(res.search_text,r['text']) for r in rows],batch_size=16,show_progress_bar=False,convert_to_numpy=True)]
+        data[q['query_id']]={'query_id':q['query_id'],'query':res.search_text,'product_group':q['product_group'],'rows':rows,'scores':logits}
+        cache.write_text(''.join(json.dumps(data[k],ensure_ascii=False)+'\n' for k in sorted(data)),encoding='utf8',newline='\n')
+        print(q['query_id'],'collected',flush=True)
 
 if __name__=='__main__':main()

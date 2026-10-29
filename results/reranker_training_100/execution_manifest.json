@@ -1,32 +1,12 @@
 {
   "training_queries": 100,
   "training_pairs": 2000,
-  "evaluation_queries": 40,
-  "evaluation_used_for_training_or_selection": false,
   "miniLM_frozen": true,
-  "default_model": "retrieval/models/review_ranker_v2.json",
-  "production_order_checks": 100,
-  "ir_measures_aggregate_checks": 16,
-  "tests_passed": 29,
+  "evaluation_used_for_training_or_selection": false,
+  "model_sha256": "b022c31d2c42da3044f37c6a2566e3edcebdaeda27aba5d22d954bea009008c0",
   "files": {
-    "evaluation40.json": "b91580518c5596b45399d91f51678fdcb7a99a7e9773bda6350bbaa7362fbafd",
-    "evaluation40_per_query.csv": "ec3afb9f39d74fa447fc01aeda1ce3bca445cc4233b661fc3f1e83d4550c9844",
-    "evaluation_qrels.trec": "82925d5d9cacaf0171ea2fd58f5c60da581ca87e796db11b575d03db001058ac",
-    "evaluation_supplement.json": "897771ccf18c00801c246dd5b017f5e7d06e40f0555bf0e39fd7503bcefd2f34",
-    "model.json": "5c1af2160340a2a984a137cd439fb50d5b7e8f4948574f2bd9181665bb679f2e",
-    "README.md": "6ef1ee9121c17082b0a2229e69ec6c806a70df813dc630c72efb3a63fbb17487",
-    "runs/learned_v1.trec": "46df0a8323d443c986579f1c4d458ee839fe72985d93724f356d7b6bd62e62ff",
-    "runs/learned_v2.trec": "2688b31d8e5afa26aed85c2886729411071e11c7b49e1617181444cd8ac49464",
-    "runs/legacy.trec": "85ca5b8402d481f38cebe2e75266ccffdff537111705e816382907b887d717fa",
-    "runs/retrieval.trec": "35d8e2afc2a2cd5a44030a1f349d45884a3da0c6d90f66fb11ef320b5962dd21",
-    "source_snapshot/retrieval/learned_rank.py": "b90019ba863c893c5dc8c9d29ca4116f6f508fd468287cc84d146af0782f860e",
-    "source_snapshot/retrieval/models/review_ranker_v2.json": "5c1af2160340a2a984a137cd439fb50d5b7e8f4948574f2bd9181665bb679f2e",
-    "source_snapshot/retrieval/rerank.py": "db42bd9fb1169ddd89dd14dce445abd24b1f89e779c78294c0b497dc8c4f19fb",
-    "source_snapshot/scripts/collect_reranker_training_100.py": "f2304c90acd2f010eb941fa5249d96ce15c4fdd9705cc43c74e526c1ecfcefc7",
-    "source_snapshot/scripts/finalize_training_100.py": "6066dbe0ac36dc6248e958eae75016ef16e498047adff799178deb99f46f15ac",
-    "source_snapshot/scripts/read_training_packet.py": "0b1b0c4a40664fb7889cd045a7bcd4922bfc2d7fce22b6329ea0f45e71b9bf42",
-    "source_snapshot/scripts/train_ranker_100.py": "ffd3ae5f900c180cca35c2a23d0d4680b5df5b0316c627a0d82b13bfa829a6b8",
-    "training_oof.csv": "b719622b81d9d43ee7c4ff379992622494e90c0d1e34c3d315dfbc2632f2e568",
-    "training_statistics.json": "af9f7c8775d74246e2c4b61c2fbc7da675d78d365563af771f03ecd2e20e3336"
+    "README.md": "24b09680f8e678b7ca81abd4a53a99e6343baf2dc8e6fb83a622983792658469",
+    "training_oof.csv": "f22775bc6483910f385d3e5f104d99944714ec2453c7bce6f26938c017e7223b",
+    "training_statistics.json": "95828926aa93fd34f413e8c41951d0c602c894115884851c7f4e970922b64b9c"
   }
 }

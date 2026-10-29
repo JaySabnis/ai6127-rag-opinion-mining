@@ -1,8 +1,0 @@
-﻿system,top10_relevant_pairs,queries_with_no_relevant_top10
-01_bm25,112,5
-02_dense,221,0
-03_rrf,160,3
-04_strip_model,318,0
-05_aspect,333,0
-06_rerank,322,0
-07_rewrite,326,0

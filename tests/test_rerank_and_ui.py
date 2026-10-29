@@ -1,7 +1,6 @@
 """Core checks without real API calls or model downloads."""
 
 from copy import deepcopy
-import math
 from pathlib import Path
 import unittest
 from unittest.mock import Mock, patch
@@ -11,131 +10,6 @@ from retrieval.rerank import CrossEncoderReranker, RerankerConfig
 
 
 class RetrievalTests(unittest.TestCase):
-    def test_rerank_raw_text_aspect_bonus_and_original_data(self):
-        rows = [
-            {"chunk_id": "a", "doc_id": "1", "text": "Good battery and camera.",
-             "metadata": {"brand": "Samsung", "model": "Galaxy S10",
-                          "aspect_tags": ["battery", "camera", "camera"]}},
-            {"chunk_id": "b", "doc_id": "2", "text": "Good battery.",
-             "aspect_tags": ["battery"]},
-            {"chunk_id": "c", "doc_id": "3", "text": "Good phone."},
-        ]
-        before = deepcopy(rows)
-        model = Mock()
-        model.predict.return_value = [0.0, 0.05, 0.1]
-        reranker = CrossEncoderReranker(RerankerConfig(strategy="legacy"))
-        with patch.object(reranker, "_load_model", return_value=model) as load:
-            result = reranker.rerank("Battery and camera?", rows,
-                                    query_aspects=["battery", "camera"], top_k=2)
-            self.assertEqual([row["chunk_id"] for row in result], ["a", "b"])
-            self.assertAlmostEqual(result[0]["rerank_score"], 1.348516426)
-            self.assertEqual(result[0]["aspect_match_count"], 2)
-            self.assertEqual(result[0]["aspect_coverage"], 1)
-            self.assertEqual(result[1]["aspect_coverage"], 0.5)
-            self.assertAlmostEqual(result[1]["aspect_bonus"], 0.3 + 0.3 * result[1]["aspect_gate"])
-            self.assertEqual(model.predict.call_args.args[0],
-                             [("Battery and camera?", row["text"]) for row in rows])
-            self.assertEqual(rows, before)
-            self.assertEqual(reranker.rerank("Battery?", rows, top_k=0), [])
-            reranker.rerank("Battery?", rows)
-            load.assert_called_once()
-
-    def test_gate_reduces_bonus_for_low_scores(self):
-        rows = [{"chunk_id": str(i), "text": "Battery review.", "aspect_tags": ["battery"]}
-                for i in range(4)]
-        rows[3]["aspect_tags"] = []
-        model = Mock()
-        model.predict.return_value = [-12, -6, 0, 0]
-        reranker = CrossEncoderReranker(RerankerConfig(strategy="legacy"))
-        with patch.object(reranker, "_load_model", return_value=model):
-            result = {r["chunk_id"]: r for r in reranker.rerank(
-                "Battery?", rows, query_aspects=["battery"])}
-            self.assertAlmostEqual(result["0"]["aspect_bonus"], 0.601483574)
-            self.assertEqual(result["1"]["aspect_gate"], 0.5)
-            self.assertAlmostEqual(result["1"]["aspect_bonus"], 0.9)
-            self.assertAlmostEqual(result["2"]["aspect_bonus"], 1.198516426)
-            self.assertEqual(result["3"]["aspect_bonus"], 0)
-            for row in result.values():
-                self.assertEqual(row["cross_encoder_contribution"], 0.6 * row["cross_encoder_score"])
-                self.assertEqual(row["rerank_score"], row["cross_encoder_contribution"] + row["aspect_bonus"])
-            reranker.config.aspect_weight = 0
-            self.assertTrue(all(r["aspect_bonus"] == 0 for r in reranker.rerank(
-                "Battery?", rows, query_aspects=["battery"])))
-        for temperature in (0, -1, float("nan")):
-            with self.assertRaises(ValueError):
-                CrossEncoderReranker(RerankerConfig(strategy="legacy", aspect_temperature=temperature)).rerank("Battery?", [])
-
-    def test_fixed_aspect_reward_respects_coverage_and_zero_matches(self):
-        rows = [
-            {"chunk_id": "partial", "text": "A", "aspect_tags": ["display"]},
-            {"chunk_id": "full_low", "text": "B", "aspect_tags": ["display", "battery"]},
-            {"chunk_id": "full_high", "text": "C", "aspect_tags": ["display", "battery"]},
-            {"chunk_id": "none", "text": "D", "aspect_tags": []},
-        ]
-        model = Mock()
-        model.predict.return_value = [-1e300, -1e300, 1e300, 0]
-        reranker = CrossEncoderReranker(RerankerConfig(strategy="legacy"))
-        with patch.object(reranker, "_load_model", return_value=model):
-            result = {r["chunk_id"]: r for r in reranker.rerank(
-                "Display and battery?", rows, query_aspects=["display", "battery"])}
-            for cid, expected in {"partial": 0.3, "full_low": 0.6, "full_high": 1.2, "none": 0}.items():
-                self.assertAlmostEqual(result[cid]["aspect_bonus"], expected)
-                self.assertAlmostEqual(result[cid]["aspect_bonus"],
-                                       result[cid]["aspect_fixed_bonus"] + result[cid]["aspect_gated_bonus"])
-            self.assertTrue(all(r["aspect_bonus"] == 0 for r in reranker.rerank("query", rows)))
-
-    def test_rrf_can_break_close_scores_but_not_large_semantic_gaps(self):
-        rows = [
-            {"chunk_id": "semantic", "text": "A", "rrf_normalized": 0.0},
-            {"chunk_id": "consensus", "text": "B", "rrf_normalized": 0.04},
-            {"chunk_id": "strong", "text": "C", "score": 999999},
-        ]
-        before = deepcopy(rows)
-        model = Mock()
-        model.predict.return_value = [1.0, 0.6, 3.0]
-        reranker = CrossEncoderReranker(RerankerConfig(strategy="legacy"))
-        with patch.object(reranker, "_load_model", return_value=model):
-            result = reranker.rerank("query", rows)
-            self.assertEqual([r["chunk_id"] for r in result], ["strong", "consensus", "semantic"])
-            self.assertAlmostEqual(result[1]["rrf_bonus"], 0.04)
-            self.assertAlmostEqual(result[1]["rerank_score"], 0.6 * 0.25 * (1 + math.tanh(0.6)) + 0.04)
-            self.assertEqual(result[0]["rrf_bonus"], 0)  # generic score is not RRF
-            reranker.config.rrf_weight = 0
-            self.assertEqual([r["chunk_id"] for r in reranker.rerank("query", rows)],
-                             ["strong", "semantic", "consensus"])
-        self.assertEqual(rows, before)
-
-    def test_invalid_rrf_rejected_before_model_loading(self):
-        for value in (-0.01, 1.01, float("nan"), float("inf"), True, "bad"):
-            reranker = CrossEncoderReranker(RerankerConfig(strategy="legacy"))
-            with patch.object(reranker, "_load_model") as load:
-                with self.assertRaises(ValueError):
-                    reranker.rerank("query", [{"text": "x", "rrf_normalized": value}])
-                load.assert_not_called()
-        for weight in (-1, float("nan"), float("inf")):
-            with self.assertRaises(ValueError):
-                CrossEncoderReranker(RerankerConfig(strategy="legacy", rrf_weight=weight)).rerank("query", [])
-            with self.assertRaises(ValueError):
-                CrossEncoderReranker(RerankerConfig(strategy="legacy", cross_encoder_weight=weight)).rerank("query", [])
-
-    def test_minilm_is_bounded_but_gate_uses_raw_score(self):
-        raw = [-1e300, -6, -0.2, 0, 0.2, 6, 1e300]
-        rows = [{"chunk_id": str(i), "text": "Review."} for i in range(len(raw))]
-        model = Mock()
-        model.predict.return_value = raw
-        reranker = CrossEncoderReranker(RerankerConfig(strategy="legacy"))
-        with patch.object(reranker, "_load_model", return_value=model):
-            result = reranker.rerank("query", rows)
-        by_id = {r["chunk_id"]: r for r in result}
-        for i, score in enumerate(raw):
-            row = by_id[str(i)]
-            self.assertEqual(row["cross_encoder_raw_score"], score)
-            self.assertEqual(row["cross_encoder_score"], 0.25 * (1 + math.tanh(score)))
-            self.assertTrue(0 <= row["cross_encoder_score"] <= 0.5)
-            self.assertTrue(0 <= row["cross_encoder_contribution"] <= 0.3)
-        self.assertEqual(by_id["1"]["aspect_gate"], 0.5)
-        self.assertEqual([r["chunk_id"] for r in result], [str(i) for i in reversed(range(len(raw)))])
-
     def test_rewrite_schema_and_aspect_whitelist(self):
         result = {"query": "Battery life?", "product": [], "aspects": ["battery"]}
         self.assertEqual(validate_result(result), result)

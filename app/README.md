@@ -34,8 +34,7 @@ in this mode:
 - Retrieval aspect boost is enabled with weight 0.5 during candidate selection.
   The UI has no separate aspect-boost switch. The default reranker uses the
   v2 fusion model trained on 100 separate questions, reorders the first 20
-  candidates, and preserves the remaining retrieval order. MiniLM stays frozen;
-  the default does not add the legacy gated aspect reward.
+  candidates, and preserves the remaining retrieval order. MiniLM stays frozen.
 - The evidence panel shows, per product, the filter used (model and all its
   corpus spellings, or brand), how many reviews were searched, and the text
   actually searched.

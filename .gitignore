@@ -26,3 +26,6 @@ indexes_*/
 
 # Generated reranker runs
 /results/reranking/
+
+# Local editor settings
+.vscode/

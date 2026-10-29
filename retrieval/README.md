@@ -1,6 +1,6 @@
 # Retrieval (Group B)
 
-See [Learned Reranker v2](RERANKER_README.md) for training, scoring and usage.
+See [Reranker](RERANKER_README.md) for training, scoring and usage.
 
 Group B turns the knowledge-base chunks into ranked evidence for generation:
 
@@ -133,24 +133,7 @@ indexes/
 
 ## 2. The interface (for reranker / UI / generation)
 
-Default strategy: `learned`, using `retrieval/models/review_ranker_v2.json`. MiniLM is frozen. The fusion layer was trained only on 100 new questions (2,000 fixed retrieval Top20 pairs), covering 16 products disjoint from the existing evaluation40. Query text, chunks and source reviews also have no overlap with evaluation40. Five-fold CV and nested validation keep product groups together; evaluation40 is never used for fitting or selecting this model. The existing 40 questions were used in earlier model development and are not a historically untouched final test.
-
-The selected ridge model uses seven query-normalized features: raw MiniLM logit, semantic reciprocal rank, retrieval reciprocal rank, aspect coverage, log keyword count, keyword density and log text length. Penalty=100; targets are centered relevance grades 0–3. It scores only the first 20 candidates; the remaining candidates keep retrieval order. It does not read relevance labels or query/chunk IDs at inference. Scores are relative ranking scores, not probabilities. CLI `--learned-model retrieval/models/review_ranker_v1.json` explicitly restores the previous model artifact.
-
-Reproduction: `python -m scripts.collect_reranker_training_100` collects fixed candidates, then direct labels are read and assigned; `python -m scripts.finalize_training_100` validates/exports the completed labels; `python -m scripts.train_ranker_100` selects/trains only on training100 and then evaluates the frozen model on evaluation40. Existing direct labels must never be regenerated from model logits. The standalone data archive is `evaluation/reranker_training_100.zip`.
-
-Nested product-group validation on training100 gives P@10=0.8450, MRR@10=0.9783, nDCG@10=0.8635. On the existing evaluation40 with the cached rewritten Top100 and a common qrels (v2 plus six supplementary judgments), the frozen new model gives P@10=0.8925, pooled Recall@100=0.7576, MRR@10=0.9675, nDCG@10=0.8573. The old model scored 0.8875, 0.7576, 1.0000, 0.8628 but used evaluation40 in training. These are not directly comparable to historical reports that used different qrels. The six new judgments were assigned after freezing the model, solely to complete Top10 coverage; they were not used in training or parameter selection. Details: `results/reranker_training_100/`.
-
-Previous strategy: `rank_fusion` (available explicitly). Reorder only the first 20 candidates; retain the tail in retrieval order. MiniLM scores the retrieval `search_text` (model removed after product filtering) against raw chunk text. Let r be the original retrieval rank and m be the descending raw MiniLM rank within the window: `score = 0.2/(10+r) + 0.8/(10+m)`. Stable ties preserve retrieval order. The bounded MiniLM score in [0, 0.5] is retained for display; ranking consumes its rank. Aspect information is preserved through the original retrieval rank; no additional aspect reward or gate is applied. The input must already be ordered by retrieval relevance.
-
-CLI: `--strategy rank_fusion --rerank-window 20 --semantic-rank-weight 0.8 --rank-offset 10`. Legacy weight flags apply only to `--strategy legacy`.
-
-On the existing 40 development queries: five-fold parameter selection gives P@10=0.8475, pooled Recall@10=0.2514, MRR@10=0.9458, nDCG@10=0.7992. The deployed setting selected using all 40 gives 0.8525, 0.2531, 0.9500, 0.8026 respectively. These are development results, not a new held-out test. Details: `results/reranker_design/selection.json`. Query comparisons and rewritten inputs still require separate validation.
-
-### Legacy additive strategy (`strategy="legacy"`)
-
-The following formula and flags describe the retained legacy strategy only.
-
+The application defaults to `learned`: frozen MiniLM plus a regularized linear fusion layer trained on 100 separate questions. The algorithm ablation uses `rank_fusion`: `0.2/(10+retrieval_rank) + 0.8/(10+semantic_rank)`. Both rank only the first 20 retrieval candidates and preserve the tail. See the [reranker guide](RERANKER_README.md) for training, features and configuration, and the [ablation guide](../results/ablation_latest/README.md) for the full eight-system comparison.
 
 ```python
 res = r.retrieve(
@@ -250,8 +233,7 @@ boost, not a filter, because the tags are keyword-based and noisy.
 
 The retrieval weight defaults to 0.5 in `Retriever.retrieve()`, the UI pipeline,
 `scripts.search_cli` and `scripts.test_pipeline`. The UI has no separate
-aspect-boost switch. This retrieval reward is independent of the reranker's
-gated aspect reward (default weight 1.2).
+aspect-boost switch. The trained reranker also uses aspect coverage as a learned feature.
 
 **Query parsing.** Model names are matched against the models that exist in
 the corpus, on token boundaries, longest match first (`iPhone 11 Pro` beats
@@ -425,29 +407,11 @@ Query rewrite does not use conversation history. Extracted products are not guar
 
 ## Ranking Rules
 
-Each candidate must contain `chunk_id`, `doc_id` and `text`. The brand, model and aspect_tags fields may be at the top level or inside metadata; top-level fields take precedence.
+Pass candidates in retrieval order and supply the model-stripped search text through `scoring_query`. MiniLM scores the first 20 `(scoring_query, original chunk text)` pairs. The `learned` strategy standardizes seven selected features in the candidate window and applies the trained coefficients; `rank_fusion` combines retrieval and semantic ranks. Both preserve stable ties and the tail order.
 
-1. Feed each pair `(query, chunk["text"])` directly to MiniLM. The passage is the original chunk text; no brand/model prefix is added. Product metadata remains available for retrieval filters and result display.
-2. MiniLM produces the raw logit `cross_encoder_raw_score = s`, mapped to `cross_encoder_score = 0.25*(1+tanh(s))` in [0, 0.5] for fusion. Hybrid retrieval also exports pure `rrf_score` before its own aspect reward, normalized as `r = rrf_score / (2 / (rrf_k + 1))`. Two equally weighted rankers both ranking a chunk first give `r = 1`. This is a fixed theoretical scale, not per-pool min-max normalization.
-3. Let `coverage = distinct_matched_aspects / distinct_query_aspects` (0 when there are no query aspects), and `gate = sigmoid((s - aspect_threshold) / aspect_temperature)`.
-4. Set `rerank_score = cross_encoder_weight * 0.25*(1+tanh(s)) + rrf_weight * r + aspect_weight * coverage * (0.5 + 0.5 * gate)`, sort descending, take Top-K, and assign `final_rank`. The gate uses the raw MiniLM logit `s` before bounding or weighting it; its -6 midpoint remains on the raw-logit scale.
+The display score `0.25*(1+tanh(raw_logit))` remains within [0, 0.5]; learned ranking features consume raw logits. `feature_contributions` sums to the learned `rerank_score`. Tail scores preserve order and are not semantic predictions. Scores do not represent sentiment.
 
-Defaults: `cross_encoder_weight=0.6`, `rrf_weight=1.0`, `aspect_weight=1.2`, `aspect_threshold=-6`, `aspect_temperature=1`. The default formula is `0.15*(1+tanh(s)) + r + 1.2*coverage*(0.5 + 0.5*sigmoid(s+6))`. MiniLM contributes between 0 and 0.3, RRF at most 1, and aspect coverage at most 1.2. These auxiliary signals can outweigh MiniLM; the final fused score is not restricted to [0, 0.5]. Tanh compresses differences between large-magnitude logits. These are engineering settings, not validated optima; tune on a separate development set, not the held-out test queries.
-
-Only an explicit `rrf_normalized` field is used. Missing/None values contribute 0; generic `score`, BM25 scores and cosine similarities are never interpreted as RRF. Values must be finite and in [0, 1]. Uploaded candidates should export normalized **pure** RRF with the same two-ranker convention. Retrieval's aspect boost affects which chunks enter the pool, but it is not included again in the RRF feature.
-
-Returned dictionaries preserve existing fields and add cross_encoder_contribution (weighted MiniLM score), aspect_match_count, aspect_coverage, aspect_gate, aspect_fixed_bonus, aspect_gated_bonus, aspect_bonus, rrf_normalized, rrf_bonus and the scores above. Only the top-level dictionary is copied; nested metadata is shared with the input and is not modified by this pipeline.
-
-Half the aspect reward is fixed and half is sigmoid-gated. For full aspect coverage, the default reward ranges from 0.6 to 1.2, and equals 0.9 at the raw-score threshold -6. Partial coverage scales both parts proportionally; no matches or no query aspects give zero reward. Temperature must be positive; smaller values produce a sharper transition. The gate and the normalized RRF are not relevance probabilities.
-
-Omitting query_aspects or setting aspect_weight=0 disables only the aspect reward. Set rrf_weight=0 to disable the retrieval prior; setting both auxiliary weights to 0 gives weighted, bounded MiniLM. CLI flags `--cross-encoder-weight`, `--rrf-weight`, `--aspect-weight`, `--aspect-threshold` and `--aspect-temperature` adjust these components. The UI uses the defaults, except the device, which it picks automatically (CUDA > MPS > CPU).
-`top_k=None` returns all candidates; `top_k=0` returns an empty list. `rerank_with_details()` also returns timings and configuration.
-
-The default model is `cross-encoder/ms-marco-MiniLM-L6-v2`, running on CPU by default with batch_size=16 and max_length=512 (the UI and `scripts/test_pipeline.py` pick CUDA > MPS > CPU instead; see Part A, section 4, for the macOS CPU crash). The model is downloaded on first use and cached afterward.
-The 512-token limit includes the query, original chunk text and special tokens. The tokenizer truncates longer input.
-Raw MiniLM scores may be positive or negative; higher is more relevant. Final scores include aspect bonuses. Neither score represents sentiment.
-
-`rerank_with_details()` returns candidates, input_count, timing_ms and config. Timings are in milliseconds: model_load covers initial loading during this call, rerank covers scoring and sorting, and total covers the full reranking call. These exclude the external query rewrite API call.
+`top_k=None` keeps all candidates and `top_k=0` skips scoring. `rerank_with_details()` also returns configuration and load/inference timings. See [RERANKER_README.md](RERANKER_README.md) for the training objective and API example.
 
 ## Standalone Commands
 

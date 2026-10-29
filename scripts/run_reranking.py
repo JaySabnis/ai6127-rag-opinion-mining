@@ -3,7 +3,7 @@
 Input : candidate JSON/JSONL, query, and optional query aspects
 Output: JSON with ranked candidates, score components, timings, and settings
 
-Steps: read candidates -> configure MiniLM/aspect gate -> rerank -> save JSON.
+Steps: read candidates -> configure MiniLM and fusion -> rerank -> save JSON.
 """
 
 from __future__ import annotations
@@ -51,16 +51,11 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--top-k", type=int, default=10)
     parser.add_argument("--aspects", nargs="*", choices=tuple(ASPECT_KEYWORDS), default=[])
-    parser.add_argument("--strategy", choices=["learned", "rank_fusion", "legacy"], default="learned")
+    parser.add_argument("--strategy", choices=["learned", "rank_fusion"], default="learned")
     parser.add_argument("--learned-model", help="Optional learned model JSON; defaults to the dedicated training100 model")
     parser.add_argument("--rerank-window", type=int, default=20)
     parser.add_argument("--semantic-rank-weight", type=float, default=0.8)
     parser.add_argument("--rank-offset", type=float, default=10)
-    parser.add_argument("--rrf-weight", type=float, default=1.0)
-    parser.add_argument("--cross-encoder-weight", type=float, default=0.6)
-    parser.add_argument("--aspect-weight", type=float, default=1.2)
-    parser.add_argument("--aspect-threshold", type=float, default=-6.0)
-    parser.add_argument("--aspect-temperature", type=float, default=1.0)
     parser.add_argument("--device", default="cpu")
     parser.add_argument("--local-files-only", action="store_true")
     parser.add_argument(
@@ -82,11 +77,6 @@ def main() -> None:
         semantic_rank_weight=args.semantic_rank_weight, rank_offset=args.rank_offset,
         device=args.device,
         local_files_only=args.local_files_only,
-        rrf_weight=args.rrf_weight,
-        cross_encoder_weight=args.cross_encoder_weight,
-        aspect_weight=args.aspect_weight,
-        aspect_threshold=args.aspect_threshold,
-        aspect_temperature=args.aspect_temperature,
     ))
     result = reranker.rerank_with_details(
         args.query, candidates, top_k=args.top_k, query_aspects=args.aspects,

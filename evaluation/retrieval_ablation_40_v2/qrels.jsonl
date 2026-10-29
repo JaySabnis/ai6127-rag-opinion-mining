@@ -4,6 +4,7 @@
 {"query_id": "Q001", "doc_id": "12ae4c389254_0", "relevance": 0}
 {"query_id": "Q001", "doc_id": "261887824a62_0", "relevance": 3}
 {"query_id": "Q001", "doc_id": "269f252e9634_0", "relevance": 2}
+{"query_id": "Q001", "doc_id": "272808138c4b_0", "relevance": 2}
 {"query_id": "Q001", "doc_id": "2af44dfe1a4b_0", "relevance": 0}
 {"query_id": "Q001", "doc_id": "31a99225150b_0", "relevance": 2}
 {"query_id": "Q001", "doc_id": "32d6edfe2dde_2", "relevance": 0}
@@ -526,6 +527,7 @@
 {"query_id": "Q009", "doc_id": "3ef41804aaa1_0", "relevance": 1}
 {"query_id": "Q009", "doc_id": "41fca5a06bdd_0", "relevance": 1}
 {"query_id": "Q009", "doc_id": "4606a2adc305_0", "relevance": 1}
+{"query_id": "Q009", "doc_id": "4d45cff84659_0", "relevance": 2}
 {"query_id": "Q009", "doc_id": "4df85135011c_1", "relevance": 3}
 {"query_id": "Q009", "doc_id": "4fcf421db5cc_0", "relevance": 3}
 {"query_id": "Q009", "doc_id": "54946476d90d_0", "relevance": 0}
@@ -659,6 +661,7 @@
 {"query_id": "Q011", "doc_id": "50c801e602ff_0", "relevance": 2}
 {"query_id": "Q011", "doc_id": "50d50b3604ae_0", "relevance": 1}
 {"query_id": "Q011", "doc_id": "52a425788215_0", "relevance": 2}
+{"query_id": "Q011", "doc_id": "5338f5918fa1_0", "relevance": 2}
 {"query_id": "Q011", "doc_id": "55bf3f786c69_0", "relevance": 1}
 {"query_id": "Q011", "doc_id": "566c35e7cf74_0", "relevance": 3}
 {"query_id": "Q011", "doc_id": "58607ea5c15c_0", "relevance": 2}
@@ -765,6 +768,7 @@
 {"query_id": "Q012", "doc_id": "b964ad0e3802_0", "relevance": 2}
 {"query_id": "Q012", "doc_id": "bc4c7a82de32_0", "relevance": 2}
 {"query_id": "Q012", "doc_id": "bd728565f5bf_0", "relevance": 2}
+{"query_id": "Q012", "doc_id": "c32f9f18582c_0", "relevance": 2}
 {"query_id": "Q012", "doc_id": "c449bc442080_0", "relevance": 2}
 {"query_id": "Q012", "doc_id": "c46e21890046_0", "relevance": 0}
 {"query_id": "Q012", "doc_id": "cb031b21ff98_0", "relevance": 0}
@@ -798,6 +802,7 @@
 {"query_id": "Q013", "doc_id": "2bc6e52051a0_0", "relevance": 0}
 {"query_id": "Q013", "doc_id": "2d0c183b650c_0", "relevance": 3}
 {"query_id": "Q013", "doc_id": "310d98305d8b_0", "relevance": 0}
+{"query_id": "Q013", "doc_id": "33712dfa8909_0", "relevance": 2}
 {"query_id": "Q013", "doc_id": "36e776a1dd76_0", "relevance": 2}
 {"query_id": "Q013", "doc_id": "3df80a189408_0", "relevance": 0}
 {"query_id": "Q013", "doc_id": "45dff12effbb_0", "relevance": 0}
@@ -1186,6 +1191,7 @@
 {"query_id": "Q019", "doc_id": "31a99225150b_0", "relevance": 2}
 {"query_id": "Q019", "doc_id": "335daa408426_0", "relevance": 1}
 {"query_id": "Q019", "doc_id": "3532ad227da5_0", "relevance": 0}
+{"query_id": "Q019", "doc_id": "36f02f37b293_0", "relevance": 3}
 {"query_id": "Q019", "doc_id": "3a84c064c729_0", "relevance": 0}
 {"query_id": "Q019", "doc_id": "3df80a189408_0", "relevance": 1}
 {"query_id": "Q019", "doc_id": "434883db1231_0", "relevance": 0}
@@ -1217,6 +1223,7 @@
 {"query_id": "Q019", "doc_id": "a04d016a168b_0", "relevance": 0}
 {"query_id": "Q019", "doc_id": "a1757a16106e_0", "relevance": 2}
 {"query_id": "Q019", "doc_id": "a590e4f13b6c_0", "relevance": 0}
+{"query_id": "Q019", "doc_id": "a77d11c712b2_0", "relevance": 2}
 {"query_id": "Q019", "doc_id": "a7ee0861b883_1", "relevance": 2}
 {"query_id": "Q019", "doc_id": "acef1f9eece3_0", "relevance": 0}
 {"query_id": "Q019", "doc_id": "b0aeba9e0067_0", "relevance": 3}
@@ -1231,6 +1238,7 @@
 {"query_id": "Q019", "doc_id": "d984310eb2eb_0", "relevance": 2}
 {"query_id": "Q019", "doc_id": "dc800c2868a5_1", "relevance": 2}
 {"query_id": "Q019", "doc_id": "de25b0e25239_0", "relevance": 2}
+{"query_id": "Q019", "doc_id": "e0566206c7df_0", "relevance": 0}
 {"query_id": "Q019", "doc_id": "e265e147e15b_7", "relevance": 1}
 {"query_id": "Q019", "doc_id": "e3890901c0de_0", "relevance": 0}
 {"query_id": "Q019", "doc_id": "e70a4e9e122a_0", "relevance": 0}
@@ -1251,6 +1259,7 @@
 {"query_id": "Q020", "doc_id": "1e83be66d2d1_0", "relevance": 0}
 {"query_id": "Q020", "doc_id": "2197c7f273c2_0", "relevance": 2}
 {"query_id": "Q020", "doc_id": "24e57a74aa4c_0", "relevance": 2}
+{"query_id": "Q020", "doc_id": "2ec9513178ad_0", "relevance": 0}
 {"query_id": "Q020", "doc_id": "2ff87381aacf_0", "relevance": 3}
 {"query_id": "Q020", "doc_id": "3150cd978fab_0", "relevance": 3}
 {"query_id": "Q020", "doc_id": "351689a84ce4_0", "relevance": 1}
@@ -1269,6 +1278,7 @@
 {"query_id": "Q020", "doc_id": "4ee828af1035_0", "relevance": 2}
 {"query_id": "Q020", "doc_id": "5922d4f4cc6d_0", "relevance": 1}
 {"query_id": "Q020", "doc_id": "5c485f30d5ce_0", "relevance": 1}
+{"query_id": "Q020", "doc_id": "6352a877ce27_0", "relevance": 2}
 {"query_id": "Q020", "doc_id": "63561af7a6d6_0", "relevance": 1}
 {"query_id": "Q020", "doc_id": "64dd1d56247e_0", "relevance": 2}
 {"query_id": "Q020", "doc_id": "655db5e52cba_0", "relevance": 3}
@@ -1692,6 +1702,7 @@
 {"query_id": "Q026", "doc_id": "12b7a4b25986_0", "relevance": 0}
 {"query_id": "Q026", "doc_id": "155d64ba046a_0", "relevance": 3}
 {"query_id": "Q026", "doc_id": "172ac4d59c02_0", "relevance": 0}
+{"query_id": "Q026", "doc_id": "177f6d3d2ce1_0", "relevance": 1}
 {"query_id": "Q026", "doc_id": "18c36e3498f6_0", "relevance": 3}
 {"query_id": "Q026", "doc_id": "1b271d96bbda_0", "relevance": 3}
 {"query_id": "Q026", "doc_id": "20b3104c5c74_0", "relevance": 1}
@@ -1756,6 +1767,7 @@
 {"query_id": "Q026", "doc_id": "b461d253c516_0", "relevance": 3}
 {"query_id": "Q026", "doc_id": "b5cdf4a46f2f_0", "relevance": 3}
 {"query_id": "Q026", "doc_id": "ba1672bc0dfc_0", "relevance": 0}
+{"query_id": "Q026", "doc_id": "bd4e0a2548b4_0", "relevance": 3}
 {"query_id": "Q026", "doc_id": "bfceb677cc49_0", "relevance": 0}
 {"query_id": "Q026", "doc_id": "c83477b46c3e_0", "relevance": 0}
 {"query_id": "Q026", "doc_id": "cbe492bdc069_0", "relevance": 3}
@@ -1763,6 +1775,7 @@
 {"query_id": "Q026", "doc_id": "d5b0c39aa23a_0", "relevance": 0}
 {"query_id": "Q026", "doc_id": "d94c415d2163_0", "relevance": 3}
 {"query_id": "Q026", "doc_id": "dad6f92d7174_0", "relevance": 3}
+{"query_id": "Q026", "doc_id": "dbef708411ae_0", "relevance": 0}
 {"query_id": "Q026", "doc_id": "de07f3357ef2_0", "relevance": 3}
 {"query_id": "Q026", "doc_id": "e5ad0269fff0_0", "relevance": 2}
 {"query_id": "Q026", "doc_id": "e809836ec142_0", "relevance": 0}
@@ -2495,6 +2508,7 @@
 {"query_id": "Q039", "doc_id": "1f31a1fdf55e_0", "relevance": 0}
 {"query_id": "Q039", "doc_id": "23e5fbbd6de9_0", "relevance": 3}
 {"query_id": "Q039", "doc_id": "302139ab19e7_0", "relevance": 2}
+{"query_id": "Q039", "doc_id": "30b86e223b62_0", "relevance": 3}
 {"query_id": "Q039", "doc_id": "3ab023593317_1", "relevance": 3}
 {"query_id": "Q039", "doc_id": "3b00f95fbbe1_0", "relevance": 3}
 {"query_id": "Q039", "doc_id": "3cc48a91870c_3", "relevance": 3}

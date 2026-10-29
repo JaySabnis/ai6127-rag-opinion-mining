@@ -1,42 +1,34 @@
-# Dedicated Reranker Training Set: 100 Queries
+# Reranker Training100
 
-The set contains 100 English queries covering 16 products: 96 single-aspect queries (16 each for camera, battery, display, performance, service and carrier) and four camera-and-battery queries. Query text, target products, chunks, source reviews and exact text are disjoint from evaluation40.
+The set contains **100 questions with 20 fixed retrieval candidates each**, totaling 2,000 judgments across 16 products. There are 96 single-aspect questions (16 each for camera, battery, display, performance, service and carrier) and four camera-and-battery questions. It includes 1,797 unique chunks and 1,703 source reviews; grade counts are 0=225, 1=209, 2=592, 3=974.
 
-## Fixed candidate collection
+The judged training and evaluation sets have disjoint queries, target products, chunks, source reviews and exact text.
 
-Search the full shared indexes with product filtering, model-name removal, BM25/dense RRF and retrieval aspect boosting. Retrieve 50 results at depth 150 per channel, keeping at most one chunk per source review. Freeze the first 20 candidates before judging. No candidates are replaced to balance the labels.
+## Candidate Collection
 
-There are 2,000 query-chunk judgments, 1,797 unique chunks and 1,703 source reviews. Grade counts are 0: 225; 1: 209; 2: 592; 3: 974.
-
-## Relevance grades
-
-- 0: wrong product or no answer-bearing content.
-- 1: vague, indirect or weak relevance.
-- 2: clear but brief or partial support.
-- 3: detailed direct experience, context or comparison.
-
-Positive and negative opinions can both be relevant. Multi-aspect evidence covering only one aspect is capped at 2. Explicit product references take precedence over metadata. Battery health is not endurance, shipping speed is not performance, and bootloader unlocking is not carrier unlocking. Candidate files contain original text and relevance grades without rationale or evidence fields.
+Search the full shared indexes with product filtering, model-name removal, BM25/dense RRF and retrieval aspect boosting. Retrieve 50 candidates at depth 150 per channel, keeping at most one chunk per review, and freeze the first 20 before grading. Candidates are not replaced to balance the labels.
 
 ## Files
 
-- `queries.jsonl`: the 100 fixed questions, product groups and aspect descriptions.
-- `dataset_labeled.jsonl`: queries with the 20 candidates, original text and labels.
-- `qrels.jsonl`, `qrels.trec`, `qrels.tsv`: equivalent judgment formats; qrels `doc_id` is the chunk ID.
-- `corpus.jsonl`: source metadata for all judged chunks.
-- `scored_candidates.jsonl`: original retrieval order, retrieval features, model-stripped queries and frozen MiniLM logits for training reproduction.
-- `collection/`: per-query collection checkpoints.
-- `direct_labels.json`: 20 grades per query in its original retrieval order.
-- `manifest.json`: collection settings, counts, hashes and separation checks.
+- [queries.jsonl](queries.jsonl): the 100 questions, product groups and aspects.
+- [dataset_labeled.jsonl](dataset_labeled.jsonl): original candidate text, retrieval rank and relevance.
+- [qrels.jsonl](qrels.jsonl) and [qrels.trec](qrels.trec): judgments keyed by question and chunk ID.
+- [corpus.jsonl](corpus.jsonl): source metadata for judged chunks.
+- [scored_candidates.jsonl](scored_candidates.jsonl): the single collection checkpoint, with model-stripped queries, original retrieval order, features and frozen MiniLM logits.
+- [manifest.json](manifest.json): counts, source checks, dataset separation and hashes.
 
-## Training and model
+The [evaluation guide](../README.md) defines grades 0–3. Positive and negative opinions can both be relevant; one-aspect support for multi-aspect questions is capped at 2. Labels contain no rationale or evidence fields.
+
+## Training and Validation
 
 ```powershell
+uv run python -X utf8 -m scripts.collect_reranker_training_100
 uv run python -X utf8 -m scripts.finalize_training_100
 uv run python -X utf8 -m scripts.train_ranker_100
 ```
 
-Run from the repository root. MiniLM is frozen; only the Ridge fusion layer is fitted. Product-group cross-validation selects parameters using training100 only, then the frozen model is checked on evaluation40.
+Collection resumes from `scored_candidates.jsonl`; completed candidate sets are reused. The finalizer verifies source text and dataset separation using local `data/corpus.jsonl` and rebuilds exports from ID-keyed qrels. It does not depend on positional label arrays or individual collection files.
 
-The default artifact is `retrieval/models/review_ranker_v2.json`. It uses seven features, relevance-grade targets and ridge penalty 100. Nested product-group validation gives nDCG@10=0.8635. Training fit is not a test score. Evaluation40 influenced earlier project development and is not an untouched final test set.
+MiniLM is frozen. Only the ridge fusion coefficients are trained. Product-group cross-validation selects parameters on training100; evaluation40 does not participate. The model uses seven features, grade targets and ridge penalty 100. Nested validation gives nDCG@10=0.8635; training fit is not a test score.
 
-See the [reranker guide](../../retrieval/RERANKER_README.md), [training results](../../results/reranker_training_100/README.md) and [latest ablation report](../../results/ablation_latest/README.md). Delivery archives can be generated locally and are excluded from version control.
+See the [reranker guide](../../retrieval/RERANKER_README.md), [training results](../../results/reranker_training_100/README.md) and [ablation report](../../results/ablation_latest/README.md).

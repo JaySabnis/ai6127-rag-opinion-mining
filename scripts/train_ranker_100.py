@@ -1,11 +1,11 @@
-"""Train only on the dedicated 100 queries; evaluate once on the separate 40."""
+"""Train the fusion layer using product-group validation on training100 only."""
 import csv
 import hashlib
 import json
 from pathlib import Path
 import numpy as np
-from retrieval.learned_rank import FEATURES, features, predict
-from scripts.design_reranker import metrics, order
+from retrieval.learned_rank import FEATURES, features
+from scripts.ranking_metrics import metrics
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'evaluation/reranker_training_100'
@@ -67,7 +67,6 @@ def main():
            'evaluation40_used_for_training_or_selection':False}
     model_path=ROOT/'retrieval/models/review_ranker_v2.json'
     model_path.write_text(json.dumps(model,indent=2)+'\n',encoding='utf8')
-    (OUT/'model.json').write_bytes(model_path.read_bytes())
     report={'training_queries':100,'training_pairs':2000,'training_products':len(groups),
             'metrics':['P@10','MRR@10','nDCG@10'],'model':model,
             'nested_product_group_cv':nested.mean(axis=0).tolist(),
@@ -79,59 +78,13 @@ def main():
     with (OUT/'training_oof.csv').open('w',newline='',encoding='utf8') as f:
         w=csv.writer(f);w.writerow(['query_id','product_group','fold','P@10','MRR@10','nDCG@10'])
         for i,d in enumerate(data):w.writerow([d['query_id'],d['product_group'],folds[i],*nested[i]])
-    # Model artifact is frozen above before any eval40 labels are read.
-    evaluate_frozen(model,OUT)
+    manifest={'training_queries':100,'training_pairs':2000,'miniLM_frozen':True,
+        'evaluation_used_for_training_or_selection':False,
+        'model_sha256':hashlib.sha256(model_path.read_bytes()).hexdigest(),
+        'files':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(OUT.iterdir()) if p.is_file() and p.name!='execution_manifest.json'}}
+    (OUT/'execution_manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf8',newline='\n')
     print(json.dumps({'nested_product_group_cv':report['nested_product_group_cv'],
                       'selected':{'columns':cols,'alpha':alpha,'target':target},
                       'training_fit':report['training_fit']},indent=2))
-
-def evaluate_frozen(model,out):
-    eval_root=ROOT/'evaluation/retrieval_ablation_40_v2'
-    labels={}
-    for s in (eval_root/'qrels.jsonl').read_text().splitlines():
-        r=json.loads(s);labels.setdefault(r['query_id'],{})[r['doc_id']]=r['relevance']
-    extra_path=out/'evaluation_supplement.json'
-    if extra_path.exists():
-        for qid,items in json.loads(extra_path.read_text()).items():
-            for cid,grade in items.items():
-                assert cid not in labels[qid]
-                labels[qid][cid]=grade
-    (out/'evaluation_qrels.trec').write_text(''.join(
-        f'{qid} 0 {cid} {g}\n' for qid,items in labels.items() for cid,g in sorted(items.items())),encoding='utf8')
-    old=json.loads((ROOT/'retrieval/models/review_ranker_v1.json').read_text())
-    systems=['retrieval','legacy','learned_v1','learned_v2']
-    values={k:[] for k in systems};lines={k:[] for k in systems};per_query=[]
-    for qid in sorted(labels):
-        d=json.loads((ROOT/f'results/ablation_8/collection/{qid}.json').read_text(encoding='utf8'))
-        baseline=sorted(d['runs']['08_learned'],key=lambda r:r['retrieval_rank'])
-        head=baseline[:20];raw=[r['cross_encoder_raw_score'] for r in head]
-        query=d['details']['08_learned']['scoring_query']
-        v2=predict(query,head,raw,model);v1=predict(query,head,raw,old)
-        rankings={'retrieval':baseline,'legacy':d['runs']['07_rewrite'],
-                  'learned_v1':[head[i] for i in sorted(range(20),key=lambda i:v1[i],reverse=True)]+baseline[20:],
-                  'learned_v2':[head[i] for i in sorted(range(20),key=lambda i:v2[i],reverse=True)]+baseline[20:]}
-        for name,ranked in rankings.items():
-            ids=[r['chunk_id'] for r in ranked];assert len(ids)==100
-            assert all(cid in labels[qid] for cid in ids[:10])
-            metric=metrics(ids,labels[qid]);nrel=sum(g>=2 for g in labels[qid].values())
-            recall=sum(labels[qid].get(cid,0)>=2 for cid in ids)/nrel
-            vals=[metric[0],recall,metric[1],metric[2]];values[name].append(vals)
-            per_query.append([name,qid,*vals])
-            lines[name].extend(f'{qid} Q0 {cid} {r} {101-r} {name}' for r,cid in enumerate(ids,1))
-    means={name:np.mean(v,axis=0).tolist() for name,v in values.items()}
-    delta=np.array(values['learned_v2'])-np.array(values['learned_v1'])
-    rng=np.random.default_rng(42);boot=delta[rng.integers(0,40,(10000,40))].mean(axis=1)
-    evaluation={'metrics':['P@10','pooled_Recall@100','MRR@10','nDCG@10'],
-        'query_count':40,'qrels':'evaluation_qrels.trec: v2 qrels plus frozen-model Top10 supplement, shared by all four metrics',
-        'supplemental_judgments':sum(len(items) for items in json.loads(extra_path.read_text()).values()) if extra_path.exists() else 0,
-        'summary':means,'v2_minus_v1':{'mean':delta.mean(axis=0).tolist(),'paired_bootstrap_ci95':np.quantile(boot,[.025,.975],axis=0).tolist(),
-        'ndcg_wins_ties_losses':[int((delta[:,3]>1e-10).sum()),int((abs(delta[:,3])<=1e-10).sum()),int((delta[:,3]<-1e-10).sum())]},
-        'protocol':'Same cached rewritten Top100 as ablation8; fixed Top20 window; frozen MiniLM logits reused, no retrieval/API rerun. Weights selected without eval40. v1 used eval40 in training; v2 did not. eval40 is not historically untouched.'}
-    (out/'evaluation40.json').write_text(json.dumps(evaluation,indent=2)+'\n',encoding='utf8')
-    (out/'runs').mkdir(exist_ok=True)
-    for name,rows in lines.items():(out/'runs'/f'{name}.trec').write_text('\n'.join(rows)+'\n',encoding='utf8')
-    with (out/'evaluation40_per_query.csv').open('w',newline='',encoding='utf8') as f:
-        w=csv.writer(f);w.writerow(['system','query_id',*evaluation['metrics']]);w.writerows(per_query)
-    print(json.dumps(evaluation,indent=2))
 
 if __name__=='__main__':main()

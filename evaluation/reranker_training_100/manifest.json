@@ -12,38 +12,17 @@
     "2": 592,
     "3": 974
   },
-  "query_types": {
-    "single_aspect": 96,
-    "multi_aspect": 4
-  },
-  "collection": {
-    "scope": "full existing indexes",
-    "mode": "hybrid",
-    "retrieval_k": 50,
-    "candidate_k_per_channel": 150,
-    "aspect_weight": 0.5,
-    "strip_model": true,
-    "max_per_doc": 1,
-    "saved_candidates": "fixed retrieval Top20, before reranking"
-  },
   "validation": {
-    "query_disjoint_from_eval40": true,
-    "target_product_disjoint_from_eval40": true,
-    "chunk_disjoint_from_eval40": true,
-    "review_disjoint_from_eval40": true,
-    "exact_text_disjoint_from_eval40": true,
     "source_text_verified": true,
-    "all_2000_pairs_labeled": true
+    "query_product_chunk_review_text_disjoint_from_evaluation": true
   },
-  "grading": "0 irrelevant/wrong product; 1 weak/indirect; 2 clear partial/brief; 3 detailed direct evidence; multi-aspect one-aspect support capped at 2",
-  "miniLM_frozen": true,
-  "scoring_api_used": false,
   "files": {
+    "corpus.jsonl": "0b00c8c9a442c8ab1df20234a178d1827ac6b8aab178b39c77b0c2fab804d691",
+    "dataset_labeled.jsonl": "bce2774783509bbff5735f481209cdc62f000c3d31f3442504c40857c3d8c394",
+    "qrels.jsonl": "83cdcd23491ab416e4e3a38c81b8885357af2a269e76b47d4ec13d59a0b14fb8",
+    "qrels.trec": "d9d33c0f0130ce254afb78f692c9938f5b2c6158ca328f18f35532fa6c0b3669",
     "queries.jsonl": "cd2965b99422dd99be53a459605f8fb9d7f9cf403881362f9a747a634e8ffd0c",
-    "qrels.jsonl": "a0d48d6f6646bfa07050513349f05b325fb285b2bce65ac7279f72fa29376d1b",
-    "dataset_labeled.jsonl": "eb1f95871906b627c52c5725bbe4ac2aa4270fb76749afe099a9537f6e808386",
-    "corpus.jsonl": "cec5d7196693e1364afc98eb897adda6ff7760d67f545d750a966797f4295869",
-    "scored_candidates.jsonl": "45b65a13e600aab0d2100d31819c313cfe79c9b1d32e1c1000105059f1dfca89",
-    "README.md": "28fe5f547a38357f2fe37b77eb9af24e8b7bd02f81a1d2a22d1d73d29cebd9c0"
+    "README.md": "314e409a136ba043abee70bd4b9fd7e53a40df3e64f2df54149bbad6a7abf1dc",
+    "scored_candidates.jsonl": "45b65a13e600aab0d2100d31819c313cfe79c9b1d32e1c1000105059f1dfca89"
   }
 }
