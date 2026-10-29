@@ -174,6 +174,27 @@ def test_rrf_and_aspect_boost():
     assert boosted == {3} and math.isclose(fused[3], 1 / 63 + 1 / 61 + 0.5 / 61)
 
 
+def test_exported_rrf_excludes_aspect_reward_and_respects_rrf_k():
+    with tempfile.TemporaryDirectory() as tmp:
+        r = _build(tmp)
+        res = r.retrieve("Galaxy S10 camera", mode="hybrid", k=5, rrf_k=7, aspect_weight=0.5)
+        assert any(h.aspect_boosted for h in res.hits)
+        for h in res.hits:
+            expected = sum(1 / (7 + rank) for rank in (h.bm25_rank, h.dense_rank) if rank is not None)
+            assert math.isclose(h.rrf_score, expected)
+            assert math.isclose(h.rrf_normalized, expected / (2 / 8))
+            assert 0 <= h.rrf_normalized <= 1
+            assert math.isclose(h.score, expected + (0.5 / 8 if h.aspect_boosted else 0))
+            assert h.to_dict()["rrf_normalized"] == h.rrf_normalized
+        for mode in ("bm25", "dense"):
+            assert all(h.rrf_normalized is None for h in r.retrieve("camera", mode=mode, k=3).hits)
+        default = r.retrieve("Galaxy S10 camera", mode="hybrid", k=5)
+        assert default.parsed.aspects == ["camera"]
+        assert any(h.aspect_boosted for h in default.hits)
+        assert all(math.isclose(h.score, h.rrf_score + (0.5 / 61 if h.aspect_boosted else 0))
+                   for h in default.hits)
+
+
 # -------------------------------------------------------------- retriever
 def test_retriever_end_to_end():
     with tempfile.TemporaryDirectory() as tmp:
@@ -260,7 +281,8 @@ def test_aspects_override_from_llm():
     with tempfile.TemporaryDirectory() as tmp:
         r = _build(tmp)
         # "lasts all day" has no aspect keyword; the LLM says it is about the battery
-        res = r.retrieve("does it last all day", k=10, auto_filter=False, aspects=["battery", "battery"])
+        res = r.retrieve("does it last all day", k=10, auto_filter=False,
+                         aspects=["battery", "battery"], aspect_weight=0.5)
         assert res.parsed.aspects == ["battery"]
         assert all(("battery" in h.aspect_tags) == h.aspect_boosted for h in res.hits)
         assert any(h.aspect_boosted for h in res.hits)

@@ -40,6 +40,7 @@ def search_full_corpus(
     use_rewrite: bool = True,
     rewrite_fn: Callable[[str], dict] | None = None,
     pool_k: int = 50,
+    retrieval_aspect_weight: float = 0.5,
 ) -> dict:
     started, timing = perf_counter(), {}
 
@@ -59,10 +60,11 @@ def search_full_corpus(
         query = rewritten["query"]
         filters = [product_filter(retriever, p) for p in rewritten["product"]] or [None]
         results = [retriever.retrieve(query, k=pool_k, auto_filter=False,
-                                      aspects=rewritten["aspects"], filters=f) for f in filters]
+                                      aspects=rewritten["aspects"], filters=f,
+                                      aspect_weight=retrieval_aspect_weight) for f in filters]
     else:
         query = question
-        results = [retriever.retrieve(query, k=pool_k)]  # parser detects the model itself
+        results = [retriever.retrieve(query, k=pool_k, aspect_weight=retrieval_aspect_weight)]
     timing["retrieve"] = _ms(t)
     aspects = results[0].parsed.aspects
 
@@ -92,6 +94,7 @@ def search_full_corpus(
                 "n_candidates": res.n_candidates,
                 "search_text": res.search_text,
                 "hits": len(res.hits),
+                "aspect_weight": retrieval_aspect_weight,
             }
             for res in results
         ],

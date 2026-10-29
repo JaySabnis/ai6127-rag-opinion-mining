@@ -46,7 +46,8 @@ def main() -> None:
     ap.add_argument("--min-rating", type=int, default=None)
     ap.add_argument("--max-rating", type=int, default=None)
     ap.add_argument("--no-auto-filter", action="store_true")
-    ap.add_argument("--aspect-weight", type=float, default=0.5)
+    ap.add_argument("--aspect-weight", type=float, default=0.5,
+                    help="Retrieval aspect boost weight (default: 0.5)")
     ap.add_argument("--keep-all-chunks", action="store_true", help="do not de-duplicate by review")
     ap.add_argument("--no-strip-model", action="store_true", help="keep the model name in the searched text")
     ap.add_argument("--no-dense", action="store_true", help="load BM25 only")

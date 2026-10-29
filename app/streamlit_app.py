@@ -61,7 +61,7 @@ def parse_candidates(data: bytes, filename: str) -> list[dict]:
 
 @st.cache_resource
 def get_reranker() -> CrossEncoderReranker:
-    """Reuse one lazy-loading model instance instead of loading on every UI rerun.
+    """Reuse a reranker with MiniLM scores in [0, 0.5] and half-fixed aspect rewards.
 
     Device cuda > mps > cpu: on macOS a CPU reranker in the same process as
     FAISS crashed with a segmentation fault in testing.
@@ -168,6 +168,7 @@ def render_evidence(reply: dict) -> None:
             render_aspects(metadata.get("aspect_tags") or [])
             if reply["reranked"]:
                 st.caption(f"Score {chunk['rerank_score']:.2f}"
+                           f" · RRF +{chunk.get('rrf_bonus', 0):.2f}"
                            f" · Aspect +{chunk.get('aspect_bonus', 0):.2f}")
             url = metadata.get("source_url")
             try:

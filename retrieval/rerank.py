@@ -3,8 +3,8 @@
 Input : query, candidate dictionaries, and query aspects from query rewrite
 Output: ranked candidates with model score, aspect bonus, and final rank
 
-Steps: add product context -> score (query, chunk) pairs -> apply gated aspect
-bonuses -> sort -> return Top-K. This module does not retrieve or filter products.
+Steps: score query/raw-text pairs -> add bounded pure-RRF and gated aspect
+signals -> sort -> return Top-K. This module does not retrieve or filter products.
 """
 
 from dataclasses import asdict, dataclass
@@ -28,8 +28,10 @@ class RerankerConfig:
     batch_size: int = 16
     max_length: int = 512
     local_files_only: bool = False
-    aspect_weight: float = 0.5       # maximum reward per distinct matched aspect
-    aspect_threshold: float = -5.0  # model score at which half the reward is kept
+    cross_encoder_weight: float = 0.6
+    rrf_weight: float = 1.0         # max additive RRF reward
+    aspect_weight: float = 1.2      # max reward for covering all query aspects
+    aspect_threshold: float = -6.0  # raw model score at which half the reward is kept
     aspect_temperature: float = 1.0  # smaller = sharper transition; must be > 0
 
 
@@ -47,13 +49,24 @@ def _metadata(chunk: dict) -> dict:
     return {**(chunk.get("metadata") or {}), **chunk}
 
 
-def _model_text(chunk: dict) -> str:
-    """Prefix known product metadata for scoring; leave the stored text unchanged."""
-    metadata = _metadata(chunk)
-    product = " ".join(str(metadata.get(key) or "").strip() for key in ("brand", "model")).strip()
-    if product:
-        return f"This is a review of {product}.\n\n{chunk['text']}"
-    return chunk["text"]
+def _rrf_normalized(chunk: dict) -> float:
+    """Only consume an explicitly normalized pure RRF, never generic `score`.
+
+    Hybrid retrieval exports this value before its own aspect bonus. BM25,
+    dense-only and uploaded candidates without the field receive no RRF bonus.
+    """
+    value = chunk.get("rrf_normalized")
+    if value is None:
+        return 0.0
+    if isinstance(value, bool):
+        raise ValueError("rrf_normalized must be a finite number in [0, 1]")
+    try:
+        value = float(value)
+    except (TypeError, ValueError):
+        raise ValueError("rrf_normalized must be a finite number in [0, 1]") from None
+    if not math.isfinite(value) or not 0 <= value <= 1:
+        raise ValueError("rrf_normalized must be a finite number in [0, 1]")
+    return value
 
 
 # ---- reusable model and ranking pipeline
@@ -99,6 +112,10 @@ class CrossEncoderReranker:
             raise ValueError("query must not be empty")
         if top_k is not None and top_k < 0:
             raise ValueError("top_k must be non-negative")
+        if not math.isfinite(self.config.cross_encoder_weight) or self.config.cross_encoder_weight < 0:
+            raise ValueError("cross_encoder_weight must be finite and non-negative")
+        if not math.isfinite(self.config.rrf_weight) or self.config.rrf_weight < 0:
+            raise ValueError("rrf_weight must be finite and non-negative")
         if not math.isfinite(self.config.aspect_weight) or self.config.aspect_weight < 0:
             raise ValueError("aspect_weight must be finite and non-negative")
         if not math.isfinite(self.config.aspect_threshold):
@@ -115,8 +132,9 @@ class CrossEncoderReranker:
         input_count = len(records)
         load_ms = rerank_ms = 0.0
         if records and top_k != 0:
-            # CrossEncoder jointly reads the query and each product-prefixed chunk.
-            pairs = [(query.strip(), _model_text(chunk)) for chunk in records]
+            rrf_values = [_rrf_normalized(chunk) for chunk in records]
+            # CrossEncoder reads the query and original chunk text, without metadata prefixes.
+            pairs = [(query.strip(), chunk["text"]) for chunk in records]
             with self._lock:
                 if self._model is None:
                     load_started = perf_counter()
@@ -127,19 +145,32 @@ class CrossEncoderReranker:
                     pairs, batch_size=self.config.batch_size,
                     show_progress_bar=False, convert_to_numpy=True,
                 )
-                for chunk, score in zip(records, scores, strict=True):
-                    score = float(score)
-                    if not math.isfinite(score):
+                for chunk, score, rrf in zip(records, scores, rrf_values, strict=True):
+                    raw_score = float(score)
+                    if not math.isfinite(raw_score):
                         raise ValueError("Model returned a non-finite score")
+                    # Map the bounded semantic signal to [0, 0.5].
+                    score = 0.25 * (1 + math.tanh(raw_score))
                     # Count distinct overlaps; repeated tags do not earn extra reward.
                     matches = len(aspects.intersection(_metadata(chunk).get("aspect_tags") or []))
-                    z = (score - self.config.aspect_threshold) / self.config.aspect_temperature
-                    # Low model relevance reduces the aspect reward, not the model score.
+                    coverage = matches / len(aspects) if aspects else 0.0
+                    z = (raw_score - self.config.aspect_threshold) / self.config.aspect_temperature
+                    # Keep half the matched-aspect reward even at low model relevance.
                     # sigmoid(z) = (1 + tanh(z / 2)) / 2, without exp overflow.
                     gate = (1 + math.tanh(z / 2)) / 2
-                    bonus = self.config.aspect_weight * matches * gate
-                    chunk.update(cross_encoder_score=score, aspect_match_count=matches,
-                                 aspect_gate=gate, aspect_bonus=bonus, rerank_score=score + bonus)
+                    fixed_bonus = 0.5 * self.config.aspect_weight * coverage
+                    gated_bonus = fixed_bonus * gate
+                    bonus = fixed_bonus + gated_bonus
+                    rrf_bonus = self.config.rrf_weight * rrf
+                    semantic = self.config.cross_encoder_weight * score
+                    chunk.update(cross_encoder_raw_score=raw_score,
+                                 cross_encoder_score=score, cross_encoder_contribution=semantic,
+                                 aspect_match_count=matches,
+                                 aspect_coverage=coverage, aspect_gate=gate,
+                                 aspect_fixed_bonus=fixed_bonus, aspect_gated_bonus=gated_bonus,
+                                 aspect_bonus=bonus,
+                                 rrf_normalized=rrf, rrf_bonus=rrf_bonus,
+                                 rerank_score=semantic + rrf_bonus + bonus)
                 # Sort before taking Top-K; Python's stable sort preserves tied order.
                 records.sort(key=lambda chunk: chunk["rerank_score"], reverse=True)
                 records = records[:top_k]

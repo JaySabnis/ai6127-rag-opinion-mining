@@ -31,6 +31,9 @@ in this mode:
   with the rewrite, ~0.2 s without.
 - Comparison questions ("S10e or Pixel 3a?") are retrieved and reranked per
   product, so each product gets its own top K.
+- Retrieval aspect boost is enabled with weight 0.5 during candidate selection.
+  The UI has no separate aspect-boost switch. The reranker uses its own gated
+  aspect reward with weight 1.2.
 - The evidence panel shows, per product, the filter used (model and all its
   corpus spellings, or brand), how many reviews were searched, and the text
   actually searched.

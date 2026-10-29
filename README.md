@@ -557,9 +557,10 @@ On the real index a hybrid query takes ~30–70 ms, reranking 50 candidates
 # Query Rewrite, Reranker and UI
 
 DeepSeek V4 Pro rewrites questions into English retrieval queries and extracts
-products and aspect labels. MiniLM scores each candidate with its brand/model
-context, then adds a bonus for each matched aspect. A sigmoid gate reduces this
-bonus when MiniLM relevance is low; the final score determines the ranking.
+products and aspect labels. MiniLM scores the question paired with each candidate's
+original text, then combines its bounded relevance score `0.25*(1+tanh(s))` in [0, 0.5] (weight 0.6; contribution [0, 0.3]) with a normalized pure-RRF
+prior (weight 1.0) and gated aspect coverage (weight 1.2). A sigmoid gate centered at -6
+controls half the aspect reward; the other half is fixed for matched aspect coverage.
 
 The Streamlit UI separates conversation on the left from evidence on the
 right. Evidence appears after a successful query, and saved results can be
@@ -823,7 +824,7 @@ Expected warnings include:
 -   [x] Embedding pipeline (bge-small, resumable sharded encoding)
 -   [x] Vector/index backend (local FAISS, exact inner-product search)
 -   [x] BM25 retrieval
--   [x] Hybrid retrieval (RRF, model filters, aspect boost)
+-   [x] Hybrid retrieval (RRF, model filters, aspect boost enabled by default)
 -   [x] DeepSeek query rewrite with product/aspect extraction
 -   [x] LLM product names checked against the corpus catalogue
 -   [x] Cross-encoder reranking module and standalone CLI

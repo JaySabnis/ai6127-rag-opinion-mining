@@ -141,7 +141,8 @@ class Outcome:
         return self.error is None and all(ok for _, ok, _ in self.checks)
 
 
-def run_case(r, reranker, case: Case, mode: str, pool_k: int, top_k: int) -> Outcome:
+def run_case(r, reranker, case: Case, mode: str, pool_k: int, top_k: int,
+             retrieval_aspect_weight: float = 0.5) -> Outcome:
     out = Outcome(case.name, case.question, mode, None)
     started = perf_counter()
 
@@ -165,11 +166,12 @@ def run_case(r, reranker, case: Case, mode: str, pool_k: int, top_k: int) -> Out
     if rewritten:
         query = rewritten["query"]
         filters = [product_filter(r, p) for p in rewritten["product"]] or [None]
-        results = [r.retrieve(query, k=pool_k, auto_filter=False, aspects=rewritten["aspects"], filters=f)
+        results = [r.retrieve(query, k=pool_k, auto_filter=False, aspects=rewritten["aspects"], filters=f,
+                              aspect_weight=retrieval_aspect_weight)
                    for f in filters]
     else:
         query = case.question
-        results = [r.retrieve(query, k=pool_k)]
+        results = [r.retrieve(query, k=pool_k, aspect_weight=retrieval_aspect_weight)]
     out.timing_ms["retrieve"] = (perf_counter() - t) * 1000
 
     # 3. rerank
@@ -184,6 +186,7 @@ def run_case(r, reranker, case: Case, mode: str, pool_k: int, top_k: int) -> Out
             "filters": res.filters,
             "search_text": res.search_text,
             "aspects": res.parsed.aspects,
+            "retrieval_aspect_weight": retrieval_aspect_weight,
             "n_candidates": res.n_candidates,
             "n_hits": len(res.hits),
             "retrieval_ms": res.timings_ms,
@@ -243,6 +246,8 @@ def main() -> int:
                     help="auto (cuda > mps > cpu) / cpu / mps / cuda. On macOS, CPU torch in the same "
                          "process as FAISS crashed with a segfault in testing, so auto prefers MPS.")
     ap.add_argument("--pool-k", type=int, default=50)
+    ap.add_argument("--retrieval-aspect-weight", type=float, default=0.5,
+                    help="Retrieval aspect boost weight (default: 0.5)")
     ap.add_argument("--top-k", type=int, default=5)
     ap.add_argument("--only", nargs="*", help="run only cases whose name contains one of these words")
     ap.add_argument("--json", type=Path, help="also save all outcomes as JSON")
@@ -282,7 +287,7 @@ def main() -> int:
     outcomes = []
     for case in cases:
         try:
-            o = run_case(r, reranker, case, mode, args.pool_k, args.top_k)
+            o = run_case(r, reranker, case, mode, args.pool_k, args.top_k, args.retrieval_aspect_weight)
         except Exception as exc:  # report and keep going
             o = Outcome(case.name, case.question, mode, None, error=f"{type(exc).__name__}: {exc}")
         outcomes.append(o)

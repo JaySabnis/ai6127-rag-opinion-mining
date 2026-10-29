@@ -51,8 +51,10 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--top-k", type=int, default=10)
     parser.add_argument("--aspects", nargs="*", choices=tuple(ASPECT_KEYWORDS), default=[])
-    parser.add_argument("--aspect-weight", type=float, default=0.5)
-    parser.add_argument("--aspect-threshold", type=float, default=-5.0)
+    parser.add_argument("--rrf-weight", type=float, default=1.0)
+    parser.add_argument("--cross-encoder-weight", type=float, default=0.6)
+    parser.add_argument("--aspect-weight", type=float, default=1.2)
+    parser.add_argument("--aspect-threshold", type=float, default=-6.0)
     parser.add_argument("--aspect-temperature", type=float, default=1.0)
     parser.add_argument("--device", default="cpu")
     parser.add_argument("--local-files-only", action="store_true")
@@ -72,6 +74,8 @@ def main() -> None:
     reranker = CrossEncoderReranker(RerankerConfig(
         device=args.device,
         local_files_only=args.local_files_only,
+        rrf_weight=args.rrf_weight,
+        cross_encoder_weight=args.cross_encoder_weight,
         aspect_weight=args.aspect_weight,
         aspect_threshold=args.aspect_threshold,
         aspect_temperature=args.aspect_temperature,

@@ -68,6 +68,8 @@ class Hit:
     dense_score: float | None = None
     dense_rank: int | None = None
     aspect_boosted: bool = False
+    rrf_score: float | None = None  # pure fusion score, before the aspect boost
+    rrf_normalized: float | None = None  # divided by two rank-1 contributions
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -215,7 +217,7 @@ class Retriever:
             candidate_k: depth retrieved from each ranker before fusion.
             filters: hard metadata filters, e.g. {"model": "Galaxy S10", "min_rating": 4}.
             auto_filter: use the model detected in the query as a filter.
-            aspect_weight: hybrid aspect boost (0 disables it).
+            aspect_weight: hybrid aspect boost (default 0.5).
             max_per_doc: keep at most this many chunks per original review
                 (overlapping chunks of one review are not independent evidence);
                 None keeps all.
@@ -283,12 +285,14 @@ class Retriever:
 
         t = time.perf_counter()
         boosted: set[int] = set()
+        pure_rrf: dict[int, float] = {}
         if mode == "bm25":
             ranked = list(zip(map(int, bm_rows), map(float, bm_scores)))
         elif mode == "dense":
             ranked = list(zip(map(int, de_rows), map(float, de_scores)))
         else:
             fused = rrf_fuse({"bm25": bm_rows, "dense": de_rows}, k=rrf_k)
+            pure_rrf = dict(fused)
             boosted = add_aspect_boost(fused, self._aspects, parsed.aspects, aspect_weight, k=rrf_k)
             ranked = rank_fused(fused)
 
@@ -311,6 +315,8 @@ class Retriever:
                         "dense_score": de_score.get(row),
                         "dense_rank": de_rank.get(row),
                         "aspect_boosted": row in boosted,
+                        "rrf_score": pure_rrf.get(row),
+                        "rrf_normalized": pure_rrf[row] * (rrf_k + 1) / 2 if row in pure_rrf else None,
                     },
                 )
             )

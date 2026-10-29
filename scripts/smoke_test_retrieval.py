@@ -56,7 +56,7 @@ def main() -> int:
         print("  dense top3:", top)
         check("dense finds battery complaints without shared words", bool({"s10b", "s10d"} & set(top)))
 
-        res = r.retrieve("How is the camera on the Galaxy S10?", mode="hybrid", k=5)
+        res = r.retrieve("How is the camera on the Galaxy S10?", mode="hybrid", k=5, aspect_weight=0.5)
         check("model auto-filter -> only Galaxy S10 hits", all(h.model in ("Galaxy S10", "Galaxy S 10") for h in res.hits))
         check("camera chunks ranked first", res.hits[0].doc_id in {"s10a", "s10e"})
         check("aspect boost applied", any(h.aspect_boosted for h in res.hits))
