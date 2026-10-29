@@ -15,3 +15,7 @@ indexes_*/
 
 # Generated reranker runs
 /results/reranking/
+
+# Group C local API responses and generated analysis
+/.cache/
+/results/group_c/

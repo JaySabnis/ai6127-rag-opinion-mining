@@ -1,5 +1,10 @@
 # AI6127 RAG-Based Aspect-Level Opinion Mining
 
+Group C generation: see [README_GROUP_C.md](README_GROUP_C.md) for
+DeepSeek sentiment classification, sample ratios, grounded summaries, and
+sentence-level evidence checking. This branch is based on `retrieve`; the
+evaluation tools live on the `evaluation` branch.
+
 An AI6127 project for building a Retrieval-Augmented Generation (RAG)
 system for **aspect-level opinion mining on smartphone reviews**.
 

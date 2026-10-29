@@ -113,6 +113,23 @@ def render_reply(reply: dict) -> None:
     elif reply.get("answer"):
         # The generation module can provide this field without changing the layout.
         st.markdown(reply["answer"])
+        for stats in reply.get("statistics", []):
+            product = " ".join(str(stats.get(k) or "") for k in ("brand", "model")).strip()
+            ratio = stats["positive_ratio"]
+            rate = f"{ratio:.1%}" if ratio is not None else "N/A"
+            st.write(f"{product or 'Unknown product'} · {stats['aspect']} · Positive: {rate}")
+            counts = stats["counts"]
+            st.caption(f"Retrieved sample: {stats['n_relevant_reviews']} unique relevant reviews · "
+                       f"positive {counts['positive']}, negative {counts['negative']}, "
+                       f"mixed {counts['mixed']}, neutral {counts['neutral']}")
+        if reply.get("statistics_note"):
+            st.caption(reply["statistics_note"])
+        if reply.get("checks"):
+            n_flagged = len(reply.get("flagged_sentences", []))
+            with st.expander(f"Summary evidence check · {n_flagged} flagged"):
+                for check in reply["checks"]:
+                    st.write(("⚠️ " if check["flagged"] else "✅ ") + check["text"])
+                    st.caption(f"{check['status']}: {check['reason']}")
     elif reply["chunks"]:
         count = len(reply["chunks"])
         reviews = len({chunk["doc_id"] for chunk in reply["chunks"]})
@@ -224,6 +241,10 @@ def main() -> None:
         except (OSError, ValueError, TypeError) as exc:
             st.error(f"Could not load candidates: {exc}")
         rerank = st.toggle("Rerank", value=True, key="rerank")
+        generate_answer = st.toggle("Answer & sentiment (DeepSeek)", value=False,
+                                    key="generate_answer")
+        verify_answer = st.toggle("Check summary evidence", value=True,
+                                  disabled=not generate_answer, key="verify_answer")
         top_k = st.select_slider("Number of chunks", options=[3, 5, 10], value=5, key="top_k")
         st.caption("Searching all reviews (50 candidates per product)." if source == FULL_CORPUS
                    else f"{len(candidates)} candidates loaded.")
@@ -264,6 +285,13 @@ def main() -> None:
                             else:
                                 result = search(prompt, candidates, top_k, rerank)
                             reply = {**result, "source": source_label}
+                            if generate_answer:
+                                from generation.client import DeepSeekClient
+                                from generation.pipeline import enrich_reply
+
+                                reply = enrich_reply(reply, prompt,
+                                    client=DeepSeekClient(cache_dir=ROOT / ".cache/group_c"),
+                                    verify=verify_answer)
                     except (RuntimeError, ValueError, OSError) as exc:
                         reply = {"error": f"Request failed: {exc}"}
                     render_reply(reply)
