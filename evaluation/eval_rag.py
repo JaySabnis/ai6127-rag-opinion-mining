@@ -58,8 +58,13 @@ def load_config() -> dict[str, str]:
 
 def build_metrics(cfg: dict[str, str]) -> dict:
     """metric name -> (metric, function mapping an input row to ascore() kwargs)."""
-    client = AsyncOpenAI(base_url=cfg["LLM_BASE_URL"], api_key=cfg["LLM_API_KEY"])
-    llm = llm_factory(cfg["LLM_MODEL"], client=client)
+    # The default 600 s timeout let one stalled request hang a run for 10+ minutes.
+    client = AsyncOpenAI(base_url=cfg["LLM_BASE_URL"], api_key=cfg["LLM_API_KEY"],
+                         timeout=120, max_retries=2)
+    # RAGAS defaults to max_tokens=1024, which truncates structured judge output.
+    # DeepSeek "thinking" tokens also count against max_tokens, so turn thinking off.
+    llm = llm_factory(cfg["LLM_MODEL"], client=client, max_tokens=4096,
+                      extra_body={"thinking": {"type": "disabled"}})
     metrics = {
         "faithfulness": (Faithfulness(llm=llm), lambda r: dict(
             user_input=r["question"], response=r["answer"], retrieved_contexts=r["contexts"])),
