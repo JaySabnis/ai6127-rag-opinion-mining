@@ -1,0 +1,109 @@
+{
+  "metrics": [
+    "P@10",
+    "MRR@10",
+    "nDCG@10"
+  ],
+  "previous": [
+    0.8525,
+    0.95,
+    0.8026057976104826
+  ],
+  "nested_cv": [
+    0.8674999999999999,
+    0.975,
+    0.8331160680792182
+  ],
+  "selected_setting_cv": [
+    0.8649999999999999,
+    0.9875,
+    0.8395037655093154
+  ],
+  "training_fit": [
+    0.8724999999999998,
+    0.9875,
+    0.8451344143893605
+  ],
+  "outer_selected_grid_indices": [
+    18,
+    30,
+    28,
+    22,
+    28
+  ],
+  "deployment_model": {
+    "version": 1,
+    "columns": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "features": [
+      "semantic_raw",
+      "semantic_rank",
+      "retrieval_rank",
+      "dense",
+      "bm25",
+      "aspect_coverage",
+      "keyword_count",
+      "keyword_density",
+      "length",
+      "semantic_squared",
+      "dense_rank",
+      "bm25_rank"
+    ],
+    "coefficients": [
+      0.04687393224358535,
+      0.06255246988198067,
+      -0.0017317041970639504,
+      0.023210070543085895,
+      -0.012366693385760744,
+      0.11423833765497646,
+      0.051532594381165815,
+      0.09068419663861169,
+      0.14793551404489344,
+      -0.06182539601803314,
+      0.025137424745933553,
+      -0.08594100034170456
+    ],
+    "alpha": 100,
+    "target": "grade",
+    "window": 20,
+    "training_queries": 40,
+    "qrels_sha256": "7439aa97789ae3aef507a10f4588ae3200db8ef524461703ae8f794198513a5b"
+  },
+  "protocol": "Fixed Top20; nested 5-fold query validation for model/regularization/target selection. Existing development queries, not untouched test data. Recall@100 not recomputed because Top100 is unavailable.",
+  "nested_minus_previous": {
+    "mean": [
+      0.01499999999999999,
+      0.025,
+      0.03051027046873578
+    ],
+    "paired_bootstrap_ci95": [
+      [
+        -0.010000000000000009,
+        -0.025,
+        0.010522987532860998
+      ],
+      [
+        0.03756249999999909,
+        0.075,
+        0.05111579799958328
+      ]
+    ],
+    "ndcg_wins_ties_losses": [
+      30,
+      0,
+      10
+    ]
+  }
+}

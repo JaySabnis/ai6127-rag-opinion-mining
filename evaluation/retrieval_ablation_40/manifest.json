@@ -1,0 +1,520 @@
+{
+  "name": "retrieval_ablation_40",
+  "version": "1.0",
+  "date": "2026-10-29",
+  "queries": 40,
+  "judged_pairs": 2564,
+  "unique_chunks": 2035,
+  "unique_source_reviews": 1957,
+  "label_distribution": {
+    "0": 806,
+    "1": 348,
+    "2": 650,
+    "3": 760
+  },
+  "annotation_counts": {
+    "new": 2462,
+    "reused": 102
+  },
+  "query_source": "Existing 40 queries reused without modification; no additional development split",
+  "previous_qrels_sha256": "ea0125b2a3d683ffe1880da93efe2ccd2ac3f644f4328cf1e47edd71e6c188ef",
+  "pool": "Union of each of seven real full-index Top-20 outputs per query; chunk_id deduplication",
+  "source_corpus_chunks": 459418,
+  "source_corpus_sha256": "ddcb10bd7e06c48e986dbc9113d77d6b8cd2d1d0bdeae6d2c6667cb0e82ce3ea",
+  "code_commit": "f86ecee3a54a296adf979fe93b6a25a744f4a066",
+  "settings": {
+    "candidate_k_per_ranker": 150,
+    "pool_k_per_product": 50,
+    "max_per_doc": 1,
+    "rrf_k": 60,
+    "retrieval_aspect_weight": 0.5,
+    "rerank_cross_encoder_weight": 0.6,
+    "rerank_rrf_weight": 1.0,
+    "rerank_aspect_weight": 1.2,
+    "rerank_aspect_threshold": -6,
+    "rerank_aspect_temperature": 1,
+    "rewrite_source": "Live DeepSeek query rewrite, cached",
+    "comparison_merge": "01-06 use parser's single model; 07 uses extracted products and a global Top-20"
+  },
+  "metrics": {
+    "binary_relevance_threshold": 2,
+    "ndcg_gain": "linear 0,1,2,3",
+    "recall_scope": "pooled incomplete judgments, not exhaustive full-corpus recall",
+    "cutoffs": {
+      "P": 10,
+      "Recall": 100,
+      "MRR": 10,
+      "nDCG": 10
+    },
+    "recall_at100_status": "pending fresh Top100 runs; reuse fixed qrels and count known relevant hits; additional Top100 judgments are optional"
+  },
+  "validation": {
+    "source_text_exact_match": true,
+    "all_seven_top20_fully_judged": true,
+    "all_seven_top10_fully_judged": true
+  },
+  "per_query": [
+    {
+      "query_id": "Q001",
+      "judged": 64,
+      "relevant_ge_2": 30,
+      "grades": {
+        "0": 31,
+        "1": 3,
+        "2": 22,
+        "3": 8
+      }
+    },
+    {
+      "query_id": "Q002",
+      "judged": 65,
+      "relevant_ge_2": 21,
+      "grades": {
+        "0": 41,
+        "1": 3,
+        "2": 13,
+        "3": 8
+      }
+    },
+    {
+      "query_id": "Q003",
+      "judged": 65,
+      "relevant_ge_2": 31,
+      "grades": {
+        "0": 32,
+        "1": 2,
+        "2": 18,
+        "3": 13
+      }
+    },
+    {
+      "query_id": "Q004",
+      "judged": 62,
+      "relevant_ge_2": 31,
+      "grades": {
+        "0": 26,
+        "1": 5,
+        "2": 16,
+        "3": 15
+      }
+    },
+    {
+      "query_id": "Q005",
+      "judged": 61,
+      "relevant_ge_2": 41,
+      "grades": {
+        "0": 13,
+        "1": 7,
+        "2": 15,
+        "3": 26
+      }
+    },
+    {
+      "query_id": "Q006",
+      "judged": 63,
+      "relevant_ge_2": 37,
+      "grades": {
+        "0": 22,
+        "1": 4,
+        "2": 17,
+        "3": 20
+      }
+    },
+    {
+      "query_id": "Q007",
+      "judged": 67,
+      "relevant_ge_2": 40,
+      "grades": {
+        "0": 21,
+        "1": 6,
+        "2": 18,
+        "3": 22
+      }
+    },
+    {
+      "query_id": "Q008",
+      "judged": 56,
+      "relevant_ge_2": 27,
+      "grades": {
+        "0": 4,
+        "1": 25,
+        "2": 23,
+        "3": 4
+      }
+    },
+    {
+      "query_id": "Q009",
+      "judged": 63,
+      "relevant_ge_2": 31,
+      "grades": {
+        "0": 26,
+        "1": 6,
+        "2": 8,
+        "3": 23
+      }
+    },
+    {
+      "query_id": "Q010",
+      "judged": 58,
+      "relevant_ge_2": 21,
+      "grades": {
+        "0": 36,
+        "1": 1,
+        "2": 11,
+        "3": 10
+      }
+    },
+    {
+      "query_id": "Q011",
+      "judged": 59,
+      "relevant_ge_2": 36,
+      "grades": {
+        "0": 2,
+        "1": 21,
+        "2": 30,
+        "3": 6
+      }
+    },
+    {
+      "query_id": "Q012",
+      "judged": 82,
+      "relevant_ge_2": 39,
+      "grades": {
+        "0": 29,
+        "1": 14,
+        "2": 22,
+        "3": 17
+      }
+    },
+    {
+      "query_id": "Q013",
+      "judged": 66,
+      "relevant_ge_2": 28,
+      "grades": {
+        "0": 33,
+        "1": 5,
+        "2": 14,
+        "3": 14
+      }
+    },
+    {
+      "query_id": "Q014",
+      "judged": 68,
+      "relevant_ge_2": 51,
+      "grades": {
+        "0": 13,
+        "1": 4,
+        "2": 11,
+        "3": 40
+      }
+    },
+    {
+      "query_id": "Q015",
+      "judged": 62,
+      "relevant_ge_2": 24,
+      "grades": {
+        "0": 33,
+        "1": 5,
+        "2": 11,
+        "3": 13
+      }
+    },
+    {
+      "query_id": "Q016",
+      "judged": 61,
+      "relevant_ge_2": 33,
+      "grades": {
+        "0": 25,
+        "1": 3,
+        "2": 13,
+        "3": 20
+      }
+    },
+    {
+      "query_id": "Q017",
+      "judged": 62,
+      "relevant_ge_2": 30,
+      "grades": {
+        "0": 27,
+        "1": 5,
+        "2": 19,
+        "3": 11
+      }
+    },
+    {
+      "query_id": "Q018",
+      "judged": 57,
+      "relevant_ge_2": 30,
+      "grades": {
+        "0": 21,
+        "1": 6,
+        "2": 7,
+        "3": 23
+      }
+    },
+    {
+      "query_id": "Q019",
+      "judged": 65,
+      "relevant_ge_2": 21,
+      "grades": {
+        "0": 21,
+        "1": 23,
+        "2": 15,
+        "3": 6
+      }
+    },
+    {
+      "query_id": "Q020",
+      "judged": 80,
+      "relevant_ge_2": 31,
+      "grades": {
+        "0": 21,
+        "1": 28,
+        "2": 17,
+        "3": 14
+      }
+    },
+    {
+      "query_id": "Q021",
+      "judged": 66,
+      "relevant_ge_2": 30,
+      "grades": {
+        "0": 19,
+        "1": 17,
+        "2": 16,
+        "3": 14
+      }
+    },
+    {
+      "query_id": "Q022",
+      "judged": 73,
+      "relevant_ge_2": 47,
+      "grades": {
+        "0": 11,
+        "1": 15,
+        "2": 29,
+        "3": 18
+      }
+    },
+    {
+      "query_id": "Q023",
+      "judged": 66,
+      "relevant_ge_2": 36,
+      "grades": {
+        "0": 12,
+        "1": 18,
+        "2": 21,
+        "3": 15
+      }
+    },
+    {
+      "query_id": "Q024",
+      "judged": 77,
+      "relevant_ge_2": 46,
+      "grades": {
+        "0": 26,
+        "1": 5,
+        "2": 19,
+        "3": 27
+      }
+    },
+    {
+      "query_id": "Q025",
+      "judged": 79,
+      "relevant_ge_2": 45,
+      "grades": {
+        "0": 26,
+        "1": 8,
+        "2": 14,
+        "3": 31
+      }
+    },
+    {
+      "query_id": "Q026",
+      "judged": 79,
+      "relevant_ge_2": 55,
+      "grades": {
+        "0": 17,
+        "1": 7,
+        "2": 14,
+        "3": 41
+      }
+    },
+    {
+      "query_id": "Q027",
+      "judged": 49,
+      "relevant_ge_2": 26,
+      "grades": {
+        "0": 21,
+        "1": 2,
+        "2": 2,
+        "3": 24
+      }
+    },
+    {
+      "query_id": "Q028",
+      "judged": 64,
+      "relevant_ge_2": 34,
+      "grades": {
+        "0": 22,
+        "1": 8,
+        "2": 14,
+        "3": 20
+      }
+    },
+    {
+      "query_id": "Q029",
+      "judged": 54,
+      "relevant_ge_2": 32,
+      "grades": {
+        "0": 13,
+        "1": 9,
+        "2": 7,
+        "3": 25
+      }
+    },
+    {
+      "query_id": "Q030",
+      "judged": 70,
+      "relevant_ge_2": 24,
+      "grades": {
+        "0": 40,
+        "1": 6,
+        "2": 9,
+        "3": 15
+      }
+    },
+    {
+      "query_id": "Q031",
+      "judged": 60,
+      "relevant_ge_2": 47,
+      "grades": {
+        "0": 11,
+        "1": 2,
+        "2": 14,
+        "3": 33
+      }
+    },
+    {
+      "query_id": "Q032",
+      "judged": 60,
+      "relevant_ge_2": 47,
+      "grades": {
+        "0": 11,
+        "1": 2,
+        "2": 17,
+        "3": 30
+      }
+    },
+    {
+      "query_id": "Q033",
+      "judged": 52,
+      "relevant_ge_2": 27,
+      "grades": {
+        "0": 22,
+        "1": 3,
+        "2": 8,
+        "3": 19
+      }
+    },
+    {
+      "query_id": "Q034",
+      "judged": 55,
+      "relevant_ge_2": 45,
+      "grades": {
+        "0": 8,
+        "1": 2,
+        "2": 10,
+        "3": 35
+      }
+    },
+    {
+      "query_id": "Q035",
+      "judged": 58,
+      "relevant_ge_2": 39,
+      "grades": {
+        "0": 15,
+        "1": 4,
+        "2": 15,
+        "3": 24
+      }
+    },
+    {
+      "query_id": "Q036",
+      "judged": 53,
+      "relevant_ge_2": 46,
+      "grades": {
+        "0": 5,
+        "1": 2,
+        "2": 23,
+        "3": 23
+      }
+    },
+    {
+      "query_id": "Q037",
+      "judged": 64,
+      "relevant_ge_2": 37,
+      "grades": {
+        "0": 4,
+        "1": 23,
+        "2": 34,
+        "3": 3
+      }
+    },
+    {
+      "query_id": "Q038",
+      "judged": 62,
+      "relevant_ge_2": 27,
+      "grades": {
+        "0": 11,
+        "1": 24,
+        "2": 20,
+        "3": 7
+      }
+    },
+    {
+      "query_id": "Q039",
+      "judged": 74,
+      "relevant_ge_2": 47,
+      "grades": {
+        "0": 22,
+        "1": 5,
+        "2": 17,
+        "3": 30
+      }
+    },
+    {
+      "query_id": "Q040",
+      "judged": 63,
+      "relevant_ge_2": 40,
+      "grades": {
+        "0": 13,
+        "1": 10,
+        "2": 27,
+        "3": 13
+      }
+    }
+  ],
+  "files_sha256": {
+    "collection_config.json": "200ea79698d478884602fae4cbbd5708ebfe137037e17d17bd108224ee064971",
+    "corpus.jsonl": "e3e6485b666ea5e8e16fc39c68388118930537cd840383adcae6b5b87cf2f5d9",
+    "dataset_labeled.jsonl": "3dd46dda5515aa4d69a3ae1708ba843a7d0260a8d937aca06a211cdbfd5ef11a",
+    "evaluate.py": "233b170de94946752ee8c63f9c450ea6d9fb75fda9498c68b5aa686c4dbaffaa",
+    "pool_membership.jsonl": "c36ff914b5388475dfa4868c5e2b90247dd230444225de5ca83dff85a2ebad70",
+    "qrels.jsonl": "7439aa97789ae3aef507a10f4588ae3200db8ef524461703ae8f794198513a5b",
+    "qrels.trec": "c1637b2aeba78d3d9811b20cae8d38459a77bfbef6adbd46be7069b06d47676e",
+    "qrels.tsv": "a1c639ce003c6c0ec7a4cb17aa35838256b73c9914319e284b04e1cde8363042",
+    "queries.jsonl": "4192c88e34173e532f38cd61ebe7de857faa018fa4cf85de626afe5ff16011e0",
+    "README.md": "a4d03249749ef0600e4b4979dd1e95982cafb4025aeef3cc24ce83e9894da38c",
+    "rewrite_prompt.txt": "2c51fbcdd6c205fc706344672af61588e4b5cfbca00e7193b73fd22c2e2fb366",
+    "rewrites.jsonl": "b7d25ef414c52d345f692e2236a501bc9f263e6b9ecc9e53060380dfb6d43f6c",
+    "runs/01_bm25.trec": "3bcab1a51c73b60fee5739f9947551a422ebd2ccd6049aa69c2e145e8224b8a4",
+    "runs/02_dense.trec": "0dbb43df593ed846c703c26cdf48abac50fd3e8790f4c2da1d24be330dc7142f",
+    "runs/03_rrf.trec": "4afeae06b97e38e1bd43c95e534b684a3f1119a1d1b48de16c3d46198075a5f3",
+    "runs/04_strip_model.trec": "3368c2f4c835f39c1168da402ff35d05633a42db5bc622108f5497331ecaf948",
+    "runs/05_aspect.trec": "b92786a2350a2a3e8e153c8e9e59f068fb5b16adc51d69dfce591cce6fe68b9a",
+    "runs/06_rerank.trec": "da155042cc42fb920c8fdf98a04936d9b78b6fed9de114c78a662a8a82d32fdf",
+    "runs/07_rewrite.trec": "13088c34e50153f2c0b73e089547d617488700618de2d0e68c086b3f82404882",
+    "runs.jsonl": "cacd4ead9f59bc9c29a7cd95e1aeb3e8465887f52bcab4e8391bfa13176521e4"
+  }
+}

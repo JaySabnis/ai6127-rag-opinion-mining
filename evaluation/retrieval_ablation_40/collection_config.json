@@ -1,0 +1,20 @@
+{
+  "rewrite_model": "deepseek-v4-pro",
+  "rewrite_temperature": 0,
+  "rewrite_max_tokens": 1024,
+  "thinking": "disabled",
+  "response_format": "json_object",
+  "rewrites": "live calls; complete validated JSON; cached for reproducibility",
+  "queries_used_for_annotation": "original queries, not rewritten ones",
+  "dense_model": "BAAI/bge-small-en-v1.5",
+  "reranker_model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+  "reranker_revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+  "indexes_sha256": {
+    "meta.pkl": "39d300a6aee108a35dfbc0040932629291bd7f3d0a5e68ec633e99a4e3c392b0",
+    "dense/faiss.index": "7e1395bf547fbef42ca128ad70064231a5327f7923fa790d1ccf1109d57ce6e8",
+    "dense/info.json": "96b0cb5230b98074f108a367d08900632c00bf60ca3cd416b39479e5ceb3ad45",
+    "bm25/weights.npz": "b8eed0f079db2896b15489c124219055320b75d069b8fd1fd1aa752915f55502",
+    "bm25/vocab.json": "8d8c5b669aac72dd8e95801715a697eaf3cef768234ecf92ba5901d0a95364af",
+    "bm25/params.json": "7891953c301d40d949e63115b4c8be682dae1c8a20468060b400ff104d5df3d9"
+  }
+}

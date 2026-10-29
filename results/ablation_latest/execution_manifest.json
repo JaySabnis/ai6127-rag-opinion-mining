@@ -1,0 +1,32 @@
+{
+  "generated_utc": "2026-10-29T13:26:01.817213+00:00",
+  "queries": 40,
+  "systems": 8,
+  "judged_pairs": 2632,
+  "model": "review_ranker_v2; trained only on 100 dedicated queries",
+  "metric_checks": 1280,
+  "retrieval_rerun": false,
+  "files": {
+    "by_query_group.csv": "3cc3e92504917c61d382183ba0de10d6e5196cba3f80a973ea30565adcf856e3",
+    "cleanup_manifest.json": "97a0243e1b04f8a4598fb04ccd79a3d52867d0092c02e13badeb4ca65d358647",
+    "model.json": "5c1af2160340a2a984a137cd439fb50d5b7e8f4948574f2bd9181665bb679f2e",
+    "paired_deltas.csv": "474a977b14b747b047c85aee4c7d3d76bb4dd4c72ab7414f398df8e84ee93f20",
+    "per_query.csv": "f11636afcec7e6b708c46038360ade34a628308212d773cfbd01d776274c4c90",
+    "qrels.trec": "82925d5d9cacaf0171ea2fd58f5c60da581ca87e796db11b575d03db001058ac",
+    "queries.jsonl": "4192c88e34173e532f38cd61ebe7de857faa018fa4cf85de626afe5ff16011e0",
+    "README.md": "14287b2a9acda6b5169998a600092b018ff58b34f93b43ff1098fe0f5bdb294d",
+    "report_en.html": "3daaf8b7ebcd1a97bc282a53c16d60912f1a8e0c8cf7ba728390141a5ed73145",
+    "report_zh.html": "2967ea6e85631bf37aeda7b6637d7ecc438d0300650827f7d76b9f8c6d217f97",
+    "runs/01_bm25.trec": "882397bbf5001b7cbc7bf216529365ee3a697e4272503c15e3df65767a929d8d",
+    "runs/02_dense.trec": "aab530f48276d28131e391c91a2e9cce913eca1b3a7b622285dc6285e49f1448",
+    "runs/03_rrf.trec": "6086e8335fee4c4ebd2f44f7db682a007159c8b986eeb95987f527dbde7bace1",
+    "runs/04_strip_model.trec": "37d448fbf3c52890f7e121ad26f1c1c0607b1c97d9eb24badf4ac4a29f154735",
+    "runs/05_aspect.trec": "ae209d587081adac5854f6d828a44de79ca2ad77cbe686581ac50de33c2ade55",
+    "runs/06_rerank.trec": "482816adcf9a5882ffbe7f8fdac6f802b9a2de1bebcaa9d114d73270800c8d4f",
+    "runs/07_rewrite.trec": "e10e3e0604f164225cf413cbc07df362ccf2f10049d276c299473849013d0d34",
+    "runs/08_learned_v2.trec": "2688b31d8e5afa26aed85c2886729411071e11c7b49e1617181444cd8ac49464",
+    "source_snapshot/report_latest_ablation.py": "00d9d3d70efae90464a053fd7b1df43e92a445cc37ce7bc887f693aeadc0e689",
+    "statistics.json": "805aa486873758aa5fd6da7cdd0dde354b7e589ada4ec1ad62ffff143e7126e6",
+    "summary.csv": "e8cbf4ff550924919099efc1b1563b92e3c21ef8689f7c25246a7d0d1db38cc7"
+  }
+}

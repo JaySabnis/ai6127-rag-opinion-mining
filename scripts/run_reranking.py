@@ -51,6 +51,11 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--top-k", type=int, default=10)
     parser.add_argument("--aspects", nargs="*", choices=tuple(ASPECT_KEYWORDS), default=[])
+    parser.add_argument("--strategy", choices=["learned", "rank_fusion", "legacy"], default="learned")
+    parser.add_argument("--learned-model", help="Optional learned model JSON; defaults to the dedicated training100 model")
+    parser.add_argument("--rerank-window", type=int, default=20)
+    parser.add_argument("--semantic-rank-weight", type=float, default=0.8)
+    parser.add_argument("--rank-offset", type=float, default=10)
     parser.add_argument("--rrf-weight", type=float, default=1.0)
     parser.add_argument("--cross-encoder-weight", type=float, default=0.6)
     parser.add_argument("--aspect-weight", type=float, default=1.2)
@@ -72,6 +77,9 @@ def main() -> None:
     except ValueError as exc:
         parser.error(str(exc))
     reranker = CrossEncoderReranker(RerankerConfig(
+        strategy=args.strategy, rerank_window=args.rerank_window,
+        learned_model_path=args.learned_model,
+        semantic_rank_weight=args.semantic_rank_weight, rank_offset=args.rank_offset,
         device=args.device,
         local_files_only=args.local_files_only,
         rrf_weight=args.rrf_weight,

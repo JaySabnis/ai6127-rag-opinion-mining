@@ -23,7 +23,7 @@ class RetrievalTests(unittest.TestCase):
         before = deepcopy(rows)
         model = Mock()
         model.predict.return_value = [0.0, 0.05, 0.1]
-        reranker = CrossEncoderReranker()
+        reranker = CrossEncoderReranker(RerankerConfig(strategy="legacy"))
         with patch.object(reranker, "_load_model", return_value=model) as load:
             result = reranker.rerank("Battery and camera?", rows,
                                     query_aspects=["battery", "camera"], top_k=2)
@@ -46,7 +46,7 @@ class RetrievalTests(unittest.TestCase):
         rows[3]["aspect_tags"] = []
         model = Mock()
         model.predict.return_value = [-12, -6, 0, 0]
-        reranker = CrossEncoderReranker()
+        reranker = CrossEncoderReranker(RerankerConfig(strategy="legacy"))
         with patch.object(reranker, "_load_model", return_value=model):
             result = {r["chunk_id"]: r for r in reranker.rerank(
                 "Battery?", rows, query_aspects=["battery"])}
@@ -63,7 +63,7 @@ class RetrievalTests(unittest.TestCase):
                 "Battery?", rows, query_aspects=["battery"])))
         for temperature in (0, -1, float("nan")):
             with self.assertRaises(ValueError):
-                CrossEncoderReranker(RerankerConfig(aspect_temperature=temperature)).rerank("Battery?", [])
+                CrossEncoderReranker(RerankerConfig(strategy="legacy", aspect_temperature=temperature)).rerank("Battery?", [])
 
     def test_fixed_aspect_reward_respects_coverage_and_zero_matches(self):
         rows = [
@@ -74,7 +74,7 @@ class RetrievalTests(unittest.TestCase):
         ]
         model = Mock()
         model.predict.return_value = [-1e300, -1e300, 1e300, 0]
-        reranker = CrossEncoderReranker()
+        reranker = CrossEncoderReranker(RerankerConfig(strategy="legacy"))
         with patch.object(reranker, "_load_model", return_value=model):
             result = {r["chunk_id"]: r for r in reranker.rerank(
                 "Display and battery?", rows, query_aspects=["display", "battery"])}
@@ -93,7 +93,7 @@ class RetrievalTests(unittest.TestCase):
         before = deepcopy(rows)
         model = Mock()
         model.predict.return_value = [1.0, 0.6, 3.0]
-        reranker = CrossEncoderReranker()
+        reranker = CrossEncoderReranker(RerankerConfig(strategy="legacy"))
         with patch.object(reranker, "_load_model", return_value=model):
             result = reranker.rerank("query", rows)
             self.assertEqual([r["chunk_id"] for r in result], ["strong", "consensus", "semantic"])
@@ -107,23 +107,23 @@ class RetrievalTests(unittest.TestCase):
 
     def test_invalid_rrf_rejected_before_model_loading(self):
         for value in (-0.01, 1.01, float("nan"), float("inf"), True, "bad"):
-            reranker = CrossEncoderReranker()
+            reranker = CrossEncoderReranker(RerankerConfig(strategy="legacy"))
             with patch.object(reranker, "_load_model") as load:
                 with self.assertRaises(ValueError):
                     reranker.rerank("query", [{"text": "x", "rrf_normalized": value}])
                 load.assert_not_called()
         for weight in (-1, float("nan"), float("inf")):
             with self.assertRaises(ValueError):
-                CrossEncoderReranker(RerankerConfig(rrf_weight=weight)).rerank("query", [])
+                CrossEncoderReranker(RerankerConfig(strategy="legacy", rrf_weight=weight)).rerank("query", [])
             with self.assertRaises(ValueError):
-                CrossEncoderReranker(RerankerConfig(cross_encoder_weight=weight)).rerank("query", [])
+                CrossEncoderReranker(RerankerConfig(strategy="legacy", cross_encoder_weight=weight)).rerank("query", [])
 
     def test_minilm_is_bounded_but_gate_uses_raw_score(self):
         raw = [-1e300, -6, -0.2, 0, 0.2, 6, 1e300]
         rows = [{"chunk_id": str(i), "text": "Review."} for i in range(len(raw))]
         model = Mock()
         model.predict.return_value = raw
-        reranker = CrossEncoderReranker()
+        reranker = CrossEncoderReranker(RerankerConfig(strategy="legacy"))
         with patch.object(reranker, "_load_model", return_value=model):
             result = reranker.rerank("query", rows)
         by_id = {r["chunk_id"]: r for r in result}

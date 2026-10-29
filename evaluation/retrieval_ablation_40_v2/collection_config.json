@@ -1,0 +1,22 @@
+{
+  "source_experiment": "results/ablation_8",
+  "systems": [
+    "01_bm25",
+    "02_dense",
+    "03_rrf",
+    "04_strip_model",
+    "05_aspect",
+    "06_rerank",
+    "07_rewrite",
+    "08_learned"
+  ],
+  "retrieval_depth_per_channel": 300,
+  "saved_results": 100,
+  "max_chunks_per_review": 1,
+  "learned_window": 20,
+  "legacy_window": 100,
+  "learned_model_sha256": "8ccc61edaf96c291bd217a3ef39573880344ebbcd8cff83a7ffb2b8808792c17",
+  "recall_qrels": "qrels.trec; unified with ranking metrics in v2",
+  "retraining_performed": false,
+  "metrics_recomputed": false
+}

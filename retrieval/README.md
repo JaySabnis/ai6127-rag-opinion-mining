@@ -1,5 +1,7 @@
 # Retrieval (Group B)
 
+See [Learned Reranker v2](RERANKER_README.md) for training, scoring and usage.
+
 Group B turns the knowledge-base chunks into ranked evidence for generation:
 
 ```text
@@ -12,7 +14,7 @@ query_rewrite.py   DeepSeek: English retrieval query + products + aspects   (opt
 retriever.py       BM25 + dense (BGE/FAISS) + RRF  ->  candidate pool, e.g. top 50
     │
     ▼
-rerank.py          MiniLM cross-encoder + gated aspect bonus  ->  top 5-10
+rerank.py          MiniLM semantic rank + retrieval rank fusion -> top 5-10
     │
     ▼
 app/streamlit_app.py (UI)  /  generation
@@ -130,6 +132,25 @@ indexes/
 ---
 
 ## 2. The interface (for reranker / UI / generation)
+
+Default strategy: `learned`, using `retrieval/models/review_ranker_v2.json`. MiniLM is frozen. The fusion layer was trained only on 100 new questions (2,000 fixed retrieval Top20 pairs), covering 16 products disjoint from the existing evaluation40. Query text, chunks and source reviews also have no overlap with evaluation40. Five-fold CV and nested validation keep product groups together; evaluation40 is never used for fitting or selecting this model. The existing 40 questions were used in earlier model development and are not a historically untouched final test.
+
+The selected ridge model uses seven query-normalized features: raw MiniLM logit, semantic reciprocal rank, retrieval reciprocal rank, aspect coverage, log keyword count, keyword density and log text length. Penalty=100; targets are centered relevance grades 0–3. It scores only the first 20 candidates; the remaining candidates keep retrieval order. It does not read relevance labels or query/chunk IDs at inference. Scores are relative ranking scores, not probabilities. CLI `--learned-model retrieval/models/review_ranker_v1.json` explicitly restores the previous model artifact.
+
+Reproduction: `python -m scripts.collect_reranker_training_100` collects fixed candidates, then direct labels are read and assigned; `python -m scripts.finalize_training_100` validates/exports the completed labels; `python -m scripts.train_ranker_100` selects/trains only on training100 and then evaluates the frozen model on evaluation40. Existing direct labels must never be regenerated from model logits. The standalone data archive is `evaluation/reranker_training_100.zip`.
+
+Nested product-group validation on training100 gives P@10=0.8450, MRR@10=0.9783, nDCG@10=0.8635. On the existing evaluation40 with the cached rewritten Top100 and a common qrels (v2 plus six supplementary judgments), the frozen new model gives P@10=0.8925, pooled Recall@100=0.7576, MRR@10=0.9675, nDCG@10=0.8573. The old model scored 0.8875, 0.7576, 1.0000, 0.8628 but used evaluation40 in training. These are not directly comparable to historical reports that used different qrels. The six new judgments were assigned after freezing the model, solely to complete Top10 coverage; they were not used in training or parameter selection. Details: `results/reranker_training_100/`.
+
+Previous strategy: `rank_fusion` (available explicitly). Reorder only the first 20 candidates; retain the tail in retrieval order. MiniLM scores the retrieval `search_text` (model removed after product filtering) against raw chunk text. Let r be the original retrieval rank and m be the descending raw MiniLM rank within the window: `score = 0.2/(10+r) + 0.8/(10+m)`. Stable ties preserve retrieval order. The bounded MiniLM score in [0, 0.5] is retained for display; ranking consumes its rank. Aspect information is preserved through the original retrieval rank; no additional aspect reward or gate is applied. The input must already be ordered by retrieval relevance.
+
+CLI: `--strategy rank_fusion --rerank-window 20 --semantic-rank-weight 0.8 --rank-offset 10`. Legacy weight flags apply only to `--strategy legacy`.
+
+On the existing 40 development queries: five-fold parameter selection gives P@10=0.8475, pooled Recall@10=0.2514, MRR@10=0.9458, nDCG@10=0.7992. The deployed setting selected using all 40 gives 0.8525, 0.2531, 0.9500, 0.8026 respectively. These are development results, not a new held-out test. Details: `results/reranker_design/selection.json`. Query comparisons and rewritten inputs still require separate validation.
+
+### Legacy additive strategy (`strategy="legacy"`)
+
+The following formula and flags describe the retained legacy strategy only.
+
 
 ```python
 res = r.retrieve(

@@ -10,6 +10,31 @@ The target is to answer queries such as:
 using retrieved review evidence and generating a grounded aspect-level
 opinion.
 
+## Current Retrieval, Training and Evaluation
+
+The default reranker uses `retrieval/models/review_ranker_v2.json`. MiniLM remains frozen; a regularized feature fusion layer is trained on **100 dedicated questions with 20 fixed retrieval candidates each** (2,000 relevance judgments). Training and the 40-query evaluation set have disjoint products, chunks, source reviews and exact text. Model selection uses product-group cross-validation on the training set only.
+
+- [Reranker v2: model, training and usage](retrieval/RERANKER_README.md)
+- [Training and evaluation guide](evaluation/README.md)
+- [100-query training dataset](evaluation/reranker_training_100/README.md)
+- [40-query evaluation dataset, version 2](evaluation/retrieval_ablation_40_v2/README.md)
+- [Latest eight-configuration ablation](results/ablation_latest/README.md)
+- [Chinese HTML report](results/ablation_latest/report_zh.html) / [English HTML report](results/ablation_latest/report_en.html)
+
+Metrics are **Precision@10, pooled Recall@100, MRR@10 and nDCG@10**. The latest report uses one common set of 2,632 relevance judgments across all eight configurations and all four metrics. The packaged version-2 evaluation dataset has 2,626 judgments; the report additionally includes six later Top-10 judgments. Use the report's qrels to reproduce its figures.
+
+The current model scores 0.8925 P@10, 0.7576 pooled Recall@100, 0.9675 MRR@10 and 0.8573 nDCG@10 on the 40-query check. These queries were excluded from this fit and parameter selection but influenced earlier project development; they are not a historically untouched blind test.
+
+```powershell
+# Refit the fusion layer using only the dedicated 100-query training set
+uv run python -X utf8 -m scripts.train_ranker_100
+
+# Recompute all eight configurations from saved runs and write both HTML reports
+uv run --with ir_measures python -X utf8 -m scripts.report_latest_ablation
+```
+
+Both commands use existing local artifacts. The report command recomputes metrics; it does not repeat full-corpus retrieval.
+
 ------------------------------------------------------------------------
 
 ## Project Pipeline
@@ -543,9 +568,10 @@ spelling of a phone; the DeepSeek rewrite's product names are checked against
 the corpus catalogue (`resolve_model()`), with the rule-based parser as the
 fallback. Put the corpus at `data/corpus.jsonl`, then:
 
+Download `retrieval_indexes.zip` from the [shared Drive](https://drive.google.com/file/d/1Ep4F4cRi38eR8q2Ga4SLSGcBfng9OGq8/view?usp=drive_link) and extract it at the repository root so that `indexes/` is available. Reuse the shared index for comparable experiments. Place the corpus at `data/corpus.jsonl`.
+
 ```bash
 uv sync
-uv run python -m scripts.build_retrieval_indexes --stage all
 uv run python -m scripts.search_cli "How is the camera on the Galaxy S10?" --mode all
 uv run python -m scripts.test_pipeline        # rewrite -> retrieve -> rerank on the real indexes
 ```
@@ -556,11 +582,7 @@ On the real index a hybrid query takes ~30–70 ms, reranking 50 candidates
 
 # Query Rewrite, Reranker and UI
 
-DeepSeek V4 Pro rewrites questions into English retrieval queries and extracts
-products and aspect labels. MiniLM scores the question paired with each candidate's
-original text, then combines its bounded relevance score `0.25*(1+tanh(s))` in [0, 0.5] (weight 0.6; contribution [0, 0.3]) with a normalized pure-RRF
-prior (weight 1.0) and gated aspect coverage (weight 1.2). A sigmoid gate centered at -6
-controls half the aspect reward; the other half is fixed for matched aspect coverage.
+The query rewrite extracts products and aspects and supplies an English search query. Product names are resolved against the corpus catalogue before retrieval. The default reranker scores model-stripped queries against original chunk text using frozen MiniLM logits, then applies the trained v2 fusion model to the first 20 retrieval candidates. Remaining candidates retain retrieval order. Aspect information enters through retrieval and the learned features; the current default does not add the legacy sigmoid-gated aspect reward.
 
 The Streamlit UI separates conversation on the left from evidence on the
 right. Evidence appears after a successful query, and saved results can be
@@ -573,7 +595,7 @@ uv run streamlit run app/streamlit_app.py
 ```
 
 In the sidebar, **Full corpus** runs the whole pipeline over all 459,418 chunks
-(rewrite → product check → hybrid retrieval → rerank; indexes must be built
+(rewrite → product check → hybrid retrieval → rerank; the shared indexes must be downloaded
 first); **Sample data** and **Upload candidates** rerank a fixed pool. Answer
 generation is not connected yet. See [retrieval/README.md](retrieval/README.md)
 for interfaces and [app/README.md](app/README.md) for UI details.
@@ -828,6 +850,8 @@ Expected warnings include:
 -   [x] DeepSeek query rewrite with product/aspect extraction
 -   [x] LLM product names checked against the corpus catalogue
 -   [x] Cross-encoder reranking module and standalone CLI
+-   [x] Dedicated 100-query reranker training set and product-group validation
+-   [x] Eight-configuration retrieval ablation with bilingual HTML reports
 -   [x] End-to-end check: rewrite -> retrieve -> rerank (`scripts/test_pipeline.py`)
 -   [x] UI wired to full-corpus retrieval (`Full corpus` source)
 -   [x] Streamlit chat UI with separate evidence panel

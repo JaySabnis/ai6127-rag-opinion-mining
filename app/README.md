@@ -19,8 +19,8 @@ The UI supports chat history, evidence inspection and an optional reranking swit
 | **Upload candidates** | same, on an uploaded JSON/JSONL pool (up to 1,000 records and 5 MB; see [candidate formats](../retrieval/README.md)) |
 | **Full corpus** | DeepSeek rewrite → product names checked against the corpus → hybrid retrieval over all 459,418 chunks (50 candidates per product) → MiniLM rerank → top K |
 
-**Full corpus** needs the retrieval indexes in `indexes/` (build them with
-`uv run python -m scripts.build_retrieval_indexes --stage all`). They are
+**Full corpus** needs the shared retrieval indexes in `indexes/` (see the
+[download and setup instructions](../README.md#hybrid-retrieval)). They are
 loaded once, on the first question (about 5–7 s). Extra controls and behaviour
 in this mode:
 
@@ -32,8 +32,10 @@ in this mode:
 - Comparison questions ("S10e or Pixel 3a?") are retrieved and reranked per
   product, so each product gets its own top K.
 - Retrieval aspect boost is enabled with weight 0.5 during candidate selection.
-  The UI has no separate aspect-boost switch. The reranker uses its own gated
-  aspect reward with weight 1.2.
+  The UI has no separate aspect-boost switch. The default reranker uses the
+  v2 fusion model trained on 100 separate questions, reorders the first 20
+  candidates, and preserves the remaining retrieval order. MiniLM stays frozen;
+  the default does not add the legacy gated aspect reward.
 - The evidence panel shows, per product, the filter used (model and all its
   corpus spellings, or brand), how many reviews were searched, and the text
   actually searched.

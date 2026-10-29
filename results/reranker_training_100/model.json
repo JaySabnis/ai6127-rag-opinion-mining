@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "columns": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7,
+    8
+  ],
+  "features": [
+    "semantic_raw",
+    "semantic_rank",
+    "retrieval_rank",
+    "aspect_coverage",
+    "keyword_count",
+    "keyword_density",
+    "length"
+  ],
+  "coefficients": [
+    0.11364251761391753,
+    0.06944415928088113,
+    0.026882246453651417,
+    0.07238708833095114,
+    0.0986061917732108,
+    0.07457540625304868,
+    0.157515610889361
+  ],
+  "alpha": 100,
+  "target": "grade",
+  "window": 20,
+  "training_queries": 100,
+  "training_pairs": 2000,
+  "training_dataset": "evaluation/reranker_training_100",
+  "qrels_sha256": "a0d48d6f6646bfa07050513349f05b325fb285b2bce65ac7279f72fa29376d1b",
+  "query_sha256": "cd2965b99422dd99be53a459605f8fb9d7f9cf403881362f9a747a634e8ffd0c",
+  "selection": "five-fold product-group CV on training100 only; maximize nDCG@10",
+  "evaluation40_used_for_training_or_selection": false
+}
