@@ -19,6 +19,7 @@ Task 2 metadata:
 from __future__ import annotations
 
 import re
+from dataclasses import dataclass
 from datetime import datetime
 from typing import Any
 
@@ -145,18 +146,87 @@ _ASPECT_PATTERNS: dict[str, list[re.Pattern[str]]] = {
 
 
 # ---------------------------------------------------------------------------
-# Model detector cache
+# Phone model detection
 # ---------------------------------------------------------------------------
 
-# The model catalog is created once by the pipeline and then reused for
-# hundreds of thousands of chunks.
-#
-# We cache using id(model_catalog) so we do NOT construct a giant tuple/hash
-# on every chunk.
-_MODEL_DETECTOR_CACHE: dict[int, tuple[
-    re.Pattern[str],
-    dict[str, set[str]],
-]] = {}
+_Tokens = tuple[str, ...]
+
+_TOKEN_RE = re.compile(r"[a-z0-9]+")
+
+# "(Gen 4)", "(2020)", "(Unlocked)" are listing details, not part of the
+# name reviewers write.
+_PARENTHESES_RE = re.compile(r"\([^)]*\)")
+
+# Reviewers call "Moto G (Gen 4)" the "Moto G4".
+_GENERATION_RE = re.compile(
+    r"\(\s*gen\s*(\d+)\s*\)",
+    re.IGNORECASE,
+)
+
+# Tokens that contain a digit but are not a model:
+# 4g, 5g, 3x, 4k, 3d, 1080p, 64gb, 12mp, 5000mah, 18w, 2nd, mp3, ip68 ...
+_SPEC_TOKEN_RE = re.compile(
+    r"^(?:"
+    r"[2-5]g"
+    r"|\d+(?:x|k|d|p|gb|mb|tb|mp|mah|hz|ghz|mm|w|st|nd|rd|th)"
+    r"|mp[34]"
+    r"|ip6\d"
+    r")$"
+)
+
+# Brand values that are placeholders rather than manufacturers.
+_PLACEHOLDER_BRANDS = frozenset({
+    "",
+    "other",
+    "generic",
+    "unknown",
+    "unbranded",
+    "artist unknown",
+})
+
+# Product-title words that say nothing about which model it is.
+_GENERIC_TOKENS = frozenset({
+    "phone",
+    "phones",
+    "cell",
+    "cellphone",
+    "mobile",
+    "smartphone",
+    "tablet",
+    "unlocked",
+    "dual",
+    "sim",
+    "lte",
+    "band",
+    "inch",
+    "inches",
+    "year",
+    "years",
+    "net10",
+})
+
+
+@dataclass(frozen=True)
+class ModelCatalog:
+    """
+    Index of known phone models, built once and reused for every chunk.
+
+    alias_brands:
+        Model name as tokens -> brands that sell a model with that name.
+
+    distinctive:
+        Aliases specific enough to match without a brand in front of them.
+        Every other alias only counts when written as "<brand> <alias>".
+    """
+
+    alias_brands: dict[_Tokens, set[_Tokens]]
+    distinctive: frozenset[_Tokens]
+    brands: frozenset[_Tokens]
+    max_alias_length: int
+    max_brand_length: int
+
+    def __len__(self) -> int:
+        return len(self.alias_brands)
 
 
 def _normalise(value: Any) -> str:
@@ -225,156 +295,271 @@ def detect_aspects(text: str) -> list[str]:
     return detected
 
 
+def _tokens(value: Any) -> _Tokens:
+    return tuple(
+        _TOKEN_RE.findall(_normalise(value).lower())
+    )
+
+
+def _brand_tokens(brand: Any) -> _Tokens:
+    """
+    Brand as tokens, or () when the brand is only a placeholder.
+    """
+    if _normalise(brand).lower() in _PLACEHOLDER_BRANDS:
+        return ()
+
+    return _tokens(brand)
+
+
+def _model_aliases(
+    brand: _Tokens,
+    model: Any,
+) -> list[_Tokens]:
+    """
+    Token sequences reviewers use to refer to a catalog model.
+
+    Examples:
+        Motorola / "Motorola Razr"       -> ("razr",)
+        Motorola / "Moto G Plus (Gen 5)" -> ("moto", "g", "plus"),
+                                            ("moto", "g5", "plus")
+    """
+    model = _normalise(model)
+
+    alias = _tokens(
+        _PARENTHESES_RE.sub(" ", model)
+    )
+
+    # The brand is matched on its own, so drop it when the model repeats it.
+    if (
+        brand
+        and len(alias) > len(brand)
+        and alias[:len(brand)] == brand
+    ):
+        alias = alias[len(brand):]
+
+    if not alias:
+        return []
+
+    aliases = [alias]
+
+    generation = _GENERATION_RE.search(model)
+
+    if generation:
+        letters = [
+            index
+            for index, token in enumerate(alias)
+            if len(token) == 1 and token.isalpha()
+        ]
+
+        if letters:
+            index = letters[-1]
+            aliases.append(
+                alias[:index]
+                + (alias[index] + generation.group(1),)
+                + alias[index + 1:]
+            )
+
+    return aliases
+
+
+def _is_distinctive(alias: _Tokens) -> bool:
+    """
+    Whether an alias can be matched without a brand in front of it.
+
+    Model identifiers mix letters and digits ("iPhone 6", "Galaxy S5",
+    "G7", "T68i"). Bare words ("Phone", "One", "Go", "Razr") and bare
+    numbers ("2", "3310") are ordinary review vocabulary, so those only
+    count when brand-qualified ("Razer Phone", "HTC One", "Nokia 3310").
+    """
+    if not any(
+        char.isdigit()
+        for token in alias
+        for char in token
+    ):
+        return False
+
+    return any(
+        token not in _GENERIC_TOKENS
+        and not _SPEC_TOKEN_RE.match(token)
+        and any(char.isalpha() for char in token)
+        for token in alias
+    )
+
+
+def _contains(
+    sequence: _Tokens,
+    part: _Tokens,
+) -> bool:
+    length = len(part)
+
+    return any(
+        sequence[index:index + length] == part
+        for index in range(len(sequence) - length + 1)
+    )
+
+
 def build_model_catalog(
     reviews: list[dict[str, Any]],
-) -> list[tuple[str, str]]:
+) -> ModelCatalog:
     """
-    Build a list of (brand, model) combinations from the cleaned corpus.
+    Build the phone model index from the cleaned corpus.
 
     This catalog is used to detect references to another phone model.
     """
-    catalog: set[tuple[str, str]] = set()
+    alias_brands: dict[_Tokens, set[_Tokens]] = {}
 
     for review in reviews:
-        brand = _normalise(review.get("brand"))
-        model = _normalise(review.get("model"))
+        brand = _brand_tokens(review.get("brand"))
 
-        if model:
-            catalog.add((brand, model))
-
-    # Longest model names first to reduce partial matching problems.
-    return sorted(
-        catalog,
-        key=lambda item: len(item[1]),
-        reverse=True,
-    )
-
-
-def _build_model_detector(
-    model_catalog: list[tuple[str, str]],
-) -> tuple[
-    re.Pattern[str],
-    dict[str, set[str]],
-]:
-    """
-    Build one compiled regex for all phone models.
-
-    Returns:
-        pattern:
-            One compiled regex containing all known models.
-
-        model_brands:
-            Mapping:
-                normalized model -> set of brands
-
-            This lets us preserve the original behavior when the same
-            model name exists under multiple brands.
-    """
-    model_brands: dict[str, set[str]] = {}
-
-    for brand, model in model_catalog:
-        brand_lower = brand.strip().lower()
-        model_lower = model.strip().lower()
-
-        if not model_lower:
+        # A placeholder brand cannot qualify a mention, and its "models"
+        # are mostly product-title fragments.
+        if not brand:
             continue
 
-        model_brands.setdefault(model_lower, set()).add(
-            brand_lower
-        )
+        for alias in _model_aliases(brand, review.get("model")):
+            alias_brands.setdefault(alias, set()).add(brand)
 
-    models = sorted(
-        model_brands.keys(),
-        key=len,
-        reverse=True,
+            # Reviewers shorten "Galaxy S3" to "S3" and "Moto G7 Power"
+            # to "G7", so model codes are aliases on their own too.
+            if len(alias) > 1:
+                for token in alias:
+                    if _is_distinctive((token,)):
+                        alias_brands.setdefault((token,), set()).add(brand)
+
+    brands = frozenset(
+        brand
+        for alias_brand_set in alias_brands.values()
+        for brand in alias_brand_set
     )
 
-    if not models:
-        # Never matches.
-        pattern = re.compile(r"(?!)")
-    else:
-        alternatives = "|".join(
-            re.escape(model)
-            for model in models
-        )
-
-        pattern = re.compile(
-            rf"(?<!\w)(?:{alternatives})(?!\w)",
-            re.IGNORECASE,
-        )
-
-    return pattern, model_brands
+    return ModelCatalog(
+        alias_brands=alias_brands,
+        distinctive=frozenset(
+            alias
+            for alias in alias_brands
+            if _is_distinctive(alias)
+        ),
+        brands=brands,
+        max_alias_length=max(map(len, alias_brands), default=0),
+        max_brand_length=max(map(len, brands), default=0),
+    )
 
 
-def _get_model_detector(
-    model_catalog: list[tuple[str, str]],
-) -> tuple[
-    re.Pattern[str],
-    dict[str, set[str]],
-]:
+def _preceding_brand(
+    tokens: list[str],
+    end: int,
+    model_catalog: ModelCatalog,
+) -> _Tokens | None:
     """
-    Return the cached model detector.
-
-    The detector is built only once for the model catalog.
+    Return the known brand written right before tokens[end], if any.
     """
-    cache_key = id(model_catalog)
+    for length in range(
+        min(model_catalog.max_brand_length, end),
+        0,
+        -1,
+    ):
+        brand = tuple(tokens[end - length:end])
 
-    detector = _MODEL_DETECTOR_CACHE.get(cache_key)
+        if brand in model_catalog.brands:
+            return brand
 
-    if detector is None:
-        detector = _build_model_detector(model_catalog)
-        _MODEL_DETECTOR_CACHE[cache_key] = detector
+    return None
 
-    return detector
+
+def _find_model_mentions(
+    tokens: list[str],
+    model_catalog: ModelCatalog,
+):
+    """
+    Yield (alias, brand) for each catalog model mentioned in the tokens.
+
+    brand is the brand written right before the alias ("LG G6"), or None.
+
+    The longest alias wins, so "Galaxy S10 Plus" is not also read as
+    "Galaxy S10". Non-distinctive aliases are only yielded when one of
+    their own brands precedes them.
+    """
+    index = 0
+
+    while index < len(tokens):
+        for length in range(
+            min(model_catalog.max_alias_length, len(tokens) - index),
+            0,
+            -1,
+        ):
+            alias = tuple(tokens[index:index + length])
+
+            alias_brands = model_catalog.alias_brands.get(alias)
+
+            if alias_brands is None:
+                continue
+
+            brand = _preceding_brand(tokens, index, model_catalog)
+
+            if (
+                alias in model_catalog.distinctive
+                or brand in alias_brands
+            ):
+                yield alias, brand
+                index += length
+                break
+        else:
+            index += 1
 
 
 def detect_other_model(
     text: str,
     current_brand: str,
     current_model: str,
-    model_catalog: list[tuple[str, str]],
+    model_catalog: ModelCatalog,
 ) -> bool:
     """
     Detect whether a chunk mentions a phone model other than
     its own product model.
 
-    This is optimized for large corpora:
-    - One regex is compiled for the entire model catalog.
-    - The regex is cached and reused across all chunks.
-    - finditer() identifies all model mentions in the chunk.
+    A mention counts as "other" when:
+    - it is preceded by a different brand ("LG G6" in a Moto G6 review), or
+    - it is a distinctive model name that is not part of the reviewed
+      model ("Galaxy S4" in a Galaxy S5 review).
+
+    "S5" or "Galaxy" in a Galaxy S5 review, and same-brand nicknames such
+    as "Essential Phone" in a PH-1 review, are treated as the same phone.
     """
     if not text:
         return False
 
-    current_model_lower = current_model.strip().lower()
-    current_brand_lower = current_brand.strip().lower()
+    brand = _brand_tokens(current_brand)
+    current_aliases = _model_aliases(brand, current_model)
 
-    pattern, model_brands = _get_model_detector(
-        model_catalog
-    )
+    tokens = _TOKEN_RE.findall(text.lower())
 
-    for match in pattern.finditer(text):
-        mentioned_model = match.group(0).strip().lower()
-
-        # If the mentioned model name is different, it is definitely
-        # another model.
-        if mentioned_model != current_model_lower:
+    for alias, mentioned_brand in _find_model_mentions(
+        tokens,
+        model_catalog,
+    ):
+        # "LG G6" in a Moto G6 review. A carrier written before the model
+        # ("AT&T iPhone 6") does not sell that model, so it falls through.
+        if (
+            brand
+            and mentioned_brand
+            and mentioned_brand != brand
+            and mentioned_brand in model_catalog.alias_brands[alias]
+        ):
             return True
 
-        # Same model name:
-        #
-        # If that model exists under another brand, the original logic
-        # would consider it an "other model" because the brand/model
-        # combination is different.
-        brands = model_brands.get(
-            mentioned_model,
-            set(),
-        )
+        if alias not in model_catalog.distinctive:
+            continue
 
-        if any(
-            brand != current_brand_lower
-            for brand in brands
-        ):
+        if current_aliases:
+            if not any(
+                _contains(current_alias, alias)
+                for current_alias in current_aliases
+            ):
+                return True
+
+        # Unknown reviewed model: only a model this brand does not sell
+        # is certainly a different phone.
+        elif brand and brand not in model_catalog.alias_brands[alias]:
             return True
 
     return False
@@ -383,7 +568,7 @@ def detect_other_model(
 def build_metadata(
     review: dict[str, Any],
     chunk: dict[str, Any],
-    model_catalog: list[tuple[str, str]],
+    model_catalog: ModelCatalog,
 ) -> dict[str, Any]:
     """
     Create the final metadata object for one chunk.

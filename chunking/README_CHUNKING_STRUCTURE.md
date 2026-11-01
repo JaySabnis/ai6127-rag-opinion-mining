@@ -352,6 +352,19 @@ Indicates whether another phone model is detected in the chunk.
 
 This can be useful for identifying comparison statements.
 
+Detection rules (precision first):
+
+-   Model names that mix letters and digits (`iPhone 6`, `Galaxy S5`,
+    `G7`) match on their own.
+-   Bare words and numbers (`Phone`, `One`, `Razr`, `3310`) only match
+    when preceded by their brand (`Razer Phone`, `HTC One`,
+    `Nokia 3310`), because they are usually ordinary review vocabulary.
+-   A mention that is part of the reviewed model (`S5` or `Galaxy` in a
+    Galaxy S5 review) is the same phone; a different brand in front
+    (`LG G6` in a Moto G6 review) is another phone.
+-   Spec tokens (`4G`, `3x`, `1080p`, `2nd`, `MP3`) and placeholder
+    brands (`Other`, `Generic`) are ignored.
+
 ------------------------------------------------------------------------
 
 #### `source_url`
