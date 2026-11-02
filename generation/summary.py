@@ -23,7 +23,7 @@ class GroundedSummarizer:
     def __init__(self, client):
         self.client = client
 
-    def summarize(self, question, chunks, *, aspects=(), language="zh"):
+    def summarize(self, question, chunks, *, aspects=(), language="en"):
         chunks = normalize_chunks(chunks)
         if not chunks:
             return []

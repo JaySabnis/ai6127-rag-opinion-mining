@@ -96,14 +96,19 @@ class FaithfulnessChecker:
                     quotes = judgment["evidence"]
                     if not isinstance(quotes, list):
                         raise ValueError("Checker evidence must be a list")
-                    if judgment["status"] in ("supported", "partially_supported", "contradicted") and not quotes:
-                        raise ValueError("Support/contradiction judgment requires source quotes")
                     for evidence in quotes:
                         if not isinstance(evidence, dict) or set(evidence) != {"chunk_id", "quote"}:
                             raise ValueError("Invalid checker evidence")
-                        cid = evidence["chunk_id"]
-                        if not isinstance(cid, str) or cid not in by_sid[sid]["citations"] or not quote_in(evidence["quote"], by_id[cid]["text"]):
-                            raise ValueError("Checker invented evidence or quoted an uncited source")
+                    # Drop evidence that is not a verbatim quote from a cited chunk. A verdict
+                    # left without evidence becomes unverifiable for this sentence only,
+                    # instead of failing the whole check and wiping every sentence.
+                    quotes = judgment["evidence"] = [
+                        e for e in quotes if isinstance(e["chunk_id"], str)
+                        and e["chunk_id"] in by_sid[sid]["citations"]
+                        and quote_in(e["quote"], by_id[e["chunk_id"]]["text"])]
+                    if judgment["status"] in ("supported", "partially_supported", "contradicted") and not quotes:
+                        judgment["status"] = "unverifiable"
+                        judgment["reason"] += " [no verbatim evidence from the cited sources]"
                 return value
 
             judgments = self.client.json(PROMPT, {"sentences": pending},

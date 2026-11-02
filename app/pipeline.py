@@ -74,7 +74,8 @@ def search_full_corpus(
     for res in results:
         candidates = [h.to_dict() for h in res.hits]
         if rerank and reranker is not None and candidates:
-            chunks += reranker.rerank(query, candidates, query_aspects=aspects, top_k=top_k)
+            chunks += reranker.rerank(query, candidates, query_aspects=aspects, top_k=top_k,
+                                     scoring_query=res.search_text)
         else:
             chunks += candidates[:top_k]
     if rerank and reranker is not None:

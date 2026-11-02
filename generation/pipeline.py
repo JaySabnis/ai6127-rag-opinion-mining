@@ -21,7 +21,7 @@ class OpinionPipeline:
         self.checker = FaithfulnessChecker(client)
         self.max_chunks, self.max_context_chars = max_chunks, max_context_chars
 
-    def run(self, question, chunks, *, aspects=(), language="zh", verify=True):
+    def run(self, question, chunks, *, aspects=(), language="en", verify=True):
         if not isinstance(question, str) or not question.strip():
             raise ValueError("A nonempty question is required")
         chunks = normalize_chunks(chunks)
@@ -79,7 +79,7 @@ class OpinionPipeline:
                 "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"}
 
 
-def enrich_reply(reply, question, *, client=None, aspects=None, language="zh", verify=True):
+def enrich_reply(reply, question, *, client=None, aspects=None, language="en", verify=True):
     """Accept app.pipeline.search_full_corpus() output and preserve all its fields."""
     if client is None:
         from generation.client import DeepSeekClient

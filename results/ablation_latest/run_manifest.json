@@ -1,0 +1,23 @@
+{
+  "systems": [
+    "01_bm25",
+    "02_dense",
+    "03_rrf",
+    "04_strip_model",
+    "05_aspect",
+    "06_rerank",
+    "07_rewrite",
+    "08_learned_v2"
+  ],
+  "queries": 40,
+  "top_k": 100,
+  "rerank_window": 20,
+  "algorithm": "rank_fusion: semantic_weight=.8, offset=10",
+  "trained_configuration": "08_learned_v2",
+  "retrieval_rerun": false,
+  "minilm_inference_rerun": false,
+  "minilm_revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+  "inputs_sha256": "11a102fcd4e3e0abae8b9de0c4ab7940b9d46e82e68d284982fa22d671721478",
+  "model_sha256": "b022c31d2c42da3044f37c6a2566e3edcebdaeda27aba5d22d954bea009008c0",
+  "unjudged_top10_pairs": 0
+}

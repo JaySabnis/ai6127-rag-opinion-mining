@@ -34,7 +34,7 @@ def main():
     run.add_argument("--input", type=Path, required=True)
     run.add_argument("--question", required=True)
     run.add_argument("--aspects", nargs="*", choices=ASPECTS, default=[])
-    run.add_argument("--language", choices=["zh", "en"], default="zh")
+    run.add_argument("--language", choices=["zh", "en"], default="en")
     run.add_argument("--limit", type=int)
     run.add_argument("--no-check", action="store_true", help="Ablation: keep unverified draft")
     run.add_argument("--output", type=Path, default=ROOT / "results/group_c/run.json")

@@ -1,0 +1,12 @@
+{
+  "training_queries": 100,
+  "training_pairs": 2000,
+  "miniLM_frozen": true,
+  "evaluation_used_for_training_or_selection": false,
+  "model_sha256": "b022c31d2c42da3044f37c6a2566e3edcebdaeda27aba5d22d954bea009008c0",
+  "files": {
+    "README.md": "24b09680f8e678b7ca81abd4a53a99e6343baf2dc8e6fb83a622983792658469",
+    "training_oof.csv": "f22775bc6483910f385d3e5f104d99944714ec2453c7bce6f26938c017e7223b",
+    "training_statistics.json": "95828926aa93fd34f413e8c41951d0c602c894115884851c7f4e970922b64b9c"
+  }
+}

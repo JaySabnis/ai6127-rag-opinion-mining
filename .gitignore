@@ -1,6 +1,17 @@
-__pycache__/
+﻿__pycache__/
 *.pyc
 .DS_Store
+
+# Local delivery archives; commit the source datasets and reports instead.
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
 
 # Secrets: keep .env local, commit .env.example only
 .env
@@ -19,3 +30,6 @@ indexes_*/
 # Group C local API responses and generated analysis
 /.cache/
 /results/group_c/
+
+# Local editor settings
+.vscode/

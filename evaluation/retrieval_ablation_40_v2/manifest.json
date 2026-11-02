@@ -1,0 +1,37 @@
+{
+  "name": "retrieval_evaluation40",
+  "queries": 40,
+  "judged_pairs": 2640,
+  "judged_unique_chunks": 2097,
+  "judged_source_reviews": 2013,
+  "candidate_corpus_chunks": 7312,
+  "label_distribution": {
+    "0": 816,
+    "1": 353,
+    "2": 672,
+    "3": 799
+  },
+  "validation": {
+    "top10_fully_judged": {
+      "01_bm25": true,
+      "02_dense": true,
+      "03_rrf": true,
+      "04_strip_model": true,
+      "05_aspect": true,
+      "06_rerank": true,
+      "07_rewrite": true,
+      "08_learned_v2": true
+    },
+    "same_qrels_for_all_metrics": true
+  },
+  "files": {
+    "corpus.jsonl": "f2a853d0a90826c97308f3f7bb9d7374716b44785e2f566348b59222db4daac1",
+    "dataset_labeled.jsonl": "d03e693524d7a2f1079ab281ed1c6b1ebbf2c62efae97ef5476496bdd04e77ca",
+    "qrels.jsonl": "5ebf8e913868aea90e1e16c40e00175acbb3793963175a79d578b91987b76f9f",
+    "qrels.trec": "494e983eee05e4e3151af8644525bd3a7a1a54435ac8d7040b7555d24ef7ce2c",
+    "queries.jsonl": "4192c88e34173e532f38cd61ebe7de857faa018fa4cf85de626afe5ff16011e0",
+    "README.md": "970e2d16a92ae5ed5acd00a21bf67183e75bb1fe6b29250af922c04e1012840f",
+    "rewrite_prompt.txt": "2c51fbcdd6c205fc706344672af61588e4b5cfbca00e7193b73fd22c2e2fb366",
+    "rewrites.jsonl": "b7d25ef414c52d345f692e2236a501bc9f263e6b9ecc9e53060380dfb6d43f6c"
+  }
+}

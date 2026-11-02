@@ -1,5 +1,7 @@
 # Retrieval (Group B)
 
+See [Reranker](RERANKER_README.md) for training, scoring and usage.
+
 Group B turns the knowledge-base chunks into ranked evidence for generation:
 
 ```text
@@ -12,7 +14,7 @@ query_rewrite.py   DeepSeek: English retrieval query + products + aspects   (opt
 retriever.py       BM25 + dense (BGE/FAISS) + RRF  ->  candidate pool, e.g. top 50
     │
     ▼
-rerank.py          MiniLM cross-encoder + gated aspect bonus  ->  top 5-10
+rerank.py          MiniLM semantic rank + retrieval rank fusion -> top 5-10
     │
     ▼
 app/streamlit_app.py (UI)  /  generation
@@ -131,6 +133,8 @@ indexes/
 
 ## 2. The interface (for reranker / UI / generation)
 
+The application defaults to `learned`: frozen MiniLM plus a regularized linear fusion layer trained on 100 separate questions. The algorithm ablation uses `rank_fusion`: `0.2/(10+retrieval_rank) + 0.8/(10+semantic_rank)`. Both rank only the first 20 retrieval candidates and preserve the tail. See the [reranker guide](RERANKER_README.md) for training, features and configuration, and the [ablation guide](../results/ablation_latest/README.md) for the full eight-system comparison.
+
 ```python
 res = r.retrieve(
     query,
@@ -229,8 +233,7 @@ boost, not a filter, because the tags are keyword-based and noisy.
 
 The retrieval weight defaults to 0.5 in `Retriever.retrieve()`, the UI pipeline,
 `scripts.search_cli` and `scripts.test_pipeline`. The UI has no separate
-aspect-boost switch. This retrieval reward is independent of the reranker's
-gated aspect reward (default weight 1.2).
+aspect-boost switch. The trained reranker also uses aspect coverage as a learned feature.
 
 **Query parsing.** Model names are matched against the models that exist in
 the corpus, on token boundaries, longest match first (`iPhone 11 Pro` beats
@@ -404,29 +407,11 @@ Query rewrite does not use conversation history. Extracted products are not guar
 
 ## Ranking Rules
 
-Each candidate must contain `chunk_id`, `doc_id` and `text`. The brand, model and aspect_tags fields may be at the top level or inside metadata; top-level fields take precedence.
+Pass candidates in retrieval order and supply the model-stripped search text through `scoring_query`. MiniLM scores the first 20 `(scoring_query, original chunk text)` pairs. The `learned` strategy standardizes seven selected features in the candidate window and applies the trained coefficients; `rank_fusion` combines retrieval and semantic ranks. Both preserve stable ties and the tail order.
 
-1. Feed each pair `(query, chunk["text"])` directly to MiniLM. The passage is the original chunk text; no brand/model prefix is added. Product metadata remains available for retrieval filters and result display.
-2. MiniLM produces the raw logit `cross_encoder_raw_score = s`, mapped to `cross_encoder_score = 0.25*(1+tanh(s))` in [0, 0.5] for fusion. Hybrid retrieval also exports pure `rrf_score` before its own aspect reward, normalized as `r = rrf_score / (2 / (rrf_k + 1))`. Two equally weighted rankers both ranking a chunk first give `r = 1`. This is a fixed theoretical scale, not per-pool min-max normalization.
-3. Let `coverage = distinct_matched_aspects / distinct_query_aspects` (0 when there are no query aspects), and `gate = sigmoid((s - aspect_threshold) / aspect_temperature)`.
-4. Set `rerank_score = cross_encoder_weight * 0.25*(1+tanh(s)) + rrf_weight * r + aspect_weight * coverage * (0.5 + 0.5 * gate)`, sort descending, take Top-K, and assign `final_rank`. The gate uses the raw MiniLM logit `s` before bounding or weighting it; its -6 midpoint remains on the raw-logit scale.
+The display score `0.25*(1+tanh(raw_logit))` remains within [0, 0.5]; learned ranking features consume raw logits. `feature_contributions` sums to the learned `rerank_score`. Tail scores preserve order and are not semantic predictions. Scores do not represent sentiment.
 
-Defaults: `cross_encoder_weight=0.6`, `rrf_weight=1.0`, `aspect_weight=1.2`, `aspect_threshold=-6`, `aspect_temperature=1`. The default formula is `0.15*(1+tanh(s)) + r + 1.2*coverage*(0.5 + 0.5*sigmoid(s+6))`. MiniLM contributes between 0 and 0.3, RRF at most 1, and aspect coverage at most 1.2. These auxiliary signals can outweigh MiniLM; the final fused score is not restricted to [0, 0.5]. Tanh compresses differences between large-magnitude logits. These are engineering settings, not validated optima; tune on a separate development set, not the held-out test queries.
-
-Only an explicit `rrf_normalized` field is used. Missing/None values contribute 0; generic `score`, BM25 scores and cosine similarities are never interpreted as RRF. Values must be finite and in [0, 1]. Uploaded candidates should export normalized **pure** RRF with the same two-ranker convention. Retrieval's aspect boost affects which chunks enter the pool, but it is not included again in the RRF feature.
-
-Returned dictionaries preserve existing fields and add cross_encoder_contribution (weighted MiniLM score), aspect_match_count, aspect_coverage, aspect_gate, aspect_fixed_bonus, aspect_gated_bonus, aspect_bonus, rrf_normalized, rrf_bonus and the scores above. Only the top-level dictionary is copied; nested metadata is shared with the input and is not modified by this pipeline.
-
-Half the aspect reward is fixed and half is sigmoid-gated. For full aspect coverage, the default reward ranges from 0.6 to 1.2, and equals 0.9 at the raw-score threshold -6. Partial coverage scales both parts proportionally; no matches or no query aspects give zero reward. Temperature must be positive; smaller values produce a sharper transition. The gate and the normalized RRF are not relevance probabilities.
-
-Omitting query_aspects or setting aspect_weight=0 disables only the aspect reward. Set rrf_weight=0 to disable the retrieval prior; setting both auxiliary weights to 0 gives weighted, bounded MiniLM. CLI flags `--cross-encoder-weight`, `--rrf-weight`, `--aspect-weight`, `--aspect-threshold` and `--aspect-temperature` adjust these components. The UI uses the defaults, except the device, which it picks automatically (CUDA > MPS > CPU).
-`top_k=None` returns all candidates; `top_k=0` returns an empty list. `rerank_with_details()` also returns timings and configuration.
-
-The default model is `cross-encoder/ms-marco-MiniLM-L6-v2`, running on CPU by default with batch_size=16 and max_length=512 (the UI and `scripts/test_pipeline.py` pick CUDA > MPS > CPU instead; see Part A, section 4, for the macOS CPU crash). The model is downloaded on first use and cached afterward.
-The 512-token limit includes the query, original chunk text and special tokens. The tokenizer truncates longer input.
-Raw MiniLM scores may be positive or negative; higher is more relevant. Final scores include aspect bonuses. Neither score represents sentiment.
-
-`rerank_with_details()` returns candidates, input_count, timing_ms and config. Timings are in milliseconds: model_load covers initial loading during this call, rerank covers scoring and sorting, and total covers the full reranking call. These exclude the external query rewrite API call.
+`top_k=None` keeps all candidates and `top_k=0` skips scoring. `rerank_with_details()` also returns configuration and load/inference timings. See [RERANKER_README.md](RERANKER_README.md) for the training objective and API example.
 
 ## Standalone Commands
 

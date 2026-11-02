@@ -134,9 +134,10 @@ class CheckerTests(unittest.TestCase):
     def test_judge_cannot_invent_a_supporting_quote(self):
         value = {"judgments": [{"sentence_id": "s0", "status": "supported", "reason": "Yes",
             "evidence": [{"chunk_id": "a_0", "quote": "It supports satellite calls"}]}]}
-        with self.assertRaises(ValueError):
-            FaithfulnessChecker(QueueClient([value])).check([
-                {"text": "Satellite calls.", "citations": ["a_0"]}], [chunk()])
+        result = FaithfulnessChecker(QueueClient([value])).check([
+            {"text": "Satellite calls.", "citations": ["a_0"]}], [chunk()])
+        self.assertTrue(result[0]["flagged"])
+        self.assertEqual(result[0]["status"], "unverifiable")
 
     def test_partial_support_is_always_flagged(self):
         value = {"judgments": [{"sentence_id": "s0", "status": "partially_supported", "reason": "Only battery",
