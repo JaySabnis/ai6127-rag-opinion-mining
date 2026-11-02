@@ -1,0 +1,32 @@
+{
+  "run": "B40_learned_checker_fixed",
+  "n_queries": 40,
+  "classification_s": {
+    "mean": 3.346,
+    "median": 3.176,
+    "p95": 4.208,
+    "max": 6.005
+  },
+  "generation_s": {
+    "mean": 1.925,
+    "median": 1.912,
+    "p95": 2.385,
+    "max": 2.72
+  },
+  "verification_s": {
+    "mean": 2.736,
+    "median": 2.57,
+    "p95": 3.695,
+    "max": 4.552
+  },
+  "total_s": {
+    "mean": 8.007,
+    "median": 7.899,
+    "p95": 9.794,
+    "max": 9.907
+  },
+  "cold_total_s": 6.886,
+  "warm_total_mean_s": 8.036,
+  "queries_per_minute": 7.49,
+  "chunks_classified_per_second": 3.0
+}
