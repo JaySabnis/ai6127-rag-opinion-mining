@@ -1,6 +1,6 @@
 # AI6127 RAG-Based Aspect-Level Opinion Mining
 
-A retrieval-augmented system for answering aspect-level questions about smartphone reviews, such as "How is the camera on the Galaxy S10?". The application retrieves review evidence; answer generation is not connected yet.
+A retrieval-augmented system for answering aspect-level questions about smartphone reviews, such as "How is the camera on the Galaxy S10?". The application retrieves review evidence and can optionally classify aspect sentiment and write a cited, evidence-checked summary with DeepSeek (Group C).
 
 ## Quick Start
 
@@ -10,6 +10,16 @@ uv run streamlit run app/streamlit_app.py
 ```
 
 For query rewriting, configure `DEEPSEEK_API_KEY` in a local `.env` using [.env.example](.env.example). Sample and uploaded candidates can be used without the full corpus indexes. See the [application guide](app/README.md).
+
+## Sentiment and Grounded Summaries (Group C)
+
+Turn on **Answer & sentiment (DeepSeek)** in the app sidebar, or use the CLI (needs `DEEPSEEK_API_KEY`):
+
+```powershell
+uv run python -m scripts.group_c run --input tests/fixtures/rerank_candidates.json --question "How is the battery on the Galaxy S10?" --aspects battery --output results/group_c/demo.json
+```
+
+See [README_GROUP_C.md](README_GROUP_C.md) for labels, ratio definitions and the evidence checker.
 
 ## Hybrid Retrieval
 

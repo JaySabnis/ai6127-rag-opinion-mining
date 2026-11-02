@@ -1,0 +1,11 @@
+{
+  "purpose": "Deliberately unsupported claims for a development check; not an evaluation benchmark.",
+  "sentences": [
+    {"text": "有评论认为这款手机的续航超过一天半。", "citations": ["765d416cee77_0"]},
+    {"text": "这款手机支持卫星通信和200瓦快充。", "citations": ["765d416cee77_0"]},
+    {"text": "所有用户都对它的电池非常满意。", "citations": ["765d416cee77_0"]},
+    {"text": "有评论说续航不错，而且手机支持卫星通信。", "citations": ["765d416cee77_0"]},
+    {"text": "这款手机的电池续航非常差。", "citations": ["missing_chunk"]},
+    {"text": "这款手机适合所有专业摄影师。", "citations": []}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "purpose": "Hand-written development examples, not Amazon data or the manually annotated final evaluation set.",
+  "candidates": [
+    {"chunk_id": "demo_positive_0", "doc_id": "demo_positive", "brand": "Demo", "model": "ExamplePhone", "text": "The camera is excellent and the battery lasts all day."},
+    {"chunk_id": "demo_negative_0", "doc_id": "demo_negative", "brand": "Demo", "model": "ExamplePhone", "text": "This phone is terrible. The screen freezes constantly."},
+    {"chunk_id": "demo_mixed_0", "doc_id": "demo_mixed", "brand": "Demo", "model": "ExamplePhone", "text": "The camera is excellent, but the battery is terrible."},
+    {"chunk_id": "demo_neutral_0", "doc_id": "demo_neutral", "brand": "Demo", "model": "ExamplePhone", "text": "The phone has a 6.1-inch screen."}
+  ]
+}
