@@ -1,0 +1,87 @@
+{
+  "pairs": [
+    {
+      "batch": "1",
+      "annotators": [
+        "groupA_Jay Sabnis",
+        "groupB_Yazh"
+      ],
+      "label": {
+        "n": 400,
+        "percent": 89.8,
+        "kappa": 0.845
+      },
+      "subjectivity": {
+        "n": 397,
+        "percent": 98.2,
+        "kappa": 0.749
+      },
+      "polarity": {
+        "n": 379,
+        "percent": 91.6,
+        "kappa": 0.866
+      }
+    },
+    {
+      "batch": "2",
+      "annotators": [
+        "groupA_Bi Yalin",
+        "groupB_Shi yonghao"
+      ],
+      "label": {
+        "n": 400,
+        "percent": 87.2,
+        "kappa": 0.804
+      },
+      "subjectivity": {
+        "n": 398,
+        "percent": 97.7,
+        "kappa": 0.389
+      },
+      "polarity": {
+        "n": 386,
+        "percent": 89.4,
+        "kappa": 0.832
+      }
+    },
+    {
+      "batch": "3",
+      "annotators": [
+        "groupA_Zhang Yihuai",
+        "groupB_Xu yiwei"
+      ],
+      "label": {
+        "n": 400,
+        "percent": 87.5,
+        "kappa": 0.81
+      },
+      "subjectivity": {
+        "n": 397,
+        "percent": 97.0,
+        "kappa": 0.385
+      },
+      "polarity": {
+        "n": 381,
+        "percent": 90.3,
+        "kappa": 0.847
+      }
+    }
+  ],
+  "overall": {
+    "label": {
+      "n": 1200,
+      "percent": 88.2,
+      "mean_kappa": 0.82
+    },
+    "subjectivity": {
+      "n": 1192,
+      "percent": 97.6,
+      "mean_kappa": 0.508
+    },
+    "polarity": {
+      "n": 1146,
+      "percent": 90.4,
+      "mean_kappa": 0.848
+    }
+  }
+}
