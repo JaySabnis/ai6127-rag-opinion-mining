@@ -1,0 +1,41 @@
+﻿question,answer_relevancy,context_precision,context_relevance,faithfulness
+How do reviewers rate the camera quality on the Samsung Galaxy S10?,0.8686562886637005,0.9888888888779013,1.0,1.0
+What do owners say about the photos taken with the iPhone 11?,0.8527384969738198,0.8121315192627746,1.0,1.0
+Are people happy with the pictures they get from the Google Pixel 4a?,0.8460100766726718,0.9626543209769582,1.0,1.0
+What strengths and weaknesses do reviewers report for the Moto G7 camera?,0.9533358806847739,0.9571428571291837,1.0,1.0
+What is the user feedback on the Essential PH-1 camera?,0.9489658670944078,0.7885912698314125,1.0,1.0
+How well does the Samsung Galaxy S20 FE take photos according to owners?,0.7481354885212964,0.609259259249105,1.0,0.9565217391304348
+How long does the Samsung Galaxy S10 last between charges in everyday use?,0.8854605163544459,0.9478458049751214,1.0,0.7777777777777778
+What do iPhone XR reviewers say about battery life?,0.8506448921278031,0.7856701939947976,1.0,1.0
+Can Google Pixel 4a users get through a normal day without recharging?,0.8241167837000317,0.8701388888780122,1.0,1.0
+How is the battery endurance of the Moto G Fast (2020) in owner reviews?,0.7821823377885387,0.6833333333196666,1.0,1.0
+What battery-life problems or benefits do iPhone 8 owners report?,0.9425754583944611,0.6544444444313555,1.0,0.8333333333333334
+What do Samsung Galaxy Note 9 owners say about how long a charge lasts?,0.7877662211499908,0.99999999999,1.0,1.0
+What do owners think of the Samsung Galaxy S10 screen quality?,0.8501112537907008,0.7095238095060713,1.0,1.0
+What screen or touch-response issues do iPhone X reviewers describe?,0.9588847632517132,0.9583333333173611,1.0,1.0
+How do users describe the Google Pixel 4a display and viewing experience?,0.6740274185739533,0.7620370370243363,1.0,1.0
+What is the feedback on the Moto G6 screen and touchscreen?,0.9489841084584044,0.9999999999833333,1.0,0.8666666666666667
+What do Essential PH-1 owners say about the display?,0.9382116111733376,0.826020408151465,1.0,1.0
+What screen-quality or touchscreen feedback is reported for the Galaxy S20 FE?,0.9531845164003961,0.9282627865858059,1.0,1.0
+How responsive is the Samsung Galaxy S10 in everyday use according to reviewers?,0.7899790737843376,0.9428571428382857,1.0,1.0
+"Do iPhone 11 owners report smooth operation, slowdowns, or freezing?",0.8326328484740594,0.9467813051041186,1.0,1.0
+What do reviewers say about the Google Pixel 4a speed when running apps?,0.8964177914996659,0.6925925925810494,1.0,1.0
+How well does the Moto G Plus (Gen 5) handle everyday apps according to owners?,0.7828134734432006,0.7347222222130383,1.0,1.0
+What performance and responsiveness feedback do Essential PH-1 users give?,0.907373822731297,0.8972222222072685,1.0,1.0
+"What do Samsung Galaxy S5 reviewers report about speed, lag, and freezing?",0.8095868701075416,0.8843537414839651,1.0,1.0
+"What do Galaxy S10 buyers report about customer support, returns, or replacements?",0.7799790300576873,0.6333333333122222,1.0,1.0
+What experiences do iPhone 8 buyers describe when seeking help or returning a faulty phone?,0.8286772964897925,0.99999999998,1.0,1.0
+"What do Google Pixel 4a buyers say about support, warranty claims, or refunds?",0.844734314910283,0.9999999999888889,1.0,1.0
+What is the buyer feedback on customer service and returns for the Moto G7?,0.7632953022386384,0.7545918367239141,1.0,1.0
+What do Essential PH-1 owners report about getting help from customer support?,0.7917627428502079,0.9821428571288265,1.0,1.0
+What support or replacement experiences do Samsung Galaxy S20 FE buyers describe?,0.6748968444194631,0.9666666666473333,1.0,1.0
+What do Galaxy S10 owners report about carrier compatibility and SIM activation?,0.8087511021220495,0.9206845237980152,1.0,1.0
+What experiences do iPhone 11 buyers report when using SIM cards with different carriers?,0.8305847834425446,0.99999999999,1.0,0.9333333333333333
+What do Google Pixel 4a owners say about connecting to their mobile carrier?,0.6570631475699337,0.7329365079242922,1.0,1.0
+"What carrier, SIM, or mobile-network compatibility issues do Moto G7 users describe?",0.9428761832156706,0.9765432098656928,1.0,1.0
+What do Samsung Galaxy S10e reviewers say about using the phone on their carrier network?,0.7316868191001505,0.9626543209769582,1.0,1.0
+"What do iPhone XR buyers say about unlocking, activation, and carrier compatibility?",0.7802906950561632,0.9999999999888889,1.0,1.0
+How do iPhone 11 owners describe both the camera quality and battery life?,0.9539047246042432,0.7132936507817627,1.0,0.8888888888888888
+What do Samsung Galaxy S10 users say about screen quality and everyday performance?,0.8287523048596319,0.6399659863854154,1.0,1.0
+How does user feedback on camera quality compare between the Google Pixel 4a and the Essential PH-1?,0.8640852986488433,0.5634920634807936,1.0,1.0
+How does owner feedback on battery life compare between the iPhone XR and the Samsung Galaxy S10?,0.9592019689699454,0.24206349205542327,0.5,0.4166666666666667

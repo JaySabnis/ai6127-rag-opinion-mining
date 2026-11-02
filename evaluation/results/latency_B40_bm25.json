@@ -1,0 +1,32 @@
+{
+  "run": "B40_bm25",
+  "n_queries": 40,
+  "classification_s": {
+    "mean": 2.695,
+    "median": 2.609,
+    "p95": 3.79,
+    "max": 4.805
+  },
+  "generation_s": {
+    "mean": 1.475,
+    "median": 1.502,
+    "p95": 2.167,
+    "max": 2.575
+  },
+  "verification_s": {
+    "mean": 0.0,
+    "median": 0.0,
+    "p95": 0.0,
+    "max": 0.0
+  },
+  "total_s": {
+    "mean": 4.17,
+    "median": 4.017,
+    "p95": 6.201,
+    "max": 7.137
+  },
+  "cold_total_s": 3.292,
+  "warm_total_mean_s": 4.192,
+  "queries_per_minute": 14.39,
+  "chunks_classified_per_second": 3.7
+}

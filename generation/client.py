@@ -76,7 +76,9 @@ class DeepSeekClient:
                 req = urllib.request.Request(self.base_url + "/chat/completions",
                     data=json.dumps(body).encode("utf-8"),
                     headers={"Authorization": "Bearer " + self.api_key,
-                             "Content-Type": "application/json"})
+                             "Content-Type": "application/json",
+                             # Cloudflare-fronted gateways reject urllib's default UA (error 1010).
+                             "User-Agent": "ai6127-rag-opinion-mining"})
                 opener = urllib.request.build_opener(_NoRedirect())
                 with opener.open(req, timeout=self.timeout) as response:
                     return json.load(response)

@@ -1,0 +1,13 @@
+{
+  "run": "B40_learned",
+  "judge_model": "deepseek-flash",
+  "n": 40,
+  "faithfulness": 0.9668,
+  "faithfulness_failed": 0,
+  "context_precision": 0.8358,
+  "context_precision_failed": 0,
+  "context_relevance": 0.9875,
+  "context_relevance_failed": 0,
+  "answer_relevancy": 0.8418,
+  "answer_relevancy_failed": 0
+}
