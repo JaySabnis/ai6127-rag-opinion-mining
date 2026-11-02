@@ -1,0 +1,28 @@
+{
+  "name": "reranker_training_100",
+  "queries": 100,
+  "pairs": 2000,
+  "candidates_per_query": 20,
+  "products": 16,
+  "unique_chunks": 1797,
+  "unique_reviews": 1703,
+  "label_distribution": {
+    "0": 225,
+    "1": 209,
+    "2": 592,
+    "3": 974
+  },
+  "validation": {
+    "source_text_verified": true,
+    "query_product_chunk_review_text_disjoint_from_evaluation": true
+  },
+  "files": {
+    "corpus.jsonl": "0b00c8c9a442c8ab1df20234a178d1827ac6b8aab178b39c77b0c2fab804d691",
+    "dataset_labeled.jsonl": "bce2774783509bbff5735f481209cdc62f000c3d31f3442504c40857c3d8c394",
+    "qrels.jsonl": "83cdcd23491ab416e4e3a38c81b8885357af2a269e76b47d4ec13d59a0b14fb8",
+    "qrels.trec": "d9d33c0f0130ce254afb78f692c9938f5b2c6158ca328f18f35532fa6c0b3669",
+    "queries.jsonl": "cd2965b99422dd99be53a459605f8fb9d7f9cf403881362f9a747a634e8ffd0c",
+    "README.md": "314e409a136ba043abee70bd4b9fd7e53a40df3e64f2df54149bbad6a7abf1dc",
+    "scored_candidates.jsonl": "45b65a13e600aab0d2100d31819c313cfe79c9b1d32e1c1000105059f1dfca89"
+  }
+}

@@ -26,7 +26,7 @@ from pathlib import Path
 from statistics import mean
 
 from openai import AsyncOpenAI
-from ragas.embeddings import embedding_factory
+from ragas.embeddings import HuggingFaceEmbeddings, embedding_factory
 from ragas.llms import llm_factory
 from ragas.metrics.collections import (
     AnswerRelevancy,
@@ -74,7 +74,11 @@ def build_metrics(cfg: dict[str, str]) -> dict:
             user_input=r["question"], retrieved_contexts=r["contexts"])),
     }
     if cfg.get("EMBEDDING_MODEL"):
-        embeddings = embedding_factory("openai", model=cfg["EMBEDDING_MODEL"], client=client)
+        if cfg.get("EMBEDDING_PROVIDER", "openai") == "huggingface":
+            # Local sentence-transformers model, e.g. the retriever's BAAI/bge-small-en-v1.5.
+            embeddings = HuggingFaceEmbeddings(model=cfg["EMBEDDING_MODEL"])
+        else:
+            embeddings = embedding_factory("openai", model=cfg["EMBEDDING_MODEL"], client=client)
         metrics["answer_relevancy"] = (AnswerRelevancy(llm=llm, embeddings=embeddings), lambda r: dict(
             user_input=r["question"], response=r["answer"]))
     else:
@@ -111,6 +115,8 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("outputs", help="JSONL with question, contexts, answer")
     parser.add_argument("--limit", type=int, help="only score the first N queries (cheap trial run)")
+    parser.add_argument("--metrics", nargs="+", help="score only these metrics and merge them into "
+                        "the existing results for this run (other columns are kept)")
     args = parser.parse_args()
 
     with open(args.outputs, encoding="utf-8") as f:
@@ -123,10 +129,26 @@ def main() -> None:
 
     cfg = load_config()
     metrics = build_metrics(cfg)
+    if args.metrics:
+        unknown = set(args.metrics) - metrics.keys()
+        if unknown:
+            raise SystemExit(f"Unknown or unavailable metrics: {sorted(unknown)}")
+        metrics = {k: v for k, v in metrics.items() if k in args.metrics}
     print(f"Scoring {len(rows)} queries x {len(metrics)} metrics with {cfg['LLM_MODEL']}")
     scored = asyncio.run(score_all(rows, metrics))
 
-    summary = {"run": Path(args.outputs).stem, "judge_model": cfg["LLM_MODEL"], "n": len(rows)}
+    run = Path(args.outputs).stem
+    stem = RESULTS / f"rag_{run}"
+    summary = {"run": run, "judge_model": cfg["LLM_MODEL"], "n": len(rows)}
+    if args.metrics and Path(f"{stem}.json").exists():
+        # Keep the earlier metrics; overwrite only the ones scored now.
+        summary = json.loads(Path(f"{stem}.json").read_text()) | {"n": len(rows)}
+        with open(f"{stem}.csv", encoding="utf-8-sig") as f:
+            earlier = list(csv.DictReader(f))
+        if [r["question"] for r in earlier] != [s["question"] for s in scored]:
+            raise SystemExit(f"{stem}.csv has different questions; rerun all metrics instead")
+        scored = [{k: v for k, v in old.items() if k.split("_error")[0] not in metrics} | new
+                  for old, new in zip(earlier, scored)]
     for name in metrics:
         values = [s[name] for s in scored if s[name] is not None]
         summary[name] = round(mean(values), 4) if values else None
@@ -134,7 +156,6 @@ def main() -> None:
         print(f"  {name}: {summary[name]} ({len(values)}/{len(rows)} scored)")
 
     RESULTS.mkdir(exist_ok=True)
-    stem = RESULTS / f"rag_{summary['run']}"
     with open(f"{stem}.csv", "w", encoding="utf-8-sig", newline="") as f:
         fields = sorted({k for s in scored for k in s}, key=lambda k: (k != "question", k))
         writer = csv.DictWriter(f, fieldnames=fields)

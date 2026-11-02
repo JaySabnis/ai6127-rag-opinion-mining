@@ -259,7 +259,8 @@ def main():
 
     print(
         f"      Found {len(model_catalog):,} "
-        f"brand/model combinations.",
+        f"model names "
+        f"({len(model_catalog.distinctive):,} distinctive).",
         flush=True,
     )
 

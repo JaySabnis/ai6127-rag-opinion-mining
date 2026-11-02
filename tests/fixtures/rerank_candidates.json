@@ -1,0 +1,136 @@
+{
+  "purpose": "Development fixture only; not retrieval output, qrels, or an evaluation set.",
+  "source": "data/corpus.jsonl",
+  "corpus_sha256": "ddcb10bd7e06c48e986dbc9113d77d6b8cd2d1d0bdeae6d2c6667cb0e82ce3ea",
+  "selection": "First three unique Galaxy S10 reviews mentioning battery and first three mentioning camera but not battery; interleaved.",
+  "query": "How is the battery life on the Galaxy S10?",
+  "filters": {
+    "brand": "Samsung",
+    "models": [
+      "Galaxy S10"
+    ]
+  },
+  "candidates": [
+    {
+      "chunk_id": "e0cc1140527d_0",
+      "doc_id": "e0cc1140527d",
+      "chunk_index": 0,
+      "text": "Great phone dude below is probably a iPhone user. Amazing phone awesome cameras great display finger print scanner is fast once you get used to it love the phone don't listen to the guy below he has 10e and is nit picking and audio quality is fine I'm coming form a note 9",
+      "chunk_word_count": 53,
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "rating": 5,
+      "timestamp": "2019-03-10",
+      "verified": false,
+      "helpful_votes": 5,
+      "is_renewed": false,
+      "aspect_tags": [
+        "camera",
+        "display",
+        "performance"
+      ],
+      "mentions_other_model": true,
+      "source_url": "https://www.amazon.com/dp/B07PHLC3PS"
+    },
+    {
+      "chunk_id": "32d6edfe2dde_1",
+      "doc_id": "32d6edfe2dde",
+      "chunk_index": 1,
+      "text": "That 8GB of ram surely helped there. The One UI is the best i've seen so far... it has all kinds of new things in it. the software is alot more friendly now, -rants= I don't like the silver sides, preffered the all black like s8. (getting a black/+ish case to help with this), and the hole punch notification led simulator isn't enabled yet for some strange reason? - i don't want to have to install 3rd party apps for this which will drain the battery! this should be part of the system right now. edge lighting is so old and the other option is to use the camera flash what the hell?",
+      "chunk_word_count": 113,
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "rating": 5,
+      "timestamp": "2019-03-17",
+      "verified": false,
+      "helpful_votes": 4,
+      "is_renewed": false,
+      "aspect_tags": [
+        "camera",
+        "battery",
+        "performance"
+      ],
+      "mentions_other_model": true,
+      "source_url": "https://www.amazon.com/dp/B07XJ2BWMP"
+    },
+    {
+      "chunk_id": "9cabc479cfe0_0",
+      "doc_id": "9cabc479cfe0",
+      "chunk_index": 0,
+      "text": "Best phone ever. The camera quality blew my mind , and so bright, worth every penny.",
+      "chunk_word_count": 16,
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "rating": 5,
+      "timestamp": "2019-03-18",
+      "verified": true,
+      "helpful_votes": 0,
+      "is_renewed": false,
+      "aspect_tags": [
+        "camera"
+      ],
+      "mentions_other_model": true,
+      "source_url": "https://www.amazon.com/dp/B07XJ2BWMP"
+    },
+    {
+      "chunk_id": "1c05fa7a396c_0",
+      "doc_id": "1c05fa7a396c",
+      "chunk_index": 0,
+      "text": "Buggy network issues. The phone itself is beautiful and works well, battery life could be better. I received a phone that has issues with connectivity to the network. In talking with the sprint customer service it seems like I'm not the only one experiencing this.",
+      "chunk_word_count": 45,
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "rating": 2,
+      "timestamp": "2019-03-20",
+      "verified": true,
+      "helpful_votes": 3,
+      "is_renewed": false,
+      "aspect_tags": [
+        "battery",
+        "service",
+        "carrier"
+      ],
+      "mentions_other_model": true,
+      "source_url": "https://www.amazon.com/dp/B07XJ2BWMP"
+    },
+    {
+      "chunk_id": "743ad60dcbc6_0",
+      "doc_id": "743ad60dcbc6",
+      "chunk_index": 0,
+      "text": "Pretty freaking sweet phone!. This S10 phone is truly impressive. The face recognition works well. The processor is remarkably fast. Can run more than 1 app at a time without causing any lagging. The camera is next level incredible.",
+      "chunk_word_count": 39,
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "rating": 5,
+      "timestamp": "2019-04-22",
+      "verified": true,
+      "helpful_votes": 4,
+      "is_renewed": false,
+      "aspect_tags": [
+        "camera",
+        "performance"
+      ],
+      "mentions_other_model": true,
+      "source_url": "https://www.amazon.com/dp/B07XJ2BWMP"
+    },
+    {
+      "chunk_id": "765d416cee77_0",
+      "doc_id": "765d416cee77",
+      "chunk_index": 0,
+      "text": "Amazing device. Love it traded in my galaxy s9 for the 512 gb model. Best phone I have ever owned. Battery last me over a day and a half.",
+      "chunk_word_count": 29,
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "rating": 5,
+      "timestamp": "2019-03-30",
+      "verified": false,
+      "helpful_votes": 3,
+      "is_renewed": false,
+      "aspect_tags": [
+        "battery"
+      ],
+      "mentions_other_model": true,
+      "source_url": "https://www.amazon.com/dp/B07XJ2BWMP"
+    }
+  ]
+}

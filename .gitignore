@@ -1,2 +1,35 @@
 __pycache__/
 *.pyc
+.DS_Store
+
+# Local delivery archives; commit the source datasets and reports instead.
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
+
+# Secrets: keep .env local, commit .env.example only
+.env
+
+# Local Python environment
+/.venv/
+
+# Large data and generated retrieval indexes (share via Drive/Kaggle, not git)
+data/
+indexes/
+indexes_*/
+
+# Generated reranker runs
+/results/reranking/
+
+# Group C local API responses and generated analysis
+/.cache/
+/results/group_c/
+
+# Local editor settings
+.vscode/
