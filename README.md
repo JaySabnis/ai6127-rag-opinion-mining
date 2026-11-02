@@ -68,6 +68,7 @@ The runner joins shared candidate text with saved retrieval features and verifie
 - [Retrieval setup and interfaces](retrieval/README.md)
 - [Reranker features, training and usage](retrieval/RERANKER_README.md)
 - [Training and evaluation guide](evaluation/README.md)
+- [End-to-end evaluation: eval set, annotation, classifier, RAGAS, latency, ablation](evaluation/README_EVALUATION.md)
 - [Training dataset](evaluation/reranker_training_100/README.md): [queries](evaluation/reranker_training_100/queries.jsonl), [labeled candidates](evaluation/reranker_training_100/dataset_labeled.jsonl), [qrels](evaluation/reranker_training_100/qrels.trec)
 - [Evaluation dataset](evaluation/retrieval_ablation_40_v2/README.md): [queries](evaluation/retrieval_ablation_40_v2/queries.jsonl), [labeled candidates](evaluation/retrieval_ablation_40_v2/dataset_labeled.jsonl), [qrels](evaluation/retrieval_ablation_40_v2/qrels.trec)
 - [Training validation results](results/reranker_training_100/README.md)
