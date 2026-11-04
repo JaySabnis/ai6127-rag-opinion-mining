@@ -8,6 +8,7 @@ session history; full-corpus retrieval and answer generation are not connected.
 """
 
 import json
+import re
 from html import escape
 from pathlib import Path
 import sys
@@ -27,6 +28,19 @@ from app.pipeline import search_full_corpus
 
 INDEX_DIR = ROOT / "indexes"
 FULL_CORPUS = "Full corpus"
+CITATION = re.compile(r"\[([A-Za-z0-9_.:-]+)\]")
+
+
+def number_citations(text: str, chunks: list[dict]) -> str:
+    """Show [chunk_id] citations as [1], [2], matching the evidence card numbers."""
+    index = {chunk.get("chunk_id"): i for i, chunk in enumerate(chunks, 1)}
+    return CITATION.sub(
+        lambda m: f"[{index[m.group(1)]}]" if m.group(1) in index else m.group(0), text)
+
+
+def answer_language(text: str) -> str:
+    """Answer in Chinese when the question contains Chinese characters."""
+    return "zh" if re.search(r"[\u4e00-\u9fff]", text) else "en"
 
 
 # ---- candidate input
@@ -112,23 +126,29 @@ def render_reply(reply: dict) -> None:
         st.error(reply["error"])
     elif reply.get("answer"):
         # The generation module can provide this field without changing the layout.
-        st.markdown(reply["answer"])
+        chunks = reply.get("chunks", [])
+        st.markdown(number_citations(reply["answer"], chunks))
         for stats in reply.get("statistics", []):
             product = " ".join(str(stats.get(k) or "") for k in ("brand", "model")).strip()
             ratio = stats["positive_ratio"]
-            rate = f"{ratio:.1%}" if ratio is not None else "N/A"
-            st.write(f"{product or 'Unknown product'} · {stats['aspect']} · Positive: {rate}")
+            label = f"**{product or 'Unknown product'}** · {stats['aspect']}"
+            if ratio is None:
+                st.markdown(f"{label} · positive ratio N/A")
+            else:
+                st.markdown(f"{label} · {ratio:.0%} positive")
+                st.progress(min(max(float(ratio), 0.0), 1.0))
             counts = stats["counts"]
-            st.caption(f"Retrieved sample: {stats['n_relevant_reviews']} unique relevant reviews · "
-                       f"positive {counts['positive']}, negative {counts['negative']}, "
-                       f"mixed {counts['mixed']}, neutral {counts['neutral']}")
+            st.caption(f"{stats['n_relevant_reviews']} relevant reviews · "
+                       f"positive {counts['positive']} · negative {counts['negative']} · "
+                       f"mixed {counts['mixed']} · neutral {counts['neutral']}")
         if reply.get("statistics_note"):
             st.caption(reply["statistics_note"])
         if reply.get("checks"):
             n_flagged = len(reply.get("flagged_sentences", []))
             with st.expander(f"Summary evidence check · {n_flagged} flagged"):
                 for check in reply["checks"]:
-                    st.write(("⚠️ " if check["flagged"] else "✅ ") + check["text"])
+                    st.write(("⚠️ " if check["flagged"] else "✅ ")
+                             + number_citations(check["text"], reply.get("chunks", [])))
                     st.caption(f"{check['status']}: {check['reason']}")
     elif reply["chunks"]:
         count = len(reply["chunks"])
@@ -150,38 +170,42 @@ def render_evidence(reply: dict) -> None:
     """Inspect one saved query result without running rewrite or reranking again."""
     rewritten = reply.get("rewrite")
     if rewritten:
-        st.text(rewritten["query"])
         products = [" ".join(p[k] for k in ("brand", "model") if p.get(k))
                     for p in rewritten["product"]]
         if products:
-            st.caption(", ".join(products))
+            st.markdown("**" + " vs ".join(products) + "**")
         render_aspects(rewritten["aspects"])
     if reply.get("rewrite_error"):
         st.caption(f"Query rewrite failed, searched the original question ({reply['rewrite_error']})")
-    for group in reply.get("retrieval") or []:
-        f = group["filters"]
-        scope = (f"Model: {', '.join(group['model_variants'] or [f['model']])}" if f.get("model")
-                 else f"Brand: {f['brand']}" if f.get("brand") else "No product filter")
-        size = f"{group['n_candidates']:,}" if group["n_candidates"] is not None else "all"
-        st.caption(f"{scope} · {size} reviews searched · {group['hits']} candidates · "
-                   f"searched for \"{group['search_text']}\"")
     chunks = reply["chunks"]
     timing = reply.get("timing_ms")
-    if timing:
-        ordering = "Reranked" if reply["reranked"] else "Original order"
-        st.caption(f"{ordering} · {timing['total'] / 1000:.2f} s")
+    # Technical details stay available but folded away from the evidence itself.
+    with st.expander("Retrieval details"):
+        if rewritten:
+            st.caption(f"Rewritten query: {rewritten['query']}")
+        for group in reply.get("retrieval") or []:
+            f = group["filters"]
+            scope = (f"Model: {', '.join(group['model_variants'] or [f['model']])}" if f.get("model")
+                     else f"Brand: {f['brand']}" if f.get("brand") else "No product filter")
+            size = f"{group['n_candidates']:,}" if group["n_candidates"] is not None else "all"
+            st.caption(f"{scope} · {size} reviews searched · {group['hits']} candidates · "
+                       f"searched for \"{group['search_text']}\"")
+        if timing:
+            ordering = "Reranked" if reply["reranked"] else "Original order"
+            stages = " · ".join(f"{k} {v / 1000:.2f} s" for k, v in timing.items()
+                                if k != "total" and isinstance(v, (int, float)) and v > 0)
+            st.caption(f"{ordering} · total {timing['total'] / 1000:.2f} s"
+                       + (f" ({stages})" if stages else ""))
     for rank, chunk in enumerate(chunks, 1):
         metadata = {**(chunk.get("metadata") or {}), **chunk}
         product = " ".join(str(metadata.get(k) or "") for k in ("brand", "model")).strip()
-        with st.expander(f"{rank:02d} · {product or 'Unknown product'}", expanded=rank == 1):
+        rating = metadata.get("rating")
+        stars = (" · " + "★" * int(rating) + "☆" * (5 - int(rating))
+                 if isinstance(rating, (int, float)) and 1 <= rating <= 5 else "")
+        with st.expander(f"[{rank}] {product or 'Unknown product'}{stars}", expanded=rank == 1):
             st.text(chunk["text"])  # review content is displayed literally
-            with st.container(horizontal=True, vertical_alignment="center"):
-                rating = metadata.get("rating")
-                if isinstance(rating, (int, float)) and 1 <= rating <= 5:
-                    st.markdown(f'<span class="review-stars" aria-label="{rating} out of 5 stars">'
-                                f'{"★" * int(rating)}</span>', unsafe_allow_html=True)
-                if metadata.get("timestamp"):
-                    st.caption(str(metadata["timestamp"]))
+            if metadata.get("timestamp"):
+                st.caption(str(metadata["timestamp"]))
             render_aspects(metadata.get("aspect_tags") or [])
             if reply["reranked"]:
                 if chunk.get("rerank_strategy") in {"rank_fusion", "learned"}:
@@ -206,11 +230,12 @@ def main() -> None:
     st.set_page_config(page_title="Review Evidence Assistant", layout="wide")
     st.markdown("""
     <style>
-    .stMainBlockContainer { max-width: 1800px; padding-top: 1.5rem; }
-    .stMain p, .stMain [data-testid="stText"] { font-size: 1.1rem; line-height: 1.75; }
+    .stMainBlockContainer { max-width: 1600px; padding-top: 3.5rem; }
+    .stMain p, .stMain [data-testid="stText"] { font-size: 1rem; line-height: 1.6; }
     [data-testid="stChatMessage"] p,
-    [data-testid="stChatMessage"] [data-testid="stText"] { font-size: 1.2rem; line-height: 1.8; }
-    [data-testid="stChatInput"] textarea { font-size: 1.2rem; }
+    [data-testid="stChatMessage"] [data-testid="stText"] { font-size: 1.02rem; line-height: 1.65; }
+    [data-testid="stChatInput"] textarea { font-size: 1rem; }
+    [data-testid="stExpander"] summary p { font-size: 0.95rem; }
     [data-testid="stCaptionContainer"] p { font-size: 0.85rem; }
     [data-testid="stText"] { white-space: pre-wrap; overflow-wrap: anywhere; }
     .st-key-chat_history, .st-key-evidence_panel { background: #1B2330; }
@@ -233,7 +258,6 @@ def main() -> None:
                 if not (INDEX_DIR / "meta.pkl").exists():
                     raise ValueError(f"no indexes in {INDEX_DIR}; run scripts.build_retrieval_indexes first")
                 source_label, ready = "Full corpus (hybrid retrieval)", True
-                use_rewrite = st.toggle("Query rewrite (DeepSeek)", value=True, key="use_rewrite")
             elif source == "Sample data":
                 fixture = ROOT / "tests/fixtures/rerank_candidates.json"
                 candidates = parse_candidates(fixture.read_bytes(), fixture.name)
@@ -245,12 +269,15 @@ def main() -> None:
                     source_label, ready = uploaded.name, True
         except (OSError, ValueError, TypeError) as exc:
             st.error(f"Could not load candidates: {exc}")
-        rerank = st.toggle("Rerank", value=True, key="rerank")
         generate_answer = st.toggle("Answer & sentiment (DeepSeek)", value=False,
                                     key="generate_answer")
-        verify_answer = st.toggle("Check summary evidence", value=True,
-                                  disabled=not generate_answer, key="verify_answer")
         top_k = st.select_slider("Number of chunks", options=[3, 5, 10], value=5, key="top_k")
+        with st.expander("Advanced settings"):
+            if source == FULL_CORPUS:
+                use_rewrite = st.toggle("Query rewrite (DeepSeek)", value=True, key="use_rewrite")
+            rerank = st.toggle("Rerank", value=True, key="rerank")
+            verify_answer = st.toggle("Check summary evidence", value=True,
+                                      disabled=not generate_answer, key="verify_answer")
         st.caption("Searching all reviews (50 candidates per product)." if source == FULL_CORPUS
                    else f"{len(candidates)} candidates loaded.")
         if st.button("Clear chat", key="clear_chat", width="stretch"):
@@ -260,7 +287,7 @@ def main() -> None:
     chat_column, evidence_column = st.columns([1.5, 1], gap="large")
     with chat_column:
         st.subheader("Conversation")
-        conversation = st.container(height=580, border=True, autoscroll=True, key="chat_history")
+        conversation = st.container(height=640, border=True, autoscroll=True, key="chat_history")
         with conversation:
             if not st.session_state.messages:
                 st.markdown("### What would you like to know?")
@@ -296,7 +323,7 @@ def main() -> None:
 
                                 reply = enrich_reply(reply, prompt,
                                     client=DeepSeekClient(cache_dir=ROOT / ".cache/group_c"),
-                                    verify=verify_answer)
+                                    language=answer_language(prompt), verify=verify_answer)
                     except (RuntimeError, ValueError, OSError) as exc:
                         reply = {"error": f"Request failed: {exc}"}
                     render_reply(reply)
@@ -306,7 +333,7 @@ def main() -> None:
             st.rerun()
 
     with evidence_column:
-        st.subheader("Evidence & candidates")
+        st.subheader("Evidence")
         with st.container(height=760, border=True, key="evidence_panel"):
             # Select a saved successful turn; never infer again when switching evidence.
             messages = st.session_state.messages
