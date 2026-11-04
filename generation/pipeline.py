@@ -42,18 +42,21 @@ class OpinionPipeline:
         timings["generation_s"] = perf_counter() - t
         t = perf_counter()
         checker_error = None
+        zh = language == "zh"
         if verify:
             try:
-                checks = self.checker.check(sentences, chunks)
+                checks = self.checker.check(sentences, chunks, language=language)
             except RuntimeError as exc:
                 # Retain the draft but do not accidentally approve it during an outage.
                 checker_error = str(exc)
                 checks = [dict(s, sentence_id=f"s{i}", status="unverifiable", flagged=True,
-                               reason="核查服务失败，尚未验证", evidence=[])
+                               reason="核查服务失败，尚未验证" if zh else "Checker service failed; not verified",
+                               evidence=[])
                           for i, s in enumerate(sentences)]
         else:
             checks = [dict(s, sentence_id=f"s{i}", status="unverifiable", flagged=True,
-                           reason="消融实验关闭了检查器", evidence=[])
+                           reason="消融实验关闭了检查器" if zh else "Checker disabled for ablation",
+                           evidence=[])
                       for i, s in enumerate(sentences)]
         timings["verification_s"] = perf_counter() - t
         draft = render_sentences(sentences)
@@ -75,8 +78,10 @@ class OpinionPipeline:
                 "verification_enabled": verify, "checker_error": checker_error,
                 "predictions": predictions, "statistics": stats, "chunks": chunks,
                 "contexts": [r["text"] for r in chunks], "timing": timings,
-                "api": self.client.telemetry(),
-                "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"}
+                "api": self.client.telemetry(), "language": language,
+                "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。" if zh else
+                    "Ratios cover deduplicated reviews in this retrieved sample only, not all buyers; "
+                    "missing review fragments could change the picture."}
 
 
 def enrich_reply(reply, question, *, client=None, aspects=None, language="en", verify=True):

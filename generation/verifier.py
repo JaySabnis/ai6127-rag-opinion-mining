@@ -47,7 +47,8 @@ class FaithfulnessChecker:
     def __init__(self, client):
         self.client = client
 
-    def check(self, sentences, chunks):
+    def check(self, sentences, chunks, language="en"):
+        zh = language == "zh"
         chunks = normalize_chunks(chunks)
         by_id = {r["chunk_id"]: r for r in chunks}
         if isinstance(sentences, str):
@@ -66,7 +67,9 @@ class FaithfulnessChecker:
             unknown = [c for c in cites if c not in by_id]
             if not cites or unknown:
                 checked[sid] = base | {"status": "unsupported", "flagged": True,
-                    "reason": "没有引用证据" if not cites else "引用编号不在本次检索结果中: " + ", ".join(unknown),
+                    "reason": ("没有引用证据" if zh else "No cited evidence") if not cites else
+                              ("引用编号不在本次检索结果中: " if zh else "Cited IDs not in retrieved results: ")
+                              + ", ".join(unknown),
                     "evidence": []}
             else:
                 pending.append(base | {"sources": [
@@ -111,7 +114,8 @@ class FaithfulnessChecker:
                         judgment["reason"] += " [no verbatim evidence from the cited sources]"
                 return value
 
-            judgments = self.client.json(PROMPT, {"sentences": pending},
+            prompt = PROMPT if zh else PROMPT.replace("in Chinese", "in English")
+            judgments = self.client.json(prompt, {"sentences": pending},
                                          validate=validate, max_tokens=4096)["judgments"]
             for judgment in judgments:
                 original = by_sid[judgment["sentence_id"]]

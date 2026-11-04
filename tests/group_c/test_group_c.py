@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+import re
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -188,6 +189,14 @@ class IntegrationTests(unittest.TestCase):
         self.assertTrue(result["flagged_sentences"])
         self.assertEqual(result["checks"][0]["status"], "unverifiable")
         self.assertNotIn("[a_0]", result["answer"])
+
+    def test_english_run_has_no_hardcoded_chinese(self):
+        result = OpinionPipeline(self.client(RuntimeError("HTTP 503"))).run("Battery?", [chunk()])
+        with tempfile.TemporaryDirectory() as temp:
+            p = Path(temp) / "run.json"
+            write_run(p, result)
+            text = p.with_suffix(".md").read_text(encoding="utf-8")
+        self.assertFalse(re.search(r"[一-鿿]", text), text)
 
     def test_empty_retrieval_makes_no_calls_and_no_ratio(self):
         client = QueueClient([])

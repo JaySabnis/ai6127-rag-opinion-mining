@@ -52,15 +52,20 @@ def write_run(path, result):
     timing = {"query": result["question"], "n_chunks": len(result["chunks"]),
               **{k: v for k, v in result["timing"].items() if k != "total_s"}}
     path.with_suffix(".timings.jsonl").write_text(json.dumps(timing, ensure_ascii=False) + "\n", encoding="utf-8")
-    lines = ["# 评论分析结果", "", result["answer"], "", "## 本次检索样本的好评比例", ""]
+    zh = result.get("language") == "zh"
+    lines = ["# 评论分析结果" if zh else "# Review analysis", "", result["answer"], "",
+             "## 本次检索样本的好评比例" if zh else "## Positive ratio in this retrieved sample", ""]
     for s in result["statistics"]:
-        product = " ".join(str(s[k] or "") for k in ("brand", "model")).strip() or "未知机型"
-        ratio = "无可用分母" if s["positive_ratio"] is None else f"{s['positive_ratio']:.1%}"
-        lines.append(f"- {product} / {s['aspect']}: {ratio}，{s['n_relevant_reviews']}条相关独立评论；{s['counts']}")
-    lines += ["", result["statistics_note"], "", "## 原始草稿", "", result["draft_answer"] or "（无草稿）",
-              "", "## 逐句依据检查", ""]
+        product = " ".join(str(s[k] or "") for k in ("brand", "model")).strip() or ("未知机型" if zh else "Unknown model")
+        ratio = ("无可用分母" if zh else "no denominator") if s["positive_ratio"] is None else f"{s['positive_ratio']:.1%}"
+        n = s["n_relevant_reviews"]
+        detail = f"，{n}条相关独立评论；" if zh else f", {n} relevant unique reviews; "
+        lines.append(f"- {product} / {s['aspect']}: {ratio}{detail}{s['counts']}")
+    lines += ["", result["statistics_note"], "", "## 原始草稿" if zh else "## Draft", "",
+              result["draft_answer"] or ("（无草稿）" if zh else "(no draft)"),
+              "", "## 逐句依据检查" if zh else "## Per-sentence evidence check", ""]
     for s in result["checks"]:
-        lines.append(f"- {'⚠️' if s['flagged'] else '✅'} {s['text']} — {s['status']}：{s['reason']}")
+        lines.append(f"- {'⚠️' if s['flagged'] else '✅'} {s['text']} — {s['status']}{'：' if zh else ': '}{s['reason']}")
         for evidence in s["evidence"]:
             lines.append(f"  - [{evidence['chunk_id']}] {evidence['quote']}")
     path.with_suffix(".md").write_text("\n".join(lines) + "\n", encoding="utf-8")
