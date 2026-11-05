@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_bm25/Q030.json",
+  "source_sha256": "a252b6d8605ab38515c6a41a281e9a723738b01a94bacba7f3877c5056b7c73d",
+  "question": "What support or replacement experiences do Samsung Galaxy S20 FE buyers describe?",
+  "statistics_before": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 0,
+      "n_excluded_aspect_absent": 10,
+      "counts": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": null,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": null,
+      "polarized_denominator": 0
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "service",
+      "product_id": "phone-v1:f1b1bcb02ef1d742fa3f44b8797b6554fb87550aa8097ea2b8ee5a793c6deafb",
+      "canonical_model": null,
+      "model_aliases": [
+        "Galaxy S20 FE"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 0,
+      "n_excluded_aspect_absent": 10,
+      "counts": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": null,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": null,
+      "polarized_denominator": 0
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

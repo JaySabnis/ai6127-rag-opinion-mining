@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_dense/Q006.json",
+  "source_sha256": "4020454147e00a22ad2c191da07ed60057c3a2ccee384620ae4b74ca2cfcb396",
+  "question": "How well does the Samsung Galaxy S20 FE take photos according to owners?",
+  "statistics_before": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 6,
+      "n_excluded_aspect_absent": 4,
+      "counts": {
+        "positive": 4,
+        "negative": 0,
+        "mixed": 2,
+        "neutral": 0
+      },
+      "positive_ratio": 0.6666666666666666,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 4
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera",
+      "product_id": "phone-v1:f1b1bcb02ef1d742fa3f44b8797b6554fb87550aa8097ea2b8ee5a793c6deafb",
+      "canonical_model": null,
+      "model_aliases": [
+        "Galaxy S20 FE"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 6,
+      "n_excluded_aspect_absent": 4,
+      "counts": {
+        "positive": 4,
+        "negative": 0,
+        "mixed": 2,
+        "neutral": 0
+      },
+      "positive_ratio": 0.6666666666666666,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 4
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

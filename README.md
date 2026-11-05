@@ -76,8 +76,12 @@ The runner joins shared candidate text with saved retrieval features and verifie
 ## Development
 
 ```powershell
-uv run python -m unittest discover -s tests -v
+uv run --all-groups python -m pytest tests -q
 uv run python -m scripts.search_cli "Galaxy S10 camera" --k 10
 ```
 
 Repository layout: `cleaning_pipeline/` and `chunking/` prepare the knowledge base; `retrieval/` and `app/` implement search and evidence inspection; `evaluation/` stores the two datasets; `results/` stores one report set and training validation results; `scripts/` contains the supported workflows. Review ratings are overall ratings, not aspect sentiment labels.
+
+## Validated fixes and report review
+
+The `local-audit-fixes` contribution includes [reproduction instructions](LOCAL_RUN_GUIDE.md), [final validation evidence](results/local_validation_20261105/VALIDATION_REPORT.md), and a [standalone report revision checklist](docs/report_revision_20261105/README.md). Human annotations and the existing gold dataset are unchanged.

@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_learned_checker_fixed/Q019.json",
+  "source_sha256": "1dcf2377aaf63eedcab880d9bab80b48bcb7bc1dfcdee5808dcd27db64fa4c8b",
+  "question": "How responsive is the Samsung Galaxy S10 in everyday use according to reviewers?",
+  "statistics_before": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 8,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 7,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.875,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 7
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance",
+      "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+      "canonical_model": null,
+      "model_aliases": [
+        "Galaxy S10"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 8,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 7,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.875,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 7
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

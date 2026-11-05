@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_dense/Q028.json",
+  "source_sha256": "378e14e0b27ad44034a9031933d2fdbdb8341d6ebfe4958970eef7fef4f70612",
+  "question": "What is the buyer feedback on customer service and returns for the Moto G7?",
+  "statistics_before": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 4,
+      "n_excluded_aspect_absent": 6,
+      "counts": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.25,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.3333333333333333,
+      "polarized_denominator": 3
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "service",
+      "product_id": "phone-v1:52ff7a0c135cceb6ebe73ff7fc1f1eca47914337b50fa281506f97427e6dc63c",
+      "canonical_model": null,
+      "model_aliases": [
+        "Moto G7"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 4,
+      "n_excluded_aspect_absent": 6,
+      "counts": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.25,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.3333333333333333,
+      "polarized_denominator": 3
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

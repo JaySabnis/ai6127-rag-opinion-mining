@@ -1,0 +1,74 @@
+{
+  "source": "results/group_c/b40/B40_dense/Q018.json",
+  "source_sha256": "32daf0a1192970c8ad21f648f042a5845ae9a72595742d3cfc7e8bbe793f1527",
+  "question": "What screen-quality or touchscreen feedback is reported for the Galaxy S20 FE?",
+  "statistics_before": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 7,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 3,
+        "neutral": 1
+      },
+      "positive_ratio": 0.2857142857142857,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6666666666666666,
+      "polarized_denominator": 3
+    },
+    {
+      "brand": "Samsung",
+      "model": "S20 FE",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 1,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 1.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 1
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display",
+      "product_id": "phone-v1:f1b1bcb02ef1d742fa3f44b8797b6554fb87550aa8097ea2b8ee5a793c6deafb",
+      "canonical_model": null,
+      "model_aliases": [
+        "Galaxy S20 FE",
+        "S20 FE"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 8,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 3,
+        "negative": 1,
+        "mixed": 3,
+        "neutral": 1
+      },
+      "positive_ratio": 0.375,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.75,
+      "polarized_denominator": 4
+    }
+  ],
+  "numerical_change": true,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

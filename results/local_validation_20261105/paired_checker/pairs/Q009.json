@@ -1,0 +1,525 @@
+{
+  "query_id": "Q009",
+  "identity_sha256": "e54e392eff593671a85cbb98d6b81e92e65d37232822ce8e988e1ec2c38b1ed7",
+  "input_sha256": "a55d10bd10bec088a4f3106bf828c8400a63b913663676075ad145a765a7f29b",
+  "core_sha256": "84eb47aac8b5f7431138f0e07999b31041ea89fe427d4a15c8674bb00bbfc079",
+  "frozen": {
+    "question": "Can Google Pixel 4a users get through a normal day without recharging?",
+    "chunks": [
+      {
+        "chunk_id": "994cdda37a2b_6",
+        "doc_id": "994cdda37a2b",
+        "text": "4GB have been proven to not be enough for modern smartphones and thankfully Google packed 6GB in the 4a. That, combined with the 128GB of storage space, will allow users to download and install multiple apps without worrying about any shortcomings. Battery autonomy is great too. With 3140 milliamps per hour, and a low powered CPU, you will most probably get more than 1.5 days of operation time before you have to recharge (provided that the average screen time is around a modest 2-2.5 hours/day). The Google Pixel 4a is equipped with a 12 MP rear camera using the IMX363 sensor, with Optical & Electronic Image Stabilization (OIS + EIS). The aperture is f/1.7 and the field of view is 77 degrees. It can shoot 4K videos at 30fps or 1080p video at 60 fps.",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+      },
+      {
+        "chunk_id": "4df85135011c_1",
+        "doc_id": "4df85135011c",
+        "text": "I wanted to condition the battery by running it way down before recharging a few times. I was kind of shocked that it took almost 3 days to get the phone down to love 0% with my typical usage. Adaptive battery is on by default, and I typically have about 3 hours of screen time per day, and it hasn't had me searching for a charger once. This phone was advertised as having an all day battery and I'm sure it is true for heavy users. But for those that aren't on social media all day, this thing will be running for at least 2 days before you have to charge it. The battery life is just awesome. Also, in the first week my phone took 1 major and 2 minor updates which was nice. All my previous carrier phones would get at most 2 updates over their lives.",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+      },
+      {
+        "chunk_id": "cb5491212266_0",
+        "doc_id": "cb5491212266",
+        "text": "Phone is a excellent middle of the road acceptable product that should be in everybody's possession. System seems to work well with the batteries that are in it it can hold up to 2 days of battery and it means that you can go 1 to 2 days without getting back to the charger and when you do get back to the charger it recharges it about 3 to 4 hours so it's very usable cycle",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "source_url": "https://www.amazon.com/dp/B08Z4K5L2F"
+      },
+      {
+        "chunk_id": "e94a15997d70_4",
+        "doc_id": "e94a15997d70",
+        "text": "The only problem I've had is related to my Google Suite Account, which in the newer version of Android becomes a work account. That keeps me from signing into Google maps with that account, which I'm still trying to work around. If you don't have a paid Google Suite Account this shouldn't be an issue. I also had to change a few of the default settings, but surprisingly few. I turned off a few things to save battery life, such as monitoring for songs in the background, and turned on the virtual navigation keys at the bottom of the screen, which I prefer to their gestures system. Too early to say anything about battery life because my use of the phone has been far from normal. I'll report back if it can't get through a normal day with at least 25% of battery left.",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+      },
+      {
+        "chunk_id": "0a42f76dfc35_3",
+        "doc_id": "0a42f76dfc35",
+        "text": "Plus google has promised to provide software updates for at least 3 years for all their devices. Samsung announced very recently that they would support their devices for 3 years with software updates but we all know that the updates will be slow to come by. At the end of it, there's nothing better than pure Android. BATTERY LIFE & CHARGING SPEED: In my observation, the battery life is quite good and easily lasts me a day of normal use. Some observations attached in pictures. There are two ways in which the battery life was observed - one without power saving option on (you can toggle it via the pull down menu) and one with the power saving option on. Without the power saving option, got the phone to last more than a day with almost 5 hours of screen on time.",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+      },
+      {
+        "chunk_id": "f06a096857dc_2",
+        "doc_id": "f06a096857dc",
+        "text": "But beyond that, it works wonderfully. If there is any downside, it is the battery. Not that it's small... I have gotten through all day on more than one occasion. However, with my slightly more than average use, I do find myself needing to top off late in the evening. The good news is that in as little as 15 mins, this thing will charge up 50% or more, so it's not a huge deal. If you are going to go out for the evening, just plug it up while you are getting ready, and you'll be more than good to go! They claim that the adaptive battery software will continue to optimize the phone's battery life over time, so we'll see how that goes. But despite that, it is still a phone I would recommend ALL DAY LONG, especially when comparing to other phones in this price point.",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+      },
+      {
+        "chunk_id": "aad680c1afc8_0",
+        "doc_id": "aad680c1afc8",
+        "text": "RENEWED model : battery won't quick charge. This Pixel 4a has a lot going for it, especially the compact size and 4G compatibility with many phone companies in the US & abroad. Renewed items usually work without a problem. This phone can be recharged but it never recognizes a QC- or Turbo-charger and it takes a long time to get it to 100%. Using same cable & charger, other phone refill a lot faster. Battery life also isn't great but sufficient. Given the price of \"only\" $150, I keep it (grudgingly)",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "source_url": "https://www.amazon.com/dp/B09BXB8MWZ"
+      },
+      {
+        "chunk_id": "64273cc115e9_0",
+        "doc_id": "64273cc115e9",
+        "text": "good battery life (usually 2 days before recharge). I'm what my daughters call \"A Boomer\" (baby boomer generation) I don't need my phone to do everything for me. I don't want or need all the whistles and bells, just a reliable phone and I'm happy. This is a good phone for the money.",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+      },
+      {
+        "chunk_id": "4d45cff84659_0",
+        "doc_id": "4d45cff84659",
+        "text": "Worst Customer Friendly Phone Ever Owned. Phone for personal use. Absolutely not user friendly, compared to LG phone I had previously. This is a \"typical\" Google \"nerd\" phone that is designed for techies, not for \"normal\" older users. Camera is great I guess--use it about once every month--I have cameras. Battery and charging are excellent. Non-standard USB cord provided--need to buy others for car,etc. Big problem has been phone never rings, or when it does, it impossible to \"swipe\" to open. Bad notifications (none) Never know when messages or voice mail is received--have to manually check. Google continually send automatic notices and pop-ups to sell more products--can't turn off. When you turn off one function, it will normally turn OFF others, e.g., sound, so you never get notices of calls. Biggest advantage is that it is a smaller phone, 5+ by 2+ inches, easier to carry than the nerd 7\" X 3\" monsters.",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+      },
+      {
+        "chunk_id": "9e4518ab6df3_0",
+        "doc_id": "9e4518ab6df3",
+        "text": "Battery not as great as I thought it would be. Battery does last about a day. It surprises me how long it takes to recharge, even using their charger that came with the phone. Other than that ... most of the things I don't like - basically a learning curve for me, since this is my first pixel. I miss some features that I had with my other phone models.",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+      }
+    ],
+    "sentences": [
+      {
+        "text": "One reviewer reported that with a low-powered CPU and 3140 mAh battery, the Pixel 4a would most probably give more than 1.5 days of operation time with average screen time around 2-2.5 hours per day.",
+        "citations": [
+          "994cdda37a2b_6"
+        ]
+      },
+      {
+        "text": "A reviewer with about 3 hours of screen time per day said the phone took almost 3 days to run down and that it hasn't had them searching for a charger once.",
+        "citations": [
+          "4df85135011c_1"
+        ]
+      },
+      {
+        "text": "One reviewer said the battery can hold up to 2 days, allowing 1 to 2 days without returning to the charger.",
+        "citations": [
+          "cb5491212266_0"
+        ]
+      },
+      {
+        "text": "A reviewer observed that the battery easily lasts a day of normal use, lasting more than a day with almost 5 hours of screen on time without power saving.",
+        "citations": [
+          "0a42f76dfc35_3"
+        ]
+      },
+      {
+        "text": "One reviewer said they got through all day on more than one occasion but, with slightly more than average use, found themselves needing to top off late in the evening.",
+        "citations": [
+          "f06a096857dc_2"
+        ]
+      },
+      {
+        "text": "Another reviewer said the battery does last about a day but was not as great as they thought it would be.",
+        "citations": [
+          "9e4518ab6df3_0"
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "chunk_id": "994cdda37a2b_6",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "Battery autonomy is great too",
+          "you will most probably get more than 1.5 days of operation time before you have to recharge"
+        ],
+        "reason": "Praises battery autonomy and long operation time.",
+        "doc_id": "994cdda37a2b",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "4df85135011c_1",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "The battery life is just awesome",
+          "it took almost 3 days to get the phone down to love 0%",
+          "running for at least 2 days before you have to charge it"
+        ],
+        "reason": "Strong praise for battery life and endurance.",
+        "doc_id": "4df85135011c",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "cb5491212266_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "it can hold up to 2 days of battery",
+          "it recharges it about 3 to 4 hours so it's very usable cycle"
+        ],
+        "reason": "Positive view of battery endurance and charging cycle.",
+        "doc_id": "cb5491212266",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "e94a15997d70_4",
+        "aspect_present": true,
+        "subjectivity": "neutral",
+        "label": "neutral",
+        "evidence_quotes": [
+          "Too early to say anything about battery life because my use of the phone has been far from normal"
+        ],
+        "reason": "Explicitly declines to judge battery life; no opinion given.",
+        "doc_id": "e94a15997d70",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "0a42f76dfc35_3",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "the battery life is quite good and easily lasts me a day of normal use"
+        ],
+        "reason": "Positive assessment of battery life lasting a day.",
+        "doc_id": "0a42f76dfc35",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "f06a096857dc_2",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "mixed",
+        "evidence_quotes": [
+          "If there is any downside, it is the battery",
+          "I have gotten through all day on more than one occasion",
+          "I do find myself needing to top off late in the evening"
+        ],
+        "reason": "Both praise (all-day) and criticism (needs topping off) of battery.",
+        "doc_id": "f06a096857dc",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "aad680c1afc8_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "battery won't quick charge",
+          "Battery life also isn't great but sufficient"
+        ],
+        "reason": "Criticizes charging and battery life as not great.",
+        "doc_id": "aad680c1afc8",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "64273cc115e9_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "good battery life (usually 2 days before recharge)"
+        ],
+        "reason": "Praises battery life lasting two days.",
+        "doc_id": "64273cc115e9",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "4d45cff84659_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "Battery and charging are excellent"
+        ],
+        "reason": "Explicitly praises battery and charging as excellent.",
+        "doc_id": "4d45cff84659",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "9e4518ab6df3_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "Battery not as great as I thought it would be",
+          "It surprises me how long it takes to recharge"
+        ],
+        "reason": "Disappointment with battery and slow recharge.",
+        "doc_id": "9e4518ab6df3",
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "aspect": "battery"
+      }
+    ],
+    "statistics": [
+      {
+        "brand": "Google",
+        "model": "Pixel 4a",
+        "aspect": "battery",
+        "scope": "retrieved_sample",
+        "count_unit": "unique_doc_id",
+        "n_relevant_reviews": 10,
+        "n_excluded_aspect_absent": 0,
+        "counts": {
+          "positive": 6,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "positive_ratio": 0.6,
+        "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+        "polarized_positive_ratio": 0.75,
+        "polarized_denominator": 8
+      }
+    ],
+    "draft_answer": "One reviewer reported that with a low-powered CPU and 3140 mAh battery, the Pixel 4a would most probably give more than 1.5 days of operation time with average screen time around 2-2.5 hours per day. [994cdda37a2b_6]\nA reviewer with about 3 hours of screen time per day said the phone took almost 3 days to run down and that it hasn't had them searching for a charger once. [4df85135011c_1]\nOne reviewer said the battery can hold up to 2 days, allowing 1 to 2 days without returning to the charger. [cb5491212266_0]\nA reviewer observed that the battery easily lasts a day of normal use, lasting more than a day with almost 5 hours of screen on time without power saving. [0a42f76dfc35_3]\nOne reviewer said they got through all day on more than one occasion but, with slightly more than average use, found themselves needing to top off late in the evening. [f06a096857dc_2]\nAnother reviewer said the battery does last about a day but was not as great as they thought it would be. [9e4518ab6df3_0]"
+  },
+  "off": {
+    "status": "not_checked",
+    "verification_enabled": false,
+    "answer": "One reviewer reported that with a low-powered CPU and 3140 mAh battery, the Pixel 4a would most probably give more than 1.5 days of operation time with average screen time around 2-2.5 hours per day. [994cdda37a2b_6]\nA reviewer with about 3 hours of screen time per day said the phone took almost 3 days to run down and that it hasn't had them searching for a charger once. [4df85135011c_1]\nOne reviewer said the battery can hold up to 2 days, allowing 1 to 2 days without returning to the charger. [cb5491212266_0]\nA reviewer observed that the battery easily lasts a day of normal use, lasting more than a day with almost 5 hours of screen on time without power saving. [0a42f76dfc35_3]\nOne reviewer said they got through all day on more than one occasion but, with slightly more than average use, found themselves needing to top off late in the evening. [f06a096857dc_2]\nAnother reviewer said the battery does last about a day but was not as great as they thought it would be. [9e4518ab6df3_0]",
+    "abstained": false
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "completed",
+      "started_at": "2026-11-05T10:55:08.453487+00:00",
+      "checker_elapsed_s": 2.78489441704005,
+      "finished_at": "2026-11-05T10:55:11.240045+00:00",
+      "api": {
+        "api_calls": 1,
+        "cache_hits": 0,
+        "usage": [
+          {
+            "model": "deepseek-flash",
+            "prompt_tokens": 1816,
+            "completion_tokens": 661,
+            "total_tokens": 2477,
+            "prompt_tokens_details": {
+              "cached_tokens": 1664
+            },
+            "prompt_cache_hit_tokens": 1664,
+            "prompt_cache_miss_tokens": 152
+          }
+        ],
+        "prompt_tokens": 1816,
+        "cached_prompt_tokens": 1664,
+        "completion_tokens": 661,
+        "total_tokens": 2477,
+        "requests_without_usage": 0,
+        "estimated_cost": null,
+        "currency": null,
+        "cost_scope": "estimate_for_recorded_usage_only; requests_without_usage_may_have_unknown_cost",
+        "pricing": null
+      }
+    }
+  ],
+  "status": "completed",
+  "new": {
+    "status": "completed",
+    "verification_enabled": true,
+    "checks": [
+      {
+        "sentence_id": "s0",
+        "text": "One reviewer reported that with a low-powered CPU and 3140 mAh battery, the Pixel 4a would most probably give more than 1.5 days of operation time with average screen time around 2-2.5 hours per day.",
+        "citations": [
+          "994cdda37a2b_6"
+        ],
+        "status": "supported",
+        "reason": "The cited review states that with a 3140 mAh battery and low-powered CPU, one would most probably get more than 1.5 days of operation time with average screen time around 2-2.5 hours/day, matching the claim.",
+        "evidence": [
+          {
+            "chunk_id": "994cdda37a2b_6",
+            "quote": "With 3140 milliamps per hour, and a low powered CPU, you will most probably get more than 1.5 days of operation time before you have to recharge (provided that the average screen time is around a modest 2-2.5 hours/day)."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s1",
+        "text": "A reviewer with about 3 hours of screen time per day said the phone took almost 3 days to run down and that it hasn't had them searching for a charger once.",
+        "citations": [
+          "4df85135011c_1"
+        ],
+        "status": "supported",
+        "reason": "The reviewer states about 3 hours of screen time per day, that it took almost 3 days to run the phone down, and that it hasn't had them searching for a charger once.",
+        "evidence": [
+          {
+            "chunk_id": "4df85135011c_1",
+            "quote": "I was kind of shocked that it took almost 3 days to get the phone down to love 0% with my typical usage. Adaptive battery is on by default, and I typically have about 3 hours of screen time per day, and it hasn't had me searching for a charger once."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s2",
+        "text": "One reviewer said the battery can hold up to 2 days, allowing 1 to 2 days without returning to the charger.",
+        "citations": [
+          "cb5491212266_0"
+        ],
+        "status": "supported",
+        "reason": "The review states the battery can hold up to 2 days and you can go 1 to 2 days without getting back to the charger.",
+        "evidence": [
+          {
+            "chunk_id": "cb5491212266_0",
+            "quote": "it can hold up to 2 days of battery and it means that you can go 1 to 2 days without getting back to the charger"
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s3",
+        "text": "A reviewer observed that the battery easily lasts a day of normal use, lasting more than a day with almost 5 hours of screen on time without power saving.",
+        "citations": [
+          "0a42f76dfc35_3"
+        ],
+        "status": "unverifiable",
+        "reason": "The reviewer observed the battery easily lasts a day of normal use and, without power saving, lasted more than a day with almost 5 hours of screen on time. [evidence validation: original_status=supported; evidence[0]: invalid_or_nonverbatim_quote]",
+        "evidence": [],
+        "flagged": true
+      },
+      {
+        "sentence_id": "s4",
+        "text": "One reviewer said they got through all day on more than one occasion but, with slightly more than average use, found themselves needing to top off late in the evening.",
+        "citations": [
+          "f06a096857dc_2"
+        ],
+        "status": "supported",
+        "reason": "The reviewer says they got through all day on more than one occasion but with slightly more than average use needed to top off late in the evening.",
+        "evidence": [
+          {
+            "chunk_id": "f06a096857dc_2",
+            "quote": "I have gotten through all day on more than one occasion. However, with my slightly more than average use, I do find myself needing to top off late in the evening."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s5",
+        "text": "Another reviewer said the battery does last about a day but was not as great as they thought it would be.",
+        "citations": [
+          "9e4518ab6df3_0"
+        ],
+        "status": "supported",
+        "reason": "The reviewer states the battery is not as great as they thought and does last about a day.",
+        "evidence": [
+          {
+            "chunk_id": "9e4518ab6df3_0",
+            "quote": "Battery not as great as I thought it would be. Battery does last about a day."
+          }
+        ],
+        "flagged": false
+      }
+    ],
+    "retained_sentences": [
+      {
+        "sentence_id": "s0",
+        "text": "One reviewer reported that with a low-powered CPU and 3140 mAh battery, the Pixel 4a would most probably give more than 1.5 days of operation time with average screen time around 2-2.5 hours per day.",
+        "citations": [
+          "994cdda37a2b_6"
+        ],
+        "status": "supported",
+        "reason": "The cited review states that with a 3140 mAh battery and low-powered CPU, one would most probably get more than 1.5 days of operation time with average screen time around 2-2.5 hours/day, matching the claim.",
+        "evidence": [
+          {
+            "chunk_id": "994cdda37a2b_6",
+            "quote": "With 3140 milliamps per hour, and a low powered CPU, you will most probably get more than 1.5 days of operation time before you have to recharge (provided that the average screen time is around a modest 2-2.5 hours/day)."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s1",
+        "text": "A reviewer with about 3 hours of screen time per day said the phone took almost 3 days to run down and that it hasn't had them searching for a charger once.",
+        "citations": [
+          "4df85135011c_1"
+        ],
+        "status": "supported",
+        "reason": "The reviewer states about 3 hours of screen time per day, that it took almost 3 days to run the phone down, and that it hasn't had them searching for a charger once.",
+        "evidence": [
+          {
+            "chunk_id": "4df85135011c_1",
+            "quote": "I was kind of shocked that it took almost 3 days to get the phone down to love 0% with my typical usage. Adaptive battery is on by default, and I typically have about 3 hours of screen time per day, and it hasn't had me searching for a charger once."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s2",
+        "text": "One reviewer said the battery can hold up to 2 days, allowing 1 to 2 days without returning to the charger.",
+        "citations": [
+          "cb5491212266_0"
+        ],
+        "status": "supported",
+        "reason": "The review states the battery can hold up to 2 days and you can go 1 to 2 days without getting back to the charger.",
+        "evidence": [
+          {
+            "chunk_id": "cb5491212266_0",
+            "quote": "it can hold up to 2 days of battery and it means that you can go 1 to 2 days without getting back to the charger"
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s4",
+        "text": "One reviewer said they got through all day on more than one occasion but, with slightly more than average use, found themselves needing to top off late in the evening.",
+        "citations": [
+          "f06a096857dc_2"
+        ],
+        "status": "supported",
+        "reason": "The reviewer says they got through all day on more than one occasion but with slightly more than average use needed to top off late in the evening.",
+        "evidence": [
+          {
+            "chunk_id": "f06a096857dc_2",
+            "quote": "I have gotten through all day on more than one occasion. However, with my slightly more than average use, I do find myself needing to top off late in the evening."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s5",
+        "text": "Another reviewer said the battery does last about a day but was not as great as they thought it would be.",
+        "citations": [
+          "9e4518ab6df3_0"
+        ],
+        "status": "supported",
+        "reason": "The reviewer states the battery is not as great as they thought and does last about a day.",
+        "evidence": [
+          {
+            "chunk_id": "9e4518ab6df3_0",
+            "quote": "Battery not as great as I thought it would be. Battery does last about a day."
+          }
+        ],
+        "flagged": false
+      }
+    ],
+    "answer": "One reviewer reported that with a low-powered CPU and 3140 mAh battery, the Pixel 4a would most probably give more than 1.5 days of operation time with average screen time around 2-2.5 hours per day. [994cdda37a2b_6]\nA reviewer with about 3 hours of screen time per day said the phone took almost 3 days to run down and that it hasn't had them searching for a charger once. [4df85135011c_1]\nOne reviewer said the battery can hold up to 2 days, allowing 1 to 2 days without returning to the charger. [cb5491212266_0]\nOne reviewer said they got through all day on more than one occasion but, with slightly more than average use, found themselves needing to top off late in the evening. [f06a096857dc_2]\nAnother reviewer said the battery does last about a day but was not as great as they thought it would be. [9e4518ab6df3_0]",
+    "abstained": false,
+    "display_answer": "One reviewer reported that with a low-powered CPU and 3140 mAh battery, the Pixel 4a would most probably give more than 1.5 days of operation time with average screen time around 2-2.5 hours per day. [994cdda37a2b_6]\nA reviewer with about 3 hours of screen time per day said the phone took almost 3 days to run down and that it hasn't had them searching for a charger once. [4df85135011c_1]\nOne reviewer said the battery can hold up to 2 days, allowing 1 to 2 days without returning to the charger. [cb5491212266_0]\nOne reviewer said they got through all day on more than one occasion but, with slightly more than average use, found themselves needing to top off late in the evening. [f06a096857dc_2]\nAnother reviewer said the battery does last about a day but was not as great as they thought it would be. [9e4518ab6df3_0]"
+  }
+}

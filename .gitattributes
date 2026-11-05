@@ -1,0 +1,5 @@
+# Preserve recorded evidence bytes so provenance hashes remain valid.
+/results/local_validation_20261105/** -text
+# CSV exports intentionally use CRLF for spreadsheet compatibility.
+/results/local_validation_20261105/**/*.csv whitespace=cr-at-eol
+/results/local_validation_20261105/*.csv whitespace=cr-at-eol

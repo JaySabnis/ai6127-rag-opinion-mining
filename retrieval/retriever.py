@@ -41,6 +41,7 @@ from retrieval.corpus import load_meta, rows_for
 from retrieval.dense import DenseIndex, Encoder
 from retrieval.hybrid import add_aspect_boost, rank_fused, ranks_of, rrf_fuse
 from retrieval.query_parser import ParsedQuery, QueryParser
+from retrieval.product_identity import make_product_id
 
 MODES = ("bm25", "dense", "hybrid")
 FILTER_KEYS = {"model", "brand", "min_rating", "max_rating", "exclude_renewed"}
@@ -70,6 +71,8 @@ class Hit:
     aspect_boosted: bool = False
     rrf_score: float | None = None  # pure fusion score, before the aspect boost
     rrf_normalized: float | None = None  # divided by two rank-1 contributions
+    product_id: str | None = None  # stable catalogue identity, preserved by the reranker
+    canonical_model: str | None = None  # display name; model retains the source spelling
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -174,6 +177,8 @@ class Retriever:
         votes = _none_if_nan(r["helpful_votes"])
         verified = _none_if_nan(r["verified"])
         renewed = _none_if_nan(r["is_renewed"])
+        brand, model = _none_if_nan(r["brand"]), _none_if_nan(r["model"])
+        canonical_model = self.parser.canonical_of(model) if model else None
         return Hit(
             rank=rank,
             row_id=int(row),
@@ -181,8 +186,10 @@ class Retriever:
             doc_id=r["doc_id"],
             text=r["text"],
             score=float(score),
-            brand=_none_if_nan(r["brand"]),
-            model=_none_if_nan(r["model"]),
+            brand=brand,
+            model=model,
+            product_id=make_product_id(brand, canonical_model, doc_id=r["doc_id"]),
+            canonical_model=canonical_model,
             rating=int(rating) if rating is not None else None,
             timestamp=_none_if_nan(r["timestamp"]),
             aspect_tags=list(r["aspect_tags"]),

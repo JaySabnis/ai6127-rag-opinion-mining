@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_learned_checker_fixed/Q010.json",
+  "source_sha256": "f092900cde55356aa0e2a0b9572e096d7fdee5dc917804248ad2ead40d12e904",
+  "question": "How is the battery endurance of the Moto G Fast (2020) in owner reviews?",
+  "statistics_before": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 5,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5555555555555556,
+      "polarized_denominator": 9
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "aspect": "battery",
+      "product_id": "phone-v1:bbe38a005122f86ca426ae231aba4e2714a847408b1a7d7ccb53b7bc537deff5",
+      "canonical_model": null,
+      "model_aliases": [
+        "Moto G Fast (2020)"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 5,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5555555555555556,
+      "polarized_denominator": 9
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

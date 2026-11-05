@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_dense/Q012.json",
+  "source_sha256": "e55d241132fb8f5afe564d5567b3cc825f34ad7045c8583bf4b70f91f0f12b35",
+  "question": "What do Samsung Galaxy Note 9 owners say about how long a charge lasts?",
+  "statistics_before": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 8,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 4,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5714285714285714,
+      "polarized_denominator": 7
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery",
+      "product_id": "phone-v1:3295740ca5da72c8672fd1769be5262cc4facfb1e3a3bee74f8f20259eb67ed0",
+      "canonical_model": null,
+      "model_aliases": [
+        "Galaxy Note 9"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 8,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 4,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5714285714285714,
+      "polarized_denominator": 7
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

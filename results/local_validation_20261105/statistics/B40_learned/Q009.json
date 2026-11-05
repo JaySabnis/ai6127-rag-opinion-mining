@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_learned/Q009.json",
+  "source_sha256": "a55d10bd10bec088a4f3106bf828c8400a63b913663676075ad145a765a7f29b",
+  "question": "Can Google Pixel 4a users get through a normal day without recharging?",
+  "statistics_before": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 6,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "positive_ratio": 0.6,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.75,
+      "polarized_denominator": 8
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "battery",
+      "product_id": "phone-v1:3b6bd697ff7ea49d8f379f0107f80c06712ffc583585d33ced1b7a0ac15c6267",
+      "canonical_model": null,
+      "model_aliases": [
+        "Pixel 4a"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 6,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "positive_ratio": 0.6,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.75,
+      "polarized_denominator": 8
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

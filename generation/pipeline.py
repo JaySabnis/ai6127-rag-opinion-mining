@@ -62,22 +62,27 @@ class OpinionPipeline:
         draft = render_sentences(sentences)
         if verify:
             supported = [s for s in checks if s["status"] == "supported"]
+            abstained = not supported
             answer = render_sentences(supported)
             if not answer:
                 answer = "本次检索证据不足以形成通过核查的总结。" if language == "zh" else "No summary claims passed the evidence check."
         else:
+            abstained = not bool(draft)
             answer = draft or ("本次检索证据不足以形成总结。" if language == "zh" else "Insufficient retrieved evidence.")
         if not chunks:
+            abstained = True
             answer = "没有检索到评论，无法计算好评比例或生成总结。" if language == "zh" else "No reviews retrieved; no ratio or summary is available."
         timings["total_s"] = perf_counter() - started
-        # Stage files intentionally omit total_s to avoid double-counting in
-        # evaluation/summarize_latency.py, which sums all *_s fields.
+        # This clock covers Group C only; retrieval and index loading happen upstream.
         return {"question": question, "answer": answer, "draft_answer": draft,
+                "abstained": abstained,
+                "status": "failed" if checker_error else "completed",
                 "sentences": sentences, "checks": checks,
                 "flagged_sentences": [s for s in checks if s["flagged"]],
                 "verification_enabled": verify, "checker_error": checker_error,
                 "predictions": predictions, "statistics": stats, "chunks": chunks,
                 "contexts": [r["text"] for r in chunks], "timing": timings,
+                "timing_scope": "downstream",
                 "api": self.client.telemetry(), "language": language,
                 "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。" if zh else
                     "Ratios cover deduplicated reviews in this retrieved sample only, not all buyers; "

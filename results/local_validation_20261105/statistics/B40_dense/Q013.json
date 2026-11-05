@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_dense/Q013.json",
+  "source_sha256": "5bfa4a913ed219c98639c9ce0cd98a2df4c354b570a3e35983ac4f3c585e1a53",
+  "question": "What do owners think of the Samsung Galaxy S10 screen quality?",
+  "statistics_before": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 2,
+      "n_excluded_aspect_absent": 8,
+      "counts": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 1.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 2
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display",
+      "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+      "canonical_model": null,
+      "model_aliases": [
+        "Galaxy S10"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 2,
+      "n_excluded_aspect_absent": 8,
+      "counts": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 1.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 2
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_dense/Q011.json",
+  "source_sha256": "426d6cec789dbfa38c6f7a7b1e4f2677cd0a3590ec5ed8b48ca862d7d223c011",
+  "question": "What battery-life problems or benefits do iPhone 8 owners report?",
+  "statistics_before": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 3,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 2
+      },
+      "positive_ratio": 0.3,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.42857142857142855,
+      "polarized_denominator": 7
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery",
+      "product_id": "phone-v1:2862e7c492174c84988682b5273d510153ea6c3cc660f480f4398e7034d180cb",
+      "canonical_model": null,
+      "model_aliases": [
+        "iPhone 8"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 3,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 2
+      },
+      "positive_ratio": 0.3,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.42857142857142855,
+      "polarized_denominator": 7
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

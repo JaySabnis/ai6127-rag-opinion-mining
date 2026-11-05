@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_bm25/Q033.json",
+  "source_sha256": "ff7e92a6509a3f700b2530e0fc5bc664a7e795da303a101d517e684cc9145f42",
+  "question": "What do Google Pixel 4a owners say about connecting to their mobile carrier?",
+  "statistics_before": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "carrier",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 3,
+      "n_excluded_aspect_absent": 7,
+      "counts": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.6666666666666666,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6666666666666666,
+      "polarized_denominator": 3
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "carrier",
+      "product_id": "phone-v1:3b6bd697ff7ea49d8f379f0107f80c06712ffc583585d33ced1b7a0ac15c6267",
+      "canonical_model": null,
+      "model_aliases": [
+        "Pixel 4a"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 3,
+      "n_excluded_aspect_absent": 7,
+      "counts": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.6666666666666666,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6666666666666666,
+      "polarized_denominator": 3
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

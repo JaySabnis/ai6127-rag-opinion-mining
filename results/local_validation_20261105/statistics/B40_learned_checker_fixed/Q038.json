@@ -1,0 +1,97 @@
+{
+  "source": "results/group_c/b40/B40_learned_checker_fixed/Q038.json",
+  "source_sha256": "73f8d9efccfe86b7e045303bb8ab02d57be6c23819d6f76fcec3c90c83e4a2db",
+  "question": "What do Samsung Galaxy S10 users say about screen quality and everyday performance?",
+  "statistics_before": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 8,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 3,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.375,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.42857142857142855,
+      "polarized_denominator": 7
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 7,
+      "n_excluded_aspect_absent": 3,
+      "counts": {
+        "positive": 5,
+        "negative": 0,
+        "mixed": 2,
+        "neutral": 0
+      },
+      "positive_ratio": 0.7142857142857143,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 5
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display",
+      "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+      "canonical_model": null,
+      "model_aliases": [
+        "Galaxy S10"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 8,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 3,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.375,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.42857142857142855,
+      "polarized_denominator": 7
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance",
+      "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+      "canonical_model": null,
+      "model_aliases": [
+        "Galaxy S10"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 7,
+      "n_excluded_aspect_absent": 3,
+      "counts": {
+        "positive": 5,
+        "negative": 0,
+        "mixed": 2,
+        "neutral": 0
+      },
+      "positive_ratio": 0.7142857142857143,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 5
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

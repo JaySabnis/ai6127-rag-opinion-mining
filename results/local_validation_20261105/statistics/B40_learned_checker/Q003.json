@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_learned_checker/Q003.json",
+  "source_sha256": "72569f316f076a51e3ecf5cc99e02b142596f885f1c61c626121f55f7f2b1001",
+  "question": "Are people happy with the pictures they get from the Google Pixel 4a?",
+  "statistics_before": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 9,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.9,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 9
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera",
+      "product_id": "phone-v1:3b6bd697ff7ea49d8f379f0107f80c06712ffc583585d33ced1b7a0ac15c6267",
+      "canonical_model": null,
+      "model_aliases": [
+        "Pixel 4a"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 9,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.9,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 9
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

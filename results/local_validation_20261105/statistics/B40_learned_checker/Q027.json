@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_learned_checker/Q027.json",
+  "source_sha256": "ce9f5762c34d3abfc7f26316f84fa95c1b7828d896de81593d23a96f79aab4ae",
+  "question": "What do Google Pixel 4a buyers say about support, warranty claims, or refunds?",
+  "statistics_before": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 0,
+        "negative": 10,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.0,
+      "polarized_denominator": 10
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "service",
+      "product_id": "phone-v1:3b6bd697ff7ea49d8f379f0107f80c06712ffc583585d33ced1b7a0ac15c6267",
+      "canonical_model": null,
+      "model_aliases": [
+        "Pixel 4a"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 0,
+        "negative": 10,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.0,
+      "polarized_denominator": 10
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

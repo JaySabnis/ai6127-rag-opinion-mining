@@ -1,0 +1,16 @@
+{
+  "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:29:07) [Clang 19.1.7 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "pytest": "9.2.0",
+    "ragas": "0.4.3",
+    "openai": "3.3.0",
+    "sentence-transformers": "6.2.0",
+    "torch": "2.14.1",
+    "faiss-cpu": "1.15.1",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "streamlit": "1.66.1",
+    "xlrd": "2.0.2"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_dense/Q015.json",
+  "source_sha256": "8615ad0233cf4e23e58976fa1edbd306d8e81f095c04022c413470439d65ef26",
+  "question": "How do users describe the Google Pixel 4a display and viewing experience?",
+  "statistics_before": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 2,
+      "n_excluded_aspect_absent": 8,
+      "counts": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5,
+      "polarized_denominator": 2
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "display",
+      "product_id": "phone-v1:3b6bd697ff7ea49d8f379f0107f80c06712ffc583585d33ced1b7a0ac15c6267",
+      "canonical_model": null,
+      "model_aliases": [
+        "Pixel 4a"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 2,
+      "n_excluded_aspect_absent": 8,
+      "counts": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5,
+      "polarized_denominator": 2
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

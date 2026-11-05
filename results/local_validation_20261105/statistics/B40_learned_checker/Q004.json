@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_learned_checker/Q004.json",
+  "source_sha256": "a7da5b10136a1ee751e2896e3c57b7fd83b8303e91eb42eb144c679c400e35ba",
+  "question": "What strengths and weaknesses do reviewers report for the Moto G7 camera?",
+  "statistics_before": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 2,
+        "negative": 5,
+        "mixed": 3,
+        "neutral": 0
+      },
+      "positive_ratio": 0.2,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.2857142857142857,
+      "polarized_denominator": 7
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera",
+      "product_id": "phone-v1:52ff7a0c135cceb6ebe73ff7fc1f1eca47914337b50fa281506f97427e6dc63c",
+      "canonical_model": null,
+      "model_aliases": [
+        "Moto G7"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 2,
+        "negative": 5,
+        "mixed": 3,
+        "neutral": 0
+      },
+      "positive_ratio": 0.2,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.2857142857142857,
+      "polarized_denominator": 7
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

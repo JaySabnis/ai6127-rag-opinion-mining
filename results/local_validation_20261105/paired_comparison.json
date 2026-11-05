@@ -1,0 +1,45 @@
+{
+  "n": 40,
+  "all_questions_contexts_order_identical": true,
+  "metrics": {
+    "faithfulness": {
+      "off": 0.9731,
+      "new": 0.9661,
+      "n_paired_valid": 40,
+      "mean_paired_change": -0.006957070707070706,
+      "improved_queries": 2,
+      "unchanged_queries": 34,
+      "lower_queries": 4
+    },
+    "answer_relevancy": {
+      "off": 0.8435,
+      "new": 0.8373,
+      "n_paired_valid": 40,
+      "mean_paired_change": -0.006143237553476647,
+      "improved_queries": 9,
+      "unchanged_queries": 12,
+      "lower_queries": 19
+    },
+    "context_precision": {
+      "off": 0.8305,
+      "new": 0.8472,
+      "n_paired_valid": 40,
+      "mean_paired_change": 0.016656218504705004,
+      "improved_queries": 22,
+      "unchanged_queries": 4,
+      "lower_queries": 14
+    },
+    "context_relevance": {
+      "off": 0.9875,
+      "new": 0.9875,
+      "n_paired_valid": 40,
+      "mean_paired_change": 0.0,
+      "improved_queries": 0,
+      "unchanged_queries": 40,
+      "lower_queries": 0
+    }
+  },
+  "answer_coverage_off": 1.0,
+  "answer_coverage_new": 1.0,
+  "conclusion": "No observed improvement in faithfulness or answer relevancy. Do not claim checker improves quality from this experiment. Automated same-provider judgment; small score differences may reflect evaluator variability. Context precision is answer-conditioned and is not evidence of better retrieval."
+}

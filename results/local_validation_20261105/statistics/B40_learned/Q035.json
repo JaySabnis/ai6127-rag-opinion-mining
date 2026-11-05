@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_learned/Q035.json",
+  "source_sha256": "21af84e0314b952587a6550cdbbf07ee6a39319e3ae3c8aded42246c332aea51",
+  "question": "What do Samsung Galaxy S10e reviewers say about using the phone on their carrier network?",
+  "statistics_before": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 0,
+        "negative": 9,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.0,
+      "polarized_denominator": 9
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier",
+      "product_id": "phone-v1:ea20864152df95ba951e2757bd45c8575bf246181e0df388de09efb9d5a0dc0d",
+      "canonical_model": null,
+      "model_aliases": [
+        "Galaxy S10e"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 0,
+        "negative": 9,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.0,
+      "polarized_denominator": 9
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

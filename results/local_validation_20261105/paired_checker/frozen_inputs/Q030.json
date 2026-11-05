@@ -1,0 +1,491 @@
+{
+  "question": "What support or replacement experiences do Samsung Galaxy S20 FE buyers describe?",
+  "answer": "One buyer said the seller set aside time to answer all setup questions patiently and resolved all inquiries. [76c07b8396ff_0]\nA buyer whose power button began malfunctioning after 2+ months said Bay Shine customer service immediately offered a replacement or refund, no questions asked. [fc9ed0021eef_0]\nThat buyer opted to return for a refund one day before the 90-day warranty ended and said a full refund was issued in two days. [fc9ed0021eef_0]\nOne buyer said the seller responded by text and phone calls after a FedEx issue and agreed on a replacement phone shipped with a different carrier. [c74d3e706f98_0]\nOne buyer said the phone's serial number didn't match any of Samsung's support options, so they couldn't get through to support. [e192d55fd193_0]\nOne buyer said Samsung customer service refused to replace an overheating phone that kept shutting down. [246d3231c964_0]",
+  "draft_answer": "One buyer said the seller set aside time to answer all setup questions patiently and resolved all inquiries. [76c07b8396ff_0]\nA buyer whose power button began malfunctioning after 2+ months said Bay Shine customer service immediately offered a replacement or refund, no questions asked. [fc9ed0021eef_0]\nThat buyer opted to return for a refund one day before the 90-day warranty ended and said a full refund was issued in two days. [fc9ed0021eef_0]\nOne buyer said the seller responded by text and phone calls after a FedEx issue and agreed on a replacement phone shipped with a different carrier. [c74d3e706f98_0]\nOne buyer said the phone's serial number didn't match any of Samsung's support options, so they couldn't get through to support. [e192d55fd193_0]\nOne buyer said Samsung customer service refused to replace an overheating phone that kept shutting down. [246d3231c964_0]",
+  "sentences": [
+    {
+      "text": "One buyer said the seller set aside time to answer all setup questions patiently and resolved all inquiries.",
+      "citations": [
+        "76c07b8396ff_0"
+      ]
+    },
+    {
+      "text": "A buyer whose power button began malfunctioning after 2+ months said Bay Shine customer service immediately offered a replacement or refund, no questions asked.",
+      "citations": [
+        "fc9ed0021eef_0"
+      ]
+    },
+    {
+      "text": "That buyer opted to return for a refund one day before the 90-day warranty ended and said a full refund was issued in two days.",
+      "citations": [
+        "fc9ed0021eef_0"
+      ]
+    },
+    {
+      "text": "One buyer said the seller responded by text and phone calls after a FedEx issue and agreed on a replacement phone shipped with a different carrier.",
+      "citations": [
+        "c74d3e706f98_0"
+      ]
+    },
+    {
+      "text": "One buyer said the phone's serial number didn't match any of Samsung's support options, so they couldn't get through to support.",
+      "citations": [
+        "e192d55fd193_0"
+      ]
+    },
+    {
+      "text": "One buyer said Samsung customer service refused to replace an overheating phone that kept shutting down.",
+      "citations": [
+        "246d3231c964_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One buyer said the seller set aside time to answer all setup questions patiently and resolved all inquiries.",
+      "citations": [
+        "76c07b8396ff_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A buyer whose power button began malfunctioning after 2+ months said Bay Shine customer service immediately offered a replacement or refund, no questions asked.",
+      "citations": [
+        "fc9ed0021eef_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "That buyer opted to return for a refund one day before the 90-day warranty ended and said a full refund was issued in two days.",
+      "citations": [
+        "fc9ed0021eef_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One buyer said the seller responded by text and phone calls after a FedEx issue and agreed on a replacement phone shipped with a different carrier.",
+      "citations": [
+        "c74d3e706f98_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One buyer said the phone's serial number didn't match any of Samsung's support options, so they couldn't get through to support.",
+      "citations": [
+        "e192d55fd193_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One buyer said Samsung customer service refused to replace an overheating phone that kept shutting down.",
+      "citations": [
+        "246d3231c964_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One buyer said the seller set aside time to answer all setup questions patiently and resolved all inquiries.",
+      "citations": [
+        "76c07b8396ff_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A buyer whose power button began malfunctioning after 2+ months said Bay Shine customer service immediately offered a replacement or refund, no questions asked.",
+      "citations": [
+        "fc9ed0021eef_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "That buyer opted to return for a refund one day before the 90-day warranty ended and said a full refund was issued in two days.",
+      "citations": [
+        "fc9ed0021eef_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One buyer said the seller responded by text and phone calls after a FedEx issue and agreed on a replacement phone shipped with a different carrier.",
+      "citations": [
+        "c74d3e706f98_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One buyer said the phone's serial number didn't match any of Samsung's support options, so they couldn't get through to support.",
+      "citations": [
+        "e192d55fd193_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One buyer said Samsung customer service refused to replace an overheating phone that kept shutting down.",
+      "citations": [
+        "246d3231c964_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "76c07b8396ff_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Exceptional support",
+        "He set aside time to answer all questions, and was quite patient"
+      ],
+      "reason": "Seller support praised as exceptional and patient, inquiries resolved.",
+      "doc_id": "76c07b8396ff",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "fc9ed0021eef_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "immediately offered a replacement or refund, no questions asked",
+        "great buyer experience"
+      ],
+      "reason": "Customer service praised for immediate replacement/refund and full refund.",
+      "doc_id": "fc9ed0021eef",
+      "brand": "Samsung",
+      "model": "S20 FE",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "c74d3e706f98_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The seller very customer focused and dependable",
+        "responded by text and phone calls"
+      ],
+      "reason": "Seller service praised as responsive, customer focused, dependable.",
+      "doc_id": "c74d3e706f98",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "e192d55fd193_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "you can't get through to support"
+      ],
+      "reason": "Samsung support unreachable due to serial mismatch; service criticized.",
+      "doc_id": "e192d55fd193",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "041e4fbf6053_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Complaint about seller condition/scratch, not service aspect.",
+      "doc_id": "041e4fbf6053",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "246d3231c964_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Samsung customer service no help",
+        "Samsung customer service refuses to replace it"
+      ],
+      "reason": "Samsung customer service criticized as unhelpful and refusing replacement.",
+      "doc_id": "246d3231c964",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "3710cdafb531_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "I call Amazon to troubleshoot or get an exchange I was told to I need to email the seller?"
+      ],
+      "reason": "Support/exchange process criticized as unhelpful, redirected to email seller.",
+      "doc_id": "3710cdafb531",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "061d256da1bf_1",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses case support (accessory), not service aspect.",
+      "doc_id": "061d256da1bf",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "04f23b9cc849_1",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Complaint about hair strand in camera; no service discussion.",
+      "doc_id": "04f23b9cc849",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "cf681fbad4b2_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "I had to return it and it took two weeks for a replacement to come"
+      ],
+      "reason": "Replacement process slow; seller service experience negative.",
+      "doc_id": "cf681fbad4b2",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "service"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 6,
+      "n_excluded_aspect_absent": 3,
+      "counts": {
+        "positive": 2,
+        "negative": 4,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.3333333333333333,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.3333333333333333,
+      "polarized_denominator": 6
+    },
+    {
+      "brand": "Samsung",
+      "model": "S20 FE",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 1,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 1.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 1
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "76c07b8396ff_0",
+      "doc_id": "76c07b8396ff",
+      "text": "Quality product, Exceptional support - Buyer stands by his product. Item arrived prior to estimated delivery date, was packaged exceptionally well, came with a new rapid charger, and a set of return instruction which included Seller contact number. Quality of item was superb and as described. Contacted Seller with device set-up inquiries. He set aside time to answer all questions, and was quite patient. All inquiries were resolved. I don't dole-out compliments easily, but based on this purchase and experience I'd definitely return to do business again.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09HGHDV9L"
+    },
+    {
+      "chunk_id": "fc9ed0021eef_0",
+      "doc_id": "fc9ed0021eef",
+      "text": "A+ Seller. Purchased this S20 which arrived looking and acting brand new. Completely satisfied with the purchase. 2+ months in, the power button began to malfunction. I reached out to Bay Shine customer service, and was immediately offered a replacement or refund, no questions asked. I opted to return for refund-- one day before the 90 day warranty was up. A full refund was issued in two days time. Although I didn't keep the product, I want potential buyers to know about this great buyer experience- I would highly recommend purchasing from this seller.",
+      "brand": "Samsung",
+      "model": "S20 FE",
+      "source_url": "https://www.amazon.com/dp/B0982LX8RC"
+    },
+    {
+      "chunk_id": "c74d3e706f98_0",
+      "doc_id": "c74d3e706f98",
+      "text": "Awesome experience with the seller. This phone was shipped out promptly and was to arrive in record time but FedEx mess up the process. Soon after I contacted the seller, he responded by text and phone calls. The seller very customer focused and dependable. Seller worked with me, agreed on a replacement phone and shipped with a different carrier. I will recommend this seller anytime and feel confident doing business with them. The phone worked perfectly well and as described. thumbs up thumbs up thumbs up thumbs up thumbs up",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09HGHDV9L"
+    },
+    {
+      "chunk_id": "e192d55fd193_0",
+      "doc_id": "e192d55fd193",
+      "text": "Horrible phone. Lots of features do not work. Buyer Beware!. Some features don't work like wifi-calling which is imperative for me. The serial number also doesn't match to any of Samsung's support options, so you can't get through to support. The phone itself is sleek but very slippery. The buttons are not very tactile, ie- hard to turn on/off and adjust volume. The volume is also all over the place, one minute it’s blaring your ears off and the next you can’t hear anything. The touch screen is wonky and doesn’t work very well. I put a verizon sim card into the phone and it worked for one day and now does not. I'm hoping I can resolve these issues as this is supposed to be my work phone, but at this time it is unclear if a resolution will occur.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09HGHDV9L"
+    },
+    {
+      "chunk_id": "041e4fbf6053_0",
+      "doc_id": "041e4fbf6053",
+      "text": "Buyers beware.... I purchased this phone via PDI Mobile and all was fine... till i removed the warranty sticker. Which was in a odd location to begin with. Hastily slapped on the back. I removed it. To my surprise there was a nasty huge scratch in the back. Which is absolutely unacceptable when you bought a \"excellent condition\" RENEWED! WHICH MEANS WORK MUST BE DONE to bring the phone back to a close as new as possible, me removing the warranty tag insures me that i probably won't get a replacement or refund. Best to Avoid PDI Mobile",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09HGHDV9L"
+    },
+    {
+      "chunk_id": "246d3231c964_0",
+      "doc_id": "246d3231c964",
+      "text": "POS - Samsung customer service no help. Phone keeps on overheating and shutting down. Samsung customer service refuses to replace it. If you want a product with customer support, look elsehwere.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "3710cdafb531_0",
+      "doc_id": "3710cdafb531",
+      "text": "BUYER BEWARE. ***** I usually don't give bad reviews but I don't want anyone else to experience this*****phone looked okay only had a few scratches but the prices was GREAT so I kept it. I had the \"unlocked Tbmoile version. It worked great for 4 days I was on top of the world then all of a sudden service was disconnected in the middle of the day while I was in class. I have small children so this is a major problem. Took it to tmobile to see why my services was turned off and they told me that the phone was purchased overseas? And can NO longer be activated on there network. I call Amazon to troubleshoot or get an exchange I was told to I need to email the seller? So I read online and see that I have a 90 day easy return on this phone.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09HGHDV9L"
+    },
+    {
+      "chunk_id": "061d256da1bf_1",
+      "doc_id": "061d256da1bf",
+      "text": "There are a few other small things, but this is all the big things I've noticed. CASE SUPPORT CASE SUPPORT CASE SUPPORT! THERE IS VIRTUALLY NO CASE SUPPORT! If none of these things are deal breakers, GO BUY THIS PHONE! ITS AMAZING!",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "04f23b9cc849_1",
+      "doc_id": "04f23b9cc849",
+      "text": "At this point, I just give up and flip the phone down as I am completely pissed. At this moment, I notice a small hair strand sticking out of the camera bump gap. Also, I soon realized it wasn't one strand, but several albeit short ones. Yeah, I'm requesting a replacement. I will update the replacement experience. Hopefully this is an honest mistake.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09HGHDV9L"
+    },
+    {
+      "chunk_id": "cf681fbad4b2_0",
+      "doc_id": "cf681fbad4b2",
+      "text": "Two orders, neither worked. First item I purchased from this seller did not have a functioning screen. I had to return it and it took two weeks for a replacement to come. The second one was faulty and would not connect to any service",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09KDNT2P4"
+    }
+  ],
+  "contexts": [
+    "Quality product, Exceptional support - Buyer stands by his product. Item arrived prior to estimated delivery date, was packaged exceptionally well, came with a new rapid charger, and a set of return instruction which included Seller contact number. Quality of item was superb and as described. Contacted Seller with device set-up inquiries. He set aside time to answer all questions, and was quite patient. All inquiries were resolved. I don't dole-out compliments easily, but based on this purchase and experience I'd definitely return to do business again.",
+    "A+ Seller. Purchased this S20 which arrived looking and acting brand new. Completely satisfied with the purchase. 2+ months in, the power button began to malfunction. I reached out to Bay Shine customer service, and was immediately offered a replacement or refund, no questions asked. I opted to return for refund-- one day before the 90 day warranty was up. A full refund was issued in two days time. Although I didn't keep the product, I want potential buyers to know about this great buyer experience- I would highly recommend purchasing from this seller.",
+    "Awesome experience with the seller. This phone was shipped out promptly and was to arrive in record time but FedEx mess up the process. Soon after I contacted the seller, he responded by text and phone calls. The seller very customer focused and dependable. Seller worked with me, agreed on a replacement phone and shipped with a different carrier. I will recommend this seller anytime and feel confident doing business with them. The phone worked perfectly well and as described. thumbs up thumbs up thumbs up thumbs up thumbs up",
+    "Horrible phone. Lots of features do not work. Buyer Beware!. Some features don't work like wifi-calling which is imperative for me. The serial number also doesn't match to any of Samsung's support options, so you can't get through to support. The phone itself is sleek but very slippery. The buttons are not very tactile, ie- hard to turn on/off and adjust volume. The volume is also all over the place, one minute it’s blaring your ears off and the next you can’t hear anything. The touch screen is wonky and doesn’t work very well. I put a verizon sim card into the phone and it worked for one day and now does not. I'm hoping I can resolve these issues as this is supposed to be my work phone, but at this time it is unclear if a resolution will occur.",
+    "Buyers beware.... I purchased this phone via PDI Mobile and all was fine... till i removed the warranty sticker. Which was in a odd location to begin with. Hastily slapped on the back. I removed it. To my surprise there was a nasty huge scratch in the back. Which is absolutely unacceptable when you bought a \"excellent condition\" RENEWED! WHICH MEANS WORK MUST BE DONE to bring the phone back to a close as new as possible, me removing the warranty tag insures me that i probably won't get a replacement or refund. Best to Avoid PDI Mobile",
+    "POS - Samsung customer service no help. Phone keeps on overheating and shutting down. Samsung customer service refuses to replace it. If you want a product with customer support, look elsehwere.",
+    "BUYER BEWARE. ***** I usually don't give bad reviews but I don't want anyone else to experience this*****phone looked okay only had a few scratches but the prices was GREAT so I kept it. I had the \"unlocked Tbmoile version. It worked great for 4 days I was on top of the world then all of a sudden service was disconnected in the middle of the day while I was in class. I have small children so this is a major problem. Took it to tmobile to see why my services was turned off and they told me that the phone was purchased overseas? And can NO longer be activated on there network. I call Amazon to troubleshoot or get an exchange I was told to I need to email the seller? So I read online and see that I have a 90 day easy return on this phone.",
+    "There are a few other small things, but this is all the big things I've noticed. CASE SUPPORT CASE SUPPORT CASE SUPPORT! THERE IS VIRTUALLY NO CASE SUPPORT! If none of these things are deal breakers, GO BUY THIS PHONE! ITS AMAZING!",
+    "At this point, I just give up and flip the phone down as I am completely pissed. At this moment, I notice a small hair strand sticking out of the camera bump gap. Also, I soon realized it wasn't one strand, but several albeit short ones. Yeah, I'm requesting a replacement. I will update the replacement experience. Hopefully this is an honest mistake.",
+    "Two orders, neither worked. First item I purchased from this seller did not have a functioning screen. I had to return it and it took two weeks for a replacement to come. The second one was faulty and would not connect to any service"
+  ],
+  "timing": {
+    "classification_s": 3.3003077000030316,
+    "generation_s": 2.445854400000826,
+    "verification_s": 7.800001185387373e-06,
+    "total_s": 5.746181199996499
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1814,
+        "completion_tokens": 641,
+        "total_tokens": 2455,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1558
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1688,
+        "completion_tokens": 262,
+        "total_tokens": 1950,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1560
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

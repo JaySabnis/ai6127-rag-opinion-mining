@@ -1,0 +1,9 @@
+{
+  "status_counts": {
+    "supported": 215,
+    "unverifiable": 23,
+    "partially_supported": 2
+  },
+  "flagged": 25,
+  "note": "Model-assisted flags, not human hallucination labels. Human annotations unchanged."
+}

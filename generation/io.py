@@ -47,10 +47,15 @@ def write_run(path, result):
     path = Path(path)
     write_json(path, result)
     # These files can be copied straight into evaluation/rag_outputs and timings.
-    rag = {"question": result["question"], "contexts": result["contexts"], "answer": result["answer"]}
+    # Display placeholders are not model claims and must not inflate answer coverage.
+    abstained = result.get("abstained", not bool(result["answer"].strip()))
+    rag = {"question": result["question"], "contexts": result["contexts"],
+           "answer": "" if abstained else result["answer"], "abstained": abstained,
+           "display_answer": result["answer"], "status": result.get("status", "completed"),
+           "checker_error": result.get("checker_error")}
     path.with_suffix(".rag.jsonl").write_text(json.dumps(rag, ensure_ascii=False) + "\n", encoding="utf-8")
     timing = {"query": result["question"], "n_chunks": len(result["chunks"]),
-              **{k: v for k, v in result["timing"].items() if k != "total_s"}}
+              "scope": result.get("timing_scope", "downstream"), **result["timing"]}
     path.with_suffix(".timings.jsonl").write_text(json.dumps(timing, ensure_ascii=False) + "\n", encoding="utf-8")
     zh = result.get("language") == "zh"
     lines = ["# 评论分析结果" if zh else "# Review analysis", "", result["answer"], "",

@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_dense/Q021.json",
+  "source_sha256": "a73d5c34b9f69e1c1f7ac434d46b29e7bfd1abcdfac48d8e30b486a43654bb4d",
+  "question": "What do reviewers say about the Google Pixel 4a speed when running apps?",
+  "statistics_before": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 6,
+      "n_excluded_aspect_absent": 4,
+      "counts": {
+        "positive": 3,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6,
+      "polarized_denominator": 5
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "performance",
+      "product_id": "phone-v1:3b6bd697ff7ea49d8f379f0107f80c06712ffc583585d33ced1b7a0ac15c6267",
+      "canonical_model": null,
+      "model_aliases": [
+        "Pixel 4a"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 6,
+      "n_excluded_aspect_absent": 4,
+      "counts": {
+        "positive": 3,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6,
+      "polarized_denominator": 5
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

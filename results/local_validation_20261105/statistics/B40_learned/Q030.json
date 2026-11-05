@@ -1,0 +1,74 @@
+{
+  "source": "results/group_c/b40/B40_learned/Q030.json",
+  "source_sha256": "c767f2a1c8a7fc7c4402fe71892d27c8e90101567fa249933c9b3d9b6ee1e8b1",
+  "question": "What support or replacement experiences do Samsung Galaxy S20 FE buyers describe?",
+  "statistics_before": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 6,
+      "n_excluded_aspect_absent": 3,
+      "counts": {
+        "positive": 2,
+        "negative": 4,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.3333333333333333,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.3333333333333333,
+      "polarized_denominator": 6
+    },
+    {
+      "brand": "Samsung",
+      "model": "S20 FE",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 1,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 1.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 1
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "service",
+      "product_id": "phone-v1:f1b1bcb02ef1d742fa3f44b8797b6554fb87550aa8097ea2b8ee5a793c6deafb",
+      "canonical_model": null,
+      "model_aliases": [
+        "Galaxy S20 FE",
+        "S20 FE"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 7,
+      "n_excluded_aspect_absent": 3,
+      "counts": {
+        "positive": 3,
+        "negative": 4,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.42857142857142855,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.42857142857142855,
+      "polarized_denominator": 7
+    }
+  ],
+  "numerical_change": true,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_learned_checker_fixed/Q022.json",
+  "source_sha256": "bd60c1d6a492f66aad8b817c0403e1516ec15c903fbce787a092c566efe7a6f3",
+  "question": "How well does the Moto G Plus (Gen 5) handle everyday apps according to owners?",
+  "statistics_before": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 1,
+      "counts": {
+        "positive": 6,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.6666666666666666,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.75,
+      "polarized_denominator": 8
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "aspect": "performance",
+      "product_id": "phone-v1:f136aef850867fbf7e720c3e612a5a2566a3cd1c4ad1137fe0461e43e0e6b8c5",
+      "canonical_model": null,
+      "model_aliases": [
+        "Moto G Plus (Gen 5)"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 1,
+      "counts": {
+        "positive": 6,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.6666666666666666,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.75,
+      "polarized_denominator": 8
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

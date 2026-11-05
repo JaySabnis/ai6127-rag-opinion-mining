@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_learned_checker_fixed/Q016.json",
+  "source_sha256": "f7d7b45c7029546c4486dae651cb0a14d2075101ac8cd74e015ece4994a1a70d",
+  "question": "What is the feedback on the Moto G6 screen and touchscreen?",
+  "statistics_before": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 8,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.1,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.1111111111111111,
+      "polarized_denominator": 9
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display",
+      "product_id": "phone-v1:1472bd66c847ab9c898e4bae3f1f47b894cecaf0293ac304edfef5707d6099c6",
+      "canonical_model": null,
+      "model_aliases": [
+        "Moto G6"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 8,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.1,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.1111111111111111,
+      "polarized_denominator": 9
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

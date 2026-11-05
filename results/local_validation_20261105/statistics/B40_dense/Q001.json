@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_dense/Q001.json",
+  "source_sha256": "371c02539491d11b536fa2faa715f84b4cbc5bbd1c10f0b2926f2ab2db8e5d61",
+  "question": "How do reviewers rate the camera quality on the Samsung Galaxy S10?",
+  "statistics_before": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 5,
+      "n_excluded_aspect_absent": 5,
+      "counts": {
+        "positive": 3,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.6,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6,
+      "polarized_denominator": 5
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera",
+      "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+      "canonical_model": null,
+      "model_aliases": [
+        "Galaxy S10"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 5,
+      "n_excluded_aspect_absent": 5,
+      "counts": {
+        "positive": 3,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.6,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6,
+      "polarized_denominator": 5
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

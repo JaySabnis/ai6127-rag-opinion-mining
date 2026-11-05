@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_learned_checker_fixed/Q017.json",
+  "source_sha256": "591cbb41297529073c04d664326af811d8b6f21d3a150117499dcb34e8a9ec04",
+  "question": "What do Essential PH-1 owners say about the display?",
+  "statistics_before": [
+    {
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 1,
+      "counts": {
+        "positive": 5,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "positive_ratio": 0.5555555555555556,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.7142857142857143,
+      "polarized_denominator": 7
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "display",
+      "product_id": "phone-v1:0f55b5847ebeeb0b8adb171d10ad9463d7ca6bef0e3fc79210467c1ed623055a",
+      "canonical_model": null,
+      "model_aliases": [
+        "Ph-1"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 1,
+      "counts": {
+        "positive": 5,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "positive_ratio": 0.5555555555555556,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.7142857142857143,
+      "polarized_denominator": 7
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}
