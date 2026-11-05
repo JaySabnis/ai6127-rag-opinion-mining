@@ -1,0 +1,405 @@
+{
+  "question": "What do Samsung Galaxy S10e reviewers say about using the phone on their carrier network?",
+  "answer": "One reviewer reported receiving a Carrier-unlocked T-Mobile phone (model number ending in TMB) from vendor Synergy rather than a Samsung factory unlocked phone (model number ending in XAA). [10a0a21a714d_0]\nThat same reviewer wondered how long T-Mobile will support this phone with software updates compared to Samsung. [10a0a21a714d_0]\nAnother reviewer said the two phones received from Chubbietech both had Sprint SIM cards in them and were locked from Sprint. [caf4033d33ab_0]\nThat reviewer stated they were advised the phone could not be used with any other carrier at that time. [caf4033d33ab_0]",
+  "draft_answer": "One reviewer reported receiving a Carrier-unlocked T-Mobile phone (model number ending in TMB) from vendor Synergy rather than a Samsung factory unlocked phone (model number ending in XAA). [10a0a21a714d_0]\nThat same reviewer wondered how long T-Mobile will support this phone with software updates compared to Samsung. [10a0a21a714d_0]\nAnother reviewer said the two phones received from Chubbietech both had Sprint SIM cards in them and were locked from Sprint. [caf4033d33ab_0]\nThat reviewer stated they were advised the phone could not be used with any other carrier at that time. [caf4033d33ab_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported receiving a Carrier-unlocked T-Mobile phone (model number ending in TMB) from vendor Synergy rather than a Samsung factory unlocked phone (model number ending in XAA).",
+      "citations": [
+        "10a0a21a714d_0"
+      ]
+    },
+    {
+      "text": "That same reviewer wondered how long T-Mobile will support this phone with software updates compared to Samsung.",
+      "citations": [
+        "10a0a21a714d_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said the two phones received from Chubbietech both had Sprint SIM cards in them and were locked from Sprint.",
+      "citations": [
+        "caf4033d33ab_0"
+      ]
+    },
+    {
+      "text": "That reviewer stated they were advised the phone could not be used with any other carrier at that time.",
+      "citations": [
+        "caf4033d33ab_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reported receiving a Carrier-unlocked T-Mobile phone (model number ending in TMB) from vendor Synergy rather than a Samsung factory unlocked phone (model number ending in XAA).",
+      "citations": [
+        "10a0a21a714d_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "That same reviewer wondered how long T-Mobile will support this phone with software updates compared to Samsung.",
+      "citations": [
+        "10a0a21a714d_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the two phones received from Chubbietech both had Sprint SIM cards in them and were locked from Sprint.",
+      "citations": [
+        "caf4033d33ab_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "That reviewer stated they were advised the phone could not be used with any other carrier at that time.",
+      "citations": [
+        "caf4033d33ab_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reported receiving a Carrier-unlocked T-Mobile phone (model number ending in TMB) from vendor Synergy rather than a Samsung factory unlocked phone (model number ending in XAA).",
+      "citations": [
+        "10a0a21a714d_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "That same reviewer wondered how long T-Mobile will support this phone with software updates compared to Samsung.",
+      "citations": [
+        "10a0a21a714d_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the two phones received from Chubbietech both had Sprint SIM cards in them and were locked from Sprint.",
+      "citations": [
+        "caf4033d33ab_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "That reviewer stated they were advised the phone could not be used with any other carrier at that time.",
+      "citations": [
+        "caf4033d33ab_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "4275f81d01f0_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No mention of carrier; discusses refurbished condition and daily use.",
+      "doc_id": "4275f81d01f0",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "10a0a21a714d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "Try to get a Factory Unlocked version, not just a Carrier Unlocked version",
+        "I got a Carrier-unlocked T-Mobile phone",
+        "Got to wonder how long T-Mobile will support this phone"
+      ],
+      "reason": "Advises factory unlocked over carrier unlocked and questions T-Mobile support; mixed views on carrier.",
+      "doc_id": "10a0a21a714d",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "2e94e314ee40_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses camera and upgrade; no carrier mention.",
+      "doc_id": "2e94e314ee40",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "fc355ec28502_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General praise; no carrier aspect discussed.",
+      "doc_id": "fc355ec28502",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "caf4033d33ab_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "are locked from sprint",
+        "it can not he used with any other carrier at this time"
+      ],
+      "reason": "Phone locked to Sprint, cannot be used with other carriers; negative carrier evidence.",
+      "doc_id": "caf4033d33ab",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "66f0062b3a56_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Complains about call audio; no carrier mention.",
+      "doc_id": "66f0062b3a56",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "a94106c27c17_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "As advertised, works fine; no carrier aspect.",
+      "doc_id": "a94106c27c17",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "d9c90f96784a_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General satisfaction; no carrier discussion.",
+      "doc_id": "d9c90f96784a",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "52e7e9f01694_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses size, case, performance; no carrier mention.",
+      "doc_id": "52e7e9f01694",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "4fef5d2dab66_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Likes size, features, price; no carrier aspect.",
+      "doc_id": "4fef5d2dab66",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 2,
+      "n_excluded_aspect_absent": 8,
+      "counts": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.0,
+      "polarized_denominator": 1
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "4275f81d01f0_0",
+      "doc_id": "4275f81d01f0",
+      "text": "Refurbished Samsung Galaxy S10E. I use this refurbished Samsung Galaxy S10E for routine daily use and it works as good as new. Thank you Amazon.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "10a0a21a714d_0",
+      "doc_id": "10a0a21a714d",
+      "text": "Renewed Factory Unlocked S10e Review. The Renewed Factory Unlocked Samsung Galaxy S10e looks like the best bang for the buck right now (6/2020), since everyone is eyeing the more expensive S20 models. Try to get a Factory Unlocked version, not just a Carrier Unlocked version. So what does \"fully unlocked\" in the product description really mean? I got a Carrier-unlocked T-Mobile phone (for the S10e, model numbers end with TMB) from vendor Synergy, not a Samsung factory unlocked phone (for the S10e, model numbers end with XAA), if that matters to you. Got to wonder how long T-Mobile will support this phone with software updates compared to Samsung. And be aware of the terms used on these Amazon pages, like Renewed, Used-Good, Used-VeryGood, etc. If something is less expensive, it might be in poorer condition.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "2e94e314ee40_0",
+      "doc_id": "2e94e314ee40",
+      "text": "💙 Beautiful camera. I've used Samsung Galaxy S10e for about 5 months and I'm very happy with it. I upgraded from Galaxy 7 edge to S10E and noticed a big difference. I wanted to get an iphone X, but after trying it out, I noticed that S10E has a better camera and beautiful filters.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B089YPKMS6"
+    },
+    {
+      "chunk_id": "fc355ec28502_0",
+      "doc_id": "fc355ec28502",
+      "text": "Samsung Galaxy S10E 128GB. I love everything about it",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "caf4033d33ab_0",
+      "doc_id": "caf4033d33ab",
+      "text": "Locked phone! Not new and I can not use it!. Bought this Samsung Galaxy S10e new from Chubbietech. The description and pictures stated new factory unlocked phone. The 2 that I recieved both had sprint SIM cards in them and are locked from sprint. They advised I return the phone because it can not he used with any other carrier at this time. I have requested a fix for the issue at hand. I will update my review if this is resolved rather quickly.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B07NPKP57H"
+    },
+    {
+      "chunk_id": "66f0062b3a56_0",
+      "doc_id": "66f0062b3a56",
+      "text": "Samsung galaxy s10e. The phone is giving me problems and people can't hear me on it",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "a94106c27c17_0",
+      "doc_id": "a94106c27c17",
+      "text": "Samsung Galaxy S10e, 128GB. As advertised. Works fine.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "d9c90f96784a_0",
+      "doc_id": "d9c90f96784a",
+      "text": "The most important is I'm satisfied and with my phone. Very good I recommend this phone samsung Galaxy s10e",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "52e7e9f01694_0",
+      "doc_id": "52e7e9f01694",
+      "text": "Great phone @ price point. This Galaxy S10e will need a case. I got an otterbox defender for about 35$, mainly because the 1st day i got my S10e it slipped out of my hand because it is very small & the back left hand corner has been cracked because the backs of the s10e are also glass. (This S10e is alot smaller than my old StraightTalk Samsung Galaxy J3 @walmart). The S10e's performance is much better than I thought especially for its size",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "4fef5d2dab66_0",
+      "doc_id": "4fef5d2dab66",
+      "text": "s10e Galaxy phone. Like the Samsung S10e for the size and features of finge3r recognition. Best price was on Amazon Prime and I got it in 2 days when I needed to replace my broken phone.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    }
+  ],
+  "contexts": [
+    "Refurbished Samsung Galaxy S10E. I use this refurbished Samsung Galaxy S10E for routine daily use and it works as good as new. Thank you Amazon.",
+    "Renewed Factory Unlocked S10e Review. The Renewed Factory Unlocked Samsung Galaxy S10e looks like the best bang for the buck right now (6/2020), since everyone is eyeing the more expensive S20 models. Try to get a Factory Unlocked version, not just a Carrier Unlocked version. So what does \"fully unlocked\" in the product description really mean? I got a Carrier-unlocked T-Mobile phone (for the S10e, model numbers end with TMB) from vendor Synergy, not a Samsung factory unlocked phone (for the S10e, model numbers end with XAA), if that matters to you. Got to wonder how long T-Mobile will support this phone with software updates compared to Samsung. And be aware of the terms used on these Amazon pages, like Renewed, Used-Good, Used-VeryGood, etc. If something is less expensive, it might be in poorer condition.",
+    "💙 Beautiful camera. I've used Samsung Galaxy S10e for about 5 months and I'm very happy with it. I upgraded from Galaxy 7 edge to S10E and noticed a big difference. I wanted to get an iphone X, but after trying it out, I noticed that S10E has a better camera and beautiful filters.",
+    "Samsung Galaxy S10E 128GB. I love everything about it",
+    "Locked phone! Not new and I can not use it!. Bought this Samsung Galaxy S10e new from Chubbietech. The description and pictures stated new factory unlocked phone. The 2 that I recieved both had sprint SIM cards in them and are locked from sprint. They advised I return the phone because it can not he used with any other carrier at this time. I have requested a fix for the issue at hand. I will update my review if this is resolved rather quickly.",
+    "Samsung galaxy s10e. The phone is giving me problems and people can't hear me on it",
+    "Samsung Galaxy S10e, 128GB. As advertised. Works fine.",
+    "The most important is I'm satisfied and with my phone. Very good I recommend this phone samsung Galaxy s10e",
+    "Great phone @ price point. This Galaxy S10e will need a case. I got an otterbox defender for about 35$, mainly because the 1st day i got my S10e it slipped out of my hand because it is very small & the back left hand corner has been cracked because the backs of the s10e are also glass. (This S10e is alot smaller than my old StraightTalk Samsung Galaxy J3 @walmart). The S10e's performance is much better than I thought especially for its size",
+    "s10e Galaxy phone. Like the Samsung S10e for the size and features of finge3r recognition. Best price was on Amazon Prime and I got it in 2 days when I needed to replace my broken phone."
+  ],
+  "timing": {
+    "classification_s": 2.614036599996325,
+    "generation_s": 1.5601014999992913,
+    "verification_s": 5.800000508315861e-06,
+    "total_s": 4.174154599997564
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1438,
+        "completion_tokens": 581,
+        "total_tokens": 2019,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1182
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1316,
+        "completion_tokens": 184,
+        "total_tokens": 1500,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1316
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

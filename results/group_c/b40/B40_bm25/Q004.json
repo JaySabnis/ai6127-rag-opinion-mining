@@ -1,0 +1,348 @@
+{
+  "question": "What strengths and weaknesses do reviewers report for the Moto G7 camera?",
+  "answer": "One reviewer described the Moto G7 as having a horrible camera and called the phone a downgrade from the G6. [e88960139493_0]\nAnother reviewer said they like the tear drop camera design of the Moto G7. [124d24d2d4c0_0]",
+  "draft_answer": "One reviewer described the Moto G7 as having a horrible camera and called the phone a downgrade from the G6. [e88960139493_0]\nAnother reviewer said they like the tear drop camera design of the Moto G7. [124d24d2d4c0_0]",
+  "sentences": [
+    {
+      "text": "One reviewer described the Moto G7 as having a horrible camera and called the phone a downgrade from the G6.",
+      "citations": [
+        "e88960139493_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said they like the tear drop camera design of the Moto G7.",
+      "citations": [
+        "124d24d2d4c0_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer described the Moto G7 as having a horrible camera and called the phone a downgrade from the G6.",
+      "citations": [
+        "e88960139493_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said they like the tear drop camera design of the Moto G7.",
+      "citations": [
+        "124d24d2d4c0_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer described the Moto G7 as having a horrible camera and called the phone a downgrade from the G6.",
+      "citations": [
+        "e88960139493_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said they like the tear drop camera design of the Moto G7.",
+      "citations": [
+        "124d24d2d4c0_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "96005b6c0fc0_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No mention of camera; discusses structural cracks.",
+      "doc_id": "96005b6c0fc0",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "8727d53ec7e4_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses signal strength, wifi, screen, battery; no camera.",
+      "doc_id": "8727d53ec7e4",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "33a0ca84f1a1_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Great speakers camera blue color the best phone for me"
+      ],
+      "reason": "Praises camera among features of the phone.",
+      "doc_id": "33a0ca84f1a1",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "d62abdf82e54_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General praise, no camera mention.",
+      "doc_id": "d62abdf82e54",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "124d24d2d4c0_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "i like the tear drop camera design"
+      ],
+      "reason": "Likes the camera design.",
+      "doc_id": "124d24d2d4c0",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "e7102bb3d13f_2",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses problem and customer support; no camera.",
+      "doc_id": "e7102bb3d13f",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "e88960139493_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "horrible camera"
+      ],
+      "reason": "Calls the camera horrible.",
+      "doc_id": "e88960139493",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "58257e155243_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses speed, screen, battery, speakers; no camera.",
+      "doc_id": "58257e155243",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "c1c00687cb1b_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Generic statement, no camera mention.",
+      "doc_id": "c1c00687cb1b",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "14bf44a88dca_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses performance, design, NFC, storage, battery; no camera.",
+      "doc_id": "14bf44a88dca",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 3,
+      "n_excluded_aspect_absent": 7,
+      "counts": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.6666666666666666,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6666666666666666,
+      "polarized_denominator": 3
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "96005b6c0fc0_0",
+      "doc_id": "96005b6c0fc0",
+      "text": "Weak structural design. We had purchased a Moto g7 and the backside started to crack. Shortly after the front screen cracked because of the compromised structure of the the backside. We then purchased a second g7 thinking that it was a flawed phone and they are not typically built that way. Now our second, most recent purchase is showing hairline cracks... How do we rectify this?",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N92347B"
+    },
+    {
+      "chunk_id": "8727d53ec7e4_0",
+      "doc_id": "8727d53ec7e4",
+      "text": "Signal Strength Is Very Weak T-Mobile. I like this phone however the signal strength is really weak and LTE is really bad. Sometimes it just auto disconnects and People are not able to reach me. I am OK if this has some other trouble but basic feature like mobile network is too weak. Returning this can't take it anymore, almost tried to run it for 22 days but no help. GOOD: Screen size Low Price Nice Performance and battery life BAD: Signal Strength Bad Wifi connection",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    },
+    {
+      "chunk_id": "33a0ca84f1a1_0",
+      "doc_id": "33a0ca84f1a1",
+      "text": "Great speakers camera blue color the best phone for me :D. A lot better than the Moto G7",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07RK4XYDF"
+    },
+    {
+      "chunk_id": "d62abdf82e54_0",
+      "doc_id": "d62abdf82e54",
+      "text": "Moto g7 is good working phone. Moto g7 works great, no problems so far!",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N92347B"
+    },
+    {
+      "chunk_id": "124d24d2d4c0_0",
+      "doc_id": "124d24d2d4c0",
+      "text": "A step up with the Moto g7. Upgraded from moto g5 bigger screen faster process time.i like the tear drop camera design.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N92347B"
+    },
+    {
+      "chunk_id": "e7102bb3d13f_2",
+      "doc_id": "e7102bb3d13f",
+      "text": "It was most perplexing that all my searching found no solution, only more people with the same problem with their Moto G7. I have been a Moto G phone user for years and relied on CNET reviews of the phone which was always their favorite of the budget phones. I owned a Moto G4 initially and loved it so much I upgraded to a Moto G5 when it came out. Right now I am so glad that I kept that Moto G5 because I have put the SIM card back in it and that is my lifeline while I see what will have to be one with my newer G7. The Moto G5 is making calls and working just fine. For anyone interested, I will update this review once I have dealt with Motorola Customer Support.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    },
+    {
+      "chunk_id": "e88960139493_0",
+      "doc_id": "e88960139493",
+      "text": "G7 is a downgrade from the G6. This was to replaced my beloved moto G6, but is a downgrade from the G6, it lags, it feels slow, horrible camera, washout screen, low resolution, I am having a much pleasant experience with the Samsung A20 which is better in every way. This G7 was from India and to be honest didn’t work very well with cricket, it recognized the SIM card immediately, I was impressed by that, but the cell signal was always weak and very often I would loose data connection at places where I would normally be okay with other phones, Cricket has very good cell coverage, so I will blame it on this phone. I would not recommended it. The G6 was a true revelation for its time, but the G7 really disappointed.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07PZZLR4D"
+    },
+    {
+      "chunk_id": "58257e155243_0",
+      "doc_id": "58257e155243",
+      "text": "The best of the Moto G7 series (opinion). So far I love everything about the phone. It's fast & responsive. HD screen and all features I would want. The battery is pretty decent, but I just had the Moto E5 Plus & the battery on that phone is amazing compared to most. I was worried about the speakers because of some reviews I've read but they are actually pretty good! G7 is my new favorite phone though.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N8ZTKHX"
+    },
+    {
+      "chunk_id": "c1c00687cb1b_0",
+      "doc_id": "c1c00687cb1b",
+      "text": "Moto g7. Just what I needed.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    },
+    {
+      "chunk_id": "14bf44a88dca_0",
+      "doc_id": "14bf44a88dca",
+      "text": "The unlocked Motorola Moto G7 is just an amazing phone.. I've had the Moto G7 for a little over 2 weeks now. So far it is an amazing upgrade from the Moto G6. The performance from the G7 is a great upgrade from the G6. But the design is not. The Moto G7 design is just a bigger version of the G6. It also does not have NFC. Not having NFC or a updated design is the only things about the Moto G7 I don't like. I love having 64GB of storage and an SD card slot that allows up to a 128GB card. With the snapdragon 632 processor and 4GB RAM this Moto G7 runs great. Also you can play some games on this phone. On the G7 I can play the Call of Duty Mobile game just fine on medium graphics and high frame rate. The battery is good at 3000MAH.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    }
+  ],
+  "contexts": [
+    "Weak structural design. We had purchased a Moto g7 and the backside started to crack. Shortly after the front screen cracked because of the compromised structure of the the backside. We then purchased a second g7 thinking that it was a flawed phone and they are not typically built that way. Now our second, most recent purchase is showing hairline cracks... How do we rectify this?",
+    "Signal Strength Is Very Weak T-Mobile. I like this phone however the signal strength is really weak and LTE is really bad. Sometimes it just auto disconnects and People are not able to reach me. I am OK if this has some other trouble but basic feature like mobile network is too weak. Returning this can't take it anymore, almost tried to run it for 22 days but no help. GOOD: Screen size Low Price Nice Performance and battery life BAD: Signal Strength Bad Wifi connection",
+    "Great speakers camera blue color the best phone for me :D. A lot better than the Moto G7",
+    "Moto g7 is good working phone. Moto g7 works great, no problems so far!",
+    "A step up with the Moto g7. Upgraded from moto g5 bigger screen faster process time.i like the tear drop camera design.",
+    "It was most perplexing that all my searching found no solution, only more people with the same problem with their Moto G7. I have been a Moto G phone user for years and relied on CNET reviews of the phone which was always their favorite of the budget phones. I owned a Moto G4 initially and loved it so much I upgraded to a Moto G5 when it came out. Right now I am so glad that I kept that Moto G5 because I have put the SIM card back in it and that is my lifeline while I see what will have to be one with my newer G7. The Moto G5 is making calls and working just fine. For anyone interested, I will update this review once I have dealt with Motorola Customer Support.",
+    "G7 is a downgrade from the G6. This was to replaced my beloved moto G6, but is a downgrade from the G6, it lags, it feels slow, horrible camera, washout screen, low resolution, I am having a much pleasant experience with the Samsung A20 which is better in every way. This G7 was from India and to be honest didn’t work very well with cricket, it recognized the SIM card immediately, I was impressed by that, but the cell signal was always weak and very often I would loose data connection at places where I would normally be okay with other phones, Cricket has very good cell coverage, so I will blame it on this phone. I would not recommended it. The G6 was a true revelation for its time, but the G7 really disappointed.",
+    "The best of the Moto G7 series (opinion). So far I love everything about the phone. It's fast & responsive. HD screen and all features I would want. The battery is pretty decent, but I just had the Moto E5 Plus & the battery on that phone is amazing compared to most. I was worried about the speakers because of some reviews I've read but they are actually pretty good! G7 is my new favorite phone though.",
+    "Moto g7. Just what I needed.",
+    "The unlocked Motorola Moto G7 is just an amazing phone.. I've had the Moto G7 for a little over 2 weeks now. So far it is an amazing upgrade from the Moto G6. The performance from the G7 is a great upgrade from the G6. But the design is not. The Moto G7 design is just a bigger version of the G6. It also does not have NFC. Not having NFC or a updated design is the only things about the Moto G7 I don't like. I love having 64GB of storage and an SD card slot that allows up to a 128GB card. With the snapdragon 632 processor and 4GB RAM this Moto G7 runs great. Also you can play some games on this phone. On the G7 I can play the Call of Duty Mobile game just fine on medium graphics and high frame rate. The battery is good at 3000MAH."
+  ],
+  "timing": {
+    "classification_s": 2.517552400000568,
+    "generation_s": 1.2298109999974258,
+    "verification_s": 5.49999822396785e-06,
+    "total_s": 3.747377499996219
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1673,
+        "completion_tokens": 524,
+        "total_tokens": 2197,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1417
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1548,
+        "completion_tokens": 84,
+        "total_tokens": 1632,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1548
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

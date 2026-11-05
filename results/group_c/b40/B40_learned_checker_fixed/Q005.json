@@ -1,0 +1,470 @@
+{
+  "question": "What is the user feedback on the Essential PH-1 camera?",
+  "answer": "One reviewer who uses auto mode for most pictures said the Essential PH-1's picture quality and speed were great outdoors and indoors, in lots of light and low light, though it has fewer camera options than the S8+ and video is shakier without an image stabilizer. [88e2a2736d28_1]\nA reviewer who expected camera problems found that three immediate updates meant low-light issues and slow shutter speed challenges never appeared, and praised the new portrait feature as solid. [e48515a4a172_1]\nOne reviewer said the camera is not perfect but takes good pictures reliably and that updates have improved it drastically. [1e5d113ba22f_0]\nA reviewer who sideloaded the Google camera app after critical reviews was strongly considering deleting it and sticking with the Essential camera, calling the camera easy to use. [dff38b7af274_1]\nA reviewer who is not a heavy camera user said those complaining about camera quality and speed might prefer the LG V30, S8/S8+, Pixel or iPhone if the best camera is a high requirement. [d6a25fd06571_4]\nAnother reviewer called the camera and its supporting software only average compared to other stock Android experiences but said using the Pixel Camera App improved picture quality substantially. [b02b6a8fa5d9_0]",
+  "draft_answer": "One reviewer who uses auto mode for most pictures said the Essential PH-1's picture quality and speed were great outdoors and indoors, in lots of light and low light, though it has fewer camera options than the S8+ and video is shakier without an image stabilizer. [88e2a2736d28_1]\nA reviewer who expected camera problems found that three immediate updates meant low-light issues and slow shutter speed challenges never appeared, and praised the new portrait feature as solid. [e48515a4a172_1]\nOne reviewer said the camera is not perfect but takes good pictures reliably and that updates have improved it drastically. [1e5d113ba22f_0]\nA reviewer who sideloaded the Google camera app after critical reviews was strongly considering deleting it and sticking with the Essential camera, calling the camera easy to use. [dff38b7af274_1]\nA reviewer who is not a heavy camera user said those complaining about camera quality and speed might prefer the LG V30, S8/S8+, Pixel or iPhone if the best camera is a high requirement. [d6a25fd06571_4]\nAnother reviewer called the camera and its supporting software only average compared to other stock Android experiences but said using the Pixel Camera App improved picture quality substantially. [b02b6a8fa5d9_0]",
+  "sentences": [
+    {
+      "text": "One reviewer who uses auto mode for most pictures said the Essential PH-1's picture quality and speed were great outdoors and indoors, in lots of light and low light, though it has fewer camera options than the S8+ and video is shakier without an image stabilizer.",
+      "citations": [
+        "88e2a2736d28_1"
+      ]
+    },
+    {
+      "text": "A reviewer who expected camera problems found that three immediate updates meant low-light issues and slow shutter speed challenges never appeared, and praised the new portrait feature as solid.",
+      "citations": [
+        "e48515a4a172_1"
+      ]
+    },
+    {
+      "text": "One reviewer said the camera is not perfect but takes good pictures reliably and that updates have improved it drastically.",
+      "citations": [
+        "1e5d113ba22f_0"
+      ]
+    },
+    {
+      "text": "A reviewer who sideloaded the Google camera app after critical reviews was strongly considering deleting it and sticking with the Essential camera, calling the camera easy to use.",
+      "citations": [
+        "dff38b7af274_1"
+      ]
+    },
+    {
+      "text": "A reviewer who is not a heavy camera user said those complaining about camera quality and speed might prefer the LG V30, S8/S8+, Pixel or iPhone if the best camera is a high requirement.",
+      "citations": [
+        "d6a25fd06571_4"
+      ]
+    },
+    {
+      "text": "Another reviewer called the camera and its supporting software only average compared to other stock Android experiences but said using the Pixel Camera App improved picture quality substantially.",
+      "citations": [
+        "b02b6a8fa5d9_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One reviewer who uses auto mode for most pictures said the Essential PH-1's picture quality and speed were great outdoors and indoors, in lots of light and low light, though it has fewer camera options than the S8+ and video is shakier without an image stabilizer.",
+      "citations": [
+        "88e2a2736d28_1"
+      ],
+      "status": "supported",
+      "reason": "引用证据逐项支持：使用auto模式、室内外/明暗下画质与速度great、相机选项少于S8+、无防抖导致视频更抖。",
+      "evidence": [
+        {
+          "chunk_id": "88e2a2736d28_1",
+          "quote": "We use auto for 95% of all of our picture taking, even me on my S8+. For these use cases, the quality and speed of the pictures for the Essential phone is great. Be it outdoors or indoors, lots of light or low light, it has all performed well. There aren't nearly as many camera options on the Essential phone compared to the S8+ but I find myself hardly using them anyways. Now the video is interesting. The quality is good but without image stabilizer, I can tell the video is more shaky especially when shooting while walking around."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "A reviewer who expected camera problems found that three immediate updates meant low-light issues and slow shutter speed challenges never appeared, and praised the new portrait feature as solid.",
+      "citations": [
+        "e48515a4a172_1"
+      ],
+      "status": "supported",
+      "reason": "证据支持：收到手机时3个更新立即可用，低光和慢快门问题未出现，新portrait功能结果solid。",
+      "evidence": [
+        {
+          "chunk_id": "e48515a4a172_1",
+          "quote": "However, when I received the phone, 3 updates were immediately available so the low light issues and slow shutter speed challenges never appeared. In fact, last night I received another camera update. The new portrait feature has been put through the paces on the phone and is a great feature with solid results."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "One reviewer said the camera is not perfect but takes good pictures reliably and that updates have improved it drastically.",
+      "citations": [
+        "1e5d113ba22f_0"
+      ],
+      "status": "supported",
+      "reason": "证据明确称相机不完美但可靠地拍出好照片，且更新使相机大幅改善。",
+      "evidence": [
+        {
+          "chunk_id": "1e5d113ba22f_0",
+          "quote": "it is not perfect, but it takes good pictures reliably."
+        },
+        {
+          "chunk_id": "1e5d113ba22f_0",
+          "quote": "The bugs have been all but entirely eradicated and the camera has improved drastically"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s3",
+      "text": "A reviewer who sideloaded the Google camera app after critical reviews was strongly considering deleting it and sticking with the Essential camera, calling the camera easy to use.",
+      "citations": [
+        "dff38b7af274_1"
+      ],
+      "status": "supported",
+      "reason": "证据支持：因批评评论侧载Google相机，但实际使用Essential相机后强烈考虑删除Google相机并保留Essential相机，且称相机易用。",
+      "evidence": [
+        {
+          "chunk_id": "dff38b7af274_1",
+          "quote": "I side loaded the google camera app right away due to critical reviews... but after actually using the essential camera I'm strongly considering deleting the google camera app and sticking with the essential camera."
+        },
+        {
+          "chunk_id": "dff38b7af274_1",
+          "quote": "The camera is so easy to use."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "A reviewer who is not a heavy camera user said those complaining about camera quality and speed might prefer the LG V30, S8/S8+, Pixel or iPhone if the best camera is a high requirement.",
+      "citations": [
+        "d6a25fd06571_4"
+      ],
+      "status": "supported",
+      "reason": "证据支持：非重度相机用户，若最看重相机可考虑LG V30、S8/S8+、Pixel或iPhone。",
+      "evidence": [
+        {
+          "chunk_id": "d6a25fd06571_4",
+          "quote": "I am not a heavy camera user on a smartphone, only taking pictures on occasion so the best camera isn't a high requirement for me, if it is to you, you may want to look at the LG V30 or the S8/S8+, Pixel or iPhone."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "Another reviewer called the camera and its supporting software only average compared to other stock Android experiences but said using the Pixel Camera App improved picture quality substantially.",
+      "citations": [
+        "b02b6a8fa5d9_0"
+      ],
+      "status": "supported",
+      "reason": "证据支持：相机及配套软件相较其他原生Android体验仅属平均，使用Pixel相机应用显著提升画质。",
+      "evidence": [
+        {
+          "chunk_id": "b02b6a8fa5d9_0",
+          "quote": "True, the Camera and its supporting software is only average when compared to any other stock Android experience"
+        },
+        {
+          "chunk_id": "b02b6a8fa5d9_0",
+          "quote": "Just using the Pixel Camera App improved picture quality substantially."
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "88e2a2736d28_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "the quality and speed of the pictures for the Essential phone is great",
+        "There aren't nearly as many camera options on the Essential phone",
+        "without image stabilizer, I can tell the video is more shaky"
+      ],
+      "reason": "Praises photo quality/speed but criticizes fewer options and shaky video.",
+      "doc_id": "88e2a2736d28",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "e48515a4a172_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "the low light issues and slow shutter speed challenges never appeared",
+        "The new portrait feature has been put through the paces on the phone and is a great feature with solid results"
+      ],
+      "reason": "Updates fixed camera issues; portrait feature praised.",
+      "doc_id": "e48515a4a172",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "1baa23ec4934_21",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "double tap the power button and you be at the camera in seconds that's a really really nice touch"
+      ],
+      "reason": "Praises quick camera launch; interface discussion cut off.",
+      "doc_id": "1baa23ec4934",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "45e0e2ecdd50_5",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "I am hopeful that Essential will improve its Camera app over time, mostly to improve its speed",
+        "if you are looking for a camera that also happens to be a smartphone, this may not be the phone for you"
+      ],
+      "reason": "Criticizes camera app speed and suitability.",
+      "doc_id": "45e0e2ecdd50",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "1e5d113ba22f_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "it takes good pictures reliably",
+        "the camera has improved drastically, I have no problem with the camera app right now"
+      ],
+      "reason": "Camera improved and takes good pictures reliably.",
+      "doc_id": "1e5d113ba22f",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "dff38b7af274_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Even the most complained about camera issues are not bad",
+        "The camera is so easy to use"
+      ],
+      "reason": "Camera issues not bad; easy to use.",
+      "doc_id": "dff38b7af274",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "d6a25fd06571_4",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "Those who have complained about camera quality and camera speed",
+        "if it is to you, you may want to look at the LG V30 or the S8/S8+, Pixel or iPhone"
+      ],
+      "reason": "Acknowledges camera complaints and suggests better alternatives, but not heavy user.",
+      "doc_id": "d6a25fd06571",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "f2e1fb02e77f_4",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "The monochrome camera is my personal favorite to use while the portrait mode has happily surprised me"
+      ],
+      "reason": "Praises monochrome/portrait but says pros should look elsewhere.",
+      "doc_id": "f2e1fb02e77f",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "b02b6a8fa5d9_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "the Camera and its supporting software is only average when compared to any other stock Android experience",
+        "Just using the Pixel Camera App improved picture quality substantially"
+      ],
+      "reason": "Calls camera average but notes improvement with Pixel app.",
+      "doc_id": "b02b6a8fa5d9",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "046b03a0096c_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "The pictures look gray-ish on the phone screen. and made me believe the camera is not good",
+        "picture was decent",
+        "Essential should heavily improve on the camera though. Hardly any options on the camera app"
+      ],
+      "reason": "Pictures look gray-ish but decent elsewhere; wants improvement and more options.",
+      "doc_id": "046b03a0096c",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 4,
+        "negative": 1,
+        "mixed": 5,
+        "neutral": 0
+      },
+      "positive_ratio": 0.4,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.8,
+      "polarized_denominator": 5
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "88e2a2736d28_1",
+      "doc_id": "88e2a2736d28",
+      "text": "I also run this on T-mobile and the signal strength in db is identical to my S8+. The voice call is clear and has never dropped. The camera. Let me preface by saying I am not a camera guru so this is purely based on my family's and my feedback. We use auto for 95% of all of our picture taking, even me on my S8+. For these use cases, the quality and speed of the pictures for the Essential phone is great. Be it outdoors or indoors, lots of light or low light, it has all performed well. There aren't nearly as many camera options on the Essential phone compared to the S8+ but I find myself hardly using them anyways. Now the video is interesting. The quality is good but without image stabilizer, I can tell the video is more shaky especially when shooting while walking around.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "e48515a4a172_1",
+      "doc_id": "e48515a4a172",
+      "text": "As a former owner of all of the larger device manufacturers (Motorola, LG, HTC, Apple, etc.), the customized OEM \"skin\" have yielded little benefit other than expedited battery drain. Essential staying with a stock Android UI allows the PH-1 to operate very fast, hold a charge for almost 2 days with moderate use, and supports honest multi-tasking. Like you, the camera feedback was a big concern for me. The camera reviews received little love, and from what I read, this was deserved. However, when I received the phone, 3 updates were immediately available so the low light issues and slow shutter speed challenges never appeared. In fact, last night I received another camera update. The new portrait feature has been put through the paces on the phone and is a great feature with solid results.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "1baa23ec4934_21",
+      "doc_id": "1baa23ec4934",
+      "text": "Camera user interface-okay so I already touched him with the camera could do earlier so now I just want to go over the user interface for the cameras and let you guys know how I feel about it. So that being said you can launch the camera simply by double tapping the power button on your device and this works from anywhere so what do you device is off in standby or your checking something and the Earth takes a real quick picture hits you all you have to do is double tap the power button and you be at the camera in seconds that's a really really nice touch. Now talking about the interface I have to say that I've seen.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "45e0e2ecdd50_5",
+      "doc_id": "45e0e2ecdd50",
+      "text": "I am hopeful that Essential will improve its Camera app over time, mostly to improve its speed. For now, if you are looking for a camera that also happens to be a smartphone, this may not be the phone for you. While the screen is really cool, most apps don't know to move the status bar to the top of the phone, where the camera notch is, so the screen tends to just have a black band at the top, mirroring the actual black bezel on the bottom of the phone. Haptic feedback is weak and sounds like a tinny speaker. This is an area that the iPhone 7 absolutely blows away this phone. The iPhone's Taptic Engine makes controls feel physical, and can pinpoint exactly where your fingers are on the screen to make a tap. The mono speaker at the bottom of the phone is weak and tinny.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "1e5d113ba22f_0",
+      "doc_id": "1e5d113ba22f",
+      "text": "it is not perfect, but it takes good pictures reliably. I don't normally leave reviews, but after reading all of the negative feedback on other sites and from older reviews, I felt compelled to leave this. First off, don't put any stock in any review posted before November, Essential was such a new company, with no existing products, they had to have some bugs when it was first launched. However, since then they have been rolling out software updates to EvErYtHiNg. The other day I got an update for my headphone dongle. The bugs have been all but entirely eradicated and the camera has improved drastically, I have no problem with the camera app right now, it is not perfect, but it takes good pictures reliably. The feel of this phone is like no other phone, it is solid and quality feeling, it reminds me of an iPhone 4 (in a good way).",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "dff38b7af274_1",
+      "doc_id": "dff38b7af274",
+      "text": "Even the most complained about camera issues are not bad. I side loaded the google camera app right away due to critical reviews... but after actually using the essential camera I'm strongly considering deleting the google camera app and sticking with the essential camera. Taking 360 degree video is so cool. It just looks like a novel idea when you see video reviews about it but when you actually get one and start taking your own 360 videos it's really amazing. The camera is so easy to use. The app just strats right up automatically as soon as you click the camera on the phone.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "d6a25fd06571_4",
+      "doc_id": "d6a25fd06571",
+      "text": "Those who have complained about camera quality and camera speed, I will say first off that I am not a heavy camera user on a smartphone, only taking pictures on occasion so the best camera isn't a high requirement for me, if it is to you, you may want to look at the LG V30 or the S8/S8+, Pixel or iPhone. Overall usability to me is far more important and being able to quickly transition between apps/screens is a joy to experience on a device with no bloatware to speak of, just clean Android as Andy Rubin intended with this device. If build quality, up to date Android releases, a fast, fluid UI experience are things you value then you can't go wrong with the Essential.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "f2e1fb02e77f_4",
+      "doc_id": "f2e1fb02e77f",
+      "text": "The monochrome camera is my personal favorite to use while the portrait mode has happily surprised me in it's performance. As a point in click user or an average user then this camera will do it's job. If you really are a professional or honestly are heavy in detailed pictures and not just wanting the best camera specs then yes I would recommend another phone. The build quality is unlike any other. The titanium with ceramic feels great on the hands. It can be held and used with one hand. It is slippery but as of now durable. I drop my phone way too much on every type of floor known to man and it hasn't broken yet. I knew the drawbacks such as no water proofing but I don't swim or shower with my phone so splash proof was enough for me.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "b02b6a8fa5d9_0",
+      "doc_id": "b02b6a8fa5d9",
+      "text": "We're reviewing it all wrong... Its just the beginning.. Previously a Pixel XL user; I find the build quality, fit and finish, to be superior in all respects. (The manufacturing tolerances must be measured in the .001 range.) It is impressive under magnification. True, the Camera and its supporting software is only average when compared to any other stock Android experience, but Essential has proven their commitment by promptly updating the device firmware to resolve initial release issues. Just using the Pixel Camera App improved picture quality substantially. Think of the Essential PH-1 as the new Sony PlayStation 5, rushed to the public with only 1 or two game titles, Pong being one of them; yes, it would disappointment, but given time to refine and update the release of new software and it will blow everything out of the water because the Hardware is \"there\"...",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "046b03a0096c_1",
+      "doc_id": "046b03a0096c",
+      "text": "The pictures look gray-ish on the phone screen. and made me believe the camera is not good. Until one day I happen to see the picture on another phone, picture was decent. Essential should heavily improve on the camera though. Hardly any options on the camera app.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    }
+  ],
+  "contexts": [
+    "I also run this on T-mobile and the signal strength in db is identical to my S8+. The voice call is clear and has never dropped. The camera. Let me preface by saying I am not a camera guru so this is purely based on my family's and my feedback. We use auto for 95% of all of our picture taking, even me on my S8+. For these use cases, the quality and speed of the pictures for the Essential phone is great. Be it outdoors or indoors, lots of light or low light, it has all performed well. There aren't nearly as many camera options on the Essential phone compared to the S8+ but I find myself hardly using them anyways. Now the video is interesting. The quality is good but without image stabilizer, I can tell the video is more shaky especially when shooting while walking around.",
+    "As a former owner of all of the larger device manufacturers (Motorola, LG, HTC, Apple, etc.), the customized OEM \"skin\" have yielded little benefit other than expedited battery drain. Essential staying with a stock Android UI allows the PH-1 to operate very fast, hold a charge for almost 2 days with moderate use, and supports honest multi-tasking. Like you, the camera feedback was a big concern for me. The camera reviews received little love, and from what I read, this was deserved. However, when I received the phone, 3 updates were immediately available so the low light issues and slow shutter speed challenges never appeared. In fact, last night I received another camera update. The new portrait feature has been put through the paces on the phone and is a great feature with solid results.",
+    "Camera user interface-okay so I already touched him with the camera could do earlier so now I just want to go over the user interface for the cameras and let you guys know how I feel about it. So that being said you can launch the camera simply by double tapping the power button on your device and this works from anywhere so what do you device is off in standby or your checking something and the Earth takes a real quick picture hits you all you have to do is double tap the power button and you be at the camera in seconds that's a really really nice touch. Now talking about the interface I have to say that I've seen.",
+    "I am hopeful that Essential will improve its Camera app over time, mostly to improve its speed. For now, if you are looking for a camera that also happens to be a smartphone, this may not be the phone for you. While the screen is really cool, most apps don't know to move the status bar to the top of the phone, where the camera notch is, so the screen tends to just have a black band at the top, mirroring the actual black bezel on the bottom of the phone. Haptic feedback is weak and sounds like a tinny speaker. This is an area that the iPhone 7 absolutely blows away this phone. The iPhone's Taptic Engine makes controls feel physical, and can pinpoint exactly where your fingers are on the screen to make a tap. The mono speaker at the bottom of the phone is weak and tinny.",
+    "it is not perfect, but it takes good pictures reliably. I don't normally leave reviews, but after reading all of the negative feedback on other sites and from older reviews, I felt compelled to leave this. First off, don't put any stock in any review posted before November, Essential was such a new company, with no existing products, they had to have some bugs when it was first launched. However, since then they have been rolling out software updates to EvErYtHiNg. The other day I got an update for my headphone dongle. The bugs have been all but entirely eradicated and the camera has improved drastically, I have no problem with the camera app right now, it is not perfect, but it takes good pictures reliably. The feel of this phone is like no other phone, it is solid and quality feeling, it reminds me of an iPhone 4 (in a good way).",
+    "Even the most complained about camera issues are not bad. I side loaded the google camera app right away due to critical reviews... but after actually using the essential camera I'm strongly considering deleting the google camera app and sticking with the essential camera. Taking 360 degree video is so cool. It just looks like a novel idea when you see video reviews about it but when you actually get one and start taking your own 360 videos it's really amazing. The camera is so easy to use. The app just strats right up automatically as soon as you click the camera on the phone.",
+    "Those who have complained about camera quality and camera speed, I will say first off that I am not a heavy camera user on a smartphone, only taking pictures on occasion so the best camera isn't a high requirement for me, if it is to you, you may want to look at the LG V30 or the S8/S8+, Pixel or iPhone. Overall usability to me is far more important and being able to quickly transition between apps/screens is a joy to experience on a device with no bloatware to speak of, just clean Android as Andy Rubin intended with this device. If build quality, up to date Android releases, a fast, fluid UI experience are things you value then you can't go wrong with the Essential.",
+    "The monochrome camera is my personal favorite to use while the portrait mode has happily surprised me in it's performance. As a point in click user or an average user then this camera will do it's job. If you really are a professional or honestly are heavy in detailed pictures and not just wanting the best camera specs then yes I would recommend another phone. The build quality is unlike any other. The titanium with ceramic feels great on the hands. It can be held and used with one hand. It is slippery but as of now durable. I drop my phone way too much on every type of floor known to man and it hasn't broken yet. I knew the drawbacks such as no water proofing but I don't swim or shower with my phone so splash proof was enough for me.",
+    "We're reviewing it all wrong... Its just the beginning.. Previously a Pixel XL user; I find the build quality, fit and finish, to be superior in all respects. (The manufacturing tolerances must be measured in the .001 range.) It is impressive under magnification. True, the Camera and its supporting software is only average when compared to any other stock Android experience, but Essential has proven their commitment by promptly updating the device firmware to resolve initial release issues. Just using the Pixel Camera App improved picture quality substantially. Think of the Essential PH-1 as the new Sony PlayStation 5, rushed to the public with only 1 or two game titles, Pong being one of them; yes, it would disappointment, but given time to refine and update the release of new software and it will blow everything out of the water because the Hardware is \"there\"...",
+    "The pictures look gray-ish on the phone screen. and made me believe the camera is not good. Until one day I happen to see the picture on another phone, picture was decent. Essential should heavily improve on the camera though. Hardly any options on the camera app."
+  ],
+  "timing": {
+    "classification_s": 4.007826200002455,
+    "generation_s": 2.242856299999403,
+    "verification_s": 3.6561657000056584,
+    "total_s": 9.906873600004474
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2257,
+        "completion_tokens": 872,
+        "total_tokens": 3129,
+        "prompt_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "prompt_cache_hit_tokens": 2048,
+        "prompt_cache_miss_tokens": 209
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2130,
+        "completion_tokens": 331,
+        "total_tokens": 2461,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 210
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1934,
+        "completion_tokens": 785,
+        "total_tokens": 2719,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1806
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

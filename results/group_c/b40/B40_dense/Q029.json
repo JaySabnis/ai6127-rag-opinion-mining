@@ -1,0 +1,475 @@
+{
+  "question": "What do Essential PH-1 owners report about getting help from customer support?",
+  "answer": "One reviewer reported that Essential has no phone number for support and communicates only through email. [a7ad34b085de_0]\nOne reviewer said that after requesting a callback three times, Essential never contacted them at all. [cac8a3b23c4a_0]\nOne reviewer described Essential customer service as courteous but unhelpful. [10e939d8bb10_0]\nOne reviewer said Essential has no telephone support, only email, and that later no one responded to emails anymore. [8ccafbb8f6ed_0]\nOne reviewer reported receiving an email response from Essential customer support on a Sunday, with an apology for the delay due to higher than normal ticket volume. [b3a106c8f176_0]\nOne reviewer said Essential support responded immediately by telling them to contact the insurance company for their extended warranty. [54c41d3a5099_0]",
+  "draft_answer": "One reviewer reported that Essential has no phone number for support and communicates only through email. [a7ad34b085de_0]\nOne reviewer said that after requesting a callback three times, Essential never contacted them at all. [cac8a3b23c4a_0]\nOne reviewer described Essential customer service as courteous but unhelpful. [10e939d8bb10_0]\nOne reviewer said Essential has no telephone support, only email, and that later no one responded to emails anymore. [8ccafbb8f6ed_0]\nOne reviewer reported receiving an email response from Essential customer support on a Sunday, with an apology for the delay due to higher than normal ticket volume. [b3a106c8f176_0]\nOne reviewer said Essential support responded immediately by telling them to contact the insurance company for their extended warranty. [54c41d3a5099_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported that Essential has no phone number for support and communicates only through email.",
+      "citations": [
+        "a7ad34b085de_0"
+      ]
+    },
+    {
+      "text": "One reviewer said that after requesting a callback three times, Essential never contacted them at all.",
+      "citations": [
+        "cac8a3b23c4a_0"
+      ]
+    },
+    {
+      "text": "One reviewer described Essential customer service as courteous but unhelpful.",
+      "citations": [
+        "10e939d8bb10_0"
+      ]
+    },
+    {
+      "text": "One reviewer said Essential has no telephone support, only email, and that later no one responded to emails anymore.",
+      "citations": [
+        "8ccafbb8f6ed_0"
+      ]
+    },
+    {
+      "text": "One reviewer reported receiving an email response from Essential customer support on a Sunday, with an apology for the delay due to higher than normal ticket volume.",
+      "citations": [
+        "b3a106c8f176_0"
+      ]
+    },
+    {
+      "text": "One reviewer said Essential support responded immediately by telling them to contact the insurance company for their extended warranty.",
+      "citations": [
+        "54c41d3a5099_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reported that Essential has no phone number for support and communicates only through email.",
+      "citations": [
+        "a7ad34b085de_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said that after requesting a callback three times, Essential never contacted them at all.",
+      "citations": [
+        "cac8a3b23c4a_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer described Essential customer service as courteous but unhelpful.",
+      "citations": [
+        "10e939d8bb10_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said Essential has no telephone support, only email, and that later no one responded to emails anymore.",
+      "citations": [
+        "8ccafbb8f6ed_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported receiving an email response from Essential customer support on a Sunday, with an apology for the delay due to higher than normal ticket volume.",
+      "citations": [
+        "b3a106c8f176_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said Essential support responded immediately by telling them to contact the insurance company for their extended warranty.",
+      "citations": [
+        "54c41d3a5099_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reported that Essential has no phone number for support and communicates only through email.",
+      "citations": [
+        "a7ad34b085de_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said that after requesting a callback three times, Essential never contacted them at all.",
+      "citations": [
+        "cac8a3b23c4a_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer described Essential customer service as courteous but unhelpful.",
+      "citations": [
+        "10e939d8bb10_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said Essential has no telephone support, only email, and that later no one responded to emails anymore.",
+      "citations": [
+        "8ccafbb8f6ed_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported receiving an email response from Essential customer support on a Sunday, with an apology for the delay due to higher than normal ticket volume.",
+      "citations": [
+        "b3a106c8f176_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said Essential support responded immediately by telling them to contact the insurance company for their extended warranty.",
+      "citations": [
+        "54c41d3a5099_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "a7ad34b085de_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "they inform me that they will not support me because I bought the phone from a reseller",
+        "Essential sells phones but does not have a phone number to contact them for support"
+      ],
+      "reason": "Criticizes Essential's support refusal and lack of phone support.",
+      "doc_id": "a7ad34b085de",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "7c165b3b4305_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Essential has done what no other modern device manufacturer does: updates and customer service"
+      ],
+      "reason": "Praises Essential's customer service and updates.",
+      "doc_id": "7c165b3b4305",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "cac8a3b23c4a_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Zero support. You're on your own.",
+        "Essential has not contacted me at all"
+      ],
+      "reason": "Strongly criticizes unresponsive Essential support.",
+      "doc_id": "cac8a3b23c4a",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "10e939d8bb10_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the support from the Essential customer service team was courteous, but unhelpful"
+      ],
+      "reason": "Support courteous but unhelpful, leaving phone unusable.",
+      "doc_id": "10e939d8bb10",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "8ccafbb8f6ed_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "no one responds to email anymore",
+        "they have no phone or chat help"
+      ],
+      "reason": "Criticizes unreachable support and no warranty help.",
+      "doc_id": "8ccafbb8f6ed",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "b3a106c8f176_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "I got an email response from Essential Products customer support today",
+        "Our apologies for the delay in response"
+      ],
+      "reason": "Positive about receiving support response and resolution.",
+      "doc_id": "b3a106c8f176",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "54c41d3a5099_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Essential support came back immediately with \"go contact the insurance company"
+      ],
+      "reason": "Criticizes dismissive support response to cracked glass.",
+      "doc_id": "54c41d3a5099",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "9236f284545c_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Only describes phone failure, no mention of service.",
+      "doc_id": "9236f284545c",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "7a258bc0d8b8_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "support people kept asking me layers of questions to wear me off",
+        "they refuse to support any more"
+      ],
+      "reason": "Criticizes support stalling and refusal after warranty.",
+      "doc_id": "7a258bc0d8b8",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "1baa23ec4934_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses build quality and design, not service.",
+      "doc_id": "1baa23ec4934",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "service"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 8,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 2,
+        "negative": 6,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.25,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.25,
+      "polarized_denominator": 8
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "a7ad34b085de_0",
+      "doc_id": "a7ad34b085de",
+      "text": "Beware of Essential and how it does business. I am extremely disappointed in the Essential PH-1 phone and the company's support model. I bought the PH-1 phone from Amazon who only sells it via third party resellers as Essential the company does not directly sell their phone through Amazon. Within two weeks, the PH-1 camera stops working so I contacted Essential for support. Keep in mind that Essential sells phones but does not have a phone number to contact them for support. They only communicate through email. I describe the problem to them and they request additional information from me: my name, address, proof of purchase, serial number, etc. After providing them with all the data, they inform me that they will not support me because I bought the phone from a reseller. They said they only support the phone if it is bought directly from Essential and Amazon.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "7c165b3b4305_1",
+      "doc_id": "7c165b3b4305",
+      "text": "This phone is for people that want a company that will support their device and their customers, and not lock it down. This is the first generation Essential PH-1, and there have been weird quirks and bugs, and that's to be expected, but Essential has done what no other modern device manufacturer does: updates and customer service. That in itself is work the price that's half of what you'd pay for another \"flagship\" device.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "cac8a3b23c4a_0",
+      "doc_id": "cac8a3b23c4a",
+      "text": "Zero support. You're on your own.. I've tried contacting Essential's support THREE times in hopes of resolving some problems with the phone. Unfortunately, the only way to get in contact with them is to \"request a callback\", over which you have no control of the time or date of when they'll call you. Despite requesting a callback THREE times, Essential has not contacted me at all. It's ridiculous. The phone feel nice enough but without support attached to it, it's a worthless device.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "10e939d8bb10_0",
+      "doc_id": "10e939d8bb10",
+      "text": "No support 1 year after purchase (limited 12mo warranty). I was pretty happy with the phone itself - it is a very well designed stock Android phone with OTA updates rolling out very quickly. On the basis of product experience and functionality, would give 5 stars. However, having experienced software/hardware (unsure) issue with the phone that I could not figure out how to solve, the support from the Essential customer service team was courteous, but unhelpful, leaving me with a nice looking brick and in need of a new phone less than 18 months from purchase. The gist of the experienced issue is that phone has shut off after full battery discharge (continuous videoconferencing). After battery was recharged, phone appears to have turned on, but the screen would not, making the phone unusable. After attempting to find a solution on XDA/Reddit on my own, I contacted Essential customer support via chat describing the issue.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "8ccafbb8f6ed_0",
+      "doc_id": "8ccafbb8f6ed",
+      "text": "Prone to failure and no support or warranty.. I've had 3 of these for about 15 months. One bricked when upgrading to Android P, One had it's fingerprint reader fail after 9 months, and One had it's proximity detector fail ( screen won't turn off when placed next to your face.) For the one that bricked, it took a while to contact Essential customer service, they have no telephone support only email. Even Sprint could not reach them! The replacement phone they sent was CDMA only, the original was CDMA/GSM, so when I switch to AT&T, That phone was useless and since I had Sprint unlock it it's now blacklisted and basically trash. I tried to contact Essential but now no one responds to email anymore. Well there was $500 down the drain. No warranty on any of the 3 phones since no one responds to email and they have no phone or chat help.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "b3a106c8f176_0",
+      "doc_id": "b3a106c8f176",
+      "text": "Update... Easy fix! Great phone for 9 months.... Update! I got an email response from Essential Products customer support today , Sunday(!) Jan 6th 2019. I cleaned the USB port with compressed air and tooth pick as described below. I plugged it back in and it started charging! After it was fully charged I put the SIM card back in and booted it up. Working 100%! I'm in love with my PH1 again! Cathy (Essential Products) Jan 6, 9:48 AM PST Hi Greg, Our apologies for the delay in response, we are experiencing higher than normal ticket volume and are doing our best to answer in a timely manner. Your patience is appreciated! Thank you for reaching out. I am sorry to hear that your device is not turning on. I'd like to ask a few questions to better help us determine the next steps: Have you modified your device at all?",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "54c41d3a5099_0",
+      "doc_id": "54c41d3a5099",
+      "text": "Be worried for service issues!. I purchased my Essential phone directly from their web site with the two year warranty. Within a month the glass at the top of the screen, where there is a very thin gap for phone speaker (when actually using the device as a phone) has cracked off on one side. I contacted support to see if this was a known issue with these phones. They market this device as more rugged than other phones. The glass has proved this to be false. But Essential support came back immediately with \"go contact the insurance company since you purchased the extended warranty\". The phone is alittle over a month old! Feel very stupid for buying into Essential and trying to support Andy Rubin's effort instead of just sticking to a Pixel or Galaxy device.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "9236f284545c_0",
+      "doc_id": "9236f284545c",
+      "text": "In just 12 months. In just 12 months my Essential Phone PH - 1 has stopped running. The screen of the smartphone is black. Even if you press the power button, nothing responds.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "7a258bc0d8b8_0",
+      "doc_id": "7a258bc0d8b8",
+      "text": "Never buy - Worst quality and customer support experience. Within 3months of usage, essential pushed new software upgrade after that the phone refused to function screen went unresponsive then support people kept asking me layers of questions to wear me off. Once the device is the warranty they refuse to support any more. This is the worst customer experience I have ever experienced",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "1baa23ec4934_0",
+      "doc_id": "1baa23ec4934",
+      "text": "Essential Phone PH-1 Full Written Review. Okay today what I have for everyone is my full written review on the essential phone ph1. I divided this review into categories that I think are important to consider before your making purchase. That being said I hope everyone finds this helpful and let's begin. 1. Build Quality and Design- talking about the build quality and design. I have to say essential did a great job there's no rattling or creaking of any kind all the buttons give me a nice tactile and clicky feedback when pressed. The combination of glass and ceramic building materials feel very good in hand and overall the device has a nice solid weight to it. The biggest downside to the overall build quality and designesign is however that those build material choices make the device very very slippery.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    }
+  ],
+  "contexts": [
+    "Beware of Essential and how it does business. I am extremely disappointed in the Essential PH-1 phone and the company's support model. I bought the PH-1 phone from Amazon who only sells it via third party resellers as Essential the company does not directly sell their phone through Amazon. Within two weeks, the PH-1 camera stops working so I contacted Essential for support. Keep in mind that Essential sells phones but does not have a phone number to contact them for support. They only communicate through email. I describe the problem to them and they request additional information from me: my name, address, proof of purchase, serial number, etc. After providing them with all the data, they inform me that they will not support me because I bought the phone from a reseller. They said they only support the phone if it is bought directly from Essential and Amazon.",
+    "This phone is for people that want a company that will support their device and their customers, and not lock it down. This is the first generation Essential PH-1, and there have been weird quirks and bugs, and that's to be expected, but Essential has done what no other modern device manufacturer does: updates and customer service. That in itself is work the price that's half of what you'd pay for another \"flagship\" device.",
+    "Zero support. You're on your own.. I've tried contacting Essential's support THREE times in hopes of resolving some problems with the phone. Unfortunately, the only way to get in contact with them is to \"request a callback\", over which you have no control of the time or date of when they'll call you. Despite requesting a callback THREE times, Essential has not contacted me at all. It's ridiculous. The phone feel nice enough but without support attached to it, it's a worthless device.",
+    "No support 1 year after purchase (limited 12mo warranty). I was pretty happy with the phone itself - it is a very well designed stock Android phone with OTA updates rolling out very quickly. On the basis of product experience and functionality, would give 5 stars. However, having experienced software/hardware (unsure) issue with the phone that I could not figure out how to solve, the support from the Essential customer service team was courteous, but unhelpful, leaving me with a nice looking brick and in need of a new phone less than 18 months from purchase. The gist of the experienced issue is that phone has shut off after full battery discharge (continuous videoconferencing). After battery was recharged, phone appears to have turned on, but the screen would not, making the phone unusable. After attempting to find a solution on XDA/Reddit on my own, I contacted Essential customer support via chat describing the issue.",
+    "Prone to failure and no support or warranty.. I've had 3 of these for about 15 months. One bricked when upgrading to Android P, One had it's fingerprint reader fail after 9 months, and One had it's proximity detector fail ( screen won't turn off when placed next to your face.) For the one that bricked, it took a while to contact Essential customer service, they have no telephone support only email. Even Sprint could not reach them! The replacement phone they sent was CDMA only, the original was CDMA/GSM, so when I switch to AT&T, That phone was useless and since I had Sprint unlock it it's now blacklisted and basically trash. I tried to contact Essential but now no one responds to email anymore. Well there was $500 down the drain. No warranty on any of the 3 phones since no one responds to email and they have no phone or chat help.",
+    "Update... Easy fix! Great phone for 9 months.... Update! I got an email response from Essential Products customer support today , Sunday(!) Jan 6th 2019. I cleaned the USB port with compressed air and tooth pick as described below. I plugged it back in and it started charging! After it was fully charged I put the SIM card back in and booted it up. Working 100%! I'm in love with my PH1 again! Cathy (Essential Products) Jan 6, 9:48 AM PST Hi Greg, Our apologies for the delay in response, we are experiencing higher than normal ticket volume and are doing our best to answer in a timely manner. Your patience is appreciated! Thank you for reaching out. I am sorry to hear that your device is not turning on. I'd like to ask a few questions to better help us determine the next steps: Have you modified your device at all?",
+    "Be worried for service issues!. I purchased my Essential phone directly from their web site with the two year warranty. Within a month the glass at the top of the screen, where there is a very thin gap for phone speaker (when actually using the device as a phone) has cracked off on one side. I contacted support to see if this was a known issue with these phones. They market this device as more rugged than other phones. The glass has proved this to be false. But Essential support came back immediately with \"go contact the insurance company since you purchased the extended warranty\". The phone is alittle over a month old! Feel very stupid for buying into Essential and trying to support Andy Rubin's effort instead of just sticking to a Pixel or Galaxy device.",
+    "In just 12 months. In just 12 months my Essential Phone PH - 1 has stopped running. The screen of the smartphone is black. Even if you press the power button, nothing responds.",
+    "Never buy - Worst quality and customer support experience. Within 3months of usage, essential pushed new software upgrade after that the phone refused to function screen went unresponsive then support people kept asking me layers of questions to wear me off. Once the device is the warranty they refuse to support any more. This is the worst customer experience I have ever experienced",
+    "Essential Phone PH-1 Full Written Review. Okay today what I have for everyone is my full written review on the essential phone ph1. I divided this review into categories that I think are important to consider before your making purchase. That being said I hope everyone finds this helpful and let's begin. 1. Build Quality and Design- talking about the build quality and design. I have to say essential did a great job there's no rattling or creaking of any kind all the buttons give me a nice tactile and clicky feedback when pressed. The combination of glass and ceramic building materials feel very good in hand and overall the device has a nice solid weight to it. The biggest downside to the overall build quality and designesign is however that those build material choices make the device very very slippery."
+  ],
+  "timing": {
+    "classification_s": 3.3518077000044286,
+    "generation_s": 1.794250099999772,
+    "verification_s": 6.199996278155595e-06,
+    "total_s": 5.146074500000395
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2141,
+        "completion_tokens": 678,
+        "total_tokens": 2819,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 1629
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2016,
+        "completion_tokens": 240,
+        "total_tokens": 2256,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 1632
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

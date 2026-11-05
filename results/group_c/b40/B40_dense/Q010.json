@@ -1,0 +1,427 @@
+{
+  "question": "How is the battery endurance of the Moto G Fast (2020) in owner reviews?",
+  "answer": "One reviewer reports great battery standby time on this phone. [74ae070cb4c4_0]\nAnother reviewer describes the battery life as insane and calls the phone a value king. [3f26bde5c10e_0]\nA third reviewer simply states the phone has great battery life. [339a270591fc_0]\nOne reviewer says their unit's battery life was not anything special, dropping to 42% twelve hours after a full charge with moderate use and no videos. [8c082588bf32_0]",
+  "draft_answer": "One reviewer reports great battery standby time on this phone. [74ae070cb4c4_0]\nAnother reviewer describes the battery life as insane and calls the phone a value king. [3f26bde5c10e_0]\nA third reviewer simply states the phone has great battery life. [339a270591fc_0]\nOne reviewer says their unit's battery life was not anything special, dropping to 42% twelve hours after a full charge with moderate use and no videos. [8c082588bf32_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reports great battery standby time on this phone.",
+      "citations": [
+        "74ae070cb4c4_0"
+      ]
+    },
+    {
+      "text": "Another reviewer describes the battery life as insane and calls the phone a value king.",
+      "citations": [
+        "3f26bde5c10e_0"
+      ]
+    },
+    {
+      "text": "A third reviewer simply states the phone has great battery life.",
+      "citations": [
+        "339a270591fc_0"
+      ]
+    },
+    {
+      "text": "One reviewer says their unit's battery life was not anything special, dropping to 42% twelve hours after a full charge with moderate use and no videos.",
+      "citations": [
+        "8c082588bf32_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reports great battery standby time on this phone.",
+      "citations": [
+        "74ae070cb4c4_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer describes the battery life as insane and calls the phone a value king.",
+      "citations": [
+        "3f26bde5c10e_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A third reviewer simply states the phone has great battery life.",
+      "citations": [
+        "339a270591fc_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer says their unit's battery life was not anything special, dropping to 42% twelve hours after a full charge with moderate use and no videos.",
+      "citations": [
+        "8c082588bf32_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reports great battery standby time on this phone.",
+      "citations": [
+        "74ae070cb4c4_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer describes the battery life as insane and calls the phone a value king.",
+      "citations": [
+        "3f26bde5c10e_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A third reviewer simply states the phone has great battery life.",
+      "citations": [
+        "339a270591fc_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer says their unit's battery life was not anything special, dropping to 42% twelve hours after a full charge with moderate use and no videos.",
+      "citations": [
+        "8c082588bf32_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "225d44900eec_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery doesn't last as long as the 2020 version",
+        "the 2021 is a BIG disappointment on the battery life",
+        "Doesn't last nearly as long"
+      ],
+      "reason": "Criticizes battery life as disappointing and short-lasting.",
+      "doc_id": "225d44900eec",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "74ae070cb4c4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "great battery standby time",
+        "good battery life for at least a day of medium-heavy use",
+        "greatly reduces power consumption"
+      ],
+      "reason": "Praises battery standby and overall battery life.",
+      "doc_id": "74ae070cb4c4",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "87163635909b_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "excellent battery life",
+        "got 3 days on 1 charge"
+      ],
+      "reason": "Praises excellent battery life lasting days.",
+      "doc_id": "87163635909b",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "e6ae2733d7df_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "battery life downgrade",
+        "often lost battery % at the same or faster rate"
+      ],
+      "reason": "Criticizes battery life as a downgrade versus older model.",
+      "doc_id": "e6ae2733d7df",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "662b4a436466_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "3-day battery claim will not apply",
+        "I really only get a full day, maybe",
+        "given how much battery life is hyped"
+      ],
+      "reason": "Pleased overall but disappointed battery falls short of hype when gaming.",
+      "doc_id": "662b4a436466",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "2964e9c117f6_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Four--5 days on a charge",
+        "The battery life is fantastic"
+      ],
+      "reason": "Praises fantastic battery life lasting days.",
+      "doc_id": "2964e9c117f6",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "8c28bbc04d41_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No discussion of battery; only charging port and general brand.",
+      "doc_id": "8c28bbc04d41",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "3f26bde5c10e_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "battery life insane",
+        "Pros: battery life"
+      ],
+      "reason": "Praises battery life as insane.",
+      "doc_id": "3f26bde5c10e",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "339a270591fc_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Great battery life"
+      ],
+      "reason": "Praises great battery life.",
+      "doc_id": "339a270591fc",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "8c082588bf32_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "battery life not anything special from previous phones",
+        "it is at 42%"
+      ],
+      "reason": "Criticizes battery life as unremarkable and draining.",
+      "doc_id": "8c082588bf32",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "aspect": "battery"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 1,
+      "counts": {
+        "positive": 5,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5555555555555556,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.625,
+      "polarized_denominator": 8
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "225d44900eec_0",
+      "doc_id": "225d44900eec",
+      "text": "Battery doesn't last as long as the 2020 version.. My Moto G Power is a Great phone! BUT the 2021 is a BIG disappointment on the battery life! Doesn't last nearly as long; certainly not 3 days!",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "source_url": "https://www.amazon.com/dp/B09DZZ2GM6"
+    },
+    {
+      "chunk_id": "74ae070cb4c4_0",
+      "doc_id": "74ae070cb4c4",
+      "text": "Good screen, finicky fingerprint reader, great battery standby time, good build quality, avg cams.... This is a good upgrade choice if battery capacity is your concern yet still managing to keep good price per performance. While its peers with similar specifications may have better cameras and performance boosts, the Moto G Power (2020) however is fairly feature-rich, inside is a larger-than-average 5,000mAh battery with good battery life for at least a day of medium-heavy use, 2 days of light-medium usage, and 3+ with light usage including standby times, which greatly reduces power consumption when the phone isn't being used in the moment, with great band support/carrier coverage and LTE speeds, a decent IPS panel with neutral color tone, dual-band (2.4ghz/5.8ghz) wifi, bluetooth 5.0, 4gb ram, 64gb internal storage for apps and other content with 512gb SD upgrade support, decent SoC performance with lag sometimes being an issue, great charging time from half capacity, and all of the necessary sensors for application support.",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "source_url": "https://www.amazon.com/dp/B09DZZ2GM6"
+    },
+    {
+      "chunk_id": "87163635909b_0",
+      "doc_id": "87163635909b",
+      "text": "Moto G Power has excellent battery life. The battery life is so good, a few times I've tested it and got 3 days on 1 charge. Size if perfect, not too big or small. The Volume button and Power button are a little close.",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "source_url": "https://www.amazon.com/dp/B09DZZ2GM6"
+    },
+    {
+      "chunk_id": "e6ae2733d7df_0",
+      "doc_id": "e6ae2733d7df",
+      "text": "Performance upgrade, battery life downgrade over previous similar models. I write this from the perspective of someone whose been using $200 Lenovo-Motorola phones with 5000 mah batteries since November 2017. My first of this category was a Moto E4 plus: very good battery life, good enough performance for the time. Then as my E4 plus aged and battery life declined I bought a Moto G7 Power: it had better specs in pretty much every way and had a longer battery life due to being new. When I ordered this phone I expected the same kind of upgrade: better performance specs, more battery life. Much to my surprise, the new G Power often lost battery % at the same or faster rate than my 17 month old G7 Power.",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "source_url": "https://www.amazon.com/dp/B09DZZ2GM6"
+    },
+    {
+      "chunk_id": "662b4a436466_0",
+      "doc_id": "662b4a436466",
+      "text": "Separate 2020 from 2021 model reviews please!. The 2021 model is a downgrade from the 2020 Moto G Power. (Do just a little homework & you'll read why.) Amazon should not be lumping their reviews together, as they have different specs and this is misleading to customers reading the reviews. I am pleased with my 2020 model Moto G Power. I feel it's a good value and quality for the money. Particularly pleased with the storage space. If you play games with any graphics intensity at all, know that the 3-day battery claim will not apply. I found that to be a disappointment, given how much battery life is hyped for the Moto G Power. I really only get a full day, maybe, out of the battery if I game a lot that day. If I hardly game at all, I think I get maybe a day & a half to 2 days, at a stretch.",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "source_url": "https://www.amazon.com/dp/B09DZZ2GM6"
+    },
+    {
+      "chunk_id": "2964e9c117f6_0",
+      "doc_id": "2964e9c117f6",
+      "text": "Four--5 days on a charge!. There is a reason why the 2020 (NOT 2021) version of the Moto G-Power mobile phone was ranked by a prominent tech review company as the best bargain for a phone in the under $500 range. The same company slammed the 2021 version because it actually downgraded some components (do your research and grab a 2020 while you can). The battery life is fantastic, the 6.4\" screen is very good, it comes with Android 10, but updates to Android 11 within one week of activation. It's processor is quick, and the cameras are respectable. If you want higher quality pictures, there are more expensive choices. For the average Joe or Jane, this G-Power provides the most bang for the buck.",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "source_url": "https://www.amazon.com/dp/B09DZZ2GM6"
+    },
+    {
+      "chunk_id": "8c28bbc04d41_0",
+      "doc_id": "8c28bbc04d41",
+      "text": "a reliable brand. Last October I purchased the 2020 Moto G Power for a friend. She had previously owned a Moto G5+ and after three years, the micro charge connection on that workhorse was weakening. I went on the Amazon to put a study on the latest from Motorola Android One unlocked. I read the reviews and specs on the 2020 G Power . The upgrade to the more robust type C charging port was noted. I ordered the 2020 Moto G Power and had it shipped to an Amazon drop where it arrived quickly and while my friend's old phone was still functional. The clerks at the facility helped her move the SIM card over, and transfer photos and files onto the new device. After restoring the navigation buttons, she became comfortable with the new phone. I've owned two Motorola phones myself and have recommended them to friends and family.",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "source_url": "https://www.amazon.com/dp/B09DZZ2GM6"
+    },
+    {
+      "chunk_id": "3f26bde5c10e_0",
+      "doc_id": "3f26bde5c10e",
+      "text": "Moto g power battery life insane and very smooth -value king-. Pros: battery life, its fast, its smooth, very easy to use, light, fast Cons: camera is okay",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "source_url": "https://www.amazon.com/dp/B09DZZ2GM6"
+    },
+    {
+      "chunk_id": "339a270591fc_0",
+      "doc_id": "339a270591fc",
+      "text": "Moto G phone. Great battery life.",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "source_url": "https://www.amazon.com/dp/B09DZZ2GM6"
+    },
+    {
+      "chunk_id": "8c082588bf32_0",
+      "doc_id": "8c082588bf32",
+      "text": "Doesn't Live Up to Other Reviews. I have had my Moto g power for three full days. Mine might be the exception, but battery life not anything special from previous phones. Twelve hours after a full charge and moderate use with no videos, it is at 42%. I will use battery saver over the next cycle to how it compares. It is a step up in display and storage from my Moto x4, but could have waited.",
+      "brand": "Motorola",
+      "model": "Moto G Fast (2020)",
+      "source_url": "https://www.amazon.com/dp/B09DZZ2GM6"
+    }
+  ],
+  "contexts": [
+    "Battery doesn't last as long as the 2020 version.. My Moto G Power is a Great phone! BUT the 2021 is a BIG disappointment on the battery life! Doesn't last nearly as long; certainly not 3 days!",
+    "Good screen, finicky fingerprint reader, great battery standby time, good build quality, avg cams.... This is a good upgrade choice if battery capacity is your concern yet still managing to keep good price per performance. While its peers with similar specifications may have better cameras and performance boosts, the Moto G Power (2020) however is fairly feature-rich, inside is a larger-than-average 5,000mAh battery with good battery life for at least a day of medium-heavy use, 2 days of light-medium usage, and 3+ with light usage including standby times, which greatly reduces power consumption when the phone isn't being used in the moment, with great band support/carrier coverage and LTE speeds, a decent IPS panel with neutral color tone, dual-band (2.4ghz/5.8ghz) wifi, bluetooth 5.0, 4gb ram, 64gb internal storage for apps and other content with 512gb SD upgrade support, decent SoC performance with lag sometimes being an issue, great charging time from half capacity, and all of the necessary sensors for application support.",
+    "Moto G Power has excellent battery life. The battery life is so good, a few times I've tested it and got 3 days on 1 charge. Size if perfect, not too big or small. The Volume button and Power button are a little close.",
+    "Performance upgrade, battery life downgrade over previous similar models. I write this from the perspective of someone whose been using $200 Lenovo-Motorola phones with 5000 mah batteries since November 2017. My first of this category was a Moto E4 plus: very good battery life, good enough performance for the time. Then as my E4 plus aged and battery life declined I bought a Moto G7 Power: it had better specs in pretty much every way and had a longer battery life due to being new. When I ordered this phone I expected the same kind of upgrade: better performance specs, more battery life. Much to my surprise, the new G Power often lost battery % at the same or faster rate than my 17 month old G7 Power.",
+    "Separate 2020 from 2021 model reviews please!. The 2021 model is a downgrade from the 2020 Moto G Power. (Do just a little homework & you'll read why.) Amazon should not be lumping their reviews together, as they have different specs and this is misleading to customers reading the reviews. I am pleased with my 2020 model Moto G Power. I feel it's a good value and quality for the money. Particularly pleased with the storage space. If you play games with any graphics intensity at all, know that the 3-day battery claim will not apply. I found that to be a disappointment, given how much battery life is hyped for the Moto G Power. I really only get a full day, maybe, out of the battery if I game a lot that day. If I hardly game at all, I think I get maybe a day & a half to 2 days, at a stretch.",
+    "Four--5 days on a charge!. There is a reason why the 2020 (NOT 2021) version of the Moto G-Power mobile phone was ranked by a prominent tech review company as the best bargain for a phone in the under $500 range. The same company slammed the 2021 version because it actually downgraded some components (do your research and grab a 2020 while you can). The battery life is fantastic, the 6.4\" screen is very good, it comes with Android 10, but updates to Android 11 within one week of activation. It's processor is quick, and the cameras are respectable. If you want higher quality pictures, there are more expensive choices. For the average Joe or Jane, this G-Power provides the most bang for the buck.",
+    "a reliable brand. Last October I purchased the 2020 Moto G Power for a friend. She had previously owned a Moto G5+ and after three years, the micro charge connection on that workhorse was weakening. I went on the Amazon to put a study on the latest from Motorola Android One unlocked. I read the reviews and specs on the 2020 G Power . The upgrade to the more robust type C charging port was noted. I ordered the 2020 Moto G Power and had it shipped to an Amazon drop where it arrived quickly and while my friend's old phone was still functional. The clerks at the facility helped her move the SIM card over, and transfer photos and files onto the new device. After restoring the navigation buttons, she became comfortable with the new phone. I've owned two Motorola phones myself and have recommended them to friends and family.",
+    "Moto g power battery life insane and very smooth -value king-. Pros: battery life, its fast, its smooth, very easy to use, light, fast Cons: camera is okay",
+    "Moto G phone. Great battery life.",
+    "Doesn't Live Up to Other Reviews. I have had my Moto g power for three full days. Mine might be the exception, but battery life not anything special from previous phones. Twelve hours after a full charge and moderate use with no videos, it is at 42%. I will use battery saver over the next cycle to how it compares. It is a step up in display and storage from my Moto x4, but could have waited."
+  ],
+  "timing": {
+    "classification_s": 2.888981199997943,
+    "generation_s": 1.4504123000006075,
+    "verification_s": 5.699999746866524e-06,
+    "total_s": 4.339414800000668
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1984,
+        "completion_tokens": 671,
+        "total_tokens": 2655,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1728
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1863,
+        "completion_tokens": 147,
+        "total_tokens": 2010,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1735
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

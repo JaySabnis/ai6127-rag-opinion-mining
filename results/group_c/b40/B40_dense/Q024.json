@@ -1,0 +1,486 @@
+{
+  "question": "What do Samsung Galaxy S5 reviewers report about speed, lag, and freezing?",
+  "answer": "One reviewer reported using the Galaxy S5 for six months with no lags and no stability problems. [8763bf496a2c_0]\nA reviewer who returned the S5 described lag issues and frame rate dropping while playing Real Racing 3, which they attributed to Samsung bloatware. [50a0f72c75b5_0]\nOne reviewer said the Snapdragon 801 processor and 2 GB of RAM make the phone feel fast and that users don't have to worry about it freezing. [e293a564c2f6_2]\nTime Keeper 75 reported very slow processing speed and said the phone cannot keep up with their typing. [1fced0c34592_0]\nOne reviewer described the phone as very fast with no lag at all on Kit Kat 4.4.4. [84938d6fd6f3_0]\nOther reviewers reported the phone freezing up, lagging like crazy, and performance decreasing after the first month. [9eb195696271_0] [3e51091aec82_0] [63048d91cc40_0]",
+  "draft_answer": "One reviewer reported using the Galaxy S5 for six months with no lags and no stability problems. [8763bf496a2c_0]\nA reviewer who returned the S5 described lag issues and frame rate dropping while playing Real Racing 3, which they attributed to Samsung bloatware. [50a0f72c75b5_0]\nOne reviewer said the Snapdragon 801 processor and 2 GB of RAM make the phone feel fast and that users don't have to worry about it freezing. [e293a564c2f6_2]\nTime Keeper 75 reported very slow processing speed and said the phone cannot keep up with their typing. [1fced0c34592_0]\nOne reviewer described the phone as very fast with no lag at all on Kit Kat 4.4.4. [84938d6fd6f3_0]\nOther reviewers reported the phone freezing up, lagging like crazy, and performance decreasing after the first month. [9eb195696271_0] [3e51091aec82_0] [63048d91cc40_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported using the Galaxy S5 for six months with no lags and no stability problems.",
+      "citations": [
+        "8763bf496a2c_0"
+      ]
+    },
+    {
+      "text": "A reviewer who returned the S5 described lag issues and frame rate dropping while playing Real Racing 3, which they attributed to Samsung bloatware.",
+      "citations": [
+        "50a0f72c75b5_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the Snapdragon 801 processor and 2 GB of RAM make the phone feel fast and that users don't have to worry about it freezing.",
+      "citations": [
+        "e293a564c2f6_2"
+      ]
+    },
+    {
+      "text": "Time Keeper 75 reported very slow processing speed and said the phone cannot keep up with their typing.",
+      "citations": [
+        "1fced0c34592_0"
+      ]
+    },
+    {
+      "text": "One reviewer described the phone as very fast with no lag at all on Kit Kat 4.4.4.",
+      "citations": [
+        "84938d6fd6f3_0"
+      ]
+    },
+    {
+      "text": "Other reviewers reported the phone freezing up, lagging like crazy, and performance decreasing after the first month.",
+      "citations": [
+        "9eb195696271_0",
+        "3e51091aec82_0",
+        "63048d91cc40_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reported using the Galaxy S5 for six months with no lags and no stability problems.",
+      "citations": [
+        "8763bf496a2c_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who returned the S5 described lag issues and frame rate dropping while playing Real Racing 3, which they attributed to Samsung bloatware.",
+      "citations": [
+        "50a0f72c75b5_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the Snapdragon 801 processor and 2 GB of RAM make the phone feel fast and that users don't have to worry about it freezing.",
+      "citations": [
+        "e293a564c2f6_2"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Time Keeper 75 reported very slow processing speed and said the phone cannot keep up with their typing.",
+      "citations": [
+        "1fced0c34592_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer described the phone as very fast with no lag at all on Kit Kat 4.4.4.",
+      "citations": [
+        "84938d6fd6f3_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Other reviewers reported the phone freezing up, lagging like crazy, and performance decreasing after the first month.",
+      "citations": [
+        "9eb195696271_0",
+        "3e51091aec82_0",
+        "63048d91cc40_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reported using the Galaxy S5 for six months with no lags and no stability problems.",
+      "citations": [
+        "8763bf496a2c_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who returned the S5 described lag issues and frame rate dropping while playing Real Racing 3, which they attributed to Samsung bloatware.",
+      "citations": [
+        "50a0f72c75b5_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the Snapdragon 801 processor and 2 GB of RAM make the phone feel fast and that users don't have to worry about it freezing.",
+      "citations": [
+        "e293a564c2f6_2"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Time Keeper 75 reported very slow processing speed and said the phone cannot keep up with their typing.",
+      "citations": [
+        "1fced0c34592_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer described the phone as very fast with no lag at all on Kit Kat 4.4.4.",
+      "citations": [
+        "84938d6fd6f3_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Other reviewers reported the phone freezing up, lagging like crazy, and performance decreasing after the first month.",
+      "citations": [
+        "9eb195696271_0",
+        "3e51091aec82_0",
+        "63048d91cc40_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "8763bf496a2c_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "no lags no stability problems"
+      ],
+      "reason": "Praises improved interface and no lag/stability issues after six months.",
+      "doc_id": "8763bf496a2c",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "50a0f72c75b5_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Performance issues",
+        "frame rate dropping"
+      ],
+      "reason": "Criticizes lag, frame rate drops, and performance despite strong CPU.",
+      "doc_id": "50a0f72c75b5",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "e293a564c2f6_2",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "makes the phone feel fast",
+        "handle just about everything",
+        "refining and perfecting multitasking"
+      ],
+      "reason": "Praises processor speed, smoothness, and multitasking performance.",
+      "doc_id": "e293a564c2f6",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "1fced0c34592_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "VERY SLOW PROCESSING SPEED",
+        "constantly overheats",
+        "cannot keep up with my typing"
+      ],
+      "reason": "Criticizes slow processing, overheating, and lag.",
+      "doc_id": "1fced0c34592",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "84938d6fd6f3_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "fast and lag free",
+        "Very fast. No lag at all"
+      ],
+      "reason": "Praises fast, lag-free performance on Kit Kat.",
+      "doc_id": "84938d6fd6f3",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "9eb195696271_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "started freezing up, turning off on it's own"
+      ],
+      "reason": "Reports freezing and shutdowns, though liked when working.",
+      "doc_id": "9eb195696271",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "63048d91cc40_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Performance started decreasing after the first month"
+      ],
+      "reason": "Criticizes declining performance, shutdowns, and crashes.",
+      "doc_id": "63048d91cc40",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "3e51091aec82_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "freezes and lags like crazy"
+      ],
+      "reason": "Criticizes freezing and lag requiring app shutdowns.",
+      "doc_id": "3e51091aec82",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "e5a5d0a63c6a_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "It is very fast"
+      ],
+      "reason": "Praises phone as fast and as advertised.",
+      "doc_id": "e5a5d0a63c6a",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "46aee6077d7f_2",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the S5 was a huge let-down"
+      ],
+      "reason": "Compares unfavorably to S3, calls S5 a let-down and returned it.",
+      "doc_id": "46aee6077d7f",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 4,
+        "negative": 6,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.4,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.4,
+      "polarized_denominator": 10
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "8763bf496a2c_0",
+      "doc_id": "8763bf496a2c",
+      "text": "i have concern before purchase s5, because of the .... i have concern before purchase s5, because of the tw, but samsung worked hard and improve the interface and tw, i am using it for six months and no lags no stability problems. highly recommended",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00KBS4VZQ"
+    },
+    {
+      "chunk_id": "50a0f72c75b5_0",
+      "doc_id": "50a0f72c75b5",
+      "text": "Disappointing Samsung S5... No premium look... Performance issues... Only HSDPA+ speed.... First of all, I returned this Galaxy S5 because it came defective (display issues and charger not working properly), but I was able to try the S5 for a few days... I don't understand that the S5 has lag issues, I had performance issues while I was playing REAL RACING 3, frame rate dropping... Which I can only think is the samsung bloatwares installed... Even though, with the Exyon Quad Core; 1.9GHz,1.3GHz (8 cores CPU), the S5 must have been running very smoothly... The camera is not good in low light conditions... Which is crazy... The heart beat scanner is silly, because it's gimmicky, it takes more battery life and nothing more... Also, the Heart beat scanner brings inconsistent readings all the time... I am very disappointed for a device that cost more than $600 not having a premium look and performance...",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00KBS4VZQ"
+    },
+    {
+      "chunk_id": "e293a564c2f6_2",
+      "doc_id": "e293a564c2f6",
+      "text": "The only thing I do not like about the display is that it is not very bright. If you are under direct sunlight you have to increase the brightness all the way up in order to distinguish anything. Even then videos are very difficult to watch under sunlight. PERFORMANCE The Galaxy S5 comes with a Qualcomm Snapdragon 801 processor and 2 GB of Ram. This phone comes with latest version of android which is Kit Kat 4.4.2. This is the most secure, stable, and smooth version of android. The processor makes the phone feel fast and the phone can handle just about everything that you throw at it. With this phone you don’t have to worry about how many applications you have opened or whether or not it is going to freeze. Samsung has been refining and perfecting multitasking the last few years.",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00WZZ64QW"
+    },
+    {
+      "chunk_id": "1fced0c34592_0",
+      "doc_id": "1fced0c34592",
+      "text": "Time Keeper 75. For 'the next big thing' it's a piece of junk. We've had our Galaxy S5s for six months and here is the list of problems: 1. With only 14 apps on this phone, it constantly overheats. At least once a day. 2. When tech support took it, they found nothing wrong with the phone but replaced the battery as a precaution but the overheating continues. 3. When tilting the video screen from vertical to horizontal, the delay is ridiculous compared to an Apple product. 4. When texting, opening, reading and sending texts, the phone cannot keep up with my typing. 5. Autocorrect. Who doesn't have problems with autocorrect? This one changes thing from 'texting' to 'text NH'. Simple, simple words are horribly misconstrued. 6. Regarding other apps, all I have to say is the Galaxy S5 simply has VERY SLOW PROCESSING SPEED. It is ridiculously slow.",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00KBS4VZQ"
+    },
+    {
+      "chunk_id": "84938d6fd6f3_0",
+      "doc_id": "84938d6fd6f3",
+      "text": "fast and lag free. compare to iphone 6. Very fast. No lag at all. I'm on 4.4.4 kit kat. Didn't like 5.0 because of memory problems and it wasn't designed for the galaxy 5. Samsung optumized this phone on the 4.x android version. To have the camera takes picture faster, turn off image stabilization",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00WZZ64QW"
+    },
+    {
+      "chunk_id": "9eb195696271_0",
+      "doc_id": "9eb195696271",
+      "text": "Samsung Galaxy S5 - Read the reviews before you purchase. I purchased this phone in May 2014, worked ok after I got on the phone with my carrier, the reception is bad (very Bad) I had to activate my airave in order for it to work in my home. In July the phone started freezing up, turning off on it's own, had to take out the battery for it to come back on only for a short period of time. Finally I took it to my carrier and they told me that I had too many apps (beloney), because I had the same apps on my Samsung Galaxy s3. After trips to the repair center, many, many, too Many phone conversations, they my carrier will be sending me a new phone. On the other hand when the phone \"Worked\" I did like it and hope the new one works fine!",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00WZZ64QW"
+    },
+    {
+      "chunk_id": "63048d91cc40_0",
+      "doc_id": "63048d91cc40",
+      "text": "The S5 is good phone but the one I got wasn't brand new. The S5 is good phone but the one I got wasn't brand new, which is what I paid for. The device name and wallpaper had already been set. Performance started decreasing after the first month. It shuts off when there is plenty of battery, the power button doesn't always work, and the touch screen stops responding randomly. Now the screen has started flickering and opening the camera app crashes the whole phone, but I'm just outside the support period.",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00JRKFA90"
+    },
+    {
+      "chunk_id": "3e51091aec82_0",
+      "doc_id": "3e51091aec82",
+      "text": "... after a while i noticed it freezes and lags like crazy. I have to keep shutting apps down .... Phone works as described but after a while i noticed it freezes and lags like crazy. I have to keep shutting apps down otherwise it will not function. Never had this problems with S4",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00JRKFA90"
+    },
+    {
+      "chunk_id": "e5a5d0a63c6a_0",
+      "doc_id": "e5a5d0a63c6a",
+      "text": "Samsung Galaxy S5. The Samsung Galaxy S5 a great phone. It is very fast. It has an excellent batter, and I can replace it with a back up. This phone is exactly as advertised.",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00WZZ64QW"
+    },
+    {
+      "chunk_id": "46aee6077d7f_2",
+      "doc_id": "46aee6077d7f",
+      "text": "I cannot say for sure if all Samsung Galaxy S5 phones have that issue, or if it was just this particular handset that I received. I previously owned the Samsung Galaxy S3 and was very happy with its performance. However the S5 was a huge let-down. I returned the phone just after a week of using it. I was very unhappy.",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00WZZ64QW"
+    }
+  ],
+  "contexts": [
+    "i have concern before purchase s5, because of the .... i have concern before purchase s5, because of the tw, but samsung worked hard and improve the interface and tw, i am using it for six months and no lags no stability problems. highly recommended",
+    "Disappointing Samsung S5... No premium look... Performance issues... Only HSDPA+ speed.... First of all, I returned this Galaxy S5 because it came defective (display issues and charger not working properly), but I was able to try the S5 for a few days... I don't understand that the S5 has lag issues, I had performance issues while I was playing REAL RACING 3, frame rate dropping... Which I can only think is the samsung bloatwares installed... Even though, with the Exyon Quad Core; 1.9GHz,1.3GHz (8 cores CPU), the S5 must have been running very smoothly... The camera is not good in low light conditions... Which is crazy... The heart beat scanner is silly, because it's gimmicky, it takes more battery life and nothing more... Also, the Heart beat scanner brings inconsistent readings all the time... I am very disappointed for a device that cost more than $600 not having a premium look and performance...",
+    "The only thing I do not like about the display is that it is not very bright. If you are under direct sunlight you have to increase the brightness all the way up in order to distinguish anything. Even then videos are very difficult to watch under sunlight. PERFORMANCE The Galaxy S5 comes with a Qualcomm Snapdragon 801 processor and 2 GB of Ram. This phone comes with latest version of android which is Kit Kat 4.4.2. This is the most secure, stable, and smooth version of android. The processor makes the phone feel fast and the phone can handle just about everything that you throw at it. With this phone you don’t have to worry about how many applications you have opened or whether or not it is going to freeze. Samsung has been refining and perfecting multitasking the last few years.",
+    "Time Keeper 75. For 'the next big thing' it's a piece of junk. We've had our Galaxy S5s for six months and here is the list of problems: 1. With only 14 apps on this phone, it constantly overheats. At least once a day. 2. When tech support took it, they found nothing wrong with the phone but replaced the battery as a precaution but the overheating continues. 3. When tilting the video screen from vertical to horizontal, the delay is ridiculous compared to an Apple product. 4. When texting, opening, reading and sending texts, the phone cannot keep up with my typing. 5. Autocorrect. Who doesn't have problems with autocorrect? This one changes thing from 'texting' to 'text NH'. Simple, simple words are horribly misconstrued. 6. Regarding other apps, all I have to say is the Galaxy S5 simply has VERY SLOW PROCESSING SPEED. It is ridiculously slow.",
+    "fast and lag free. compare to iphone 6. Very fast. No lag at all. I'm on 4.4.4 kit kat. Didn't like 5.0 because of memory problems and it wasn't designed for the galaxy 5. Samsung optumized this phone on the 4.x android version. To have the camera takes picture faster, turn off image stabilization",
+    "Samsung Galaxy S5 - Read the reviews before you purchase. I purchased this phone in May 2014, worked ok after I got on the phone with my carrier, the reception is bad (very Bad) I had to activate my airave in order for it to work in my home. In July the phone started freezing up, turning off on it's own, had to take out the battery for it to come back on only for a short period of time. Finally I took it to my carrier and they told me that I had too many apps (beloney), because I had the same apps on my Samsung Galaxy s3. After trips to the repair center, many, many, too Many phone conversations, they my carrier will be sending me a new phone. On the other hand when the phone \"Worked\" I did like it and hope the new one works fine!",
+    "The S5 is good phone but the one I got wasn't brand new. The S5 is good phone but the one I got wasn't brand new, which is what I paid for. The device name and wallpaper had already been set. Performance started decreasing after the first month. It shuts off when there is plenty of battery, the power button doesn't always work, and the touch screen stops responding randomly. Now the screen has started flickering and opening the camera app crashes the whole phone, but I'm just outside the support period.",
+    "... after a while i noticed it freezes and lags like crazy. I have to keep shutting apps down .... Phone works as described but after a while i noticed it freezes and lags like crazy. I have to keep shutting apps down otherwise it will not function. Never had this problems with S4",
+    "Samsung Galaxy S5. The Samsung Galaxy S5 a great phone. It is very fast. It has an excellent batter, and I can replace it with a back up. This phone is exactly as advertised.",
+    "I cannot say for sure if all Samsung Galaxy S5 phones have that issue, or if it was just this particular handset that I received. I previously owned the Samsung Galaxy S3 and was very happy with its performance. However the S5 was a huge let-down. I returned the phone just after a week of using it. I was very unhappy."
+  ],
+  "timing": {
+    "classification_s": 3.1129063999978825,
+    "generation_s": 1.8825710000019171,
+    "verification_s": 6.399997801054269e-06,
+    "total_s": 4.995494399998279
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1979,
+        "completion_tokens": 665,
+        "total_tokens": 2644,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1723
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1855,
+        "completion_tokens": 283,
+        "total_tokens": 2138,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1727
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

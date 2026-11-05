@@ -1,0 +1,475 @@
+{
+  "question": "What do iPhone XR buyers say about unlocking, activation, and carrier compatibility?",
+  "answer": "One reviewer reported that a Simple Mobile representative confirmed their supposedly unlocked iPhone XR was actually locked. [ac2bf2a1a26d_1]\nAnother reviewer said their iPhone XR was supposed to be unlocked but was not, and their carrier reported the device as lost/stolen so it would not activate. [de7147f23b08_0]\nOne reviewer said the iPhone XR was factory unlocked as described and was very pleased. [33ac6df0c176_0]\nA reviewer who ordered a 128GB iPhone XR said it was completely unlocked thanks to Verizon pre-owned. [bb3d3a4ce3b5_0]\nOne reviewer said they took the phone to AT&T, where a SIM card was added and the phone and new number were activated immediately. [0af9f7fc019e_0]\nAnother reviewer said they bought the iPhone XR for a Metro T-Mobile account and found it was not compatible, and was told unlocked phones are not fully compatible with all networks. [9314d20bfb02_0]",
+  "draft_answer": "One reviewer reported that a Simple Mobile representative confirmed their supposedly unlocked iPhone XR was actually locked. [ac2bf2a1a26d_1]\nAnother reviewer said their iPhone XR was supposed to be unlocked but was not, and their carrier reported the device as lost/stolen so it would not activate. [de7147f23b08_0]\nOne reviewer said the iPhone XR was factory unlocked as described and was very pleased. [33ac6df0c176_0]\nA reviewer who ordered a 128GB iPhone XR said it was completely unlocked thanks to Verizon pre-owned. [bb3d3a4ce3b5_0]\nOne reviewer said they took the phone to AT&T, where a SIM card was added and the phone and new number were activated immediately. [0af9f7fc019e_0]\nAnother reviewer said they bought the iPhone XR for a Metro T-Mobile account and found it was not compatible, and was told unlocked phones are not fully compatible with all networks. [9314d20bfb02_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported that a Simple Mobile representative confirmed their supposedly unlocked iPhone XR was actually locked.",
+      "citations": [
+        "ac2bf2a1a26d_1"
+      ]
+    },
+    {
+      "text": "Another reviewer said their iPhone XR was supposed to be unlocked but was not, and their carrier reported the device as lost/stolen so it would not activate.",
+      "citations": [
+        "de7147f23b08_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the iPhone XR was factory unlocked as described and was very pleased.",
+      "citations": [
+        "33ac6df0c176_0"
+      ]
+    },
+    {
+      "text": "A reviewer who ordered a 128GB iPhone XR said it was completely unlocked thanks to Verizon pre-owned.",
+      "citations": [
+        "bb3d3a4ce3b5_0"
+      ]
+    },
+    {
+      "text": "One reviewer said they took the phone to AT&T, where a SIM card was added and the phone and new number were activated immediately.",
+      "citations": [
+        "0af9f7fc019e_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said they bought the iPhone XR for a Metro T-Mobile account and found it was not compatible, and was told unlocked phones are not fully compatible with all networks.",
+      "citations": [
+        "9314d20bfb02_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reported that a Simple Mobile representative confirmed their supposedly unlocked iPhone XR was actually locked.",
+      "citations": [
+        "ac2bf2a1a26d_1"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said their iPhone XR was supposed to be unlocked but was not, and their carrier reported the device as lost/stolen so it would not activate.",
+      "citations": [
+        "de7147f23b08_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the iPhone XR was factory unlocked as described and was very pleased.",
+      "citations": [
+        "33ac6df0c176_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who ordered a 128GB iPhone XR said it was completely unlocked thanks to Verizon pre-owned.",
+      "citations": [
+        "bb3d3a4ce3b5_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said they took the phone to AT&T, where a SIM card was added and the phone and new number were activated immediately.",
+      "citations": [
+        "0af9f7fc019e_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said they bought the iPhone XR for a Metro T-Mobile account and found it was not compatible, and was told unlocked phones are not fully compatible with all networks.",
+      "citations": [
+        "9314d20bfb02_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reported that a Simple Mobile representative confirmed their supposedly unlocked iPhone XR was actually locked.",
+      "citations": [
+        "ac2bf2a1a26d_1"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said their iPhone XR was supposed to be unlocked but was not, and their carrier reported the device as lost/stolen so it would not activate.",
+      "citations": [
+        "de7147f23b08_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the iPhone XR was factory unlocked as described and was very pleased.",
+      "citations": [
+        "33ac6df0c176_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who ordered a 128GB iPhone XR said it was completely unlocked thanks to Verizon pre-owned.",
+      "citations": [
+        "bb3d3a4ce3b5_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said they took the phone to AT&T, where a SIM card was added and the phone and new number were activated immediately.",
+      "citations": [
+        "0af9f7fc019e_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said they bought the iPhone XR for a Metro T-Mobile account and found it was not compatible, and was told unlocked phones are not fully compatible with all networks.",
+      "citations": [
+        "9314d20bfb02_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "ac2bf2a1a26d_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "turned out to be a LOCKED phone after all"
+      ],
+      "reason": "Carrier compatibility tested; phone found locked despite being sold unlocked.",
+      "doc_id": "ac2bf2a1a26d",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "de7147f23b08_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "In checking with my carrier, the device had been reported as lost/stolen, and would not activate it"
+      ],
+      "reason": "Carrier reports device lost/stolen and won't activate it.",
+      "doc_id": "de7147f23b08",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "33ac6df0c176_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "It was all factory unlocked as the description said"
+      ],
+      "reason": "Phone factory unlocked as described, positive carrier/unlock status.",
+      "doc_id": "33ac6df0c176",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "bb3d3a4ce3b5_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "it's completely unlocked thanks Verizon pre-owned"
+      ],
+      "reason": "Phone completely unlocked, positive carrier status.",
+      "doc_id": "bb3d3a4ce3b5",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "1515f50978b4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "iphone xr unlocked. Very Good!"
+      ],
+      "reason": "Unlocked status praised as very good.",
+      "doc_id": "1515f50978b4",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "0af9f7fc019e_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "All I had to do was take it to AT&T (any wireless provider will work) and they added a SIM card and got the phone and new phone number activated immediately"
+      ],
+      "reason": "Carrier activation at AT&T worked immediately, positive.",
+      "doc_id": "0af9f7fc019e",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "5afe9f1cd591_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "I have been informed this Product is not unlocked"
+      ],
+      "reason": "Carrier activation failed; product not unlocked.",
+      "doc_id": "5afe9f1cd591",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "9314d20bfb02_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "turns out it’s not compatible",
+        "unlocked phones are not fully compatible with all networks"
+      ],
+      "reason": "Phone incompatible with Metro T-Mobile carrier.",
+      "doc_id": "9314d20bfb02",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "46a87446f78f_0",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "Just need an unlocked iPhone."
+      ],
+      "reason": "States need for unlocked phone; no evaluative opinion on carrier.",
+      "doc_id": "46a87446f78f",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "c83ada4a6d8c_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "I purchased this unlocked for ATT"
+      ],
+      "reason": "Purchased unlocked for AT&T; no carrier problems noted.",
+      "doc_id": "c83ada4a6d8c",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 5,
+        "negative": 4,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5555555555555556,
+      "polarized_denominator": 9
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "ac2bf2a1a26d_1",
+      "doc_id": "ac2bf2a1a26d",
+      "text": "At Simple Mobile, the representative tried putting in a friends AT&T sim card into my new device to test if their service would work, which IT DID. After waiting about an hour in Simple Mobile for them to trouble shoot and call IT, the representative confirmed that my purchase of an Unlocked IPhone XR turned out to be a LOCKED phone after all!",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "de7147f23b08_0",
+      "doc_id": "de7147f23b08",
+      "text": "Not able t activate. I purchased an iPhone XR that was supposed to be unlocked, however it was not unlocked. In checking with my carrier, the device had been reported as lost/stolen, and would not activate it.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "33ac6df0c176_0",
+      "doc_id": "33ac6df0c176",
+      "text": "iPhone XR Review. It was all factory unlocked as the description said and honestly I would say they really deliver you a “AS NEW” phone! Good price as well for an iPhone XR! Very pleased.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "bb3d3a4ce3b5_0",
+      "doc_id": "bb3d3a4ce3b5",
+      "text": "iPhone xr unlocked. I ordered a 128gb iPhone xr. I received the phone today and the day home looks brand new battery health is at 85% which is good and it's been working good so far and it's completely unlocked thanks Verizon pre-owned",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "1515f50978b4_0",
+      "doc_id": "1515f50978b4",
+      "text": "iphone xr unlocked. Very Good!",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "0af9f7fc019e_0",
+      "doc_id": "0af9f7fc019e",
+      "text": "Extremely Satisfied. I am extremely satisfied. The iPhone XR seemed brand new, no scratches or dents and charger was included. A SIM card is not included, but that’s no big deal. If you are upgrading, take out the SIM card from your old phone & insert in the new phone. Or in my case, I bought this phone for one of my new employees. All I had to do was take it to AT&T (any wireless provider will work) and they added a SIM card and got the phone and new phone number activated immediately.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "5afe9f1cd591_0",
+      "doc_id": "5afe9f1cd591",
+      "text": "iPhone Is Not Unlocked. Good morning, I have recieved My iPhone XR; however I contacted My Phone Prover, and in them trying to Activate this iPhone XR I have been informed this Product is not unlocked. Meanwhile, I have attempted on several attempts, I have tried to contact \"Amazon\" concerning this issue. Whereas, I have been instructed by MetroPCS , and Apple to contact the company (i.e., \"Amazon \" to get the appropriate code and/or codes to unlock this devices). Please contact Me, Faye Gomillion Account Holder regarding this matter at (980) 441-9024. Thank You in advance for Your immediate attention to this matter, I am Faye V Gomillion Purchaser",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "9314d20bfb02_0",
+      "doc_id": "9314d20bfb02",
+      "text": "Use caution read closely. Ordered the phone received it but the box for the charger turned super hot real quick and lasted about 5 days and had to buy new ones. The biggest thing is that I had purchased the iPhone XR to use with metro T-Mobile account and turns out it’s not compatible. Was informed unlocked phones are not fully compatible with all networks besides the company created to be with.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "46a87446f78f_0",
+      "doc_id": "46a87446f78f",
+      "text": "2018 iPhone XR. Just need an unlocked iPhone.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "c83ada4a6d8c_0",
+      "doc_id": "c83ada4a6d8c",
+      "text": "Apple iPhone XR, AT&T, 64GB. I purchased this unlocked for ATT. Arrived within 2 weeks. Features including overall quality of the phone were as specified. Battery tested out at exactly 90% (also as advertised). No visible scratches or defects noted. Have now had it for about 2 weeks and have had no notable problems with it.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    }
+  ],
+  "contexts": [
+    "At Simple Mobile, the representative tried putting in a friends AT&T sim card into my new device to test if their service would work, which IT DID. After waiting about an hour in Simple Mobile for them to trouble shoot and call IT, the representative confirmed that my purchase of an Unlocked IPhone XR turned out to be a LOCKED phone after all!",
+    "Not able t activate. I purchased an iPhone XR that was supposed to be unlocked, however it was not unlocked. In checking with my carrier, the device had been reported as lost/stolen, and would not activate it.",
+    "iPhone XR Review. It was all factory unlocked as the description said and honestly I would say they really deliver you a “AS NEW” phone! Good price as well for an iPhone XR! Very pleased.",
+    "iPhone xr unlocked. I ordered a 128gb iPhone xr. I received the phone today and the day home looks brand new battery health is at 85% which is good and it's been working good so far and it's completely unlocked thanks Verizon pre-owned",
+    "iphone xr unlocked. Very Good!",
+    "Extremely Satisfied. I am extremely satisfied. The iPhone XR seemed brand new, no scratches or dents and charger was included. A SIM card is not included, but that’s no big deal. If you are upgrading, take out the SIM card from your old phone & insert in the new phone. Or in my case, I bought this phone for one of my new employees. All I had to do was take it to AT&T (any wireless provider will work) and they added a SIM card and got the phone and new phone number activated immediately.",
+    "iPhone Is Not Unlocked. Good morning, I have recieved My iPhone XR; however I contacted My Phone Prover, and in them trying to Activate this iPhone XR I have been informed this Product is not unlocked. Meanwhile, I have attempted on several attempts, I have tried to contact \"Amazon\" concerning this issue. Whereas, I have been instructed by MetroPCS , and Apple to contact the company (i.e., \"Amazon \" to get the appropriate code and/or codes to unlock this devices). Please contact Me, Faye Gomillion Account Holder regarding this matter at (980) 441-9024. Thank You in advance for Your immediate attention to this matter, I am Faye V Gomillion Purchaser",
+    "Use caution read closely. Ordered the phone received it but the box for the charger turned super hot real quick and lasted about 5 days and had to buy new ones. The biggest thing is that I had purchased the iPhone XR to use with metro T-Mobile account and turns out it’s not compatible. Was informed unlocked phones are not fully compatible with all networks besides the company created to be with.",
+    "2018 iPhone XR. Just need an unlocked iPhone.",
+    "Apple iPhone XR, AT&T, 64GB. I purchased this unlocked for ATT. Arrived within 2 weeks. Features including overall quality of the phone were as specified. Battery tested out at exactly 90% (also as advertised). No visible scratches or defects noted. Have now had it for about 2 weeks and have had no notable problems with it."
+  ],
+  "timing": {
+    "classification_s": 3.0121425000033923,
+    "generation_s": 1.6375229999976,
+    "verification_s": 7.499998901039362e-06,
+    "total_s": 4.6496845000001485
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1432,
+        "completion_tokens": 670,
+        "total_tokens": 2102,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1176
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1308,
+        "completion_tokens": 284,
+        "total_tokens": 1592,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1180
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

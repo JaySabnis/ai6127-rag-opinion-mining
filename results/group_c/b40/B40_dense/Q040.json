@@ -1,0 +1,483 @@
+{
+  "question": "How does owner feedback on battery life compare between the iPhone XR and the Samsung Galaxy S10?",
+  "answer": "One Galaxy S10 owner described the battery life as lasting one day and needing a nightly charge, calling it abysmal compared to their Samsung A70. [8b615d3582a4_0]\nAnother Galaxy S10 owner said the longer battery life is a big bonus. [f13bc4cad828_0]\nOne Galaxy S10 owner said the phone needs more battery life but they won't complain. [289b428ffefe_0]\nA Galaxy S10 owner reported terrible battery life, saying it only lasts a couple of hours even when not actively used. [2e629a5210ff_0]\nAnother Galaxy S10 owner said the battery was terrible, dropping from 75% to dead within a couple hours. [a04d016a168b_0]\nOne Galaxy S10 owner said the battery life seems good. [c4bc0d0e3983_0]",
+  "draft_answer": "One Galaxy S10 owner described the battery life as lasting one day and needing a nightly charge, calling it abysmal compared to their Samsung A70. [8b615d3582a4_0]\nAnother Galaxy S10 owner said the longer battery life is a big bonus. [f13bc4cad828_0]\nOne Galaxy S10 owner said the phone needs more battery life but they won't complain. [289b428ffefe_0]\nA Galaxy S10 owner reported terrible battery life, saying it only lasts a couple of hours even when not actively used. [2e629a5210ff_0]\nAnother Galaxy S10 owner said the battery was terrible, dropping from 75% to dead within a couple hours. [a04d016a168b_0]\nOne Galaxy S10 owner said the battery life seems good. [c4bc0d0e3983_0]",
+  "sentences": [
+    {
+      "text": "One Galaxy S10 owner described the battery life as lasting one day and needing a nightly charge, calling it abysmal compared to their Samsung A70.",
+      "citations": [
+        "8b615d3582a4_0"
+      ]
+    },
+    {
+      "text": "Another Galaxy S10 owner said the longer battery life is a big bonus.",
+      "citations": [
+        "f13bc4cad828_0"
+      ]
+    },
+    {
+      "text": "One Galaxy S10 owner said the phone needs more battery life but they won't complain.",
+      "citations": [
+        "289b428ffefe_0"
+      ]
+    },
+    {
+      "text": "A Galaxy S10 owner reported terrible battery life, saying it only lasts a couple of hours even when not actively used.",
+      "citations": [
+        "2e629a5210ff_0"
+      ]
+    },
+    {
+      "text": "Another Galaxy S10 owner said the battery was terrible, dropping from 75% to dead within a couple hours.",
+      "citations": [
+        "a04d016a168b_0"
+      ]
+    },
+    {
+      "text": "One Galaxy S10 owner said the battery life seems good.",
+      "citations": [
+        "c4bc0d0e3983_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One Galaxy S10 owner described the battery life as lasting one day and needing a nightly charge, calling it abysmal compared to their Samsung A70.",
+      "citations": [
+        "8b615d3582a4_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another Galaxy S10 owner said the longer battery life is a big bonus.",
+      "citations": [
+        "f13bc4cad828_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One Galaxy S10 owner said the phone needs more battery life but they won't complain.",
+      "citations": [
+        "289b428ffefe_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A Galaxy S10 owner reported terrible battery life, saying it only lasts a couple of hours even when not actively used.",
+      "citations": [
+        "2e629a5210ff_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another Galaxy S10 owner said the battery was terrible, dropping from 75% to dead within a couple hours.",
+      "citations": [
+        "a04d016a168b_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One Galaxy S10 owner said the battery life seems good.",
+      "citations": [
+        "c4bc0d0e3983_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One Galaxy S10 owner described the battery life as lasting one day and needing a nightly charge, calling it abysmal compared to their Samsung A70.",
+      "citations": [
+        "8b615d3582a4_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another Galaxy S10 owner said the longer battery life is a big bonus.",
+      "citations": [
+        "f13bc4cad828_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One Galaxy S10 owner said the phone needs more battery life but they won't complain.",
+      "citations": [
+        "289b428ffefe_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A Galaxy S10 owner reported terrible battery life, saying it only lasts a couple of hours even when not actively used.",
+      "citations": [
+        "2e629a5210ff_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another Galaxy S10 owner said the battery was terrible, dropping from 75% to dead within a couple hours.",
+      "citations": [
+        "a04d016a168b_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One Galaxy S10 owner said the battery life seems good.",
+      "citations": [
+        "c4bc0d0e3983_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "8b615d3582a4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "tiny battery life",
+        "Battery life - 1 day, need to charge nightly",
+        "abysmal"
+      ],
+      "reason": "Criticizes S10 battery as tiny, needing nightly charge, abysmal vs A70.",
+      "doc_id": "8b615d3582a4",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "f13bc4cad828_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Longer battery life!",
+        "the longer battery life is a big bonus"
+      ],
+      "reason": "Praises longer battery life as a big bonus.",
+      "doc_id": "f13bc4cad828",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "289b428ffefe_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "it needs more battery life but I won't complain"
+      ],
+      "reason": "Wants more battery life (criticism) but downplays complaint; mild mixed.",
+      "doc_id": "289b428ffefe",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "2e629a5210ff_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery life is terrible.",
+        "Very poor battery life",
+        "massive battery drain",
+        "only lasts a couple of hours"
+      ],
+      "reason": "Strong criticism of battery drain and short life.",
+      "doc_id": "2e629a5210ff",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "a04d016a168b_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the battery life was terrible",
+        "within a couple hours it was dead"
+      ],
+      "reason": "Battery died quickly and charged poorly; negative.",
+      "doc_id": "a04d016a168b",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "51489753c07b_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the battery life is really bad",
+        "at 11 am is 20%",
+        "the battery is way better"
+      ],
+      "reason": "Criticizes S10 battery drain; compares unfavorably to A01.",
+      "doc_id": "51489753c07b",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "c4bc0d0e3983_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Battery life seems good"
+      ],
+      "reason": "States battery life seems good; positive.",
+      "doc_id": "c4bc0d0e3983",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "7c4e3402264e_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery does not last as long as previous s10"
+      ],
+      "reason": "Battery lasts less than previous S10; negative.",
+      "doc_id": "7c4e3402264e",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "0504ef3fe800_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery drains faster than s9+"
+      ],
+      "reason": "Battery drains faster than S9+; negative.",
+      "doc_id": "0504ef3fe800",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "f3ced6fdc3a1_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Battery life and faster compared to s5"
+      ],
+      "reason": "Battery life better/faster than S5; positive.",
+      "doc_id": "f3ced6fdc3a1",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 3,
+        "negative": 6,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.3,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.3333333333333333,
+      "polarized_denominator": 9
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "8b615d3582a4_0",
+      "doc_id": "8b615d3582a4",
+      "text": "S10 is for moms. Tiny screen, tiny battery life. Luckily some bloatware can be uninstalled via adb, even without root. Search xda for details. Battery life - 1 day, need to charge nightly. Compared to my other Samsung A70 with its 6.7\" screen and 3 day battery life - abysmal.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "f13bc4cad828_0",
+      "doc_id": "f13bc4cad828",
+      "text": "Longer battery life!. I like my Galaxy S10. Have not used the fingerprint reader or face recognition but the longer battery life is a big bonus. The clarity of the screen is marvelous, it is comfortable to hold and use. I really like it.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "289b428ffefe_0",
+      "doc_id": "289b428ffefe",
+      "text": "S10. I like the phone it needs more battery life but I won't complain",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "2e629a5210ff_0",
+      "doc_id": "2e629a5210ff",
+      "text": "Battery life is terrible.. Very poor battery life. I've bought another S10 renewed and it didn't have this massive battery drain. It only lasts a couple of hours, even if you're not actively using it.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B0BM3F9RK1"
+    },
+    {
+      "chunk_id": "a04d016a168b_0",
+      "doc_id": "a04d016a168b",
+      "text": "No bueno.. Although we did receive the s10, the battery life was terrible. It came charged at 75%, within a couple hours it was dead and would take almost a full week plugged in to charge to 100%. We were not offered a replacement, however, the phone was sent back and we were given a full refund.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B0BM3F9RK1"
+    },
+    {
+      "chunk_id": "51489753c07b_0",
+      "doc_id": "51489753c07b",
+      "text": "Battery life compared to a part time job. The phone itself is great, all works flawlessly ( I bet when is new is better) I bought this from cellsurfers they claim is refurbished but the battery life is really bad, I charged during night, 7 am unplugged and at 11 am is 20%, I am a student and I use my phone mostly for emails and some videos in YouTube. Barely take pictures, i make some calls through regular phone and whatsapp. I had a samsung A01 before the S10 ($59 cost phone) and the battery is way better...",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "c4bc0d0e3983_0",
+      "doc_id": "c4bc0d0e3983",
+      "text": "Samsung s10. So far its been great. Very lightweight. Battery life seems good. Quite fast upgrading from s6.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "7c4e3402264e_0",
+      "doc_id": "7c4e3402264e",
+      "text": "As described. Battery does not last as long as previous s10. As described. Battery does not last as long as previous s10",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "0504ef3fe800_0",
+      "doc_id": "0504ef3fe800",
+      "text": "Should of got the s10+ for 40 more dollars.......... Battery drains faster than s9+",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "f3ced6fdc3a1_0",
+      "doc_id": "f3ced6fdc3a1",
+      "text": "Speed. Battery life and faster compared to s5",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    }
+  ],
+  "contexts": [
+    "S10 is for moms. Tiny screen, tiny battery life. Luckily some bloatware can be uninstalled via adb, even without root. Search xda for details. Battery life - 1 day, need to charge nightly. Compared to my other Samsung A70 with its 6.7\" screen and 3 day battery life - abysmal.",
+    "Longer battery life!. I like my Galaxy S10. Have not used the fingerprint reader or face recognition but the longer battery life is a big bonus. The clarity of the screen is marvelous, it is comfortable to hold and use. I really like it.",
+    "S10. I like the phone it needs more battery life but I won't complain",
+    "Battery life is terrible.. Very poor battery life. I've bought another S10 renewed and it didn't have this massive battery drain. It only lasts a couple of hours, even if you're not actively using it.",
+    "No bueno.. Although we did receive the s10, the battery life was terrible. It came charged at 75%, within a couple hours it was dead and would take almost a full week plugged in to charge to 100%. We were not offered a replacement, however, the phone was sent back and we were given a full refund.",
+    "Battery life compared to a part time job. The phone itself is great, all works flawlessly ( I bet when is new is better) I bought this from cellsurfers they claim is refurbished but the battery life is really bad, I charged during night, 7 am unplugged and at 11 am is 20%, I am a student and I use my phone mostly for emails and some videos in YouTube. Barely take pictures, i make some calls through regular phone and whatsapp. I had a samsung A01 before the S10 ($59 cost phone) and the battery is way better...",
+    "Samsung s10. So far its been great. Very lightweight. Battery life seems good. Quite fast upgrading from s6.",
+    "As described. Battery does not last as long as previous s10. As described. Battery does not last as long as previous s10",
+    "Should of got the s10+ for 40 more dollars.......... Battery drains faster than s9+",
+    "Speed. Battery life and faster compared to s5"
+  ],
+  "timing": {
+    "classification_s": 3.122383700007049,
+    "generation_s": 1.831511699994735,
+    "verification_s": 6.400005077011883e-06,
+    "total_s": 4.953912299999502
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1252,
+        "completion_tokens": 683,
+        "total_tokens": 1935,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 868
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1132,
+        "completion_tokens": 237,
+        "total_tokens": 1369,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1004
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

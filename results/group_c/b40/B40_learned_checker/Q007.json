@@ -1,0 +1,458 @@
+{
+  "question": "How long does the Samsung Galaxy S10 last between charges in everyday use?",
+  "answer": "One reviewer reported that the Galaxy S10 lasts about one day before needing to charge again with only texting, calls, and light browsing. [ce4618a4bfaf_0]\nAnother reviewer said they have to put the phone on charge every 8-9 hours. [76db1ee6a786_1]\nA different reviewer reported the battery lasts about 6 hours and does not last all day. [8e51bc830f71_0]\nOne reviewer said a fully charged battery lasts them 3 hours maximum. [d24d3d742e77_0]\nAnother reviewer said the phone lasts the whole day on average but requires charging by 5 o'clock when listening to music or playing videos. [1acf5874a5be_0]\nOne reviewer reported that 100% battery lasts them 2 hours at most after less than 6 months of use. [79dfc9eeb023_0]",
+  "draft_answer": "One reviewer reported that the Galaxy S10 lasts about one day before needing to charge again with only texting, calls, and light browsing. [ce4618a4bfaf_0]\nAnother reviewer said they have to put the phone on charge every 8-9 hours. [76db1ee6a786_1]\nA different reviewer reported the battery lasts about 6 hours and does not last all day. [8e51bc830f71_0]\nOne reviewer said a fully charged battery lasts them 3 hours maximum. [d24d3d742e77_0]\nAnother reviewer said the phone lasts the whole day on average but requires charging by 5 o'clock when listening to music or playing videos. [1acf5874a5be_0]\nOne reviewer reported that 100% battery lasts them 2 hours at most after less than 6 months of use. [79dfc9eeb023_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported that the Galaxy S10 lasts about one day before needing to charge again with only texting, calls, and light browsing.",
+      "citations": [
+        "ce4618a4bfaf_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said they have to put the phone on charge every 8-9 hours.",
+      "citations": [
+        "76db1ee6a786_1"
+      ]
+    },
+    {
+      "text": "A different reviewer reported the battery lasts about 6 hours and does not last all day.",
+      "citations": [
+        "8e51bc830f71_0"
+      ]
+    },
+    {
+      "text": "One reviewer said a fully charged battery lasts them 3 hours maximum.",
+      "citations": [
+        "d24d3d742e77_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said the phone lasts the whole day on average but requires charging by 5 o'clock when listening to music or playing videos.",
+      "citations": [
+        "1acf5874a5be_0"
+      ]
+    },
+    {
+      "text": "One reviewer reported that 100% battery lasts them 2 hours at most after less than 6 months of use.",
+      "citations": [
+        "79dfc9eeb023_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One reviewer reported that the Galaxy S10 lasts about one day before needing to charge again with only texting, calls, and light browsing.",
+      "citations": [
+        "ce4618a4bfaf_0"
+      ],
+      "status": "supported",
+      "reason": "评论者称手机仅用于发短信、通话和少量浏览，却只能撑一天就需充电，与句子内容一致。",
+      "evidence": [
+        {
+          "chunk_id": "ce4618a4bfaf_0",
+          "quote": "It is used only for texting, calls, and a little online shopping, browsing, social media. But otherwise, doesn't seem like the device should only last one day before needing to charge again."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "Another reviewer said they have to put the phone on charge every 8-9 hours.",
+      "citations": [
+        "76db1ee6a786_1"
+      ],
+      "status": "supported",
+      "reason": "评论者明确说每8-9小时就要充电。",
+      "evidence": [
+        {
+          "chunk_id": "76db1ee6a786_1",
+          "quote": "I'm disappointed that I have to put it on charge every 8-9 hours."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "A different reviewer reported the battery lasts about 6 hours and does not last all day.",
+      "citations": [
+        "8e51bc830f71_0"
+      ],
+      "status": "supported",
+      "reason": "评论者称电池约持续6小时且撑不了一整天。",
+      "evidence": [
+        {
+          "chunk_id": "8e51bc830f71_0",
+          "quote": "It doesn't last all day. It lasts about 6 hours."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s3",
+      "text": "One reviewer said a fully charged battery lasts them 3 hours maximum.",
+      "citations": [
+        "d24d3d742e77_0"
+      ],
+      "status": "supported",
+      "reason": "评论者称满电最多用3小时。",
+      "evidence": [
+        {
+          "chunk_id": "d24d3d742e77_0",
+          "quote": "A fully charged battery lasts me 3 hours maximum."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "Another reviewer said the phone lasts the whole day on average but requires charging by 5 o'clock when listening to music or playing videos.",
+      "citations": [
+        "1acf5874a5be_0"
+      ],
+      "status": "supported",
+      "reason": "评论者称平均能撑一整天，但听音乐或看视频到5点就得充电。",
+      "evidence": [
+        {
+          "chunk_id": "1acf5874a5be_0",
+          "quote": "last the whole day on average but if you listen to music or play videos you will be charging by 5 o'clock."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "One reviewer reported that 100% battery lasts them 2 hours at most after less than 6 months of use.",
+      "citations": [
+        "79dfc9eeb023_0"
+      ],
+      "status": "supported",
+      "reason": "评论者称不到6个月电池就出问题，满电最多2小时。",
+      "evidence": [
+        {
+          "chunk_id": "79dfc9eeb023_0",
+          "quote": "Its been less then 6 months and my battery is already messed up. It won't hold charge, I don't leave it on the charger all night or while I sleep. 100% battery lasts me 2 hour at most."
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "ce4618a4bfaf_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery Drains fast",
+        "the battery drains very fast",
+        "doesn't seem like the device should only last one day before needing to charge again"
+      ],
+      "reason": "Complains battery drains fast and needs daily charging.",
+      "doc_id": "ce4618a4bfaf",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "79dfc9eeb023_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "my battery is already messed up",
+        "It won't hold charge",
+        "100% battery lasts me 2 hour at most"
+      ],
+      "reason": "Battery fails to hold charge, lasts only 2 hours.",
+      "doc_id": "79dfc9eeb023",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "76db1ee6a786_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "I'm disappointed that I have to put it on charge every 8-9 hours"
+      ],
+      "reason": "Disappointed battery needs charging every 8-9 hours.",
+      "doc_id": "76db1ee6a786",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "8e51bc830f71_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Disappointed with battery",
+        "The battery on this phone absolutely su.ks",
+        "It lasts about 6 hours"
+      ],
+      "reason": "Battery criticized for lasting only about 6 hours.",
+      "doc_id": "8e51bc830f71",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "3ec6c29ce6ce_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "has charging problems",
+        "it only delays 3 hours and it no longer has a charge"
+      ],
+      "reason": "Charging problems; battery only lasts 3 hours.",
+      "doc_id": "3ec6c29ce6ce",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "e63da459b8af_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery is so slow to charge",
+        "the battery drains so fast, and it just won't charge well"
+      ],
+      "reason": "Battery slow to charge and drains fast.",
+      "doc_id": "e63da459b8af",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "d24d3d742e77_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the battery dies quickly",
+        "A fully charged battery lasts me 3 hours maximum"
+      ],
+      "reason": "Battery dies quickly, lasts 3 hours max.",
+      "doc_id": "d24d3d742e77",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "8373d53907ed_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "moisture message preventing the phone from being charged"
+      ],
+      "reason": "Charging blocked by moisture warning; battery/charging issue.",
+      "doc_id": "8373d53907ed",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "1acf5874a5be_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery drains way faster than my last phone",
+        "if you listen to music or play videos you will be charging by 5 o'clock"
+      ],
+      "reason": "Battery drains faster than previous phone.",
+      "doc_id": "1acf5874a5be",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "a817082d6f34_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "takes forever to charge and drains the batter faster than it charges"
+      ],
+      "reason": "Slow charging and battery drains faster than it charges.",
+      "doc_id": "a817082d6f34",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 0,
+        "negative": 10,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.0,
+      "polarized_denominator": 10
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "ce4618a4bfaf_0",
+      "doc_id": "ce4618a4bfaf",
+      "text": "Battery Drains fast and charging cable sub-par. So this phone is great. It's a big upgrade from my last android. I've only had it for 5 days and so far I love it, except that the battery drains very fast. I don't keep a lot of apps on my phone. It is used only for texting, calls, and a little online shopping, browsing, social media. But otherwise, doesn't seem like the device should only last one day before needing to charge again. My last phone could go longer between charges and that was a much older phone! Plus, the charger that was sent with this phone is not a Samsung charger. Instead it says Sharkk on it- never heard of this brand. Each time I plug the phone into the charger, a message pops up on phone that says to check the connection between the phone and charger.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "79dfc9eeb023_0",
+      "doc_id": "79dfc9eeb023",
+      "text": "Battery messed up in less the 6 months!!. Its been less then 6 months and my battery is already messed up. It won't hold charge, I don't leave it on the charger all night or while I sleep. 100% battery lasts me 2 hour at most. Phone even dies when it isn't in use. And the amount they're charging me for a battery replacement is crazy smh never again. Save your money and go to a big corp company where you can get insurance",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07XJ2BWMP"
+    },
+    {
+      "chunk_id": "76db1ee6a786_1",
+      "doc_id": "76db1ee6a786",
+      "text": "I'm disappointed that I have to put it on charge every 8-9 hours. My last phone prior to this one lasted a few days before having to charge it again.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "8e51bc830f71_0",
+      "doc_id": "8e51bc830f71",
+      "text": "Disappointed with battery. The battery on this phone absolutely su.ks. It doesn't last all day. It lasts about 6 hours. I had read the same comment from other reviewers. I needed a new phone because the battery on my old one was only lasting a couple of hours. Very disappointed with the battery charge. The real good thing is the camera is outstanding. I have not been able to check out all the camera features, but the pictures I've taken so far are much superior to any other phone camera I've used.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07XJ2BWMP"
+    },
+    {
+      "chunk_id": "3ec6c29ce6ce_0",
+      "doc_id": "3ec6c29ce6ce",
+      "text": "has charging problems.. Everything seems fine but I leave it charging all night and another day it only delays 3 hours and it no longer has a charge I have to charge it connected because otherwise it turns off, I had to buy another charger because the one it brings does not work.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "e63da459b8af_0",
+      "doc_id": "e63da459b8af",
+      "text": "Battery is so slow to charge ! Cable slips out. The battery takes 8-10 hours to charge with cable and it often slips \"out\" of the charging port. I tried purchasing a new cable with lightning charging capabilities, and it's slightly faster, about 6 hours to charge and i purchased a wireless qi charger that takes about 8 hours to charge from 20% to 100 I really like this phone, its a beautiful color and works perfectly other then the battery drains so fast, and it just won't charge well :c",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "d24d3d742e77_0",
+      "doc_id": "d24d3d742e77",
+      "text": "Battery doesn't last. The phone did arrive in good physical condition but the battery dies quickly. A fully charged battery lasts me 3 hours maximum.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "8373d53907ed_0",
+      "doc_id": "8373d53907ed",
+      "text": "Moisture warning when charging. Phone has lasted 8 months only. Now there is a moisture message preventing the phone from being charged even though there is no moisture. I have tried cleaning and all the tricks but comes back. I even had the charging entry point fixed but the problem persisted so there is something over heating on malfunctioning in the phone. Disappointed but will not buy a phone like this again even thought the price is enticing.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "1acf5874a5be_0",
+      "doc_id": "1acf5874a5be",
+      "text": "Battery drains fast with normal use. Battery drains way faster than my last phone.last the whole day on average but if you listen to music or play videos you will be charging by 5 o'clock.phone is fast.screen is vivid.takes amazing photos.just battery life and it's feels dainty.i bought a heavy duty case for it and I like it alot more",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "a817082d6f34_0",
+      "doc_id": "a817082d6f34",
+      "text": "Phone didn't last 10 months. The phone didn't make it to 10-months before it started getting extremely hot, takes forever to charge and drains the batter faster than it charges. My last refurbished phone lasted 4 years. I'm highly disappointed.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    }
+  ],
+  "contexts": [
+    "Battery Drains fast and charging cable sub-par. So this phone is great. It's a big upgrade from my last android. I've only had it for 5 days and so far I love it, except that the battery drains very fast. I don't keep a lot of apps on my phone. It is used only for texting, calls, and a little online shopping, browsing, social media. But otherwise, doesn't seem like the device should only last one day before needing to charge again. My last phone could go longer between charges and that was a much older phone! Plus, the charger that was sent with this phone is not a Samsung charger. Instead it says Sharkk on it- never heard of this brand. Each time I plug the phone into the charger, a message pops up on phone that says to check the connection between the phone and charger.",
+    "Battery messed up in less the 6 months!!. Its been less then 6 months and my battery is already messed up. It won't hold charge, I don't leave it on the charger all night or while I sleep. 100% battery lasts me 2 hour at most. Phone even dies when it isn't in use. And the amount they're charging me for a battery replacement is crazy smh never again. Save your money and go to a big corp company where you can get insurance",
+    "I'm disappointed that I have to put it on charge every 8-9 hours. My last phone prior to this one lasted a few days before having to charge it again.",
+    "Disappointed with battery. The battery on this phone absolutely su.ks. It doesn't last all day. It lasts about 6 hours. I had read the same comment from other reviewers. I needed a new phone because the battery on my old one was only lasting a couple of hours. Very disappointed with the battery charge. The real good thing is the camera is outstanding. I have not been able to check out all the camera features, but the pictures I've taken so far are much superior to any other phone camera I've used.",
+    "has charging problems.. Everything seems fine but I leave it charging all night and another day it only delays 3 hours and it no longer has a charge I have to charge it connected because otherwise it turns off, I had to buy another charger because the one it brings does not work.",
+    "Battery is so slow to charge ! Cable slips out. The battery takes 8-10 hours to charge with cable and it often slips \"out\" of the charging port. I tried purchasing a new cable with lightning charging capabilities, and it's slightly faster, about 6 hours to charge and i purchased a wireless qi charger that takes about 8 hours to charge from 20% to 100 I really like this phone, its a beautiful color and works perfectly other then the battery drains so fast, and it just won't charge well :c",
+    "Battery doesn't last. The phone did arrive in good physical condition but the battery dies quickly. A fully charged battery lasts me 3 hours maximum.",
+    "Moisture warning when charging. Phone has lasted 8 months only. Now there is a moisture message preventing the phone from being charged even though there is no moisture. I have tried cleaning and all the tricks but comes back. I even had the charging entry point fixed but the problem persisted so there is something over heating on malfunctioning in the phone. Disappointed but will not buy a phone like this again even thought the price is enticing.",
+    "Battery drains fast with normal use. Battery drains way faster than my last phone.last the whole day on average but if you listen to music or play videos you will be charging by 5 o'clock.phone is fast.screen is vivid.takes amazing photos.just battery life and it's feels dainty.i bought a heavy duty case for it and I like it alot more",
+    "Phone didn't last 10 months. The phone didn't make it to 10-months before it started getting extremely hot, takes forever to charge and drains the batter faster than it charges. My last refurbished phone lasted 4 years. I'm highly disappointed."
+  ],
+  "timing": {
+    "classification_s": 3.406361899993499,
+    "generation_s": 2.1700955999986036,
+    "verification_s": 2.24124760000268,
+    "total_s": 7.817727599998761
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1632,
+        "completion_tokens": 732,
+        "total_tokens": 2364,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 224
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1507,
+        "completion_tokens": 255,
+        "total_tokens": 1762,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 227
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1424,
+        "completion_tokens": 475,
+        "total_tokens": 1899,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1296
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

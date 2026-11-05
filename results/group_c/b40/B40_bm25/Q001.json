@@ -1,0 +1,374 @@
+{
+  "question": "How do reviewers rate the camera quality on the Samsung Galaxy S10?",
+  "answer": "One reviewer described the camera on the Galaxy S10 as being of excellent quality with a fast response. [a025d0475c57_0]\nThe same reviewer was disappointed that a close-up picture setting available on the Galaxy S7 was not present on the S10. [a025d0475c57_0]\nAnother reviewer stated that all the cameras on their Galaxy S10 work. [5a9c6c0583be_0]",
+  "draft_answer": "One reviewer described the camera on the Galaxy S10 as being of excellent quality with a fast response. [a025d0475c57_0]\nThe same reviewer was disappointed that a close-up picture setting available on the Galaxy S7 was not present on the S10. [a025d0475c57_0]\nAnother reviewer stated that all the cameras on their Galaxy S10 work. [5a9c6c0583be_0]",
+  "sentences": [
+    {
+      "text": "One reviewer described the camera on the Galaxy S10 as being of excellent quality with a fast response.",
+      "citations": [
+        "a025d0475c57_0"
+      ]
+    },
+    {
+      "text": "The same reviewer was disappointed that a close-up picture setting available on the Galaxy S7 was not present on the S10.",
+      "citations": [
+        "a025d0475c57_0"
+      ]
+    },
+    {
+      "text": "Another reviewer stated that all the cameras on their Galaxy S10 work.",
+      "citations": [
+        "5a9c6c0583be_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer described the camera on the Galaxy S10 as being of excellent quality with a fast response.",
+      "citations": [
+        "a025d0475c57_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "The same reviewer was disappointed that a close-up picture setting available on the Galaxy S7 was not present on the S10.",
+      "citations": [
+        "a025d0475c57_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer stated that all the cameras on their Galaxy S10 work.",
+      "citations": [
+        "5a9c6c0583be_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer described the camera on the Galaxy S10 as being of excellent quality with a fast response.",
+      "citations": [
+        "a025d0475c57_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "The same reviewer was disappointed that a close-up picture setting available on the Galaxy S7 was not present on the S10.",
+      "citations": [
+        "a025d0475c57_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer stated that all the cameras on their Galaxy S10 work.",
+      "citations": [
+        "5a9c6c0583be_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "2af44dfe1a4b_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Wrong model received; no discussion of camera.",
+      "doc_id": "2af44dfe1a4b",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "e70a4e9e122a_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General praise; camera not mentioned.",
+      "doc_id": "e70a4e9e122a",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "a025d0475c57_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "the camera is of excellent quality and has a fast response"
+      ],
+      "reason": "Camera praised as excellent quality with fast response.",
+      "doc_id": "a025d0475c57",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "7b5b44f5182f_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General quality and performance; no camera mention.",
+      "doc_id": "7b5b44f5182f",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "028235319a98_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General praise; camera not discussed.",
+      "doc_id": "028235319a98",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "55e56927ab70_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General functions praised; no camera mention.",
+      "doc_id": "55e56927ab70",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "c7f876b73704_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Reliability and syncing; no camera discussion.",
+      "doc_id": "c7f876b73704",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "c16093214eb9_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General dissatisfaction; camera not mentioned.",
+      "doc_id": "c16093214eb9",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "45dff12effbb_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Phone working fine; no camera mention.",
+      "doc_id": "45dff12effbb",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "5a9c6c0583be_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "all the cameras work"
+      ],
+      "reason": "Cameras reported working; positive factual-leaning praise.",
+      "doc_id": "5a9c6c0583be",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 2,
+      "n_excluded_aspect_absent": 8,
+      "counts": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 1.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 2
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "2af44dfe1a4b_0",
+      "doc_id": "2af44dfe1a4b",
+      "text": "The product no is the same!!. When I buy this product said is a samsung galaxy s10+ and when I get this is a samsung galaxy s10",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "e70a4e9e122a_0",
+      "doc_id": "e70a4e9e122a",
+      "text": "The Samsung Galaxy S10 is a incredible phone. It exceeds my expectations.. The phone works as described and the quality is exceptional. Thank you!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "a025d0475c57_0",
+      "doc_id": "a025d0475c57",
+      "text": "Good phone. Everything is great about the phone if you're a regular Samsung user. I went from a Galaxy S7 to this S10 and have seen a noticeable difference in performance. The only thing I'm bummed about is a close-up picture setting that was on the S7 but not on the S10. Despite that, the camera is of excellent quality and has a fast response.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07VZNDZY6"
+    },
+    {
+      "chunk_id": "7b5b44f5182f_0",
+      "doc_id": "7b5b44f5182f",
+      "text": "Galaxy s10 128 gig top quality like new thank you. Thank you for the Samsung Galaxy S10 I read some reviews and I guess they where from a while back but this company has it together I received a quality product activated service today through Verizon and I have had it around 5 days seems to be functioning at peak performance I did select Verizon carrier the phone is a sprint phone but no problems if your hesitant or over thinking it don't good quality company ill use them again thank you again",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "028235319a98_0",
+      "doc_id": "028235319a98",
+      "text": "Perfect condition, works great. LOVE my galaxy S10! I've been a Samsung user for over 10 years and the Galaxy S10 is perfect",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "55e56927ab70_0",
+      "doc_id": "55e56927ab70",
+      "text": "Samsung Galaxy S10 in one awesome phone.. Samsung Galaxy S10 is a fantastic phone, easy to use, easy to read, great functions and charges up quickly. Highly recommend",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "c7f876b73704_0",
+      "doc_id": "c7f876b73704",
+      "text": "Galaxy S10 is more reliable than my iPhone was.. Last summer I bought a Samsung Galaxy laptop computer. This phone, S10, synchs very well with the computer.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "c16093214eb9_0",
+      "doc_id": "c16093214eb9",
+      "text": "Samsung Galaxy s10. I am not happy about the phone",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "45dff12effbb_0",
+      "doc_id": "45dff12effbb",
+      "text": "Samsung galaxy S10. The phone is working fine",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B0BM3F9RK1"
+    },
+    {
+      "chunk_id": "5a9c6c0583be_0",
+      "doc_id": "5a9c6c0583be",
+      "text": "Samsung Galaxy S10 Sold from RE-CELL. This phone came in great condition! All the buttons work, all the cameras work, and the battery life is awesome!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    }
+  ],
+  "contexts": [
+    "The product no is the same!!. When I buy this product said is a samsung galaxy s10+ and when I get this is a samsung galaxy s10",
+    "The Samsung Galaxy S10 is a incredible phone. It exceeds my expectations.. The phone works as described and the quality is exceptional. Thank you!",
+    "Good phone. Everything is great about the phone if you're a regular Samsung user. I went from a Galaxy S7 to this S10 and have seen a noticeable difference in performance. The only thing I'm bummed about is a close-up picture setting that was on the S7 but not on the S10. Despite that, the camera is of excellent quality and has a fast response.",
+    "Galaxy s10 128 gig top quality like new thank you. Thank you for the Samsung Galaxy S10 I read some reviews and I guess they where from a while back but this company has it together I received a quality product activated service today through Verizon and I have had it around 5 days seems to be functioning at peak performance I did select Verizon carrier the phone is a sprint phone but no problems if your hesitant or over thinking it don't good quality company ill use them again thank you again",
+    "Perfect condition, works great. LOVE my galaxy S10! I've been a Samsung user for over 10 years and the Galaxy S10 is perfect",
+    "Samsung Galaxy S10 in one awesome phone.. Samsung Galaxy S10 is a fantastic phone, easy to use, easy to read, great functions and charges up quickly. Highly recommend",
+    "Galaxy S10 is more reliable than my iPhone was.. Last summer I bought a Samsung Galaxy laptop computer. This phone, S10, synchs very well with the computer.",
+    "Samsung Galaxy s10. I am not happy about the phone",
+    "Samsung galaxy S10. The phone is working fine",
+    "Samsung Galaxy S10 Sold from RE-CELL. This phone came in great condition! All the buttons work, all the cameras work, and the battery life is awesome!"
+  ],
+  "timing": {
+    "classification_s": 2.286760499999218,
+    "generation_s": 1.005454700003611,
+    "verification_s": 5.399997462518513e-06,
+    "total_s": 3.292228600003
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1189,
+        "completion_tokens": 504,
+        "total_tokens": 1693,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 933
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1063,
+        "completion_tokens": 121,
+        "total_tokens": 1184,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1063
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

@@ -1,0 +1,449 @@
+{
+  "question": "What do reviewers say about the Google Pixel 4a speed when running apps?",
+  "answer": "One reviewer said the Pixel 4a is fast in loading apps. [5b1b47bee1e3_0]\nAnother reviewer reported no noticeable processing speed difference on daily tasks compared to the Pixel 3, aside from photos taking a split second more to process or save. [b92a9a37c49c_3]\nOne reviewer called it a lightning fast phone. [0ba1221a4267_0]\nA disappointed reviewer said the 4a is slower than expected and performance isn't great, especially with Teams and Outlook for work. [05c66cb8cea2_0]\nOne reviewer noted benchmarking puts this phone performing below a OnePlus 6t on Geekbench. [8e05a7f87bb3_0]\nAnother reviewer described the processor as fast. [ced74fee5b0a_0]",
+  "draft_answer": "One reviewer said the Pixel 4a is fast in loading apps. [5b1b47bee1e3_0]\nAnother reviewer reported no noticeable processing speed difference on daily tasks compared to the Pixel 3, aside from photos taking a split second more to process or save. [b92a9a37c49c_3]\nOne reviewer called it a lightning fast phone. [0ba1221a4267_0]\nA disappointed reviewer said the 4a is slower than expected and performance isn't great, especially with Teams and Outlook for work. [05c66cb8cea2_0]\nOne reviewer noted benchmarking puts this phone performing below a OnePlus 6t on Geekbench. [8e05a7f87bb3_0]\nAnother reviewer described the processor as fast. [ced74fee5b0a_0]",
+  "sentences": [
+    {
+      "text": "One reviewer said the Pixel 4a is fast in loading apps.",
+      "citations": [
+        "5b1b47bee1e3_0"
+      ]
+    },
+    {
+      "text": "Another reviewer reported no noticeable processing speed difference on daily tasks compared to the Pixel 3, aside from photos taking a split second more to process or save.",
+      "citations": [
+        "b92a9a37c49c_3"
+      ]
+    },
+    {
+      "text": "One reviewer called it a lightning fast phone.",
+      "citations": [
+        "0ba1221a4267_0"
+      ]
+    },
+    {
+      "text": "A disappointed reviewer said the 4a is slower than expected and performance isn't great, especially with Teams and Outlook for work.",
+      "citations": [
+        "05c66cb8cea2_0"
+      ]
+    },
+    {
+      "text": "One reviewer noted benchmarking puts this phone performing below a OnePlus 6t on Geekbench.",
+      "citations": [
+        "8e05a7f87bb3_0"
+      ]
+    },
+    {
+      "text": "Another reviewer described the processor as fast.",
+      "citations": [
+        "ced74fee5b0a_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One reviewer said the Pixel 4a is fast in loading apps.",
+      "citations": [
+        "5b1b47bee1e3_0"
+      ],
+      "status": "supported",
+      "reason": "评论者明确说该手机加载应用很快。",
+      "evidence": [
+        {
+          "chunk_id": "5b1b47bee1e3_0",
+          "quote": "It is fast in loading apps."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "Another reviewer reported no noticeable processing speed difference on daily tasks compared to the Pixel 3, aside from photos taking a split second more to process or save.",
+      "citations": [
+        "b92a9a37c49c_3"
+      ],
+      "status": "supported",
+      "reason": "评论者称除拍照处理稍慢外，日常任务处理速度与Pixel 3无明显差异。",
+      "evidence": [
+        {
+          "chunk_id": "b92a9a37c49c_3",
+          "quote": "photo takes a split second more to process/save right after taking one, but besides this occasion I don't feel any noticeable processing speed difference on daily tasks compared to the Pixel 3"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "One reviewer called it a lightning fast phone.",
+      "citations": [
+        "0ba1221a4267_0"
+      ],
+      "status": "supported",
+      "reason": "评论者开头即称其为闪电般快的手机。",
+      "evidence": [
+        {
+          "chunk_id": "0ba1221a4267_0",
+          "quote": "Lightning fast phone."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s3",
+      "text": "A disappointed reviewer said the 4a is slower than expected and performance isn't great, especially with Teams and Outlook for work.",
+      "citations": [
+        "05c66cb8cea2_0"
+      ],
+      "status": "supported",
+      "reason": "失望的评论者称比预期慢、性能不佳，尤其用Teams和Outlook时。",
+      "evidence": [
+        {
+          "chunk_id": "05c66cb8cea2_0",
+          "quote": "The 4a is not awful but it's slower than you'd expect. Performance isn't great, pretty slow, especially using Teams and Outlook for work."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "One reviewer noted benchmarking puts this phone performing below a OnePlus 6t on Geekbench.",
+      "citations": [
+        "8e05a7f87bb3_0"
+      ],
+      "status": "supported",
+      "reason": "评论者称跑分显示该手机在Geekbench上低于OnePlus 6t。",
+      "evidence": [
+        {
+          "chunk_id": "8e05a7f87bb3_0",
+          "quote": "Benchmarking puts this phone performing below a OnePlus 6t on Geekbench."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "Another reviewer described the processor as fast.",
+      "citations": [
+        "ced74fee5b0a_0"
+      ],
+      "status": "supported",
+      "reason": "评论者明确描述处理器快。",
+      "evidence": [
+        {
+          "chunk_id": "ced74fee5b0a_0",
+          "quote": "Fast processor, superior Android software for camera"
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "5b1b47bee1e3_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "It is fast in loading apps"
+      ],
+      "reason": "Praises app loading speed as fast, positive performance evidence.",
+      "doc_id": "5b1b47bee1e3",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "b92a9a37c49c_3",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "I don't feel any noticeable processing speed difference on daily tasks",
+        "no complaints on processing power"
+      ],
+      "reason": "Reports no noticeable speed difference and no complaints; balanced, not clearly positive or negative.",
+      "doc_id": "b92a9a37c49c",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "248624203d23_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Faster internet speed because of the 5G"
+      ],
+      "reason": "Praises faster internet speed; positive performance evidence.",
+      "doc_id": "248624203d23",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "1a909d2f62f4_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses battery life and charging, not performance.",
+      "doc_id": "1a909d2f62f4",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "7f6deef93dfe_1",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "the Pixel 3a is just a second or so behind not a deal breaker"
+      ],
+      "reason": "Compares speed of Pixel 3a, not clearly praising/criticizing 4a performance.",
+      "doc_id": "7f6deef93dfe",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "7f4cf348e398_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "my speeds are fast as they are",
+        "Slower processor than Pixel 4a 5G and Pixel 5"
+      ],
+      "reason": "Positive about speeds but notes slower processor than other models; mixed.",
+      "doc_id": "7f4cf348e398",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "8e05a7f87bb3_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Benchmarking puts this phone performing below a OnePlus 6t on Geekbench"
+      ],
+      "reason": "Criticizes benchmark performance as below another phone; negative.",
+      "doc_id": "8e05a7f87bb3",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "0ba1221a4267_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Lightning fast phone"
+      ],
+      "reason": "Praises phone as lightning fast; positive performance.",
+      "doc_id": "0ba1221a4267",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "05c66cb8cea2_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "it's slower than you'd expect",
+        "Performance isn't great, pretty slow"
+      ],
+      "reason": "Criticizes performance as slow; negative.",
+      "doc_id": "05c66cb8cea2",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "ced74fee5b0a_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Fast processor"
+      ],
+      "reason": "Praises fast processor; positive performance.",
+      "doc_id": "ced74fee5b0a",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "performance"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 1,
+      "counts": {
+        "positive": 4,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 2
+      },
+      "positive_ratio": 0.4444444444444444,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6666666666666666,
+      "polarized_denominator": 6
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "5b1b47bee1e3_0",
+      "doc_id": "5b1b47bee1e3",
+      "text": "Great phone. I picked the 4A because of price. Great price point. It has done everything I need it to do. Battery life is great. I sometimes don't have to charge it but every other day. It is fast in loading apps. Reviews say some phones are faster because of processor. If they are then you're talking super fast. I'm not a tech geek so I wouldn't know. This one is great and I would recommend it. I swapped from another android phone and it only took me a day or so to get used to the small changes.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "b92a9a37c49c_3",
+      "doc_id": "b92a9a37c49c",
+      "text": "Also, the status bar part is unutilised on all apps, which is a bummer but again not critical. - photo takes a split second more to process/save right after taking one, but besides this occasion I don't feel any noticeable processing speed difference on daily tasks compared to the Pixel 3(probably gaming will feel materially different but personally I don't game with my phone so no complaints on processing power). Overall, really enjoying the display and the design.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "248624203d23_0",
+      "doc_id": "248624203d23",
+      "text": "I like it alot. Good for you have and use. Faster internet speed because of the 5G and size is perfect for me. I have been using for two months now and the only issue is battery life is short. I get about 8 to 10 hours normal use like calling, text, YouTube and other social media apps... But 10 to 15 hour if I only make and receive calls and texts.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4K5L2F"
+    },
+    {
+      "chunk_id": "1a909d2f62f4_0",
+      "doc_id": "1a909d2f62f4",
+      "text": "Battery life. I've only had this phone for a couple days. I got it used but it said it was new. It's probably a little early to write a review and I typically wait some time before writing reviews so that I get a full feel for the quality. The battery life on this phone is atrocious. It was fully charged when I went to bed. When I woke up, it was at 96%. I started actually using it - the battery life went down so fast it was as if it were running away from something (from 96% to 74% in less than an hour with light usage) I put it on the charger. This is not a fast charge cable or a Google cable which historically charges pixels faster than other cables.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08H85VZNX"
+    },
+    {
+      "chunk_id": "7f6deef93dfe_1",
+      "doc_id": "7f6deef93dfe",
+      "text": "Well for one i also have the Pixel 3a XL in white and it is just perfect running Android 11 its not as fast i clicked 2 apps at the same time and the Pixel 3a is just a second or so behind not a deal breaker as for 5g my Altice mobile sim card doesn't work in the Pixel 4a 5g nor the Pixel 3a XL weird i think the screen real estate is actually more on the 4a 5g but i don't think i need both as 5g has not made a big dent in how i use my phone on a daily basis yet to make me keep it if i'm able to sell my 3a xl before the return window has closed then ill keep it so that's my review.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4K5L2F"
+    },
+    {
+      "chunk_id": "7f4cf348e398_1",
+      "doc_id": "7f4cf348e398",
+      "text": "Pixels come with Android updates right away and don't have all that Samsung or other manufacturer junk apps installed. In all my years of Pixel ownership I've never had a lemon, great reliability. And Google Pixel's call screening service ROCKS! Google it. Not pros No wireless charging. If this is something you need give this one a pass. Water resistant but not waterproof. Not 5G. I personally could give two hoots about 5G, my speeds are fast as they are and I sure don't need to pay the mmWave tax for Verizon that makes the Pixel 5 too expensive. Only 1 size, no XL. Plastic back. Mine is hidden by my case so I don't care what it looks like and to me it doesn't feel cheaply made. Slower processor than Pixel 4a 5G and Pixel 5.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "8e05a7f87bb3_0",
+      "doc_id": "8e05a7f87bb3",
+      "text": "Don't give in to the hype (like me).. The play store still isn't installing the apps. Oh, I know how to fix it, but a new user may not. It uses 3.5--4gb of RAM by default, so you have about 2 to work with. I suspect it takes that much ram to push around all the Googley info They can sell for millions while we all wait for some half-complete app to run. Maybe I'll switch to red apple . Benchmarking puts this phone performing below a OnePlus 6t on Geekbench. The screen looks oily when tilted, and it's very dim. Hmm. But, its eco-friendly!",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "0ba1221a4267_0",
+      "doc_id": "0ba1221a4267",
+      "text": "Lightning fast phone. I can't even begin to say how much I love this phone. Replaced a Moto G6. Have been a long time Moto phone user, but was disappointed in the G6 and the reviews for the newest model didn't look good, so decided it was time to move to another brand. Couldn't be happier with the Pixel 4A. It was easy to setup and transfer my apps and files with the included cord that plugged into my old phone. Inserted my old verizon sim card and I was in business in minutes. I was most excited to check out the camera, which was highly rated. Very pleased with the pictures so far. The details and colors on close up shots of flowers really pop. Excited to see more on my trip to Glacier later this summer. Some reviews say battery life isn't great, but that has not been my experience.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "05c66cb8cea2_0",
+      "doc_id": "05c66cb8cea2",
+      "text": "Disappointed. I loved my pixel 2 and thought the 4a was a great deal. I got what I paid for. The 4a is not awful but it's slower than you'd expect. Performance isn't great, pretty slow, especially using Teams and Outlook for work. I find myself needing to restart my phone more than I ever used to.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "ced74fee5b0a_0",
+      "doc_id": "ced74fee5b0a",
+      "text": "Faster Android update because it's a Google phone. Fast processor, superior Android software for camera",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    }
+  ],
+  "contexts": [
+    "Great phone. I picked the 4A because of price. Great price point. It has done everything I need it to do. Battery life is great. I sometimes don't have to charge it but every other day. It is fast in loading apps. Reviews say some phones are faster because of processor. If they are then you're talking super fast. I'm not a tech geek so I wouldn't know. This one is great and I would recommend it. I swapped from another android phone and it only took me a day or so to get used to the small changes.",
+    "Also, the status bar part is unutilised on all apps, which is a bummer but again not critical. - photo takes a split second more to process/save right after taking one, but besides this occasion I don't feel any noticeable processing speed difference on daily tasks compared to the Pixel 3(probably gaming will feel materially different but personally I don't game with my phone so no complaints on processing power). Overall, really enjoying the display and the design.",
+    "I like it alot. Good for you have and use. Faster internet speed because of the 5G and size is perfect for me. I have been using for two months now and the only issue is battery life is short. I get about 8 to 10 hours normal use like calling, text, YouTube and other social media apps... But 10 to 15 hour if I only make and receive calls and texts.",
+    "Battery life. I've only had this phone for a couple days. I got it used but it said it was new. It's probably a little early to write a review and I typically wait some time before writing reviews so that I get a full feel for the quality. The battery life on this phone is atrocious. It was fully charged when I went to bed. When I woke up, it was at 96%. I started actually using it - the battery life went down so fast it was as if it were running away from something (from 96% to 74% in less than an hour with light usage) I put it on the charger. This is not a fast charge cable or a Google cable which historically charges pixels faster than other cables.",
+    "Well for one i also have the Pixel 3a XL in white and it is just perfect running Android 11 its not as fast i clicked 2 apps at the same time and the Pixel 3a is just a second or so behind not a deal breaker as for 5g my Altice mobile sim card doesn't work in the Pixel 4a 5g nor the Pixel 3a XL weird i think the screen real estate is actually more on the 4a 5g but i don't think i need both as 5g has not made a big dent in how i use my phone on a daily basis yet to make me keep it if i'm able to sell my 3a xl before the return window has closed then ill keep it so that's my review.",
+    "Pixels come with Android updates right away and don't have all that Samsung or other manufacturer junk apps installed. In all my years of Pixel ownership I've never had a lemon, great reliability. And Google Pixel's call screening service ROCKS! Google it. Not pros No wireless charging. If this is something you need give this one a pass. Water resistant but not waterproof. Not 5G. I personally could give two hoots about 5G, my speeds are fast as they are and I sure don't need to pay the mmWave tax for Verizon that makes the Pixel 5 too expensive. Only 1 size, no XL. Plastic back. Mine is hidden by my case so I don't care what it looks like and to me it doesn't feel cheaply made. Slower processor than Pixel 4a 5G and Pixel 5.",
+    "Don't give in to the hype (like me).. The play store still isn't installing the apps. Oh, I know how to fix it, but a new user may not. It uses 3.5--4gb of RAM by default, so you have about 2 to work with. I suspect it takes that much ram to push around all the Googley info They can sell for millions while we all wait for some half-complete app to run. Maybe I'll switch to red apple . Benchmarking puts this phone performing below a OnePlus 6t on Geekbench. The screen looks oily when tilted, and it's very dim. Hmm. But, its eco-friendly!",
+    "Lightning fast phone. I can't even begin to say how much I love this phone. Replaced a Moto G6. Have been a long time Moto phone user, but was disappointed in the G6 and the reviews for the newest model didn't look good, so decided it was time to move to another brand. Couldn't be happier with the Pixel 4A. It was easy to setup and transfer my apps and files with the included cord that plugged into my old phone. Inserted my old verizon sim card and I was in business in minutes. I was most excited to check out the camera, which was highly rated. Very pleased with the pictures so far. The details and colors on close up shots of flowers really pop. Excited to see more on my trip to Glacier later this summer. Some reviews say battery life isn't great, but that has not been my experience.",
+    "Disappointed. I loved my pixel 2 and thought the 4a was a great deal. I got what I paid for. The 4a is not awful but it's slower than you'd expect. Performance isn't great, pretty slow, especially using Teams and Outlook for work. I find myself needing to restart my phone more than I ever used to.",
+    "Faster Android update because it's a Google phone. Fast processor, superior Android software for camera"
+  ],
+  "timing": {
+    "classification_s": 3.0216184000018984,
+    "generation_s": 1.64788569999655,
+    "verification_s": 1.9478395999976783,
+    "total_s": 6.617360399999598
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1997,
+        "completion_tokens": 662,
+        "total_tokens": 2659,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 205
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1873,
+        "completion_tokens": 228,
+        "total_tokens": 2101,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 209
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1505,
+        "completion_tokens": 421,
+        "total_tokens": 1926,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1377
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

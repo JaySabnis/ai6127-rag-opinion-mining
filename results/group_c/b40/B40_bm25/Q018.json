@@ -1,0 +1,433 @@
+{
+  "question": "What screen-quality or touchscreen feedback is reported for the Galaxy S20 FE?",
+  "answer": "One reviewer reported pretty horrendous ghosting when testing the S20 FE in a touchscreen test app and called it undeniably a hardware issue. [5a3eda0efa5d_3]\nThat reviewer said updates since release had not fixed the issue entirely, describing them as merely a band-aid. [5a3eda0efa5d_3]\nThe same reviewer said they had not noticed the touchscreen issue in everyday use, though pinching or zooming with fingers close together caused the screen to jitter. [5a3eda0efa5d_3]\nOne reviewer with a Galaxy S20+ said that besides the screen size they had not been able to tell a notable difference from the S20 FE. [93e465586633_0]\nAnother reviewer said the S20 FE 5G is bigger than the other S20 models. [33312e22e9fc_0]",
+  "draft_answer": "One reviewer reported pretty horrendous ghosting when testing the S20 FE in a touchscreen test app and called it undeniably a hardware issue. [5a3eda0efa5d_3]\nThat reviewer said updates since release had not fixed the issue entirely, describing them as merely a band-aid. [5a3eda0efa5d_3]\nThe same reviewer said they had not noticed the touchscreen issue in everyday use, though pinching or zooming with fingers close together caused the screen to jitter. [5a3eda0efa5d_3]\nOne reviewer with a Galaxy S20+ said that besides the screen size they had not been able to tell a notable difference from the S20 FE. [93e465586633_0]\nAnother reviewer said the S20 FE 5G is bigger than the other S20 models. [33312e22e9fc_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported pretty horrendous ghosting when testing the S20 FE in a touchscreen test app and called it undeniably a hardware issue.",
+      "citations": [
+        "5a3eda0efa5d_3"
+      ]
+    },
+    {
+      "text": "That reviewer said updates since release had not fixed the issue entirely, describing them as merely a band-aid.",
+      "citations": [
+        "5a3eda0efa5d_3"
+      ]
+    },
+    {
+      "text": "The same reviewer said they had not noticed the touchscreen issue in everyday use, though pinching or zooming with fingers close together caused the screen to jitter.",
+      "citations": [
+        "5a3eda0efa5d_3"
+      ]
+    },
+    {
+      "text": "One reviewer with a Galaxy S20+ said that besides the screen size they had not been able to tell a notable difference from the S20 FE.",
+      "citations": [
+        "93e465586633_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said the S20 FE 5G is bigger than the other S20 models.",
+      "citations": [
+        "33312e22e9fc_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reported pretty horrendous ghosting when testing the S20 FE in a touchscreen test app and called it undeniably a hardware issue.",
+      "citations": [
+        "5a3eda0efa5d_3"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "That reviewer said updates since release had not fixed the issue entirely, describing them as merely a band-aid.",
+      "citations": [
+        "5a3eda0efa5d_3"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "The same reviewer said they had not noticed the touchscreen issue in everyday use, though pinching or zooming with fingers close together caused the screen to jitter.",
+      "citations": [
+        "5a3eda0efa5d_3"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer with a Galaxy S20+ said that besides the screen size they had not been able to tell a notable difference from the S20 FE.",
+      "citations": [
+        "93e465586633_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the S20 FE 5G is bigger than the other S20 models.",
+      "citations": [
+        "33312e22e9fc_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reported pretty horrendous ghosting when testing the S20 FE in a touchscreen test app and called it undeniably a hardware issue.",
+      "citations": [
+        "5a3eda0efa5d_3"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "That reviewer said updates since release had not fixed the issue entirely, describing them as merely a band-aid.",
+      "citations": [
+        "5a3eda0efa5d_3"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "The same reviewer said they had not noticed the touchscreen issue in everyday use, though pinching or zooming with fingers close together caused the screen to jitter.",
+      "citations": [
+        "5a3eda0efa5d_3"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer with a Galaxy S20+ said that besides the screen size they had not been able to tell a notable difference from the S20 FE.",
+      "citations": [
+        "93e465586633_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the S20 FE 5G is bigger than the other S20 models.",
+      "citations": [
+        "33312e22e9fc_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "948c162b0427_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No mention of display; only general features and camera.",
+      "doc_id": "948c162b0427",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "93e465586633_0",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "besides the screen size we haven't been able to tell a notable difference"
+      ],
+      "reason": "Mentions screen size difference but no evaluative opinion on display quality.",
+      "doc_id": "93e465586633",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "4ecd2f77b469_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses battery life, not display.",
+      "doc_id": "4ecd2f77b469",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "8deadfb07099_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Praises phone and camera, no display mention.",
+      "doc_id": "8deadfb07099",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "84302ba67695_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General positive statement, no display reference.",
+      "doc_id": "84302ba67695",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "b68018897302_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses speed and battery, not display.",
+      "doc_id": "b68018897302",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "459ad249b9e7_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Complains about headphone jack, not display.",
+      "doc_id": "459ad249b9e7",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "6ac866977ef8_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General quality comment, no display mention.",
+      "doc_id": "6ac866977ef8",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "33312e22e9fc_0",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "it is bigger then the other S20's"
+      ],
+      "reason": "Notes larger size factually, no evaluative opinion on display.",
+      "doc_id": "33312e22e9fc",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "5a3eda0efa5d_3",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "Pretty horrendous ghosting",
+        "I really haven't noticed it in actual use"
+      ],
+      "reason": "Criticizes touchscreen ghosting but says not noticeable in everyday use.",
+      "doc_id": "5a3eda0efa5d",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 3,
+      "n_excluded_aspect_absent": 7,
+      "counts": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 2
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": null,
+      "polarized_denominator": 0
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "948c162b0427_0",
+      "doc_id": "948c162b0427",
+      "text": "LOVING IT..... I'm Loving my new Samsung Galaxy S20 FE Phone. Great features and the camera quality is awesome...",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B08KZ9Y5C7"
+    },
+    {
+      "chunk_id": "93e465586633_0",
+      "doc_id": "93e465586633",
+      "text": "Very Similar to not FE models. I bought this phone for my wife and I have the Galaxy S20+, but besides the screen size we haven't been able to tell a notable difference other than the FE being much more affordable. Having Galaxy phones since 2011, they are the best and will continue being the best over the fruit phone.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "4ecd2f77b469_0",
+      "doc_id": "4ecd2f77b469",
+      "text": "Excellent phone SAMSUNG Galaxy S20 FE 5G. The phone has a long battery life which what I was I wanted,",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "8deadfb07099_0",
+      "doc_id": "8deadfb07099",
+      "text": "Samsung S20 FE. The S20-FE is an amazing phone and camera, I love my S7 which is a keeper and this S20 is so many levels more impressive.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B094RG8YDS"
+    },
+    {
+      "chunk_id": "84302ba67695_0",
+      "doc_id": "84302ba67695",
+      "text": "COMPRA DE GALAXY S20 FE. HASTA AHORA ME HA RESULTADO MUY BUENO EL TELEFONO",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B094RG8YDS"
+    },
+    {
+      "chunk_id": "b68018897302_0",
+      "doc_id": "b68018897302",
+      "text": "Great product at a reduced price.. I loved my previous Galaxy S8, but since the battery can't be replaced, multiple charges were necessary every day. The FE S20 is blazingly faster, and 1 charge is good for 24 hours plus. A best buy rating from Consumer Reports sealed it.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "459ad249b9e7_0",
+      "doc_id": "459ad249b9e7",
+      "text": "S20 FE 5G HAS NO HEADPHONE JACK!!!. I ordered this S20 FE 5G not seeing the fine print which stated all S20 models came with headphones (and a headphone jack) Except for the S20 FE. When the phone arrived I sent it back unopened.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "6ac866977ef8_0",
+      "doc_id": "6ac866977ef8",
+      "text": "pretty good.. Great quality renewed S20 FE. Came as advertised. so far so good.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09HGHDV9L"
+    },
+    {
+      "chunk_id": "33312e22e9fc_0",
+      "doc_id": "33312e22e9fc",
+      "text": "It a S20 FE 5G so it is bigger then the other S20's. Works as expected",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09Q6J3RYV"
+    },
+    {
+      "chunk_id": "5a3eda0efa5d_3",
+      "doc_id": "5a3eda0efa5d",
+      "text": "And yes, my phone (ordered in early November) has the issue too. Pretty horrendous ghosting when testing it in the touchscreen test app. There's undeniably a hardware issue with the S20 FE. There have been updates since the phone released, but none have fixed it entirely; merely a band-aid on a bloody gash. The real question is: does it affect everyday use? Will you notice it every moment you use the S20 FE? The answer to both is no, at least for me. While I'm sure it does affect certain tasks (most notably those that involve fast touches or 3+ fingers), I really haven't noticed it in actual use. Pinching/zooming with your fingers close together will cause the screen to jitter, but that's about all I've seen. If that worries you enough to pass on the S20 FE, I don't blame you.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    }
+  ],
+  "contexts": [
+    "LOVING IT..... I'm Loving my new Samsung Galaxy S20 FE Phone. Great features and the camera quality is awesome...",
+    "Very Similar to not FE models. I bought this phone for my wife and I have the Galaxy S20+, but besides the screen size we haven't been able to tell a notable difference other than the FE being much more affordable. Having Galaxy phones since 2011, they are the best and will continue being the best over the fruit phone.",
+    "Excellent phone SAMSUNG Galaxy S20 FE 5G. The phone has a long battery life which what I was I wanted,",
+    "Samsung S20 FE. The S20-FE is an amazing phone and camera, I love my S7 which is a keeper and this S20 is so many levels more impressive.",
+    "COMPRA DE GALAXY S20 FE. HASTA AHORA ME HA RESULTADO MUY BUENO EL TELEFONO",
+    "Great product at a reduced price.. I loved my previous Galaxy S8, but since the battery can't be replaced, multiple charges were necessary every day. The FE S20 is blazingly faster, and 1 charge is good for 24 hours plus. A best buy rating from Consumer Reports sealed it.",
+    "S20 FE 5G HAS NO HEADPHONE JACK!!!. I ordered this S20 FE 5G not seeing the fine print which stated all S20 models came with headphones (and a headphone jack) Except for the S20 FE. When the phone arrived I sent it back unopened.",
+    "pretty good.. Great quality renewed S20 FE. Came as advertised. so far so good.",
+    "It a S20 FE 5G so it is bigger then the other S20's. Works as expected",
+    "And yes, my phone (ordered in early November) has the issue too. Pretty horrendous ghosting when testing it in the touchscreen test app. There's undeniably a hardware issue with the S20 FE. There have been updates since the phone released, but none have fixed it entirely; merely a band-aid on a bloody gash. The real question is: does it affect everyday use? Will you notice it every moment you use the S20 FE? The answer to both is no, at least for me. While I'm sure it does affect certain tasks (most notably those that involve fast touches or 3+ fingers), I really haven't noticed it in actual use. Pinching/zooming with your fingers close together will cause the screen to jitter, but that's about all I've seen. If that worries you enough to pass on the S20 FE, I don't blame you."
+  ],
+  "timing": {
+    "classification_s": 2.3929216000033193,
+    "generation_s": 1.5053958999997121,
+    "verification_s": 6.100002792663872e-06,
+    "total_s": 3.8983336000019335
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1328,
+        "completion_tokens": 543,
+        "total_tokens": 1871,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1072
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1204,
+        "completion_tokens": 231,
+        "total_tokens": 1435,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1204
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

@@ -1,0 +1,473 @@
+{
+  "question": "Do iPhone 11 owners report smooth operation, slowdowns, or freezing?",
+  "answer": "One iPhone 11 owner reported that the phone runs great and that playing Call of Duty on high graphics settings runs smoothly without much heating. [1a8dc2437421_1]\nAnother reviewer said their refurbished iPhone 11 is working great. [efbceff468f0_0]\nOne owner stated the iPhone 11 performs good overall and works good. [bd5e1fe37f3e_0]\nA reviewer who received a bad iPhone 11 said it was stuck on the startup Apple logo for 20 minutes and crashed over and over, with Apple reporting a hardware problem. [749594d30dc7_0]\nOne owner reported that after three days the iPhone 11 completely restarted without warning up to 10 times in an hour and sometimes did not respond to touch for several moments. [6c19839404bd_0]\nAnother reviewer returned their iPhone 11 because it kept restarting about 15 times in one night. [478306f8e4b0_0]",
+  "draft_answer": "One iPhone 11 owner reported that the phone runs great and that playing Call of Duty on high graphics settings runs smoothly without much heating. [1a8dc2437421_1]\nAnother reviewer said their refurbished iPhone 11 is working great. [efbceff468f0_0]\nOne owner stated the iPhone 11 performs good overall and works good. [bd5e1fe37f3e_0]\nA reviewer who received a bad iPhone 11 said it was stuck on the startup Apple logo for 20 minutes and crashed over and over, with Apple reporting a hardware problem. [749594d30dc7_0]\nOne owner reported that after three days the iPhone 11 completely restarted without warning up to 10 times in an hour and sometimes did not respond to touch for several moments. [6c19839404bd_0]\nAnother reviewer returned their iPhone 11 because it kept restarting about 15 times in one night. [478306f8e4b0_0]",
+  "sentences": [
+    {
+      "text": "One iPhone 11 owner reported that the phone runs great and that playing Call of Duty on high graphics settings runs smoothly without much heating.",
+      "citations": [
+        "1a8dc2437421_1"
+      ]
+    },
+    {
+      "text": "Another reviewer said their refurbished iPhone 11 is working great.",
+      "citations": [
+        "efbceff468f0_0"
+      ]
+    },
+    {
+      "text": "One owner stated the iPhone 11 performs good overall and works good.",
+      "citations": [
+        "bd5e1fe37f3e_0"
+      ]
+    },
+    {
+      "text": "A reviewer who received a bad iPhone 11 said it was stuck on the startup Apple logo for 20 minutes and crashed over and over, with Apple reporting a hardware problem.",
+      "citations": [
+        "749594d30dc7_0"
+      ]
+    },
+    {
+      "text": "One owner reported that after three days the iPhone 11 completely restarted without warning up to 10 times in an hour and sometimes did not respond to touch for several moments.",
+      "citations": [
+        "6c19839404bd_0"
+      ]
+    },
+    {
+      "text": "Another reviewer returned their iPhone 11 because it kept restarting about 15 times in one night.",
+      "citations": [
+        "478306f8e4b0_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One iPhone 11 owner reported that the phone runs great and that playing Call of Duty on high graphics settings runs smoothly without much heating.",
+      "citations": [
+        "1a8dc2437421_1"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said their refurbished iPhone 11 is working great.",
+      "citations": [
+        "efbceff468f0_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One owner stated the iPhone 11 performs good overall and works good.",
+      "citations": [
+        "bd5e1fe37f3e_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who received a bad iPhone 11 said it was stuck on the startup Apple logo for 20 minutes and crashed over and over, with Apple reporting a hardware problem.",
+      "citations": [
+        "749594d30dc7_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One owner reported that after three days the iPhone 11 completely restarted without warning up to 10 times in an hour and sometimes did not respond to touch for several moments.",
+      "citations": [
+        "6c19839404bd_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer returned their iPhone 11 because it kept restarting about 15 times in one night.",
+      "citations": [
+        "478306f8e4b0_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One iPhone 11 owner reported that the phone runs great and that playing Call of Duty on high graphics settings runs smoothly without much heating.",
+      "citations": [
+        "1a8dc2437421_1"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said their refurbished iPhone 11 is working great.",
+      "citations": [
+        "efbceff468f0_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One owner stated the iPhone 11 performs good overall and works good.",
+      "citations": [
+        "bd5e1fe37f3e_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who received a bad iPhone 11 said it was stuck on the startup Apple logo for 20 minutes and crashed over and over, with Apple reporting a hardware problem.",
+      "citations": [
+        "749594d30dc7_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One owner reported that after three days the iPhone 11 completely restarted without warning up to 10 times in an hour and sometimes did not respond to touch for several moments.",
+      "citations": [
+        "6c19839404bd_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer returned their iPhone 11 because it kept restarting about 15 times in one night.",
+      "citations": [
+        "478306f8e4b0_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "fdfa2eb2ff90_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No mention of performance; general statement only.",
+      "doc_id": "fdfa2eb2ff90",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "1a8dc2437421_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "runs great",
+        "runs smoothly on high graphic settings and doesn’t heat up much either"
+      ],
+      "reason": "Praises smooth gaming performance and low heat.",
+      "doc_id": "1a8dc2437421",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "efbceff468f0_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "is working grest"
+      ],
+      "reason": "Says refurbished phone works great, implying good performance.",
+      "doc_id": "efbceff468f0",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "749594d30dc7_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "stuck on the startup Apple logo",
+        "there was a problem with the hardware"
+      ],
+      "reason": "Hardware fault causing boot failure and crashes.",
+      "doc_id": "749594d30dc7",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "6c19839404bd_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "completely restarts without any warning up to 10 times in an hour",
+        "screen sensitivity issues"
+      ],
+      "reason": "Random restarts and touch issues indicate poor performance.",
+      "doc_id": "6c19839404bd",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "7b56b786bdc4_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Battery life is not the performance aspect.",
+      "doc_id": "7b56b786bdc4",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "478306f8e4b0_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "kept restarting about 15 times in one night"
+      ],
+      "reason": "Repeated restarts indicate poor performance.",
+      "doc_id": "478306f8e4b0",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "bd5e1fe37f3e_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "Perform good overall",
+        "works good",
+        "came with scratches on screen"
+      ],
+      "reason": "Praises performance but criticizes scratched screen condition.",
+      "doc_id": "bd5e1fe37f3e",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "097ee1b87f54_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Screen going black is display issue, not performance.",
+      "doc_id": "097ee1b87f54",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "44fa1b72a10f_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "it’s reliable"
+      ],
+      "reason": "Reliability implies good performance.",
+      "doc_id": "44fa1b72a10f",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 7,
+      "n_excluded_aspect_absent": 3,
+      "counts": {
+        "positive": 3,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.42857142857142855,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5,
+      "polarized_denominator": 6
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "fdfa2eb2ff90_0",
+      "doc_id": "fdfa2eb2ff90",
+      "text": "iPhone 11. No problems at all",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "1a8dc2437421_1",
+      "doc_id": "1a8dc2437421",
+      "text": "Facial recognition works perfectly the cameras are normal the way it is on any iphone 11 and also runs great. I play cod on it quite a but and it runs smoothly on high graphic settings and doesn’t heat up much either. Also delivered a few days earlier than estimated.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "efbceff468f0_0",
+      "doc_id": "efbceff468f0",
+      "text": "Iphone. Bought a refurbished IPhone 11 and is working grest",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "749594d30dc7_0",
+      "doc_id": "749594d30dc7",
+      "text": "Received bad iPhone. When I received my iPhone 11 and started it up, it was stuck on the startup Apple logo for 20 minutes. I was finally able to log in when it crashed, over and over. I contacted Apple to troubleshoot it and they said there was a problem with the hardware. I don’t see a way to talk to anyone at this company so I’m returning it.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "6c19839404bd_0",
+      "doc_id": "6c19839404bd",
+      "text": "Connectivity Issues, Random Restarts, and Touch Screen Problems. After having this iphone 11 for just 3 days, I've come to realize that there are issues with the phone that were not addressed before it was sent to me. After fully resetting and updating the phone, checking the sim card with my service provider, and even taking it to multiple phone repair shops to have it checked... The phone still completely restarts without any warning up to 10 times in an hour. The device also seems to have some screen sensitivity issues and sometimes it will not respond to touch for several moments before working. On top of that, this phone hasn't been able to locate any of the bluetooth devices in my home that other members of the household are easily able to connect to.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "7b56b786bdc4_0",
+      "doc_id": "7b56b786bdc4",
+      "text": "Poor Battery Life.. Battery life isn't very good. Maybe this is a common problem with iPhone11 in general though, I'm not sure.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "478306f8e4b0_0",
+      "doc_id": "478306f8e4b0",
+      "text": "For iPhone 11. Was not good had to return it because it kept restarting about 15 times in one night was not happy",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B099RCQZ8Z"
+    },
+    {
+      "chunk_id": "bd5e1fe37f3e_0",
+      "doc_id": "bd5e1fe37f3e",
+      "text": "The iphone11 Perform good overall the in perfectionists. on the screen. The iphone 11 works good the only thing I didn’t like is that I purchased a really expensive phone that came with scratches on screen and it seems like they put a screen to cover the In perfections on the actual phone screen.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "097ee1b87f54_0",
+      "doc_id": "097ee1b87f54",
+      "text": "Black screen. I am not happy with the IPhone 11, the screens goes black and it’s hard to get it back",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "44fa1b72a10f_0",
+      "doc_id": "44fa1b72a10f",
+      "text": "Iphone 11. i live it and it’s reliable",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    }
+  ],
+  "contexts": [
+    "iPhone 11. No problems at all",
+    "Facial recognition works perfectly the cameras are normal the way it is on any iphone 11 and also runs great. I play cod on it quite a but and it runs smoothly on high graphic settings and doesn’t heat up much either. Also delivered a few days earlier than estimated.",
+    "Iphone. Bought a refurbished IPhone 11 and is working grest",
+    "Received bad iPhone. When I received my iPhone 11 and started it up, it was stuck on the startup Apple logo for 20 minutes. I was finally able to log in when it crashed, over and over. I contacted Apple to troubleshoot it and they said there was a problem with the hardware. I don’t see a way to talk to anyone at this company so I’m returning it.",
+    "Connectivity Issues, Random Restarts, and Touch Screen Problems. After having this iphone 11 for just 3 days, I've come to realize that there are issues with the phone that were not addressed before it was sent to me. After fully resetting and updating the phone, checking the sim card with my service provider, and even taking it to multiple phone repair shops to have it checked... The phone still completely restarts without any warning up to 10 times in an hour. The device also seems to have some screen sensitivity issues and sometimes it will not respond to touch for several moments before working. On top of that, this phone hasn't been able to locate any of the bluetooth devices in my home that other members of the household are easily able to connect to.",
+    "Poor Battery Life.. Battery life isn't very good. Maybe this is a common problem with iPhone11 in general though, I'm not sure.",
+    "For iPhone 11. Was not good had to return it because it kept restarting about 15 times in one night was not happy",
+    "The iphone11 Perform good overall the in perfectionists. on the screen. The iphone 11 works good the only thing I didn’t like is that I purchased a really expensive phone that came with scratches on screen and it seems like they put a screen to cover the In perfections on the actual phone screen.",
+    "Black screen. I am not happy with the IPhone 11, the screens goes black and it’s hard to get it back",
+    "Iphone 11. i live it and it’s reliable"
+  ],
+  "timing": {
+    "classification_s": 2.81846530000621,
+    "generation_s": 1.6313750999979675,
+    "verification_s": 7.000002369750291e-06,
+    "total_s": 4.449858800006041
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1255,
+        "completion_tokens": 597,
+        "total_tokens": 1852,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 999
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1130,
+        "completion_tokens": 259,
+        "total_tokens": 1389,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1002
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

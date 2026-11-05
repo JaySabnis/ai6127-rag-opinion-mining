@@ -1,0 +1,376 @@
+{
+  "question": "Are people happy with the pictures they get from the Google Pixel 4a?",
+  "answer": "One reviewer said the Pixel 4a shoots great pictures with nice colors and good dynamic range, and that the contrast is at a good level. [994cdda37a2b_7]\nThat same reviewer said the pictures look amazing for a $350 device and was really happy with how the pictures from the 4a turned out. [994cdda37a2b_7]\nThe same reviewer noted the 4a can shoot 4K video at 30fps or 1080p video at 60fps. [994cdda37a2b_7]",
+  "draft_answer": "One reviewer said the Pixel 4a shoots great pictures with nice colors and good dynamic range, and that the contrast is at a good level. [994cdda37a2b_7]\nThat same reviewer said the pictures look amazing for a $350 device and was really happy with how the pictures from the 4a turned out. [994cdda37a2b_7]\nThe same reviewer noted the 4a can shoot 4K video at 30fps or 1080p video at 60fps. [994cdda37a2b_7]",
+  "sentences": [
+    {
+      "text": "One reviewer said the Pixel 4a shoots great pictures with nice colors and good dynamic range, and that the contrast is at a good level.",
+      "citations": [
+        "994cdda37a2b_7"
+      ]
+    },
+    {
+      "text": "That same reviewer said the pictures look amazing for a $350 device and was really happy with how the pictures from the 4a turned out.",
+      "citations": [
+        "994cdda37a2b_7"
+      ]
+    },
+    {
+      "text": "The same reviewer noted the 4a can shoot 4K video at 30fps or 1080p video at 60fps.",
+      "citations": [
+        "994cdda37a2b_7"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer said the Pixel 4a shoots great pictures with nice colors and good dynamic range, and that the contrast is at a good level.",
+      "citations": [
+        "994cdda37a2b_7"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "That same reviewer said the pictures look amazing for a $350 device and was really happy with how the pictures from the 4a turned out.",
+      "citations": [
+        "994cdda37a2b_7"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "The same reviewer noted the 4a can shoot 4K video at 30fps or 1080p video at 60fps.",
+      "citations": [
+        "994cdda37a2b_7"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer said the Pixel 4a shoots great pictures with nice colors and good dynamic range, and that the contrast is at a good level.",
+      "citations": [
+        "994cdda37a2b_7"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "That same reviewer said the pictures look amazing for a $350 device and was really happy with how the pictures from the 4a turned out.",
+      "citations": [
+        "994cdda37a2b_7"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "The same reviewer noted the 4a can shoot 4K video at 30fps or 1080p video at 60fps.",
+      "citations": [
+        "994cdda37a2b_7"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "70f5102f6ab6_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses wrong model/packaging, not camera.",
+      "doc_id": "70f5102f6ab6",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "994cdda37a2b_7",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The 4a shoots great pictures with nice colors and good dynamic ranges.",
+        "Overall the pictures look amazing for a $350 device.",
+        "I am really happy with how the pictures from the 4a turned out."
+      ],
+      "reason": "Praises camera photo quality and video specs.",
+      "doc_id": "994cdda37a2b",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "09a486d46a3f_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses wrong item received, not camera.",
+      "doc_id": "09a486d46a3f",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "73d92d931bfb_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Generic praise, no camera mention.",
+      "doc_id": "73d92d931bfb",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "8beb9d597025_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Generic praise, no camera mention.",
+      "doc_id": "8beb9d597025",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "a977a8f5d305_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Generic praise, no camera mention.",
+      "doc_id": "a977a8f5d305",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "f3998eaf07d5_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses purchase and updates, not camera.",
+      "doc_id": "f3998eaf07d5",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "937f92410e8c_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Generic praise, no camera mention.",
+      "doc_id": "937f92410e8c",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "41fca5a06bdd_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses random restarts, not camera.",
+      "doc_id": "41fca5a06bdd",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "2ed0895701e4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "only has one camera instead of 3"
+      ],
+      "reason": "Complains phone has one camera instead of advertised three.",
+      "doc_id": "2ed0895701e4",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 2,
+      "n_excluded_aspect_absent": 8,
+      "counts": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5,
+      "polarized_denominator": 2
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "70f5102f6ab6_0",
+      "doc_id": "70f5102f6ab6",
+      "text": "BUYER BEWARE, PHONE IS FOREIGN VERSION OF PIXEL 4a 5G. This is the THIRD time I have tried to purchase the Google Pixel 4a unlocked US version and instead of receiving what was clearly advertised and promised I received a Google Pixel 4a 5G locked Japan version. In the pictures I have green arrows on the Pixel 4a 5G and blue arrows on the Pixel 4a phone. The Google packaging is fairly plain and the differences between the two phones are pretty clear. On the back the 4a has security seals where the 4a 5G version does not. The fine print on the end of the 4a is mainly in English and states it is a Pixel 4a phone while the 4a 5G is almost completely in Japanese characters. Additionally, there is an Avery label clearly mislabeling the 4a 5G phone as a 4a phone.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "994cdda37a2b_7",
+      "doc_id": "994cdda37a2b",
+      "text": "It can shoot 4K videos at 30fps or 1080p video at 60 fps. The front facing camera has an 8 MP sensor, an f/2.0 aperture and an 88 degrees field of view. The 4a shoots great pictures with nice colors and good dynamic ranges. The contrast is at a good level as well. Overall the pictures look amazing for a $350 device. I have attached some images that show the same picture shot with the Google Pixel 4a, the iPhone X and the iPhone XR. I am really happy with how the pictures from the 4a turned out. The Pixel 4a of this article is rocking the Android 10, June 2020 build. As all Google Android phones, it has a simple but very smooth and to the point GUI.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "09a486d46a3f_0",
+      "doc_id": "09a486d46a3f",
+      "text": "WRONG ITEM BY MISTAKE?. I WAITED THEN I FINALLY GOT IT! HAPPY? I THINK NOT... I ORDERED A GOOGLE PIXEL 4A WITH 5 G... I GOT A 4A... BUT THEY PUT A STICKER ON THE BOX THATA SAID 4A W 5G... WHY? HUMAN ERROR OR WAS I ABOU TO GET RIP OFF?... I ALMOST FELT FOR IT...",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4K5L2F"
+    },
+    {
+      "chunk_id": "73d92d931bfb_0",
+      "doc_id": "73d92d931bfb",
+      "text": "Google Pixel 4a. Great phone.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "8beb9d597025_0",
+      "doc_id": "8beb9d597025",
+      "text": "Google Pixel 4a. Nice Product",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "a977a8f5d305_0",
+      "doc_id": "a977a8f5d305",
+      "text": "Google Pixel 4a. Great phone! Super!",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "f3998eaf07d5_0",
+      "doc_id": "f3998eaf07d5",
+      "text": "Check Amazon Warehouse for a good deal on a Google Pixel 4a. I had to buy a new phone because my 2019 Motorola G7 was running out of security updates. I'm so glad I chose the Google Pixel 4a with their superb support for 3 years. Luckily, I found a Google Pixel 4a from Amazon Warehouse for $260 in acceptable condition. The condition of the phone was actually, nearly new!",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "937f92410e8c_0",
+      "doc_id": "937f92410e8c",
+      "text": "Great. I really love my Google pixel 4a phone",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "41fca5a06bdd_0",
+      "doc_id": "41fca5a06bdd",
+      "text": "Restarts by itself. Was very excited about this phone. Am big fan of Google products. Have both the Pixel 1 and Pixel C tablet. But when I got the Pixel 4a phone I noticed it keeps randomly restarting when plugged into my2.4A usb car charger. This charger and the cable I used were previously used frequently with my Pixel 1 and worked fine. Google sent me a replacement Pixel 4a but it did exactly the same thing.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "2ed0895701e4_0",
+      "doc_id": "2ed0895701e4",
+      "text": "Not the same. I got this phone and it's not the same as it's advertised, only has one camera instead of 3 and the home screen is not the same. The phone itself works good, i just don't understand why I didn't get the same phone as the pictures advertised. I believe this is a pixel 4a NOT 5G because I ordered a pixel 4a NOT 5G case and it fitted but the pixel 4a 5g case was a little bigger then my phone.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08R61G69Q"
+    }
+  ],
+  "contexts": [
+    "BUYER BEWARE, PHONE IS FOREIGN VERSION OF PIXEL 4a 5G. This is the THIRD time I have tried to purchase the Google Pixel 4a unlocked US version and instead of receiving what was clearly advertised and promised I received a Google Pixel 4a 5G locked Japan version. In the pictures I have green arrows on the Pixel 4a 5G and blue arrows on the Pixel 4a phone. The Google packaging is fairly plain and the differences between the two phones are pretty clear. On the back the 4a has security seals where the 4a 5G version does not. The fine print on the end of the 4a is mainly in English and states it is a Pixel 4a phone while the 4a 5G is almost completely in Japanese characters. Additionally, there is an Avery label clearly mislabeling the 4a 5G phone as a 4a phone.",
+    "It can shoot 4K videos at 30fps or 1080p video at 60 fps. The front facing camera has an 8 MP sensor, an f/2.0 aperture and an 88 degrees field of view. The 4a shoots great pictures with nice colors and good dynamic ranges. The contrast is at a good level as well. Overall the pictures look amazing for a $350 device. I have attached some images that show the same picture shot with the Google Pixel 4a, the iPhone X and the iPhone XR. I am really happy with how the pictures from the 4a turned out. The Pixel 4a of this article is rocking the Android 10, June 2020 build. As all Google Android phones, it has a simple but very smooth and to the point GUI.",
+    "WRONG ITEM BY MISTAKE?. I WAITED THEN I FINALLY GOT IT! HAPPY? I THINK NOT... I ORDERED A GOOGLE PIXEL 4A WITH 5 G... I GOT A 4A... BUT THEY PUT A STICKER ON THE BOX THATA SAID 4A W 5G... WHY? HUMAN ERROR OR WAS I ABOU TO GET RIP OFF?... I ALMOST FELT FOR IT...",
+    "Google Pixel 4a. Great phone.",
+    "Google Pixel 4a. Nice Product",
+    "Google Pixel 4a. Great phone! Super!",
+    "Check Amazon Warehouse for a good deal on a Google Pixel 4a. I had to buy a new phone because my 2019 Motorola G7 was running out of security updates. I'm so glad I chose the Google Pixel 4a with their superb support for 3 years. Luckily, I found a Google Pixel 4a from Amazon Warehouse for $260 in acceptable condition. The condition of the phone was actually, nearly new!",
+    "Great. I really love my Google pixel 4a phone",
+    "Restarts by itself. Was very excited about this phone. Am big fan of Google products. Have both the Pixel 1 and Pixel C tablet. But when I got the Pixel 4a phone I noticed it keeps randomly restarting when plugged into my2.4A usb car charger. This charger and the cable I used were previously used frequently with my Pixel 1 and worked fine. Google sent me a replacement Pixel 4a but it did exactly the same thing.",
+    "Not the same. I got this phone and it's not the same as it's advertised, only has one camera instead of 3 and the home screen is not the same. The phone itself works good, i just don't understand why I didn't get the same phone as the pictures advertised. I believe this is a pixel 4a NOT 5G because I ordered a pixel 4a NOT 5G case and it fitted but the pixel 4a 5g case was a little bigger then my phone."
+  ],
+  "timing": {
+    "classification_s": 2.792697999997472,
+    "generation_s": 1.3221721000008984,
+    "verification_s": 5.599998985417187e-06,
+    "total_s": 4.114884299997357
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1586,
+        "completion_tokens": 544,
+        "total_tokens": 2130,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1330
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1462,
+        "completion_tokens": 149,
+        "total_tokens": 1611,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1462
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

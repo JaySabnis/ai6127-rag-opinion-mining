@@ -1,0 +1,477 @@
+{
+  "question": "What do Google Pixel 4a owners say about connecting to their mobile carrier?",
+  "answer": "One reviewer reported that the phone refused to connect to their T-Mobile mobile network even though the SIM card worked in their previous phone. [a89136e75607_0]\nAnother reviewer said the phone worked fine on their carrier at first, but the carrier then decided it was not for their 5G network after a few days, so they returned it. [5c1a654efb5d_0]\nOne reviewer who bought the phone for T-Mobile had issues getting the 5G network working with only LTE available, and noted it was an international version that may cause similar limitations in the US. [af55d7cfc576_0]\nOther reviewers reported receiving carrier-locked phones despite unlocked listings, including one locked to Verizon and one locked by a Japanese carrier. [cd4f4022e5ae_0] [82229195940d_0]",
+  "draft_answer": "One reviewer reported that the phone refused to connect to their T-Mobile mobile network even though the SIM card worked in their previous phone. [a89136e75607_0]\nAnother reviewer said the phone worked fine on their carrier at first, but the carrier then decided it was not for their 5G network after a few days, so they returned it. [5c1a654efb5d_0]\nA reviewer using T-Mobile postpaid, Visible prepaid, and Mint Mobile reported that all three SIM cards worked, though Visible's 5G coverage was not the greatest in their area while LTE worked fine. [64c268a7d583_0]\nOne reviewer who bought the phone for T-Mobile had issues getting the 5G network working with only LTE available, and noted it was an international version that may cause similar limitations in the US. [af55d7cfc576_0]\nA reviewer warned against buying for T-Mobile, saying a store representative told them the Pixel 4a would not work with upcoming T-Mobile network changes rolling out around January. [4d05a812345d_0]\nOther reviewers reported receiving carrier-locked phones despite unlocked listings, including one locked to Verizon and one locked by a Japanese carrier. [cd4f4022e5ae_0] [82229195940d_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported that the phone refused to connect to their T-Mobile mobile network even though the SIM card worked in their previous phone.",
+      "citations": [
+        "a89136e75607_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said the phone worked fine on their carrier at first, but the carrier then decided it was not for their 5G network after a few days, so they returned it.",
+      "citations": [
+        "5c1a654efb5d_0"
+      ]
+    },
+    {
+      "text": "A reviewer using T-Mobile postpaid, Visible prepaid, and Mint Mobile reported that all three SIM cards worked, though Visible's 5G coverage was not the greatest in their area while LTE worked fine.",
+      "citations": [
+        "64c268a7d583_0"
+      ]
+    },
+    {
+      "text": "One reviewer who bought the phone for T-Mobile had issues getting the 5G network working with only LTE available, and noted it was an international version that may cause similar limitations in the US.",
+      "citations": [
+        "af55d7cfc576_0"
+      ]
+    },
+    {
+      "text": "A reviewer warned against buying for T-Mobile, saying a store representative told them the Pixel 4a would not work with upcoming T-Mobile network changes rolling out around January.",
+      "citations": [
+        "4d05a812345d_0"
+      ]
+    },
+    {
+      "text": "Other reviewers reported receiving carrier-locked phones despite unlocked listings, including one locked to Verizon and one locked by a Japanese carrier.",
+      "citations": [
+        "cd4f4022e5ae_0",
+        "82229195940d_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One reviewer reported that the phone refused to connect to their T-Mobile mobile network even though the SIM card worked in their previous phone.",
+      "citations": [
+        "a89136e75607_0"
+      ],
+      "status": "supported",
+      "reason": "评论者明确说手机拒绝连接其T-Mobile网络，且SIM卡在旧手机中正常。",
+      "evidence": [
+        {
+          "chunk_id": "a89136e75607_0",
+          "quote": "this phone refused to connect to my T-Mobile mobile network. SIM card worked fine when used in my previous phone"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "Another reviewer said the phone worked fine on their carrier at first, but the carrier then decided it was not for their 5G network after a few days, so they returned it.",
+      "citations": [
+        "5c1a654efb5d_0"
+      ],
+      "status": "supported",
+      "reason": "评论者称起初在运营商上正常，几天后运营商认为不适合其5G网络，因此退货。",
+      "evidence": [
+        {
+          "chunk_id": "5c1a654efb5d_0",
+          "quote": "worked fine, then my carrier decided that was not for their 5G network after a few days... So unfortunately I had to return it"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "A reviewer using T-Mobile postpaid, Visible prepaid, and Mint Mobile reported that all three SIM cards worked, though Visible's 5G coverage was not the greatest in their area while LTE worked fine.",
+      "citations": [
+        "64c268a7d583_0"
+      ],
+      "status": "unverifiable",
+      "reason": "评论者列出T-Mobile postpaid、Visible prepaid和Mint Mobile三张SIM卡均可用，并说Visible 5G覆盖不佳但LTE正常。 [no verbatim evidence from the cited sources]",
+      "evidence": [],
+      "flagged": true
+    },
+    {
+      "sentence_id": "s3",
+      "text": "One reviewer who bought the phone for T-Mobile had issues getting the 5G network working with only LTE available, and noted it was an international version that may cause similar limitations in the US.",
+      "citations": [
+        "af55d7cfc576_0"
+      ],
+      "status": "supported",
+      "reason": "评论者为T-Mobile购买，遇到5G无法使用仅LTE，并指出是国际版本可能在美国造成限制。",
+      "evidence": [
+        {
+          "chunk_id": "af55d7cfc576_0",
+          "quote": "I purchased the phone to use on my T-Mobile carrier however, I had issues getting the 5G network working. LTE was only available. Note that this is an international version that may cause similar limitations in the US."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "A reviewer warned against buying for T-Mobile, saying a store representative told them the Pixel 4a would not work with upcoming T-Mobile network changes rolling out around January.",
+      "citations": [
+        "4d05a812345d_0"
+      ],
+      "status": "unverifiable",
+      "reason": "评论者警告T-Mobile用户不要购买，称店员告知Pixel 4a无法兼容约一月推出的T-Mobile网络变更。 [no verbatim evidence from the cited sources]",
+      "evidence": [],
+      "flagged": true
+    },
+    {
+      "sentence_id": "s5",
+      "text": "Other reviewers reported receiving carrier-locked phones despite unlocked listings, including one locked to Verizon and one locked by a Japanese carrier.",
+      "citations": [
+        "cd4f4022e5ae_0",
+        "82229195940d_0"
+      ],
+      "status": "supported",
+      "reason": "两条评论分别报告收到锁定Verizon和锁定日本运营商的手机，与解锁列表不符。",
+      "evidence": [
+        {
+          "chunk_id": "cd4f4022e5ae_0",
+          "quote": "my new-to-me phone was locked into Verizon"
+        },
+        {
+          "chunk_id": "82229195940d_0",
+          "quote": "the cell was most definitely carrier-locked by a Japanese carrier"
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "sentence_id": "s2",
+      "text": "A reviewer using T-Mobile postpaid, Visible prepaid, and Mint Mobile reported that all three SIM cards worked, though Visible's 5G coverage was not the greatest in their area while LTE worked fine.",
+      "citations": [
+        "64c268a7d583_0"
+      ],
+      "status": "unverifiable",
+      "reason": "评论者列出T-Mobile postpaid、Visible prepaid和Mint Mobile三张SIM卡均可用，并说Visible 5G覆盖不佳但LTE正常。 [no verbatim evidence from the cited sources]",
+      "evidence": [],
+      "flagged": true
+    },
+    {
+      "sentence_id": "s4",
+      "text": "A reviewer warned against buying for T-Mobile, saying a store representative told them the Pixel 4a would not work with upcoming T-Mobile network changes rolling out around January.",
+      "citations": [
+        "4d05a812345d_0"
+      ],
+      "status": "unverifiable",
+      "reason": "评论者警告T-Mobile用户不要购买，称店员告知Pixel 4a无法兼容约一月推出的T-Mobile网络变更。 [no verbatim evidence from the cited sources]",
+      "evidence": [],
+      "flagged": true
+    }
+  ],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "c22da611fd8c_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "NOT compatible with major carriers as stated on Amazon",
+        "Yet the card inside the packaging says different"
+      ],
+      "reason": "Complains listing claims carrier compatibility but packaging contradicts it.",
+      "doc_id": "c22da611fd8c",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "5c1a654efb5d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "Bought it to use on my carrier and worked fine, then my carrier decided that was not for their 5G network",
+        "except my carrier sucked"
+      ],
+      "reason": "Worked initially on carrier but carrier dropped 5G support; blames carrier not phone.",
+      "doc_id": "5c1a654efb5d",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "a89136e75607_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Device does not connect to mobile network whatsoever",
+        "refused to connect to my T-Mobile mobile network"
+      ],
+      "reason": "Phone failed to connect to carrier network.",
+      "doc_id": "a89136e75607",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "d80dffe30241_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "I was shipped a carrier-locked phone",
+        "wasn't compatible with Sprint or Verizon, two of the major carriers"
+      ],
+      "reason": "Received carrier-locked phone despite unlocked listing.",
+      "doc_id": "d80dffe30241",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "64c268a7d583_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "it is nice unlocked for sure",
+        "all three Sim cards worked"
+      ],
+      "reason": "Phone unlocked and works with multiple carriers.",
+      "doc_id": "64c268a7d583",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "af55d7cfc576_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "I had issues getting the 5G network working. LTE was only available",
+        "Make sure you check with your carrier for compatibility"
+      ],
+      "reason": "Carrier 5G issues but seller resolved; mixed on carrier compatibility.",
+      "doc_id": "af55d7cfc576",
+      "brand": "Google",
+      "model": "Pixel 4A",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "4d05a812345d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the Pixel 4a will NOT work with upcoming T-Mobile network changes",
+        "it is NOT something you want to buy for long term use on a T-Mobile network"
+      ],
+      "reason": "Warns phone won't work with future T-Mobile network changes.",
+      "doc_id": "4d05a812345d",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "cd4f4022e5ae_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "my new-to-me phone was locked into Verizon",
+        "my phone carrier says it's locked"
+      ],
+      "reason": "Phone locked to Verizon, carrier confirms locked.",
+      "doc_id": "cd4f4022e5ae",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "0b78950a447d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "DOES NOT work with all carriers",
+        "Check IEMI number with carrier before opening"
+      ],
+      "reason": "Warns phone doesn't work with all carriers; check IMEI first.",
+      "doc_id": "0b78950a447d",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "82229195940d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The phone is carrier locked",
+        "carrier-locked by a Japanese carrier"
+      ],
+      "reason": "Phone carrier-locked by Japanese carrier despite expectations.",
+      "doc_id": "82229195940d",
+      "brand": "Google",
+      "model": "Pixel 4A",
+      "aspect": "carrier"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "carrier",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 7,
+        "mixed": 2,
+        "neutral": 0
+      },
+      "positive_ratio": 0.1,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.125,
+      "polarized_denominator": 8
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "c22da611fd8c_0",
+      "doc_id": "c22da611fd8c",
+      "text": "NOT compatible with major carriers as stated on Amazon. This is what was in the Amazon listing -- \"New, unlocked Android phone gives you the flexibility to change carriers and choose your own data plan; unlocked smartphone works with T-Mobile, Sprint, AT&T, and other major carriers; not compatible with the Verizon 5G Ultra Wideband network\". -- Yet the card inside the packaging says different - I'm not sure if Amazon messed this description up or the seller did, but I am at least thankful for this little card of info, so that I am able to return it without opening it, resulting in a restocking fee!",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4K5L2F"
+    },
+    {
+      "chunk_id": "5c1a654efb5d_0",
+      "doc_id": "5c1a654efb5d",
+      "text": "Was my favorite phone... I seriously liked this phone... Bought it to use on my carrier and worked fine, then my carrier decided that was not for their 5G network after a few days... So unfortunately I had to return it... The seller was super supportive... I am not happy with the 5g phone my carrier has me using... Wish I could still use this phone... Amazing how it stops robo calls, worked with every Bluetooth device I had, recognized my smart devices in my house... Was perfect phone, except my carrier sucked, still wish I could use this phone...",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08R61G69Q"
+    },
+    {
+      "chunk_id": "a89136e75607_0",
+      "doc_id": "a89136e75607",
+      "text": "Device does not connect to mobile network whatsoever.. Not sure what's up but straight up this phone refused to connect to my T-Mobile mobile network. SIM card worked fine when used in my previous phone",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08R61G69Q"
+    },
+    {
+      "chunk_id": "d80dffe30241_0",
+      "doc_id": "d80dffe30241",
+      "text": "Listing says it is unlocked, but I was shipped a carrier-locked phone. The product description says that this is an unlocked phone, and there is no mention anywhere of carrier restrictions in the version I purchased. However, when it arrived, it came with a great big sticker on it saying that it wasn't compatible with Sprint or Verizon, two of the major carriers! I know the actual Pixel 4a -is- compatible with these networks, so I was just shipped a locked version. It's very frustrating that I have to now return this and order the same device from another retailer.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4K5L2F"
+    },
+    {
+      "chunk_id": "64c268a7d583_0",
+      "doc_id": "64c268a7d583",
+      "text": "It is unlocked !!. Received the phone, it is nice unlocked for sure. I have T-Mobile postpaid which uses ultra capacity. It doesn’t show up in the 5G but I am sure I am connected to ultra capacity 5G I am getting over 350 Mbps for download on 5G. Keep in mind I am in the area that supports T-Mobile‘s ultra capacity. I also have Visible prepaid and the phone works with that carrier also I believe Verizon on visible. And last but not least mint mobile all three Sim cards worked. However Visible’s 5G coverage isn’t the greatest in my area so I have to have the phone in a good spot when using Visible to get 5G but LTE works fine with Visible. The phone I received was white and that is the one I ordered so no complaints there.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08XFM8P9Q"
+    },
+    {
+      "chunk_id": "af55d7cfc576_0",
+      "doc_id": "af55d7cfc576",
+      "text": "Great phone. This is a great phone, one of the best Google products, also at a decent price. I purchased the phone to use on my T-Mobile carrier however, I had issues getting the 5G network working. LTE was only available. Note that this is an international version that may cause similar limitations in the US. Make sure you check with your carrier for compatibility. The seller was loyal and worked with me to make things right.",
+      "brand": "Google",
+      "model": "Pixel 4A",
+      "source_url": "https://www.amazon.com/dp/B09976F132"
+    },
+    {
+      "chunk_id": "4d05a812345d_0",
+      "doc_id": "4d05a812345d",
+      "text": "Do not buy if you're provider is T-Mobile. The phone says it is compatible with T-Mobile, which is currently true. However after my wife was in the store to get some assistance with a SIM card not being consistently recognized she was informed that while the phone works with the current T-Mobile network, the Pixel 4a will NOT work with upcoming T-Mobile network changes being rolled out around January. So while I'm sure this phone is just fine, it is NOT something you want to buy for long term use on a T-Mobile network.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "cd4f4022e5ae_0",
+      "doc_id": "cd4f4022e5ae",
+      "text": "Not unlocked. I expected the phone to be great as I've had a 4a for the last two years, and a 1 before that. So I was pretty upset when my new-to-me phone was locked into Verizon. I couldn't get past the first screen. Okay, fine, that happens, so I set up an exchange and figure the second one I get should be fine. Took a week for the replacement to get to me and I'm getting glass slivers in my fingers from the screen of the phone I'm upgrading from, but fine. Second phone gets here, I do the data transfer, set up on WiFi, do the things, then call in to get my number switched to my new phone. Nope. 45 minutes later and my phone carrier says it's locked and there's nothing more they can try to fix it on their side.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08R61G69Q"
+    },
+    {
+      "chunk_id": "0b78950a447d_0",
+      "doc_id": "0b78950a447d",
+      "text": "DOES NOT work with all carriers. Check IEMI number with caries before opening. Check IEMI number with carrier before opening. The IEMI number is on the outside of the box. DO NOT unwrap the phone before checking the number with your carrier for compatibility. If NOT opened a refund is available otherwise maybe a restocking fee. I own a Pixel 4a 5G and its a nice phone but call carrier support first. A Pixel 4a 5G is a good phone. An IMEI stands for International Mobile Equipment Identity",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4K5L2F"
+    },
+    {
+      "chunk_id": "82229195940d_0",
+      "doc_id": "82229195940d",
+      "text": "The phone is carrier locked.. Unfortunately for me for trusting the seller,I discovered the cell was most definitely carrier-locked by a Japanese carrier. Returning it of course.",
+      "brand": "Google",
+      "model": "Pixel 4A",
+      "source_url": "https://www.amazon.com/dp/B09976F132"
+    }
+  ],
+  "contexts": [
+    "NOT compatible with major carriers as stated on Amazon. This is what was in the Amazon listing -- \"New, unlocked Android phone gives you the flexibility to change carriers and choose your own data plan; unlocked smartphone works with T-Mobile, Sprint, AT&T, and other major carriers; not compatible with the Verizon 5G Ultra Wideband network\". -- Yet the card inside the packaging says different - I'm not sure if Amazon messed this description up or the seller did, but I am at least thankful for this little card of info, so that I am able to return it without opening it, resulting in a restocking fee!",
+    "Was my favorite phone... I seriously liked this phone... Bought it to use on my carrier and worked fine, then my carrier decided that was not for their 5G network after a few days... So unfortunately I had to return it... The seller was super supportive... I am not happy with the 5g phone my carrier has me using... Wish I could still use this phone... Amazing how it stops robo calls, worked with every Bluetooth device I had, recognized my smart devices in my house... Was perfect phone, except my carrier sucked, still wish I could use this phone...",
+    "Device does not connect to mobile network whatsoever.. Not sure what's up but straight up this phone refused to connect to my T-Mobile mobile network. SIM card worked fine when used in my previous phone",
+    "Listing says it is unlocked, but I was shipped a carrier-locked phone. The product description says that this is an unlocked phone, and there is no mention anywhere of carrier restrictions in the version I purchased. However, when it arrived, it came with a great big sticker on it saying that it wasn't compatible with Sprint or Verizon, two of the major carriers! I know the actual Pixel 4a -is- compatible with these networks, so I was just shipped a locked version. It's very frustrating that I have to now return this and order the same device from another retailer.",
+    "It is unlocked !!. Received the phone, it is nice unlocked for sure. I have T-Mobile postpaid which uses ultra capacity. It doesn’t show up in the 5G but I am sure I am connected to ultra capacity 5G I am getting over 350 Mbps for download on 5G. Keep in mind I am in the area that supports T-Mobile‘s ultra capacity. I also have Visible prepaid and the phone works with that carrier also I believe Verizon on visible. And last but not least mint mobile all three Sim cards worked. However Visible’s 5G coverage isn’t the greatest in my area so I have to have the phone in a good spot when using Visible to get 5G but LTE works fine with Visible. The phone I received was white and that is the one I ordered so no complaints there.",
+    "Great phone. This is a great phone, one of the best Google products, also at a decent price. I purchased the phone to use on my T-Mobile carrier however, I had issues getting the 5G network working. LTE was only available. Note that this is an international version that may cause similar limitations in the US. Make sure you check with your carrier for compatibility. The seller was loyal and worked with me to make things right.",
+    "Do not buy if you're provider is T-Mobile. The phone says it is compatible with T-Mobile, which is currently true. However after my wife was in the store to get some assistance with a SIM card not being consistently recognized she was informed that while the phone works with the current T-Mobile network, the Pixel 4a will NOT work with upcoming T-Mobile network changes being rolled out around January. So while I'm sure this phone is just fine, it is NOT something you want to buy for long term use on a T-Mobile network.",
+    "Not unlocked. I expected the phone to be great as I've had a 4a for the last two years, and a 1 before that. So I was pretty upset when my new-to-me phone was locked into Verizon. I couldn't get past the first screen. Okay, fine, that happens, so I set up an exchange and figure the second one I get should be fine. Took a week for the replacement to get to me and I'm getting glass slivers in my fingers from the screen of the phone I'm upgrading from, but fine. Second phone gets here, I do the data transfer, set up on WiFi, do the things, then call in to get my number switched to my new phone. Nope. 45 minutes later and my phone carrier says it's locked and there's nothing more they can try to fix it on their side.",
+    "DOES NOT work with all carriers. Check IEMI number with caries before opening. Check IEMI number with carrier before opening. The IEMI number is on the outside of the box. DO NOT unwrap the phone before checking the number with your carrier for compatibility. If NOT opened a refund is available otherwise maybe a restocking fee. I own a Pixel 4a 5G and its a nice phone but call carrier support first. A Pixel 4a 5G is a good phone. An IMEI stands for International Mobile Equipment Identity",
+    "The phone is carrier locked.. Unfortunately for me for trusting the seller,I discovered the cell was most definitely carrier-locked by a Japanese carrier. Returning it of course."
+  ],
+  "timing": {
+    "classification_s": 3.4321180999977514,
+    "generation_s": 2.025202500000887,
+    "verification_s": 2.935100300004706,
+    "total_s": 8.392443099997763
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1888,
+        "completion_tokens": 754,
+        "total_tokens": 2642,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 224
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1764,
+        "completion_tokens": 344,
+        "total_tokens": 2108,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "prompt_cache_hit_tokens": 1536,
+        "prompt_cache_miss_tokens": 228
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1759,
+        "completion_tokens": 636,
+        "total_tokens": 2395,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "prompt_cache_hit_tokens": 1536,
+        "prompt_cache_miss_tokens": 223
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

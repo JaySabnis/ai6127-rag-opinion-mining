@@ -1,0 +1,479 @@
+{
+  "question": "What strengths and weaknesses do reviewers report for the Moto G7 camera?",
+  "answer": "One reviewer described the Moto G7 camera as terrible, saying scenic views and focusing were poor and almost every photo was out of focus. [280e64bc862d_0]\nThat same reviewer said the camera was okay for selfies and portraits but would not recommend the phone for great quality photos. [280e64bc862d_0]\nAnother reviewer said the camera is not good and that the Moto G4 Plus has a better camera. [24eda2ef28c5_0]\nOne reviewer said the front and rear cameras are decent for a budget handset. [7783db11b24b_1]\nA reviewer who said they do not use the camera reported hearing that the camera is very good. [38050f99d3ad_0]\nOne reviewer said you can take decent pictures when the moment arrives, but that installing the Google Camera APK made a noticeable difference and brought the experience to a solid B+. [56c803e5693e_3]",
+  "draft_answer": "One reviewer described the Moto G7 camera as terrible, saying scenic views and focusing were poor and almost every photo was out of focus. [280e64bc862d_0]\nThat same reviewer said the camera was okay for selfies and portraits but would not recommend the phone for great quality photos. [280e64bc862d_0]\nAnother reviewer said the camera is not good and that the Moto G4 Plus has a better camera. [24eda2ef28c5_0]\nOne reviewer said the front and rear cameras are decent for a budget handset. [7783db11b24b_1]\nA reviewer who said they do not use the camera reported hearing that the camera is very good. [38050f99d3ad_0]\nOne reviewer said you can take decent pictures when the moment arrives, but that installing the Google Camera APK made a noticeable difference and brought the experience to a solid B+. [56c803e5693e_3]",
+  "sentences": [
+    {
+      "text": "One reviewer described the Moto G7 camera as terrible, saying scenic views and focusing were poor and almost every photo was out of focus.",
+      "citations": [
+        "280e64bc862d_0"
+      ]
+    },
+    {
+      "text": "That same reviewer said the camera was okay for selfies and portraits but would not recommend the phone for great quality photos.",
+      "citations": [
+        "280e64bc862d_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said the camera is not good and that the Moto G4 Plus has a better camera.",
+      "citations": [
+        "24eda2ef28c5_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the front and rear cameras are decent for a budget handset.",
+      "citations": [
+        "7783db11b24b_1"
+      ]
+    },
+    {
+      "text": "A reviewer who said they do not use the camera reported hearing that the camera is very good.",
+      "citations": [
+        "38050f99d3ad_0"
+      ]
+    },
+    {
+      "text": "One reviewer said you can take decent pictures when the moment arrives, but that installing the Google Camera APK made a noticeable difference and brought the experience to a solid B+.",
+      "citations": [
+        "56c803e5693e_3"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer described the Moto G7 camera as terrible, saying scenic views and focusing were poor and almost every photo was out of focus.",
+      "citations": [
+        "280e64bc862d_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "That same reviewer said the camera was okay for selfies and portraits but would not recommend the phone for great quality photos.",
+      "citations": [
+        "280e64bc862d_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the camera is not good and that the Moto G4 Plus has a better camera.",
+      "citations": [
+        "24eda2ef28c5_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the front and rear cameras are decent for a budget handset.",
+      "citations": [
+        "7783db11b24b_1"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who said they do not use the camera reported hearing that the camera is very good.",
+      "citations": [
+        "38050f99d3ad_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said you can take decent pictures when the moment arrives, but that installing the Google Camera APK made a noticeable difference and brought the experience to a solid B+.",
+      "citations": [
+        "56c803e5693e_3"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer described the Moto G7 camera as terrible, saying scenic views and focusing were poor and almost every photo was out of focus.",
+      "citations": [
+        "280e64bc862d_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "That same reviewer said the camera was okay for selfies and portraits but would not recommend the phone for great quality photos.",
+      "citations": [
+        "280e64bc862d_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the camera is not good and that the Moto G4 Plus has a better camera.",
+      "citations": [
+        "24eda2ef28c5_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the front and rear cameras are decent for a budget handset.",
+      "citations": [
+        "7783db11b24b_1"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who said they do not use the camera reported hearing that the camera is very good.",
+      "citations": [
+        "38050f99d3ad_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said you can take decent pictures when the moment arrives, but that installing the Google Camera APK made a noticeable difference and brought the experience to a solid B+.",
+      "citations": [
+        "56c803e5693e_3"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "280e64bc862d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the camera on this G7 is terrible",
+        "scenic views poor, focusing poor",
+        "almost every photo is out of focus",
+        "just the camera is exceptionally poor"
+      ],
+      "reason": "Strong criticism of G7 camera quality, focus, and scenic shots.",
+      "doc_id": "280e64bc862d",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "f42161a0b282_1",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "I haven't used the camera much"
+      ],
+      "reason": "Mentions camera only to say not used much; no opinion on camera.",
+      "doc_id": "f42161a0b282",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "124d24d2d4c0_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "i like the tear drop camera design"
+      ],
+      "reason": "Likes the camera design (notch) on the G7.",
+      "doc_id": "124d24d2d4c0",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "64f903df5692_1",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "I'm not enough of a camera geek to compare cameras"
+      ],
+      "reason": "Declines to evaluate camera; no opinion on camera quality.",
+      "doc_id": "64f903df5692",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "24eda2ef28c5_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Camera not so good",
+        "Moto g4 plus has better camera",
+        "Camera is not good"
+      ],
+      "reason": "Explicit criticism of G7 camera, worse than G4 Plus.",
+      "doc_id": "24eda2ef28c5",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "38050f99d3ad_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "I hear the camera is very good"
+      ],
+      "reason": "Reports camera is very good, though user doesn't use it.",
+      "doc_id": "38050f99d3ad",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "56c803e5693e_3",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "you can take decent pictures",
+        "IT WILL MAKE A DIFFERENCE",
+        "Now the experience is solid B+"
+      ],
+      "reason": "Positive on camera; decent pictures, improved with gcam.",
+      "doc_id": "56c803e5693e",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "7783db11b24b_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The front and rear camera are decent for a budget handset"
+      ],
+      "reason": "Mild praise: cameras decent for budget handset.",
+      "doc_id": "7783db11b24b",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "8839683562fd_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No discussion of camera; covers calls and facial recognition.",
+      "doc_id": "8839683562fd",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "9a3199e95133_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The G7 is faster at switching among apps including the camera"
+      ],
+      "reason": "Positive: camera opens/switches faster than G6.",
+      "doc_id": "9a3199e95133",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 1,
+      "counts": {
+        "positive": 5,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "positive_ratio": 0.5555555555555556,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.7142857142857143,
+      "polarized_denominator": 7
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "280e64bc862d_0",
+      "doc_id": "280e64bc862d",
+      "text": "I've owned several Moto Smartphones BUT. I've owned several Moto Smartphones BUT, the camera on this G7 is terrible. If all you take is selfies and portraits it is ok, scenic views poor, focusing poor. almost every photo is out of focus. However I like Android 9 Pie, clean OS but still a little buggy. In general I like the G7, I have no other issues, just the camera is exceptionally poor. I would return it if I could and another Moto Phone with a better camera. I would not recommend this phone if you are looking for great quality photo's. Great phone otherwise.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    },
+    {
+      "chunk_id": "f42161a0b282_1",
+      "doc_id": "f42161a0b282",
+      "text": "A Google search showed me that Moto's are notorious for Bluetooth connection issues. So, if you use Bluetooth, you may want to look elsewhere. I haven't used the camera much, but the fingerprint sensor worked flawlessly (so far, only had it less than 2 months, yet having all these unresolved problems). BY THE WAY, if you buy a brand new phone and it has a factory defect, Moto will replace it with a refurbished phone., which run about $100 cheaper. Seems to me, if you want a G7, a refurbish is the way to go so you don't lose a $100 in value like I did when it starts to have mystery problems.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    },
+    {
+      "chunk_id": "124d24d2d4c0_0",
+      "doc_id": "124d24d2d4c0",
+      "text": "A step up with the Moto g7. Upgraded from moto g5 bigger screen faster process time.i like the tear drop camera design.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N92347B"
+    },
+    {
+      "chunk_id": "64f903df5692_1",
+      "doc_id": "64f903df5692",
+      "text": "I'm not enough of a camera geek to compare cameras. Otherwise, the Moto G7 delivers a comparable user experience to the Samsung S10 for 1/3 - 1/2 the price.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    },
+    {
+      "chunk_id": "24eda2ef28c5_0",
+      "doc_id": "24eda2ef28c5",
+      "text": "Camera not so good. Moto g4 plus has better camera.. Camera is not good. Rest is fine.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N92347B"
+    },
+    {
+      "chunk_id": "38050f99d3ad_0",
+      "doc_id": "38050f99d3ad",
+      "text": "Moto G7 is not worth the price.. The seller delivered as posted but the Moto G7 does not meet Motorola's usual high quality. The best points are Motorola's high quality screen actions and sound. It is dominated by Amazon and Google taking too much choice from the user. I hear the camera is very good. I do not use it. Everything else is no better than a phone worth half the price. Edit 4/10: Screen is not sharp. Brightness is limited. Software is slow.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N8ZTKHX"
+    },
+    {
+      "chunk_id": "56c803e5693e_3",
+      "doc_id": "56c803e5693e",
+      "text": "In other words, you can take decent pictures when the moment arrives and do not need to be hesitant. BUT if you really want a better camera experience, download and install \"Google Camera (or gcam)\" apk for your Moto G7 (just google \"how to install google camera apk for Moto G7\"). IT WILL MAKE A DIFFERENCE. Now the experience is solid B+. I am using it now and it is great! 6. Get a decent case and tempered-glass screen protector to protect your investment. Overall, I love this phone. It does more and better than expected! Given the price, this is a great choice for those who do not need or want premium phones! Highly Recommended!",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N92347B"
+    },
+    {
+      "chunk_id": "7783db11b24b_1",
+      "doc_id": "7783db11b24b",
+      "text": "The front and rear camera are decent for a budget handset. The speaker is decent and serviceable but don't expect a lot out of it. You're better off using headphones or a Bluetooth speaker for music or videos. The battery is okay and with normal everyday use and you should be able to make it through an 8 hour day on a full charge. The phone runs smoothly for every day use but I wouldn't recommend for heavy graphic intensive game. The Moto G7 is not built for gaming, but then, no budget handset really is. That said, you can get by running some titles at minimal settings. PUBG Mobile and Real Racing 3 run smoothly enough, so long as you turn the graphics down. The G7 is water repellent (not water resistant), and it lacks NFC.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N929X4V"
+    },
+    {
+      "chunk_id": "8839683562fd_0",
+      "doc_id": "8839683562fd",
+      "text": "Facts About the Moto G7. The only thing I dislike about this phone was that it was still programmed to hook up to the old H and H+ server at times and caused me to miss calls. The Facial recognition doesn't really work either. If may light up but the phone won't unlock with facial recognition. Other than that the phone is legit. Good features and good price at 200.00 dollars. I'm definitely getting the new G8 plus",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07PZZLR4D"
+    },
+    {
+      "chunk_id": "9a3199e95133_0",
+      "doc_id": "9a3199e95133",
+      "text": "A capable and worthy upgrade to the G6. As an instructor using a variety of apps in a given course I switch between multiple apps in rapid sequence, often also needing to capture photographic images as well. The G6 was, at times, a tad slow to switch apps or to open and close the camera. The G7 is faster at switching among apps including the camera. The rear mounted fingerprint sensor is perfectly positioned, a real gain over the G6 with its face mounted sensor. Battery life feels longer as well. A worthy successor to the G6, a highly recommended upgrade for those in the G6. For those who are not accustomed to the Moto line, these are really clean machines. Pure Android, pure Google. Chrome browser, not some manufacturers reworking of Chrome. Motorola Motos and the G line are perhaps the best kept secret in the smartphone world.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    }
+  ],
+  "contexts": [
+    "I've owned several Moto Smartphones BUT. I've owned several Moto Smartphones BUT, the camera on this G7 is terrible. If all you take is selfies and portraits it is ok, scenic views poor, focusing poor. almost every photo is out of focus. However I like Android 9 Pie, clean OS but still a little buggy. In general I like the G7, I have no other issues, just the camera is exceptionally poor. I would return it if I could and another Moto Phone with a better camera. I would not recommend this phone if you are looking for great quality photo's. Great phone otherwise.",
+    "A Google search showed me that Moto's are notorious for Bluetooth connection issues. So, if you use Bluetooth, you may want to look elsewhere. I haven't used the camera much, but the fingerprint sensor worked flawlessly (so far, only had it less than 2 months, yet having all these unresolved problems). BY THE WAY, if you buy a brand new phone and it has a factory defect, Moto will replace it with a refurbished phone., which run about $100 cheaper. Seems to me, if you want a G7, a refurbish is the way to go so you don't lose a $100 in value like I did when it starts to have mystery problems.",
+    "A step up with the Moto g7. Upgraded from moto g5 bigger screen faster process time.i like the tear drop camera design.",
+    "I'm not enough of a camera geek to compare cameras. Otherwise, the Moto G7 delivers a comparable user experience to the Samsung S10 for 1/3 - 1/2 the price.",
+    "Camera not so good. Moto g4 plus has better camera.. Camera is not good. Rest is fine.",
+    "Moto G7 is not worth the price.. The seller delivered as posted but the Moto G7 does not meet Motorola's usual high quality. The best points are Motorola's high quality screen actions and sound. It is dominated by Amazon and Google taking too much choice from the user. I hear the camera is very good. I do not use it. Everything else is no better than a phone worth half the price. Edit 4/10: Screen is not sharp. Brightness is limited. Software is slow.",
+    "In other words, you can take decent pictures when the moment arrives and do not need to be hesitant. BUT if you really want a better camera experience, download and install \"Google Camera (or gcam)\" apk for your Moto G7 (just google \"how to install google camera apk for Moto G7\"). IT WILL MAKE A DIFFERENCE. Now the experience is solid B+. I am using it now and it is great! 6. Get a decent case and tempered-glass screen protector to protect your investment. Overall, I love this phone. It does more and better than expected! Given the price, this is a great choice for those who do not need or want premium phones! Highly Recommended!",
+    "The front and rear camera are decent for a budget handset. The speaker is decent and serviceable but don't expect a lot out of it. You're better off using headphones or a Bluetooth speaker for music or videos. The battery is okay and with normal everyday use and you should be able to make it through an 8 hour day on a full charge. The phone runs smoothly for every day use but I wouldn't recommend for heavy graphic intensive game. The Moto G7 is not built for gaming, but then, no budget handset really is. That said, you can get by running some titles at minimal settings. PUBG Mobile and Real Racing 3 run smoothly enough, so long as you turn the graphics down. The G7 is water repellent (not water resistant), and it lacks NFC.",
+    "Facts About the Moto G7. The only thing I dislike about this phone was that it was still programmed to hook up to the old H and H+ server at times and caused me to miss calls. The Facial recognition doesn't really work either. If may light up but the phone won't unlock with facial recognition. Other than that the phone is legit. Good features and good price at 200.00 dollars. I'm definitely getting the new G8 plus",
+    "A capable and worthy upgrade to the G6. As an instructor using a variety of apps in a given course I switch between multiple apps in rapid sequence, often also needing to capture photographic images as well. The G6 was, at times, a tad slow to switch apps or to open and close the camera. The G7 is faster at switching among apps including the camera. The rear mounted fingerprint sensor is perfectly positioned, a real gain over the G6 with its face mounted sensor. Battery life feels longer as well. A worthy successor to the G6, a highly recommended upgrade for those in the G6. For those who are not accustomed to the Moto line, these are really clean machines. Pure Android, pure Google. Chrome browser, not some manufacturers reworking of Chrome. Motorola Motos and the G line are perhaps the best kept secret in the smartphone world."
+  ],
+  "timing": {
+    "classification_s": 3.0946559000003617,
+    "generation_s": 1.9239868000004208,
+    "verification_s": 6.50000583846122e-06,
+    "total_s": 5.018659800000023
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1845,
+        "completion_tokens": 670,
+        "total_tokens": 2515,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1589
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1720,
+        "completion_tokens": 266,
+        "total_tokens": 1986,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1592
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

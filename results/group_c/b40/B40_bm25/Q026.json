@@ -1,0 +1,434 @@
+{
+  "question": "What experiences do iPhone 8 buyers describe when seeking help or returning a faulty phone?",
+  "answer": "One buyer described still trying to figure out how to help their 15-year-old daughter return a faulty iPhone 8 ordered from another company. [947c7dcfdf6a_0]\nA reviewer who said the phone sold to them was faulty reported that the seller (Woo) refused to help or take the phone back, while Amazon took it back and refunded them. [b2cdbddee094_0]\nA buyer whose battery dropped 4% in efficiency over two weeks described returning it as annoying. [eb3b1242c26c_0]\nA reviewer who found a faulty facial proximity sensor said the phone was returned and their money was returned as well. [a9ee1a6a743e_0]\nOne buyer praised the seller support as superb. [3b7e42d725d7_0]",
+  "draft_answer": "One buyer described still trying to figure out how to help their 15-year-old daughter return a faulty iPhone 8 ordered from another company. [947c7dcfdf6a_0]\nA reviewer who said the phone sold to them was faulty reported that the seller (Woo) refused to help or take the phone back, while Amazon took it back and refunded them. [b2cdbddee094_0]\nA buyer whose battery dropped 4% in efficiency over two weeks described returning it as annoying. [eb3b1242c26c_0]\nA reviewer who found a faulty facial proximity sensor said the phone was returned and their money was returned as well. [a9ee1a6a743e_0]\nOne buyer praised the seller support as superb. [3b7e42d725d7_0]",
+  "sentences": [
+    {
+      "text": "One buyer described still trying to figure out how to help their 15-year-old daughter return a faulty iPhone 8 ordered from another company.",
+      "citations": [
+        "947c7dcfdf6a_0"
+      ]
+    },
+    {
+      "text": "A reviewer who said the phone sold to them was faulty reported that the seller (Woo) refused to help or take the phone back, while Amazon took it back and refunded them.",
+      "citations": [
+        "b2cdbddee094_0"
+      ]
+    },
+    {
+      "text": "A buyer whose battery dropped 4% in efficiency over two weeks described returning it as annoying.",
+      "citations": [
+        "eb3b1242c26c_0"
+      ]
+    },
+    {
+      "text": "A reviewer who found a faulty facial proximity sensor said the phone was returned and their money was returned as well.",
+      "citations": [
+        "a9ee1a6a743e_0"
+      ]
+    },
+    {
+      "text": "One buyer praised the seller support as superb.",
+      "citations": [
+        "3b7e42d725d7_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One buyer described still trying to figure out how to help their 15-year-old daughter return a faulty iPhone 8 ordered from another company.",
+      "citations": [
+        "947c7dcfdf6a_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who said the phone sold to them was faulty reported that the seller (Woo) refused to help or take the phone back, while Amazon took it back and refunded them.",
+      "citations": [
+        "b2cdbddee094_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A buyer whose battery dropped 4% in efficiency over two weeks described returning it as annoying.",
+      "citations": [
+        "eb3b1242c26c_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who found a faulty facial proximity sensor said the phone was returned and their money was returned as well.",
+      "citations": [
+        "a9ee1a6a743e_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One buyer praised the seller support as superb.",
+      "citations": [
+        "3b7e42d725d7_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One buyer described still trying to figure out how to help their 15-year-old daughter return a faulty iPhone 8 ordered from another company.",
+      "citations": [
+        "947c7dcfdf6a_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who said the phone sold to them was faulty reported that the seller (Woo) refused to help or take the phone back, while Amazon took it back and refunded them.",
+      "citations": [
+        "b2cdbddee094_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A buyer whose battery dropped 4% in efficiency over two weeks described returning it as annoying.",
+      "citations": [
+        "eb3b1242c26c_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who found a faulty facial proximity sensor said the phone was returned and their money was returned as well.",
+      "citations": [
+        "a9ee1a6a743e_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One buyer praised the seller support as superb.",
+      "citations": [
+        "3b7e42d725d7_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "947c7dcfdf6a_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "I ordered this Red iPhone 8 from your company and it came in excellent working order",
+        "I hope I can return the faulty phone and order another phone from you"
+      ],
+      "reason": "Praises the seller's service and expresses intent to buy again.",
+      "doc_id": "947c7dcfdf6a",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "c83477b46c3e_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No mention of service; only product condition.",
+      "doc_id": "c83477b46c3e",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "b2cdbddee094_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "I contacted the seller (Woo) about the issue and they refused to help or take the phone back"
+      ],
+      "reason": "Criticizes seller's refusal to help with faulty phone.",
+      "doc_id": "b2cdbddee094",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "eb3b1242c26c_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses battery quality and returning, not seller service.",
+      "doc_id": "eb3b1242c26c",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "90b854220595_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Describes product condition, no service mention.",
+      "doc_id": "90b854220595",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "d5b0c39aa23a_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Only product condition described, no service.",
+      "doc_id": "d5b0c39aa23a",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "a9ee1a6a743e_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Criticizes refurbishment quality, not seller service.",
+      "doc_id": "a9ee1a6a743e",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "256cf2d9373b_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Informational about models and carriers, no service.",
+      "doc_id": "256cf2d9373b",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "3b7e42d725d7_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "superb seller support",
+        "Would recommend this seller"
+      ],
+      "reason": "Praises seller support and recommends seller.",
+      "doc_id": "3b7e42d725d7",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "45db44dac1f7_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Expresses happiness with phone, no service mention.",
+      "doc_id": "45db44dac1f7",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 3,
+      "n_excluded_aspect_absent": 7,
+      "counts": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.6666666666666666,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6666666666666666,
+      "polarized_denominator": 3
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "947c7dcfdf6a_0",
+      "doc_id": "947c7dcfdf6a",
+      "text": "Your phone works great!. Thank you for this phone. I ordered 2 phones for my twin daughters who live in Belton, Tx. I ordered this Red iPhone 8 from your company and it came in excellent working order. I ordered a Space Gray iPhone 8 from another company. I am still trying to figure out how to help my 15 year old daughter return the faulty phone from other company. Now thanks to you my daughters at least have 1 working phone. I hope I can return the faulty phone and order another phone from you.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "c83477b46c3e_0",
+      "doc_id": "c83477b46c3e",
+      "text": "iPhone 8. As described",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "b2cdbddee094_0",
+      "doc_id": "b2cdbddee094",
+      "text": "Don't Buy From Woo. The phone sold to me was faulty and was repaired in such a way to hide it from the buyer. The battery was faulty and the phone would randomly restart, making normal use impossible. I contacted the seller (Woo) about the issue and they refused to help or take the phone back. Luckily Amazon is great and took it back and refunded me.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "eb3b1242c26c_0",
+      "doc_id": "eb3b1242c26c",
+      "text": "Battery Was Faulty. I bought the iPhone 8 with a hesitation about the quality... You can check the quality relative to new of the battery in the Settings - Battery - Battery Health settings of the phone. The battery dropped 4% in efficiency in the 2 weeks I had it. It was annoying returning it. Just saying.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "90b854220595_0",
+      "doc_id": "90b854220595",
+      "text": "works great. product is just as described -no frills about it. It is an iphone 8, batter is as described, the phone works and looks great.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "d5b0c39aa23a_0",
+      "doc_id": "d5b0c39aa23a",
+      "text": "IPhone 8. Received as described. One scratch but in great condition",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "a9ee1a6a743e_0",
+      "doc_id": "a9ee1a6a743e",
+      "text": "Apparent faulty facial proximity sensor from the first use.. Poor refurbishment; it appears that the proximity sensor was faulty despite the phone being approved by 'quality control'. All kind of interesting things were occurring on my newly refurbished iPhone 8 from the first phone call to all subsequent phone conversations. The screen was staying active and illuminated when I was speaking with someone and I found myself often explaining to others that I hang-up on them, muted them, sent them a random picture, etc... with my face. The phone was returned and my money was returned as well. I understand that it happens occasionally but it was a waste of time that was a gift to my mother for xmas. Another was purchased from a different refurbished and it works just like you'd expect an iPhone 8 to perform.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "256cf2d9373b_0",
+      "doc_id": "256cf2d9373b",
+      "text": "What model are you buying..heres help a fully unlocked a1863. e Unlocked iPhone 8 comes in two models for US carriers: A1863 and A1905. There is also model A1906, but it is intended for Japanese carriers so isn’t considered for this article. This post is part of our Unlocked iPhone Buyers Guide meant to answer all your questions about buying an unlocked iPhone. This article will help answer the question: Which unlocked iPhone 8 should I buy for my carrier network? We’ll discuss the model differences, carrier compatibility, and help you choose the right iPhone 8 for Verizon, AT&T, T-Mobile, Sprint or your favorite MVNO. Unlocked iPhone 8: A1863 vs A1905 The A1863 is the GSM+CDMA model and works on pretty much any carrier, including Verizon and Sprint. The A1905 is the GSM-only version, sold as the carrier model for AT&T and T-Mobile, and won’t work fully with CDMA networks.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "3b7e42d725d7_0",
+      "doc_id": "3b7e42d725d7",
+      "text": "IPhone 8. Great camera and superb seller support. Would recommend this seller for buyers of refurbished camera.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "45db44dac1f7_0",
+      "doc_id": "45db44dac1f7",
+      "text": "Helpful. I like this phone, it’s my first iPhone 8 and I’m so happy with",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    }
+  ],
+  "contexts": [
+    "Your phone works great!. Thank you for this phone. I ordered 2 phones for my twin daughters who live in Belton, Tx. I ordered this Red iPhone 8 from your company and it came in excellent working order. I ordered a Space Gray iPhone 8 from another company. I am still trying to figure out how to help my 15 year old daughter return the faulty phone from other company. Now thanks to you my daughters at least have 1 working phone. I hope I can return the faulty phone and order another phone from you.",
+    "iPhone 8. As described",
+    "Don't Buy From Woo. The phone sold to me was faulty and was repaired in such a way to hide it from the buyer. The battery was faulty and the phone would randomly restart, making normal use impossible. I contacted the seller (Woo) about the issue and they refused to help or take the phone back. Luckily Amazon is great and took it back and refunded me.",
+    "Battery Was Faulty. I bought the iPhone 8 with a hesitation about the quality... You can check the quality relative to new of the battery in the Settings - Battery - Battery Health settings of the phone. The battery dropped 4% in efficiency in the 2 weeks I had it. It was annoying returning it. Just saying.",
+    "works great. product is just as described -no frills about it. It is an iphone 8, batter is as described, the phone works and looks great.",
+    "IPhone 8. Received as described. One scratch but in great condition",
+    "Apparent faulty facial proximity sensor from the first use.. Poor refurbishment; it appears that the proximity sensor was faulty despite the phone being approved by 'quality control'. All kind of interesting things were occurring on my newly refurbished iPhone 8 from the first phone call to all subsequent phone conversations. The screen was staying active and illuminated when I was speaking with someone and I found myself often explaining to others that I hang-up on them, muted them, sent them a random picture, etc... with my face. The phone was returned and my money was returned as well. I understand that it happens occasionally but it was a waste of time that was a gift to my mother for xmas. Another was purchased from a different refurbished and it works just like you'd expect an iPhone 8 to perform.",
+    "What model are you buying..heres help a fully unlocked a1863. e Unlocked iPhone 8 comes in two models for US carriers: A1863 and A1905. There is also model A1906, but it is intended for Japanese carriers so isn’t considered for this article. This post is part of our Unlocked iPhone Buyers Guide meant to answer all your questions about buying an unlocked iPhone. This article will help answer the question: Which unlocked iPhone 8 should I buy for my carrier network? We’ll discuss the model differences, carrier compatibility, and help you choose the right iPhone 8 for Verizon, AT&T, T-Mobile, Sprint or your favorite MVNO. Unlocked iPhone 8: A1863 vs A1905 The A1863 is the GSM+CDMA model and works on pretty much any carrier, including Verizon and Sprint. The A1905 is the GSM-only version, sold as the carrier model for AT&T and T-Mobile, and won’t work fully with CDMA networks.",
+    "IPhone 8. Great camera and superb seller support. Would recommend this seller for buyers of refurbished camera.",
+    "Helpful. I like this phone, it’s my first iPhone 8 and I’m so happy with"
+  ],
+  "timing": {
+    "classification_s": 2.579177300001902,
+    "generation_s": 2.0794615000049816,
+    "verification_s": 6.499998562503606e-06,
+    "total_s": 4.658655000006547
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1509,
+        "completion_tokens": 575,
+        "total_tokens": 2084,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1253
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1386,
+        "completion_tokens": 218,
+        "total_tokens": 1604,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1386
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

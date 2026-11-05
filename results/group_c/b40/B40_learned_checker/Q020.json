@@ -1,0 +1,471 @@
+{
+  "question": "Do iPhone 11 owners report smooth operation, slowdowns, or freezing?",
+  "answer": "One iPhone 11 owner reported that the screen sometimes freezes and they have to close out of the app, and that it is sometimes a little slow. [2ff87381aacf_0]\nAnother owner said the phone moves very slow and sometimes the screen freezes, requiring a restart. [a592a8c68eb6_0]\nA reviewer described the phone as okay but noted it sometimes freezes. [24e57a74aa4c_0]\nOne owner reported the phone freezes often, including at the language selection screen. [053fba2a8fdd_0]\nAnother reviewer reported the phone freezes and also gets very hot and cannot hold a charge for long. [3150cd978fab_0]\nOne owner said activation was smooth with no problems, while another said the phone works well enough with freezing being a minor annoyance. [f926550b026e_0] [69f02c30d0fa_0]",
+  "draft_answer": "One iPhone 11 owner reported that the screen sometimes freezes and they have to close out of the app, and that it is sometimes a little slow. [2ff87381aacf_0]\nAnother owner said the phone moves very slow and sometimes the screen freezes, requiring a restart. [a592a8c68eb6_0]\nA reviewer described the phone as okay but noted it sometimes freezes. [24e57a74aa4c_0]\nOne owner reported the phone freezes often, including at the language selection screen. [053fba2a8fdd_0]\nAnother reviewer reported the phone freezes and also gets very hot and cannot hold a charge for long. [3150cd978fab_0]\nOne owner said activation was smooth with no problems, while another said the phone works well enough with freezing being a minor annoyance. [f926550b026e_0] [69f02c30d0fa_0]",
+  "sentences": [
+    {
+      "text": "One iPhone 11 owner reported that the screen sometimes freezes and they have to close out of the app, and that it is sometimes a little slow.",
+      "citations": [
+        "2ff87381aacf_0"
+      ]
+    },
+    {
+      "text": "Another owner said the phone moves very slow and sometimes the screen freezes, requiring a restart.",
+      "citations": [
+        "a592a8c68eb6_0"
+      ]
+    },
+    {
+      "text": "A reviewer described the phone as okay but noted it sometimes freezes.",
+      "citations": [
+        "24e57a74aa4c_0"
+      ]
+    },
+    {
+      "text": "One owner reported the phone freezes often, including at the language selection screen.",
+      "citations": [
+        "053fba2a8fdd_0"
+      ]
+    },
+    {
+      "text": "Another reviewer reported the phone freezes and also gets very hot and cannot hold a charge for long.",
+      "citations": [
+        "3150cd978fab_0"
+      ]
+    },
+    {
+      "text": "One owner said activation was smooth with no problems, while another said the phone works well enough with freezing being a minor annoyance.",
+      "citations": [
+        "f926550b026e_0",
+        "69f02c30d0fa_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One iPhone 11 owner reported that the screen sometimes freezes and they have to close out of the app, and that it is sometimes a little slow.",
+      "citations": [
+        "2ff87381aacf_0"
+      ],
+      "status": "supported",
+      "reason": "引文明确提到屏幕有时卡住需关闭应用，且有时有点慢，与句子内容一致。",
+      "evidence": [
+        {
+          "chunk_id": "2ff87381aacf_0",
+          "quote": "screen sometimes doesn’t want to operate like it freezes up sometimes and I have to close out of the app I was in or sometimes it’s slow a little"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "Another owner said the phone moves very slow and sometimes the screen freezes, requiring a restart.",
+      "citations": [
+        "a592a8c68eb6_0"
+      ],
+      "status": "supported",
+      "reason": "引文提到运行很慢、屏幕有时冻结需关机再开机，与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "a592a8c68eb6_0",
+          "quote": "It moves very slow , some times my screen freezes I have to turn the phone off then back on again."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "A reviewer described the phone as okay but noted it sometimes freezes.",
+      "citations": [
+        "24e57a74aa4c_0"
+      ],
+      "status": "supported",
+      "reason": "引文称“还行”并说有时会冻结，与句子相符。",
+      "evidence": [
+        {
+          "chunk_id": "24e57a74aa4c_0",
+          "quote": "It’s okay sometimes it freezes."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s3",
+      "text": "One owner reported the phone freezes often, including at the language selection screen.",
+      "citations": [
+        "053fba2a8fdd_0"
+      ],
+      "status": "supported",
+      "reason": "引文称经常冻结，且卡在语言选择界面无法通过，与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "053fba2a8fdd_0",
+          "quote": "Freezes often. My girlfriend bought this as a t mobile locked phone and we can’t get past the language selection screen."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "Another reviewer reported the phone freezes and also gets very hot and cannot hold a charge for long.",
+      "citations": [
+        "3150cd978fab_0"
+      ],
+      "status": "supported",
+      "reason": "引文提到手机冻结、变得非常热且电池无法持久，与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "3150cd978fab_0",
+          "quote": "phone freezes"
+        },
+        {
+          "chunk_id": "3150cd978fab_0",
+          "quote": "Also the phone gets very very hot and can not hold a charge for long time battery wears down fast"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "One owner said activation was smooth with no problems, while another said the phone works well enough with freezing being a minor annoyance.",
+      "citations": [
+        "f926550b026e_0",
+        "69f02c30d0fa_0"
+      ],
+      "status": "supported",
+      "reason": "第一条引文称激活顺利无问题；第二条称手机够用、冻结只是小烦恼，两句均有对应证据。",
+      "evidence": [
+        {
+          "chunk_id": "f926550b026e_0",
+          "quote": "The activation was smooth with no problems."
+        },
+        {
+          "chunk_id": "69f02c30d0fa_0",
+          "quote": "sad the phone works well enough just a minor annoyance."
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "2ff87381aacf_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "screen sometimes doesn’t want to operate like it freezes up sometimes",
+        "sometimes it’s slow a little but I can live with it",
+        "Everything is in perfect working order"
+      ],
+      "reason": "Reports freezing/slow performance but also says everything works perfectly; both views on performance.",
+      "doc_id": "2ff87381aacf",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "a592a8c68eb6_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "It moves very slow",
+        "my screen freezes I have to turn the phone off then back on again"
+      ],
+      "reason": "Complains of slow performance and freezing requiring restart.",
+      "doc_id": "a592a8c68eb6",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "24e57a74aa4c_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "It’s okay sometimes it freezes",
+        "Sometimes it freezes"
+      ],
+      "reason": "Notes freezing, a performance criticism, though softened.",
+      "doc_id": "24e57a74aa4c",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "053fba2a8fdd_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Freezes often",
+        "it simply won’t work",
+        "It freezes no matter what language we pick"
+      ],
+      "reason": "Phone freezes and is unusable; clear performance criticism.",
+      "doc_id": "053fba2a8fdd",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "3150cd978fab_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "phone freezes",
+        "the phone gets very very hot",
+        "battery wears down fast"
+      ],
+      "reason": "Freezing, overheating, and battery drain are performance criticisms.",
+      "doc_id": "3150cd978fab",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "3bd70d8485db_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "it started turning on and off by itself all the time",
+        "they didn’t properly install the screen back on"
+      ],
+      "reason": "Phone power-cycling due to screen install issue; performance problem.",
+      "doc_id": "3bd70d8485db",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "f926550b026e_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "No problem so far",
+        "The activation was smooth with no problems"
+      ],
+      "reason": "No problems and smooth activation; positive performance evidence.",
+      "doc_id": "f926550b026e",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "f9b44601b8ed_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "it freezes from time to time and cut you in and out of calls"
+      ],
+      "reason": "Freezing and call drops are performance criticisms.",
+      "doc_id": "f9b44601b8ed",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "69f02c30d0fa_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "it has started to glitch and freeze",
+        "the phone works well enough just a minor annoyance"
+      ],
+      "reason": "Reports glitching/freezing but calls it minor and works well enough.",
+      "doc_id": "69f02c30d0fa",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "2197c7f273c2_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "It keeps freezing",
+        "This phone keeps freezing on me",
+        "Not satisfied at all at this point"
+      ],
+      "reason": "Repeated freezing and dissatisfaction; negative performance.",
+      "doc_id": "2197c7f273c2",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 7,
+        "mixed": 2,
+        "neutral": 0
+      },
+      "positive_ratio": 0.1,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.125,
+      "polarized_denominator": 8
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "2ff87381aacf_0",
+      "doc_id": "2ff87381aacf",
+      "text": "Good phone. Great value, screen sometimes doesn’t want to operate like it freezes up sometimes and I have to close out of the app I was in or sometimes it’s slow a little but I can live with it. Everything is in perfect working order and screen is in great condition came with a screen protector. Awesome phone, wish the battery life was a little longer though, last maybe two-three hours using it. Checking my phone and going on every now and then last about ten hours, so not too bad.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "a592a8c68eb6_0",
+      "doc_id": "a592a8c68eb6",
+      "text": "Smh. It moves very slow , some times my screen freezes I have to turn the phone off then back on again.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "24e57a74aa4c_0",
+      "doc_id": "24e57a74aa4c",
+      "text": "It’s okay sometimes it freezes. Sometimes it freezes but It might be because I try to move at the speed of light haha",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "053fba2a8fdd_0",
+      "doc_id": "053fba2a8fdd",
+      "text": "Freezes often. My girlfriend bought this as a t mobile locked phone and we can’t get past the language selection screen. We’ve tried turning it off and restarting the device but it simply won’t work. I’ll need a replacement because I just can’t use it. It freezes no matter what language we pick. Unprofessional",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "3150cd978fab_0",
+      "doc_id": "3150cd978fab",
+      "text": "Beware of certain sellers. ( 62 days old) bright light on bottom pages disappears, phone freezes, s amazon told seller to send another one. Been waiting 3 months seller keeps on refusing. Amazon promised me that they will talk to him and I will get another one. Called 4 times since April. I would never buy from this seller again. Only amazon direct where they have control Also the phone gets very very hot and can not hold a charge for long time battery wears down fast",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "3bd70d8485db_0",
+      "doc_id": "3bd70d8485db",
+      "text": "The owner won’t help if there’s a problem they caused!. After maybe a month or 2 of having my phone it started turning on and off by itself all the time and then I looked it up and then found out it was because my screen had risen. Now keep in mind I had not taken my phone out of its case for the entire time of having it! The cause of this problem was that they didn’t properly install the screen back on. I then texted the owner and I was asking for them to fix it because it’s not my problem, it’s there’s. The owner will not take my phone back to fix the damages they have caused. Sorry if your phone messed up, THEY DO NOT CARE!",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "f926550b026e_0",
+      "doc_id": "f926550b026e",
+      "text": "No problem so far. The activation was smooth with no problems. This is a great buy.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "f9b44601b8ed_0",
+      "doc_id": "f9b44601b8ed",
+      "text": "It okey. It alright it freezes from time to time and cut you in and out of calls",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "69f02c30d0fa_0",
+      "doc_id": "69f02c30d0fa",
+      "text": "Annoyance. I’ve had this phone for 3months and it has started to glitch and freeze. Buy the warranty package. I purchased another phone with the warranty protection package and I forgot to add the warranty to this phone as well. sad the phone works well enough just a minor annoyance.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "2197c7f273c2_0",
+      "doc_id": "2197c7f273c2",
+      "text": "It keeps freezing.. This phone keeps freezing on me. I’m going to give it another day or so. If it keeps happening I’m going to return it. Not satisfied at all at this point",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    }
+  ],
+  "contexts": [
+    "Good phone. Great value, screen sometimes doesn’t want to operate like it freezes up sometimes and I have to close out of the app I was in or sometimes it’s slow a little but I can live with it. Everything is in perfect working order and screen is in great condition came with a screen protector. Awesome phone, wish the battery life was a little longer though, last maybe two-three hours using it. Checking my phone and going on every now and then last about ten hours, so not too bad.",
+    "Smh. It moves very slow , some times my screen freezes I have to turn the phone off then back on again.",
+    "It’s okay sometimes it freezes. Sometimes it freezes but It might be because I try to move at the speed of light haha",
+    "Freezes often. My girlfriend bought this as a t mobile locked phone and we can’t get past the language selection screen. We’ve tried turning it off and restarting the device but it simply won’t work. I’ll need a replacement because I just can’t use it. It freezes no matter what language we pick. Unprofessional",
+    "Beware of certain sellers. ( 62 days old) bright light on bottom pages disappears, phone freezes, s amazon told seller to send another one. Been waiting 3 months seller keeps on refusing. Amazon promised me that they will talk to him and I will get another one. Called 4 times since April. I would never buy from this seller again. Only amazon direct where they have control Also the phone gets very very hot and can not hold a charge for long time battery wears down fast",
+    "The owner won’t help if there’s a problem they caused!. After maybe a month or 2 of having my phone it started turning on and off by itself all the time and then I looked it up and then found out it was because my screen had risen. Now keep in mind I had not taken my phone out of its case for the entire time of having it! The cause of this problem was that they didn’t properly install the screen back on. I then texted the owner and I was asking for them to fix it because it’s not my problem, it’s there’s. The owner will not take my phone back to fix the damages they have caused. Sorry if your phone messed up, THEY DO NOT CARE!",
+    "No problem so far. The activation was smooth with no problems. This is a great buy.",
+    "It okey. It alright it freezes from time to time and cut you in and out of calls",
+    "Annoyance. I’ve had this phone for 3months and it has started to glitch and freeze. Buy the warranty package. I purchased another phone with the warranty protection package and I forgot to add the warranty to this phone as well. sad the phone works well enough just a minor annoyance.",
+    "It keeps freezing.. This phone keeps freezing on me. I’m going to give it another day or so. If it keeps happening I’m going to return it. Not satisfied at all at this point"
+  ],
+  "timing": {
+    "classification_s": 4.425946300005307,
+    "generation_s": 2.0068522000001394,
+    "verification_s": 2.7544368999951985,
+    "total_s": 9.187260299993795
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1399,
+        "completion_tokens": 735,
+        "total_tokens": 2134,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "prompt_cache_hit_tokens": 1152,
+        "prompt_cache_miss_tokens": 247
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1274,
+        "completion_tokens": 262,
+        "total_tokens": 1536,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 250
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1336,
+        "completion_tokens": 506,
+        "total_tokens": 1842,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1208
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

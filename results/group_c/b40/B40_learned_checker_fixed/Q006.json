@@ -1,0 +1,482 @@
+{
+  "question": "How well does the Samsung Galaxy S20 FE take photos according to owners?",
+  "answer": "One owner reports the camera takes good photos in bright daylight, dusk, and night mode, and that the 30x space zoom produced impressive pictures. [ea439ae22e86_9]\nAnother reviewer says the phone takes great photos and video and praises the single take feature that selects photos from videos. [52142e47724d_0] [0cac3feceb9d_0]\nThat same reviewer says pictures tend to look more processed than with some other phone cameras, which some people like and others do not. [66fbd3717a91_3]\nOne owner calls the rear camera very poor, describing blurred photos that are worse with flash. [42c7518791bd_0]\nAnother reviewer reports blurry photos when shooting moving objects and says their LG Stylo 4 took better pictures. [4fb745286f76_0]",
+  "draft_answer": "One owner reports the camera takes good photos in bright daylight, dusk, and night mode, and that the 30x space zoom produced impressive pictures. [ea439ae22e86_9]\nAnother reviewer says the phone takes great photos and video and praises the single take feature that selects photos from videos. [52142e47724d_0] [0cac3feceb9d_0]\nA reviewer notes the telephoto lens is useful for landscape and nature photography, but that the normal and wide-angle cameras are not as good as the iPhone or Google Pixel in lower light. [66fbd3717a91_3]\nThat same reviewer says pictures tend to look more processed than with some other phone cameras, which some people like and others do not. [66fbd3717a91_3]\nOne owner calls the rear camera very poor, describing blurred photos that are worse with flash. [42c7518791bd_0]\nAnother reviewer reports blurry photos when shooting moving objects and says their LG Stylo 4 took better pictures. [4fb745286f76_0]",
+  "sentences": [
+    {
+      "text": "One owner reports the camera takes good photos in bright daylight, dusk, and night mode, and that the 30x space zoom produced impressive pictures.",
+      "citations": [
+        "ea439ae22e86_9"
+      ]
+    },
+    {
+      "text": "Another reviewer says the phone takes great photos and video and praises the single take feature that selects photos from videos.",
+      "citations": [
+        "52142e47724d_0",
+        "0cac3feceb9d_0"
+      ]
+    },
+    {
+      "text": "A reviewer notes the telephoto lens is useful for landscape and nature photography, but that the normal and wide-angle cameras are not as good as the iPhone or Google Pixel in lower light.",
+      "citations": [
+        "66fbd3717a91_3"
+      ]
+    },
+    {
+      "text": "That same reviewer says pictures tend to look more processed than with some other phone cameras, which some people like and others do not.",
+      "citations": [
+        "66fbd3717a91_3"
+      ]
+    },
+    {
+      "text": "One owner calls the rear camera very poor, describing blurred photos that are worse with flash.",
+      "citations": [
+        "42c7518791bd_0"
+      ]
+    },
+    {
+      "text": "Another reviewer reports blurry photos when shooting moving objects and says their LG Stylo 4 took better pictures.",
+      "citations": [
+        "4fb745286f76_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One owner reports the camera takes good photos in bright daylight, dusk, and night mode, and that the 30x space zoom produced impressive pictures.",
+      "citations": [
+        "ea439ae22e86_9"
+      ],
+      "status": "supported",
+      "reason": "引文明确提到该机主在明亮日光、黄昏和夜景模式下拍照效果很好，且30倍空间变焦能拍出令人惊叹的照片，与句子各分句一致。",
+      "evidence": [
+        {
+          "chunk_id": "ea439ae22e86_9",
+          "quote": "photos in bright daylight, dusk, and using night mode have come out very well. The space zoom feature (30x zoom) produces some amazing pictures"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "Another reviewer says the phone takes great photos and video and praises the single take feature that selects photos from videos.",
+      "citations": [
+        "52142e47724d_0",
+        "0cac3feceb9d_0"
+      ],
+      "status": "supported",
+      "reason": "一条引文说拍照和视频很棒，另一条引文称赞single take功能可从视频中挑选照片，两个分句均有对应证据。",
+      "evidence": [
+        {
+          "chunk_id": "52142e47724d_0",
+          "quote": "excellent photos and the single take feature that selects photos from videos is great"
+        },
+        {
+          "chunk_id": "0cac3feceb9d_0",
+          "quote": "takes great photos and video"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "A reviewer notes the telephoto lens is useful for landscape and nature photography, but that the normal and wide-angle cameras are not as good as the iPhone or Google Pixel in lower light.",
+      "citations": [
+        "66fbd3717a91_3"
+      ],
+      "status": "partially_supported",
+      "reason": "引文确实说长焦镜头适合风景和自然摄影，但关于普通和广角相机在低光下不如iPhone或Pixel的说法，引文实际是说它们在低光下表现更好（但仍不如iPhone/Pixel），句子表述有偏差。",
+      "evidence": [
+        {
+          "chunk_id": "66fbd3717a91_3",
+          "quote": "I really like using the telephoto lens for landscape and nature photography. The normal and wide angle cameras work better in lower light situations (including indoor situations), though not as good as the iphone or Google Pixel phones."
+        }
+      ],
+      "flagged": true
+    },
+    {
+      "sentence_id": "s3",
+      "text": "That same reviewer says pictures tend to look more processed than with some other phone cameras, which some people like and others do not.",
+      "citations": [
+        "66fbd3717a91_3"
+      ],
+      "status": "supported",
+      "reason": "引文明确说照片看起来比其他手机相机处理痕迹更重，且有人喜欢三星风格、有人偏好自然照片，与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "66fbd3717a91_3",
+          "quote": "Pictures do tend look more processed than with some other phone cameras. Some people like the Samsung look. Other people prefer more natural looking photos."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "One owner calls the rear camera very poor, describing blurred photos that are worse with flash.",
+      "citations": [
+        "42c7518791bd_0"
+      ],
+      "status": "supported",
+      "reason": "引文明确称后置相机很差、照片模糊且开闪光灯更糟，与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "42c7518791bd_0",
+          "quote": "The camera however is very poor. Specifically the rear camera. Mine is actually blurred and worse when using flash."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "Another reviewer reports blurry photos when shooting moving objects and says their LG Stylo 4 took better pictures.",
+      "citations": [
+        "4fb745286f76_0"
+      ],
+      "status": "supported",
+      "reason": "引文明确说拍运动物体时照片模糊，且其LG Stylo 4拍得更好，与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "4fb745286f76_0",
+          "quote": "camera is blurry when taking pictures of moving objects. My LG Stylo 4 took better pictures"
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "sentence_id": "s2",
+      "text": "A reviewer notes the telephoto lens is useful for landscape and nature photography, but that the normal and wide-angle cameras are not as good as the iPhone or Google Pixel in lower light.",
+      "citations": [
+        "66fbd3717a91_3"
+      ],
+      "status": "partially_supported",
+      "reason": "引文确实说长焦镜头适合风景和自然摄影，但关于普通和广角相机在低光下不如iPhone或Pixel的说法，引文实际是说它们在低光下表现更好（但仍不如iPhone/Pixel），句子表述有偏差。",
+      "evidence": [
+        {
+          "chunk_id": "66fbd3717a91_3",
+          "quote": "I really like using the telephoto lens for landscape and nature photography. The normal and wide angle cameras work better in lower light situations (including indoor situations), though not as good as the iphone or Google Pixel phones."
+        }
+      ],
+      "flagged": true
+    }
+  ],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "ea439ae22e86_9",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The camera is quite capable, and takes good photos",
+        "photos in bright daylight, dusk, and using night mode have come out very well",
+        "produces some amazing pictures"
+      ],
+      "reason": "Praises camera capability, photo quality, night mode, and zoom.",
+      "doc_id": "ea439ae22e86",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "2b7cbe5e0303_3",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The pictures are better for sure",
+        "This phone produces awesome photos!"
+      ],
+      "reason": "Strong praise for photo quality and improvement over prior phone.",
+      "doc_id": "2b7cbe5e0303",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "e7eea505c22d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Camera resolution issues",
+        "doesn't allow you to take photos at the maximum resolution",
+        "crappy compression artifacts",
+        "it's just hamstrung"
+      ],
+      "reason": "Criticizes camera resolution limits and compression, though notes not 100% awful.",
+      "doc_id": "e7eea505c22d",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "52142e47724d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Great pictures and camera features",
+        "excellent photos and the single take feature"
+      ],
+      "reason": "Praises photos and camera features.",
+      "doc_id": "52142e47724d",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "66fbd3717a91_3",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "I'm glad this phone has one",
+        "not as good as the iphone or Google Pixel phones",
+        "Pictures do tend look more processed"
+      ],
+      "reason": "Likes telephoto but notes weaker low light and processed look.",
+      "doc_id": "66fbd3717a91",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "008ab99ca2e4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The camera works well and takes nice photos"
+      ],
+      "reason": "Positive but brief camera comment.",
+      "doc_id": "008ab99ca2e4",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "0cac3feceb9d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "takes great photos and video"
+      ],
+      "reason": "Praises photos and video.",
+      "doc_id": "0cac3feceb9d",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "43acf587c9c0_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Awesome photos, and good assortment of photo taking options"
+      ],
+      "reason": "Praises photos and camera options.",
+      "doc_id": "43acf587c9c0",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "42c7518791bd_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Mine is actually blurred and worse when using flash",
+        "Very disappointing"
+      ],
+      "reason": "Strong criticism of rear camera blur and quality.",
+      "doc_id": "42c7518791bd",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "4fb745286f76_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "camera is blurry when taking pictures of moving objects",
+        "My LG Stylo 4 took better pictures"
+      ],
+      "reason": "Criticizes blurry photos of moving objects.",
+      "doc_id": "4fb745286f76",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 6,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.6,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6666666666666666,
+      "polarized_denominator": 9
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "ea439ae22e86_9",
+      "doc_id": "ea439ae22e86",
+      "text": "The camera is quite capable, and takes good photos even though its megapixel rating is not that high. Most phones with high megapixel cameras actually do a lot of pixel-bucketing, so the actual photo they take is not really a 64MP or 48MP picture anyways. At least Samsung is honest about this and gives you the pixel count the camera actually uses. I have not used the camera under all conditions, but photos in bright daylight, dusk, and using night mode have come out very well. The space zoom feature (30x zoom) produces some amazing pictures of objects like that of the moon that are impossible on most other phones (see attached photo). The camera also has full manual mode called pro mode which allows you to adjust and control the aperture, shutter speed, ISO and other parameters.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09HGHDV9L"
+    },
+    {
+      "chunk_id": "2b7cbe5e0303_3",
+      "doc_id": "2b7cbe5e0303",
+      "text": "Now the cameras. My S9 actually had almost identical video. I make YouTube videos and the S9 did me very well in 4K by 30 or 60. I do notice the S21 FE is ever so slightly better image. It also has better stabilization and just some other processing stuff that helps out. The pictures are better for sure. I've taken pictures of people and shown them, and they've been like, \"What phone is that?!? The pictures are so good!\" The S9 did well. But, the S21 FE is for sure an improvement. I used to use my G7X Mark ii for most pictures, because it just was better by far than my S9. Now, I don't think I ever really need that camera anymore. This phone produces awesome photos! I haven't had a single issues, no glitches, no nothing. Just a smooth perfectly working phone.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "e7eea505c22d_0",
+      "doc_id": "e7eea505c22d",
+      "text": "Meh. Sold as unlocked, there are AT&T and other apps that I can't remove. Camera resolution issues.. Sure, I could use the Android Dev Kit or disable them from a console on my laptop, but I bought an unlocked phone online precisely so I wouldn't have to deal with that garbage. * Some of these unwanted apps have greedy permissions that I cannot disable. * Nobody asked for Bixby. Nobody wants it. Nobody likes it. Let me remove it. * The stock photo app doesn't allow you to take photos at the maximum resolution of the different cameras, even in pro mode. You're left getting crappy compression artifacts on photos from a camera that was supposed to be a game changer when it came out. Open camera got me a little better quality, but not much. That's not to say the camera is 100% awful, it's just hamstrung. It could be a lot better given the hardware.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B08WJM1HDB"
+    },
+    {
+      "chunk_id": "52142e47724d_0",
+      "doc_id": "52142e47724d",
+      "text": "Great pictures and camera features , nice size , Sensitive touch screen. excellent photos and the single take feature that selects photos from videos is great . the touch screen is sensitive and makes random selections if scrolling . comfortable size .",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "66fbd3717a91_3",
+      "doc_id": "66fbd3717a91",
+      "text": "Telephoto cameras are getting rare in this smartphone price range, so I'm glad this phone has one. I really like using the telephoto lens for landscape and nature photography. The normal and wide angle cameras work better in lower light situations (including indoor situations), though not as good as the iphone or Google Pixel phones. Pictures do tend look more processed than with some other phone cameras. Some people like the Samsung look. Other people prefer more natural looking photos. You should try to look at sample photos before buying the phone, since you cannot completely disable the Samsung photo processing. This phone comes with Android version 10 out of the box, which is one version behind the Android version 11 that the Google Pixel phones are shipping with.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "008ab99ca2e4_0",
+      "doc_id": "008ab99ca2e4",
+      "text": "A nice phone. After two months use the only problem I have is the lack of a slot for expandable memory. The video is clean and crisp and the speaker is good enough that I can hear it even with my bad hearing. The camera works well and takes nice photos. Would I buy it again? No because by the time I need a new phone this will be obsolete.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "0cac3feceb9d_0",
+      "doc_id": "0cac3feceb9d",
+      "text": "You don't have to waste $1K on a new phone. Forget the hype over the expensive, bank-breaking phones. The S20 FE is the next best thing, performs extremely well, takes great photos and video and does just about all the phones costing much more will do. The best part is you get to keep a few bucks in your pocket.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "43acf587c9c0_0",
+      "doc_id": "43acf587c9c0",
+      "text": "Great Christmas gift for significant other.. Read all the bad reviews. 2yrs later, knock on wood, phone still please wife. Strong connectivity. Fast for her useage. Awesome photos, and good assortment of photo taking options like 2x optical zoom camera, slow motion video, etc... Extra memory chip to store all those photos and videos. When its full, just but a new chip in. Highly recommend.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "42c7518791bd_0",
+      "doc_id": "42c7518791bd",
+      "text": "Fair. Overal good buy. The camera however is very poor. Specifically the rear camera. Mine is actually blurred and worse when using flash. The primary reason I choose Samsung is because the camera is always good quality. I always get compliments about the quality of my photos with previous model which was S8+ so with S20FE I was expecting something on the same level at the very least. Very disappointing.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B08KYKX7Y4"
+    },
+    {
+      "chunk_id": "4fb745286f76_0",
+      "doc_id": "4fb745286f76",
+      "text": "Blurry Photos. Great phone except camera is blurry when taking pictures of moving objects. My LG Stylo 4 took better pictures... Sucks when you're trying to capture memories.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    }
+  ],
+  "contexts": [
+    "The camera is quite capable, and takes good photos even though its megapixel rating is not that high. Most phones with high megapixel cameras actually do a lot of pixel-bucketing, so the actual photo they take is not really a 64MP or 48MP picture anyways. At least Samsung is honest about this and gives you the pixel count the camera actually uses. I have not used the camera under all conditions, but photos in bright daylight, dusk, and using night mode have come out very well. The space zoom feature (30x zoom) produces some amazing pictures of objects like that of the moon that are impossible on most other phones (see attached photo). The camera also has full manual mode called pro mode which allows you to adjust and control the aperture, shutter speed, ISO and other parameters.",
+    "Now the cameras. My S9 actually had almost identical video. I make YouTube videos and the S9 did me very well in 4K by 30 or 60. I do notice the S21 FE is ever so slightly better image. It also has better stabilization and just some other processing stuff that helps out. The pictures are better for sure. I've taken pictures of people and shown them, and they've been like, \"What phone is that?!? The pictures are so good!\" The S9 did well. But, the S21 FE is for sure an improvement. I used to use my G7X Mark ii for most pictures, because it just was better by far than my S9. Now, I don't think I ever really need that camera anymore. This phone produces awesome photos! I haven't had a single issues, no glitches, no nothing. Just a smooth perfectly working phone.",
+    "Meh. Sold as unlocked, there are AT&T and other apps that I can't remove. Camera resolution issues.. Sure, I could use the Android Dev Kit or disable them from a console on my laptop, but I bought an unlocked phone online precisely so I wouldn't have to deal with that garbage. * Some of these unwanted apps have greedy permissions that I cannot disable. * Nobody asked for Bixby. Nobody wants it. Nobody likes it. Let me remove it. * The stock photo app doesn't allow you to take photos at the maximum resolution of the different cameras, even in pro mode. You're left getting crappy compression artifacts on photos from a camera that was supposed to be a game changer when it came out. Open camera got me a little better quality, but not much. That's not to say the camera is 100% awful, it's just hamstrung. It could be a lot better given the hardware.",
+    "Great pictures and camera features , nice size , Sensitive touch screen. excellent photos and the single take feature that selects photos from videos is great . the touch screen is sensitive and makes random selections if scrolling . comfortable size .",
+    "Telephoto cameras are getting rare in this smartphone price range, so I'm glad this phone has one. I really like using the telephoto lens for landscape and nature photography. The normal and wide angle cameras work better in lower light situations (including indoor situations), though not as good as the iphone or Google Pixel phones. Pictures do tend look more processed than with some other phone cameras. Some people like the Samsung look. Other people prefer more natural looking photos. You should try to look at sample photos before buying the phone, since you cannot completely disable the Samsung photo processing. This phone comes with Android version 10 out of the box, which is one version behind the Android version 11 that the Google Pixel phones are shipping with.",
+    "A nice phone. After two months use the only problem I have is the lack of a slot for expandable memory. The video is clean and crisp and the speaker is good enough that I can hear it even with my bad hearing. The camera works well and takes nice photos. Would I buy it again? No because by the time I need a new phone this will be obsolete.",
+    "You don't have to waste $1K on a new phone. Forget the hype over the expensive, bank-breaking phones. The S20 FE is the next best thing, performs extremely well, takes great photos and video and does just about all the phones costing much more will do. The best part is you get to keep a few bucks in your pocket.",
+    "Great Christmas gift for significant other.. Read all the bad reviews. 2yrs later, knock on wood, phone still please wife. Strong connectivity. Fast for her useage. Awesome photos, and good assortment of photo taking options like 2x optical zoom camera, slow motion video, etc... Extra memory chip to store all those photos and videos. When its full, just but a new chip in. Highly recommend.",
+    "Fair. Overal good buy. The camera however is very poor. Specifically the rear camera. Mine is actually blurred and worse when using flash. The primary reason I choose Samsung is because the camera is always good quality. I always get compliments about the quality of my photos with previous model which was S8+ so with S20FE I was expecting something on the same level at the very least. Very disappointing.",
+    "Blurry Photos. Great phone except camera is blurry when taking pictures of moving objects. My LG Stylo 4 took better pictures... Sucks when you're trying to capture memories."
+  ],
+  "timing": {
+    "classification_s": 3.262575700005982,
+    "generation_s": 1.9241689999980736,
+    "verification_s": 3.4106744000018807,
+    "total_s": 8.597445100000186
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1891,
+        "completion_tokens": 707,
+        "total_tokens": 2598,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 227
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1766,
+        "completion_tokens": 283,
+        "total_tokens": 2049,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "prompt_cache_hit_tokens": 1536,
+        "prompt_cache_miss_tokens": 230
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1663,
+        "completion_tokens": 604,
+        "total_tokens": 2267,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1535
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

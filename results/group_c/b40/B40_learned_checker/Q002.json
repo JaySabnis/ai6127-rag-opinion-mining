@@ -1,0 +1,454 @@
+{
+  "question": "What do owners say about the photos taken with the iPhone 11?",
+  "answer": "One reviewer said the front-facing camera looked scratched and that photos taken with it were very fuzzy and out of focus. [87d5610b5388_0]\nOne reviewer reported that the photo lenses were cracked, apparently internally, even though no visible damage was seen and the phone had not been dropped. [e7b40abf9955_0]\nOne reviewer who came from a Google Pixel said the iPhone loses out to the Pixel when it comes to the camera. [e717660f37d8_0]\nOne reviewer said both cameras in their unit were sub standard and took horrid photos like an old flip phone. [9e7878654286_0]\nOne reviewer said the phone takes really good pictures. [645954ed3279_0]\nOne reviewer said the camera was good but noted cracks and scratch marks by the camera lens. [574025e4e78c_0]",
+  "draft_answer": "One reviewer said the front-facing camera looked scratched and that photos taken with it were very fuzzy and out of focus. [87d5610b5388_0]\nOne reviewer reported that the photo lenses were cracked, apparently internally, even though no visible damage was seen and the phone had not been dropped. [e7b40abf9955_0]\nOne reviewer who came from a Google Pixel said the iPhone loses out to the Pixel when it comes to the camera. [e717660f37d8_0]\nOne reviewer said both cameras in their unit were sub standard and took horrid photos like an old flip phone. [9e7878654286_0]\nOne reviewer said the phone takes really good pictures. [645954ed3279_0]\nOne reviewer said the camera was good but noted cracks and scratch marks by the camera lens. [574025e4e78c_0]",
+  "sentences": [
+    {
+      "text": "One reviewer said the front-facing camera looked scratched and that photos taken with it were very fuzzy and out of focus.",
+      "citations": [
+        "87d5610b5388_0"
+      ]
+    },
+    {
+      "text": "One reviewer reported that the photo lenses were cracked, apparently internally, even though no visible damage was seen and the phone had not been dropped.",
+      "citations": [
+        "e7b40abf9955_0"
+      ]
+    },
+    {
+      "text": "One reviewer who came from a Google Pixel said the iPhone loses out to the Pixel when it comes to the camera.",
+      "citations": [
+        "e717660f37d8_0"
+      ]
+    },
+    {
+      "text": "One reviewer said both cameras in their unit were sub standard and took horrid photos like an old flip phone.",
+      "citations": [
+        "9e7878654286_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the phone takes really good pictures.",
+      "citations": [
+        "645954ed3279_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the camera was good but noted cracks and scratch marks by the camera lens.",
+      "citations": [
+        "574025e4e78c_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One reviewer said the front-facing camera looked scratched and that photos taken with it were very fuzzy and out of focus.",
+      "citations": [
+        "87d5610b5388_0"
+      ],
+      "status": "supported",
+      "reason": "引文明确提到前置摄像头看起来有划痕，且拍出的照片非常模糊、失焦。",
+      "evidence": [
+        {
+          "chunk_id": "87d5610b5388_0",
+          "quote": "The front-facing camera looked scratched and any photos taken with the front camera were very fuzzy and out of focus."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "One reviewer reported that the photo lenses were cracked, apparently internally, even though no visible damage was seen and the phone had not been dropped.",
+      "citations": [
+        "e7b40abf9955_0"
+      ],
+      "status": "supported",
+      "reason": "引文提到镜头开裂、可能是内部开裂、看不到任何损伤且未摔过。",
+      "evidence": [
+        {
+          "chunk_id": "e7b40abf9955_0",
+          "quote": "noticed right away the lenses are cracked, must be internal. We can’t see any damage and we got a case right away and he has not dropped it"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "One reviewer who came from a Google Pixel said the iPhone loses out to the Pixel when it comes to the camera.",
+      "citations": [
+        "e717660f37d8_0"
+      ],
+      "status": "supported",
+      "reason": "引文明确说来自Google Pixel，并认为iPhone在相机方面不如Pixel。",
+      "evidence": [
+        {
+          "chunk_id": "e717660f37d8_0",
+          "quote": "Having come from a Google Pixel I can say the I’ll keep my Pixel around to take to concerts for photos and videos . The iPhone losses out to the Pixel when it comes to the camera , in my opinion."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s3",
+      "text": "One reviewer said both cameras in their unit were sub standard and took horrid photos like an old flip phone.",
+      "citations": [
+        "9e7878654286_0"
+      ],
+      "status": "supported",
+      "reason": "引文说两个摄像头都不达标，拍出的照片很糟，像老式翻盖手机。",
+      "evidence": [
+        {
+          "chunk_id": "9e7878654286_0",
+          "quote": "Both cameras in it are sub standard. It takes horrid photos. Like an old flip phone quality"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "One reviewer said the phone takes really good pictures.",
+      "citations": [
+        "645954ed3279_0"
+      ],
+      "status": "supported",
+      "reason": "引文直接说拍出的照片非常好。",
+      "evidence": [
+        {
+          "chunk_id": "645954ed3279_0",
+          "quote": "It takes really good pictures."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "One reviewer said the camera was good but noted cracks and scratch marks by the camera lens.",
+      "citations": [
+        "574025e4e78c_0"
+      ],
+      "status": "supported",
+      "reason": "引文说相机不错，但镜头附近有裂纹和划痕。",
+      "evidence": [
+        {
+          "chunk_id": "574025e4e78c_0",
+          "quote": "camera was good but it had cracks that was scratched"
+        },
+        {
+          "chunk_id": "574025e4e78c_0",
+          "quote": "I just didn’t like the scratch marks by the camera lense."
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "87d5610b5388_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "front-facing camera looked scratched",
+        "photos taken with the front camera were very fuzzy and out of focus",
+        "very disappointed by the front camera quality"
+      ],
+      "reason": "Criticizes front camera as scratched, fuzzy, out of focus.",
+      "doc_id": "87d5610b5388",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "263a5c0a56fa_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses reset, data, and speakers; no camera discussion.",
+      "doc_id": "263a5c0a56fa",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "e7b40abf9955_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the lenses are cracked",
+        "expected at least for it to take good photos"
+      ],
+      "reason": "Reports cracked lenses and unmet photo expectations.",
+      "doc_id": "e7b40abf9955",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "e717660f37d8_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The iPhone losses out to the Pixel when it comes to the camera , in my opinion."
+      ],
+      "reason": "Says iPhone camera loses to Pixel.",
+      "doc_id": "e717660f37d8",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "e69e2c81ac78_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "the product is have quality pictures"
+      ],
+      "reason": "Reports product has quality pictures.",
+      "doc_id": "e69e2c81ac78",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "9e7878654286_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Both cameras in it are sub standard. It takes horrid photos."
+      ],
+      "reason": "Calls cameras substandard, photos horrid.",
+      "doc_id": "9e7878654286",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "645954ed3279_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Takes nice pictures. It takes really good pictures."
+      ],
+      "reason": "Praises picture quality.",
+      "doc_id": "645954ed3279",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "7552317689ac_0",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "Dual 12MP Wide and Ultra Wide cameras"
+      ],
+      "reason": "Mentions cameras factually without evaluative opinion.",
+      "doc_id": "7552317689ac",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "574025e4e78c_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "camera was good but it had cracks that was scratched",
+        "didn’t like the scratch marks by the camera lense"
+      ],
+      "reason": "Camera good but cracked/scratched; both praise and criticism.",
+      "doc_id": "574025e4e78c",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "b2e6322fa029_4",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "the front camera can also do .5 wide, which is good for vloggers/irl streamers"
+      ],
+      "reason": "Praises front camera wide capability.",
+      "doc_id": "b2e6322fa029",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 1,
+      "counts": {
+        "positive": 3,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "positive_ratio": 0.3333333333333333,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.42857142857142855,
+      "polarized_denominator": 7
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "87d5610b5388_0",
+      "doc_id": "87d5610b5388",
+      "text": "Front camera defective. The front-facing camera looked scratched and any photos taken with the front camera were very fuzzy and out of focus. The face ID recognition didn't work either. The rest of the phone seemed to work fine, but I was very disappointed by the front camera quality and returned it immediately.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "263a5c0a56fa_0",
+      "doc_id": "263a5c0a56fa",
+      "text": "Previous owner's data accessible and unable to reset. Must return this gift. **Update** - Resolved. Unable to reset without previous owner's Apple credentials (i.e. - Activation lock is active) and all his data, including photos/videos/contacts/apps, is accessible since no passcode is set! Crazy, to say the least. Was supposed to be a birthday gift, so pretty disappointed Amazon. Please make this right ASAP. ***Update*** Amazon customer service (call) sent a replacement in decent cosmetic condition, but one of the speakerphone/stereo speakers is producing no sound and the other sounds blown, with distortion during high-volume playback of relatively quiet videos. After contacting Amazon customer support, I was taken through a long series of troubleshooting efforts with an Apple technician, only to conclude what was readily apparent; the speakers were faulty. I've been waiting two weeks for the \"escalation team\" to call me and losing confidence quickly. Not a good experience at all.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "e7b40abf9955_0",
+      "doc_id": "e7b40abf9955",
+      "text": "Photo Lenses cracked. I am hoping the manufacturer will reach out to us. I got this for my husband for Christmas, I know they are not suppose to be perfect; but I expected at least for it to take good photos. He started using yesterday and noticed right away the lenses are cracked, must be internal. We can’t see any damage and we got a case right away and he has not dropped it within the time he has had it.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "e717660f37d8_0",
+      "doc_id": "e717660f37d8",
+      "text": "iPhone is a solid choice. I don’t really have many complaints , the IPhone is a solid phone with many uses . Having come from a Google Pixel I can say the I’ll keep my Pixel around to take to concerts for photos and videos . The iPhone losses out to the Pixel when it comes to the camera , in my opinion.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B099RCQZ8Z"
+    },
+    {
+      "chunk_id": "e69e2c81ac78_0",
+      "doc_id": "e69e2c81ac78",
+      "text": "Someone, who send me inform me that the product is have quality pictures.. The owner like, and appreciate your business.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "9e7878654286_0",
+      "doc_id": "9e7878654286",
+      "text": "Please read. I ordered two of these. One is absolutely fantastic. The other not so much. Both cameras in it are sub standard. It takes horrid photos. Like an old flip phone quality and the battery is already going south on it. I know it’s a referb . But can we use the proper pieces? It’s a 5050 shot when you buy this",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "645954ed3279_0",
+      "doc_id": "645954ed3279",
+      "text": "Takes nice pictures. It takes really good pictures.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "7552317689ac_0",
+      "doc_id": "7552317689ac",
+      "text": "Money (PM). The product allows you to do and create so many things such as; Texting, calling, using social media, you can even create art and edit photos that you’ve taken with its Dual 12MP Wide and Ultra Wide cameras and so much more. This product is The iphone 11, created by Apple. Apple also makes other electronics such as tablets, bluetooth earphones, smart watches, computers, streaming devices and even accessories to go with these devices. I have had this product for about two years now, and it's still working perfectly fine. This product looks like the iPhone XR but with two caramers. It’s all red, with the word “(Product) RED” on it. It is 128GB with a 6.1 inch screen size. This is one of the best iPhones Apple has created. You might ask how this product works, and how could you use it?",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "574025e4e78c_0",
+      "doc_id": "574025e4e78c",
+      "text": "Camera. It’s good but it didn’t come with original packaging, camera was good but it had cracks that was scratched. Audio wasn’t working on the left it only worked on the right down below. Other than that it was pretty good. I just didn’t like the scratch marks by the camera lense.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "b2e6322fa029_4",
+      "doc_id": "b2e6322fa029",
+      "text": "That's the rear cameras, but the front camera can also do .5 wide, which is good for vloggers/irl streamers, especially if you ever need to include another person in the shot. Setup is ez pz and now you can import your stuff not only if you are upgrading from another iPhone, but you can also import stuff from Android, you only need to download an app to the Android phone for it to work. I haven't used all the features of the phone yet, but it looks like it's going to be a good experience, at least until Apple decides to slow it down to coerce me to upgrade lol.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    }
+  ],
+  "contexts": [
+    "Front camera defective. The front-facing camera looked scratched and any photos taken with the front camera were very fuzzy and out of focus. The face ID recognition didn't work either. The rest of the phone seemed to work fine, but I was very disappointed by the front camera quality and returned it immediately.",
+    "Previous owner's data accessible and unable to reset. Must return this gift. **Update** - Resolved. Unable to reset without previous owner's Apple credentials (i.e. - Activation lock is active) and all his data, including photos/videos/contacts/apps, is accessible since no passcode is set! Crazy, to say the least. Was supposed to be a birthday gift, so pretty disappointed Amazon. Please make this right ASAP. ***Update*** Amazon customer service (call) sent a replacement in decent cosmetic condition, but one of the speakerphone/stereo speakers is producing no sound and the other sounds blown, with distortion during high-volume playback of relatively quiet videos. After contacting Amazon customer support, I was taken through a long series of troubleshooting efforts with an Apple technician, only to conclude what was readily apparent; the speakers were faulty. I've been waiting two weeks for the \"escalation team\" to call me and losing confidence quickly. Not a good experience at all.",
+    "Photo Lenses cracked. I am hoping the manufacturer will reach out to us. I got this for my husband for Christmas, I know they are not suppose to be perfect; but I expected at least for it to take good photos. He started using yesterday and noticed right away the lenses are cracked, must be internal. We can’t see any damage and we got a case right away and he has not dropped it within the time he has had it.",
+    "iPhone is a solid choice. I don’t really have many complaints , the IPhone is a solid phone with many uses . Having come from a Google Pixel I can say the I’ll keep my Pixel around to take to concerts for photos and videos . The iPhone losses out to the Pixel when it comes to the camera , in my opinion.",
+    "Someone, who send me inform me that the product is have quality pictures.. The owner like, and appreciate your business.",
+    "Please read. I ordered two of these. One is absolutely fantastic. The other not so much. Both cameras in it are sub standard. It takes horrid photos. Like an old flip phone quality and the battery is already going south on it. I know it’s a referb . But can we use the proper pieces? It’s a 5050 shot when you buy this",
+    "Takes nice pictures. It takes really good pictures.",
+    "Money (PM). The product allows you to do and create so many things such as; Texting, calling, using social media, you can even create art and edit photos that you’ve taken with its Dual 12MP Wide and Ultra Wide cameras and so much more. This product is The iphone 11, created by Apple. Apple also makes other electronics such as tablets, bluetooth earphones, smart watches, computers, streaming devices and even accessories to go with these devices. I have had this product for about two years now, and it's still working perfectly fine. This product looks like the iPhone XR but with two caramers. It’s all red, with the word “(Product) RED” on it. It is 128GB with a 6.1 inch screen size. This is one of the best iPhones Apple has created. You might ask how this product works, and how could you use it?",
+    "Camera. It’s good but it didn’t come with original packaging, camera was good but it had cracks that was scratched. Audio wasn’t working on the left it only worked on the right down below. Other than that it was pretty good. I just didn’t like the scratch marks by the camera lense.",
+    "That's the rear cameras, but the front camera can also do .5 wide, which is good for vloggers/irl streamers, especially if you ever need to include another person in the shot. Setup is ez pz and now you can import your stuff not only if you are upgrading from another iPhone, but you can also import stuff from Android, you only need to download an app to the Android phone for it to work. I haven't used all the features of the phone yet, but it looks like it's going to be a good experience, at least until Apple decides to slow it down to coerce me to upgrade lol."
+  ],
+  "timing": {
+    "classification_s": 2.933941600000253,
+    "generation_s": 1.988752100005513,
+    "verification_s": 3.055436100003135,
+    "total_s": 7.978146699999343
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1691,
+        "completion_tokens": 656,
+        "total_tokens": 2347,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "prompt_cache_hit_tokens": 1536,
+        "prompt_cache_miss_tokens": 155
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1565,
+        "completion_tokens": 236,
+        "total_tokens": 1801,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 157
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1243,
+        "completion_tokens": 486,
+        "total_tokens": 1729,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1115
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

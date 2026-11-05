@@ -1,0 +1,617 @@
+{
+  "question": "What do Samsung Galaxy S10 users say about screen quality and everyday performance?",
+  "answer": "One reviewer said the clarity of the Galaxy S10 screen is marvelous and that the phone is comfortable to hold and use. [f13bc4cad828_0]\nAnother reviewer described the S10's resolution as great but reported that the screen flickers every now and then, which led them to return it. [d984310eb2eb_0]\nA reviewer upgrading from a Galaxy S7 to the S10 saw a noticeable difference in performance. [a025d0475c57_0]\nOne reviewer called the S10 quite fast when upgrading from an S6. [c4bc0d0e3983_0]\nAnother reviewer said the S10 powers on very quickly and runs smoothly. [d984310eb2eb_0]\nA reviewer who had the phone around five days said it seems to be functioning at peak performance. [7b5b44f5182f_0]",
+  "draft_answer": "One reviewer said the clarity of the Galaxy S10 screen is marvelous and that the phone is comfortable to hold and use. [f13bc4cad828_0]\nAnother reviewer described the S10's resolution as great but reported that the screen flickers every now and then, which led them to return it. [d984310eb2eb_0]\nA reviewer upgrading from a Galaxy S7 to the S10 saw a noticeable difference in performance. [a025d0475c57_0]\nOne reviewer called the S10 quite fast when upgrading from an S6. [c4bc0d0e3983_0]\nAnother reviewer said the S10 powers on very quickly and runs smoothly. [d984310eb2eb_0]\nA reviewer who had the phone around five days said it seems to be functioning at peak performance. [7b5b44f5182f_0]",
+  "sentences": [
+    {
+      "text": "One reviewer said the clarity of the Galaxy S10 screen is marvelous and that the phone is comfortable to hold and use.",
+      "citations": [
+        "f13bc4cad828_0"
+      ]
+    },
+    {
+      "text": "Another reviewer described the S10's resolution as great but reported that the screen flickers every now and then, which led them to return it.",
+      "citations": [
+        "d984310eb2eb_0"
+      ]
+    },
+    {
+      "text": "A reviewer upgrading from a Galaxy S7 to the S10 saw a noticeable difference in performance.",
+      "citations": [
+        "a025d0475c57_0"
+      ]
+    },
+    {
+      "text": "One reviewer called the S10 quite fast when upgrading from an S6.",
+      "citations": [
+        "c4bc0d0e3983_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said the S10 powers on very quickly and runs smoothly.",
+      "citations": [
+        "d984310eb2eb_0"
+      ]
+    },
+    {
+      "text": "A reviewer who had the phone around five days said it seems to be functioning at peak performance.",
+      "citations": [
+        "7b5b44f5182f_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer said the clarity of the Galaxy S10 screen is marvelous and that the phone is comfortable to hold and use.",
+      "citations": [
+        "f13bc4cad828_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer described the S10's resolution as great but reported that the screen flickers every now and then, which led them to return it.",
+      "citations": [
+        "d984310eb2eb_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer upgrading from a Galaxy S7 to the S10 saw a noticeable difference in performance.",
+      "citations": [
+        "a025d0475c57_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer called the S10 quite fast when upgrading from an S6.",
+      "citations": [
+        "c4bc0d0e3983_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the S10 powers on very quickly and runs smoothly.",
+      "citations": [
+        "d984310eb2eb_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who had the phone around five days said it seems to be functioning at peak performance.",
+      "citations": [
+        "7b5b44f5182f_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer said the clarity of the Galaxy S10 screen is marvelous and that the phone is comfortable to hold and use.",
+      "citations": [
+        "f13bc4cad828_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer described the S10's resolution as great but reported that the screen flickers every now and then, which led them to return it.",
+      "citations": [
+        "d984310eb2eb_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer upgrading from a Galaxy S7 to the S10 saw a noticeable difference in performance.",
+      "citations": [
+        "a025d0475c57_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer called the S10 quite fast when upgrading from an S6.",
+      "citations": [
+        "c4bc0d0e3983_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the S10 powers on very quickly and runs smoothly.",
+      "citations": [
+        "d984310eb2eb_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who had the phone around five days said it seems to be functioning at peak performance.",
+      "citations": [
+        "7b5b44f5182f_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "a025d0475c57_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No mention of display; camera and performance discussed instead.",
+      "doc_id": "a025d0475c57",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "77267e5b61cd_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General condition comment, no display discussion.",
+      "doc_id": "77267e5b61cd",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "c4bc0d0e3983_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Weight, battery, speed mentioned; no display.",
+      "doc_id": "c4bc0d0e3983",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "f13bc4cad828_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The clarity of the screen is marvelous"
+      ],
+      "reason": "Explicit praise of screen clarity.",
+      "doc_id": "f13bc4cad828",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "22cdfc448efc_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Generic 'Good', no display mention.",
+      "doc_id": "22cdfc448efc",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "731d55e02659_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Generic praise, no display aspect.",
+      "doc_id": "731d55e02659",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "89bf2ec780ff_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Battery and features discussed, not display.",
+      "doc_id": "89bf2ec780ff",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "7b5b44f5182f_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General quality and performance, no display.",
+      "doc_id": "7b5b44f5182f",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "d984310eb2eb_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "Resolution is great",
+        "the screen flickers every now and then"
+      ],
+      "reason": "Praises resolution but reports screen flickering.",
+      "doc_id": "d984310eb2eb",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "cd0736af98e7_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General condition, no display discussion.",
+      "doc_id": "cd0736af98e7",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "a025d0475c57_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "have seen a noticeable difference in performance"
+      ],
+      "reason": "Explicitly praises improved performance versus prior phone.",
+      "doc_id": "a025d0475c57",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "77267e5b61cd_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No discussion of performance; only condition and appearance.",
+      "doc_id": "77267e5b61cd",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "c4bc0d0e3983_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Quite fast upgrading from s6"
+      ],
+      "reason": "Praises speed/performance positively.",
+      "doc_id": "c4bc0d0e3983",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "f13bc4cad828_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses battery, screen, comfort; not performance.",
+      "doc_id": "f13bc4cad828",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "22cdfc448efc_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Generic 'Good' with no performance mention.",
+      "doc_id": "22cdfc448efc",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "731d55e02659_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Generic praise, no performance aspect discussed.",
+      "doc_id": "731d55e02659",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "89bf2ec780ff_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Mentions battery and features, not performance.",
+      "doc_id": "89bf2ec780ff",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "7b5b44f5182f_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "seems to be functioning at peak performance"
+      ],
+      "reason": "Explicitly praises peak performance.",
+      "doc_id": "7b5b44f5182f",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "d984310eb2eb_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "powers on very quickly and runs smoothly"
+      ],
+      "reason": "Praises speed and smooth running; screen flicker is separate aspect.",
+      "doc_id": "d984310eb2eb",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "cd0736af98e7_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General condition praise, no performance discussion.",
+      "doc_id": "cd0736af98e7",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 2,
+      "n_excluded_aspect_absent": 8,
+      "counts": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 1
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 4,
+      "n_excluded_aspect_absent": 6,
+      "counts": {
+        "positive": 4,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 1.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 4
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "a025d0475c57_0",
+      "doc_id": "a025d0475c57",
+      "text": "Good phone. Everything is great about the phone if you're a regular Samsung user. I went from a Galaxy S7 to this S10 and have seen a noticeable difference in performance. The only thing I'm bummed about is a close-up picture setting that was on the S7 but not on the S10. Despite that, the camera is of excellent quality and has a fast response.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07VZNDZY6"
+    },
+    {
+      "chunk_id": "77267e5b61cd_0",
+      "doc_id": "77267e5b61cd",
+      "text": "Galaxy S10. Works and looks brand new, no problems so far!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "c4bc0d0e3983_0",
+      "doc_id": "c4bc0d0e3983",
+      "text": "Samsung s10. So far its been great. Very lightweight. Battery life seems good. Quite fast upgrading from s6.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "f13bc4cad828_0",
+      "doc_id": "f13bc4cad828",
+      "text": "Longer battery life!. I like my Galaxy S10. Have not used the fingerprint reader or face recognition but the longer battery life is a big bonus. The clarity of the screen is marvelous, it is comfortable to hold and use. I really like it.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "22cdfc448efc_0",
+      "doc_id": "22cdfc448efc",
+      "text": "S10. Good",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07XJ2BWMP"
+    },
+    {
+      "chunk_id": "731d55e02659_0",
+      "doc_id": "731d55e02659",
+      "text": "samsung s10. Good phone. It's a good phone",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07VZNDZY6"
+    },
+    {
+      "chunk_id": "89bf2ec780ff_0",
+      "doc_id": "89bf2ec780ff",
+      "text": "S10. Phone works well, battery dies a little quicker than my A50 but all features works and look like brand new.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "7b5b44f5182f_0",
+      "doc_id": "7b5b44f5182f",
+      "text": "Galaxy s10 128 gig top quality like new thank you. Thank you for the Samsung Galaxy S10 I read some reviews and I guess they where from a while back but this company has it together I received a quality product activated service today through Verizon and I have had it around 5 days seems to be functioning at peak performance I did select Verizon carrier the phone is a sprint phone but no problems if your hesitant or over thinking it don't good quality company ill use them again thank you again",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "d984310eb2eb_0",
+      "doc_id": "d984310eb2eb",
+      "text": "The best phone for its price!. Overall, the Samsung Galaxy s10 is an amazing phone. A 6.1 inch screen and very lightweight at 5.54oz. Resolution is great, it powers on very quickly and runs smoothly! My only problem was, the screen flickers every now and then. So I decided that I would return it. According to the UPS tracking number, my return has been delivered since June 1, 2020. Today is June 23rd, I have not yet received my refund. I have tried calling Amazon, but just a recording message only. I have never experienced such a long period for a refund, please help!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07XJ2BWMP"
+    },
+    {
+      "chunk_id": "cd0736af98e7_0",
+      "doc_id": "cd0736af98e7",
+      "text": "S10 Samsung galaxy seems new to me.. Looks and acts like new. I'm happy with my new used phone.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    }
+  ],
+  "contexts": [
+    "Good phone. Everything is great about the phone if you're a regular Samsung user. I went from a Galaxy S7 to this S10 and have seen a noticeable difference in performance. The only thing I'm bummed about is a close-up picture setting that was on the S7 but not on the S10. Despite that, the camera is of excellent quality and has a fast response.",
+    "Galaxy S10. Works and looks brand new, no problems so far!",
+    "Samsung s10. So far its been great. Very lightweight. Battery life seems good. Quite fast upgrading from s6.",
+    "Longer battery life!. I like my Galaxy S10. Have not used the fingerprint reader or face recognition but the longer battery life is a big bonus. The clarity of the screen is marvelous, it is comfortable to hold and use. I really like it.",
+    "S10. Good",
+    "samsung s10. Good phone. It's a good phone",
+    "S10. Phone works well, battery dies a little quicker than my A50 but all features works and look like brand new.",
+    "Galaxy s10 128 gig top quality like new thank you. Thank you for the Samsung Galaxy S10 I read some reviews and I guess they where from a while back but this company has it together I received a quality product activated service today through Verizon and I have had it around 5 days seems to be functioning at peak performance I did select Verizon carrier the phone is a sprint phone but no problems if your hesitant or over thinking it don't good quality company ill use them again thank you again",
+    "The best phone for its price!. Overall, the Samsung Galaxy s10 is an amazing phone. A 6.1 inch screen and very lightweight at 5.54oz. Resolution is great, it powers on very quickly and runs smoothly! My only problem was, the screen flickers every now and then. So I decided that I would return it. According to the UPS tracking number, my return has been delivered since June 1, 2020. Today is June 23rd, I have not yet received my refund. I have tried calling Amazon, but just a recording message only. I have never experienced such a long period for a refund, please help!",
+    "S10 Samsung galaxy seems new to me.. Looks and acts like new. I'm happy with my new used phone."
+  ],
+  "timing": {
+    "classification_s": 5.112861599998723,
+    "generation_s": 2.1457310000041616,
+    "verification_s": 7.200003892648965e-06,
+    "total_s": 7.258675299999595
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1258,
+        "completion_tokens": 504,
+        "total_tokens": 1762,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 874
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1258,
+        "completion_tokens": 529,
+        "total_tokens": 1787,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 874
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1136,
+        "completion_tokens": 235,
+        "total_tokens": 1371,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 880
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

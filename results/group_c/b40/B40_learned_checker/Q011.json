@@ -1,0 +1,453 @@
+{
+  "question": "What battery-life problems or benefits do iPhone 8 owners report?",
+  "answer": "One iPhone 8 owner described the battery life as terrible with constant problems with the phone. [112d9256860e_0]\nAnother reviewer reported a battery life problem, saying it was terrible at just 3-4 hours. [63dce0a91d39_0]\nA reviewer of renewed units said the battery life was under 80% per the settings status report and that one unit stated it needs service. [f361cc48d49f_0]\nOne owner said the battery life was low and had to buy a new battery. [319f0d462701_0]\nAnother reviewer said the battery needed to be replaced because it wouldn't hold a charge, calling that their only complaint. [680d31d2c44b_0]\nIn contrast, one reviewer said the battery life was much better than represented by reviews, with plenty of charge for a day unless most time is spent on FaceTime or watching Netflix. [fe86c95c4ae5_0]",
+  "draft_answer": "One iPhone 8 owner described the battery life as terrible with constant problems with the phone. [112d9256860e_0]\nAnother reviewer reported a battery life problem, saying it was terrible at just 3-4 hours. [63dce0a91d39_0]\nA reviewer of renewed units said the battery life was under 80% per the settings status report and that one unit stated it needs service. [f361cc48d49f_0]\nOne owner said the battery life was low and had to buy a new battery. [319f0d462701_0]\nAnother reviewer said the battery needed to be replaced because it wouldn't hold a charge, calling that their only complaint. [680d31d2c44b_0]\nIn contrast, one reviewer said the battery life was much better than represented by reviews, with plenty of charge for a day unless most time is spent on FaceTime or watching Netflix. [fe86c95c4ae5_0]",
+  "sentences": [
+    {
+      "text": "One iPhone 8 owner described the battery life as terrible with constant problems with the phone.",
+      "citations": [
+        "112d9256860e_0"
+      ]
+    },
+    {
+      "text": "Another reviewer reported a battery life problem, saying it was terrible at just 3-4 hours.",
+      "citations": [
+        "63dce0a91d39_0"
+      ]
+    },
+    {
+      "text": "A reviewer of renewed units said the battery life was under 80% per the settings status report and that one unit stated it needs service.",
+      "citations": [
+        "f361cc48d49f_0"
+      ]
+    },
+    {
+      "text": "One owner said the battery life was low and had to buy a new battery.",
+      "citations": [
+        "319f0d462701_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said the battery needed to be replaced because it wouldn't hold a charge, calling that their only complaint.",
+      "citations": [
+        "680d31d2c44b_0"
+      ]
+    },
+    {
+      "text": "In contrast, one reviewer said the battery life was much better than represented by reviews, with plenty of charge for a day unless most time is spent on FaceTime or watching Netflix.",
+      "citations": [
+        "fe86c95c4ae5_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One iPhone 8 owner described the battery life as terrible with constant problems with the phone.",
+      "citations": [
+        "112d9256860e_0"
+      ],
+      "status": "supported",
+      "reason": "引文明确提到电池续航糟糕且手机持续有问题，与句子内容一致。",
+      "evidence": [
+        {
+          "chunk_id": "112d9256860e_0",
+          "quote": "Battery life is terrible constant problems with the phone."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "Another reviewer reported a battery life problem, saying it was terrible at just 3-4 hours.",
+      "citations": [
+        "63dce0a91d39_0"
+      ],
+      "status": "supported",
+      "reason": "引文提到电池续航问题，称糟糕仅3-4小时，与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "63dce0a91d39_0",
+          "quote": "battery life problem. Battery life is terrible, just 3-4 hours."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "A reviewer of renewed units said the battery life was under 80% per the settings status report and that one unit stated it needs service.",
+      "citations": [
+        "f361cc48d49f_0"
+      ],
+      "status": "supported",
+      "reason": "引文说明翻新机电池低于80%（设置状态报告）且一台显示需要维修，与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "f361cc48d49f_0",
+          "quote": "the battery life is less than 80% (under the status report in settings) and one is stating needs service"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s3",
+      "text": "One owner said the battery life was low and had to buy a new battery.",
+      "citations": [
+        "319f0d462701_0"
+      ],
+      "status": "supported",
+      "reason": "引文称电池续航低并不得不买新电池，与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "319f0d462701_0",
+          "quote": "The battery life was low. Battery life was low. I had to buy a new battery"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "Another reviewer said the battery needed to be replaced because it wouldn't hold a charge, calling that their only complaint.",
+      "citations": [
+        "680d31d2c44b_0"
+      ],
+      "status": "supported",
+      "reason": "引文称电池需更换、无法保持电量，且这是唯一抱怨，与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "680d31d2c44b_0",
+          "quote": "Battery needed to be replace- wouldn't hold a charge. That’s my only complaint"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "In contrast, one reviewer said the battery life was much better than represented by reviews, with plenty of charge for a day unless most time is spent on FaceTime or watching Netflix.",
+      "citations": [
+        "fe86c95c4ae5_0"
+      ],
+      "status": "supported",
+      "reason": "引文称电池续航比评论所述好得多，除非大量FaceTime或Netflix否则够用一天，与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "fe86c95c4ae5_0",
+          "quote": "Battery life is much better than represented by reviews. Plenty of charge for a day unless you spend most of your time on FaceTime or watching Netflix."
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "112d9256860e_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery life is terrible constant problems with the phone"
+      ],
+      "reason": "Direct criticism of battery life as terrible.",
+      "doc_id": "112d9256860e",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "63dce0a91d39_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery life is terrible, just 3-4 hours"
+      ],
+      "reason": "Battery life called terrible with short duration.",
+      "doc_id": "63dce0a91d39",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "f361cc48d49f_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "battery life is less than 80%",
+        "one is stating needs service"
+      ],
+      "reason": "Complains battery degraded below 80% and needs service.",
+      "doc_id": "f361cc48d49f",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "319f0d462701_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The battery life was low",
+        "I had to buy a new battery"
+      ],
+      "reason": "Battery life low, required new battery purchase.",
+      "doc_id": "319f0d462701",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "680d31d2c44b_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery needed to be replace- wouldn't hold a charge"
+      ],
+      "reason": "Battery wouldn't hold charge, needed replacement.",
+      "doc_id": "680d31d2c44b",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "687b05320145_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the phone battery life is 79%"
+      ],
+      "reason": "Notes battery life low at 79% as the only problem.",
+      "doc_id": "687b05320145",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "f7db0c1aa67d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Great battery life and great condition"
+      ],
+      "reason": "Battery life praised as great.",
+      "doc_id": "f7db0c1aa67d",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "fe86c95c4ae5_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Battery life is much better than represented by reviews",
+        "Plenty of charge for a day"
+      ],
+      "reason": "Battery life better than expected, lasts a day.",
+      "doc_id": "fe86c95c4ae5",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "4e26e14cd2e2_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery life is terrible",
+        "already have to replace it"
+      ],
+      "reason": "Battery life terrible, needed replacement in 28 days.",
+      "doc_id": "4e26e14cd2e2",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "e5d21c4d4e71_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Apple device's battery life will always be shit",
+        "battery life on many devices will decrease in longevity"
+      ],
+      "reason": "Criticizes Apple battery life as poor and degrading.",
+      "doc_id": "e5d21c4d4e71",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 2,
+        "negative": 8,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.2,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.2,
+      "polarized_denominator": 10
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "112d9256860e_0",
+      "doc_id": "112d9256860e",
+      "text": "Battery life is terrible constant problems with the phone. Battery life is terrible constant problems with the phone",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "63dce0a91d39_0",
+      "doc_id": "63dce0a91d39",
+      "text": "battery life problem. Battery life is terrible, just 3-4 hours.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "f361cc48d49f_0",
+      "doc_id": "f361cc48d49f",
+      "text": "Renewed but Battery Life is in jeopardy. Although these (both that I ordered) were listed as renewed/new the battery life is less than 80% (under the status report in settings) and one is stating needs service. I expect that as renewed there'd be some degradation but not \"needs service\"",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "319f0d462701_0",
+      "doc_id": "319f0d462701",
+      "text": "The battery life was low. Battery life was low. I had to buy a new battery",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "680d31d2c44b_0",
+      "doc_id": "680d31d2c44b",
+      "text": "Battery life. Battery needed to be replace- wouldn't hold a charge. That’s my only complaint",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "687b05320145_0",
+      "doc_id": "687b05320145",
+      "text": "The battery life is low🤦🏾♂️. The phone is really nice i was scared at first and thinking it wasn’t going to be good but it turnt out great. This is my first day using it but so far there’s no problem except that the phone battery life is 79% everything is good.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "f7db0c1aa67d_0",
+      "doc_id": "f7db0c1aa67d",
+      "text": "battery life and condition. Great battery life and great condition. No visible scratches and dents.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "fe86c95c4ae5_0",
+      "doc_id": "fe86c95c4ae5",
+      "text": "Battery life is much better than represented by reviews.. Battery life is much better than represented by reviews. Plenty of charge for a day unless you spend most of your time on FaceTime or watching Netflix.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "4e26e14cd2e2_0",
+      "doc_id": "4e26e14cd2e2",
+      "text": "Battery life. Battery life is terrible. I've had it for 28 days and already have to replace it.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "e5d21c4d4e71_0",
+      "doc_id": "e5d21c4d4e71",
+      "text": "Apple device's battery life will always be shit, but what can we do.. Apple battery life on many devices will decrease in longevity for as long as you own the device. The phone works perfectly.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    }
+  ],
+  "contexts": [
+    "Battery life is terrible constant problems with the phone. Battery life is terrible constant problems with the phone",
+    "battery life problem. Battery life is terrible, just 3-4 hours.",
+    "Renewed but Battery Life is in jeopardy. Although these (both that I ordered) were listed as renewed/new the battery life is less than 80% (under the status report in settings) and one is stating needs service. I expect that as renewed there'd be some degradation but not \"needs service\"",
+    "The battery life was low. Battery life was low. I had to buy a new battery",
+    "Battery life. Battery needed to be replace- wouldn't hold a charge. That’s my only complaint",
+    "The battery life is low🤦🏾♂️. The phone is really nice i was scared at first and thinking it wasn’t going to be good but it turnt out great. This is my first day using it but so far there’s no problem except that the phone battery life is 79% everything is good.",
+    "battery life and condition. Great battery life and great condition. No visible scratches and dents.",
+    "Battery life is much better than represented by reviews.. Battery life is much better than represented by reviews. Plenty of charge for a day unless you spend most of your time on FaceTime or watching Netflix.",
+    "Battery life. Battery life is terrible. I've had it for 28 days and already have to replace it.",
+    "Apple device's battery life will always be shit, but what can we do.. Apple battery life on many devices will decrease in longevity for as long as you own the device. The phone works perfectly."
+  ],
+  "timing": {
+    "classification_s": 2.902478899995913,
+    "generation_s": 1.8654281000053743,
+    "verification_s": 2.036558199994033,
+    "total_s": 6.804487000001245
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1105,
+        "completion_tokens": 660,
+        "total_tokens": 1765,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 209
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 978,
+        "completion_tokens": 256,
+        "total_tokens": 1234,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 210
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1073,
+        "completion_tokens": 463,
+        "total_tokens": 1536,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 945
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

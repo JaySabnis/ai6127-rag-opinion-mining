@@ -1,0 +1,482 @@
+{
+  "question": "What carrier, SIM, or mobile-network compatibility issues do Moto G7 users describe?",
+  "answer": "One reviewer reports that the unlocked Moto G7 works on all four major US carriers (AT&T, Verizon, Sprint, and T-Mobile) and on their MVNO networks, and that they use it on Google Fi switching automatically between Sprint and T-Mobile. [14bf44a88dca_1]\nAnother reviewer reports that IMEI checks came back as incompatible on every carrier they tried, including Cricket Wireless, Mint Mobile, and T-Mobile directly. [d14d79450f3f_1]\nA reviewer of the Moto G7 with Alexa states that Motorola tech support told them this model is not compatible with Metro, despite Amazon listing Metro among supported carriers. [7e2cb4f70183_0]\nOne reviewer using a foreign SIM on the T-Mobile network reports the phone shows only 3G rather than 4G. [ed52e16a2a48_0]\nA reviewer of the Moto G7 Plus international version reports it is not fully compatible with US carriers, with some calls going straight to voicemail and network type dropping from LTE to 3G or 2G during calls. [5d7f8b77d7f4_0]\nA reviewer reports the phone worked on a T-Mobile MVNO but would not make or receive voice calls on an AT&T MVNO until carrier-side settings were changed to enable VoLTE. [246ab28b4231_0]",
+  "draft_answer": "One reviewer reports that the unlocked Moto G7 works on all four major US carriers (AT&T, Verizon, Sprint, and T-Mobile) and on their MVNO networks, and that they use it on Google Fi switching automatically between Sprint and T-Mobile. [14bf44a88dca_1]\nAnother reviewer reports that IMEI checks came back as incompatible on every carrier they tried, including Cricket Wireless, Mint Mobile, and T-Mobile directly. [d14d79450f3f_1]\nA reviewer of the Moto G7 with Alexa states that Motorola tech support told them this model is not compatible with Metro, despite Amazon listing Metro among supported carriers. [7e2cb4f70183_0]\nOne reviewer using a foreign SIM on the T-Mobile network reports the phone shows only 3G rather than 4G. [ed52e16a2a48_0]\nA reviewer of the Moto G7 Plus international version reports it is not fully compatible with US carriers, with some calls going straight to voicemail and network type dropping from LTE to 3G or 2G during calls. [5d7f8b77d7f4_0]\nA reviewer reports the phone worked on a T-Mobile MVNO but would not make or receive voice calls on an AT&T MVNO until carrier-side settings were changed to enable VoLTE. [246ab28b4231_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reports that the unlocked Moto G7 works on all four major US carriers (AT&T, Verizon, Sprint, and T-Mobile) and on their MVNO networks, and that they use it on Google Fi switching automatically between Sprint and T-Mobile.",
+      "citations": [
+        "14bf44a88dca_1"
+      ]
+    },
+    {
+      "text": "Another reviewer reports that IMEI checks came back as incompatible on every carrier they tried, including Cricket Wireless, Mint Mobile, and T-Mobile directly.",
+      "citations": [
+        "d14d79450f3f_1"
+      ]
+    },
+    {
+      "text": "A reviewer of the Moto G7 with Alexa states that Motorola tech support told them this model is not compatible with Metro, despite Amazon listing Metro among supported carriers.",
+      "citations": [
+        "7e2cb4f70183_0"
+      ]
+    },
+    {
+      "text": "One reviewer using a foreign SIM on the T-Mobile network reports the phone shows only 3G rather than 4G.",
+      "citations": [
+        "ed52e16a2a48_0"
+      ]
+    },
+    {
+      "text": "A reviewer of the Moto G7 Plus international version reports it is not fully compatible with US carriers, with some calls going straight to voicemail and network type dropping from LTE to 3G or 2G during calls.",
+      "citations": [
+        "5d7f8b77d7f4_0"
+      ]
+    },
+    {
+      "text": "A reviewer reports the phone worked on a T-Mobile MVNO but would not make or receive voice calls on an AT&T MVNO until carrier-side settings were changed to enable VoLTE.",
+      "citations": [
+        "246ab28b4231_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reports that the unlocked Moto G7 works on all four major US carriers (AT&T, Verizon, Sprint, and T-Mobile) and on their MVNO networks, and that they use it on Google Fi switching automatically between Sprint and T-Mobile.",
+      "citations": [
+        "14bf44a88dca_1"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reports that IMEI checks came back as incompatible on every carrier they tried, including Cricket Wireless, Mint Mobile, and T-Mobile directly.",
+      "citations": [
+        "d14d79450f3f_1"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer of the Moto G7 with Alexa states that Motorola tech support told them this model is not compatible with Metro, despite Amazon listing Metro among supported carriers.",
+      "citations": [
+        "7e2cb4f70183_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer using a foreign SIM on the T-Mobile network reports the phone shows only 3G rather than 4G.",
+      "citations": [
+        "ed52e16a2a48_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer of the Moto G7 Plus international version reports it is not fully compatible with US carriers, with some calls going straight to voicemail and network type dropping from LTE to 3G or 2G during calls.",
+      "citations": [
+        "5d7f8b77d7f4_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer reports the phone worked on a T-Mobile MVNO but would not make or receive voice calls on an AT&T MVNO until carrier-side settings were changed to enable VoLTE.",
+      "citations": [
+        "246ab28b4231_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reports that the unlocked Moto G7 works on all four major US carriers (AT&T, Verizon, Sprint, and T-Mobile) and on their MVNO networks, and that they use it on Google Fi switching automatically between Sprint and T-Mobile.",
+      "citations": [
+        "14bf44a88dca_1"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reports that IMEI checks came back as incompatible on every carrier they tried, including Cricket Wireless, Mint Mobile, and T-Mobile directly.",
+      "citations": [
+        "d14d79450f3f_1"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer of the Moto G7 with Alexa states that Motorola tech support told them this model is not compatible with Metro, despite Amazon listing Metro among supported carriers.",
+      "citations": [
+        "7e2cb4f70183_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer using a foreign SIM on the T-Mobile network reports the phone shows only 3G rather than 4G.",
+      "citations": [
+        "ed52e16a2a48_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer of the Moto G7 Plus international version reports it is not fully compatible with US carriers, with some calls going straight to voicemail and network type dropping from LTE to 3G or 2G during calls.",
+      "citations": [
+        "5d7f8b77d7f4_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer reports the phone worked on a T-Mobile MVNO but would not make or receive voice calls on an AT&T MVNO until carrier-side settings were changed to enable VoLTE.",
+      "citations": [
+        "246ab28b4231_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "14bf44a88dca_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "works on all four major US carriers AT&t Verizon Sprint and T-Mobile",
+        "You name a carrier in the US and this Moto G7 will work on it",
+        "switches automatically between them to find the best connection"
+      ],
+      "reason": "Praises broad carrier compatibility and automatic network switching.",
+      "doc_id": "14bf44a88dca",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "d14d79450f3f_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "comes back as incompatible on every carrier I've tried",
+        "the device is not compatible with their networks"
+      ],
+      "reason": "Reports IMEI incompatible with carriers tried.",
+      "doc_id": "d14d79450f3f",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "7e2cb4f70183_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "this model is not compatible with Metro",
+        "Buyer beware this device is not going to work on Metro"
+      ],
+      "reason": "Criticizes lack of Metro carrier compatibility.",
+      "doc_id": "7e2cb4f70183",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "ed52e16a2a48_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "For T-Mobile sim I'm not sure it will be 4G or not",
+        "it shows 3G"
+      ],
+      "reason": "Uncertainty about T-Mobile 4G; shows 3G only, mild concern.",
+      "doc_id": "ed52e16a2a48",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "5d7f8b77d7f4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "it is not fully compatible with US carriers (T-Mobile in particular)",
+        "cannot reliably receive phone calls in the US"
+      ],
+      "reason": "Criticizes poor US carrier compatibility, especially T-Mobile.",
+      "doc_id": "5d7f8b77d7f4",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "246ab28b4231_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "Works well with TMobile",
+        "when moving to ATT MVNO in June 2022, phone wouldn't make/receive calls"
+      ],
+      "reason": "Positive on T-Mobile, negative on AT&T voice calls.",
+      "doc_id": "246ab28b4231",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "db660b7e843f_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "When out of the US no service at all on this phone"
+      ],
+      "reason": "Carrier service issues abroad; negative on network.",
+      "doc_id": "db660b7e843f",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "51b846eef7c6_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "International models are missing some 4G bands for the five networks"
+      ],
+      "reason": "Warns international models lack US carrier bands.",
+      "doc_id": "51b846eef7c6",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "860ce8ae9675_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Motorola decided to remove Band 71 which is a great band for T-Mobile users in rural areas"
+      ],
+      "reason": "Criticizes removal of T-Mobile Band 71.",
+      "doc_id": "860ce8ae9675",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "779835b1796d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "NOT compatible with AT&T, T-Mobile, or Google Fi",
+        "not compatible with VoLTE on any You.S. carrier"
+      ],
+      "reason": "Criticizes carrier and VoLTE incompatibility.",
+      "doc_id": "779835b1796d",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "carrier"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "carrier",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 7,
+        "mixed": 2,
+        "neutral": 0
+      },
+      "positive_ratio": 0.1,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.125,
+      "polarized_denominator": 8
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "14bf44a88dca_1",
+      "doc_id": "14bf44a88dca",
+      "text": "The battery is good at 3000MAH. The 1080p screen is brighter than my old Moto G6. The G7 is also unlocked and works on all four major US carriers AT&t Verizon Sprint and T-Mobile. So that means it will also work on all of their NVNO network carriers like Cricket, Metro by T-Mobile, Boost Mobile, Total wireless, Straight Talk, Google fi who uses Sprint's T-Mobile and US Cellular networks, and so many more. You name a carrier in the US and this Moto G7 will work on it. I am currently using my Moto G7 on Google fi. I can get the Sprint and T-Mobile networks in my area and the G7 switches automatically between them to find the best connection. My Moto G6 did not do that I had to force switch it. The G7 also as Wi-Fi calling. The unlocked Motorola Moto G7 is just an amazing phone.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    },
+    {
+      "chunk_id": "d14d79450f3f_1",
+      "doc_id": "d14d79450f3f",
+      "text": "I checked the IMEI #s on each carrier's website (they have Moto G7 listed as a compatible device) and it comes back as incompatible on every carrier I've tried (even the ones that allow you to purchase Moto G 7 on their site i.e. mint mobile). The customer service reps also checked the IMEI #s for the phone I just purchased and said that the device is not compatible with their networks. Save yourself the trouble and buy the US Unlocked version of the Moto G7 Power. Roughly the same exact phone, a few more $ and is compatible with the carriers listed in the title/descriptions. I tried Cricket wireless, Mint Mobile and also T-mobile directly for anyone curious. I hope this helps save someone the time and frustration.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07Q4J5GF1"
+    },
+    {
+      "chunk_id": "7e2cb4f70183_0",
+      "doc_id": "7e2cb4f70183",
+      "text": "Moto G7 with Alexa Does works with Metro, but you need to call them to connect.... Moto G7 with Alexa Does not work with Metro! Purchased on Amazon's Prime day and the phone did not connect with Metro's network. No matter what I tried and how many times and ways I tried to reset Moto G7 it was not working. I requested a replacement from Amazon and to my disappointment when it arrived it was identical to the first one. I called Motorola support line and their tech support informed me that this model is not compatible with Metro and I should switch to another carrier. Amazon describes G7 as \"Moto G7 with Alexa Hands-Free - Unlocked - 64 GB - Ceramic Black (US Warranty) - Verizon, AT&T, T-Mobile, Sprint, Boost, Cricket, & Metro\"... Buyer beware this device is not going to work on Metro. After some research it seems that the version with Alexa is the one with the issue.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N92347B"
+    },
+    {
+      "chunk_id": "ed52e16a2a48_0",
+      "doc_id": "ed52e16a2a48",
+      "text": "best budget phone for me. i love it . it's best budget phone for me ,very quick delivered too. Fingerprint reader is good , it responds quickly. For T-Mobile sim I'm not sure it will be 4G or not. now i put my country sim which join T-Mobile network and it shows 3G. In US i use note8 with T-Mobile sim (4G) and this moto g7 with my country sim for only receiving sms. If i use internet on moto g7,i will use only wifi from hotspot not from sim. For your information.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07PZZLR4D"
+    },
+    {
+      "chunk_id": "5d7f8b77d7f4_0",
+      "doc_id": "5d7f8b77d7f4",
+      "text": "Incompatible with T-Mobile - proof included - Moto G7 Plus (International version). See the screenshot for proof. This seems to be a great phone with one HUGE problem: it is not fully compatible with US carriers (T-Mobile in particular). Some of the calls will go directly to voicemail after long silence, and there is nothing you can do. For the calls that DO get through, network type instantly changes from LTE to 3G or even \"H\" (which is 2G) for the duration of the call. Bottom line: this is the international version, and it cannot reliably receive phone calls in the US. Huge disappointment. I will try a Moto G7 (not Plus, US version) and see if it is any better.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07RK4XYDF"
+    },
+    {
+      "chunk_id": "246ab28b4231_0",
+      "doc_id": "246ab28b4231",
+      "text": "Works well with TMobile, may need tech support for ATT. Even though this phone settings show its Moto g7 plus, has Moto logo at back, and shows XT1965-T inside as model number, this had Tmobile REVVLRY+ branded \"firmware\" from what I was told by technical support. I have used this for few months on TMobile MVNO with no issue, but when moving to ATT MVNO in June 2022, phone wouldn't make/receive calls. It could send/receive text and get mobile data, but no voice calls. This is what was found via RedPocket technical support call. Based on the SIM number it shows as TMobile branded device rather than pure-Moto g7 Plus. So ATT-side needed SIM info to change setting on carrier side, to activate voice on the network VoLTE, especially as its listed as a compatible device on ATT website with 3G being shutdown recently.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B08QQ9M98K"
+    },
+    {
+      "chunk_id": "db660b7e843f_0",
+      "doc_id": "db660b7e843f",
+      "text": "Moto G7 plus does not work well. Bought this when it first came out right from Amazon. Moved T-mobile sim card from old phone Receives calls and makes calls but only in the US The following issues were not experienced by my family who are on the same family plan as I am and also was not experienced with my sim card in other phones. The issues are specific to the Moto G7+ I bought from this seller. text messages are delayed (both sending and receiving) When out of the US no service at all on this phone",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07RK4XYDF"
+    },
+    {
+      "chunk_id": "51b846eef7c6_0",
+      "doc_id": "51b846eef7c6",
+      "text": "Moto g7. The Moto g7 is a decent phone with consistent performance and quality. To increase the speed go to Settings, Accessibility, Remove animations, Turn On. Warning! Be careful the Moto g7 International models are different and are not intended for the United States. International models are missing some 4G bands for the five networks (AT&T, Sprint, T-Mobile, US Cellular, and Verizon) in the United States.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N92347B"
+    },
+    {
+      "chunk_id": "860ce8ae9675_1",
+      "doc_id": "860ce8ae9675",
+      "text": "The Moto G6 has a 5.7 size screen compared to the Moto G7 6.2, so the bigger the screen, the more battery will be in use. Motorola decided to give the G7 the same 3,000mAh battery capacity as the G6 and relies on the Android Pie's Adaptive Battery feature instead of increasing the Moto G7 battery capacity to atleast 3500mAh. The Moto G7 CPU is more power efficient than the Moto G6, but not enough to offset the smaller battery for it's screen size. Compared to the Moto G7 Play and Power, Motorola decided to remove Band 71 which is a great band for T-Mobile users in rural areas and is going to be a band that T-Mobile is going to use more of. It makes no sense to have Motorola's \"lesser\" G7 Play and Power to have this band and not the higher spec G7.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    },
+    {
+      "chunk_id": "779835b1796d_0",
+      "doc_id": "779835b1796d",
+      "text": "NOT compatible with AT&T, T-Mobile, or Google Fi (soon). This phone is not compatible with VoLTE on any You.S. carrier, AFAICT. This will means that voice calls will stop working when those carriers turn off their 3G networks in early 2022.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07Q4J5GF1"
+    }
+  ],
+  "contexts": [
+    "The battery is good at 3000MAH. The 1080p screen is brighter than my old Moto G6. The G7 is also unlocked and works on all four major US carriers AT&t Verizon Sprint and T-Mobile. So that means it will also work on all of their NVNO network carriers like Cricket, Metro by T-Mobile, Boost Mobile, Total wireless, Straight Talk, Google fi who uses Sprint's T-Mobile and US Cellular networks, and so many more. You name a carrier in the US and this Moto G7 will work on it. I am currently using my Moto G7 on Google fi. I can get the Sprint and T-Mobile networks in my area and the G7 switches automatically between them to find the best connection. My Moto G6 did not do that I had to force switch it. The G7 also as Wi-Fi calling. The unlocked Motorola Moto G7 is just an amazing phone.",
+    "I checked the IMEI #s on each carrier's website (they have Moto G7 listed as a compatible device) and it comes back as incompatible on every carrier I've tried (even the ones that allow you to purchase Moto G 7 on their site i.e. mint mobile). The customer service reps also checked the IMEI #s for the phone I just purchased and said that the device is not compatible with their networks. Save yourself the trouble and buy the US Unlocked version of the Moto G7 Power. Roughly the same exact phone, a few more $ and is compatible with the carriers listed in the title/descriptions. I tried Cricket wireless, Mint Mobile and also T-mobile directly for anyone curious. I hope this helps save someone the time and frustration.",
+    "Moto G7 with Alexa Does works with Metro, but you need to call them to connect.... Moto G7 with Alexa Does not work with Metro! Purchased on Amazon's Prime day and the phone did not connect with Metro's network. No matter what I tried and how many times and ways I tried to reset Moto G7 it was not working. I requested a replacement from Amazon and to my disappointment when it arrived it was identical to the first one. I called Motorola support line and their tech support informed me that this model is not compatible with Metro and I should switch to another carrier. Amazon describes G7 as \"Moto G7 with Alexa Hands-Free - Unlocked - 64 GB - Ceramic Black (US Warranty) - Verizon, AT&T, T-Mobile, Sprint, Boost, Cricket, & Metro\"... Buyer beware this device is not going to work on Metro. After some research it seems that the version with Alexa is the one with the issue.",
+    "best budget phone for me. i love it . it's best budget phone for me ,very quick delivered too. Fingerprint reader is good , it responds quickly. For T-Mobile sim I'm not sure it will be 4G or not. now i put my country sim which join T-Mobile network and it shows 3G. In US i use note8 with T-Mobile sim (4G) and this moto g7 with my country sim for only receiving sms. If i use internet on moto g7,i will use only wifi from hotspot not from sim. For your information.",
+    "Incompatible with T-Mobile - proof included - Moto G7 Plus (International version). See the screenshot for proof. This seems to be a great phone with one HUGE problem: it is not fully compatible with US carriers (T-Mobile in particular). Some of the calls will go directly to voicemail after long silence, and there is nothing you can do. For the calls that DO get through, network type instantly changes from LTE to 3G or even \"H\" (which is 2G) for the duration of the call. Bottom line: this is the international version, and it cannot reliably receive phone calls in the US. Huge disappointment. I will try a Moto G7 (not Plus, US version) and see if it is any better.",
+    "Works well with TMobile, may need tech support for ATT. Even though this phone settings show its Moto g7 plus, has Moto logo at back, and shows XT1965-T inside as model number, this had Tmobile REVVLRY+ branded \"firmware\" from what I was told by technical support. I have used this for few months on TMobile MVNO with no issue, but when moving to ATT MVNO in June 2022, phone wouldn't make/receive calls. It could send/receive text and get mobile data, but no voice calls. This is what was found via RedPocket technical support call. Based on the SIM number it shows as TMobile branded device rather than pure-Moto g7 Plus. So ATT-side needed SIM info to change setting on carrier side, to activate voice on the network VoLTE, especially as its listed as a compatible device on ATT website with 3G being shutdown recently.",
+    "Moto G7 plus does not work well. Bought this when it first came out right from Amazon. Moved T-mobile sim card from old phone Receives calls and makes calls but only in the US The following issues were not experienced by my family who are on the same family plan as I am and also was not experienced with my sim card in other phones. The issues are specific to the Moto G7+ I bought from this seller. text messages are delayed (both sending and receiving) When out of the US no service at all on this phone",
+    "Moto g7. The Moto g7 is a decent phone with consistent performance and quality. To increase the speed go to Settings, Accessibility, Remove animations, Turn On. Warning! Be careful the Moto g7 International models are different and are not intended for the United States. International models are missing some 4G bands for the five networks (AT&T, Sprint, T-Mobile, US Cellular, and Verizon) in the United States.",
+    "The Moto G6 has a 5.7 size screen compared to the Moto G7 6.2, so the bigger the screen, the more battery will be in use. Motorola decided to give the G7 the same 3,000mAh battery capacity as the G6 and relies on the Android Pie's Adaptive Battery feature instead of increasing the Moto G7 battery capacity to atleast 3500mAh. The Moto G7 CPU is more power efficient than the Moto G6, but not enough to offset the smaller battery for it's screen size. Compared to the Moto G7 Play and Power, Motorola decided to remove Band 71 which is a great band for T-Mobile users in rural areas and is going to be a band that T-Mobile is going to use more of. It makes no sense to have Motorola's \"lesser\" G7 Play and Power to have this band and not the higher spec G7.",
+    "NOT compatible with AT&T, T-Mobile, or Google Fi (soon). This phone is not compatible with VoLTE on any You.S. carrier, AFAICT. This will means that voice calls will stop working when those carriers turn off their 3G networks in early 2022."
+  ],
+  "timing": {
+    "classification_s": 3.7493048000033014,
+    "generation_s": 2.4315648000047076,
+    "verification_s": 9.10000380827114e-06,
+    "total_s": 6.18089649999456
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2306,
+        "completion_tokens": 775,
+        "total_tokens": 3081,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 2050
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2184,
+        "completion_tokens": 356,
+        "total_tokens": 2540,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 2184
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

@@ -1,0 +1,482 @@
+{
+  "question": "What do Google Pixel 4a buyers say about support, warranty claims, or refunds?",
+  "answer": "One reviewer described Google's warranty claim process for their 8-month-old Pixel 4a as a grueling four-hour labyrinth, and said a hairline crack was cited as voiding the warranty. [02d7b8bef19f_0]\nAnother reviewer said Google told them that because the phone was bought through Amazon rather than from Google, Google would not handle the warranty. [a9315688697b_0]\nA reviewer whose wife bought the 4a directly from the Google store said support first agreed to fix it under warranty, then reversed that after receiving the phone and claimed the screen was cracked. [367b42bf098a_0]\nOne reviewer said Google's warranty option was to repair the phone or replace it with a refurbished unit after less than a month of ownership. [e568713633a4_0]\nA reviewer said Google would not issue a refund because the phone was purchased through Amazon. [60ca15c34c22_0]\nAnother reviewer called the warranty process a nightmare and said the support people were willfully unhelpful time wasters. [102847bb19f0_0]",
+  "draft_answer": "One reviewer described Google's warranty claim process for their 8-month-old Pixel 4a as a grueling four-hour labyrinth, and said a hairline crack was cited as voiding the warranty. [02d7b8bef19f_0]\nAnother reviewer said Google told them that because the phone was bought through Amazon rather than from Google, Google would not handle the warranty. [a9315688697b_0]\nA reviewer whose wife bought the 4a directly from the Google store said support first agreed to fix it under warranty, then reversed that after receiving the phone and claimed the screen was cracked. [367b42bf098a_0]\nOne reviewer said Google's warranty option was to repair the phone or replace it with a refurbished unit after less than a month of ownership. [e568713633a4_0]\nA reviewer said Google would not issue a refund because the phone was purchased through Amazon. [60ca15c34c22_0]\nAnother reviewer called the warranty process a nightmare and said the support people were willfully unhelpful time wasters. [102847bb19f0_0]",
+  "sentences": [
+    {
+      "text": "One reviewer described Google's warranty claim process for their 8-month-old Pixel 4a as a grueling four-hour labyrinth, and said a hairline crack was cited as voiding the warranty.",
+      "citations": [
+        "02d7b8bef19f_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said Google told them that because the phone was bought through Amazon rather than from Google, Google would not handle the warranty.",
+      "citations": [
+        "a9315688697b_0"
+      ]
+    },
+    {
+      "text": "A reviewer whose wife bought the 4a directly from the Google store said support first agreed to fix it under warranty, then reversed that after receiving the phone and claimed the screen was cracked.",
+      "citations": [
+        "367b42bf098a_0"
+      ]
+    },
+    {
+      "text": "One reviewer said Google's warranty option was to repair the phone or replace it with a refurbished unit after less than a month of ownership.",
+      "citations": [
+        "e568713633a4_0"
+      ]
+    },
+    {
+      "text": "A reviewer said Google would not issue a refund because the phone was purchased through Amazon.",
+      "citations": [
+        "60ca15c34c22_0"
+      ]
+    },
+    {
+      "text": "Another reviewer called the warranty process a nightmare and said the support people were willfully unhelpful time wasters.",
+      "citations": [
+        "102847bb19f0_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer described Google's warranty claim process for their 8-month-old Pixel 4a as a grueling four-hour labyrinth, and said a hairline crack was cited as voiding the warranty.",
+      "citations": [
+        "02d7b8bef19f_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said Google told them that because the phone was bought through Amazon rather than from Google, Google would not handle the warranty.",
+      "citations": [
+        "a9315688697b_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer whose wife bought the 4a directly from the Google store said support first agreed to fix it under warranty, then reversed that after receiving the phone and claimed the screen was cracked.",
+      "citations": [
+        "367b42bf098a_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said Google's warranty option was to repair the phone or replace it with a refurbished unit after less than a month of ownership.",
+      "citations": [
+        "e568713633a4_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer said Google would not issue a refund because the phone was purchased through Amazon.",
+      "citations": [
+        "60ca15c34c22_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer called the warranty process a nightmare and said the support people were willfully unhelpful time wasters.",
+      "citations": [
+        "102847bb19f0_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer described Google's warranty claim process for their 8-month-old Pixel 4a as a grueling four-hour labyrinth, and said a hairline crack was cited as voiding the warranty.",
+      "citations": [
+        "02d7b8bef19f_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said Google told them that because the phone was bought through Amazon rather than from Google, Google would not handle the warranty.",
+      "citations": [
+        "a9315688697b_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer whose wife bought the 4a directly from the Google store said support first agreed to fix it under warranty, then reversed that after receiving the phone and claimed the screen was cracked.",
+      "citations": [
+        "367b42bf098a_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said Google's warranty option was to repair the phone or replace it with a refurbished unit after less than a month of ownership.",
+      "citations": [
+        "e568713633a4_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer said Google would not issue a refund because the phone was purchased through Amazon.",
+      "citations": [
+        "60ca15c34c22_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer called the warranty process a nightmare and said the support people were willfully unhelpful time wasters.",
+      "citations": [
+        "102847bb19f0_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "15edefd821a6_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Google does not support their warranty",
+        "Dealing with the Google store to support their warranty is a complete nightmare",
+        "I have completely lost faith in Google's product support"
+      ],
+      "reason": "Strong criticism of Google warranty support and service.",
+      "doc_id": "15edefd821a6",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "02d7b8bef19f_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "4 grueling hours in Google's warranty claim labyrinth",
+        "you-break-we-no-fix"
+      ],
+      "reason": "Criticizes Google warranty claim process as frustrating and unhelpful.",
+      "doc_id": "02d7b8bef19f",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "a9315688697b_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Google service is a disaster",
+        "they do not respond for the warranty of the phone"
+      ],
+      "reason": "Calls Google service a disaster and criticizes warranty refusal.",
+      "doc_id": "a9315688697b",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "367b42bf098a_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Google's customer support is the worst I have ever dealt with",
+        "they went back on the warranty coverage"
+      ],
+      "reason": "Criticizes Google support and warranty handling.",
+      "doc_id": "367b42bf098a",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "e568713633a4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Google's warranty is either they will repair the 'lemon' phone or replace with a refurbished phone",
+        "Despicable!"
+      ],
+      "reason": "Criticizes Google warranty replacement policy.",
+      "doc_id": "e568713633a4",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "6177d3c73c3a_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "got a total non-response response that did not respond to the problem at all"
+      ],
+      "reason": "Criticizes Google's unhelpful response to warranty issue.",
+      "doc_id": "6177d3c73c3a",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "60ca15c34c22_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Google will not give you a refund unless you purchase phones directly from Google",
+        "they will not issue a refund to me because I bought it through Amazon"
+      ],
+      "reason": "Criticizes Google refund/warranty policy for third-party purchases.",
+      "doc_id": "60ca15c34c22",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "102847bb19f0_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Nightmare warranty process",
+        "one of the worst customer support experiences I've ever had",
+        "The support people are willfully unhelpful time wasters"
+      ],
+      "reason": "Strong criticism of Google warranty and support.",
+      "doc_id": "102847bb19f0",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "4fb580b68e45_1",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses screen sensitivity and refund timing, not Google service.",
+      "doc_id": "4fb580b68e45",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "eefb3ccd7eef_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Google warranty is useless",
+        "they want to charge me to repair the phone for a known defect"
+      ],
+      "reason": "Criticizes Google warranty as useless and charging for known defect.",
+      "doc_id": "eefb3ccd7eef",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "service"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 1,
+      "counts": {
+        "positive": 0,
+        "negative": 9,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.0,
+      "polarized_denominator": 9
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "15edefd821a6_0",
+      "doc_id": "15edefd821a6",
+      "text": "Google does not support their warranty. The phone works great... until it doesn't. When the battery goes out, do not expect any help from the Google Store, even when it is under warranty. I purchased a pixel 4 XL in March of 2020. I had no complaints and everything worked well. Then around Christmas, the battery wouldn't hold a charge. No problem, it's under warranty... yeah right. Dealing with the Google store to support their warranty is a complete nightmare! No replacement phone, I've had over 5 people ask me the same question and none of them have delivered results so far. I have been without a phone for over 3 weeks. The battery malfunction is clearly covered by the Google warranty for new phones and Google refuses to replace the phone which does not have any cracks or water damage. I have completely lost faith in Google's product support.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4K5L2F"
+    },
+    {
+      "chunk_id": "02d7b8bef19f_0",
+      "doc_id": "02d7b8bef19f",
+      "text": "Past it's Prime. During a recent security update, my 8 month old Pixel 4a ($275) died. It could not see the sim card anymore. After 4 grueling hours in Google's warranty claim labyrinth, I finally had an appointment with you-break-we-no-fix. The guy at the counter says, I have a hairline crack that voids the warranty. Of course that is not true as the warranty specifically states: \"If, in addition to a defect covered by this Limited Warranty, your Google Product also has damage which is not covered (for example, damage caused by normal wear and tear or misuse by you) then Google is only responsible for addressing the defect covered by this Limited Warranty\". The good news is that I now have a decent pixel 4a webcam and a brand new Galaxy A53 5G ($349). The difference in these two phones is astounding.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "a9315688697b_0",
+      "doc_id": "a9315688697b",
+      "text": "Do not buy the Pixel 4a. The phone overheats, the system starts shutting down. Camera, sound, etc. When receiving a call, the phone rings, however, the icon to answer bows not show up. Even when I have LTE on the screen, I measure it and upload is \"0\", download is a misery, and it gives me 78% package loss. Google service is a disaster. The made me spent several hours every day trying to troubleshoot. And now, 2 months and 3 weeks after I purchased it through Amazon at full price, Google says that since I did not buy it from them, they do not respond for the warranty of the phone. NEVER AGAIN! What is Amazon going to do with the warranty of the Pixel phones they sale? Do no buy it",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "367b42bf098a_0",
+      "doc_id": "367b42bf098a",
+      "text": "Google's customer support is the worst I have ever dealt with. My wife bought the 4a directly from the Google store. After about three months, there was purple bleeding that started appearing all over the screen. The phone still functions but you couldn't see anything besides purple shades. My wife contacted support and was told to send it in and it would be fixed under warranty. However, after they received it they went back on the warranty coverage. They said the phone screen was cracked (the phone has been in a case and has a screen protector). In the initial call to support we had sent photos of the phone to show the screen issue, none of which show any kind of screen crack. My wife requested photos of the cracked screen to which out agent \"Irene\" would not provide as it is in a different department.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "e568713633a4_0",
+      "doc_id": "e568713633a4",
+      "text": "Buyer Beware!. I purchased a new pixel 4a 5g phone from Xfinity Mobile and after less than 1 month, it would not charge. Google's warranty is either they will repair the 'lemon' phone or replace with a refurbished phone. After only 1 month, I can get a new 'used' phone to replace something that is brand new. Despicable! Don't purchase!",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08R61G69Q"
+    },
+    {
+      "chunk_id": "6177d3c73c3a_1",
+      "doc_id": "6177d3c73c3a",
+      "text": "They said I would have to pay for both fixes out of pocket... the cost of a new phone. They would not accept the email from Google saying that they would fix the manufacturing issue and let me pay for the other part (the broken screen). I let Google know the response via email and got a total non-response response that did not respond to the problem at all. Then the screen cracked more. Out of time and need a new phone that actually workes for an upcoming trip, I decided to spend the $300 on a new phone so I'd be under warranty for a year. My cell carrier didn't have any Pixel 4a online or in-store, so I bought one on Amazon brand new and it arrived that same day.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "60ca15c34c22_0",
+      "doc_id": "60ca15c34c22",
+      "text": "Google will not give you a refund unless you purchase phones directly from Google.. Do not get this phone it is defective. I upgraded to this phone after using the original pixel and everything is great except for a very loud noise at random times when I am talking to people on a call that is so loud it hurts my ear. I contacted Google and they or unable to repair it so they sent me a replacement 4A. Even the replacement has the same problem so I assume all 4A's have this problem. If you are going to buy a new Google phone do it directly through Google they will not issue a refund to me because I bought it through Amazon. Now I am stuck using a Bluetooth device whenever I am on a call so that my eardrums are not destroyed.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "102847bb19f0_0",
+      "doc_id": "102847bb19f0",
+      "text": "Nightmare warranty process. Don't buy a Pixel.. Got this phone last fall and it was bricked by one of Google's own android updates a couple months later. I'm still trying to get them to make good on the warranty by either fixing or replacing the phone and it's been one of the worst customer support experiences I've ever had up there with Sprint and Uber. The support people are willfully unhelpful time wasters.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "4fb580b68e45_1",
+      "doc_id": "4fb580b68e45",
+      "text": "Amazon did give me a discount for wrong charger that came with it, but now that seems so minor. I am 10 days past refund, is there anything I can do for a replacement or a refund? UPDATE as of May 28 2021... STILL terrible problems with screen sensitivity. And Google even acknowledges it & keeps saying a fix has been sent in a Feb Update - Not on my Pixel 4a 5g. This phone, from what I have read, had some problems from the start, yet Google sold it as though it was a phone in working order. I for one think it should be recalled with the option of refund or replacement. My next phone will not be a Google Pixel I am afraid.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4K5L2F"
+    },
+    {
+      "chunk_id": "eefb3ccd7eef_0",
+      "doc_id": "eefb3ccd7eef",
+      "text": "stay away Google warranty is useless. I've been buying pixle phones since the nexus line i loved them all. In my opinion this phone is a downgrade from my pixel 3. The pixle 4a 5g is a waste of money. i Bought brand new from google, speakerphone mic never worked sent it to google for warranty repair and they want to charge me to repair the phone for a known defect, Stay away",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4K5L2F"
+    }
+  ],
+  "contexts": [
+    "Google does not support their warranty. The phone works great... until it doesn't. When the battery goes out, do not expect any help from the Google Store, even when it is under warranty. I purchased a pixel 4 XL in March of 2020. I had no complaints and everything worked well. Then around Christmas, the battery wouldn't hold a charge. No problem, it's under warranty... yeah right. Dealing with the Google store to support their warranty is a complete nightmare! No replacement phone, I've had over 5 people ask me the same question and none of them have delivered results so far. I have been without a phone for over 3 weeks. The battery malfunction is clearly covered by the Google warranty for new phones and Google refuses to replace the phone which does not have any cracks or water damage. I have completely lost faith in Google's product support.",
+    "Past it's Prime. During a recent security update, my 8 month old Pixel 4a ($275) died. It could not see the sim card anymore. After 4 grueling hours in Google's warranty claim labyrinth, I finally had an appointment with you-break-we-no-fix. The guy at the counter says, I have a hairline crack that voids the warranty. Of course that is not true as the warranty specifically states: \"If, in addition to a defect covered by this Limited Warranty, your Google Product also has damage which is not covered (for example, damage caused by normal wear and tear or misuse by you) then Google is only responsible for addressing the defect covered by this Limited Warranty\". The good news is that I now have a decent pixel 4a webcam and a brand new Galaxy A53 5G ($349). The difference in these two phones is astounding.",
+    "Do not buy the Pixel 4a. The phone overheats, the system starts shutting down. Camera, sound, etc. When receiving a call, the phone rings, however, the icon to answer bows not show up. Even when I have LTE on the screen, I measure it and upload is \"0\", download is a misery, and it gives me 78% package loss. Google service is a disaster. The made me spent several hours every day trying to troubleshoot. And now, 2 months and 3 weeks after I purchased it through Amazon at full price, Google says that since I did not buy it from them, they do not respond for the warranty of the phone. NEVER AGAIN! What is Amazon going to do with the warranty of the Pixel phones they sale? Do no buy it",
+    "Google's customer support is the worst I have ever dealt with. My wife bought the 4a directly from the Google store. After about three months, there was purple bleeding that started appearing all over the screen. The phone still functions but you couldn't see anything besides purple shades. My wife contacted support and was told to send it in and it would be fixed under warranty. However, after they received it they went back on the warranty coverage. They said the phone screen was cracked (the phone has been in a case and has a screen protector). In the initial call to support we had sent photos of the phone to show the screen issue, none of which show any kind of screen crack. My wife requested photos of the cracked screen to which out agent \"Irene\" would not provide as it is in a different department.",
+    "Buyer Beware!. I purchased a new pixel 4a 5g phone from Xfinity Mobile and after less than 1 month, it would not charge. Google's warranty is either they will repair the 'lemon' phone or replace with a refurbished phone. After only 1 month, I can get a new 'used' phone to replace something that is brand new. Despicable! Don't purchase!",
+    "They said I would have to pay for both fixes out of pocket... the cost of a new phone. They would not accept the email from Google saying that they would fix the manufacturing issue and let me pay for the other part (the broken screen). I let Google know the response via email and got a total non-response response that did not respond to the problem at all. Then the screen cracked more. Out of time and need a new phone that actually workes for an upcoming trip, I decided to spend the $300 on a new phone so I'd be under warranty for a year. My cell carrier didn't have any Pixel 4a online or in-store, so I bought one on Amazon brand new and it arrived that same day.",
+    "Google will not give you a refund unless you purchase phones directly from Google.. Do not get this phone it is defective. I upgraded to this phone after using the original pixel and everything is great except for a very loud noise at random times when I am talking to people on a call that is so loud it hurts my ear. I contacted Google and they or unable to repair it so they sent me a replacement 4A. Even the replacement has the same problem so I assume all 4A's have this problem. If you are going to buy a new Google phone do it directly through Google they will not issue a refund to me because I bought it through Amazon. Now I am stuck using a Bluetooth device whenever I am on a call so that my eardrums are not destroyed.",
+    "Nightmare warranty process. Don't buy a Pixel.. Got this phone last fall and it was bricked by one of Google's own android updates a couple months later. I'm still trying to get them to make good on the warranty by either fixing or replacing the phone and it's been one of the worst customer support experiences I've ever had up there with Sprint and Uber. The support people are willfully unhelpful time wasters.",
+    "Amazon did give me a discount for wrong charger that came with it, but now that seems so minor. I am 10 days past refund, is there anything I can do for a replacement or a refund? UPDATE as of May 28 2021... STILL terrible problems with screen sensitivity. And Google even acknowledges it & keeps saying a fix has been sent in a Feb Update - Not on my Pixel 4a 5g. This phone, from what I have read, had some problems from the start, yet Google sold it as though it was a phone in working order. I for one think it should be recalled with the option of refund or replacement. My next phone will not be a Google Pixel I am afraid.",
+    "stay away Google warranty is useless. I've been buying pixle phones since the nexus line i loved them all. In my opinion this phone is a downgrade from my pixel 3. The pixle 4a 5g is a waste of money. i Bought brand new from google, speakerphone mic never worked sent it to google for warranty repair and they want to charge me to repair the phone for a known defect, Stay away"
+  ],
+  "timing": {
+    "classification_s": 3.375355000003765,
+    "generation_s": 2.1455916999984765,
+    "verification_s": 6.900001608300954e-06,
+    "total_s": 5.520964700001059
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2194,
+        "completion_tokens": 737,
+        "total_tokens": 2931,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1938
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2073,
+        "completion_tokens": 283,
+        "total_tokens": 2356,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1945
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

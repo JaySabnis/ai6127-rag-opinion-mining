@@ -1,0 +1,472 @@
+{
+  "question": "What do iPhone XR reviewers say about battery life?",
+  "answer": "One reviewer said the iPhone XR's battery life is longer than the iPhone 7's. [33e1b85de132_0]\nOne reviewer said they are loving the battery life on the iPhone XR. [b5855e26b336_0]\nOne reviewer said the iPhone XR was still holding its battery life after a month. [47728fefa1ec_0]\nOne reviewer called the iPhone XR the best phone they have ever had with the best battery life, even compared with the iPhone 11. [1138275c67da_0]\nOne reviewer who upgraded from an iPhone 6s said the iPhone XR has a long lasting battery life. [f465be78e606_0]\nOne reviewer said the iPhone XR's battery life is great. [d65cb520fe6f_0]",
+  "draft_answer": "One reviewer said the iPhone XR's battery life is longer than the iPhone 7's. [33e1b85de132_0]\nOne reviewer said they are loving the battery life on the iPhone XR. [b5855e26b336_0]\nOne reviewer said the iPhone XR was still holding its battery life after a month. [47728fefa1ec_0]\nOne reviewer called the iPhone XR the best phone they have ever had with the best battery life, even compared with the iPhone 11. [1138275c67da_0]\nOne reviewer who upgraded from an iPhone 6s said the iPhone XR has a long lasting battery life. [f465be78e606_0]\nOne reviewer said the iPhone XR's battery life is great. [d65cb520fe6f_0]",
+  "sentences": [
+    {
+      "text": "One reviewer said the iPhone XR's battery life is longer than the iPhone 7's.",
+      "citations": [
+        "33e1b85de132_0"
+      ]
+    },
+    {
+      "text": "One reviewer said they are loving the battery life on the iPhone XR.",
+      "citations": [
+        "b5855e26b336_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the iPhone XR was still holding its battery life after a month.",
+      "citations": [
+        "47728fefa1ec_0"
+      ]
+    },
+    {
+      "text": "One reviewer called the iPhone XR the best phone they have ever had with the best battery life, even compared with the iPhone 11.",
+      "citations": [
+        "1138275c67da_0"
+      ]
+    },
+    {
+      "text": "One reviewer who upgraded from an iPhone 6s said the iPhone XR has a long lasting battery life.",
+      "citations": [
+        "f465be78e606_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the iPhone XR's battery life is great.",
+      "citations": [
+        "d65cb520fe6f_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer said the iPhone XR's battery life is longer than the iPhone 7's.",
+      "citations": [
+        "33e1b85de132_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said they are loving the battery life on the iPhone XR.",
+      "citations": [
+        "b5855e26b336_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the iPhone XR was still holding its battery life after a month.",
+      "citations": [
+        "47728fefa1ec_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer called the iPhone XR the best phone they have ever had with the best battery life, even compared with the iPhone 11.",
+      "citations": [
+        "1138275c67da_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer who upgraded from an iPhone 6s said the iPhone XR has a long lasting battery life.",
+      "citations": [
+        "f465be78e606_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the iPhone XR's battery life is great.",
+      "citations": [
+        "d65cb520fe6f_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer said the iPhone XR's battery life is longer than the iPhone 7's.",
+      "citations": [
+        "33e1b85de132_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said they are loving the battery life on the iPhone XR.",
+      "citations": [
+        "b5855e26b336_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the iPhone XR was still holding its battery life after a month.",
+      "citations": [
+        "47728fefa1ec_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer called the iPhone XR the best phone they have ever had with the best battery life, even compared with the iPhone 11.",
+      "citations": [
+        "1138275c67da_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer who upgraded from an iPhone 6s said the iPhone XR has a long lasting battery life.",
+      "citations": [
+        "f465be78e606_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the iPhone XR's battery life is great.",
+      "citations": [
+        "d65cb520fe6f_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "33ac6df0c176_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No mention of battery; praises condition and price only.",
+      "doc_id": "33ac6df0c176",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "33e1b85de132_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "battery life is longer than the iPhone 7"
+      ],
+      "reason": "Praises battery life as longer than iPhone 7.",
+      "doc_id": "33e1b85de132",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "292ab5aca5e9_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "It had at 85% battery life"
+      ],
+      "reason": "Lists battery at 85% as a problem.",
+      "doc_id": "292ab5aca5e9",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "b5855e26b336_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "I’m loving the battery life on this phone!"
+      ],
+      "reason": "Explicitly loves the battery life.",
+      "doc_id": "b5855e26b336",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "47728fefa1ec_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "still holding its battery life"
+      ],
+      "reason": "Positive that battery life holds after a month.",
+      "doc_id": "47728fefa1ec",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "aa20afa216e4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Battery was 100%."
+      ],
+      "reason": "Reports battery at 100% positively as like new.",
+      "doc_id": "aa20afa216e4",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "1138275c67da_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "best battery life"
+      ],
+      "reason": "Calls it best battery life, better than iPhone 11.",
+      "doc_id": "1138275c67da",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "f465be78e606_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "long lasting battery life"
+      ],
+      "reason": "Praises long lasting battery life.",
+      "doc_id": "f465be78e606",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "d65cb520fe6f_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Battery life is great"
+      ],
+      "reason": "States battery life is great.",
+      "doc_id": "d65cb520fe6f",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "dc665a3a8d75_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "came surgiu 84% battery life"
+      ],
+      "reason": "Notes battery came at 84%, a concern.",
+      "doc_id": "dc665a3a8d75",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "battery"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 1,
+      "counts": {
+        "positive": 7,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.7777777777777778,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.7777777777777778,
+      "polarized_denominator": 9
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "33ac6df0c176_0",
+      "doc_id": "33ac6df0c176",
+      "text": "iPhone XR Review. It was all factory unlocked as the description said and honestly I would say they really deliver you a “AS NEW” phone! Good price as well for an iPhone XR! Very pleased.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "33e1b85de132_0",
+      "doc_id": "33e1b85de132",
+      "text": "So far I’m very happy with the iPhone XR. This iPhone XR is way better than my iPhone 7 battery life is longer than the iPhone 7",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "292ab5aca5e9_0",
+      "doc_id": "292ab5aca5e9",
+      "text": "Buy it. I’ve had this phone (iPhone XR) for a few months now I have waited to write a review. Problems. It had at 85% battery life. It’s been the best phone. I would highly recommend",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "b5855e26b336_0",
+      "doc_id": "b5855e26b336",
+      "text": "iPhone XR. I’m loving the battery life on this phone!",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "47728fefa1ec_0",
+      "doc_id": "47728fefa1ec",
+      "text": "Greater value over a new iPhone XR. This iPhone XR was a great value! Amazing condition. After a month it is still holding its battery life.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "aa20afa216e4_0",
+      "doc_id": "aa20afa216e4",
+      "text": "Review Apple iPhone XR, 64GB, Blue - For Verizon. This iPhone is great and performs perfectly. Battery was 100%. Performed same as when it was new. What else is there to say. Happy that I purchased it. I like the used phones sold by the Amazon.com.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "1138275c67da_0",
+      "doc_id": "1138275c67da",
+      "text": "XR Iphone. Best phone I have ever had best battery life and I have the new iPhone 11",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "f465be78e606_0",
+      "doc_id": "f465be78e606",
+      "text": "iPhone Xr. Upgraded from an iPhone 6s so the difference was there. The iPhone does everything i need it to and it has a long lasting battery life.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "d65cb520fe6f_0",
+      "doc_id": "d65cb520fe6f",
+      "text": "iPhone XR. Battery life is great, quality is great, everything is good",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "dc665a3a8d75_0",
+      "doc_id": "dc665a3a8d75",
+      "text": "iPhone XR. iPhone is in great condition, I loved my product, came surgiu 84% battery life",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    }
+  ],
+  "contexts": [
+    "iPhone XR Review. It was all factory unlocked as the description said and honestly I would say they really deliver you a “AS NEW” phone! Good price as well for an iPhone XR! Very pleased.",
+    "So far I’m very happy with the iPhone XR. This iPhone XR is way better than my iPhone 7 battery life is longer than the iPhone 7",
+    "Buy it. I’ve had this phone (iPhone XR) for a few months now I have waited to write a review. Problems. It had at 85% battery life. It’s been the best phone. I would highly recommend",
+    "iPhone XR. I’m loving the battery life on this phone!",
+    "Greater value over a new iPhone XR. This iPhone XR was a great value! Amazing condition. After a month it is still holding its battery life.",
+    "Review Apple iPhone XR, 64GB, Blue - For Verizon. This iPhone is great and performs perfectly. Battery was 100%. Performed same as when it was new. What else is there to say. Happy that I purchased it. I like the used phones sold by the Amazon.com.",
+    "XR Iphone. Best phone I have ever had best battery life and I have the new iPhone 11",
+    "iPhone Xr. Upgraded from an iPhone 6s so the difference was there. The iPhone does everything i need it to and it has a long lasting battery life.",
+    "iPhone XR. Battery life is great, quality is great, everything is good",
+    "iPhone XR. iPhone is in great condition, I loved my product, came surgiu 84% battery life"
+  ],
+  "timing": {
+    "classification_s": 2.6650482999975793,
+    "generation_s": 1.3426007999951253,
+    "verification_s": 6.599999323952943e-06,
+    "total_s": 4.007666600002267
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1092,
+        "completion_tokens": 575,
+        "total_tokens": 1667,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 836
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 963,
+        "completion_tokens": 225,
+        "total_tokens": 1188,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 963
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

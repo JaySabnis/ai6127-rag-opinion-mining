@@ -1,0 +1,472 @@
+{
+  "question": "What do Essential PH-1 owners say about the display?",
+  "answer": "One reviewer describes the Essential PH-1 as having a 5.7 inch IPS LCD display with a resolution of 2560 by 1312 and a screen density of 504 pixels per inch. [1baa23ec4934_1]\nAnother reviewer calls it a pretty solid QHD 5.7 inch LCD display with no light bleed, excellent contrast ratio for LCD, and good viewing angles, though it noticeably dims when viewed off center without noticeable color shift. [642859679789_6]\nA reviewer who had not used an OLED screen before said they did not know what they were missing from the Essential's display and still needed to test it in more brightness scenarios. [5a1805381704_5]\nOne reviewer complained that the display is TFT and totally sucks compared to the AMOLED display of their four-year-old Moto X, wishing it were OLED. [a3214615be52_0]\nSeveral reviewers praised the display, with one calling the design and build excellent as is the display, another saying they love the display, and another calling the display so sexy. [ebd121195f82_0] [147a704e01ad_0] [0a8c6b398dd3_0]\nOne reviewer returned the phone partly because the 18:9 screen shrinks to 16:9 when watching videos, leaving black bars on the sides so the display looked more like 5 inches. [e85927b5c4ce_1]",
+  "draft_answer": "One reviewer describes the Essential PH-1 as having a 5.7 inch IPS LCD display with a resolution of 2560 by 1312 and a screen density of 504 pixels per inch. [1baa23ec4934_1]\nAnother reviewer calls it a pretty solid QHD 5.7 inch LCD display with no light bleed, excellent contrast ratio for LCD, and good viewing angles, though it noticeably dims when viewed off center without noticeable color shift. [642859679789_6]\nA reviewer who had not used an OLED screen before said they did not know what they were missing from the Essential's display and still needed to test it in more brightness scenarios. [5a1805381704_5]\nOne reviewer complained that the display is TFT and totally sucks compared to the AMOLED display of their four-year-old Moto X, wishing it were OLED. [a3214615be52_0]\nSeveral reviewers praised the display, with one calling the design and build excellent as is the display, another saying they love the display, and another calling the display so sexy. [ebd121195f82_0] [147a704e01ad_0] [0a8c6b398dd3_0]\nOne reviewer returned the phone partly because the 18:9 screen shrinks to 16:9 when watching videos, leaving black bars on the sides so the display looked more like 5 inches. [e85927b5c4ce_1]",
+  "sentences": [
+    {
+      "text": "One reviewer describes the Essential PH-1 as having a 5.7 inch IPS LCD display with a resolution of 2560 by 1312 and a screen density of 504 pixels per inch.",
+      "citations": [
+        "1baa23ec4934_1"
+      ]
+    },
+    {
+      "text": "Another reviewer calls it a pretty solid QHD 5.7 inch LCD display with no light bleed, excellent contrast ratio for LCD, and good viewing angles, though it noticeably dims when viewed off center without noticeable color shift.",
+      "citations": [
+        "642859679789_6"
+      ]
+    },
+    {
+      "text": "A reviewer who had not used an OLED screen before said they did not know what they were missing from the Essential's display and still needed to test it in more brightness scenarios.",
+      "citations": [
+        "5a1805381704_5"
+      ]
+    },
+    {
+      "text": "One reviewer complained that the display is TFT and totally sucks compared to the AMOLED display of their four-year-old Moto X, wishing it were OLED.",
+      "citations": [
+        "a3214615be52_0"
+      ]
+    },
+    {
+      "text": "Several reviewers praised the display, with one calling the design and build excellent as is the display, another saying they love the display, and another calling the display so sexy.",
+      "citations": [
+        "ebd121195f82_0",
+        "147a704e01ad_0",
+        "0a8c6b398dd3_0"
+      ]
+    },
+    {
+      "text": "One reviewer returned the phone partly because the 18:9 screen shrinks to 16:9 when watching videos, leaving black bars on the sides so the display looked more like 5 inches.",
+      "citations": [
+        "e85927b5c4ce_1"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One reviewer describes the Essential PH-1 as having a 5.7 inch IPS LCD display with a resolution of 2560 by 1312 and a screen density of 504 pixels per inch.",
+      "citations": [
+        "1baa23ec4934_1"
+      ],
+      "status": "supported",
+      "reason": "引用文本明确描述5.7英寸IPS LCD、2560x1312分辨率及504 ppi，与句子各分句一致。",
+      "evidence": [
+        {
+          "chunk_id": "1baa23ec4934_1",
+          "quote": "we have a 5.7 inch IPS LCD display with a resolution of 2560 by 1312 and an overall screen density of 504 pixels per inch"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "Another reviewer calls it a pretty solid QHD 5.7 inch LCD display with no light bleed, excellent contrast ratio for LCD, and good viewing angles, though it noticeably dims when viewed off center without noticeable color shift.",
+      "citations": [
+        "642859679789_6"
+      ],
+      "status": "supported",
+      "reason": "引用文本包含QHD 5.7英寸LCD、无漏光、LCD对比度优秀、可视角度好、偏离中心变暗但无明显色偏，全部对应。",
+      "evidence": [
+        {
+          "chunk_id": "642859679789_6",
+          "quote": "It’s a pretty solid QHD 5.7” LCD display. There is no light bleed. While obviously not an OLED panel, contrast ratio is excellent for LCD. Viewing angles are good. The screen will noticeably dim when viewed off center, but there is no noticeable color shift."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "A reviewer who had not used an OLED screen before said they did not know what they were missing from the Essential's display and still needed to test it in more brightness scenarios.",
+      "citations": [
+        "5a1805381704_5"
+      ],
+      "status": "supported",
+      "reason": "引用文本说明此前未用过OLED屏、不知Essential屏幕缺什么，并需在更多亮度场景测试，与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "5a1805381704_5",
+          "quote": "not having used an (AM)OLED screen before, I don't know what I am missing from the Essential's display. I'll have to get it into more scenarios where brightness is a factor."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s3",
+      "text": "One reviewer complained that the display is TFT and totally sucks compared to the AMOLED display of their four-year-old Moto X, wishing it were OLED.",
+      "citations": [
+        "a3214615be52_0"
+      ],
+      "status": "supported",
+      "reason": "引用文本明确抱怨屏幕是TFT、相比四年前Moto X的AMOLED很差，并希望是OLED。",
+      "evidence": [
+        {
+          "chunk_id": "a3214615be52_0",
+          "quote": "I wish it had an OLED display and a better camera.. Bought it as a replacement for my second generation Moto X, but it didn't meet my expectations. The display is TFT and it totally sucks compared to AMOLED display of my 4 year old Moto X."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "Several reviewers praised the display, with one calling the design and build excellent as is the display, another saying they love the display, and another calling the display so sexy.",
+      "citations": [
+        "ebd121195f82_0",
+        "147a704e01ad_0",
+        "0a8c6b398dd3_0"
+      ],
+      "status": "supported",
+      "reason": "三个引用分别支持设计做工与屏幕优秀、喜欢屏幕、屏幕很性感，且均为多位评论者。",
+      "evidence": [
+        {
+          "chunk_id": "ebd121195f82_0",
+          "quote": "The design and build is excellent, as is the display."
+        },
+        {
+          "chunk_id": "147a704e01ad_0",
+          "quote": "great performance/speed, and I love the display."
+        },
+        {
+          "chunk_id": "0a8c6b398dd3_0",
+          "quote": "the display is so sexy..."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "One reviewer returned the phone partly because the 18:9 screen shrinks to 16:9 when watching videos, leaving black bars on the sides so the display looked more like 5 inches.",
+      "citations": [
+        "e85927b5c4ce_1"
+      ],
+      "status": "supported",
+      "reason": "引用文本说明因相机和尺寸退货，并称18:9屏看视频缩为16:9、两侧黑边、看起来像5英寸，与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "e85927b5c4ce_1",
+          "quote": "I ended up returning mine as I didn't like the camera quality and the smaller form factor. Oh, and yes it's a 5.7 inch display but since it's 18:9 screen when watching videos it would shrink to 16:9 so you end up with black bars on the sides so the display looked more like 5 inches."
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "1baa23ec4934_1",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "5.7 inch IPS LCD display with a resolution of 2560 by 1312"
+      ],
+      "reason": "Only factual display specs given, no evaluative opinion on the display.",
+      "doc_id": "1baa23ec4934",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "5a1805381704_5",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "I don't know what I am missing from the Essential's display"
+      ],
+      "reason": "Uncertain, no clear positive or negative judgment of the display.",
+      "doc_id": "5a1805381704",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "a3214615be52_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The display is TFT and it totally sucks compared to AMOLED display",
+        "I wish it had an OLED display"
+      ],
+      "reason": "Explicit criticism of the TFT display versus AMOLED.",
+      "doc_id": "a3214615be52",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "642859679789_6",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "It’s a pretty solid QHD 5.7” LCD display",
+        "contrast ratio is excellent for LCD",
+        "images look great"
+      ],
+      "reason": "Praises display quality with minor caveats but overall positive.",
+      "doc_id": "642859679789",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "ebd121195f82_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "as is the display"
+      ],
+      "reason": "States display is excellent.",
+      "doc_id": "ebd121195f82",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "147a704e01ad_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "I love the display"
+      ],
+      "reason": "Direct praise of the display.",
+      "doc_id": "147a704e01ad",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "e85927b5c4ce_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the display looked more like 5 inches"
+      ],
+      "reason": "Complains effective display shrinks due to black bars.",
+      "doc_id": "e85927b5c4ce",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "0a8c6b398dd3_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "the display is so sexy"
+      ],
+      "reason": "Strong praise of the display.",
+      "doc_id": "0a8c6b398dd3",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "8898effcd329_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Great display, stock Android, great display"
+      ],
+      "reason": "Repeatedly praises the display as great.",
+      "doc_id": "8898effcd329",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "a2ffb702fdba_2",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Rhetorical use of 'display'; no actual display assessment.",
+      "doc_id": "a2ffb702fdba",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "display"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 1,
+      "counts": {
+        "positive": 5,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "positive_ratio": 0.5555555555555556,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.7142857142857143,
+      "polarized_denominator": 7
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "1baa23ec4934_1",
+      "doc_id": "1baa23ec4934",
+      "text": "The biggest downside to the overall build quality and designesign is however that those build material choices make the device very very slippery. So a case is almost a must with this purchase luckily there are many choices to choose from in that regard. Other than that the overall build quality and design is top-notch. 2. Screen and Display- talking about the display on this device we have a 5.7 inch IPS LCD display with a resolution of 2560 by 1312 and an overall screen density of 504 pixels per inch. Okay sorry I Geeked out for a minute there. What does all that technical stuff mean?",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "5a1805381704_5",
+      "doc_id": "5a1805381704",
+      "text": "The face picks up smudges but no more than any other touchscreen out there. Display: Again, not having used an (AM)OLED screen before, I don't know what I am missing from the Essential's display. I'll have to get it into more scenarios where brightness is a factor. My Nokia was horrible in full daylight, so I know what \"bad\" can be but, in regards to my HTC One X+, I also know what \"decent\" can be. Sound: Again, I am aware of what \"bad\" can be in this category (Atrix 4g / Nokia 9500 series) but I've seen \"decent\" (again, the HTC One X+). Given the hardware, I think I can expect relatively close to \"decent\". But this being said, on a wired headset (Bose) with the headset adapter, the volume was very good. Call quality without the headset is also good.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "a3214615be52_0",
+      "doc_id": "a3214615be52",
+      "text": "I wish it had an OLED display and a better camera.. Bought it as a replacement for my second generation Moto X, but it didn't meet my expectations. The display is TFT and it totally sucks compared to AMOLED display of my 4 year old Moto X. Even though it has dual camera, it turned out to be not any better than a single camera my Moto X had. From the good things, I totally liked the build quality, and the full display. I with it was OLED, and the phone had a better camera...",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "642859679789_6",
+      "doc_id": "642859679789",
+      "text": "I don’t have a Google phone handy, but from previous experience, it’s certainly on-par. Once again, look closely, you’ll find a problem with every phone. Playing games or any demanding multi-tasking is handled with ease. Thanks in large part to the Snapdragon 835, 4GB of RAM, and 128GB of fast storage. No stuttering or lag; games are able to run at full speed and resolution. DISPLAY We don’t need to spend a lot of time on the display. It’s a pretty solid QHD 5.7” LCD display. There is no light bleed. While obviously not an OLED panel, contrast ratio is excellent for LCD. Viewing angles are good. The screen will noticeably dim when viewed off center, but there is no noticeable color shift. Thanks to a high resolution, images look great. Lots of detail, realistic color reproduction, etc. The LCD leans well into the cooler color temperature.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "ebd121195f82_0",
+      "doc_id": "ebd121195f82",
+      "text": "The design and build is excellent, as is the display. Considering the display's size, this phone is a lot smaller than I anticipated. The design and build is excellent, as is the display. Using a SIM from an unlocked phone, I was able to make use of wifi calling and enhanced LTE without needing to call AT&T support. This phone is fast and since I managed to catch it on sale, I consider it an excellent buy.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "147a704e01ad_0",
+      "doc_id": "147a704e01ad",
+      "text": "great performance/speed, and I love the display. A premium feeling phone, great performance/speed, and I love the display. The camera isn't jaw-dropping, but I have no major issues with it. The battery has been very impressive. I work 12 hour shifts and I have never had the phone die on me or being close to dying. I am thoroughly enjoying this phone.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "e85927b5c4ce_1",
+      "doc_id": "e85927b5c4ce",
+      "text": "I ended up returning mine as I didn't like the camera quality and the smaller form factor. Oh, and yes it's a 5.7 inch display but since it's 18:9 screen when watching videos it would shrink to 16:9 so you end up with black bars on the sides so the display looked more like 5 inches.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "0a8c6b398dd3_0",
+      "doc_id": "0a8c6b398dd3",
+      "text": "My type of phone. no regrets, i like the CERAMIC soo much but i have to put a case unfortunately. the display is so sexy... in general looks really good and performance on point... ONE thing that bothers me a bit is the battery, when i turn battery save mode it last so long but when it is not it doesn't even if you are not doing anything...",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "8898effcd329_0",
+      "doc_id": "8898effcd329",
+      "text": "Disappointments behind the promising front. It is obvious that this phone is built beautifully so I won't go too deep into all the obviously marketed positives which include but not limited to: Great display, stock Android, great display, great materials, great display, fast processor ... Camera app has bugs that the company is fixing with continued updates and it's not like it's not useable . I had to restart the phone when it froze in the camera app a couple of times. It did freeze on me one other time but never repeated so I'll call it an isolated incident . Camera itself is ok ... not living up to the spec in my opinion but am no expert. I got the phone and 360 camera for 400 on Thanksgiving and I got blown away by the 360 camera. Limited ways to view the content and increases the chances of you phone crashing.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "a2ffb702fdba_2",
+      "doc_id": "a2ffb702fdba",
+      "text": "But if you can't use the phone to begin with, then what is there to display? I never thought that a phone designed by an OS guy would perform so terribly. I expected so much from this and received nothing but disappointment. Maybe they'll get it right the next time around, but they left a sour taste in mouth for me to even consider giving them another chance.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    }
+  ],
+  "contexts": [
+    "The biggest downside to the overall build quality and designesign is however that those build material choices make the device very very slippery. So a case is almost a must with this purchase luckily there are many choices to choose from in that regard. Other than that the overall build quality and design is top-notch. 2. Screen and Display- talking about the display on this device we have a 5.7 inch IPS LCD display with a resolution of 2560 by 1312 and an overall screen density of 504 pixels per inch. Okay sorry I Geeked out for a minute there. What does all that technical stuff mean?",
+    "The face picks up smudges but no more than any other touchscreen out there. Display: Again, not having used an (AM)OLED screen before, I don't know what I am missing from the Essential's display. I'll have to get it into more scenarios where brightness is a factor. My Nokia was horrible in full daylight, so I know what \"bad\" can be but, in regards to my HTC One X+, I also know what \"decent\" can be. Sound: Again, I am aware of what \"bad\" can be in this category (Atrix 4g / Nokia 9500 series) but I've seen \"decent\" (again, the HTC One X+). Given the hardware, I think I can expect relatively close to \"decent\". But this being said, on a wired headset (Bose) with the headset adapter, the volume was very good. Call quality without the headset is also good.",
+    "I wish it had an OLED display and a better camera.. Bought it as a replacement for my second generation Moto X, but it didn't meet my expectations. The display is TFT and it totally sucks compared to AMOLED display of my 4 year old Moto X. Even though it has dual camera, it turned out to be not any better than a single camera my Moto X had. From the good things, I totally liked the build quality, and the full display. I with it was OLED, and the phone had a better camera...",
+    "I don’t have a Google phone handy, but from previous experience, it’s certainly on-par. Once again, look closely, you’ll find a problem with every phone. Playing games or any demanding multi-tasking is handled with ease. Thanks in large part to the Snapdragon 835, 4GB of RAM, and 128GB of fast storage. No stuttering or lag; games are able to run at full speed and resolution. DISPLAY We don’t need to spend a lot of time on the display. It’s a pretty solid QHD 5.7” LCD display. There is no light bleed. While obviously not an OLED panel, contrast ratio is excellent for LCD. Viewing angles are good. The screen will noticeably dim when viewed off center, but there is no noticeable color shift. Thanks to a high resolution, images look great. Lots of detail, realistic color reproduction, etc. The LCD leans well into the cooler color temperature.",
+    "The design and build is excellent, as is the display. Considering the display's size, this phone is a lot smaller than I anticipated. The design and build is excellent, as is the display. Using a SIM from an unlocked phone, I was able to make use of wifi calling and enhanced LTE without needing to call AT&T support. This phone is fast and since I managed to catch it on sale, I consider it an excellent buy.",
+    "great performance/speed, and I love the display. A premium feeling phone, great performance/speed, and I love the display. The camera isn't jaw-dropping, but I have no major issues with it. The battery has been very impressive. I work 12 hour shifts and I have never had the phone die on me or being close to dying. I am thoroughly enjoying this phone.",
+    "I ended up returning mine as I didn't like the camera quality and the smaller form factor. Oh, and yes it's a 5.7 inch display but since it's 18:9 screen when watching videos it would shrink to 16:9 so you end up with black bars on the sides so the display looked more like 5 inches.",
+    "My type of phone. no regrets, i like the CERAMIC soo much but i have to put a case unfortunately. the display is so sexy... in general looks really good and performance on point... ONE thing that bothers me a bit is the battery, when i turn battery save mode it last so long but when it is not it doesn't even if you are not doing anything...",
+    "Disappointments behind the promising front. It is obvious that this phone is built beautifully so I won't go too deep into all the obviously marketed positives which include but not limited to: Great display, stock Android, great display, great materials, great display, fast processor ... Camera app has bugs that the company is fixing with continued updates and it's not like it's not useable . I had to restart the phone when it froze in the camera app a couple of times. It did freeze on me one other time but never repeated so I'll call it an isolated incident . Camera itself is ok ... not living up to the spec in my opinion but am no expert. I got the phone and 360 camera for 400 on Thanksgiving and I got blown away by the 360 camera. Limited ways to view the content and increases the chances of you phone crashing.",
+    "But if you can't use the phone to begin with, then what is there to display? I never thought that a phone designed by an OS guy would perform so terribly. I expected so much from this and received nothing but disappointment. Maybe they'll get it right the next time around, but they left a sour taste in mouth for me to even consider giving them another chance."
+  ],
+  "timing": {
+    "classification_s": 2.8383823999974993,
+    "generation_s": 2.2687151999998605,
+    "verification_s": 6.482815999996092,
+    "total_s": 11.589940700003353
+  },
+  "api": {
+    "api_calls": 4,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1974,
+        "completion_tokens": 623,
+        "total_tokens": 2597,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 182
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1846,
+        "completion_tokens": 358,
+        "total_tokens": 2204,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 182
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2023,
+        "completion_tokens": 700,
+        "total_tokens": 2723,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1895
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2063,
+        "completion_tokens": 716,
+        "total_tokens": 2779,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 143
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

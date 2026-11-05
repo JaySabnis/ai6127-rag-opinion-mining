@@ -1,0 +1,488 @@
+{
+  "question": "What do Samsung Galaxy Note 9 owners say about how long a charge lasts?",
+  "answer": "One reviewer said the battery doesn't make it through the day and they struggle to get to 5PM without recharging. [d2d0d12296ab_0]\nAnother reviewer called the battery life atrocious. [0934c9e86576_0]\nA reviewer described the battery life as very poor and said it lasts them a day. [05e77ead1160_0]\nOne reviewer called the battery life the worst thing about the phone. [e316c23f2cc4_0]\nOther reviewers reported great battery life, with one calling it fantastic and another saying it is one of the best they have had in a Samsung phone. [b964ad0e3802_0] [2fe41f74dc06_0]\nOne reviewer said the battery life is ok, while another said it is worse than the Note 4's battery and does not last longer despite charging faster. [d67b96b85cbb_0] [279e1dee4173_0]",
+  "draft_answer": "One reviewer said the battery doesn't make it through the day and they struggle to get to 5PM without recharging. [d2d0d12296ab_0]\nAnother reviewer called the battery life atrocious. [0934c9e86576_0]\nA reviewer described the battery life as very poor and said it lasts them a day. [05e77ead1160_0]\nOne reviewer called the battery life the worst thing about the phone. [e316c23f2cc4_0]\nOther reviewers reported great battery life, with one calling it fantastic and another saying it is one of the best they have had in a Samsung phone. [b964ad0e3802_0] [2fe41f74dc06_0]\nOne reviewer said the battery life is ok, while another said it is worse than the Note 4's battery and does not last longer despite charging faster. [d67b96b85cbb_0] [279e1dee4173_0]",
+  "sentences": [
+    {
+      "text": "One reviewer said the battery doesn't make it through the day and they struggle to get to 5PM without recharging.",
+      "citations": [
+        "d2d0d12296ab_0"
+      ]
+    },
+    {
+      "text": "Another reviewer called the battery life atrocious.",
+      "citations": [
+        "0934c9e86576_0"
+      ]
+    },
+    {
+      "text": "A reviewer described the battery life as very poor and said it lasts them a day.",
+      "citations": [
+        "05e77ead1160_0"
+      ]
+    },
+    {
+      "text": "One reviewer called the battery life the worst thing about the phone.",
+      "citations": [
+        "e316c23f2cc4_0"
+      ]
+    },
+    {
+      "text": "Other reviewers reported great battery life, with one calling it fantastic and another saying it is one of the best they have had in a Samsung phone.",
+      "citations": [
+        "b964ad0e3802_0",
+        "2fe41f74dc06_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the battery life is ok, while another said it is worse than the Note 4's battery and does not last longer despite charging faster.",
+      "citations": [
+        "d67b96b85cbb_0",
+        "279e1dee4173_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One reviewer said the battery doesn't make it through the day and they struggle to get to 5PM without recharging.",
+      "citations": [
+        "d2d0d12296ab_0"
+      ],
+      "status": "supported",
+      "reason": "引文明确提到电池撑不过一天，且难以坚持到下午5点而不充电，与句子内容一致。",
+      "evidence": [
+        {
+          "chunk_id": "d2d0d12296ab_0",
+          "quote": "It's a real bummer that the battery doesn't make it through the day though. Although there's a huge (4,000 mah) battery in this phone, I struggle to get to 5PM without having to recharge it."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "Another reviewer called the battery life atrocious.",
+      "citations": [
+        "0934c9e86576_0"
+      ],
+      "status": "supported",
+      "reason": "引文直接称电池续航糟糕（atrocious）。",
+      "evidence": [
+        {
+          "chunk_id": "0934c9e86576_0",
+          "quote": "battery life. nice phone but battery life is atrocious."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "A reviewer described the battery life as very poor and said it lasts them a day.",
+      "citations": [
+        "05e77ead1160_0"
+      ],
+      "status": "supported",
+      "reason": "引文称电池续航很差，并说作为新手机只能撑一天。",
+      "evidence": [
+        {
+          "chunk_id": "05e77ead1160_0",
+          "quote": "Battery life is very poor. It's nice but battery life is not good it last me day for a new phone I should get a refund back"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s3",
+      "text": "One reviewer called the battery life the worst thing about the phone.",
+      "citations": [
+        "e316c23f2cc4_0"
+      ],
+      "status": "supported",
+      "reason": "引文明确说电池续航是这部手机最糟糕的地方。",
+      "evidence": [
+        {
+          "chunk_id": "e316c23f2cc4_0",
+          "quote": "The battery life the worst thing in that phone other wise good for the price. Battery life the worst thing in that phone"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "Other reviewers reported great battery life, with one calling it fantastic and another saying it is one of the best they have had in a Samsung phone.",
+      "citations": [
+        "b964ad0e3802_0",
+        "2fe41f74dc06_0"
+      ],
+      "status": "supported",
+      "reason": "两条引文分别称电池续航很棒、极好，以及是所用三星手机中最好的之一。",
+      "evidence": [
+        {
+          "chunk_id": "b964ad0e3802_0",
+          "quote": "Great battery life. Really enjoying the phone... the battery life is fantastic!"
+        },
+        {
+          "chunk_id": "2fe41f74dc06_0",
+          "quote": "Great battery life. A very beautiful phone. Battery life is one of the best I have ever had in a Samsung phone"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "One reviewer said the battery life is ok, while another said it is worse than the Note 4's battery and does not last longer despite charging faster.",
+      "citations": [
+        "d67b96b85cbb_0",
+        "279e1dee4173_0"
+      ],
+      "status": "supported",
+      "reason": "一条引文称电池续航还行，另一条称比Note 4差、充电更快但续航并不更长。",
+      "evidence": [
+        {
+          "chunk_id": "d67b96b85cbb_0",
+          "quote": "It ok just to say it sticking. Battery life is ok"
+        },
+        {
+          "chunk_id": "279e1dee4173_0",
+          "quote": "the battery of Note 9 should last longer but it is worse than the Note 4's battery. It does charge faster but certainly does not last longer."
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "d2d0d12296ab_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery Life is a killer",
+        "the battery doesn't make it through the day",
+        "I struggle to get to 5PM without having to recharge it"
+      ],
+      "reason": "Complains battery does not last through the day despite large capacity.",
+      "doc_id": "d2d0d12296ab",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "0934c9e86576_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "battery life is atrocious"
+      ],
+      "reason": "Directly criticizes battery life as atrocious.",
+      "doc_id": "0934c9e86576",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "05e77ead1160_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery life is very poor",
+        "battery life is not good it last me day for a new phone"
+      ],
+      "reason": "States battery life is very poor and not good for a new phone.",
+      "doc_id": "05e77ead1160",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "e316c23f2cc4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The battery life the worst thing in that phone"
+      ],
+      "reason": "Calls battery life the worst thing about the phone.",
+      "doc_id": "e316c23f2cc4",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "b964ad0e3802_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Great battery life",
+        "the battery life is fantastic"
+      ],
+      "reason": "Praises battery life as great and fantastic.",
+      "doc_id": "b964ad0e3802",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "2fe41f74dc06_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Great battery life",
+        "Battery life is one of the best I have ever had in a Samsung phone"
+      ],
+      "reason": "Praises battery life as among the best in a Samsung phone.",
+      "doc_id": "2fe41f74dc06",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "d67b96b85cbb_0",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "Battery life is ok"
+      ],
+      "reason": "Mildly neutral assessment that battery life is ok.",
+      "doc_id": "d67b96b85cbb",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "279e1dee4173_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Lower your expectation on Note 9' battery life",
+        "it is worse than the Note 4's battery",
+        "certainly does not last longer"
+      ],
+      "reason": "Criticizes battery as worse than Note 4 and not lasting longer.",
+      "doc_id": "279e1dee4173",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "e6890d2132d5_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "I'm a little disappointed in the battery life on this",
+        "doesn't compare to the Huawei"
+      ],
+      "reason": "Expresses disappointment in battery life versus Huawei.",
+      "doc_id": "e6890d2132d5",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "b01eb28c41f5_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "the battery life is great",
+        "charges well with cordless charging"
+      ],
+      "reason": "Praises battery life as great and charging well.",
+      "doc_id": "b01eb28c41f5",
+      "brand": "Samsung",
+      "model": "Galaxy Note9",
+      "aspect": "battery"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 2,
+        "negative": 6,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "positive_ratio": 0.2222222222222222,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.25,
+      "polarized_denominator": 8
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note9",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 1,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 1.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 1
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "d2d0d12296ab_0",
+      "doc_id": "d2d0d12296ab",
+      "text": "Battery Life is a killer. Phone looks great barring the smallest of imperfections on the case. It's a real bummer that the battery doesn't make it through the day though. Although there's a huge (4,000 mah) battery in this phone, I struggle to get to 5PM without having to recharge it. But, that's the price of saving $700 to 800 buying used.",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07MR1PF21"
+    },
+    {
+      "chunk_id": "0934c9e86576_0",
+      "doc_id": "0934c9e86576",
+      "text": "battery life. nice phone but battery life is atrocious.",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B089HNHZ17"
+    },
+    {
+      "chunk_id": "05e77ead1160_0",
+      "doc_id": "05e77ead1160",
+      "text": "Battery life is very poor. It's nice but battery life is not good it last me day for a new phone I should get a refund back",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B089HNHZ17"
+    },
+    {
+      "chunk_id": "e316c23f2cc4_0",
+      "doc_id": "e316c23f2cc4",
+      "text": "The battery life the worst thing in that phone other wise good for the price. Battery life the worst thing in that phone",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B089HNHZ17"
+    },
+    {
+      "chunk_id": "b964ad0e3802_0",
+      "doc_id": "b964ad0e3802",
+      "text": "Great battery life. Really enjoying the phone... the battery life is fantastic!",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07VWQQ4G2"
+    },
+    {
+      "chunk_id": "2fe41f74dc06_0",
+      "doc_id": "2fe41f74dc06",
+      "text": "Great battery life. A very beautiful phone. Battery life is one of the best I have ever had in a Samsung phone",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07HR4FVDG"
+    },
+    {
+      "chunk_id": "d67b96b85cbb_0",
+      "doc_id": "d67b96b85cbb",
+      "text": "It ok just to say it sticking. Battery life is ok",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07H8PXT7K"
+    },
+    {
+      "chunk_id": "279e1dee4173_0",
+      "doc_id": "279e1dee4173",
+      "text": "Lower your expectation on Note 9' battery life.. Accordingly to other reviews the battery of Note 9 should last longer but it is worse than the Note 4's battery. It does charge faster but certainly does not last longer.",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07H8RFDYM"
+    },
+    {
+      "chunk_id": "e6890d2132d5_1",
+      "doc_id": "e6890d2132d5",
+      "text": "I'm a little disappointed in the battery life on this, but I'm guessing it wasn't replaced while being refurbished. Samsung and tech reviews seem to brag on battery life, which again, doesn't compare to the Huawei.",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07H8PXT7K"
+    },
+    {
+      "chunk_id": "b01eb28c41f5_0",
+      "doc_id": "b01eb28c41f5",
+      "text": "I have had Samsung Notes since the very beginning. I do like this phone, the battery life is great, charges well with cordless charging. As a veteran Samsung Galaxy Note user, I would say, this is a good phone.",
+      "brand": "Samsung",
+      "model": "Galaxy Note9",
+      "source_url": "https://www.amazon.com/dp/B07GBMJLZW"
+    }
+  ],
+  "contexts": [
+    "Battery Life is a killer. Phone looks great barring the smallest of imperfections on the case. It's a real bummer that the battery doesn't make it through the day though. Although there's a huge (4,000 mah) battery in this phone, I struggle to get to 5PM without having to recharge it. But, that's the price of saving $700 to 800 buying used.",
+    "battery life. nice phone but battery life is atrocious.",
+    "Battery life is very poor. It's nice but battery life is not good it last me day for a new phone I should get a refund back",
+    "The battery life the worst thing in that phone other wise good for the price. Battery life the worst thing in that phone",
+    "Great battery life. Really enjoying the phone... the battery life is fantastic!",
+    "Great battery life. A very beautiful phone. Battery life is one of the best I have ever had in a Samsung phone",
+    "It ok just to say it sticking. Battery life is ok",
+    "Lower your expectation on Note 9' battery life.. Accordingly to other reviews the battery of Note 9 should last longer but it is worse than the Note 4's battery. It does charge faster but certainly does not last longer.",
+    "I'm a little disappointed in the battery life on this, but I'm guessing it wasn't replaced while being refurbished. Samsung and tech reviews seem to brag on battery life, which again, doesn't compare to the Huawei.",
+    "I have had Samsung Notes since the very beginning. I do like this phone, the battery life is great, charges well with cordless charging. As a veteran Samsung Galaxy Note user, I would say, this is a good phone."
+  ],
+  "timing": {
+    "classification_s": 2.7581079000010504,
+    "generation_s": 1.6466533000057098,
+    "verification_s": 2.7261082000040915,
+    "total_s": 7.130886000006285
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1140,
+        "completion_tokens": 707,
+        "total_tokens": 1847,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 244
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1016,
+        "completion_tokens": 261,
+        "total_tokens": 1277,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 248
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1241,
+        "completion_tokens": 564,
+        "total_tokens": 1805,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 345
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

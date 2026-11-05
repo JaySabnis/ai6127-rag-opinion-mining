@@ -1,0 +1,486 @@
+{
+  "question": "What battery-life problems or benefits do iPhone 8 owners report?",
+  "answer": "One reviewer said the iPhone 8 has good battery life. [ce0478a9dbf2_0]\nAnother reviewer reported low battery life on the iPhone 8, saying it was less than their older iPhone 7+. [9b07710b7035_0]\nOne reviewer stated the iPhone 8's battery life was not long enough. [a3758ec9bcd8_0]\nA reviewer of a refurbished iPhone 8 reported battery health at 84% and said it lasts through the day. [f5886ed25a67_2]\nOne reviewer called the iPhone 8's battery life horrible and a waste of money. [adfa7cfff851_0]\nOther reviewers reported battery health figures of 76%, 72%, and 71% on their iPhone 8 units. [a7daeebba88d_0] [9d8245d46e8c_0] [decb85d9f811_0]",
+  "draft_answer": "One reviewer said the iPhone 8 has good battery life. [ce0478a9dbf2_0]\nAnother reviewer reported low battery life on the iPhone 8, saying it was less than their older iPhone 7+. [9b07710b7035_0]\nOne reviewer stated the iPhone 8's battery life was not long enough. [a3758ec9bcd8_0]\nA reviewer of a refurbished iPhone 8 reported battery health at 84% and said it lasts through the day. [f5886ed25a67_2]\nOne reviewer called the iPhone 8's battery life horrible and a waste of money. [adfa7cfff851_0]\nOther reviewers reported battery health figures of 76%, 72%, and 71% on their iPhone 8 units. [a7daeebba88d_0] [9d8245d46e8c_0] [decb85d9f811_0]",
+  "sentences": [
+    {
+      "text": "One reviewer said the iPhone 8 has good battery life.",
+      "citations": [
+        "ce0478a9dbf2_0"
+      ]
+    },
+    {
+      "text": "Another reviewer reported low battery life on the iPhone 8, saying it was less than their older iPhone 7+.",
+      "citations": [
+        "9b07710b7035_0"
+      ]
+    },
+    {
+      "text": "One reviewer stated the iPhone 8's battery life was not long enough.",
+      "citations": [
+        "a3758ec9bcd8_0"
+      ]
+    },
+    {
+      "text": "A reviewer of a refurbished iPhone 8 reported battery health at 84% and said it lasts through the day.",
+      "citations": [
+        "f5886ed25a67_2"
+      ]
+    },
+    {
+      "text": "One reviewer called the iPhone 8's battery life horrible and a waste of money.",
+      "citations": [
+        "adfa7cfff851_0"
+      ]
+    },
+    {
+      "text": "Other reviewers reported battery health figures of 76%, 72%, and 71% on their iPhone 8 units.",
+      "citations": [
+        "a7daeebba88d_0",
+        "9d8245d46e8c_0",
+        "decb85d9f811_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer said the iPhone 8 has good battery life.",
+      "citations": [
+        "ce0478a9dbf2_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reported low battery life on the iPhone 8, saying it was less than their older iPhone 7+.",
+      "citations": [
+        "9b07710b7035_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer stated the iPhone 8's battery life was not long enough.",
+      "citations": [
+        "a3758ec9bcd8_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer of a refurbished iPhone 8 reported battery health at 84% and said it lasts through the day.",
+      "citations": [
+        "f5886ed25a67_2"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer called the iPhone 8's battery life horrible and a waste of money.",
+      "citations": [
+        "adfa7cfff851_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Other reviewers reported battery health figures of 76%, 72%, and 71% on their iPhone 8 units.",
+      "citations": [
+        "a7daeebba88d_0",
+        "9d8245d46e8c_0",
+        "decb85d9f811_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer said the iPhone 8 has good battery life.",
+      "citations": [
+        "ce0478a9dbf2_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reported low battery life on the iPhone 8, saying it was less than their older iPhone 7+.",
+      "citations": [
+        "9b07710b7035_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer stated the iPhone 8's battery life was not long enough.",
+      "citations": [
+        "a3758ec9bcd8_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer of a refurbished iPhone 8 reported battery health at 84% and said it lasts through the day.",
+      "citations": [
+        "f5886ed25a67_2"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer called the iPhone 8's battery life horrible and a waste of money.",
+      "citations": [
+        "adfa7cfff851_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Other reviewers reported battery health figures of 76%, 72%, and 71% on their iPhone 8 units.",
+      "citations": [
+        "a7daeebba88d_0",
+        "9d8245d46e8c_0",
+        "decb85d9f811_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "ce0478a9dbf2_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Good battery life"
+      ],
+      "reason": "Direct praise of iPhone 8 battery life.",
+      "doc_id": "ce0478a9dbf2",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "9b07710b7035_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "low life battery in this phone",
+        "the battery life is low",
+        "it’s battery life is less than my other phone"
+      ],
+      "reason": "Criticizes iPhone 8 battery as low and worse than prior phone.",
+      "doc_id": "9b07710b7035",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "a3758ec9bcd8_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The battery life was not long enough"
+      ],
+      "reason": "Complains battery life insufficient.",
+      "doc_id": "a3758ec9bcd8",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "f5886ed25a67_2",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "battery health is at 84%",
+        "It does last me through the day, but something to note"
+      ],
+      "reason": "Notes degraded 84% health but says it lasts through the day.",
+      "doc_id": "f5886ed25a67",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "adfa7cfff851_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Horrible battery life"
+      ],
+      "reason": "Strong criticism of battery life.",
+      "doc_id": "adfa7cfff851",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "a7daeebba88d_0",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "Battery life of only 76 percent"
+      ],
+      "reason": "States battery health figure factually without explicit opinion.",
+      "doc_id": "a7daeebba88d",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "9d8245d46e8c_0",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "Battery health is 72%"
+      ],
+      "reason": "Reports battery health percentage factually, no evaluative wording.",
+      "doc_id": "9d8245d46e8c",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "3fa4386204fc_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Battery seems pretty good",
+        "So I have no complaints"
+      ],
+      "reason": "Praise for battery, notes internet drains it but no complaints.",
+      "doc_id": "3fa4386204fc",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "decb85d9f811_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery Degraded--71%",
+        "Your battery's health is significantly degraded",
+        "Battery Life at least 80%"
+      ],
+      "reason": "Criticizes degraded battery below advertised 80%.",
+      "doc_id": "decb85d9f811",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "3541e5c25ff9_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Battery life is longer"
+      ],
+      "reason": "Praise that battery life is longer than prior phone.",
+      "doc_id": "3541e5c25ff9",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 3,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 2
+      },
+      "positive_ratio": 0.3,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.42857142857142855,
+      "polarized_denominator": 7
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "ce0478a9dbf2_0",
+      "doc_id": "ce0478a9dbf2",
+      "text": "I phone 8. Good battery life",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "9b07710b7035_0",
+      "doc_id": "9b07710b7035",
+      "text": "low life battery in this phone. It’s a good phone for an iPhone 8 but the battery life is low. I have an iPhone 7+ that has low battery life. That’s why I got the iPhone 8 but it’s battery life is less than my other phone that I’ve had 2 years or more",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "a3758ec9bcd8_0",
+      "doc_id": "a3758ec9bcd8",
+      "text": "iPhone-8. The battery life was not long enough...",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "f5886ed25a67_2",
+      "doc_id": "f5886ed25a67",
+      "text": "It did not come with headphones, so if you are buying an iPhone 8, you'll have to buy Bluetooth headphones or Earpods with the lightning connector, which are about $29 on the Apple site. Finally, the battery health is at 84% according to my phone, which is expected with a refurbished phone. It does last me through the day, but something to note if you are in the market. I hope this helps!",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "adfa7cfff851_0",
+      "doc_id": "adfa7cfff851",
+      "text": "iPhone 8. Horrible battery life, waste of money!",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "a7daeebba88d_0",
+      "doc_id": "a7daeebba88d",
+      "text": "Iphone 8. Battery life of only 76 percent.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "9d8245d46e8c_0",
+      "doc_id": "9d8245d46e8c",
+      "text": "Battery health is 72%. I bought an iphone 8. And the health of the battery is 72%",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "3fa4386204fc_0",
+      "doc_id": "3fa4386204fc",
+      "text": "Good iPhone 8. I got the iPhone 8 in and it looked new and it’s functions are excellent. Battery seems pretty good though I am on the internet a lot so that always drains a battery down. If I leave the phone idle. The battery will last longer. That’s a no brainer! So I have no complaints",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "decb85d9f811_0",
+      "doc_id": "decb85d9f811",
+      "text": "Renewed Unlocked iPhone 8: Battery Degraded--71%. Bought this iPhone 8 in supposed excellent condition. Battery life is supposed to be over 80% but Battery Health setting says \"Your battery's health is significantly degraded.\" and \"Maximum Capacity 71%\" The phone also got quite hot when I plugged it in. I don't think this qualifies as \"Fully Functional, Excellent Condition, Battery Life at least 80%\" The phone looks nice. I received it 2 days ago and am trying to figure out what to do. My iPhone 6 still has 100% battery life on a 3yo battery, and works fine but won't run up to date software for the app I need. Needless to say this is frustrating and time consuming. \"Product Support\" on my Amazon order sent me to Apple. But this is not their problem. If I undo everything, return it, and try for another, i am taking the same risk or even other risks.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "3541e5c25ff9_0",
+      "doc_id": "3541e5c25ff9",
+      "text": "Love the iPhone 8 recommended. It is a good phone it works perfectly. It’s better then iPhone 6 that I had. Battery life is longer.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    }
+  ],
+  "contexts": [
+    "I phone 8. Good battery life",
+    "low life battery in this phone. It’s a good phone for an iPhone 8 but the battery life is low. I have an iPhone 7+ that has low battery life. That’s why I got the iPhone 8 but it’s battery life is less than my other phone that I’ve had 2 years or more",
+    "iPhone-8. The battery life was not long enough...",
+    "It did not come with headphones, so if you are buying an iPhone 8, you'll have to buy Bluetooth headphones or Earpods with the lightning connector, which are about $29 on the Apple site. Finally, the battery health is at 84% according to my phone, which is expected with a refurbished phone. It does last me through the day, but something to note if you are in the market. I hope this helps!",
+    "iPhone 8. Horrible battery life, waste of money!",
+    "Iphone 8. Battery life of only 76 percent.",
+    "Battery health is 72%. I bought an iphone 8. And the health of the battery is 72%",
+    "Good iPhone 8. I got the iPhone 8 in and it looked new and it’s functions are excellent. Battery seems pretty good though I am on the internet a lot so that always drains a battery down. If I leave the phone idle. The battery will last longer. That’s a no brainer! So I have no complaints",
+    "Renewed Unlocked iPhone 8: Battery Degraded--71%. Bought this iPhone 8 in supposed excellent condition. Battery life is supposed to be over 80% but Battery Health setting says \"Your battery's health is significantly degraded.\" and \"Maximum Capacity 71%\" The phone also got quite hot when I plugged it in. I don't think this qualifies as \"Fully Functional, Excellent Condition, Battery Life at least 80%\" The phone looks nice. I received it 2 days ago and am trying to figure out what to do. My iPhone 6 still has 100% battery life on a 3yo battery, and works fine but won't run up to date software for the app I need. Needless to say this is frustrating and time consuming. \"Product Support\" on my Amazon order sent me to Apple. But this is not their problem. If I undo everything, return it, and try for another, i am taking the same risk or even other risks.",
+    "Love the iPhone 8 recommended. It is a good phone it works perfectly. It’s better then iPhone 6 that I had. Battery life is longer."
+  ],
+  "timing": {
+    "classification_s": 2.878535699994245,
+    "generation_s": 1.4787839999989956,
+    "verification_s": 6.599999323952943e-06,
+    "total_s": 4.3573372999962885
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1308,
+        "completion_tokens": 647,
+        "total_tokens": 1955,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1052
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1181,
+        "completion_tokens": 253,
+        "total_tokens": 1434,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1053
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

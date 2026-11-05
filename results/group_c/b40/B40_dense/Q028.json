@@ -1,0 +1,468 @@
+{
+  "question": "What is the buyer feedback on customer service and returns for the Moto G7?",
+  "answer": "One reviewer said they used Amazon Chat to give feedback about a delivery problem and doubted it would do any good. [cca8b086d28c_0]\nOne reviewer said they called Motorola after one week and again in the second week and were told they needed their purchase number to return the phone for a full refund. [c68f3b3e1db3_0]\nOne reviewer said they would have returned the phone to Amazon but it was beyond the Amazon return date. [e7102bb3d13f_0]\nOne reviewer listed a no-questions-asked 14-day return policy as a pro. [67c75d320120_0]\nOne reviewer said Motorola has a no-questions-asked 14-day return policy and that the service technicians were all very nice and helpful. [c44432913d9f_4]\nOne reviewer said a technician recommended sending back two Moto G7 phones as defective for a refund. [c44432913d9f_4]",
+  "draft_answer": "One reviewer said they used Amazon Chat to give feedback about a delivery problem and doubted it would do any good. [cca8b086d28c_0]\nOne reviewer said they called Motorola after one week and again in the second week and were told they needed their purchase number to return the phone for a full refund. [c68f3b3e1db3_0]\nOne reviewer said they would have returned the phone to Amazon but it was beyond the Amazon return date. [e7102bb3d13f_0]\nOne reviewer listed a no-questions-asked 14-day return policy as a pro. [67c75d320120_0]\nOne reviewer said Motorola has a no-questions-asked 14-day return policy and that the service technicians were all very nice and helpful. [c44432913d9f_4]\nOne reviewer said a technician recommended sending back two Moto G7 phones as defective for a refund. [c44432913d9f_4]",
+  "sentences": [
+    {
+      "text": "One reviewer said they used Amazon Chat to give feedback about a delivery problem and doubted it would do any good.",
+      "citations": [
+        "cca8b086d28c_0"
+      ]
+    },
+    {
+      "text": "One reviewer said they called Motorola after one week and again in the second week and were told they needed their purchase number to return the phone for a full refund.",
+      "citations": [
+        "c68f3b3e1db3_0"
+      ]
+    },
+    {
+      "text": "One reviewer said they would have returned the phone to Amazon but it was beyond the Amazon return date.",
+      "citations": [
+        "e7102bb3d13f_0"
+      ]
+    },
+    {
+      "text": "One reviewer listed a no-questions-asked 14-day return policy as a pro.",
+      "citations": [
+        "67c75d320120_0"
+      ]
+    },
+    {
+      "text": "One reviewer said Motorola has a no-questions-asked 14-day return policy and that the service technicians were all very nice and helpful.",
+      "citations": [
+        "c44432913d9f_4"
+      ]
+    },
+    {
+      "text": "One reviewer said a technician recommended sending back two Moto G7 phones as defective for a refund.",
+      "citations": [
+        "c44432913d9f_4"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer said they used Amazon Chat to give feedback about a delivery problem and doubted it would do any good.",
+      "citations": [
+        "cca8b086d28c_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said they called Motorola after one week and again in the second week and were told they needed their purchase number to return the phone for a full refund.",
+      "citations": [
+        "c68f3b3e1db3_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said they would have returned the phone to Amazon but it was beyond the Amazon return date.",
+      "citations": [
+        "e7102bb3d13f_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer listed a no-questions-asked 14-day return policy as a pro.",
+      "citations": [
+        "67c75d320120_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said Motorola has a no-questions-asked 14-day return policy and that the service technicians were all very nice and helpful.",
+      "citations": [
+        "c44432913d9f_4"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said a technician recommended sending back two Moto G7 phones as defective for a refund.",
+      "citations": [
+        "c44432913d9f_4"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer said they used Amazon Chat to give feedback about a delivery problem and doubted it would do any good.",
+      "citations": [
+        "cca8b086d28c_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said they called Motorola after one week and again in the second week and were told they needed their purchase number to return the phone for a full refund.",
+      "citations": [
+        "c68f3b3e1db3_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said they would have returned the phone to Amazon but it was beyond the Amazon return date.",
+      "citations": [
+        "e7102bb3d13f_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer listed a no-questions-asked 14-day return policy as a pro.",
+      "citations": [
+        "67c75d320120_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said Motorola has a no-questions-asked 14-day return policy and that the service technicians were all very nice and helpful.",
+      "citations": [
+        "c44432913d9f_4"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said a technician recommended sending back two Moto G7 phones as defective for a refund.",
+      "citations": [
+        "c44432913d9f_4"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "cca8b086d28c_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "I can't figure out another way to provide feedback about the delivery",
+        "doubt it will do any good",
+        "Maybe a bad rating will get escalated to someone who cares and can fix the system"
+      ],
+      "reason": "Complains about delivery/customer feedback service and doubts it will help.",
+      "doc_id": "cca8b086d28c",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "d62abdf82e54_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Praises phone performance, no mention of service.",
+      "doc_id": "d62abdf82e54",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "e31c893017bb_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses defective unit and broken screen, not service.",
+      "doc_id": "e31c893017bb",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "c68f3b3e1db3_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "I've called them at least a dozen times",
+        "I called Motorola after 1 week and then again in 2nd week",
+        "I regret buying this phone"
+      ],
+      "reason": "Criticizes carrier and Motorola support experience, regrets purchase.",
+      "doc_id": "c68f3b3e1db3",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "c1789af6a17d_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General praise of phone, no service discussion.",
+      "doc_id": "c1789af6a17d",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "edda4501fade_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Comments on item condition and price, not service.",
+      "doc_id": "edda4501fade",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "e7102bb3d13f_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses call defect and return window, not service.",
+      "doc_id": "e7102bb3d13f",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "67c75d320120_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "No questions asked 14 Day return policy",
+        "Tech Support ( I used it all the way up to Level 2 Tech to try and fix problems)"
+      ],
+      "reason": "Praises return policy and tech support while listing phone problems.",
+      "doc_id": "67c75d320120",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "c44432913d9f_4",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The service technicians were all very nice and helpful",
+        "each had more knowledge than the last"
+      ],
+      "reason": "Praises Motorola service technicians and return policy.",
+      "doc_id": "c44432913d9f",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "837d4843fc57_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Praises phone features, no service mention.",
+      "doc_id": "837d4843fc57",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "service"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 4,
+      "n_excluded_aspect_absent": 6,
+      "counts": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.25,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.3333333333333333,
+      "polarized_denominator": 3
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "cca8b086d28c_0",
+      "doc_id": "cca8b086d28c",
+      "text": "I can't figure out another way to provide feedback about the delivery.... I used Amazon Chat for this, but doubt it will do any good. Maybe the vendor who lost the sale will work this from their side: This is the fourth Moto G7 I have ordered. I love the phone! There was a fantastic sale so I ordered one for another family member at an amazing price. Much to my chagrin, our lazy USPS worker returned a pile of stuff as \"not deliverable.\" I hoped Amazon would honor the original price, but reordering did not keep the sale price. So I have canceled my order. I wish Prime users could block carriers that hire but do not fire incompetent people. Or reordering based on a \"could not deliver\" did not change the price. Maybe a bad rating will get escalated to someone who cares and can fix the system.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N92347B"
+    },
+    {
+      "chunk_id": "d62abdf82e54_0",
+      "doc_id": "d62abdf82e54",
+      "text": "Moto g7 is good working phone. Moto g7 works great, no problems so far!",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N92347B"
+    },
+    {
+      "chunk_id": "e31c893017bb_0",
+      "doc_id": "e31c893017bb",
+      "text": "They first moto g that i purchased came with defective. They moto g7 the screen after 1 month was broken.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N92347B"
+    },
+    {
+      "chunk_id": "c68f3b3e1db3_0",
+      "doc_id": "c68f3b3e1db3",
+      "text": "If your phone acts up, send it back quickly!. This Moto G7 has been nothing but trouble for me. I'm on Straight Talk. I've called them at least a dozen times about texts taking 2 minutes to send, it drops my internet and phone calls can't get heard at times. I called Motorola after 1 week and then again in 2nd week. Told I need my purchase number to return for full refund. I found it 2 weeks and 1 day after my return date was up. I regret buying this phone.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N92347B"
+    },
+    {
+      "chunk_id": "c1789af6a17d_0",
+      "doc_id": "c1789af6a17d",
+      "text": "Moto g7. Love the phone would buy again",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N8ZTKHX"
+    },
+    {
+      "chunk_id": "edda4501fade_0",
+      "doc_id": "edda4501fade",
+      "text": "Moto G7 was new and as expected.. The item was in stock as a reasonable price.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07Q4J5GF1"
+    },
+    {
+      "chunk_id": "e7102bb3d13f_0",
+      "doc_id": "e7102bb3d13f",
+      "text": "Moto G7 Does Not Make Calls. Do not buy the Moto G7 if you intend to make and receive calls. I bought my Moto G7 last June from Amazon. Last month, when the phone was three months old, it stopped making phone calls. I was so disappointed that I would have returned it to Amazon but it was by then beyond the Amazon return date. The problem came on suddenly. You initiate a call, listen to silence for an extended period of time, and finally hear a little beep as the call times out. I did this at various times from various locations with the same result. The final straw was when I noticed a voice mail that was just minutes old from a dear friend. I had the phone on me and a check of the call log showed no incoming call... but I could still listen to the voice mail.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    },
+    {
+      "chunk_id": "67c75d320120_0",
+      "doc_id": "67c75d320120",
+      "text": "Okay, But a few problems. I purchased two Moto G7's and ended up returning both. Here are my Pro's and Con's. Pro's 1. Very nice screen 2. Comes with good memory and storage 3. No questions asked 14 Day return policy 4. Tech Support ( I used it all the way up to Level 2 Tech to try and fix problems) Con's 1. The phone was too big and heavy for my use. I'm interested in a phone that I can keep in my shirt pocket. 2. The Cell phone signal is very weak. I could barely get a bar at my house. My LG get four bars on T-Mobile. Moto G7 barely one. 3. Lots of programs will not work on Wi-Fi connection. Only Cellular Data. To name a few ( Netflix, Capital One, Fidelity, Hotels.com, Orbitz) and several others. This has been brought up to Motorola since February 2019 by several people.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    },
+    {
+      "chunk_id": "c44432913d9f_4",
+      "doc_id": "c44432913d9f",
+      "text": "After going through basically the same steps and explaining the problem, the technician finally concluded that the problem was much bigger than he thought. He recommended I send back the two Moto G 7's as defective and get my money back. Motorola does have a no questions ask 14 day return policy. So this is what I used. The service technicians were all very nice and helpful. And yes, as you went to levels, each had more knowledge than the last. I'm pretty knowledgeable about computers and networking since I owned a Computer/Networking Services company for 25 years before I retired. I believed the problem was with the permission or authentication as I worked through this problem. The Level 3 Technician from Motorola agreed. One last comment... This problem was blogged about on the Motorola website back in February 2019. So other folks have had this issue.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N9M9FX4"
+    },
+    {
+      "chunk_id": "837d4843fc57_0",
+      "doc_id": "837d4843fc57",
+      "text": "Moto G7 is great. Very happy with Moto G7 phone, fingerprint reader works great, face recognition also works great, and the battery life is twice of what my last phone was.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    }
+  ],
+  "contexts": [
+    "I can't figure out another way to provide feedback about the delivery.... I used Amazon Chat for this, but doubt it will do any good. Maybe the vendor who lost the sale will work this from their side: This is the fourth Moto G7 I have ordered. I love the phone! There was a fantastic sale so I ordered one for another family member at an amazing price. Much to my chagrin, our lazy USPS worker returned a pile of stuff as \"not deliverable.\" I hoped Amazon would honor the original price, but reordering did not keep the sale price. So I have canceled my order. I wish Prime users could block carriers that hire but do not fire incompetent people. Or reordering based on a \"could not deliver\" did not change the price. Maybe a bad rating will get escalated to someone who cares and can fix the system.",
+    "Moto g7 is good working phone. Moto g7 works great, no problems so far!",
+    "They first moto g that i purchased came with defective. They moto g7 the screen after 1 month was broken.",
+    "If your phone acts up, send it back quickly!. This Moto G7 has been nothing but trouble for me. I'm on Straight Talk. I've called them at least a dozen times about texts taking 2 minutes to send, it drops my internet and phone calls can't get heard at times. I called Motorola after 1 week and then again in 2nd week. Told I need my purchase number to return for full refund. I found it 2 weeks and 1 day after my return date was up. I regret buying this phone.",
+    "Moto g7. Love the phone would buy again",
+    "Moto G7 was new and as expected.. The item was in stock as a reasonable price.",
+    "Moto G7 Does Not Make Calls. Do not buy the Moto G7 if you intend to make and receive calls. I bought my Moto G7 last June from Amazon. Last month, when the phone was three months old, it stopped making phone calls. I was so disappointed that I would have returned it to Amazon but it was by then beyond the Amazon return date. The problem came on suddenly. You initiate a call, listen to silence for an extended period of time, and finally hear a little beep as the call times out. I did this at various times from various locations with the same result. The final straw was when I noticed a voice mail that was just minutes old from a dear friend. I had the phone on me and a check of the call log showed no incoming call... but I could still listen to the voice mail.",
+    "Okay, But a few problems. I purchased two Moto G7's and ended up returning both. Here are my Pro's and Con's. Pro's 1. Very nice screen 2. Comes with good memory and storage 3. No questions asked 14 Day return policy 4. Tech Support ( I used it all the way up to Level 2 Tech to try and fix problems) Con's 1. The phone was too big and heavy for my use. I'm interested in a phone that I can keep in my shirt pocket. 2. The Cell phone signal is very weak. I could barely get a bar at my house. My LG get four bars on T-Mobile. Moto G7 barely one. 3. Lots of programs will not work on Wi-Fi connection. Only Cellular Data. To name a few ( Netflix, Capital One, Fidelity, Hotels.com, Orbitz) and several others. This has been brought up to Motorola since February 2019 by several people.",
+    "After going through basically the same steps and explaining the problem, the technician finally concluded that the problem was much bigger than he thought. He recommended I send back the two Moto G 7's as defective and get my money back. Motorola does have a no questions ask 14 day return policy. So this is what I used. The service technicians were all very nice and helpful. And yes, as you went to levels, each had more knowledge than the last. I'm pretty knowledgeable about computers and networking since I owned a Computer/Networking Services company for 25 years before I retired. I believed the problem was with the permission or authentication as I worked through this problem. The Level 3 Technician from Motorola agreed. One last comment... This problem was blogged about on the Motorola website back in February 2019. So other folks have had this issue.",
+    "Moto G7 is great. Very happy with Moto G7 phone, fingerprint reader works great, face recognition also works great, and the battery life is twice of what my last phone was."
+  ],
+  "timing": {
+    "classification_s": 3.0284997999988263,
+    "generation_s": 1.7170503999950597,
+    "verification_s": 6.499998562503606e-06,
+    "total_s": 4.745567199999641
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1755,
+        "completion_tokens": 634,
+        "total_tokens": 2389,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1499
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1632,
+        "completion_tokens": 259,
+        "total_tokens": 1891,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1504
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

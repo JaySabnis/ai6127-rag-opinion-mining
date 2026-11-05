@@ -1,0 +1,396 @@
+{
+  "question": "What do Samsung Galaxy Note 9 owners say about how long a charge lasts?",
+  "answer": "One reviewer said the battery life of the Samsung Galaxy Note 9 is great and that it charges well with cordless charging. [b01eb28c41f5_0]\nAnother reviewer said battery life is much better on the Note 9 than on the Note 8. [81031e2ed9a5_0]\nOne review stated that battery charging should be faster. [4ddc965bf687_0]",
+  "draft_answer": "One reviewer said the battery life of the Samsung Galaxy Note 9 is great and that it charges well with cordless charging. [b01eb28c41f5_0]\nAnother reviewer said battery life is much better on the Note 9 than on the Note 8. [81031e2ed9a5_0]\nOne review stated that battery charging should be faster. [4ddc965bf687_0]",
+  "sentences": [
+    {
+      "text": "One reviewer said the battery life of the Samsung Galaxy Note 9 is great and that it charges well with cordless charging.",
+      "citations": [
+        "b01eb28c41f5_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said battery life is much better on the Note 9 than on the Note 8.",
+      "citations": [
+        "81031e2ed9a5_0"
+      ]
+    },
+    {
+      "text": "One review stated that battery charging should be faster.",
+      "citations": [
+        "4ddc965bf687_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer said the battery life of the Samsung Galaxy Note 9 is great and that it charges well with cordless charging.",
+      "citations": [
+        "b01eb28c41f5_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said battery life is much better on the Note 9 than on the Note 8.",
+      "citations": [
+        "81031e2ed9a5_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One review stated that battery charging should be faster.",
+      "citations": [
+        "4ddc965bf687_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer said the battery life of the Samsung Galaxy Note 9 is great and that it charges well with cordless charging.",
+      "citations": [
+        "b01eb28c41f5_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said battery life is much better on the Note 9 than on the Note 8.",
+      "citations": [
+        "81031e2ed9a5_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One review stated that battery charging should be faster.",
+      "citations": [
+        "4ddc965bf687_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "001aded6251b_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No mention of battery; general praise only.",
+      "doc_id": "001aded6251b",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "8dde418a7856_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No battery discussion; general satisfaction.",
+      "doc_id": "8dde418a7856",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "4ddc965bf687_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery charging should be faster"
+      ],
+      "reason": "Criticizes battery charging speed as too slow.",
+      "doc_id": "4ddc965bf687",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "9769e0b47442_1",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No battery mention; praises other features.",
+      "doc_id": "9769e0b47442",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "a851fb32a6f3_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Complains about wrong product picture, not battery.",
+      "doc_id": "a851fb32a6f3",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "b01eb28c41f5_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "the battery life is great",
+        "charges well with cordless charging"
+      ],
+      "reason": "Praises battery life and charging.",
+      "doc_id": "b01eb28c41f5",
+      "brand": "Samsung",
+      "model": "Galaxy Note9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "81031e2ed9a5_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Battery life is much better on the 9"
+      ],
+      "reason": "Positive battery life compared to Note 8.",
+      "doc_id": "81031e2ed9a5",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "7c35d6031c5e_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No battery discussion; general product praise.",
+      "doc_id": "7c35d6031c5e",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "81bcf448debb_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No battery mention; praises other features.",
+      "doc_id": "81bcf448debb",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "2aaef6199033_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Complains about broken seal, not battery.",
+      "doc_id": "2aaef6199033",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 2,
+      "n_excluded_aspect_absent": 7,
+      "counts": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5,
+      "polarized_denominator": 2
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note9",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 1,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 1.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 1
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "001aded6251b_0",
+      "doc_id": "001aded6251b",
+      "text": "Samsung Galaxy Note 9. Samsung Galaxy Note 9 I love it Excellent phone.",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07VWQQ4G2"
+    },
+    {
+      "chunk_id": "8dde418a7856_0",
+      "doc_id": "8dde418a7856",
+      "text": "Samsung Galaxy Note 9. Samsung Galaxy Note 9 works great and didn't see any scratches.No problems as of now,satisfied. Put on a screen protector and case.",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07VWQQ4G2"
+    },
+    {
+      "chunk_id": "4ddc965bf687_0",
+      "doc_id": "4ddc965bf687",
+      "text": "Battery. Battery charging should be faster Like clockwork, Samsung releases its Galaxy Note 9 to push the envelope of the whole Galaxy Series 9 for the remainder of 2018. The Galaxy Note continues to be the company’s technologically leading smartphone with an emphasis on things that require more power and battery: productivity, creativity,...",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07NKX7X9Y"
+    },
+    {
+      "chunk_id": "9769e0b47442_1",
+      "doc_id": "9769e0b47442",
+      "text": "This my first Ever Review But say Love How SAMSUNG Done this NOTE 9 UNLOCKED IS BEEN GETTING UPDATES SINCE DECEMBER TO APRIL LATE 2019 SAMSUNG GALAXY NOTE 9 BEAST PHONE I'M KEEP SAMSUNG PRODUCTS ARE SOLID LOVE YOU SAMSUNG ONLY THING SAY SPEAKERS LITTLE SFOFT BUT NOTE 9 ROCKS YES THIS PHONE YOU SHOULD GET IN 2019 LATE YEP NO NOTCH DOSENT EVER GET HOT SAMSUNG GALAXY NOTE 9 BEST PHONE ... smiling face with sunglasses smiling face with open hands nerd face smirking face smirking face AND S PEN IS AMAZING CAMERA FULL PHONE ALL AROUND NOTE KING PHONES KEEP IT UP SAMSUNG ELECTRONICS LOVE YOUR PRODUCTS LOVE TO GET A WATCH MY WIFE GALAXY WATCH MABAY NOTE 10 ALSO LOVE You SAMSUNG ELECTRONICS...",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07VWQQ4G2"
+    },
+    {
+      "chunk_id": "a851fb32a6f3_0",
+      "doc_id": "a851fb32a6f3",
+      "text": "Change the picture. This is not a Samsung galaxy note 9",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07N7M7VBV"
+    },
+    {
+      "chunk_id": "b01eb28c41f5_0",
+      "doc_id": "b01eb28c41f5",
+      "text": "I have had Samsung Notes since the very beginning. I do like this phone, the battery life is great, charges well with cordless charging. As a veteran Samsung Galaxy Note user, I would say, this is a good phone.",
+      "brand": "Samsung",
+      "model": "Galaxy Note9",
+      "source_url": "https://www.amazon.com/dp/B07GBMJLZW"
+    },
+    {
+      "chunk_id": "81031e2ed9a5_0",
+      "doc_id": "81031e2ed9a5",
+      "text": "Love my Samsung Galaxy Note 9. The Samsung Galaxy Note 9 with 128 gigs of storage space is definitely a great phone. I have moved from a Samsung Galaxy Note 4 to a note 9 and I love the 9. there are definitely some major major improvements in it even over the eight from people that I know that have the Note 8. Battery life is much better on the 9. It takes great pictures also and is fast at doing things. And with the add-on micro SD card of 500 gig card lots of room and space for pictures videos or whatever you want to use that for including music.",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07HR4FVDG"
+    },
+    {
+      "chunk_id": "7c35d6031c5e_0",
+      "doc_id": "7c35d6031c5e",
+      "text": "Samsung Galaxy note 9. What a great product came on time virtually Flawless phone from Buy spry great seller would trust them again came in a certified refurbished box great deal for the money wouldn't pass it up Samsung Galaxy note 9",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07N7M7VBV"
+    },
+    {
+      "chunk_id": "81bcf448debb_0",
+      "doc_id": "81bcf448debb",
+      "text": "Samsung Note 9. I love my new Samsung Galaxy Note 9. My last phone was a Note 5, and I love the expanded memory. My phone was unlocked by Samsung and was very easy to connect to Verizon service. I called in and used their customer service. I especially love the ability to mute the phone for a time period, so no calls during my meetings and no forgetting to turn the sound back on. Great phone.",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07FZH9BGV"
+    },
+    {
+      "chunk_id": "2aaef6199033_0",
+      "doc_id": "2aaef6199033",
+      "text": "broken seal. i bought the Samsung Galaxy Note 9 and the seal package was broken",
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "source_url": "https://www.amazon.com/dp/B07GNHQ2ZN"
+    }
+  ],
+  "contexts": [
+    "Samsung Galaxy Note 9. Samsung Galaxy Note 9 I love it Excellent phone.",
+    "Samsung Galaxy Note 9. Samsung Galaxy Note 9 works great and didn't see any scratches.No problems as of now,satisfied. Put on a screen protector and case.",
+    "Battery. Battery charging should be faster Like clockwork, Samsung releases its Galaxy Note 9 to push the envelope of the whole Galaxy Series 9 for the remainder of 2018. The Galaxy Note continues to be the company’s technologically leading smartphone with an emphasis on things that require more power and battery: productivity, creativity,...",
+    "This my first Ever Review But say Love How SAMSUNG Done this NOTE 9 UNLOCKED IS BEEN GETTING UPDATES SINCE DECEMBER TO APRIL LATE 2019 SAMSUNG GALAXY NOTE 9 BEAST PHONE I'M KEEP SAMSUNG PRODUCTS ARE SOLID LOVE YOU SAMSUNG ONLY THING SAY SPEAKERS LITTLE SFOFT BUT NOTE 9 ROCKS YES THIS PHONE YOU SHOULD GET IN 2019 LATE YEP NO NOTCH DOSENT EVER GET HOT SAMSUNG GALAXY NOTE 9 BEST PHONE ... smiling face with sunglasses smiling face with open hands nerd face smirking face smirking face AND S PEN IS AMAZING CAMERA FULL PHONE ALL AROUND NOTE KING PHONES KEEP IT UP SAMSUNG ELECTRONICS LOVE YOUR PRODUCTS LOVE TO GET A WATCH MY WIFE GALAXY WATCH MABAY NOTE 10 ALSO LOVE You SAMSUNG ELECTRONICS...",
+    "Change the picture. This is not a Samsung galaxy note 9",
+    "I have had Samsung Notes since the very beginning. I do like this phone, the battery life is great, charges well with cordless charging. As a veteran Samsung Galaxy Note user, I would say, this is a good phone.",
+    "Love my Samsung Galaxy Note 9. The Samsung Galaxy Note 9 with 128 gigs of storage space is definitely a great phone. I have moved from a Samsung Galaxy Note 4 to a note 9 and I love the 9. there are definitely some major major improvements in it even over the eight from people that I know that have the Note 8. Battery life is much better on the 9. It takes great pictures also and is fast at doing things. And with the add-on micro SD card of 500 gig card lots of room and space for pictures videos or whatever you want to use that for including music.",
+    "Samsung Galaxy note 9. What a great product came on time virtually Flawless phone from Buy spry great seller would trust them again came in a certified refurbished box great deal for the money wouldn't pass it up Samsung Galaxy note 9",
+    "Samsung Note 9. I love my new Samsung Galaxy Note 9. My last phone was a Note 5, and I love the expanded memory. My phone was unlocked by Samsung and was very easy to connect to Verizon service. I called in and used their customer service. I especially love the ability to mute the phone for a time period, so no calls during my meetings and no forgetting to turn the sound back on. Great phone.",
+    "broken seal. i bought the Samsung Galaxy Note 9 and the seal package was broken"
+  ],
+  "timing": {
+    "classification_s": 2.367843800006085,
+    "generation_s": 1.2606878999940818,
+    "verification_s": 5.400004738476127e-06,
+    "total_s": 3.6285471000010148
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1474,
+        "completion_tokens": 520,
+        "total_tokens": 1994,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1218
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1350,
+        "completion_tokens": 116,
+        "total_tokens": 1466,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1350
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

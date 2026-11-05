@@ -1,0 +1,449 @@
+{
+  "question": "What experiences do iPhone 8 buyers describe when seeking help or returning a faulty phone?",
+  "answer": "One reviewer reported that the seller Hybrid IT was fully cooperative and very helpful when the phone was returned due to rear camera issues. [6664ee9fc514_0]\nAnother reviewer said the return process was tedious because the phone had to be sent to the seller first before a replacement would ship, leaving the user without a phone for several days. [463f90a64a29_1]\nA reviewer stated that seller Woo refused to help or take back a faulty phone, and that Amazon instead took it back and refunded the buyer. [b2cdbddee094_0]\nOne reviewer said the seller tried to make them pay to return a defective phone. [3315b85ec5dc_0]\nA reviewer reported that the seller ignored their request for a replacement or refund before the return window closed, leaving them with a defective phone. [3358c457015a_0]\nAnother reviewer described dealing with support as a hassle, having to contact Amazon to reach the seller and receiving the same automated message several times before finally getting a refund. [53c4b1836ee6_0]",
+  "draft_answer": "One reviewer reported that the seller Hybrid IT was fully cooperative and very helpful when the phone was returned due to rear camera issues. [6664ee9fc514_0]\nAnother reviewer said the return process was tedious because the phone had to be sent to the seller first before a replacement would ship, leaving the user without a phone for several days. [463f90a64a29_1]\nA reviewer stated that seller Woo refused to help or take back a faulty phone, and that Amazon instead took it back and refunded the buyer. [b2cdbddee094_0]\nOne reviewer said the seller tried to make them pay to return a defective phone. [3315b85ec5dc_0]\nA reviewer reported that the seller ignored their request for a replacement or refund before the return window closed, leaving them with a defective phone. [3358c457015a_0]\nAnother reviewer described dealing with support as a hassle, having to contact Amazon to reach the seller and receiving the same automated message several times before finally getting a refund. [53c4b1836ee6_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported that the seller Hybrid IT was fully cooperative and very helpful when the phone was returned due to rear camera issues.",
+      "citations": [
+        "6664ee9fc514_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said the return process was tedious because the phone had to be sent to the seller first before a replacement would ship, leaving the user without a phone for several days.",
+      "citations": [
+        "463f90a64a29_1"
+      ]
+    },
+    {
+      "text": "A reviewer stated that seller Woo refused to help or take back a faulty phone, and that Amazon instead took it back and refunded the buyer.",
+      "citations": [
+        "b2cdbddee094_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the seller tried to make them pay to return a defective phone.",
+      "citations": [
+        "3315b85ec5dc_0"
+      ]
+    },
+    {
+      "text": "A reviewer reported that the seller ignored their request for a replacement or refund before the return window closed, leaving them with a defective phone.",
+      "citations": [
+        "3358c457015a_0"
+      ]
+    },
+    {
+      "text": "Another reviewer described dealing with support as a hassle, having to contact Amazon to reach the seller and receiving the same automated message several times before finally getting a refund.",
+      "citations": [
+        "53c4b1836ee6_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One reviewer reported that the seller Hybrid IT was fully cooperative and very helpful when the phone was returned due to rear camera issues.",
+      "citations": [
+        "6664ee9fc514_0"
+      ],
+      "status": "supported",
+      "reason": "评论明确提到因后置摄像头问题退货，卖家Hybrid IT完全配合且非常有帮助。",
+      "evidence": [
+        {
+          "chunk_id": "6664ee9fc514_0",
+          "quote": "I had to return the phone because of some rear camera issues, but the seller was fully cooperative and very helpful."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "Another reviewer said the return process was tedious because the phone had to be sent to the seller first before a replacement would ship, leaving the user without a phone for several days.",
+      "citations": [
+        "463f90a64a29_1"
+      ],
+      "status": "supported",
+      "reason": "评论称退货流程繁琐，必须先寄回手机才发货替换，导致数天没有手机。",
+      "evidence": [
+        {
+          "chunk_id": "463f90a64a29_1",
+          "quote": "the process for returning is tedious. We had to send the phone to them FIRST before they would ship the replacement. Which means we had to rely on the iCloud for the back up to get her info from one device to the other, and she would be without a phone for several days."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "A reviewer stated that seller Woo refused to help or take back a faulty phone, and that Amazon instead took it back and refunded the buyer.",
+      "citations": [
+        "b2cdbddee094_0"
+      ],
+      "status": "supported",
+      "reason": "评论称卖家Woo拒绝帮助或收回手机，Amazon收回并退款。",
+      "evidence": [
+        {
+          "chunk_id": "b2cdbddee094_0",
+          "quote": "I contacted the seller (Woo) about the issue and they refused to help or take the phone back. Luckily Amazon is great and took it back and refunded me."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s3",
+      "text": "One reviewer said the seller tried to make them pay to return a defective phone.",
+      "citations": [
+        "3315b85ec5dc_0"
+      ],
+      "status": "supported",
+      "reason": "评论称手机有缺陷，卖家试图让其支付退货费用。",
+      "evidence": [
+        {
+          "chunk_id": "3315b85ec5dc_0",
+          "quote": "Phone is defective and the seller tried to make me pay to return it."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "A reviewer reported that the seller ignored their request for a replacement or refund before the return window closed, leaving them with a defective phone.",
+      "citations": [
+        "3358c457015a_0"
+      ],
+      "status": "supported",
+      "reason": "评论称在退货窗口关闭前联系要求换货或退款，被无视，留下缺陷手机。",
+      "evidence": [
+        {
+          "chunk_id": "3358c457015a_0",
+          "quote": "I contacted for a replacement before the return window closed, stating that I would like a refund if I can’t get a replacement. They ignored that and left me with a defective phone."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "Another reviewer described dealing with support as a hassle, having to contact Amazon to reach the seller and receiving the same automated message several times before finally getting a refund.",
+      "citations": [
+        "53c4b1836ee6_0"
+      ],
+      "status": "supported",
+      "reason": "评论称与支持打交道很麻烦，需通过Amazon联系卖家，收到多次相同自动消息，最终获得退款。",
+      "evidence": [
+        {
+          "chunk_id": "53c4b1836ee6_0",
+          "quote": "Dealing with support was a hassle. I had to contact Amazon to contact them because I wasn't getting my questions answered. They just sent the same automated message to me a few times. I was finally able to get a refund though"
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "6664ee9fc514_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "the seller was fully cooperative and very helpful",
+        "the stress was mitigated by the responsiveness of the seller"
+      ],
+      "reason": "Praises seller's cooperative, responsive service.",
+      "doc_id": "6664ee9fc514",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "463f90a64a29_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "this is turning out to be a bad experience with this seller",
+        "the process for returning is tedious"
+      ],
+      "reason": "Criticizes seller and tedious return process.",
+      "doc_id": "463f90a64a29",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "b2cdbddee094_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "they refused to help or take the phone back"
+      ],
+      "reason": "Seller refused to help or accept return.",
+      "doc_id": "b2cdbddee094",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "3315b85ec5dc_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the seller tried to make me pay to return it"
+      ],
+      "reason": "Seller tried to charge for return.",
+      "doc_id": "3315b85ec5dc",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "3358c457015a_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "They ignored that and left me with a defective phone"
+      ],
+      "reason": "Seller ignored replacement/refund request.",
+      "doc_id": "3358c457015a",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "53c4b1836ee6_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Dealing with support was a hassle",
+        "They just sent the same automated message"
+      ],
+      "reason": "Support was a hassle, unresponsive automated replies.",
+      "doc_id": "53c4b1836ee6",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "d94c415d2163_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Poor service from the company as well as Amazon"
+      ],
+      "reason": "Explicitly criticizes poor service.",
+      "doc_id": "d94c415d2163",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "91183bee807a_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "had to follow up and send MANY messages to the seller to finally get refunded"
+      ],
+      "reason": "Difficult, slow refund process with seller.",
+      "doc_id": "91183bee807a",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "de07f3357ef2_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No discussion of seller service; only phone faults.",
+      "doc_id": "de07f3357ef2",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "abcc4d406c33_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "the seller did refund me quickly, so thanks to them for that!"
+      ],
+      "reason": "Praises quick refund from seller.",
+      "doc_id": "abcc4d406c33",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 1,
+      "counts": {
+        "positive": 2,
+        "negative": 7,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.2222222222222222,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.2222222222222222,
+      "polarized_denominator": 9
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "6664ee9fc514_0",
+      "doc_id": "6664ee9fc514",
+      "text": "Review on the seller name \"Hybrid IT\". I've had a great experience purchasing from this seller. I had to return the phone because of some rear camera issues, but the seller was fully cooperative and very helpful. Therefore, although I had to spend time on the setting-up of the phone (and the subsequent erasure of my data), the stress was mitigated by the responsiveness of the seller and their willingness to replace the item with a fully satisfying phone. I'll definitely work with the seller again. I am assured that if there's anything wrong with the phone, the seller will make sure to replace it with an item that is satisfactory and without any defect.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "463f90a64a29_1",
+      "doc_id": "463f90a64a29",
+      "text": "After extensive testing and troubleshooting this could not be fixed on our end. so we returned the device and asked for a working replacement. Although, the replacement sent has the exact issue. We are not Satisfied. My GF likes this particular model of the iPhone and it was a gift to her, but this is turning out to be a bad experience with this seller. The thing that is even worse is that the process for returning is tedious. We had to send the phone to them FIRST before they would ship the replacement. Which means we had to rely on the iCloud for the back up to get her info from one device to the other, and she would be without a phone for several days. Which is dangerous for her as she has to travel long distances on occasion alone.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "b2cdbddee094_0",
+      "doc_id": "b2cdbddee094",
+      "text": "Don't Buy From Woo. The phone sold to me was faulty and was repaired in such a way to hide it from the buyer. The battery was faulty and the phone would randomly restart, making normal use impossible. I contacted the seller (Woo) about the issue and they refused to help or take the phone back. Luckily Amazon is great and took it back and refunded me.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "3315b85ec5dc_0",
+      "doc_id": "3315b85ec5dc",
+      "text": "Defective. Phone is defective and the seller tried to make me pay to return it. Buyer beware",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "3358c457015a_0",
+      "doc_id": "3358c457015a",
+      "text": "Defective phone. Phone does not work. I contacted for a replacement before the return window closed, stating that I would like a refund if I can’t get a replacement. They ignored that and left me with a defective phone. Not surprised, I know how some phone companies work but I wanted to leave a review so others can at least get a warning, and know that they may get a defective phone.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "53c4b1836ee6_0",
+      "doc_id": "53c4b1836ee6",
+      "text": "Crappy phone, crappy experience with support. I returned it. The phone worked OK but had issues due to no battery life. The battery lasted maybe 5 hours. Even if you didn't use it, the battery would drain. This iPhone was for my 65 year old mom, so she's not doing much, basic usage. She had to carry a charger and power bank until I got her a new phone. The charger it came with was broken too. Dealing with support was a hassle. I had to contact Amazon to contact them because I wasn't getting my questions answered. They just sent the same automated message to me a few times. I was finally able to get a refund though and fought them on the restocking fee since they sent me a broken device. Maybe I got unlucky, but I'm not doing this again.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "d94c415d2163_0",
+      "doc_id": "d94c415d2163",
+      "text": "Phone stopped working, and now I can't return it!. The logic board is faulty and calls would cut off. The Apple store would not repair it, and we learned about the problem outside the return window due to Covid delays. Now the screen stopped working entirely. It's just a black screen. Now we can't return the product--short of $241. Poor service from the company as well as Amazon. If the seller is reading, please allow us to return!",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "91183bee807a_0",
+      "doc_id": "91183bee807a",
+      "text": "Faulty and difficult to get refunded. STAY AWAY. This phone was faulty. It would consistently say “cellular error”, turn on and off, and sign out of my iCloud account. Absolutely disastrous. I had to follow up and send MANY messages to the seller to finally get refunded nearly a month after sending back the phone. Do yourself a favor and do not bother.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "de07f3357ef2_0",
+      "doc_id": "de07f3357ef2",
+      "text": "Phone not working. iPhone is malfunctioning faulty Speakers are failing that are attached to display Can barely hear people on phone Phone tested at an apple dealer today Must be returned for a refund Told Amazon refurbished phones are generally not good! What a nightmare",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "abcc4d406c33_0",
+      "doc_id": "abcc4d406c33",
+      "text": "Didn’t work. Phone didn’t work and my service provider couldn’t fix the issue. However, the seller did refund me quickly, so thanks to them for that! It was probably just a faulty phone given that other reviewers didn’t have a problem. Oh well!",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    }
+  ],
+  "contexts": [
+    "Review on the seller name \"Hybrid IT\". I've had a great experience purchasing from this seller. I had to return the phone because of some rear camera issues, but the seller was fully cooperative and very helpful. Therefore, although I had to spend time on the setting-up of the phone (and the subsequent erasure of my data), the stress was mitigated by the responsiveness of the seller and their willingness to replace the item with a fully satisfying phone. I'll definitely work with the seller again. I am assured that if there's anything wrong with the phone, the seller will make sure to replace it with an item that is satisfactory and without any defect.",
+    "After extensive testing and troubleshooting this could not be fixed on our end. so we returned the device and asked for a working replacement. Although, the replacement sent has the exact issue. We are not Satisfied. My GF likes this particular model of the iPhone and it was a gift to her, but this is turning out to be a bad experience with this seller. The thing that is even worse is that the process for returning is tedious. We had to send the phone to them FIRST before they would ship the replacement. Which means we had to rely on the iCloud for the back up to get her info from one device to the other, and she would be without a phone for several days. Which is dangerous for her as she has to travel long distances on occasion alone.",
+    "Don't Buy From Woo. The phone sold to me was faulty and was repaired in such a way to hide it from the buyer. The battery was faulty and the phone would randomly restart, making normal use impossible. I contacted the seller (Woo) about the issue and they refused to help or take the phone back. Luckily Amazon is great and took it back and refunded me.",
+    "Defective. Phone is defective and the seller tried to make me pay to return it. Buyer beware",
+    "Defective phone. Phone does not work. I contacted for a replacement before the return window closed, stating that I would like a refund if I can’t get a replacement. They ignored that and left me with a defective phone. Not surprised, I know how some phone companies work but I wanted to leave a review so others can at least get a warning, and know that they may get a defective phone.",
+    "Crappy phone, crappy experience with support. I returned it. The phone worked OK but had issues due to no battery life. The battery lasted maybe 5 hours. Even if you didn't use it, the battery would drain. This iPhone was for my 65 year old mom, so she's not doing much, basic usage. She had to carry a charger and power bank until I got her a new phone. The charger it came with was broken too. Dealing with support was a hassle. I had to contact Amazon to contact them because I wasn't getting my questions answered. They just sent the same automated message to me a few times. I was finally able to get a refund though and fought them on the restocking fee since they sent me a broken device. Maybe I got unlucky, but I'm not doing this again.",
+    "Phone stopped working, and now I can't return it!. The logic board is faulty and calls would cut off. The Apple store would not repair it, and we learned about the problem outside the return window due to Covid delays. Now the screen stopped working entirely. It's just a black screen. Now we can't return the product--short of $241. Poor service from the company as well as Amazon. If the seller is reading, please allow us to return!",
+    "Faulty and difficult to get refunded. STAY AWAY. This phone was faulty. It would consistently say “cellular error”, turn on and off, and sign out of my iCloud account. Absolutely disastrous. I had to follow up and send MANY messages to the seller to finally get refunded nearly a month after sending back the phone. Do yourself a favor and do not bother.",
+    "Phone not working. iPhone is malfunctioning faulty Speakers are failing that are attached to display Can barely hear people on phone Phone tested at an apple dealer today Must be returned for a refund Told Amazon refurbished phones are generally not good! What a nightmare",
+    "Didn’t work. Phone didn’t work and my service provider couldn’t fix the issue. However, the seller did refund me quickly, so thanks to them for that! It was probably just a faulty phone given that other reviewers didn’t have a problem. Oh well!"
+  ],
+  "timing": {
+    "classification_s": 2.863258899997163,
+    "generation_s": 1.6065730999980588,
+    "verification_s": 2.5631842000002507,
+    "total_s": 7.03303859999869
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1687,
+        "completion_tokens": 625,
+        "total_tokens": 2312,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "prompt_cache_hit_tokens": 1536,
+        "prompt_cache_miss_tokens": 151
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1564,
+        "completion_tokens": 288,
+        "total_tokens": 1852,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 156
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1549,
+        "completion_tokens": 547,
+        "total_tokens": 2096,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "prompt_cache_hit_tokens": 1152,
+        "prompt_cache_miss_tokens": 397
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

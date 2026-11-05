@@ -1,0 +1,316 @@
+{
+  "question": "What is the feedback on the Moto G6 screen and touchscreen?",
+  "answer": "One reviewer said the Gorilla glass is the only major drawback on the Moto G6 and advised getting a case and screen protector as soon as possible. [65684144eefd_0]",
+  "draft_answer": "One reviewer said the Gorilla glass is the only major drawback on the Moto G6 and advised getting a case and screen protector as soon as possible. [65684144eefd_0]",
+  "sentences": [
+    {
+      "text": "One reviewer said the Gorilla glass is the only major drawback on the Moto G6 and advised getting a case and screen protector as soon as possible.",
+      "citations": [
+        "65684144eefd_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer said the Gorilla glass is the only major drawback on the Moto G6 and advised getting a case and screen protector as soon as possible.",
+      "citations": [
+        "65684144eefd_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer said the Gorilla glass is the only major drawback on the Moto G6 and advised getting a case and screen protector as soon as possible.",
+      "citations": [
+        "65684144eefd_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "0063c6bbcf51_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No mention of display; only fit.",
+      "doc_id": "0063c6bbcf51",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "f27d3b66cf89_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General satisfaction, storage/RAM; no display discussion.",
+      "doc_id": "f27d3b66cf89",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "6562dcb9c823_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "About storage capacity, not display.",
+      "doc_id": "6562dcb9c823",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "d5152efca9ba_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General quality complaint; no display mention.",
+      "doc_id": "d5152efca9ba",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "634a543ca269_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General budget phone praise; no display.",
+      "doc_id": "634a543ca269",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "65684144eefd_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The gorrilla is definitely the only major drawback on the Moto G6!"
+      ],
+      "reason": "Criticizes Gorilla glass (screen) as major drawback.",
+      "doc_id": "65684144eefd",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "791dbbe14e2a_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Generic good phone; no display.",
+      "doc_id": "791dbbe14e2a",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "a81a97c3827d_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "About price, not display.",
+      "doc_id": "a81a97c3827d",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "3296dfe2ff2b_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Mid-price positioning; no display.",
+      "doc_id": "3296dfe2ff2b",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "fa5538f68c7a_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General liking; no display discussion.",
+      "doc_id": "fa5538f68c7a",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 1,
+      "n_excluded_aspect_absent": 9,
+      "counts": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.0,
+      "polarized_denominator": 1
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "0063c6bbcf51_0",
+      "doc_id": "0063c6bbcf51",
+      "text": "Great fit on the Moto G6. Great fit on the Moto G6",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "f27d3b66cf89_0",
+      "doc_id": "f27d3b66cf89",
+      "text": "Moto g6 is worth the purchase. I've been a Tracfone customer since 2001. This Motorola Moto G6 is the most smartphone that Tracfone has ever offered at this price. This Motorola G6 has sufficient storage and RAM. I'm extremely satisfied with this Motorola Moto g6.",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GC5QKW3"
+    },
+    {
+      "chunk_id": "6562dcb9c823_0",
+      "doc_id": "6562dcb9c823",
+      "text": "getting the right gb.. I ordered a 64 gb moto g6, instead of getting the 64gb like it stated in the title for the moto g6 I received the 32 gb moto g6.",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "d5152efca9ba_0",
+      "doc_id": "d5152efca9ba",
+      "text": "Moto G4 - Excellent Phone Moto G6 Junk Phone. The quality of the G6 is terrible!",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "634a543ca269_0",
+      "doc_id": "634a543ca269",
+      "text": "Moto G6. The Moto G6 is a great budget phone, I got the 64G memory, phone works very well.",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "65684144eefd_0",
+      "doc_id": "65684144eefd",
+      "text": "Highly recommend,just don't forget to get case and screen protector asap!. I highly recommend the Moto G6 it's soe k and does everything I need nothing I don't! I'm on a budget( always have been) and Moto/ Amazon had this deal for just 198$ for the G6 and I had looked at ALL the phones available for my price point and this phone seemed to be the one! I have been both relieved and amazed at how much I've gotten out of this little gem! Only issue is please get a case and screen protector asap! The gorrilla is definitely the only major drawback on the Moto G6!",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "791dbbe14e2a_0",
+      "doc_id": "791dbbe14e2a",
+      "text": "Moto G6. Good phone",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "a81a97c3827d_0",
+      "doc_id": "a81a97c3827d",
+      "text": "Moto G6. Great price!",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "3296dfe2ff2b_0",
+      "doc_id": "3296dfe2ff2b",
+      "text": "Moto G6 unlocked cell phone. The Moto G6 is a mid price phone that will suit the needs of most smart phone users who don’t want to spend too much for phone.",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "fa5538f68c7a_0",
+      "doc_id": "fa5538f68c7a",
+      "text": "Moto g6. I like this phone so far",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    }
+  ],
+  "contexts": [
+    "Great fit on the Moto G6. Great fit on the Moto G6",
+    "Moto g6 is worth the purchase. I've been a Tracfone customer since 2001. This Motorola Moto G6 is the most smartphone that Tracfone has ever offered at this price. This Motorola G6 has sufficient storage and RAM. I'm extremely satisfied with this Motorola Moto g6.",
+    "getting the right gb.. I ordered a 64 gb moto g6, instead of getting the 64gb like it stated in the title for the moto g6 I received the 32 gb moto g6.",
+    "Moto G4 - Excellent Phone Moto G6 Junk Phone. The quality of the G6 is terrible!",
+    "Moto G6. The Moto G6 is a great budget phone, I got the 64G memory, phone works very well.",
+    "Highly recommend,just don't forget to get case and screen protector asap!. I highly recommend the Moto G6 it's soe k and does everything I need nothing I don't! I'm on a budget( always have been) and Moto/ Amazon had this deal for just 198$ for the G6 and I had looked at ALL the phones available for my price point and this phone seemed to be the one! I have been both relieved and amazed at how much I've gotten out of this little gem! Only issue is please get a case and screen protector asap! The gorrilla is definitely the only major drawback on the Moto G6!",
+    "Moto G6. Good phone",
+    "Moto G6. Great price!",
+    "Moto G6 unlocked cell phone. The Moto G6 is a mid price phone that will suit the needs of most smart phone users who don’t want to spend too much for phone.",
+    "Moto g6. I like this phone so far"
+  ],
+  "timing": {
+    "classification_s": 2.1227536000005784,
+    "generation_s": 0.8757987999997567,
+    "verification_s": 4.699999408330768e-06,
+    "total_s": 2.998564000001352
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1176,
+        "completion_tokens": 497,
+        "total_tokens": 1673,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 920
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1051,
+        "completion_tokens": 54,
+        "total_tokens": 1105,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1051
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

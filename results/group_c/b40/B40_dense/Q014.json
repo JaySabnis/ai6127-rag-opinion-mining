@@ -1,0 +1,474 @@
+{
+  "question": "What screen or touch-response issues do iPhone X reviewers describe?",
+  "answer": "One reviewer reports that while the iPhone X is charging, portions of the screen, usually the upper corners, do not respond to touch. [e97889031da1_0]\nThe same reviewer describes greatly delayed touch response during charging, followed by rapid multiple actions that ignore actual touch commands. [e97889031da1_0]\nA reviewer reports the phone arrived with a ghost touch issue where it makes movements on its own without the screen being touched. [26deef7702ed_0]\nOne reviewer of a second-hand iPhone X says touching one place causes different areas of the screen to be touched at the same time, making typing impossible. [18301d17e72d_0]\nA reviewer who received a refurbished unit says the touch screen had a dead area that prevented setting up the phone. [be23d8712de6_0]\nAnother reviewer describes the touch screen as too sensitive, with typing adding the same letter numerous times. [27c886f7123e_0]",
+  "draft_answer": "One reviewer reports that while the iPhone X is charging, portions of the screen, usually the upper corners, do not respond to touch. [e97889031da1_0]\nThe same reviewer describes greatly delayed touch response during charging, followed by rapid multiple actions that ignore actual touch commands. [e97889031da1_0]\nA reviewer reports the phone arrived with a ghost touch issue where it makes movements on its own without the screen being touched. [26deef7702ed_0]\nOne reviewer of a second-hand iPhone X says touching one place causes different areas of the screen to be touched at the same time, making typing impossible. [18301d17e72d_0]\nA reviewer who received a refurbished unit says the touch screen had a dead area that prevented setting up the phone. [be23d8712de6_0]\nAnother reviewer describes the touch screen as too sensitive, with typing adding the same letter numerous times. [27c886f7123e_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reports that while the iPhone X is charging, portions of the screen, usually the upper corners, do not respond to touch.",
+      "citations": [
+        "e97889031da1_0"
+      ]
+    },
+    {
+      "text": "The same reviewer describes greatly delayed touch response during charging, followed by rapid multiple actions that ignore actual touch commands.",
+      "citations": [
+        "e97889031da1_0"
+      ]
+    },
+    {
+      "text": "A reviewer reports the phone arrived with a ghost touch issue where it makes movements on its own without the screen being touched.",
+      "citations": [
+        "26deef7702ed_0"
+      ]
+    },
+    {
+      "text": "One reviewer of a second-hand iPhone X says touching one place causes different areas of the screen to be touched at the same time, making typing impossible.",
+      "citations": [
+        "18301d17e72d_0"
+      ]
+    },
+    {
+      "text": "A reviewer who received a refurbished unit says the touch screen had a dead area that prevented setting up the phone.",
+      "citations": [
+        "be23d8712de6_0"
+      ]
+    },
+    {
+      "text": "Another reviewer describes the touch screen as too sensitive, with typing adding the same letter numerous times.",
+      "citations": [
+        "27c886f7123e_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reports that while the iPhone X is charging, portions of the screen, usually the upper corners, do not respond to touch.",
+      "citations": [
+        "e97889031da1_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "The same reviewer describes greatly delayed touch response during charging, followed by rapid multiple actions that ignore actual touch commands.",
+      "citations": [
+        "e97889031da1_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer reports the phone arrived with a ghost touch issue where it makes movements on its own without the screen being touched.",
+      "citations": [
+        "26deef7702ed_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer of a second-hand iPhone X says touching one place causes different areas of the screen to be touched at the same time, making typing impossible.",
+      "citations": [
+        "18301d17e72d_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who received a refurbished unit says the touch screen had a dead area that prevented setting up the phone.",
+      "citations": [
+        "be23d8712de6_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer describes the touch screen as too sensitive, with typing adding the same letter numerous times.",
+      "citations": [
+        "27c886f7123e_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reports that while the iPhone X is charging, portions of the screen, usually the upper corners, do not respond to touch.",
+      "citations": [
+        "e97889031da1_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "The same reviewer describes greatly delayed touch response during charging, followed by rapid multiple actions that ignore actual touch commands.",
+      "citations": [
+        "e97889031da1_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer reports the phone arrived with a ghost touch issue where it makes movements on its own without the screen being touched.",
+      "citations": [
+        "26deef7702ed_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer of a second-hand iPhone X says touching one place causes different areas of the screen to be touched at the same time, making typing impossible.",
+      "citations": [
+        "18301d17e72d_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who received a refurbished unit says the touch screen had a dead area that prevented setting up the phone.",
+      "citations": [
+        "be23d8712de6_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer describes the touch screen as too sensitive, with typing adding the same letter numerous times.",
+      "citations": [
+        "27c886f7123e_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "e97889031da1_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Portions of the screen not responding to touch",
+        "Greatly delayed response to touch"
+      ],
+      "reason": "Describes touchscreen malfunctioning while charging, a display defect.",
+      "doc_id": "e97889031da1",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "724f6d4a3946_1",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Lists Bluetooth, cable, call, freezing issues; no display aspect discussed.",
+      "doc_id": "724f6d4a3946",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "26deef7702ed_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the iPhone X some times does movements on its own without you touching the screen"
+      ],
+      "reason": "Ghost touch issue attributed to the iPhone X display.",
+      "doc_id": "26deef7702ed",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "18301d17e72d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "different areas of the screen is touched at the same time"
+      ],
+      "reason": "Damaged touchscreen causing unusable display behavior.",
+      "doc_id": "18301d17e72d",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "be23d8712de6_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the touch screen had a dead area"
+      ],
+      "reason": "Dead touchscreen area on refurbished unit; display defect.",
+      "doc_id": "be23d8712de6",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "d764eaa0fe39_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Vague mention of issues and refund; no display aspect discussed.",
+      "doc_id": "d764eaa0fe39",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "07d6df88da93_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "came with screen burn in",
+        "the keyboard was burned in"
+      ],
+      "reason": "Screen burn-in and scratches on the display.",
+      "doc_id": "07d6df88da93",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "27c886f7123e_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Touch screen way to sensitive",
+        "it would add the same letter numerous times"
+      ],
+      "reason": "Overly sensitive touchscreen causing typing errors.",
+      "doc_id": "27c886f7123e",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "b2590216972e_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "defective display module",
+        "the whole top inch of my touch screen does not work"
+      ],
+      "reason": "Defective display module with nonfunctional touchscreen area.",
+      "doc_id": "b2590216972e",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "cc4967ade82e_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "screen went out"
+      ],
+      "reason": "Screen failed after a month, a display defect.",
+      "doc_id": "cc4967ade82e",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 8,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 0,
+        "negative": 8,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.0,
+      "polarized_denominator": 8
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "e97889031da1_0",
+      "doc_id": "e97889031da1",
+      "text": "Unexpected Touchscreen Issues. While the iPhone X provides numerous features that are improvements over the previous models, it exhibits some problems with touchscreen functioning while the battery is charging. This results in one of two undesired behaviors: 1) Portions of the screen not responding to touch. This is usually in the upper corners. 2) Greatly delayed response to touch such that the screen does not appear to respond at all followed by periods where the screen seems to be under the control of some outside force because multiple actions take place in rapid succession that completely ignore any actual touch commands being made in the moment. Best response is achieved by limiting interaction while the phone is charging.",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "724f6d4a3946_1",
+      "doc_id": "724f6d4a3946",
+      "text": "The new iphone X keeps having Bluetooth issues, cable connection issues, phone call issues, freezing issues etc. I am very disappointed and I am giving this just as feedback... not asking for anything ... maybe just better future products/updates. I posted the same review on the Apple site and this is what I received in an email from them: \"We’ve removed your post My second iPhone X (after the 1st one had a green screen) because it contained either feedback or a feature request that was not constructive.\" Really Apple?",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B075QMZH2L"
+    },
+    {
+      "chunk_id": "26deef7702ed_0",
+      "doc_id": "26deef7702ed",
+      "text": "Ghost touch issue when first received. The phone is good it just came with the ghost touch issue. For those that don’t know the iPhone X some times does movements on its own without you touching the screen. I’ve tried everything and nothing seems to work. I’ve emailed about a replacement but I’ve haven’t gotten a response yet",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "18301d17e72d_0",
+      "doc_id": "18301d17e72d",
+      "text": "Damaged screen touch. I bought a second hand iPhone X and it came damages, tje touchscreen is not working properly, it's like when I touch one place different areas of the screen is touched at the same time which makes impossible to use the phone, if I try to type my email to set it up, it presses random keys at the same time making it impossible to use it. And I bought it while I was in the USA for a few days and now I'm back to my country with a very expensive piece of brick.",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "be23d8712de6_0",
+      "doc_id": "be23d8712de6",
+      "text": "Refurbished Dud. I don't think the iPhone X is a bad phone overall, I just got a bad refurbished one from Trademore Mobile. It looked brand new but the touch screen had a dead area so I was never able to even set up the phone.",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B07758RMKD"
+    },
+    {
+      "chunk_id": "d764eaa0fe39_0",
+      "doc_id": "d764eaa0fe39",
+      "text": "iPhone X defective. We’ve had issues with the phone & have mailed back for a refund.",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "07d6df88da93_0",
+      "doc_id": "07d6df88da93",
+      "text": "iPhone X Bad Screen. My iPhone X 256gb came with screen burn in I could instantly see the keyboard was burned in along with some some light scratches but there was 2 deep scratches that resembled cracks...",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "27c886f7123e_0",
+      "doc_id": "27c886f7123e",
+      "text": "I phone X. Had several problems. Touch screen way to sensitive. When typing it would add the same letter numerous times. Phone quit accepting inbound calls and went to wrong voicemail when called. Outbound calls worked great. Phone would Not power up at times. One instance took 8 hours before it would finally power up",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "b2590216972e_0",
+      "doc_id": "b2590216972e",
+      "text": "defective touchscreen. Worst iphone purchase i’ve gotten on here. not only does the battery not last but i got a device with a defective display module. which basically means the whole top inch of my touch screen does not work. do not waste your money. it’s going to cost you more in the long run.",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "cc4967ade82e_0",
+      "doc_id": "cc4967ade82e",
+      "text": "iPhone X was built with issues. Upgrade or downgrade. Worked great for a month then screen went out",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    }
+  ],
+  "contexts": [
+    "Unexpected Touchscreen Issues. While the iPhone X provides numerous features that are improvements over the previous models, it exhibits some problems with touchscreen functioning while the battery is charging. This results in one of two undesired behaviors: 1) Portions of the screen not responding to touch. This is usually in the upper corners. 2) Greatly delayed response to touch such that the screen does not appear to respond at all followed by periods where the screen seems to be under the control of some outside force because multiple actions take place in rapid succession that completely ignore any actual touch commands being made in the moment. Best response is achieved by limiting interaction while the phone is charging.",
+    "The new iphone X keeps having Bluetooth issues, cable connection issues, phone call issues, freezing issues etc. I am very disappointed and I am giving this just as feedback... not asking for anything ... maybe just better future products/updates. I posted the same review on the Apple site and this is what I received in an email from them: \"We’ve removed your post My second iPhone X (after the 1st one had a green screen) because it contained either feedback or a feature request that was not constructive.\" Really Apple?",
+    "Ghost touch issue when first received. The phone is good it just came with the ghost touch issue. For those that don’t know the iPhone X some times does movements on its own without you touching the screen. I’ve tried everything and nothing seems to work. I’ve emailed about a replacement but I’ve haven’t gotten a response yet",
+    "Damaged screen touch. I bought a second hand iPhone X and it came damages, tje touchscreen is not working properly, it's like when I touch one place different areas of the screen is touched at the same time which makes impossible to use the phone, if I try to type my email to set it up, it presses random keys at the same time making it impossible to use it. And I bought it while I was in the USA for a few days and now I'm back to my country with a very expensive piece of brick.",
+    "Refurbished Dud. I don't think the iPhone X is a bad phone overall, I just got a bad refurbished one from Trademore Mobile. It looked brand new but the touch screen had a dead area so I was never able to even set up the phone.",
+    "iPhone X defective. We’ve had issues with the phone & have mailed back for a refund.",
+    "iPhone X Bad Screen. My iPhone X 256gb came with screen burn in I could instantly see the keyboard was burned in along with some some light scratches but there was 2 deep scratches that resembled cracks...",
+    "I phone X. Had several problems. Touch screen way to sensitive. When typing it would add the same letter numerous times. Phone quit accepting inbound calls and went to wrong voicemail when called. Outbound calls worked great. Phone would Not power up at times. One instance took 8 hours before it would finally power up",
+    "defective touchscreen. Worst iphone purchase i’ve gotten on here. not only does the battery not last but i got a device with a defective display module. which basically means the whole top inch of my touch screen does not work. do not waste your money. it’s going to cost you more in the long run.",
+    "iPhone X was built with issues. Upgrade or downgrade. Worked great for a month then screen went out"
+  ],
+  "timing": {
+    "classification_s": 2.8543176999955904,
+    "generation_s": 1.694704500005173,
+    "verification_s": 6.89999433234334e-06,
+    "total_s": 4.549039499994251
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1455,
+        "completion_tokens": 630,
+        "total_tokens": 2085,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1199
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1327,
+        "completion_tokens": 262,
+        "total_tokens": 1589,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1199
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

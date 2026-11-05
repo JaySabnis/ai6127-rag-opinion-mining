@@ -1,0 +1,469 @@
+{
+  "question": "How does user feedback on camera quality compare between the Google Pixel 4a and the Essential PH-1?",
+  "answer": "One Essential PH-1 reviewer compared photos of the same subjects with a friend's Pixel and found that, in all cases where it wasn't a tie, the Pixel took better shots in the same conditions. [e5ed590ea645_11]\nThat same reviewer said the Essential camera was laggy when taking multiple shots, particularly with HDR on. [e5ed590ea645_11]\nAnother Essential PH-1 reviewer described the camera and its supporting software as only average compared to other stock Android experiences, though using the Pixel Camera App improved picture quality substantially. [b02b6a8fa5d9_0]\nOne Essential PH-1 reviewer called the camera bad and said that even using the ported Google Camera APK it was nowhere near Pixel/iPhone quality. [ea3b775ad467_1]\nA different Essential PH-1 reviewer said the camera with all the updates is pretty decent and that GCam ports really boost quality. [a953b349a5a9_0]\nAnother Essential PH-1 reviewer said the modified Google Camera app helps quite a bit but the camera is still not as good as those in flagship phones like the iPhone or Pixel. [dc7c44ec8cfe_6]",
+  "draft_answer": "One Essential PH-1 reviewer compared photos of the same subjects with a friend's Pixel and found that, in all cases where it wasn't a tie, the Pixel took better shots in the same conditions. [e5ed590ea645_11]\nThat same reviewer said the Essential camera was laggy when taking multiple shots, particularly with HDR on. [e5ed590ea645_11]\nAnother Essential PH-1 reviewer described the camera and its supporting software as only average compared to other stock Android experiences, though using the Pixel Camera App improved picture quality substantially. [b02b6a8fa5d9_0]\nOne Essential PH-1 reviewer called the camera bad and said that even using the ported Google Camera APK it was nowhere near Pixel/iPhone quality. [ea3b775ad467_1]\nA different Essential PH-1 reviewer said the camera with all the updates is pretty decent and that GCam ports really boost quality. [a953b349a5a9_0]\nAnother Essential PH-1 reviewer said the modified Google Camera app helps quite a bit but the camera is still not as good as those in flagship phones like the iPhone or Pixel. [dc7c44ec8cfe_6]",
+  "sentences": [
+    {
+      "text": "One Essential PH-1 reviewer compared photos of the same subjects with a friend's Pixel and found that, in all cases where it wasn't a tie, the Pixel took better shots in the same conditions.",
+      "citations": [
+        "e5ed590ea645_11"
+      ]
+    },
+    {
+      "text": "That same reviewer said the Essential camera was laggy when taking multiple shots, particularly with HDR on.",
+      "citations": [
+        "e5ed590ea645_11"
+      ]
+    },
+    {
+      "text": "Another Essential PH-1 reviewer described the camera and its supporting software as only average compared to other stock Android experiences, though using the Pixel Camera App improved picture quality substantially.",
+      "citations": [
+        "b02b6a8fa5d9_0"
+      ]
+    },
+    {
+      "text": "One Essential PH-1 reviewer called the camera bad and said that even using the ported Google Camera APK it was nowhere near Pixel/iPhone quality.",
+      "citations": [
+        "ea3b775ad467_1"
+      ]
+    },
+    {
+      "text": "A different Essential PH-1 reviewer said the camera with all the updates is pretty decent and that GCam ports really boost quality.",
+      "citations": [
+        "a953b349a5a9_0"
+      ]
+    },
+    {
+      "text": "Another Essential PH-1 reviewer said the modified Google Camera app helps quite a bit but the camera is still not as good as those in flagship phones like the iPhone or Pixel.",
+      "citations": [
+        "dc7c44ec8cfe_6"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One Essential PH-1 reviewer compared photos of the same subjects with a friend's Pixel and found that, in all cases where it wasn't a tie, the Pixel took better shots in the same conditions.",
+      "citations": [
+        "e5ed590ea645_11"
+      ],
+      "status": "supported",
+      "reason": "引文明确提到该评测者与朋友的Pixel对比同一主体照片，在非平局情况下Pixel在相同条件下拍得更好。",
+      "evidence": [
+        {
+          "chunk_id": "e5ed590ea645_11",
+          "quote": "I compared pictures of the same subjects with a friend who has a Pixel (currently considered by many the best camera phone out there), and it was no contest: In all cases where it wasn't a tie, the Pixel took better shots in the same conditions."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "That same reviewer said the Essential camera was laggy when taking multiple shots, particularly with HDR on.",
+      "citations": [
+        "e5ed590ea645_11"
+      ],
+      "status": "supported",
+      "reason": "引文直接说明Essential相机连拍时相当卡顿，尤其开启HDR时。",
+      "evidence": [
+        {
+          "chunk_id": "e5ed590ea645_11",
+          "quote": "The Essential camera was pretty laggy in taking multiple shots, particularly with HDR on."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "Another Essential PH-1 reviewer described the camera and its supporting software as only average compared to other stock Android experiences, though using the Pixel Camera App improved picture quality substantially.",
+      "citations": [
+        "b02b6a8fa5d9_0"
+      ],
+      "status": "supported",
+      "reason": "引文称相机及配套软件相比其他原生安卓体验仅属一般，且使用Pixel相机应用显著提升画质。",
+      "evidence": [
+        {
+          "chunk_id": "b02b6a8fa5d9_0",
+          "quote": "True, the Camera and its supporting software is only average when compared to any other stock Android experience"
+        },
+        {
+          "chunk_id": "b02b6a8fa5d9_0",
+          "quote": "Just using the Pixel Camera App improved picture quality substantially."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s3",
+      "text": "One Essential PH-1 reviewer called the camera bad and said that even using the ported Google Camera APK it was nowhere near Pixel/iPhone quality.",
+      "citations": [
+        "ea3b775ad467_1"
+      ],
+      "status": "supported",
+      "reason": "引文称相机很糟，即使使用移植的Google Camera APK也远不及Pixel/iPhone水准。",
+      "evidence": [
+        {
+          "chunk_id": "ea3b775ad467_1",
+          "quote": "- camera. It's bad, really bad. Even using the ported Google Camera APK, it's nowhere near Pixel/iPhone quality."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "A different Essential PH-1 reviewer said the camera with all the updates is pretty decent and that GCam ports really boost quality.",
+      "citations": [
+        "a953b349a5a9_0"
+      ],
+      "status": "supported",
+      "reason": "引文称经过所有更新后相机相当不错，并建议找GCam移植版以真正提升画质。",
+      "evidence": [
+        {
+          "chunk_id": "a953b349a5a9_0",
+          "quote": "Camera with all the updates is pretty decent. If you want, go find the GCam ports (Google Pixel camera) on XDA Developers or /r/essential to really boost the quality."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "Another Essential PH-1 reviewer said the modified Google Camera app helps quite a bit but the camera is still not as good as those in flagship phones like the iPhone or Pixel.",
+      "citations": [
+        "dc7c44ec8cfe_6"
+      ],
+      "status": "supported",
+      "reason": "引文称安装修改版Google Camera应用对相机表现帮助不小，但仍不如iPhone或Pixel等旗舰手机相机。",
+      "evidence": [
+        {
+          "chunk_id": "dc7c44ec8cfe_6",
+          "quote": "I have installed a modified version of the Google Camera app and that does seem to help quite a bit with camera performance. It's still not as good as the cameras you might find in flagship phones like the iPhone or Pixel"
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "e5ed590ea645_11",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "The pictures were all generally very good in good lighting",
+        "once the lighting was less than good... they were all over the place",
+        "the Pixel took better shots",
+        "The Essential camera was pretty laggy",
+        "the camera wasn't hideous"
+      ],
+      "reason": "Praises good-light photos but criticizes low-light, lag, and inferiority to Pixel.",
+      "doc_id": "e5ed590ea645",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "b02b6a8fa5d9_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "the Camera and its supporting software is only average",
+        "Just using the Pixel Camera App improved picture quality substantially"
+      ],
+      "reason": "Calls camera average but notes improvement with Pixel app and updates.",
+      "doc_id": "b02b6a8fa5d9",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "d6a25fd06571_3",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "Those who have complained about camera quality and camera speed",
+        "the best camera isn't a high requirement for me"
+      ],
+      "reason": "Acknowledges others' camera complaints but expresses no own opinion on camera quality.",
+      "doc_id": "d6a25fd06571",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "7a06d2d26ffd_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "the controversial camera",
+        "the Pixel 2 has a wonderful camera",
+        "noticeable differences in the low-light picture quality and the camera speed"
+      ],
+      "reason": "Notes Essential camera inferior to Pixel 2 in low-light and speed, but accepts it.",
+      "doc_id": "7a06d2d26ffd",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "e13b4a8e4583_3",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "Very basic, but constant software updates",
+        "It lacks features like panorama mode"
+      ],
+      "reason": "Praises portrait mode and updates but criticizes basic app and missing features.",
+      "doc_id": "e13b4a8e4583",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "9a736d00502c_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Google camera app is miles above better than the Essential Camera Software/app",
+        "If somehow Essential could make their camera software excellent",
+        "better camera apps in some of the low end market phones"
+      ],
+      "reason": "Criticizes Essential camera software as far inferior to Google's app.",
+      "doc_id": "9a736d00502c",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "a953b349a5a9_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Camera with all the updates is pretty decent"
+      ],
+      "reason": "Calls camera decent with updates, recommends GCam for improvement.",
+      "doc_id": "a953b349a5a9",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "ea3b775ad467_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "It's bad, really bad",
+        "nowhere near Pixel/iPhone quality",
+        "The essential camera app is just horrible"
+      ],
+      "reason": "Strongly criticizes camera quality and Essential camera app.",
+      "doc_id": "ea3b775ad467",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "dc7c44ec8cfe_6",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "does seem to help quite a bit with camera performance",
+        "still not as good as the cameras you might find in flagship phones",
+        "still good enough for most daily users"
+      ],
+      "reason": "Notes camera below flagships but adequate for daily users.",
+      "doc_id": "dc7c44ec8cfe",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "3cc48a91870c_3",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "more than fine for taking photos",
+        "takes better pictures than my old 6P or old iphone 6 Plus",
+        "not $400-$600 bucks better"
+      ],
+      "reason": "Satisfied with photos, better than older phones, good value vs flagships.",
+      "doc_id": "3cc48a91870c",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 2,
+        "negative": 2,
+        "mixed": 5,
+        "neutral": 1
+      },
+      "positive_ratio": 0.2,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5,
+      "polarized_denominator": 4
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "e5ed590ea645_11",
+      "doc_id": "e5ed590ea645",
+      "text": "The pictures were all generally very good in good lighting. But once the lighting was less than good... they were all over the place--some good, some fuzzy, few outstanding. I compared pictures of the same subjects with a friend who has a Pixel (currently considered by many the best camera phone out there), and it was no contest: In all cases where it wasn't a tie, the Pixel took better shots in the same conditions. The Pixel was also considerably faster in processing pictures. The Essential camera was pretty laggy in taking multiple shots, particularly with HDR on. Reading various information on the Web, there were numerous reports that the camera quality improved with updates so I made sure I had the latest camera update. I did. And the camera wasn't hideous. I mean, this would be considered very good quality relative to phones from a few generations ago.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "b02b6a8fa5d9_0",
+      "doc_id": "b02b6a8fa5d9",
+      "text": "We're reviewing it all wrong... Its just the beginning.. Previously a Pixel XL user; I find the build quality, fit and finish, to be superior in all respects. (The manufacturing tolerances must be measured in the .001 range.) It is impressive under magnification. True, the Camera and its supporting software is only average when compared to any other stock Android experience, but Essential has proven their commitment by promptly updating the device firmware to resolve initial release issues. Just using the Pixel Camera App improved picture quality substantially. Think of the Essential PH-1 as the new Sony PlayStation 5, rushed to the public with only 1 or two game titles, Pong being one of them; yes, it would disappointment, but given time to refine and update the release of new software and it will blow everything out of the water because the Hardware is \"there\"...",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "d6a25fd06571_3",
+      "doc_id": "d6a25fd06571",
+      "text": "Running as pure Android as you will find (Pixel isn't pure AOSP Android anymore like Nexus was), everything is generally smooth and fast. Having the latest Snapdragon 835 will do that and a 2017 standard for RAM at 4GB is also good enough for most anything you want to throw at it. Those who have complained about camera quality and camera speed, I will say first off that I am not a heavy camera user on a smartphone, only taking pictures on occasion so the best camera isn't a high requirement for me, if it is to you, you may want to look at the LG V30 or the S8/S8+, Pixel or iPhone.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "7a06d2d26ffd_0",
+      "doc_id": "7a06d2d26ffd",
+      "text": "I am happy with returning my Pixel 2 in a few days. I've been using the Essential Phone for close to a month now, and am currently reviewing it after receiving my Pixel 2 phone a few days ago to test both. After playing around with the controversial camera on both devices, I am happy with returning my Pixel 2 in a few days. Make no mistake, the Pixel 2 has a wonderful camera. Even after sideloading the Google Camera app on to the Essential Phone, there were still noticeable differences in the low-light picture quality and the camera speed. I even compared them both with the iPhone X, and the Pixel 2 still arguably came out on top. But aside from that, I can't say that the Pixel 2 has anything else that I don't get with the Essential Phone, personally.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "e13b4a8e4583_3",
+      "doc_id": "e13b4a8e4583",
+      "text": "Much stronger than standard aluminum or steel frames. The plastic antenna lines and the trim (that protects your screen) are colored (not painted) and thus won't loose their color from wear and tear. CAMERA Very basic, but constant software updates by Essential bring more and more functionality. A portrait mode (background blur) was recently introduced and it works very good. The rest of the camera app is very basic with virtually no settings and limited manual controls: - Good user experience (for example there are no integrated half-baked editor and gallery but links from the camera app to the excellent Google Photos app editor and gallery). It lacks features like panorama mode or something like the AI post-processing on Pixel phones, but you can install the Google camera app with full HDR+ compatibility. Unfortunately only the stock camera app can use the monochrome sensor for enhanced low-light shots.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "9a736d00502c_0",
+      "doc_id": "9a736d00502c",
+      "text": "Build, everything besides camera, is awesome 😎👍. I have a Pixel 2 XL, but I have been really enjoying and using this lately because it's just perfect size and it's not that much smaller screen than my Pixel. So I'm cheating on my Pixel and it's currently in my drawer for the moment shushing face I also have downloaded or side-loaded a modded Google camera app. I have to say the Google camera app is miles above better than the Essential Camera Software/app. If somehow Essential could make their camera software excellent it would be a top-notch phone. No pun intended. It's a shame because it's such a awesome phone. But it is pretty tough when there are better camera apps in some of the low end market phones. I keep saying \"camera app\" because it's not the camera itself FYI.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "a953b349a5a9_0",
+      "doc_id": "a953b349a5a9",
+      "text": "Fast, spectacular user interface on Android Oreo.. This phone is gorgeous. I've yet to run into any issues. UI is super smooth (on both Nougat and Oreo beta), the screen is absolutely killer. Android Oreo looks fantastic on this display. Camera with all the updates is pretty decent. If you want, go find the GCam ports (Google Pixel camera) on XDA Developers or /r/essential to really boost the quality. It's amazing how well that app does with just software (it uses only a single camera). For $450? It's a complete no-brainer unless you really, really want the best camera on the market. Stick with the big guns if you want that (Pixel 2, iPhone X, etc).",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "ea3b775ad467_1",
+      "doc_id": "ea3b775ad467",
+      "text": "Data speeds were also considerably higher on the Pixel. For this reason alone, if you're on T-Mobile, I would avoid this phone and look elsewhere. - touch scrolling. They said they \"fixed\" this with the most recent update. Nope. If you hold down your finger while scrolling, it's very jittery. It feels like you're scrolling with a mouse wheel and the screen jumps around instead of smoothly scrolling. You would think it's not a huge deal, but it gets annoying VERY quickly. - camera. It's bad, really bad. Even using the ported Google Camera APK, it's nowhere near Pixel/iPhone quality. But I guess that's okay now since this phone is considerably cheaper than those. The essential camera app is just horrible, download the Google Camera immediately.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "dc7c44ec8cfe_6",
+      "doc_id": "dc7c44ec8cfe",
+      "text": "It has a few minor drawbacks but overall I am very satisfied with my purchase. I have installed a modified version of the Google Camera app and that does seem to help quite a bit with camera performance. It's still not as good as the cameras you might find in flagship phones like the iPhone or Pixel, but in my opinion it's still good enough for most daily users.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "3cc48a91870c_3",
+      "doc_id": "3cc48a91870c",
+      "text": "You can also load a patched version of the Google pixel camera app. I'm used to that so mostly using the Google port now. You can read about it on xda-developers.com. I've found both are more than fine for taking photos that I would enjoy by looking at them on a screen instead of in print. I think it takes better pictures than my old 6P or old iphone 6 Plus when I compare. I think the new iphone and the new pixel do a bit better - but from my perspective, not $400-$600 bucks better. If you make your living with cell phone pictures then spend double. NFC reader is on the bottom where the only real bezel is. Speaker is good. Hole for mic is very near the hole for the sim so put your pin in the correct one when installing sim.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    }
+  ],
+  "contexts": [
+    "The pictures were all generally very good in good lighting. But once the lighting was less than good... they were all over the place--some good, some fuzzy, few outstanding. I compared pictures of the same subjects with a friend who has a Pixel (currently considered by many the best camera phone out there), and it was no contest: In all cases where it wasn't a tie, the Pixel took better shots in the same conditions. The Pixel was also considerably faster in processing pictures. The Essential camera was pretty laggy in taking multiple shots, particularly with HDR on. Reading various information on the Web, there were numerous reports that the camera quality improved with updates so I made sure I had the latest camera update. I did. And the camera wasn't hideous. I mean, this would be considered very good quality relative to phones from a few generations ago.",
+    "We're reviewing it all wrong... Its just the beginning.. Previously a Pixel XL user; I find the build quality, fit and finish, to be superior in all respects. (The manufacturing tolerances must be measured in the .001 range.) It is impressive under magnification. True, the Camera and its supporting software is only average when compared to any other stock Android experience, but Essential has proven their commitment by promptly updating the device firmware to resolve initial release issues. Just using the Pixel Camera App improved picture quality substantially. Think of the Essential PH-1 as the new Sony PlayStation 5, rushed to the public with only 1 or two game titles, Pong being one of them; yes, it would disappointment, but given time to refine and update the release of new software and it will blow everything out of the water because the Hardware is \"there\"...",
+    "Running as pure Android as you will find (Pixel isn't pure AOSP Android anymore like Nexus was), everything is generally smooth and fast. Having the latest Snapdragon 835 will do that and a 2017 standard for RAM at 4GB is also good enough for most anything you want to throw at it. Those who have complained about camera quality and camera speed, I will say first off that I am not a heavy camera user on a smartphone, only taking pictures on occasion so the best camera isn't a high requirement for me, if it is to you, you may want to look at the LG V30 or the S8/S8+, Pixel or iPhone.",
+    "I am happy with returning my Pixel 2 in a few days. I've been using the Essential Phone for close to a month now, and am currently reviewing it after receiving my Pixel 2 phone a few days ago to test both. After playing around with the controversial camera on both devices, I am happy with returning my Pixel 2 in a few days. Make no mistake, the Pixel 2 has a wonderful camera. Even after sideloading the Google Camera app on to the Essential Phone, there were still noticeable differences in the low-light picture quality and the camera speed. I even compared them both with the iPhone X, and the Pixel 2 still arguably came out on top. But aside from that, I can't say that the Pixel 2 has anything else that I don't get with the Essential Phone, personally.",
+    "Much stronger than standard aluminum or steel frames. The plastic antenna lines and the trim (that protects your screen) are colored (not painted) and thus won't loose their color from wear and tear. CAMERA Very basic, but constant software updates by Essential bring more and more functionality. A portrait mode (background blur) was recently introduced and it works very good. The rest of the camera app is very basic with virtually no settings and limited manual controls: - Good user experience (for example there are no integrated half-baked editor and gallery but links from the camera app to the excellent Google Photos app editor and gallery). It lacks features like panorama mode or something like the AI post-processing on Pixel phones, but you can install the Google camera app with full HDR+ compatibility. Unfortunately only the stock camera app can use the monochrome sensor for enhanced low-light shots.",
+    "Build, everything besides camera, is awesome 😎👍. I have a Pixel 2 XL, but I have been really enjoying and using this lately because it's just perfect size and it's not that much smaller screen than my Pixel. So I'm cheating on my Pixel and it's currently in my drawer for the moment shushing face I also have downloaded or side-loaded a modded Google camera app. I have to say the Google camera app is miles above better than the Essential Camera Software/app. If somehow Essential could make their camera software excellent it would be a top-notch phone. No pun intended. It's a shame because it's such a awesome phone. But it is pretty tough when there are better camera apps in some of the low end market phones. I keep saying \"camera app\" because it's not the camera itself FYI.",
+    "Fast, spectacular user interface on Android Oreo.. This phone is gorgeous. I've yet to run into any issues. UI is super smooth (on both Nougat and Oreo beta), the screen is absolutely killer. Android Oreo looks fantastic on this display. Camera with all the updates is pretty decent. If you want, go find the GCam ports (Google Pixel camera) on XDA Developers or /r/essential to really boost the quality. It's amazing how well that app does with just software (it uses only a single camera). For $450? It's a complete no-brainer unless you really, really want the best camera on the market. Stick with the big guns if you want that (Pixel 2, iPhone X, etc).",
+    "Data speeds were also considerably higher on the Pixel. For this reason alone, if you're on T-Mobile, I would avoid this phone and look elsewhere. - touch scrolling. They said they \"fixed\" this with the most recent update. Nope. If you hold down your finger while scrolling, it's very jittery. It feels like you're scrolling with a mouse wheel and the screen jumps around instead of smoothly scrolling. You would think it's not a huge deal, but it gets annoying VERY quickly. - camera. It's bad, really bad. Even using the ported Google Camera APK, it's nowhere near Pixel/iPhone quality. But I guess that's okay now since this phone is considerably cheaper than those. The essential camera app is just horrible, download the Google Camera immediately.",
+    "It has a few minor drawbacks but overall I am very satisfied with my purchase. I have installed a modified version of the Google Camera app and that does seem to help quite a bit with camera performance. It's still not as good as the cameras you might find in flagship phones like the iPhone or Pixel, but in my opinion it's still good enough for most daily users.",
+    "You can also load a patched version of the Google pixel camera app. I'm used to that so mostly using the Google port now. You can read about it on xda-developers.com. I've found both are more than fine for taking photos that I would enjoy by looking at them on a screen instead of in print. I think it takes better pictures than my old 6P or old iphone 6 Plus when I compare. I think the new iphone and the new pixel do a bit better - but from my perspective, not $400-$600 bucks better. If you make your living with cell phone pictures then spend double. NFC reader is on the bottom where the only real bezel is. Speaker is good. Hole for mic is very near the hole for the sim so put your pin in the correct one when installing sim."
+  ],
+  "timing": {
+    "classification_s": 3.742786299997533,
+    "generation_s": 1.9192700999992667,
+    "verification_s": 2.7421538999988115,
+    "total_s": 8.404226200000267
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2338,
+        "completion_tokens": 857,
+        "total_tokens": 3195,
+        "prompt_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "prompt_cache_hit_tokens": 2176,
+        "prompt_cache_miss_tokens": 162
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2220,
+        "completion_tokens": 304,
+        "total_tokens": 2524,
+        "prompt_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "prompt_cache_hit_tokens": 2048,
+        "prompt_cache_miss_tokens": 172
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1853,
+        "completion_tokens": 597,
+        "total_tokens": 2450,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1725
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

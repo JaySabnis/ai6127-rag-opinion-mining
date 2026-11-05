@@ -1,0 +1,467 @@
+{
+  "question": "What is the user feedback on the Essential PH-1 camera?",
+  "answer": "One reviewer reported that within two weeks the PH-1 camera stopped working, leading them to contact Essential for support. [a7ad34b085de_0]\nAnother reviewer said the camera is good, though they had to send the phone back because of connectivity issues. [5b5c7a94d2b0_0]\nOne reviewer described the camera quality as pretty decent, not as bad as the initial complaints, and said they had no problems with picture quality for casual use. [b121a8fe60f8_1]\nAnother reviewer said the phone takes incredible shots with the native camera app and that Essential has addressed early release issues. [ec2ec20ff0fb_1]\nOne reviewer stated that the camera app has been greatly improved and performs extremely well compared to the early days of the phone. [6b9bf52cde26_0]\nOne reviewer mentioned being thrilled to get the premium phone including camera for $399 on Black Friday. [f2a18cdaf980_0]",
+  "draft_answer": "One reviewer reported that within two weeks the PH-1 camera stopped working, leading them to contact Essential for support. [a7ad34b085de_0]\nAnother reviewer said the camera is good, though they had to send the phone back because of connectivity issues. [5b5c7a94d2b0_0]\nOne reviewer described the camera quality as pretty decent, not as bad as the initial complaints, and said they had no problems with picture quality for casual use. [b121a8fe60f8_1]\nAnother reviewer said the phone takes incredible shots with the native camera app and that Essential has addressed early release issues. [ec2ec20ff0fb_1]\nOne reviewer stated that the camera app has been greatly improved and performs extremely well compared to the early days of the phone. [6b9bf52cde26_0]\nOne reviewer mentioned being thrilled to get the premium phone including camera for $399 on Black Friday. [f2a18cdaf980_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported that within two weeks the PH-1 camera stopped working, leading them to contact Essential for support.",
+      "citations": [
+        "a7ad34b085de_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said the camera is good, though they had to send the phone back because of connectivity issues.",
+      "citations": [
+        "5b5c7a94d2b0_0"
+      ]
+    },
+    {
+      "text": "One reviewer described the camera quality as pretty decent, not as bad as the initial complaints, and said they had no problems with picture quality for casual use.",
+      "citations": [
+        "b121a8fe60f8_1"
+      ]
+    },
+    {
+      "text": "Another reviewer said the phone takes incredible shots with the native camera app and that Essential has addressed early release issues.",
+      "citations": [
+        "ec2ec20ff0fb_1"
+      ]
+    },
+    {
+      "text": "One reviewer stated that the camera app has been greatly improved and performs extremely well compared to the early days of the phone.",
+      "citations": [
+        "6b9bf52cde26_0"
+      ]
+    },
+    {
+      "text": "One reviewer mentioned being thrilled to get the premium phone including camera for $399 on Black Friday.",
+      "citations": [
+        "f2a18cdaf980_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reported that within two weeks the PH-1 camera stopped working, leading them to contact Essential for support.",
+      "citations": [
+        "a7ad34b085de_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the camera is good, though they had to send the phone back because of connectivity issues.",
+      "citations": [
+        "5b5c7a94d2b0_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer described the camera quality as pretty decent, not as bad as the initial complaints, and said they had no problems with picture quality for casual use.",
+      "citations": [
+        "b121a8fe60f8_1"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the phone takes incredible shots with the native camera app and that Essential has addressed early release issues.",
+      "citations": [
+        "ec2ec20ff0fb_1"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer stated that the camera app has been greatly improved and performs extremely well compared to the early days of the phone.",
+      "citations": [
+        "6b9bf52cde26_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer mentioned being thrilled to get the premium phone including camera for $399 on Black Friday.",
+      "citations": [
+        "f2a18cdaf980_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reported that within two weeks the PH-1 camera stopped working, leading them to contact Essential for support.",
+      "citations": [
+        "a7ad34b085de_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the camera is good, though they had to send the phone back because of connectivity issues.",
+      "citations": [
+        "5b5c7a94d2b0_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer described the camera quality as pretty decent, not as bad as the initial complaints, and said they had no problems with picture quality for casual use.",
+      "citations": [
+        "b121a8fe60f8_1"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the phone takes incredible shots with the native camera app and that Essential has addressed early release issues.",
+      "citations": [
+        "ec2ec20ff0fb_1"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer stated that the camera app has been greatly improved and performs extremely well compared to the early days of the phone.",
+      "citations": [
+        "6b9bf52cde26_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer mentioned being thrilled to get the premium phone including camera for $399 on Black Friday.",
+      "citations": [
+        "f2a18cdaf980_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "a7ad34b085de_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the PH-1 camera stops working"
+      ],
+      "reason": "Reports camera stopped working within two weeks, a criticism of the camera.",
+      "doc_id": "a7ad34b085de",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "5b5c7a94d2b0_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "the camera is good"
+      ],
+      "reason": "Explicitly praises the camera as good.",
+      "doc_id": "5b5c7a94d2b0",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "f2a18cdaf980_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "So thrilled I nabbed this premium phone (including camera) for $399"
+      ],
+      "reason": "Expresses thrill about the premium phone including camera at low price.",
+      "doc_id": "f2a18cdaf980",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "dcc74765b562_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No mention of camera; discusses OS, fit, and replacement.",
+      "doc_id": "dcc74765b562",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "da1de7fb379a_4",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No camera discussion; general praise of the phone.",
+      "doc_id": "da1de7fb379a",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "0db1bea9f4ce_1",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No camera mention; discusses updates and competitors generally.",
+      "doc_id": "0db1bea9f4ce",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "b121a8fe60f8_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The camera quality is pretty decent, definitely not as bad as the initial complaints",
+        "I haven't had any problems with picture quality"
+      ],
+      "reason": "Praises camera quality as decent with no picture quality problems.",
+      "doc_id": "b121a8fe60f8",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "ec2ec20ff0fb_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "It takes incredible shots"
+      ],
+      "reason": "Strongly praises camera shots as incredible.",
+      "doc_id": "ec2ec20ff0fb",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "9236f284545c_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No camera mention; phone stopped running, screen black.",
+      "doc_id": "9236f284545c",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "6b9bf52cde26_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The camera app has been greatly improved and performs extremely well"
+      ],
+      "reason": "Praises camera app improvement and performance.",
+      "doc_id": "6b9bf52cde26",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 6,
+      "n_excluded_aspect_absent": 4,
+      "counts": {
+        "positive": 5,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.8333333333333334,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.8333333333333334,
+      "polarized_denominator": 6
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "a7ad34b085de_0",
+      "doc_id": "a7ad34b085de",
+      "text": "Beware of Essential and how it does business. I am extremely disappointed in the Essential PH-1 phone and the company's support model. I bought the PH-1 phone from Amazon who only sells it via third party resellers as Essential the company does not directly sell their phone through Amazon. Within two weeks, the PH-1 camera stops working so I contacted Essential for support. Keep in mind that Essential sells phones but does not have a phone number to contact them for support. They only communicate through email. I describe the problem to them and they request additional information from me: my name, address, proof of purchase, serial number, etc. After providing them with all the data, they inform me that they will not support me because I bought the phone from a reseller. They said they only support the phone if it is bought directly from Essential and Amazon.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "5b5c7a94d2b0_0",
+      "doc_id": "5b5c7a94d2b0",
+      "text": "Best looking phone. I own an iPhone 6 and like smart watches that look like a regular watch cause i don’t like the Apple Watch got myself a Fossil watch but couldn’t respond to text so I got the essential ph-1 it’s an amazing phone the camera is good I had to send it back because of connectivity issues The PH-1 is the best looking phone on the market today PERIOD so please Essential make the PH-2 folded hands",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "f2a18cdaf980_0",
+      "doc_id": "f2a18cdaf980",
+      "text": "So thrilled I nabbed this premium phone. So thrilled I nabbed this premium phone (including camera) for $399 on Black Friday. Purchased a following glass cover and case for a clean black on black minimalist look: - Essential Phone PH-1 Case, TUDIA [Ceramic Feel] Lightweight [GLOST] TPU Bumper Shock Absorption Cover Featuring [Tempered Glass Back Panel] for Essential Phone PH-1 (Black) Sold by: W2 Corporation - Essential Phone Screen Protector, Tempered Glass Screen Protector [0.3mm] [9H Hardness] [Crystal Clear] for Essential Phone PH-1 pack of 2 Sold by: mocolo88",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "dcc74765b562_0",
+      "doc_id": "dcc74765b562",
+      "text": "essential ph-1 is subtly elegant piece of technology. The essential ph-1 is subtly elegant piece of technology. The android OS works fast and smooth. It fits excellent in the hand and is a perfect replacement to my Nexus 5x. I have switched between multiple different devices this past month to find a permanent replacement under 500 for my previous phone and so far this seems to be it. I'm looking forward to essential home device when it is launched.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "da1de7fb379a_4",
+      "doc_id": "da1de7fb379a",
+      "text": "And in the end you'll be holding what the Essential PH-1 was always meant to be. A love letter to the industry, now at half the price. Hope this helps! Take care!",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "0db1bea9f4ce_1",
+      "doc_id": "0db1bea9f4ce",
+      "text": "Also bear in mind a lot of reviewers tend to parrot older criticisms that predate Essentials many updates. It's quite conceivable that with everything Essential is doing, in a month or two Essential Phone PH-1 could well be as good or better than many of its $1000 competitors.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "b121a8fe60f8_1",
+      "doc_id": "b121a8fe60f8",
+      "text": "The camera quality is pretty decent, definitely not as bad as the initial complaints, and for casual use I haven't had any problems with picture quality. The only 2 caveats I have that make this 4 stars instead of a perfect 5 stars are: 1) the signal reception is sometimes weak, and that is arguably the most important part of a phone; and 2) Essential will probably not exist as a company for much longer in their current form, so although they have committed to updates for a while there is still some doubts about their future. The main competitor to the Essential PH-1 that I considered was the OnePlus 6. The Essential PH-1 has not been a disappointment, and I do not regret choosing this phone. It is very good value, especially when it goes for $300 or less.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "ec2ec20ff0fb_1",
+      "doc_id": "ec2ec20ff0fb",
+      "text": "The folks at Essential have done a great job at addressing the early release issues. I mean, look for yourself at these pictures taken with the native camera app. Do you see anything wrong? No! It takes incredible shots. If you are on ATT and shopping for an unlocked phone that is truly great, look no further than the Essential PH 1. Nuff said.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "9236f284545c_0",
+      "doc_id": "9236f284545c",
+      "text": "In just 12 months. In just 12 months my Essential Phone PH - 1 has stopped running. The screen of the smartphone is black. Even if you press the power button, nothing responds.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    },
+    {
+      "chunk_id": "6b9bf52cde26_0",
+      "doc_id": "6b9bf52cde26",
+      "text": "If you want a pure Android experience, get this phone!. If you are an Android enthusiast, then this phone is for you. It offers a pure Android experience without annoying bloatware and UI overlays found in do many other devices. I have used the Essential PH-1 now for two months and am very satisfied with my decision to go with it. Essential has pushed several updates to the platform that has enhanced performance and stability across nearly all aspects of the phone. The camera app has been greatly improved and performs extremely well compared to the early days of this phone. I have experienced ZERO crashes or feezes through the installed updates. In essence, I recommend the Essential Phone PH-1, especially if you want something different.",
+      "brand": "Essential",
+      "model": "Ph-1",
+      "source_url": "https://www.amazon.com/dp/B07BHGD33F"
+    }
+  ],
+  "contexts": [
+    "Beware of Essential and how it does business. I am extremely disappointed in the Essential PH-1 phone and the company's support model. I bought the PH-1 phone from Amazon who only sells it via third party resellers as Essential the company does not directly sell their phone through Amazon. Within two weeks, the PH-1 camera stops working so I contacted Essential for support. Keep in mind that Essential sells phones but does not have a phone number to contact them for support. They only communicate through email. I describe the problem to them and they request additional information from me: my name, address, proof of purchase, serial number, etc. After providing them with all the data, they inform me that they will not support me because I bought the phone from a reseller. They said they only support the phone if it is bought directly from Essential and Amazon.",
+    "Best looking phone. I own an iPhone 6 and like smart watches that look like a regular watch cause i don’t like the Apple Watch got myself a Fossil watch but couldn’t respond to text so I got the essential ph-1 it’s an amazing phone the camera is good I had to send it back because of connectivity issues The PH-1 is the best looking phone on the market today PERIOD so please Essential make the PH-2 folded hands",
+    "So thrilled I nabbed this premium phone. So thrilled I nabbed this premium phone (including camera) for $399 on Black Friday. Purchased a following glass cover and case for a clean black on black minimalist look: - Essential Phone PH-1 Case, TUDIA [Ceramic Feel] Lightweight [GLOST] TPU Bumper Shock Absorption Cover Featuring [Tempered Glass Back Panel] for Essential Phone PH-1 (Black) Sold by: W2 Corporation - Essential Phone Screen Protector, Tempered Glass Screen Protector [0.3mm] [9H Hardness] [Crystal Clear] for Essential Phone PH-1 pack of 2 Sold by: mocolo88",
+    "essential ph-1 is subtly elegant piece of technology. The essential ph-1 is subtly elegant piece of technology. The android OS works fast and smooth. It fits excellent in the hand and is a perfect replacement to my Nexus 5x. I have switched between multiple different devices this past month to find a permanent replacement under 500 for my previous phone and so far this seems to be it. I'm looking forward to essential home device when it is launched.",
+    "And in the end you'll be holding what the Essential PH-1 was always meant to be. A love letter to the industry, now at half the price. Hope this helps! Take care!",
+    "Also bear in mind a lot of reviewers tend to parrot older criticisms that predate Essentials many updates. It's quite conceivable that with everything Essential is doing, in a month or two Essential Phone PH-1 could well be as good or better than many of its $1000 competitors.",
+    "The camera quality is pretty decent, definitely not as bad as the initial complaints, and for casual use I haven't had any problems with picture quality. The only 2 caveats I have that make this 4 stars instead of a perfect 5 stars are: 1) the signal reception is sometimes weak, and that is arguably the most important part of a phone; and 2) Essential will probably not exist as a company for much longer in their current form, so although they have committed to updates for a while there is still some doubts about their future. The main competitor to the Essential PH-1 that I considered was the OnePlus 6. The Essential PH-1 has not been a disappointment, and I do not regret choosing this phone. It is very good value, especially when it goes for $300 or less.",
+    "The folks at Essential have done a great job at addressing the early release issues. I mean, look for yourself at these pictures taken with the native camera app. Do you see anything wrong? No! It takes incredible shots. If you are on ATT and shopping for an unlocked phone that is truly great, look no further than the Essential PH 1. Nuff said.",
+    "In just 12 months. In just 12 months my Essential Phone PH - 1 has stopped running. The screen of the smartphone is black. Even if you press the power button, nothing responds.",
+    "If you want a pure Android experience, get this phone!. If you are an Android enthusiast, then this phone is for you. It offers a pure Android experience without annoying bloatware and UI overlays found in do many other devices. I have used the Essential PH-1 now for two months and am very satisfied with my decision to go with it. Essential has pushed several updates to the platform that has enhanced performance and stability across nearly all aspects of the phone. The camera app has been greatly improved and performs extremely well compared to the early days of this phone. I have experienced ZERO crashes or feezes through the installed updates. In essence, I recommend the Essential Phone PH-1, especially if you want something different."
+  ],
+  "timing": {
+    "classification_s": 2.541209200004232,
+    "generation_s": 1.6648751000029733,
+    "verification_s": 6.499998562503606e-06,
+    "total_s": 4.206101199997647
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1808,
+        "completion_tokens": 593,
+        "total_tokens": 2401,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1552
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1681,
+        "completion_tokens": 260,
+        "total_tokens": 1941,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1681
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

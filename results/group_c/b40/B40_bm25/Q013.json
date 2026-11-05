@@ -1,0 +1,342 @@
+{
+  "question": "What do owners think of the Samsung Galaxy S10 screen quality?",
+  "answer": "One reviewer described the Samsung Galaxy S10 as easy to read. [55e56927ab70_0]\nAnother reviewer said the phone works as described and that the quality is exceptional. [e70a4e9e122a_0]",
+  "draft_answer": "One reviewer described the Samsung Galaxy S10 as easy to read. [55e56927ab70_0]\nAnother reviewer said the phone works as described and that the quality is exceptional. [e70a4e9e122a_0]",
+  "sentences": [
+    {
+      "text": "One reviewer described the Samsung Galaxy S10 as easy to read.",
+      "citations": [
+        "55e56927ab70_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said the phone works as described and that the quality is exceptional.",
+      "citations": [
+        "e70a4e9e122a_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer described the Samsung Galaxy S10 as easy to read.",
+      "citations": [
+        "55e56927ab70_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the phone works as described and that the quality is exceptional.",
+      "citations": [
+        "e70a4e9e122a_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer described the Samsung Galaxy S10 as easy to read.",
+      "citations": [
+        "55e56927ab70_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the phone works as described and that the quality is exceptional.",
+      "citations": [
+        "e70a4e9e122a_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "2af44dfe1a4b_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Wrong model received; display not discussed.",
+      "doc_id": "2af44dfe1a4b",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "e70a4e9e122a_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General praise; no mention of display.",
+      "doc_id": "e70a4e9e122a",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "7b5b44f5182f_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General quality and performance; display not mentioned.",
+      "doc_id": "7b5b44f5182f",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "028235319a98_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General praise; no display discussion.",
+      "doc_id": "028235319a98",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "55e56927ab70_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Praise for ease of use and functions; display not mentioned.",
+      "doc_id": "55e56927ab70",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "c7f876b73704_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Reliability and syncing; no display aspect.",
+      "doc_id": "c7f876b73704",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "c16093214eb9_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General dissatisfaction; display not discussed.",
+      "doc_id": "c16093214eb9",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "45dff12effbb_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Phone works fine; no display mention.",
+      "doc_id": "45dff12effbb",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "12ae4c389254_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Condition, battery, carrier; display not discussed.",
+      "doc_id": "12ae4c389254",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "a590e4f13b6c_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General satisfaction; no display aspect.",
+      "doc_id": "a590e4f13b6c",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 0,
+      "n_excluded_aspect_absent": 10,
+      "counts": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": null,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": null,
+      "polarized_denominator": 0
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "2af44dfe1a4b_0",
+      "doc_id": "2af44dfe1a4b",
+      "text": "The product no is the same!!. When I buy this product said is a samsung galaxy s10+ and when I get this is a samsung galaxy s10",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "e70a4e9e122a_0",
+      "doc_id": "e70a4e9e122a",
+      "text": "The Samsung Galaxy S10 is a incredible phone. It exceeds my expectations.. The phone works as described and the quality is exceptional. Thank you!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "7b5b44f5182f_0",
+      "doc_id": "7b5b44f5182f",
+      "text": "Galaxy s10 128 gig top quality like new thank you. Thank you for the Samsung Galaxy S10 I read some reviews and I guess they where from a while back but this company has it together I received a quality product activated service today through Verizon and I have had it around 5 days seems to be functioning at peak performance I did select Verizon carrier the phone is a sprint phone but no problems if your hesitant or over thinking it don't good quality company ill use them again thank you again",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "028235319a98_0",
+      "doc_id": "028235319a98",
+      "text": "Perfect condition, works great. LOVE my galaxy S10! I've been a Samsung user for over 10 years and the Galaxy S10 is perfect",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "55e56927ab70_0",
+      "doc_id": "55e56927ab70",
+      "text": "Samsung Galaxy S10 in one awesome phone.. Samsung Galaxy S10 is a fantastic phone, easy to use, easy to read, great functions and charges up quickly. Highly recommend",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "c7f876b73704_0",
+      "doc_id": "c7f876b73704",
+      "text": "Galaxy S10 is more reliable than my iPhone was.. Last summer I bought a Samsung Galaxy laptop computer. This phone, S10, synchs very well with the computer.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "c16093214eb9_0",
+      "doc_id": "c16093214eb9",
+      "text": "Samsung Galaxy s10. I am not happy about the phone",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "45dff12effbb_0",
+      "doc_id": "45dff12effbb",
+      "text": "Samsung galaxy S10. The phone is working fine",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B0BM3F9RK1"
+    },
+    {
+      "chunk_id": "12ae4c389254_0",
+      "doc_id": "12ae4c389254",
+      "text": "Good Price on a Quality Used Galaxy S10. Samsung Galaxy S10. Phone was delivered ahead of schedule. With the exception of a couple of small dings on the bottom edge the phone was in great condition. Battery still had 94% health. I ordered a Verizon version but received an unlocked phone. This did not cause me any problems. I transferred the sim card from my old Verizon Galaxy S7 to the new Galaxy S10 and I was up and running without any delay or need for interaction from Verizon. I used Samsung Smart Switch to transfer all of my content from the old phone. The seller provided a quality generic charger and cable with this purchase. Overall a quality used phone for a reasonable price. Recommended.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "a590e4f13b6c_0",
+      "doc_id": "a590e4f13b6c",
+      "text": "The, Samsung Galaxy S10 (128GB). Hey sports fans. Great Samsung Galaxy phone, the S10 is. Though, a few things I like better on my Galaxy S9, this will get things done. I have a Mint Mobile plan and can say I'm overall happy with everything. Have a very nice day.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    }
+  ],
+  "contexts": [
+    "The product no is the same!!. When I buy this product said is a samsung galaxy s10+ and when I get this is a samsung galaxy s10",
+    "The Samsung Galaxy S10 is a incredible phone. It exceeds my expectations.. The phone works as described and the quality is exceptional. Thank you!",
+    "Galaxy s10 128 gig top quality like new thank you. Thank you for the Samsung Galaxy S10 I read some reviews and I guess they where from a while back but this company has it together I received a quality product activated service today through Verizon and I have had it around 5 days seems to be functioning at peak performance I did select Verizon carrier the phone is a sprint phone but no problems if your hesitant or over thinking it don't good quality company ill use them again thank you again",
+    "Perfect condition, works great. LOVE my galaxy S10! I've been a Samsung user for over 10 years and the Galaxy S10 is perfect",
+    "Samsung Galaxy S10 in one awesome phone.. Samsung Galaxy S10 is a fantastic phone, easy to use, easy to read, great functions and charges up quickly. Highly recommend",
+    "Galaxy S10 is more reliable than my iPhone was.. Last summer I bought a Samsung Galaxy laptop computer. This phone, S10, synchs very well with the computer.",
+    "Samsung Galaxy s10. I am not happy about the phone",
+    "Samsung galaxy S10. The phone is working fine",
+    "Good Price on a Quality Used Galaxy S10. Samsung Galaxy S10. Phone was delivered ahead of schedule. With the exception of a couple of small dings on the bottom edge the phone was in great condition. Battery still had 94% health. I ordered a Verizon version but received an unlocked phone. This did not cause me any problems. I transferred the sim card from my old Verizon Galaxy S7 to the new Galaxy S10 and I was up and running without any delay or need for interaction from Verizon. I used Samsung Smart Switch to transfer all of my content from the old phone. The seller provided a quality generic charger and cable with this purchase. Overall a quality used phone for a reasonable price. Recommended.",
+    "The, Samsung Galaxy S10 (128GB). Hey sports fans. Great Samsung Galaxy phone, the S10 is. Though, a few things I like better on my Galaxy S9, this will get things done. I have a Mint Mobile plan and can say I'm overall happy with everything. Have a very nice day."
+  ],
+  "timing": {
+    "classification_s": 2.180036999998265,
+    "generation_s": 0.9116197999974247,
+    "verification_s": 5.099995178170502e-06,
+    "total_s": 3.091669699999329
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1284,
+        "completion_tokens": 484,
+        "total_tokens": 1768,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1028
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1157,
+        "completion_tokens": 71,
+        "total_tokens": 1228,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1157
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

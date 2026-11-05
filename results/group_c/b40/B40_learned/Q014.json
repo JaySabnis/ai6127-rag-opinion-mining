@@ -1,0 +1,485 @@
+{
+  "question": "What screen or touch-response issues do iPhone X reviewers describe?",
+  "answer": "One reviewer reports that while the iPhone X is charging, portions of the screen, usually the upper corners, do not respond to touch. [e97889031da1_0]\nThe same reviewer describes greatly delayed touch response while charging, followed by bursts of multiple actions that ignore actual touch commands. [e97889031da1_0]\nA reviewer reports random touches in one spot on the screen that appeared after the first two days of use. [59003f7d4f69_1]\nOne reviewer says the phone froze at the same setup point and the touch screen stopped working, requiring a force shutdown and restart. [294f5bc90924_0]\nA reviewer of the 256G iPhone reports the touch screen received ghost clicks and made the phone nearly impossible to use. [f947ac7033cc_0]\nOther reviewers describe the touch screen becoming completely unresponsive after a few days or arriving unresponsive and non-functional. [e7f1a3d1705d_0] [847f56d9d7c0_0] [87f6083d47ba_0]",
+  "draft_answer": "One reviewer reports that while the iPhone X is charging, portions of the screen, usually the upper corners, do not respond to touch. [e97889031da1_0]\nThe same reviewer describes greatly delayed touch response while charging, followed by bursts of multiple actions that ignore actual touch commands. [e97889031da1_0]\nA reviewer reports random touches in one spot on the screen that appeared after the first two days of use. [59003f7d4f69_1]\nOne reviewer says the phone froze at the same setup point and the touch screen stopped working, requiring a force shutdown and restart. [294f5bc90924_0]\nA reviewer of the 256G iPhone reports the touch screen received ghost clicks and made the phone nearly impossible to use. [f947ac7033cc_0]\nOther reviewers describe the touch screen becoming completely unresponsive after a few days or arriving unresponsive and non-functional. [e7f1a3d1705d_0] [847f56d9d7c0_0] [87f6083d47ba_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reports that while the iPhone X is charging, portions of the screen, usually the upper corners, do not respond to touch.",
+      "citations": [
+        "e97889031da1_0"
+      ]
+    },
+    {
+      "text": "The same reviewer describes greatly delayed touch response while charging, followed by bursts of multiple actions that ignore actual touch commands.",
+      "citations": [
+        "e97889031da1_0"
+      ]
+    },
+    {
+      "text": "A reviewer reports random touches in one spot on the screen that appeared after the first two days of use.",
+      "citations": [
+        "59003f7d4f69_1"
+      ]
+    },
+    {
+      "text": "One reviewer says the phone froze at the same setup point and the touch screen stopped working, requiring a force shutdown and restart.",
+      "citations": [
+        "294f5bc90924_0"
+      ]
+    },
+    {
+      "text": "A reviewer of the 256G iPhone reports the touch screen received ghost clicks and made the phone nearly impossible to use.",
+      "citations": [
+        "f947ac7033cc_0"
+      ]
+    },
+    {
+      "text": "Other reviewers describe the touch screen becoming completely unresponsive after a few days or arriving unresponsive and non-functional.",
+      "citations": [
+        "e7f1a3d1705d_0",
+        "847f56d9d7c0_0",
+        "87f6083d47ba_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reports that while the iPhone X is charging, portions of the screen, usually the upper corners, do not respond to touch.",
+      "citations": [
+        "e97889031da1_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "The same reviewer describes greatly delayed touch response while charging, followed by bursts of multiple actions that ignore actual touch commands.",
+      "citations": [
+        "e97889031da1_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer reports random touches in one spot on the screen that appeared after the first two days of use.",
+      "citations": [
+        "59003f7d4f69_1"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer says the phone froze at the same setup point and the touch screen stopped working, requiring a force shutdown and restart.",
+      "citations": [
+        "294f5bc90924_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer of the 256G iPhone reports the touch screen received ghost clicks and made the phone nearly impossible to use.",
+      "citations": [
+        "f947ac7033cc_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Other reviewers describe the touch screen becoming completely unresponsive after a few days or arriving unresponsive and non-functional.",
+      "citations": [
+        "e7f1a3d1705d_0",
+        "847f56d9d7c0_0",
+        "87f6083d47ba_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reports that while the iPhone X is charging, portions of the screen, usually the upper corners, do not respond to touch.",
+      "citations": [
+        "e97889031da1_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "The same reviewer describes greatly delayed touch response while charging, followed by bursts of multiple actions that ignore actual touch commands.",
+      "citations": [
+        "e97889031da1_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer reports random touches in one spot on the screen that appeared after the first two days of use.",
+      "citations": [
+        "59003f7d4f69_1"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer says the phone froze at the same setup point and the touch screen stopped working, requiring a force shutdown and restart.",
+      "citations": [
+        "294f5bc90924_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer of the 256G iPhone reports the touch screen received ghost clicks and made the phone nearly impossible to use.",
+      "citations": [
+        "f947ac7033cc_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Other reviewers describe the touch screen becoming completely unresponsive after a few days or arriving unresponsive and non-functional.",
+      "citations": [
+        "e7f1a3d1705d_0",
+        "847f56d9d7c0_0",
+        "87f6083d47ba_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "e97889031da1_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "exhibits some problems with touchscreen functioning while the battery is charging",
+        "Portions of the screen not responding to touch"
+      ],
+      "reason": "Describes touchscreen malfunction issues with the iPhone X display.",
+      "doc_id": "e97889031da1",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "59003f7d4f69_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The screen has random touches in this one spot",
+        "had the screen worked properly"
+      ],
+      "reason": "Complains about random touches and screen not working properly.",
+      "doc_id": "59003f7d4f69",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "294f5bc90924_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the touch screen stopped working",
+        "malfunction with the touch screen"
+      ],
+      "reason": "Reports touchscreen malfunction preventing setup.",
+      "doc_id": "294f5bc90924",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "f947ac7033cc_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the touch screen would receive \"ghost clicks\" and made it nearly impossible to use"
+      ],
+      "reason": "Criticizes ghost clicks making the screen nearly unusable.",
+      "doc_id": "f947ac7033cc",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "e7f1a3d1705d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the screen went completely unresponsive"
+      ],
+      "reason": "Reports screen becoming unresponsive.",
+      "doc_id": "e7f1a3d1705d",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "7b5ae8c0b537_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Touch screen does not work properly"
+      ],
+      "reason": "States touchscreen does not work properly.",
+      "doc_id": "7b5ae8c0b537",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "74782d8d3626_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Touch Screen is not Good"
+      ],
+      "reason": "Brief negative opinion of the touchscreen.",
+      "doc_id": "74782d8d3626",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "847f56d9d7c0_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the touch screen was unresponsive",
+        "The touch screen was completely unresponsive"
+      ],
+      "reason": "Reports completely unresponsive touchscreen.",
+      "doc_id": "847f56d9d7c0",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "26deef7702ed_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "came with the ghost touch issue",
+        "does movements on its own without you touching the screen"
+      ],
+      "reason": "Describes ghost touch issue on the screen.",
+      "doc_id": "26deef7702ed",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "87f6083d47ba_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the touch screen doesn't work"
+      ],
+      "reason": "States the touchscreen doesn't work.",
+      "doc_id": "87f6083d47ba",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 0,
+        "negative": 10,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.0,
+      "polarized_denominator": 10
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "e97889031da1_0",
+      "doc_id": "e97889031da1",
+      "text": "Unexpected Touchscreen Issues. While the iPhone X provides numerous features that are improvements over the previous models, it exhibits some problems with touchscreen functioning while the battery is charging. This results in one of two undesired behaviors: 1) Portions of the screen not responding to touch. This is usually in the upper corners. 2) Greatly delayed response to touch such that the screen does not appear to respond at all followed by periods where the screen seems to be under the control of some outside force because multiple actions take place in rapid succession that completely ignore any actual touch commands being made in the moment. Best response is achieved by limiting interaction while the phone is charging.",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "59003f7d4f69_1",
+      "doc_id": "59003f7d4f69",
+      "text": "The Digitizer. The screen has random touches in this one spot and it’s kind of bugging me. The first 2 days I didn’t even see this at all. It was functional and well. But it started having this problem. This would’ve have been a 4 star review had the screen worked properly.",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B07758RMKD"
+    },
+    {
+      "chunk_id": "294f5bc90924_0",
+      "doc_id": "294f5bc90924",
+      "text": "Touch Screen Did Not Work. Unfortunately I was never able to set this phobe up because of a malfunction with the touch screen, and software issues. I did call Kiss Electronics first to get technical support but they said no support was available. At the same point in the setup, while trying to accept or reject the agreement with apple, the phone would freeze, the touch screen stopped working, and the only option was to force shut down and restart again. Unfortunately, without being able to set the phone up it was not usable and needed to be returned/refunded. I would not purchase from Kiss Electronics again, as any reasonable person could have checked this error before the phone was sold.",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "f947ac7033cc_0",
+      "doc_id": "f947ac7033cc",
+      "text": "Touch Screen didnt work with 256G Iphone. Have ordered the 64G iPhone from this page and had no problems, but when I received the 256G iPhone the touch screen would receive \"ghost clicks\" and made it nearly impossible to use. Further research shows that this is most likely a hard ware issue . Kind of a coin toss on the quality you will receive. Waiting for return request to be approved.",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "e7f1a3d1705d_0",
+      "doc_id": "e7f1a3d1705d",
+      "text": "Touch screen unresponsive. i received the phone in excellent condition but after a few days it would respond when i would touch the screen after three days the screen went completely unresponsive",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "7b5ae8c0b537_0",
+      "doc_id": "7b5ae8c0b537",
+      "text": "Phone is having Issues. This phone has had issues for a while and I tried to deal with it but I'm done now. Touch screen does not work properly and issues with the phone operation like texting. Phone has to be turned off almost every time.",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "74782d8d3626_0",
+      "doc_id": "74782d8d3626",
+      "text": "Only Touch Screen. Touch Screen is not Good",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "847f56d9d7c0_0",
+      "doc_id": "847f56d9d7c0",
+      "text": "I did not work because the touch screen was unresponsive despite trying all type of fixes !. The phone looks great, almost brand new BUT it did not work ! The touch screen was completely unresponsive so it could not be set-up and was non-functional. I tried all fixes posted on the internet and even contacted apple, it did NOT work. I am so disappointed that a refurbished, great looking phone was not tested for the basic touch screen functionality !",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "26deef7702ed_0",
+      "doc_id": "26deef7702ed",
+      "text": "Ghost touch issue when first received. The phone is good it just came with the ghost touch issue. For those that don’t know the iPhone X some times does movements on its own without you touching the screen. I’ve tried everything and nothing seems to work. I’ve emailed about a replacement but I’ve haven’t gotten a response yet",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    },
+    {
+      "chunk_id": "87f6083d47ba_0",
+      "doc_id": "87f6083d47ba",
+      "text": "Touch screen doesn't work. [[VIDEOID:552b1150cb2909acd88de753448ff422]] The product is a 7/10, no signs of use, only the back has small white dots and all original components, but, the touch screen doesn't work",
+      "brand": "Apple",
+      "model": "iPhone X",
+      "source_url": "https://www.amazon.com/dp/B08D969C67"
+    }
+  ],
+  "contexts": [
+    "Unexpected Touchscreen Issues. While the iPhone X provides numerous features that are improvements over the previous models, it exhibits some problems with touchscreen functioning while the battery is charging. This results in one of two undesired behaviors: 1) Portions of the screen not responding to touch. This is usually in the upper corners. 2) Greatly delayed response to touch such that the screen does not appear to respond at all followed by periods where the screen seems to be under the control of some outside force because multiple actions take place in rapid succession that completely ignore any actual touch commands being made in the moment. Best response is achieved by limiting interaction while the phone is charging.",
+    "The Digitizer. The screen has random touches in this one spot and it’s kind of bugging me. The first 2 days I didn’t even see this at all. It was functional and well. But it started having this problem. This would’ve have been a 4 star review had the screen worked properly.",
+    "Touch Screen Did Not Work. Unfortunately I was never able to set this phobe up because of a malfunction with the touch screen, and software issues. I did call Kiss Electronics first to get technical support but they said no support was available. At the same point in the setup, while trying to accept or reject the agreement with apple, the phone would freeze, the touch screen stopped working, and the only option was to force shut down and restart again. Unfortunately, without being able to set the phone up it was not usable and needed to be returned/refunded. I would not purchase from Kiss Electronics again, as any reasonable person could have checked this error before the phone was sold.",
+    "Touch Screen didnt work with 256G Iphone. Have ordered the 64G iPhone from this page and had no problems, but when I received the 256G iPhone the touch screen would receive \"ghost clicks\" and made it nearly impossible to use. Further research shows that this is most likely a hard ware issue . Kind of a coin toss on the quality you will receive. Waiting for return request to be approved.",
+    "Touch screen unresponsive. i received the phone in excellent condition but after a few days it would respond when i would touch the screen after three days the screen went completely unresponsive",
+    "Phone is having Issues. This phone has had issues for a while and I tried to deal with it but I'm done now. Touch screen does not work properly and issues with the phone operation like texting. Phone has to be turned off almost every time.",
+    "Only Touch Screen. Touch Screen is not Good",
+    "I did not work because the touch screen was unresponsive despite trying all type of fixes !. The phone looks great, almost brand new BUT it did not work ! The touch screen was completely unresponsive so it could not be set-up and was non-functional. I tried all fixes posted on the internet and even contacted apple, it did NOT work. I am so disappointed that a refurbished, great looking phone was not tested for the basic touch screen functionality !",
+    "Ghost touch issue when first received. The phone is good it just came with the ghost touch issue. For those that don’t know the iPhone X some times does movements on its own without you touching the screen. I’ve tried everything and nothing seems to work. I’ve emailed about a replacement but I’ve haven’t gotten a response yet",
+    "Touch screen doesn't work. [[VIDEOID:552b1150cb2909acd88de753448ff422]] The product is a 7/10, no signs of use, only the back has small white dots and all original components, but, the touch screen doesn't work"
+  ],
+  "timing": {
+    "classification_s": 2.9994344000006095,
+    "generation_s": 1.7820173999934923,
+    "verification_s": 1.2399999832268804e-05,
+    "total_s": 4.781474499999604
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1506,
+        "completion_tokens": 642,
+        "total_tokens": 2148,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 1122
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1378,
+        "completion_tokens": 278,
+        "total_tokens": 1656,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1122
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

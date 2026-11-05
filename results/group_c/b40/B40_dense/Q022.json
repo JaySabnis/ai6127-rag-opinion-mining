@@ -1,0 +1,464 @@
+{
+  "question": "How well does the Moto G Plus (Gen 5) handle everyday apps according to owners?",
+  "answer": "One reviewer described the Moto G Plus (Gen 5) as fast, clear, bright and easy to use with no issues. [6cfbcb8997e3_0]\nA reviewer noted that most apps load in under five seconds on the Moto G5 Plus. [8f75077898bf_0]\nOne owner called the Moto G5 Plus a great phone with lots of storage and said it was fast too. [09ae976f94e4_0]\nA reviewer said the Moto G5 Plus is a whole lot faster than their last phone. [87015bb3a910_0]\nOne reviewer stated that ridewithgps works using Firefox on the Moto G5 Plus. [08a236b2559e_8]\nOne reviewer concluded that the Moto G5 Plus really is not a particularly good phone. [02a0e40c53b6_3]",
+  "draft_answer": "One reviewer described the Moto G Plus (Gen 5) as fast, clear, bright and easy to use with no issues. [6cfbcb8997e3_0]\nA reviewer noted that most apps load in under five seconds on the Moto G5 Plus. [8f75077898bf_0]\nOne owner called the Moto G5 Plus a great phone with lots of storage and said it was fast too. [09ae976f94e4_0]\nA reviewer said the Moto G5 Plus is a whole lot faster than their last phone. [87015bb3a910_0]\nOne reviewer stated that ridewithgps works using Firefox on the Moto G5 Plus. [08a236b2559e_8]\nOne reviewer concluded that the Moto G5 Plus really is not a particularly good phone. [02a0e40c53b6_3]",
+  "sentences": [
+    {
+      "text": "One reviewer described the Moto G Plus (Gen 5) as fast, clear, bright and easy to use with no issues.",
+      "citations": [
+        "6cfbcb8997e3_0"
+      ]
+    },
+    {
+      "text": "A reviewer noted that most apps load in under five seconds on the Moto G5 Plus.",
+      "citations": [
+        "8f75077898bf_0"
+      ]
+    },
+    {
+      "text": "One owner called the Moto G5 Plus a great phone with lots of storage and said it was fast too.",
+      "citations": [
+        "09ae976f94e4_0"
+      ]
+    },
+    {
+      "text": "A reviewer said the Moto G5 Plus is a whole lot faster than their last phone.",
+      "citations": [
+        "87015bb3a910_0"
+      ]
+    },
+    {
+      "text": "One reviewer stated that ridewithgps works using Firefox on the Moto G5 Plus.",
+      "citations": [
+        "08a236b2559e_8"
+      ]
+    },
+    {
+      "text": "One reviewer concluded that the Moto G5 Plus really is not a particularly good phone.",
+      "citations": [
+        "02a0e40c53b6_3"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer described the Moto G Plus (Gen 5) as fast, clear, bright and easy to use with no issues.",
+      "citations": [
+        "6cfbcb8997e3_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer noted that most apps load in under five seconds on the Moto G5 Plus.",
+      "citations": [
+        "8f75077898bf_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One owner called the Moto G5 Plus a great phone with lots of storage and said it was fast too.",
+      "citations": [
+        "09ae976f94e4_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer said the Moto G5 Plus is a whole lot faster than their last phone.",
+      "citations": [
+        "87015bb3a910_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer stated that ridewithgps works using Firefox on the Moto G5 Plus.",
+      "citations": [
+        "08a236b2559e_8"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer concluded that the Moto G5 Plus really is not a particularly good phone.",
+      "citations": [
+        "02a0e40c53b6_3"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer described the Moto G Plus (Gen 5) as fast, clear, bright and easy to use with no issues.",
+      "citations": [
+        "6cfbcb8997e3_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer noted that most apps load in under five seconds on the Moto G5 Plus.",
+      "citations": [
+        "8f75077898bf_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One owner called the Moto G5 Plus a great phone with lots of storage and said it was fast too.",
+      "citations": [
+        "09ae976f94e4_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer said the Moto G5 Plus is a whole lot faster than their last phone.",
+      "citations": [
+        "87015bb3a910_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer stated that ridewithgps works using Firefox on the Moto G5 Plus.",
+      "citations": [
+        "08a236b2559e_8"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer concluded that the Moto G5 Plus really is not a particularly good phone.",
+      "citations": [
+        "02a0e40c53b6_3"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "6cfbcb8997e3_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "It is fast, clear, bright and easy to use"
+      ],
+      "reason": "Praises speed and usability of the phone.",
+      "doc_id": "6cfbcb8997e3",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "8f75077898bf_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "most apps load <5s"
+      ],
+      "reason": "Notes fast app loading, a performance positive.",
+      "doc_id": "8f75077898bf",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "09ae976f94e4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Lots of storage and fast too"
+      ],
+      "reason": "Praises speed of the phone.",
+      "doc_id": "09ae976f94e4",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "536af8e59c62_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No discussion of performance; covers setup and transfer.",
+      "doc_id": "536af8e59c62",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "ecf40d61ecbe_1",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses fingerprint sensor and bulk, not performance.",
+      "doc_id": "ecf40d61ecbe",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "80672701557f_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Praises phone generally and carrier compatibility, not performance.",
+      "doc_id": "80672701557f",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "08a236b2559e_8",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Covers gestures, WiFi calling, battery; not performance.",
+      "doc_id": "08a236b2559e",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "87015bb3a910_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "It is a whole lot faster than my last phone"
+      ],
+      "reason": "Praises speed relative to previous phone.",
+      "doc_id": "87015bb3a910",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "02a0e40c53b6_3",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses size, WiFi, fingerprint; not performance.",
+      "doc_id": "02a0e40c53b6",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "76be04682ba3_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "#2) SPEED."
+      ],
+      "reason": "Lists speed as a positive upgrade reason.",
+      "doc_id": "76be04682ba3",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "aspect": "performance"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 5,
+      "n_excluded_aspect_absent": 5,
+      "counts": {
+        "positive": 5,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 1.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 5
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "6cfbcb8997e3_0",
+      "doc_id": "6cfbcb8997e3",
+      "text": "The Moto G Plus 5 is a great phone. I have had no issues. The Moto G Plus 5 is a great phone. I have had no issues. It is fast, clear, bright and easy to use. Love it!",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "source_url": "https://www.amazon.com/dp/B01MY57LLG"
+    },
+    {
+      "chunk_id": "8f75077898bf_0",
+      "doc_id": "8f75077898bf",
+      "text": "SHOULD I BUY THIS?? -- '17 model - moto g5 plus. + full day battery + most apps load <5s - no nfc best review is here --",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "source_url": "https://www.amazon.com/dp/B01NBRN2YI"
+    },
+    {
+      "chunk_id": "09ae976f94e4_0",
+      "doc_id": "09ae976f94e4",
+      "text": "Moto G5 Plus Rules for me.. I'm so glad I got this phone. The Moto G5 Plus is a great phone for me. I can't wait for the upgrade to the Oreo system upgrade for Android. Lots of storage and fast too.",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "source_url": "https://www.amazon.com/dp/B01N6NTIRH"
+    },
+    {
+      "chunk_id": "536af8e59c62_0",
+      "doc_id": "536af8e59c62",
+      "text": "Moto g plus 5 th. gen. Greetings, Sept 17, 2017. moto g plus 5th gen unlocked, 64/4 gig ram. Upgraded from a 6 yr old Verizon droid 4(loved the slider keyboard). Took the time to read dozens of reviews (Amazon and web). Bought the extra ram as I will probably keep this for 6 years. $350 with tax. I knew going in there would be a learning curve as with any new device. As it was android to android, many things work the same. What I couldn't figure out, google \"how do I do... ?\" So far, so good. Pros: Verizon gave me a free sim card, installed it for me and working in less than 5 minutes, kept my old phone as a backup. Updated operating system, security update, no problem. Wi-fi at home is 56 megs download. Wowzer! Able to transfer contacts, ring tones, photos, files using Verizon Content Transfer app (Google playstore).",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "source_url": "https://www.amazon.com/dp/B01MR2ZFBI"
+    },
+    {
+      "chunk_id": "ecf40d61ecbe_1",
+      "doc_id": "ecf40d61ecbe",
+      "text": "I especially enjoy use of the fingerprint sensor to navigate the Android pages and thereby make available additional space for icons on the screen. The one minor drawback I find is that the Moto G5 Plus is somewhat bulky, the result of both its considerable size and weight.",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "source_url": "https://www.amazon.com/dp/B01NBRN2YI"
+    },
+    {
+      "chunk_id": "80672701557f_0",
+      "doc_id": "80672701557f",
+      "text": "Moto G Plus(5th generation) 64Gb is awesome and since it's a unlocked gsm phone. I 'm enjoying my new phone, The first Motorola i had lasted me 7 years. Moto G Plus(5th generation) 64Gb is awesome and since it's a unlocked gsm phone,you can have almost any carrier out there, like at&t, consumer cellular,ect.",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "source_url": "https://www.amazon.com/dp/B01N6NTIRH"
+    },
+    {
+      "chunk_id": "08a236b2559e_8",
+      "doc_id": "08a236b2559e",
+      "text": "I wouldn't put up with it otherwise. Similarly, I found myself using the gestures to turn the screen off (hold the finger print sensor for 1s), or bring up Google assistant (hold the fingerprint sensor past the haptic feedback buzz). I thought the fingerprint scanner would be a gimmick, but it's turned out to be quite reasonable. (The Samsung also used it for Samsung Pay, but with no NFC obviously I'm not going to be able to use Google Pay anyway!) And yes, ridewithgps works using Firefox on the Moto G5 Plus. One pleasant surprise is that WiFi calling works on T-mobile using the Moto G5 Plus, without any special configuration. Unfortunately, as far as I can tell, that's the only feature I got from Nougat that was noteworthy. Battery life has been nothing short of incredible, coming from both the S7 and the Moto G 2015.",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "source_url": "https://www.amazon.com/dp/B01N6NTIRH"
+    },
+    {
+      "chunk_id": "87015bb3a910_0",
+      "doc_id": "87015bb3a910",
+      "text": "I like this Moto G5 Plus. I like this Moto G5 Plus. It is a whole lot faster than my last phone. I got a Sim card from my provider and had it up and running in less than 10 minutes.",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "source_url": "https://www.amazon.com/dp/B01N6NTIRH"
+    },
+    {
+      "chunk_id": "02a0e40c53b6_3",
+      "doc_id": "02a0e40c53b6",
+      "text": "Size and dimensions. The Moto G5 Plus has a nice balance of size and shape. It has a large screen but is not too large to hold in your hand. Wi-Fi connectivity. The Moto G5 Plus does a good job connecting and staying connected to the Wi-Fi networks at my home and office. I also can easily set it up as a hotspot and my devices connect to it via Wi-Fi and it provides a strong, wide reaching signal. Fingerprint Sensor. I had low expectations for this at the start, but the fingerprint sensor works well and is not too touchy. All it takes is basically the same pressing motion you would have to turn on an iPhone, but with the added security of the fingerprint sensor built in. Cons: It really is not a particularly good phone.",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "source_url": "https://www.amazon.com/dp/B01N6NTIRH"
+    },
+    {
+      "chunk_id": "76be04682ba3_0",
+      "doc_id": "76be04682ba3",
+      "text": "not one of those guys who has to have the latest cell phone but.... I am not one of those guys who has to have the latest cell phone all the time so I upgraded from my 2 1/2 year old Moto G2 to the new Moto G5th generation. Mainly for more storage space (8G-32G), more battery life and faster charging. Also my old Moto G would act up every now and then and be so frustrating. #1) On battery life I usually watch a few videos at lunch and read Google News at breaks. send a few text and use the phone a little and after 8 1/2 hours the phone would have 20% battery left or would go completely dead.With the new 5th generation Moto G at the end of the day it has 64% battery life. When I got home I put it on the charger 30 minutes later it had charged to 96%. #2) SPEED.",
+      "brand": "Motorola",
+      "model": "Moto G Plus (Gen 5)",
+      "source_url": "https://www.amazon.com/dp/B01NBRN2YI"
+    }
+  ],
+  "contexts": [
+    "The Moto G Plus 5 is a great phone. I have had no issues. The Moto G Plus 5 is a great phone. I have had no issues. It is fast, clear, bright and easy to use. Love it!",
+    "SHOULD I BUY THIS?? -- '17 model - moto g5 plus. + full day battery + most apps load <5s - no nfc best review is here --",
+    "Moto G5 Plus Rules for me.. I'm so glad I got this phone. The Moto G5 Plus is a great phone for me. I can't wait for the upgrade to the Oreo system upgrade for Android. Lots of storage and fast too.",
+    "Moto g plus 5 th. gen. Greetings, Sept 17, 2017. moto g plus 5th gen unlocked, 64/4 gig ram. Upgraded from a 6 yr old Verizon droid 4(loved the slider keyboard). Took the time to read dozens of reviews (Amazon and web). Bought the extra ram as I will probably keep this for 6 years. $350 with tax. I knew going in there would be a learning curve as with any new device. As it was android to android, many things work the same. What I couldn't figure out, google \"how do I do... ?\" So far, so good. Pros: Verizon gave me a free sim card, installed it for me and working in less than 5 minutes, kept my old phone as a backup. Updated operating system, security update, no problem. Wi-fi at home is 56 megs download. Wowzer! Able to transfer contacts, ring tones, photos, files using Verizon Content Transfer app (Google playstore).",
+    "I especially enjoy use of the fingerprint sensor to navigate the Android pages and thereby make available additional space for icons on the screen. The one minor drawback I find is that the Moto G5 Plus is somewhat bulky, the result of both its considerable size and weight.",
+    "Moto G Plus(5th generation) 64Gb is awesome and since it's a unlocked gsm phone. I 'm enjoying my new phone, The first Motorola i had lasted me 7 years. Moto G Plus(5th generation) 64Gb is awesome and since it's a unlocked gsm phone,you can have almost any carrier out there, like at&t, consumer cellular,ect.",
+    "I wouldn't put up with it otherwise. Similarly, I found myself using the gestures to turn the screen off (hold the finger print sensor for 1s), or bring up Google assistant (hold the fingerprint sensor past the haptic feedback buzz). I thought the fingerprint scanner would be a gimmick, but it's turned out to be quite reasonable. (The Samsung also used it for Samsung Pay, but with no NFC obviously I'm not going to be able to use Google Pay anyway!) And yes, ridewithgps works using Firefox on the Moto G5 Plus. One pleasant surprise is that WiFi calling works on T-mobile using the Moto G5 Plus, without any special configuration. Unfortunately, as far as I can tell, that's the only feature I got from Nougat that was noteworthy. Battery life has been nothing short of incredible, coming from both the S7 and the Moto G 2015.",
+    "I like this Moto G5 Plus. I like this Moto G5 Plus. It is a whole lot faster than my last phone. I got a Sim card from my provider and had it up and running in less than 10 minutes.",
+    "Size and dimensions. The Moto G5 Plus has a nice balance of size and shape. It has a large screen but is not too large to hold in your hand. Wi-Fi connectivity. The Moto G5 Plus does a good job connecting and staying connected to the Wi-Fi networks at my home and office. I also can easily set it up as a hotspot and my devices connect to it via Wi-Fi and it provides a strong, wide reaching signal. Fingerprint Sensor. I had low expectations for this at the start, but the fingerprint sensor works well and is not too touchy. All it takes is basically the same pressing motion you would have to turn on an iPhone, but with the added security of the fingerprint sensor built in. Cons: It really is not a particularly good phone.",
+    "not one of those guys who has to have the latest cell phone but.... I am not one of those guys who has to have the latest cell phone all the time so I upgraded from my 2 1/2 year old Moto G2 to the new Moto G5th generation. Mainly for more storage space (8G-32G), more battery life and faster charging. Also my old Moto G would act up every now and then and be so frustrating. #1) On battery life I usually watch a few videos at lunch and read Google News at breaks. send a few text and use the phone a little and after 8 1/2 hours the phone would have 20% battery left or would go completely dead.With the new 5th generation Moto G at the end of the day it has 64% battery life. When I got home I put it on the charger 30 minutes later it had charged to 96%. #2) SPEED."
+  ],
+  "timing": {
+    "classification_s": 2.6141569999963394,
+    "generation_s": 1.4165474000037648,
+    "verification_s": 6.199996278155595e-06,
+    "total_s": 4.030720299997483
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1928,
+        "completion_tokens": 542,
+        "total_tokens": 2470,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1672
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1808,
+        "completion_tokens": 251,
+        "total_tokens": 2059,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1680
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

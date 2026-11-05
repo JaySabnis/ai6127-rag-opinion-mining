@@ -1,0 +1,465 @@
+{
+  "question": "How responsive is the Samsung Galaxy S10 in everyday use according to reviewers?",
+  "answer": "One reviewer reported a noticeable difference in performance when moving from a Galaxy S7 to the S10. [a025d0475c57_0]\nThe same reviewer described the camera as having a fast response. [a025d0475c57_0]\nAnother reviewer called the Samsung Galaxy S10 a fantastic phone that is easy to use. [55e56927ab70_0]\nA different reviewer said the phone is working fine. [45dff12effbb_0]\nOne reviewer said the S10 looks and acts like new. [cd0736af98e7_0]\nAnother reviewer said the S10 will get things done. [a590e4f13b6c_0]",
+  "draft_answer": "One reviewer reported a noticeable difference in performance when moving from a Galaxy S7 to the S10. [a025d0475c57_0]\nThe same reviewer described the camera as having a fast response. [a025d0475c57_0]\nAnother reviewer called the Samsung Galaxy S10 a fantastic phone that is easy to use. [55e56927ab70_0]\nA different reviewer said the phone is working fine. [45dff12effbb_0]\nOne reviewer said the S10 looks and acts like new. [cd0736af98e7_0]\nAnother reviewer said the S10 will get things done. [a590e4f13b6c_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported a noticeable difference in performance when moving from a Galaxy S7 to the S10.",
+      "citations": [
+        "a025d0475c57_0"
+      ]
+    },
+    {
+      "text": "The same reviewer described the camera as having a fast response.",
+      "citations": [
+        "a025d0475c57_0"
+      ]
+    },
+    {
+      "text": "Another reviewer called the Samsung Galaxy S10 a fantastic phone that is easy to use.",
+      "citations": [
+        "55e56927ab70_0"
+      ]
+    },
+    {
+      "text": "A different reviewer said the phone is working fine.",
+      "citations": [
+        "45dff12effbb_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the S10 looks and acts like new.",
+      "citations": [
+        "cd0736af98e7_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said the S10 will get things done.",
+      "citations": [
+        "a590e4f13b6c_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reported a noticeable difference in performance when moving from a Galaxy S7 to the S10.",
+      "citations": [
+        "a025d0475c57_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "The same reviewer described the camera as having a fast response.",
+      "citations": [
+        "a025d0475c57_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer called the Samsung Galaxy S10 a fantastic phone that is easy to use.",
+      "citations": [
+        "55e56927ab70_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A different reviewer said the phone is working fine.",
+      "citations": [
+        "45dff12effbb_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the S10 looks and acts like new.",
+      "citations": [
+        "cd0736af98e7_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the S10 will get things done.",
+      "citations": [
+        "a590e4f13b6c_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reported a noticeable difference in performance when moving from a Galaxy S7 to the S10.",
+      "citations": [
+        "a025d0475c57_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "The same reviewer described the camera as having a fast response.",
+      "citations": [
+        "a025d0475c57_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer called the Samsung Galaxy S10 a fantastic phone that is easy to use.",
+      "citations": [
+        "55e56927ab70_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A different reviewer said the phone is working fine.",
+      "citations": [
+        "45dff12effbb_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the S10 looks and acts like new.",
+      "citations": [
+        "cd0736af98e7_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the S10 will get things done.",
+      "citations": [
+        "a590e4f13b6c_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "3a84c064c729_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Complains about instructions and photo download, not performance of the phone.",
+      "doc_id": "3a84c064c729",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "2af44dfe1a4b_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Wrong model received; no discussion of performance.",
+      "doc_id": "2af44dfe1a4b",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "55e56927ab70_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "great functions and charges up quickly"
+      ],
+      "reason": "Praises functions and quick charging, indicating good performance.",
+      "doc_id": "55e56927ab70",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "028235319a98_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "works great"
+      ],
+      "reason": "States the phone works great, positive performance.",
+      "doc_id": "028235319a98",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "a025d0475c57_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "noticeable difference in performance",
+        "fast response"
+      ],
+      "reason": "Notes improved performance and fast response, positive.",
+      "doc_id": "a025d0475c57",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "c7f876b73704_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses syncing with laptop, not phone performance.",
+      "doc_id": "c7f876b73704",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "c16093214eb9_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General dissatisfaction without mentioning performance.",
+      "doc_id": "c16093214eb9",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "45dff12effbb_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The phone is working fine"
+      ],
+      "reason": "Says phone works fine, positive performance.",
+      "doc_id": "45dff12effbb",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "cd0736af98e7_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "acts like new"
+      ],
+      "reason": "Says it acts like new, positive performance.",
+      "doc_id": "cd0736af98e7",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "a590e4f13b6c_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General satisfaction and comparison to S9, no specific performance discussion.",
+      "doc_id": "a590e4f13b6c",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 5,
+      "n_excluded_aspect_absent": 5,
+      "counts": {
+        "positive": 5,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 1.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 5
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "3a84c064c729_0",
+      "doc_id": "3a84c064c729",
+      "text": "Save your money!. If you have a Samsung Galaxy S10, save you money because it doesn't work according to what the instructions read, which are very tiny! I tried many ways to download my photos on it but to no avail.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07JVCFR7J"
+    },
+    {
+      "chunk_id": "2af44dfe1a4b_0",
+      "doc_id": "2af44dfe1a4b",
+      "text": "The product no is the same!!. When I buy this product said is a samsung galaxy s10+ and when I get this is a samsung galaxy s10",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "55e56927ab70_0",
+      "doc_id": "55e56927ab70",
+      "text": "Samsung Galaxy S10 in one awesome phone.. Samsung Galaxy S10 is a fantastic phone, easy to use, easy to read, great functions and charges up quickly. Highly recommend",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "028235319a98_0",
+      "doc_id": "028235319a98",
+      "text": "Perfect condition, works great. LOVE my galaxy S10! I've been a Samsung user for over 10 years and the Galaxy S10 is perfect",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "a025d0475c57_0",
+      "doc_id": "a025d0475c57",
+      "text": "Good phone. Everything is great about the phone if you're a regular Samsung user. I went from a Galaxy S7 to this S10 and have seen a noticeable difference in performance. The only thing I'm bummed about is a close-up picture setting that was on the S7 but not on the S10. Despite that, the camera is of excellent quality and has a fast response.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07VZNDZY6"
+    },
+    {
+      "chunk_id": "c7f876b73704_0",
+      "doc_id": "c7f876b73704",
+      "text": "Galaxy S10 is more reliable than my iPhone was.. Last summer I bought a Samsung Galaxy laptop computer. This phone, S10, synchs very well with the computer.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "c16093214eb9_0",
+      "doc_id": "c16093214eb9",
+      "text": "Samsung Galaxy s10. I am not happy about the phone",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "45dff12effbb_0",
+      "doc_id": "45dff12effbb",
+      "text": "Samsung galaxy S10. The phone is working fine",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B0BM3F9RK1"
+    },
+    {
+      "chunk_id": "cd0736af98e7_0",
+      "doc_id": "cd0736af98e7",
+      "text": "S10 Samsung galaxy seems new to me.. Looks and acts like new. I'm happy with my new used phone.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "a590e4f13b6c_0",
+      "doc_id": "a590e4f13b6c",
+      "text": "The, Samsung Galaxy S10 (128GB). Hey sports fans. Great Samsung Galaxy phone, the S10 is. Though, a few things I like better on my Galaxy S9, this will get things done. I have a Mint Mobile plan and can say I'm overall happy with everything. Have a very nice day.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    }
+  ],
+  "contexts": [
+    "Save your money!. If you have a Samsung Galaxy S10, save you money because it doesn't work according to what the instructions read, which are very tiny! I tried many ways to download my photos on it but to no avail.",
+    "The product no is the same!!. When I buy this product said is a samsung galaxy s10+ and when I get this is a samsung galaxy s10",
+    "Samsung Galaxy S10 in one awesome phone.. Samsung Galaxy S10 is a fantastic phone, easy to use, easy to read, great functions and charges up quickly. Highly recommend",
+    "Perfect condition, works great. LOVE my galaxy S10! I've been a Samsung user for over 10 years and the Galaxy S10 is perfect",
+    "Good phone. Everything is great about the phone if you're a regular Samsung user. I went from a Galaxy S7 to this S10 and have seen a noticeable difference in performance. The only thing I'm bummed about is a close-up picture setting that was on the S7 but not on the S10. Despite that, the camera is of excellent quality and has a fast response.",
+    "Galaxy S10 is more reliable than my iPhone was.. Last summer I bought a Samsung Galaxy laptop computer. This phone, S10, synchs very well with the computer.",
+    "Samsung Galaxy s10. I am not happy about the phone",
+    "Samsung galaxy S10. The phone is working fine",
+    "S10 Samsung galaxy seems new to me.. Looks and acts like new. I'm happy with my new used phone.",
+    "The, Samsung Galaxy S10 (128GB). Hey sports fans. Great Samsung Galaxy phone, the S10 is. Though, a few things I like better on my Galaxy S9, this will get things done. I have a Mint Mobile plan and can say I'm overall happy with everything. Have a very nice day."
+  ],
+  "timing": {
+    "classification_s": 2.3203520000024582,
+    "generation_s": 1.5776046000028145,
+    "verification_s": 6.299997039604932e-06,
+    "total_s": 3.8979729999991832
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1158,
+        "completion_tokens": 535,
+        "total_tokens": 1693,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 902
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1033,
+        "completion_tokens": 196,
+        "total_tokens": 1229,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1033
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

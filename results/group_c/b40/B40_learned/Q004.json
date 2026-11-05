@@ -1,0 +1,493 @@
+{
+  "question": "What strengths and weaknesses do reviewers report for the Moto G7 camera?",
+  "answer": "One reviewer said the Moto G7 camera works well and that they admired the photos they had taken with it. [f766606d0db6_3]\nOne reviewer reported that the camera yields beautiful JPEGs in good light but that digital zoom and low light kill image quality. [83f6ba55d514_2]\nOne reviewer called the camera terrible, saying they could not take a clear picture no matter how still they held the phone. [a21bf8124e6d_0]\nOne reviewer found the camera took really nice images after trying multiple modes and settings. [d0f5fd8fbea8_1]\nOne reviewer said pictures look great in good lighting but that shadows can stick out quite pathologically. [d6e7d818868d_2]\nOther reviewers described the camera as a weak point, with complaints including poor quality, vertically stretched images, and slow focus. [c01d609ecdab_0] [274a73327451_0] [03281abb57b9_0] [31395056d84f_0]",
+  "draft_answer": "One reviewer said the Moto G7 camera works well and that they admired the photos they had taken with it. [f766606d0db6_3]\nOne reviewer reported that the camera yields beautiful JPEGs in good light but that digital zoom and low light kill image quality. [83f6ba55d514_2]\nOne reviewer called the camera terrible, saying they could not take a clear picture no matter how still they held the phone. [a21bf8124e6d_0]\nOne reviewer found the camera took really nice images after trying multiple modes and settings. [d0f5fd8fbea8_1]\nOne reviewer said pictures look great in good lighting but that shadows can stick out quite pathologically. [d6e7d818868d_2]\nOther reviewers described the camera as a weak point, with complaints including poor quality, vertically stretched images, and slow focus. [c01d609ecdab_0] [274a73327451_0] [03281abb57b9_0] [31395056d84f_0]",
+  "sentences": [
+    {
+      "text": "One reviewer said the Moto G7 camera works well and that they admired the photos they had taken with it.",
+      "citations": [
+        "f766606d0db6_3"
+      ]
+    },
+    {
+      "text": "One reviewer reported that the camera yields beautiful JPEGs in good light but that digital zoom and low light kill image quality.",
+      "citations": [
+        "83f6ba55d514_2"
+      ]
+    },
+    {
+      "text": "One reviewer called the camera terrible, saying they could not take a clear picture no matter how still they held the phone.",
+      "citations": [
+        "a21bf8124e6d_0"
+      ]
+    },
+    {
+      "text": "One reviewer found the camera took really nice images after trying multiple modes and settings.",
+      "citations": [
+        "d0f5fd8fbea8_1"
+      ]
+    },
+    {
+      "text": "One reviewer said pictures look great in good lighting but that shadows can stick out quite pathologically.",
+      "citations": [
+        "d6e7d818868d_2"
+      ]
+    },
+    {
+      "text": "Other reviewers described the camera as a weak point, with complaints including poor quality, vertically stretched images, and slow focus.",
+      "citations": [
+        "c01d609ecdab_0",
+        "274a73327451_0",
+        "03281abb57b9_0",
+        "31395056d84f_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer said the Moto G7 camera works well and that they admired the photos they had taken with it.",
+      "citations": [
+        "f766606d0db6_3"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported that the camera yields beautiful JPEGs in good light but that digital zoom and low light kill image quality.",
+      "citations": [
+        "83f6ba55d514_2"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer called the camera terrible, saying they could not take a clear picture no matter how still they held the phone.",
+      "citations": [
+        "a21bf8124e6d_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer found the camera took really nice images after trying multiple modes and settings.",
+      "citations": [
+        "d0f5fd8fbea8_1"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said pictures look great in good lighting but that shadows can stick out quite pathologically.",
+      "citations": [
+        "d6e7d818868d_2"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Other reviewers described the camera as a weak point, with complaints including poor quality, vertically stretched images, and slow focus.",
+      "citations": [
+        "c01d609ecdab_0",
+        "274a73327451_0",
+        "03281abb57b9_0",
+        "31395056d84f_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer said the Moto G7 camera works well and that they admired the photos they had taken with it.",
+      "citations": [
+        "f766606d0db6_3"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported that the camera yields beautiful JPEGs in good light but that digital zoom and low light kill image quality.",
+      "citations": [
+        "83f6ba55d514_2"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer called the camera terrible, saying they could not take a clear picture no matter how still they held the phone.",
+      "citations": [
+        "a21bf8124e6d_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer found the camera took really nice images after trying multiple modes and settings.",
+      "citations": [
+        "d0f5fd8fbea8_1"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said pictures look great in good lighting but that shadows can stick out quite pathologically.",
+      "citations": [
+        "d6e7d818868d_2"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Other reviewers described the camera as a weak point, with complaints including poor quality, vertically stretched images, and slow focus.",
+      "citations": [
+        "c01d609ecdab_0",
+        "274a73327451_0",
+        "03281abb57b9_0",
+        "31395056d84f_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "f766606d0db6_3",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The camera works well",
+        "this camera is very capable",
+        "I have admired the photos I have taken thus far"
+      ],
+      "reason": "Praises camera performance and capability despite lens placement complaint.",
+      "doc_id": "f766606d0db6",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "83f6ba55d514_2",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "it's obviously not a flagship phone",
+        "Digital zoom and low light obviously kill the image quality",
+        "It does yield beautiful JPEGs in good light"
+      ],
+      "reason": "Both praises good-light JPEGs and criticizes low-light/zoom weaknesses.",
+      "doc_id": "83f6ba55d514",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "a21bf8124e6d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The camera was terrible",
+        "couldn’t take a clear picture no matter how still I held it"
+      ],
+      "reason": "Strong criticism of camera clarity and performance.",
+      "doc_id": "a21bf8124e6d",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "d0f5fd8fbea8_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "found it to take really nice images that NO one would be embarassed by"
+      ],
+      "reason": "Praises camera images despite noted weak-point reputation.",
+      "doc_id": "d0f5fd8fbea8",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "d6e7d818868d_2",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "In good lighting the pictures look great",
+        "shadows can stick out quite pathologically"
+      ],
+      "reason": "Praises good-light photos but criticizes shadow handling.",
+      "doc_id": "d6e7d818868d",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "c01d609ecdab_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the camera quality is quite poor",
+        "Images always seem distorted vertically"
+      ],
+      "reason": "Criticizes camera quality and distortion.",
+      "doc_id": "c01d609ecdab",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "274a73327451_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "If it has a weakness, it's the camera"
+      ],
+      "reason": "Identifies camera as the phone's weakness.",
+      "doc_id": "274a73327451",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "03281abb57b9_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "the camera is probably the weak point",
+        "it's decent but it's clearly not state of the art"
+      ],
+      "reason": "Calls camera weak point yet decent, with expected limitations.",
+      "doc_id": "03281abb57b9",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "31395056d84f_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the camera quality is not the best",
+        "the focus takes forever"
+      ],
+      "reason": "Criticizes camera quality and slow focus.",
+      "doc_id": "31395056d84f",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "7b55eaefb603_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The camera is unusable",
+        "Both cameras are blurry and slow"
+      ],
+      "reason": "Strong criticism calling camera unusable, blurry, slow.",
+      "doc_id": "7b55eaefb603",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 2,
+        "negative": 5,
+        "mixed": 3,
+        "neutral": 0
+      },
+      "positive_ratio": 0.2,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.2857142857142857,
+      "polarized_denominator": 7
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "f766606d0db6_3",
+      "doc_id": "f766606d0db6",
+      "text": "It is somewhat awkwardly placed in the rear of the phone as other reviewers have mentioned. I find myself pressing the camera lens sometimes in an effort to unlock the phone. It is a pretty good way to get the camera lens dirty. The camera works well and although I am not terribly interested in much more than point and shoot photography... I am thinking about diving in and experimenting/learning all of the available features- I understand that this camera is very capable and I have admired the photos I have taken thus far. All in all, if I had it to do over (at the same price point) I would buy this phone again. I can’t think of a better review than that, folks. Enjoy!",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07RK4XYDF"
+    },
+    {
+      "chunk_id": "83f6ba55d514_2",
+      "doc_id": "83f6ba55d514",
+      "text": "The camera does need to be learned in order to avoid its weaknesses, since it's obviously not a flagship phone. Digital zoom and low light obviously kill the image quality. It does yield beautiful JPEGs in good light, but the pictures look way better if you take them in DNG format and edit them to your liking, and use a better noise reduction software. The ONLY thing I dislike about this phone, the only one, is that the screen's contrast ratio isn't great. Blacks look grayish. The screen has lots of IPS glow. It's not AMOLED like the older Moto phones, but even by LCD standards, those blacks literally look grayish. It does have nice colors and gets bright, plus it's 1080p so it looks really sharp and clear. Doesn't look like a budget phone screen. Believe me! It looks very nice.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N8ZTKHX"
+    },
+    {
+      "chunk_id": "a21bf8124e6d_0",
+      "doc_id": "a21bf8124e6d",
+      "text": "Not impressed. I bought this phone for the excellent camera reviews. The camera was terrible. Literally couldn’t take a clear picture no matter how still I held it. Text messages often didn’t deliver (and this was to other Android users - so not an iPhone issue). Also glitchy from the moment I bought it, with apps closing me out for no reason and freezing up. I returned the phone. Only gave it more than one star because I mean... it worked. Just didn’t work well.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07RK4XYDF"
+    },
+    {
+      "chunk_id": "d0f5fd8fbea8_1",
+      "doc_id": "d0f5fd8fbea8",
+      "text": "Camera was listed as a potential weak point for this phone, but we played around with multiple modes and settings and found it to take really nice images that NO one would be embarassed by. I recently purchased a Pixel 3a for myself and while the three years of software updates and truly superlative camera are strong selling points against the G7, when you look at the great build/look of the G7 as well as the expansive screen (for 100 LESS than the Pixel 3a!) I could see why someone might pick up the g7 instead. Can not go wrong. After playing with both the Pixel and the G7 for a few days, I honestly don't know how anyone can justify 800-1100 for a flagship phone.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N92347B"
+    },
+    {
+      "chunk_id": "d6e7d818868d_2",
+      "doc_id": "d6e7d818868d",
+      "text": "In good lighting the pictures look great, however shadows can stick out quite pathologically. Overall I am very satisfied with the product, keeping in mind that the weaknesses mentioned above are an acceptable sacrifice in quality for the cost of the phone. If you are trying to take near-professional quality images with a phone, this is not the product for you. Other than image acquisition and a mediocre (but acceptable) battery life, you likely won't notice any performance differences from higher-end phones.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    },
+    {
+      "chunk_id": "c01d609ecdab_0",
+      "doc_id": "c01d609ecdab",
+      "text": "Overall a great phone. Except for the camera.. I got this to replace my Galaxy Note II because the Galaxy Note II just was too slow nowadays. It works great in every way except the camera quality is quite poor. I mean the Note II camera absolutely blows this one away, and that thing is an antique. Images always seem distorted vertically, like they are stretched. I've taken pictures and sent them to people and they are like, \"that is weird looking\", and I always have to explain that the camera isn't very good. The price compared to Samsung was pretty compelling but if I was going to buy another phone, and money wasn't too tight, I would definitely be cautious about buying another Motorola.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    },
+    {
+      "chunk_id": "274a73327451_0",
+      "doc_id": "274a73327451",
+      "text": "Does it all!. Can't beat the phone for the money .,. as good my grandkids expensive Samsung phones, at 25% of the coast. If it has a weakness, it's the camera, but then, I have an expensive 35mm for taking pictures",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    },
+    {
+      "chunk_id": "03281abb57b9_0",
+      "doc_id": "03281abb57b9",
+      "text": "no complaints so far. no complaints so far in the first couple of months. very solid sort of budget phone. pretty decent deal for 200 (but i probably wouldn't pay much for than that, since this phone is pretty close to a year old). the camera is probably the weak point in my estimation, it's decent but it's clearly not state of the art, but that's expected for this type of phone. the software and operating system on these are very clean, which is important to me, close to what you'd see on a pixel device.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+    },
+    {
+      "chunk_id": "31395056d84f_0",
+      "doc_id": "31395056d84f",
+      "text": "camera not the best. the camera quality is not the best, which is disappointing, the focus takes forever",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N8ZTKHX"
+    },
+    {
+      "chunk_id": "7b55eaefb603_0",
+      "doc_id": "7b55eaefb603",
+      "text": "Camera deal breaker. Wouldn't recommend. Had the G6 plus. The camera is unusable. Both cameras are blurry and slow. I ended up borrowing my sister's iPhone. Battery saver is necessary for even short unplugs. Screen is gorgeous and performance is reliable and does the job.",
+      "brand": "Motorola",
+      "model": "Moto G7",
+      "source_url": "https://www.amazon.com/dp/B07N8ZTKHX"
+    }
+  ],
+  "contexts": [
+    "It is somewhat awkwardly placed in the rear of the phone as other reviewers have mentioned. I find myself pressing the camera lens sometimes in an effort to unlock the phone. It is a pretty good way to get the camera lens dirty. The camera works well and although I am not terribly interested in much more than point and shoot photography... I am thinking about diving in and experimenting/learning all of the available features- I understand that this camera is very capable and I have admired the photos I have taken thus far. All in all, if I had it to do over (at the same price point) I would buy this phone again. I can’t think of a better review than that, folks. Enjoy!",
+    "The camera does need to be learned in order to avoid its weaknesses, since it's obviously not a flagship phone. Digital zoom and low light obviously kill the image quality. It does yield beautiful JPEGs in good light, but the pictures look way better if you take them in DNG format and edit them to your liking, and use a better noise reduction software. The ONLY thing I dislike about this phone, the only one, is that the screen's contrast ratio isn't great. Blacks look grayish. The screen has lots of IPS glow. It's not AMOLED like the older Moto phones, but even by LCD standards, those blacks literally look grayish. It does have nice colors and gets bright, plus it's 1080p so it looks really sharp and clear. Doesn't look like a budget phone screen. Believe me! It looks very nice.",
+    "Not impressed. I bought this phone for the excellent camera reviews. The camera was terrible. Literally couldn’t take a clear picture no matter how still I held it. Text messages often didn’t deliver (and this was to other Android users - so not an iPhone issue). Also glitchy from the moment I bought it, with apps closing me out for no reason and freezing up. I returned the phone. Only gave it more than one star because I mean... it worked. Just didn’t work well.",
+    "Camera was listed as a potential weak point for this phone, but we played around with multiple modes and settings and found it to take really nice images that NO one would be embarassed by. I recently purchased a Pixel 3a for myself and while the three years of software updates and truly superlative camera are strong selling points against the G7, when you look at the great build/look of the G7 as well as the expansive screen (for 100 LESS than the Pixel 3a!) I could see why someone might pick up the g7 instead. Can not go wrong. After playing with both the Pixel and the G7 for a few days, I honestly don't know how anyone can justify 800-1100 for a flagship phone.",
+    "In good lighting the pictures look great, however shadows can stick out quite pathologically. Overall I am very satisfied with the product, keeping in mind that the weaknesses mentioned above are an acceptable sacrifice in quality for the cost of the phone. If you are trying to take near-professional quality images with a phone, this is not the product for you. Other than image acquisition and a mediocre (but acceptable) battery life, you likely won't notice any performance differences from higher-end phones.",
+    "Overall a great phone. Except for the camera.. I got this to replace my Galaxy Note II because the Galaxy Note II just was too slow nowadays. It works great in every way except the camera quality is quite poor. I mean the Note II camera absolutely blows this one away, and that thing is an antique. Images always seem distorted vertically, like they are stretched. I've taken pictures and sent them to people and they are like, \"that is weird looking\", and I always have to explain that the camera isn't very good. The price compared to Samsung was pretty compelling but if I was going to buy another phone, and money wasn't too tight, I would definitely be cautious about buying another Motorola.",
+    "Does it all!. Can't beat the phone for the money .,. as good my grandkids expensive Samsung phones, at 25% of the coast. If it has a weakness, it's the camera, but then, I have an expensive 35mm for taking pictures",
+    "no complaints so far. no complaints so far in the first couple of months. very solid sort of budget phone. pretty decent deal for 200 (but i probably wouldn't pay much for than that, since this phone is pretty close to a year old). the camera is probably the weak point in my estimation, it's decent but it's clearly not state of the art, but that's expected for this type of phone. the software and operating system on these are very clean, which is important to me, close to what you'd see on a pixel device.",
+    "camera not the best. the camera quality is not the best, which is disappointing, the focus takes forever",
+    "Camera deal breaker. Wouldn't recommend. Had the G6 plus. The camera is unusable. Both cameras are blurry and slow. I ended up borrowing my sister's iPhone. Battery saver is necessary for even short unplugs. Screen is gorgeous and performance is reliable and does the job."
+  ],
+  "timing": {
+    "classification_s": 3.4289619000046514,
+    "generation_s": 2.1231177000008756,
+    "verification_s": 6.199996278155595e-06,
+    "total_s": 5.552095900005952
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1857,
+        "completion_tokens": 697,
+        "total_tokens": 2554,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1601
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1732,
+        "completion_tokens": 288,
+        "total_tokens": 2020,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1604
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

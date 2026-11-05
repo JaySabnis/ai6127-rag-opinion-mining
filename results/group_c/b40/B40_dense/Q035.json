@@ -1,0 +1,479 @@
+{
+  "question": "What do Samsung Galaxy S10e reviewers say about using the phone on their carrier network?",
+  "answer": "One reviewer reported that the phone was actually unlocked and worked well with obscure carriers, automatically downloading APN settings from their carrier. [400076a1831c_0]\nOne reviewer using Mint Mobile as their network reported no issues with connectivity or service. [f1f07c18c6fd_0]\nOne reviewer said three Galaxy S10e phones all worked great with Mint Mobile service after changing a network setting from Global to LTE/4G/3G/2G. [86a6d1f68613_0]\nOne reviewer described the phone as an unlocked GSM device suited for most US carriers. [6c7222c0025e_0]\nOne reviewer reported that when a SIM card was inserted, it did not work and showed an invalid SIM card and network locked error. [15fb1680b602_0]\nOne reviewer said the phone was extremely slow on their T-Mobile network and would not connect to the internet at all. [1dd9f20cbac4_0]",
+  "draft_answer": "One reviewer reported that the phone was actually unlocked and worked well with obscure carriers, automatically downloading APN settings from their carrier. [400076a1831c_0]\nOne reviewer using Mint Mobile as their network reported no issues with connectivity or service. [f1f07c18c6fd_0]\nOne reviewer said three Galaxy S10e phones all worked great with Mint Mobile service after changing a network setting from Global to LTE/4G/3G/2G. [86a6d1f68613_0]\nOne reviewer described the phone as an unlocked GSM device suited for most US carriers. [6c7222c0025e_0]\nOne reviewer reported that when a SIM card was inserted, it did not work and showed an invalid SIM card and network locked error. [15fb1680b602_0]\nOne reviewer said the phone was extremely slow on their T-Mobile network and would not connect to the internet at all. [1dd9f20cbac4_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported that the phone was actually unlocked and worked well with obscure carriers, automatically downloading APN settings from their carrier.",
+      "citations": [
+        "400076a1831c_0"
+      ]
+    },
+    {
+      "text": "One reviewer using Mint Mobile as their network reported no issues with connectivity or service.",
+      "citations": [
+        "f1f07c18c6fd_0"
+      ]
+    },
+    {
+      "text": "One reviewer said three Galaxy S10e phones all worked great with Mint Mobile service after changing a network setting from Global to LTE/4G/3G/2G.",
+      "citations": [
+        "86a6d1f68613_0"
+      ]
+    },
+    {
+      "text": "One reviewer described the phone as an unlocked GSM device suited for most US carriers.",
+      "citations": [
+        "6c7222c0025e_0"
+      ]
+    },
+    {
+      "text": "One reviewer reported that when a SIM card was inserted, it did not work and showed an invalid SIM card and network locked error.",
+      "citations": [
+        "15fb1680b602_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the phone was extremely slow on their T-Mobile network and would not connect to the internet at all.",
+      "citations": [
+        "1dd9f20cbac4_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reported that the phone was actually unlocked and worked well with obscure carriers, automatically downloading APN settings from their carrier.",
+      "citations": [
+        "400076a1831c_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer using Mint Mobile as their network reported no issues with connectivity or service.",
+      "citations": [
+        "f1f07c18c6fd_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said three Galaxy S10e phones all worked great with Mint Mobile service after changing a network setting from Global to LTE/4G/3G/2G.",
+      "citations": [
+        "86a6d1f68613_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer described the phone as an unlocked GSM device suited for most US carriers.",
+      "citations": [
+        "6c7222c0025e_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported that when a SIM card was inserted, it did not work and showed an invalid SIM card and network locked error.",
+      "citations": [
+        "15fb1680b602_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the phone was extremely slow on their T-Mobile network and would not connect to the internet at all.",
+      "citations": [
+        "1dd9f20cbac4_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reported that the phone was actually unlocked and worked well with obscure carriers, automatically downloading APN settings from their carrier.",
+      "citations": [
+        "400076a1831c_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer using Mint Mobile as their network reported no issues with connectivity or service.",
+      "citations": [
+        "f1f07c18c6fd_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said three Galaxy S10e phones all worked great with Mint Mobile service after changing a network setting from Global to LTE/4G/3G/2G.",
+      "citations": [
+        "86a6d1f68613_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer described the phone as an unlocked GSM device suited for most US carriers.",
+      "citations": [
+        "6c7222c0025e_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported that when a SIM card was inserted, it did not work and showed an invalid SIM card and network locked error.",
+      "citations": [
+        "15fb1680b602_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the phone was extremely slow on their T-Mobile network and would not connect to the internet at all.",
+      "citations": [
+        "1dd9f20cbac4_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "400076a1831c_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "works well with obscure carriers!",
+        "automatically downloads APN settings from my carrier"
+      ],
+      "reason": "Praises carrier compatibility and automatic APN setup with the phone's carrier.",
+      "doc_id": "400076a1831c",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "f1f07c18c6fd_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "had no issues with connectivity or service"
+      ],
+      "reason": "Reports no connectivity or service issues with Mint Mobile carrier.",
+      "doc_id": "f1f07c18c6fd",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "86a6d1f68613_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "they all work great with our Mint Mobile service"
+      ],
+      "reason": "Phones work great with Mint Mobile carrier after changing a network setting.",
+      "doc_id": "86a6d1f68613",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "6c7222c0025e_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Unlocked GSM - most US Carriers"
+      ],
+      "reason": "Notes unlocked GSM compatibility with most US carriers as a positive feature.",
+      "doc_id": "6c7222c0025e",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "15fb1680b602_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Network locked",
+        "the phone cannot work in Singapore"
+      ],
+      "reason": "Phone arrived network locked and SIM did not work, a carrier-related failure.",
+      "doc_id": "15fb1680b602",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "686fbf823af1_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "T-Mobile easily transferred my info from my S6"
+      ],
+      "reason": "Positive mention of T-Mobile carrier transferring data easily.",
+      "doc_id": "686fbf823af1",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "10a0a21a714d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "Try to get a Factory Unlocked version, not just a Carrier Unlocked version",
+        "Got to wonder how long T-Mobile will support this phone"
+      ],
+      "reason": "Prefers factory unlocked over carrier unlocked and doubts T-Mobile update support.",
+      "doc_id": "10a0a21a714d",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "f890e5018bd0_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "it would not come carrier unlocked",
+        "my phone came factory unlocked to my relief"
+      ],
+      "reason": "Relief that phone arrived factory unlocked, positive carrier-unlock outcome.",
+      "doc_id": "f890e5018bd0",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "1dd9f20cbac4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "extremely slow on my Tmobile network",
+        "would NOT connect to the internet at all"
+      ],
+      "reason": "Criticizes slow performance and no internet on T-Mobile carrier network.",
+      "doc_id": "1dd9f20cbac4",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "26f4a25e4459_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Open to any carrier"
+      ],
+      "reason": "Positive that phone is open to any carrier.",
+      "doc_id": "26f4a25e4459",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 7,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.7,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.7777777777777778,
+      "polarized_denominator": 9
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "400076a1831c_0",
+      "doc_id": "400076a1831c",
+      "text": "Actually unlocked - works well with obscure carriers!. After 6 months of spinning my wheels with pseudo-unlocked Galaxy s10e's from sellers like CellTrader (protip-they misrepresent their phones!), it is so nice to finally get a phone that isn't full of carrier bloat ware, and also automatically downloads APN settings from my carrier!",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "f1f07c18c6fd_0",
+      "doc_id": "f1f07c18c6fd",
+      "text": "i was lucky. I was worried from the 1 star reviews but was lucky, my samsung 9s+ had no issues transferring data over to the samsung 10e. I used mint mobile as my network and had no issues with connectivity or service.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "86a6d1f68613_0",
+      "doc_id": "86a6d1f68613",
+      "text": "Thought these were locked to Verizon but figured it out.. Bought three Samsung Galaxy s10e phones and they all work great with our Mint Mobile service. I originally thought two of them were locked to Verizon but all I had to do was change a network setting from Global to LTE/4G/3G/2G.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "6c7222c0025e_0",
+      "doc_id": "6c7222c0025e",
+      "text": "Reliable Budget Friendly GSM Mobile Phone. The Samsung S10e is a reliable budget friendly GSM phone that fits perfectly into the palm of your hand. It is not a large phone. The device itself is very user friendly, works well for average daily use (calls, browse and texts) and is best suited for any person looking for a small device with basic user friendly features. It takes good pictures, calls are clear and buttons function smoothly. Works great for a child, can be used as a backup phone (Unlocked GSM - most US Carriers), short-term trips, vacation purposes, etc. ... and most importantly the cost won't break the bank. Should you decide on choosing, it may be advisable to pickup a compatible case. It will provide added protection in the event of accidents. I give it four (4/5) stars because it's a basic model phone - not mind blowing.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "15fb1680b602_0",
+      "doc_id": "15fb1680b602",
+      "text": "Amazon’s error in this Samsung S10E phone transaction. I bought a Samsung S10E handphone for my godson. When he put in his SIM card, it did not work. Some sort of error message: Invalid SIM card. Network locked. SIM card inserted. Seller listed as Lifeline 786, fulfilled by Amazon. I wrote to Amazon about this problem, and awaiting their remedial action, lest I ask for a full refund if the phone cannot work in Singapore. -Mr Stephen Lee.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B07T4TFL57"
+    },
+    {
+      "chunk_id": "686fbf823af1_0",
+      "doc_id": "686fbf823af1",
+      "text": "Love my new Galaxy S10e. Very happy with my new Galaxy S10e. It worked well out of the box. T-Mobile easily transferred my info from my S6. It operates exactly as expected, and is easy to use. The battery life is great.15 hours off the charger and I’m at 61%.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B089YPKMS6"
+    },
+    {
+      "chunk_id": "10a0a21a714d_0",
+      "doc_id": "10a0a21a714d",
+      "text": "Renewed Factory Unlocked S10e Review. The Renewed Factory Unlocked Samsung Galaxy S10e looks like the best bang for the buck right now (6/2020), since everyone is eyeing the more expensive S20 models. Try to get a Factory Unlocked version, not just a Carrier Unlocked version. So what does \"fully unlocked\" in the product description really mean? I got a Carrier-unlocked T-Mobile phone (for the S10e, model numbers end with TMB) from vendor Synergy, not a Samsung factory unlocked phone (for the S10e, model numbers end with XAA), if that matters to you. Got to wonder how long T-Mobile will support this phone with software updates compared to Samsung. And be aware of the terms used on these Amazon pages, like Renewed, Used-Good, Used-VeryGood, etc. If something is less expensive, it might be in poorer condition.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "f890e5018bd0_0",
+      "doc_id": "f890e5018bd0",
+      "text": "This is not a scam!. Like many other consumers, I was very very worried that my phone would be a stolen phone or that it would not come carrier unlocked. The seller was Chubbiestech and my phone came factory unlocked to my relief. I do think it's important to check who the seller is specifically. All that aside, the phone works great! I love the smaller size of the Galaxy s10e compared the the s10 or s10+. All the cameras take fantastic pictures. As always, Samsung killed it.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "1dd9f20cbac4_0",
+      "doc_id": "1dd9f20cbac4",
+      "text": "Did Not connect on my provider.... The s10e phone looked great and most functions worked like new. But I returned mine because it was extremely slow on my Tmobile network. But my s7 connected faster. And it would NOT connect to the internet at all.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "26f4a25e4459_0",
+      "doc_id": "26f4a25e4459",
+      "text": "Galaxy s10. Phone does exactly what it's supposed to. Open to any carrier. Only complaint is that the battery doesn't seem to last as long as my brand new s10 did before this but I habe chargers everywhere so no big deal.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    }
+  ],
+  "contexts": [
+    "Actually unlocked - works well with obscure carriers!. After 6 months of spinning my wheels with pseudo-unlocked Galaxy s10e's from sellers like CellTrader (protip-they misrepresent their phones!), it is so nice to finally get a phone that isn't full of carrier bloat ware, and also automatically downloads APN settings from my carrier!",
+    "i was lucky. I was worried from the 1 star reviews but was lucky, my samsung 9s+ had no issues transferring data over to the samsung 10e. I used mint mobile as my network and had no issues with connectivity or service.",
+    "Thought these were locked to Verizon but figured it out.. Bought three Samsung Galaxy s10e phones and they all work great with our Mint Mobile service. I originally thought two of them were locked to Verizon but all I had to do was change a network setting from Global to LTE/4G/3G/2G.",
+    "Reliable Budget Friendly GSM Mobile Phone. The Samsung S10e is a reliable budget friendly GSM phone that fits perfectly into the palm of your hand. It is not a large phone. The device itself is very user friendly, works well for average daily use (calls, browse and texts) and is best suited for any person looking for a small device with basic user friendly features. It takes good pictures, calls are clear and buttons function smoothly. Works great for a child, can be used as a backup phone (Unlocked GSM - most US Carriers), short-term trips, vacation purposes, etc. ... and most importantly the cost won't break the bank. Should you decide on choosing, it may be advisable to pickup a compatible case. It will provide added protection in the event of accidents. I give it four (4/5) stars because it's a basic model phone - not mind blowing.",
+    "Amazon’s error in this Samsung S10E phone transaction. I bought a Samsung S10E handphone for my godson. When he put in his SIM card, it did not work. Some sort of error message: Invalid SIM card. Network locked. SIM card inserted. Seller listed as Lifeline 786, fulfilled by Amazon. I wrote to Amazon about this problem, and awaiting their remedial action, lest I ask for a full refund if the phone cannot work in Singapore. -Mr Stephen Lee.",
+    "Love my new Galaxy S10e. Very happy with my new Galaxy S10e. It worked well out of the box. T-Mobile easily transferred my info from my S6. It operates exactly as expected, and is easy to use. The battery life is great.15 hours off the charger and I’m at 61%.",
+    "Renewed Factory Unlocked S10e Review. The Renewed Factory Unlocked Samsung Galaxy S10e looks like the best bang for the buck right now (6/2020), since everyone is eyeing the more expensive S20 models. Try to get a Factory Unlocked version, not just a Carrier Unlocked version. So what does \"fully unlocked\" in the product description really mean? I got a Carrier-unlocked T-Mobile phone (for the S10e, model numbers end with TMB) from vendor Synergy, not a Samsung factory unlocked phone (for the S10e, model numbers end with XAA), if that matters to you. Got to wonder how long T-Mobile will support this phone with software updates compared to Samsung. And be aware of the terms used on these Amazon pages, like Renewed, Used-Good, Used-VeryGood, etc. If something is less expensive, it might be in poorer condition.",
+    "This is not a scam!. Like many other consumers, I was very very worried that my phone would be a stolen phone or that it would not come carrier unlocked. The seller was Chubbiestech and my phone came factory unlocked to my relief. I do think it's important to check who the seller is specifically. All that aside, the phone works great! I love the smaller size of the Galaxy s10e compared the the s10 or s10+. All the cameras take fantastic pictures. As always, Samsung killed it.",
+    "Did Not connect on my provider.... The s10e phone looked great and most functions worked like new. But I returned mine because it was extremely slow on my Tmobile network. But my s7 connected faster. And it would NOT connect to the internet at all.",
+    "Galaxy s10. Phone does exactly what it's supposed to. Open to any carrier. Only complaint is that the battery doesn't seem to last as long as my brand new s10 did before this but I habe chargers everywhere so no big deal."
+  ],
+  "timing": {
+    "classification_s": 3.141137400001753,
+    "generation_s": 1.6499296000038157,
+    "verification_s": 7.299997378140688e-06,
+    "total_s": 4.791085299999395
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1754,
+        "completion_tokens": 686,
+        "total_tokens": 2440,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1498
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1632,
+        "completion_tokens": 259,
+        "total_tokens": 1891,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1504
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

@@ -1,0 +1,482 @@
+{
+  "question": "What do Samsung Galaxy S5 reviewers report about speed, lag, and freezing?",
+  "answer": "One reviewer reports that the phone constantly freezes and lags often, and that 2GB of RAM is not enough. [26264a872698_0]\nAnother reviewer says the phone operates very slowly most of the time and freezes a lot, sometimes requiring three restarts a day. [465f64917965_0]\nA reviewer describes the touch screen as terribly non-responsive, says everything is slow, and reports the screen keeps freezing repeatedly. [4d04ae1f4441_2]\nIn contrast, one reviewer calls the phone very fast with no lag at all on Android 4.4.4 Kit Kat. [84938d6fd6f3_0]\nA reviewer reports the phone is very slow and freezes often. [d041aa6a0456_0]\nAnother reviewer reports non-stop freezing and constant lag, with typed text appearing seconds later and crashes when switching between multiple open apps. [eab3abf221fc_0]",
+  "draft_answer": "One reviewer reports that the phone constantly freezes and lags often, and that 2GB of RAM is not enough. [26264a872698_0]\nAnother reviewer says the phone operates very slowly most of the time and freezes a lot, sometimes requiring three restarts a day. [465f64917965_0]\nA reviewer describes the touch screen as terribly non-responsive, says everything is slow, and reports the screen keeps freezing repeatedly. [4d04ae1f4441_2]\nIn contrast, one reviewer calls the phone very fast with no lag at all on Android 4.4.4 Kit Kat. [84938d6fd6f3_0]\nA reviewer reports the phone is very slow and freezes often. [d041aa6a0456_0]\nAnother reviewer reports non-stop freezing and constant lag, with typed text appearing seconds later and crashes when switching between multiple open apps. [eab3abf221fc_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reports that the phone constantly freezes and lags often, and that 2GB of RAM is not enough.",
+      "citations": [
+        "26264a872698_0"
+      ]
+    },
+    {
+      "text": "Another reviewer says the phone operates very slowly most of the time and freezes a lot, sometimes requiring three restarts a day.",
+      "citations": [
+        "465f64917965_0"
+      ]
+    },
+    {
+      "text": "A reviewer describes the touch screen as terribly non-responsive, says everything is slow, and reports the screen keeps freezing repeatedly.",
+      "citations": [
+        "4d04ae1f4441_2"
+      ]
+    },
+    {
+      "text": "In contrast, one reviewer calls the phone very fast with no lag at all on Android 4.4.4 Kit Kat.",
+      "citations": [
+        "84938d6fd6f3_0"
+      ]
+    },
+    {
+      "text": "A reviewer reports the phone is very slow and freezes often.",
+      "citations": [
+        "d041aa6a0456_0"
+      ]
+    },
+    {
+      "text": "Another reviewer reports non-stop freezing and constant lag, with typed text appearing seconds later and crashes when switching between multiple open apps.",
+      "citations": [
+        "eab3abf221fc_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reports that the phone constantly freezes and lags often, and that 2GB of RAM is not enough.",
+      "citations": [
+        "26264a872698_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer says the phone operates very slowly most of the time and freezes a lot, sometimes requiring three restarts a day.",
+      "citations": [
+        "465f64917965_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer describes the touch screen as terribly non-responsive, says everything is slow, and reports the screen keeps freezing repeatedly.",
+      "citations": [
+        "4d04ae1f4441_2"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "In contrast, one reviewer calls the phone very fast with no lag at all on Android 4.4.4 Kit Kat.",
+      "citations": [
+        "84938d6fd6f3_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer reports the phone is very slow and freezes often.",
+      "citations": [
+        "d041aa6a0456_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reports non-stop freezing and constant lag, with typed text appearing seconds later and crashes when switching between multiple open apps.",
+      "citations": [
+        "eab3abf221fc_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reports that the phone constantly freezes and lags often, and that 2GB of RAM is not enough.",
+      "citations": [
+        "26264a872698_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer says the phone operates very slowly most of the time and freezes a lot, sometimes requiring three restarts a day.",
+      "citations": [
+        "465f64917965_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer describes the touch screen as terribly non-responsive, says everything is slow, and reports the screen keeps freezing repeatedly.",
+      "citations": [
+        "4d04ae1f4441_2"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "In contrast, one reviewer calls the phone very fast with no lag at all on Android 4.4.4 Kit Kat.",
+      "citations": [
+        "84938d6fd6f3_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer reports the phone is very slow and freezes often.",
+      "citations": [
+        "d041aa6a0456_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reports non-stop freezing and constant lag, with typed text appearing seconds later and crashes when switching between multiple open apps.",
+      "citations": [
+        "eab3abf221fc_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "26264a872698_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The phone constantly freezes and lags often",
+        "The 2gb of ram is really not enough",
+        "it moving very slowly and eventually freezing"
+      ],
+      "reason": "Complains of freezing, lag, insufficient RAM, slow performance.",
+      "doc_id": "26264a872698",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "465f64917965_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the phone operates very slow most of the time and it freezes A LOT",
+        "it's still slow"
+      ],
+      "reason": "Describes slow operation and frequent freezing.",
+      "doc_id": "465f64917965",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "4d04ae1f4441_2",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "EVERYTHING is slow on this phone",
+        "the touch screen is terribly non-responsive"
+      ],
+      "reason": "Criticizes slowness and unresponsive touch screen.",
+      "doc_id": "4d04ae1f4441",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "84938d6fd6f3_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Very fast. No lag at all."
+      ],
+      "reason": "Praises speed and absence of lag.",
+      "doc_id": "84938d6fd6f3",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "d041aa6a0456_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "very slow and freezes often"
+      ],
+      "reason": "Criticizes slowness and frequent freezing.",
+      "doc_id": "d041aa6a0456",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "eab3abf221fc_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "It freezes up non stop",
+        "it has like a lag all the time",
+        "If I have multiple apps open it crashes"
+      ],
+      "reason": "Complains of freezing, lag, and crashes.",
+      "doc_id": "eab3abf221fc",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "3e51091aec82_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "it freezes and lags like crazy"
+      ],
+      "reason": "Reports freezing and lagging.",
+      "doc_id": "3e51091aec82",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "fe13d55adfc5_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "speed decayed"
+      ],
+      "reason": "States speed degraded over time.",
+      "doc_id": "fe13d55adfc5",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "d1ae608c5c57_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "It freezes frequently"
+      ],
+      "reason": "Complains phone freezes frequently.",
+      "doc_id": "d1ae608c5c57",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "0cfd462aba13_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "lag lag lag",
+        "it just stops working",
+        "it is STILL really bad"
+      ],
+      "reason": "Reports lag, overheating, and stopping working.",
+      "doc_id": "0cfd462aba13",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 9,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.1,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.1,
+      "polarized_denominator": 10
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "26264a872698_0",
+      "doc_id": "26264a872698",
+      "text": "New Packaging, But Refurbished Performance!. Great Phone, Brand New, Original Packaging, Quick Delivery! Review Revision after 1 week of use: After using it for about a week, I have some major concerns. The phone constantly freezes and lags often. The 2gb of ram is really not enough. I have to constantly clean and boost my phone throughout the day to clear cache & junk. It still doesn't keep it from freezing. I also noticed that I cannot listen to music while doing something else simultaneously on the phone without it moving very slowly and eventually freezing. The battery life is also horrible. The minute I unplug phone from charger at 100% charge, 10 minutes later without using the phone, it will be down to 80 something percent power. I must say I am quite disappointed because my previous phone of over a year was a Samsung Galaxy A5.",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B074MHNNK2"
+    },
+    {
+      "chunk_id": "465f64917965_0",
+      "doc_id": "465f64917965",
+      "text": "Freezes a lot.. This phone was in good condition when I received it. No scratches, no cracks etc. It was virtually new. However, the phone operates very slow most of the time and it freezes A LOT! Sometimes I have to restart it 3 times a day. I'm not a gamer or download a bunch of apps so storage is not an issue. I clear cache every now and then to keep the phone working fast but it's still slow. The camera doesn't work as well as I've seen people using it on reviews so I don't know if it has been altered or replaced.",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00JRKFA90"
+    },
+    {
+      "chunk_id": "4d04ae1f4441_2",
+      "doc_id": "4d04ae1f4441",
+      "text": "So, the lag; I listen to audible on my phone every day. I press the play button on the audible app as I am walking out the door with the dog to go for a walk, and the book doesn't start playing until we're out of our yard, about 1 minute after I pressed play. It is the same for all of the other functions, the touch screen is terribly non-responsive and EVERYTHING is slow on this phone. Finally, for the past week my screen keeps freezing. Repeatedly. I am very hopeful that if I need to call 9-1-1 I am somewhere with a landline or another person with a decent phone because I press the home button on mine and swipe up to unlock and nothing happens. For a while taking the battery out fixed it, but that doesn't even do it now.",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00WZZ64QW"
+    },
+    {
+      "chunk_id": "84938d6fd6f3_0",
+      "doc_id": "84938d6fd6f3",
+      "text": "fast and lag free. compare to iphone 6. Very fast. No lag at all. I'm on 4.4.4 kit kat. Didn't like 5.0 because of memory problems and it wasn't designed for the galaxy 5. Samsung optumized this phone on the 4.x android version. To have the camera takes picture faster, turn off image stabilization",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00WZZ64QW"
+    },
+    {
+      "chunk_id": "d041aa6a0456_0",
+      "doc_id": "d041aa6a0456",
+      "text": "Looks good but is very slow and freezes. Supposed to be new, it is not. Looks good but is very slow and freezes often",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00JRKFA90"
+    },
+    {
+      "chunk_id": "eab3abf221fc_0",
+      "doc_id": "eab3abf221fc",
+      "text": "do not buy. I didn't buy from this guy, but I've had this phone for a year and it blows. It freezes up non stop. And it has like a lag all the time. I'll type something and a few seconds later it appears in the screen. If I have multiple apps open it crashes as soon as I switch between them. And the camera is s*** I'm pretty certain a brain surgeon couldn't take a good photo with this camera. DO NOT BUY. Its the worst phone I've ever had. And these are only like half the problems",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00PX6ZIDU"
+    },
+    {
+      "chunk_id": "3e51091aec82_0",
+      "doc_id": "3e51091aec82",
+      "text": "... after a while i noticed it freezes and lags like crazy. I have to keep shutting apps down .... Phone works as described but after a while i noticed it freezes and lags like crazy. I have to keep shutting apps down otherwise it will not function. Never had this problems with S4",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00JRKFA90"
+    },
+    {
+      "chunk_id": "fe13d55adfc5_0",
+      "doc_id": "fe13d55adfc5",
+      "text": "speed decayed.",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00JRKFA90"
+    },
+    {
+      "chunk_id": "d1ae608c5c57_0",
+      "doc_id": "d1ae608c5c57",
+      "text": "The reviews weren't too bad, so I thought I'd try it. Can not make calls or receive calls. It freezes frequently. Very frustrating! I will be returning this phone for a full refund. The reviews weren't too bad, so I thought I'd try it. I would give it a Zero if I could...",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00WZZ64QW"
+    },
+    {
+      "chunk_id": "0cfd462aba13_1",
+      "doc_id": "0cfd462aba13",
+      "text": "I lost count. I have had it for 2 weeks, only downloaded 5 essential apps and... lag lag lag. It gets super hot, it just stops working. It times out while its trying to :process\" my command to open an app. Horrible! After 4 or 5 SamGal5's it HAS to be the phone. I thought maybe it was Showbox but I did not install that on this latest phone and it is STILL really bad sad",
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "source_url": "https://www.amazon.com/dp/B00WZZ64QW"
+    }
+  ],
+  "contexts": [
+    "New Packaging, But Refurbished Performance!. Great Phone, Brand New, Original Packaging, Quick Delivery! Review Revision after 1 week of use: After using it for about a week, I have some major concerns. The phone constantly freezes and lags often. The 2gb of ram is really not enough. I have to constantly clean and boost my phone throughout the day to clear cache & junk. It still doesn't keep it from freezing. I also noticed that I cannot listen to music while doing something else simultaneously on the phone without it moving very slowly and eventually freezing. The battery life is also horrible. The minute I unplug phone from charger at 100% charge, 10 minutes later without using the phone, it will be down to 80 something percent power. I must say I am quite disappointed because my previous phone of over a year was a Samsung Galaxy A5.",
+    "Freezes a lot.. This phone was in good condition when I received it. No scratches, no cracks etc. It was virtually new. However, the phone operates very slow most of the time and it freezes A LOT! Sometimes I have to restart it 3 times a day. I'm not a gamer or download a bunch of apps so storage is not an issue. I clear cache every now and then to keep the phone working fast but it's still slow. The camera doesn't work as well as I've seen people using it on reviews so I don't know if it has been altered or replaced.",
+    "So, the lag; I listen to audible on my phone every day. I press the play button on the audible app as I am walking out the door with the dog to go for a walk, and the book doesn't start playing until we're out of our yard, about 1 minute after I pressed play. It is the same for all of the other functions, the touch screen is terribly non-responsive and EVERYTHING is slow on this phone. Finally, for the past week my screen keeps freezing. Repeatedly. I am very hopeful that if I need to call 9-1-1 I am somewhere with a landline or another person with a decent phone because I press the home button on mine and swipe up to unlock and nothing happens. For a while taking the battery out fixed it, but that doesn't even do it now.",
+    "fast and lag free. compare to iphone 6. Very fast. No lag at all. I'm on 4.4.4 kit kat. Didn't like 5.0 because of memory problems and it wasn't designed for the galaxy 5. Samsung optumized this phone on the 4.x android version. To have the camera takes picture faster, turn off image stabilization",
+    "Looks good but is very slow and freezes. Supposed to be new, it is not. Looks good but is very slow and freezes often",
+    "do not buy. I didn't buy from this guy, but I've had this phone for a year and it blows. It freezes up non stop. And it has like a lag all the time. I'll type something and a few seconds later it appears in the screen. If I have multiple apps open it crashes as soon as I switch between them. And the camera is s*** I'm pretty certain a brain surgeon couldn't take a good photo with this camera. DO NOT BUY. Its the worst phone I've ever had. And these are only like half the problems",
+    "... after a while i noticed it freezes and lags like crazy. I have to keep shutting apps down .... Phone works as described but after a while i noticed it freezes and lags like crazy. I have to keep shutting apps down otherwise it will not function. Never had this problems with S4",
+    "speed decayed.",
+    "The reviews weren't too bad, so I thought I'd try it. Can not make calls or receive calls. It freezes frequently. Very frustrating! I will be returning this phone for a full refund. The reviews weren't too bad, so I thought I'd try it. I would give it a Zero if I could...",
+    "I lost count. I have had it for 2 weeks, only downloaded 5 essential apps and... lag lag lag. It gets super hot, it just stops working. It times out while its trying to :process\" my command to open an app. Horrible! After 4 or 5 SamGal5's it HAS to be the phone. I thought maybe it was Showbox but I did not install that on this latest phone and it is STILL really bad sad"
+  ],
+  "timing": {
+    "classification_s": 3.11864549999882,
+    "generation_s": 1.8405850999988616,
+    "verification_s": 6.599999323952943e-06,
+    "total_s": 4.959248400002252
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1717,
+        "completion_tokens": 648,
+        "total_tokens": 2365,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1461
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1593,
+        "completion_tokens": 251,
+        "total_tokens": 1844,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1465
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

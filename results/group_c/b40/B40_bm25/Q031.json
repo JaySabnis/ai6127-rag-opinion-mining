@@ -1,0 +1,470 @@
+{
+  "question": "What do Galaxy S10 owners report about carrier compatibility and SIM activation?",
+  "answer": "One reviewer reported that their renewed Galaxy S10 had a locked IMEI tied to an unpaid AT&T balance and could not be activated on a new service. [e7a3220baee2_0]\nA USA-based reviewer using T-Mobile said the international version of the S10 worked flawlessly after moving the SIM card from their old S6. [e942f94394af_0]\nOne reviewer said they activated service through Verizon with no problems even though the phone was a Sprint phone. [7b5b44f5182f_0]\nAnother reviewer reported that the phones were not compatible with their carrier service plan and advised checking compatibility with the carrier before buying. [47699717a7d4_0]\nA Verizon customer reported no issues transferring data from an old S7 to the new S10. [56727ef44fa8_0]\nOne reviewer said the phone activated on the T-Mobile network without a hitch and noted that Sprint customers need to go to a T-Mobile store to replace the Sprint SIM with a T-Mobile SIM. [625abd70df1d_0]",
+  "draft_answer": "One reviewer reported that their renewed Galaxy S10 had a locked IMEI tied to an unpaid AT&T balance and could not be activated on a new service. [e7a3220baee2_0]\nA USA-based reviewer using T-Mobile said the international version of the S10 worked flawlessly after moving the SIM card from their old S6. [e942f94394af_0]\nOne reviewer said they activated service through Verizon with no problems even though the phone was a Sprint phone. [7b5b44f5182f_0]\nAnother reviewer reported that the phones were not compatible with their carrier service plan and advised checking compatibility with the carrier before buying. [47699717a7d4_0]\nA Verizon customer reported no issues transferring data from an old S7 to the new S10. [56727ef44fa8_0]\nOne reviewer said the phone activated on the T-Mobile network without a hitch and noted that Sprint customers need to go to a T-Mobile store to replace the Sprint SIM with a T-Mobile SIM. [625abd70df1d_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported that their renewed Galaxy S10 had a locked IMEI tied to an unpaid AT&T balance and could not be activated on a new service.",
+      "citations": [
+        "e7a3220baee2_0"
+      ]
+    },
+    {
+      "text": "A USA-based reviewer using T-Mobile said the international version of the S10 worked flawlessly after moving the SIM card from their old S6.",
+      "citations": [
+        "e942f94394af_0"
+      ]
+    },
+    {
+      "text": "One reviewer said they activated service through Verizon with no problems even though the phone was a Sprint phone.",
+      "citations": [
+        "7b5b44f5182f_0"
+      ]
+    },
+    {
+      "text": "Another reviewer reported that the phones were not compatible with their carrier service plan and advised checking compatibility with the carrier before buying.",
+      "citations": [
+        "47699717a7d4_0"
+      ]
+    },
+    {
+      "text": "A Verizon customer reported no issues transferring data from an old S7 to the new S10.",
+      "citations": [
+        "56727ef44fa8_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the phone activated on the T-Mobile network without a hitch and noted that Sprint customers need to go to a T-Mobile store to replace the Sprint SIM with a T-Mobile SIM.",
+      "citations": [
+        "625abd70df1d_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reported that their renewed Galaxy S10 had a locked IMEI tied to an unpaid AT&T balance and could not be activated on a new service.",
+      "citations": [
+        "e7a3220baee2_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A USA-based reviewer using T-Mobile said the international version of the S10 worked flawlessly after moving the SIM card from their old S6.",
+      "citations": [
+        "e942f94394af_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said they activated service through Verizon with no problems even though the phone was a Sprint phone.",
+      "citations": [
+        "7b5b44f5182f_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reported that the phones were not compatible with their carrier service plan and advised checking compatibility with the carrier before buying.",
+      "citations": [
+        "47699717a7d4_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A Verizon customer reported no issues transferring data from an old S7 to the new S10.",
+      "citations": [
+        "56727ef44fa8_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the phone activated on the T-Mobile network without a hitch and noted that Sprint customers need to go to a T-Mobile store to replace the Sprint SIM with a T-Mobile SIM.",
+      "citations": [
+        "625abd70df1d_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reported that their renewed Galaxy S10 had a locked IMEI tied to an unpaid AT&T balance and could not be activated on a new service.",
+      "citations": [
+        "e7a3220baee2_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A USA-based reviewer using T-Mobile said the international version of the S10 worked flawlessly after moving the SIM card from their old S6.",
+      "citations": [
+        "e942f94394af_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said they activated service through Verizon with no problems even though the phone was a Sprint phone.",
+      "citations": [
+        "7b5b44f5182f_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reported that the phones were not compatible with their carrier service plan and advised checking compatibility with the carrier before buying.",
+      "citations": [
+        "47699717a7d4_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A Verizon customer reported no issues transferring data from an old S7 to the new S10.",
+      "citations": [
+        "56727ef44fa8_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the phone activated on the T-Mobile network without a hitch and noted that Sprint customers need to go to a T-Mobile store to replace the Sprint SIM with a T-Mobile SIM.",
+      "citations": [
+        "625abd70df1d_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "c57340e7f4a7_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No mention of carrier; complaint is about phone not working and refund.",
+      "doc_id": "c57340e7f4a7",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "e7a3220baee2_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "locked IMEI number with AT&T",
+        "cannot be activated on a new service"
+      ],
+      "reason": "Carrier-locked IMEI prevents activation on new service; negative carrier evidence.",
+      "doc_id": "e7a3220baee2",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "e942f94394af_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "does not have any carrier bloatware",
+        "works flawlessly"
+      ],
+      "reason": "International version lacks carrier bloatware and works with T-Mobile SIM.",
+      "doc_id": "e942f94394af",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "7b5b44f5182f_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "activated service today through Verizon",
+        "no problems"
+      ],
+      "reason": "Activated on Verizon with no problems despite being a Sprint phone.",
+      "doc_id": "7b5b44f5182f",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "47699717a7d4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "not compatible with our carrier service plan"
+      ],
+      "reason": "Phones incompatible with buyer's carrier service plan; negative carrier evidence.",
+      "doc_id": "47699717a7d4",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "e3890901c0de_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Complaint about compatibility claim, not carrier specifically.",
+      "doc_id": "e3890901c0de",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "56727ef44fa8_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "compatible with Verizon",
+        "had absolutely no issues transferring data"
+      ],
+      "reason": "Phone compatible with Verizon carrier, no issues.",
+      "doc_id": "56727ef44fa8",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "483ce94129e2_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Complaint about charger and SIM pin, not carrier.",
+      "doc_id": "483ce94129e2",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "2af44dfe1a4b_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Wrong model received; no carrier discussion.",
+      "doc_id": "2af44dfe1a4b",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "625abd70df1d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "activated on the T-Mobile network without a hitch"
+      ],
+      "reason": "Phone activated on T-Mobile network without issue; positive carrier evidence.",
+      "doc_id": "625abd70df1d",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 6,
+      "n_excluded_aspect_absent": 4,
+      "counts": {
+        "positive": 4,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.6666666666666666,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6666666666666666,
+      "polarized_denominator": 6
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "c57340e7f4a7_0",
+      "doc_id": "c57340e7f4a7",
+      "text": "Samsung Galaxy S10 - Fully Unlocked (Renewed). The telephone did not work and refund is not yet done after 3+ weeks of reported it.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "e7a3220baee2_0",
+      "doc_id": "e7a3220baee2",
+      "text": "Locked IMEI - phone is a brick. The \"renewed\" Galaxy S10 we got looked new but had a locked IMEI number with AT&T -- previous owner had an unpaid balance. The phone is a brick and cannot be activated on a new service. The seller \"Flip Cells\" did not check whether the IMEI was clean before selling it as \"renewed\".",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "e942f94394af_0",
+      "doc_id": "e942f94394af",
+      "text": "samsung galaxy s10 international. I received the phone earlier than the expected arrival date and it was new and sealed as advertised. I am from the USA and I have T-mobile USA as my service provider. I upgraded to this from a Samsung Galaxy S6 I got from T-mobile in 2015. This international version does not have any carrier bloatware and I used the SIM card from my old S6 and put it into the S10 and it works flawlessly.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07VZNDZY6"
+    },
+    {
+      "chunk_id": "7b5b44f5182f_0",
+      "doc_id": "7b5b44f5182f",
+      "text": "Galaxy s10 128 gig top quality like new thank you. Thank you for the Samsung Galaxy S10 I read some reviews and I guess they where from a while back but this company has it together I received a quality product activated service today through Verizon and I have had it around 5 days seems to be functioning at peak performance I did select Verizon carrier the phone is a sprint phone but no problems if your hesitant or over thinking it don't good quality company ill use them again thank you again",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "47699717a7d4_0",
+      "doc_id": "47699717a7d4",
+      "text": "check compatibility with carrier before buying. The phones were not compatible with our carrier service plan and the charging cables they sent us were for an older galaxy phone and were not compatible with the phones we received which needed type c charging cables.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "e3890901c0de_0",
+      "doc_id": "e3890901c0de",
+      "text": "Not as advertised for Galaxy S10. I purchased this because it said it works for Galaxy S10, it does not.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07JVCFR7J"
+    },
+    {
+      "chunk_id": "56727ef44fa8_0",
+      "doc_id": "56727ef44fa8",
+      "text": "Genuine Samsung Galaxy S10 and compatible with Verizon. This phone was purchased as a Christmas gift for my husband. We have Verizon as our carrier and had absolutely no issues transferring data from his old S7 to the new S10. My husband loves this phone. He uses his phone A LOT for work and he has been impressed by the longevity of the battery to get him through his work day. He used to have to charge his S7 multiple times a day. With the S10 he charges it overnight and the battery holds up throughout the day which is usually full of texts, calls, emails, and web research. I would highly recommend this phone. It's a great buy!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07XJ2BWMP"
+    },
+    {
+      "chunk_id": "483ce94129e2_0",
+      "doc_id": "483ce94129e2",
+      "text": "Items Included Not Compatible. The wall adapter for charging the S10 was NOT compatible with the S10. Needless to say, I had to run to AT&T to purchase the correct equipment. The pin to open the sim card slot was also not sent. It would be quite professional if the seller would test the equipment prior to shipping and double check the content promised as well.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "2af44dfe1a4b_0",
+      "doc_id": "2af44dfe1a4b",
+      "text": "The product no is the same!!. When I buy this product said is a samsung galaxy s10+ and when I get this is a samsung galaxy s10",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "625abd70df1d_0",
+      "doc_id": "625abd70df1d",
+      "text": "Samsung Galaxy S10 - Excellent!. I bought this S10 because my current Sprint phone will no longer on the T-Mobile network come Jan 1, 2022. I was a bit nervous after reading the reviews, but I bought it because I couldn't beat the price, and just hoped for the best. Well, it tuned out for the best! The phone was immaculate--not a scratch on the front or back--and it activated on the T-Mobile network without a hitch. (If you're facing the Sprint/T-Mobile scenario, you will need to go to a T-Mobile store for activation because they must replace the Sprint SIM with a proper T-Mobile SIM.) This turned out to be a great purchase. P.S. I recommend the Spigen case.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    }
+  ],
+  "contexts": [
+    "Samsung Galaxy S10 - Fully Unlocked (Renewed). The telephone did not work and refund is not yet done after 3+ weeks of reported it.",
+    "Locked IMEI - phone is a brick. The \"renewed\" Galaxy S10 we got looked new but had a locked IMEI number with AT&T -- previous owner had an unpaid balance. The phone is a brick and cannot be activated on a new service. The seller \"Flip Cells\" did not check whether the IMEI was clean before selling it as \"renewed\".",
+    "samsung galaxy s10 international. I received the phone earlier than the expected arrival date and it was new and sealed as advertised. I am from the USA and I have T-mobile USA as my service provider. I upgraded to this from a Samsung Galaxy S6 I got from T-mobile in 2015. This international version does not have any carrier bloatware and I used the SIM card from my old S6 and put it into the S10 and it works flawlessly.",
+    "Galaxy s10 128 gig top quality like new thank you. Thank you for the Samsung Galaxy S10 I read some reviews and I guess they where from a while back but this company has it together I received a quality product activated service today through Verizon and I have had it around 5 days seems to be functioning at peak performance I did select Verizon carrier the phone is a sprint phone but no problems if your hesitant or over thinking it don't good quality company ill use them again thank you again",
+    "check compatibility with carrier before buying. The phones were not compatible with our carrier service plan and the charging cables they sent us were for an older galaxy phone and were not compatible with the phones we received which needed type c charging cables.",
+    "Not as advertised for Galaxy S10. I purchased this because it said it works for Galaxy S10, it does not.",
+    "Genuine Samsung Galaxy S10 and compatible with Verizon. This phone was purchased as a Christmas gift for my husband. We have Verizon as our carrier and had absolutely no issues transferring data from his old S7 to the new S10. My husband loves this phone. He uses his phone A LOT for work and he has been impressed by the longevity of the battery to get him through his work day. He used to have to charge his S7 multiple times a day. With the S10 he charges it overnight and the battery holds up throughout the day which is usually full of texts, calls, emails, and web research. I would highly recommend this phone. It's a great buy!",
+    "Items Included Not Compatible. The wall adapter for charging the S10 was NOT compatible with the S10. Needless to say, I had to run to AT&T to purchase the correct equipment. The pin to open the sim card slot was also not sent. It would be quite professional if the seller would test the equipment prior to shipping and double check the content promised as well.",
+    "The product no is the same!!. When I buy this product said is a samsung galaxy s10+ and when I get this is a samsung galaxy s10",
+    "Samsung Galaxy S10 - Excellent!. I bought this S10 because my current Sprint phone will no longer on the T-Mobile network come Jan 1, 2022. I was a bit nervous after reading the reviews, but I bought it because I couldn't beat the price, and just hoped for the best. Well, it tuned out for the best! The phone was immaculate--not a scratch on the front or back--and it activated on the T-Mobile network without a hitch. (If you're facing the Sprint/T-Mobile scenario, you will need to go to a T-Mobile store for activation because they must replace the Sprint SIM with a proper T-Mobile SIM.) This turned out to be a great purchase. P.S. I recommend the Spigen case."
+  ],
+  "timing": {
+    "classification_s": 2.705851899998379,
+    "generation_s": 1.8575907999984338,
+    "verification_s": 7.000002369750291e-06,
+    "total_s": 4.563461300000199
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1583,
+        "completion_tokens": 607,
+        "total_tokens": 2190,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1327
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1457,
+        "completion_tokens": 280,
+        "total_tokens": 1737,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1457
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

@@ -1,0 +1,456 @@
+{
+  "question": "How responsive is the Samsung Galaxy S10 in everyday use according to reviewers?",
+  "answer": "One reviewer described the phone as fast and responsive, with the screen looking great. [a7ee0861b883_1]\nAnother reviewer said it is snappy and responsive and can run games and anything else expected. [de25b0e25239_0]\nA reviewer stated it is as responsive as they would expect a new phone to be. [900565c238cf_1]\nOne reviewer called it super responsive and said it never lags, though the fingerprint reader is a tad slow at times. [671ca823c404_0]\nA reviewer found it okay for daily use in almost everything except gaming and noted a great delay when pausing music with wired headphone controls, plus input lag. [79880c07396f_2]\nAnother reviewer said it is much faster than their previous Galaxy A51. [b0aeba9e0067_0]",
+  "draft_answer": "One reviewer described the phone as fast and responsive, with the screen looking great. [a7ee0861b883_1]\nAnother reviewer said it is snappy and responsive and can run games and anything else expected. [de25b0e25239_0]\nA reviewer stated it is as responsive as they would expect a new phone to be. [900565c238cf_1]\nOne reviewer called it super responsive and said it never lags, though the fingerprint reader is a tad slow at times. [671ca823c404_0]\nA reviewer found it okay for daily use in almost everything except gaming and noted a great delay when pausing music with wired headphone controls, plus input lag. [79880c07396f_2]\nAnother reviewer said it is much faster than their previous Galaxy A51. [b0aeba9e0067_0]",
+  "sentences": [
+    {
+      "text": "One reviewer described the phone as fast and responsive, with the screen looking great.",
+      "citations": [
+        "a7ee0861b883_1"
+      ]
+    },
+    {
+      "text": "Another reviewer said it is snappy and responsive and can run games and anything else expected.",
+      "citations": [
+        "de25b0e25239_0"
+      ]
+    },
+    {
+      "text": "A reviewer stated it is as responsive as they would expect a new phone to be.",
+      "citations": [
+        "900565c238cf_1"
+      ]
+    },
+    {
+      "text": "One reviewer called it super responsive and said it never lags, though the fingerprint reader is a tad slow at times.",
+      "citations": [
+        "671ca823c404_0"
+      ]
+    },
+    {
+      "text": "A reviewer found it okay for daily use in almost everything except gaming and noted a great delay when pausing music with wired headphone controls, plus input lag.",
+      "citations": [
+        "79880c07396f_2"
+      ]
+    },
+    {
+      "text": "Another reviewer said it is much faster than their previous Galaxy A51.",
+      "citations": [
+        "b0aeba9e0067_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One reviewer described the phone as fast and responsive, with the screen looking great.",
+      "citations": [
+        "a7ee0861b883_1"
+      ],
+      "status": "supported",
+      "reason": "引文明确提到手机快速且响应灵敏，屏幕看起来很棒，与句子内容一致。",
+      "evidence": [
+        {
+          "chunk_id": "a7ee0861b883_1",
+          "quote": "Its fast and responsive, the screen looks great"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "Another reviewer said it is snappy and responsive and can run games and anything else expected.",
+      "citations": [
+        "de25b0e25239_0"
+      ],
+      "status": "supported",
+      "reason": "引文包含snappy and responsive以及可以运行游戏和任何预期内容。",
+      "evidence": [
+        {
+          "chunk_id": "de25b0e25239_0",
+          "quote": "it is snappy and responsive and overall works great"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "A reviewer stated it is as responsive as they would expect a new phone to be.",
+      "citations": [
+        "900565c238cf_1"
+      ],
+      "status": "supported",
+      "reason": "引文原句即为响应速度符合对新手机的预期。",
+      "evidence": [
+        {
+          "chunk_id": "900565c238cf_1",
+          "quote": "It's as responsive as I'd expect a new phone to be."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s3",
+      "text": "One reviewer called it super responsive and said it never lags, though the fingerprint reader is a tad slow at times.",
+      "citations": [
+        "671ca823c404_0"
+      ],
+      "status": "supported",
+      "reason": "引文同时支持超级响应、从不卡顿以及指纹识别有时稍慢。",
+      "evidence": [
+        {
+          "chunk_id": "671ca823c404_0",
+          "quote": "Is super responsive and never lags... Fingerprint reader is a tad slow at times"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "A reviewer found it okay for daily use in almost everything except gaming and noted a great delay when pausing music with wired headphone controls, plus input lag.",
+      "citations": [
+        "79880c07396f_2"
+      ],
+      "status": "supported",
+      "reason": "引文支持日常使用除游戏外尚可、有线耳机暂停音乐有明显延迟以及输入延迟。",
+      "evidence": [
+        {
+          "chunk_id": "79880c07396f_2",
+          "quote": "It's ok for daily use in almost everything except gaming."
+        },
+        {
+          "chunk_id": "79880c07396f_2",
+          "quote": "However I noticed a great delay when I want to pausey music using the control button on my wired headphones."
+        },
+        {
+          "chunk_id": "79880c07396f_2",
+          "quote": "If the fingerprint, input lag, and music pause faulty issue were optimized"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "Another reviewer said it is much faster than their previous Galaxy A51.",
+      "citations": [
+        "b0aeba9e0067_0"
+      ],
+      "status": "supported",
+      "reason": "引文明确说比之前的A51快得多。",
+      "evidence": [
+        {
+          "chunk_id": "b0aeba9e0067_0",
+          "quote": "It's so much faster than my a51."
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "a7ee0861b883_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The phone works like it’s new. Its fast and responsive"
+      ],
+      "reason": "Praises speed and responsiveness of the phone's performance.",
+      "doc_id": "a7ee0861b883",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "79880c07396f_2",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "It's ok for daily use in almost everything except gaming",
+        "processing speed",
+        "If the fingerprint, input lag, and music pause faulty issue were optimized"
+      ],
+      "reason": "Notes processing speed but criticizes input lag and gaming performance.",
+      "doc_id": "79880c07396f",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "de25b0e25239_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "it is snappy and responsive",
+        "you can run games and anything else you would expect"
+      ],
+      "reason": "Praises responsiveness and ability to run games.",
+      "doc_id": "de25b0e25239",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "900565c238cf_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "It's as responsive as I'd expect a new phone to be"
+      ],
+      "reason": "Positive on responsiveness; other points are factual/neutral.",
+      "doc_id": "900565c238cf",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "76db1ee6a786_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses battery life, not performance aspect.",
+      "doc_id": "76db1ee6a786",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "7f524dd2516a_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "As for the performance of the S10, I'm quite sure I could get at least 1 day of use"
+      ],
+      "reason": "Positive expectation about performance/battery use.",
+      "doc_id": "7f524dd2516a",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "671ca823c404_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Is super responsive and never lags"
+      ],
+      "reason": "Praises responsiveness and lack of lag.",
+      "doc_id": "671ca823c404",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "ffeec915e1c8_1",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Responsiveness refers to sellers, not phone performance.",
+      "doc_id": "ffeec915e1c8",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "e265e147e15b_7",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "use, and functionality I am very impressed",
+        "there is not a single thing about the phone where I would say \"this could be better\""
+      ],
+      "reason": "Positive overall functionality; cannot comment on gaming.",
+      "doc_id": "e265e147e15b",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "b0aeba9e0067_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "It's so much faster than my a51"
+      ],
+      "reason": "Praises speed compared to prior phone.",
+      "doc_id": "b0aeba9e0067",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 8,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 7,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.875,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 7
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "a7ee0861b883_1",
+      "doc_id": "a7ee0861b883",
+      "text": "I couldn’t see a single indication of damage. -The phone works like it’s new. Its fast and responsive, the screen looks great, and the battery holds a charge the entire day with average use. -I am so happy with this that I will probably order refurbished phones in the future to save myself a lot of money, as long as I can get a few years out of this one. Cons: -None that I have noticed. I am so happy I took a chance on a refurbished product after only buying new flagship devices my whole life. If I experience any problems, I will be sure to return and update my review.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "79880c07396f_2",
+      "doc_id": "79880c07396f",
+      "text": "It's ok for daily use in almost everything except gaming. The main boxes I wanted to check were the convenience and freedom that android offers such as simple drag and drop file transfer from my computer, processing speed, reliability with apps. and a headphone jack. This model has a headphone jack, so now I can listen to music while charging the phone. However I noticed a great delay when I want to pausey music using the control button on my wired headphones. Sometimes the music just doesn't pause at all, and that's annoying, because I need to pause the music immediately so I can hear my environment and talk to people in it. If the fingerprint, input lag, and music pause faulty issue were optimized, this would be that much closer to a 5 star phone.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B0BM3F9RK1"
+    },
+    {
+      "chunk_id": "de25b0e25239_0",
+      "doc_id": "de25b0e25239",
+      "text": "Great phone for the price. Got this as present and it is working great. The screen is pretty bright and clear, it is snappy and responsive and overall works great. You can watch the tons of reviews on youtube for the details, but overall the camera is great, the phone works great, you can run games and anything else you would expect, at a fraction of the cost of the latest flagship phones",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "900565c238cf_1",
+      "doc_id": "900565c238cf",
+      "text": "I'll probably forget they're there in a week or so. * It's as responsive as I'd expect a new phone to be. * Testing of sensors (i.e. GPS, proximity, accelerometer, etc.) shows them all to be working properly. * Testing of battery shows it to be at about 79% of it's original 3400mAh capacity. (This about where I expected it to be. My typical screen on time is probably lower than average, and this will be sufficient for me. If it becomes problematic, I'll take the time to replace the battery.) * There is some screen burn in. This is something that happens to all AMOLED screens over time, but poor handling can cause it sooner.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "76db1ee6a786_0",
+      "doc_id": "76db1ee6a786",
+      "text": "No battery life. I was hesitant on buying a phone here and I'm not sure if I'll regret it yet, I have contacted the seller and will update my review according to their response. The phone looks good. Screen is clean only one tiny scratch. I was able to set it up with my carrier, no problem. The problem I am having is the phone doesn't keep enough charge to last an entire day. I do not use the phone all day, it sits on a desk while I'm working. I don't scroll social media apps all day or use it to play music. It literally just sits there. I can't imagine how fast it is going to die this weekend when I do actually have time to use apps and make phone calls. I'm disappointed that I have to put it on charge every 8-9 hours.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "7f524dd2516a_0",
+      "doc_id": "7f524dd2516a",
+      "text": "A Nicely Refurbished S10, As Amazon Promised. When I received the phone, it came in an original S10 box and came with mostly OEM (Samsung) accesories like a pair of AKG earbuds, a Samsung fast charger and a type - C cable, along with a user manual and other documents. The only non-OEM accesories I got were third-party USB to USB C adapter and a screen protector. The phone itself had no visible signs of damage and, as I'm writing this review, I have been using this phone for about 3 days. I have had no issues with this phone so far but I will update this review if I so. As for the performance of the S10, I'm quite sure I could get at least 1 day of use of this phone if I lowered my usage a bit and used the screen at the 1080p or 720p resolution.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "671ca823c404_0",
+      "doc_id": "671ca823c404",
+      "text": "Awesome phone... Enough said.... Is super responsive and never lags... Fingerprint reader is a tad slow at times... If you can afford to wait a bit longer and save for the S10+, I would suggest that as the battery on the S10 leaves a little to be desired...",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07XJ2BWMP"
+    },
+    {
+      "chunk_id": "ffeec915e1c8_1",
+      "doc_id": "ffeec915e1c8",
+      "text": "The sellers I received it from are super responsive and answered any questions I had right away, and relieved any stresses I had. Super satisfied with my purchase, and will definitely be recommending renewed phones, especially this one, to anyone looking for a phone.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "e265e147e15b_7",
+      "doc_id": "e265e147e15b",
+      "text": "Overall Impression: With everything from purchase cost, minimal wait time for delivery, setup, use, and functionality I am very impressed. At this time, there is not a single thing about the phone where I would say \"this could be better\". I will say that I am not a gamer, thus the phone will not be used for them. I cannot comment on how well it would be used for games. I do take many pictures than range from people to panoramic vista views of National Parks and the phone is used as my main daily use camera. Samsung has never let me down in this area. Very happy with this purchase.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07VZNDZY6"
+    },
+    {
+      "chunk_id": "b0aeba9e0067_0",
+      "doc_id": "b0aeba9e0067",
+      "text": "To be updated. I would like to start off by saying I have been using the phone for 24 hours so far and will update my review if anything changes. I had a samsung galaxy a51 before this phone, it's been a while since I have had an s-series phone. I have never bought anything renewed or refurbished. This phone is excellent! It's so much faster than my a51. The camera is about the same as the a51, which is okay. No issues setting up, cosmetically, or functionally so far. The only downside is that the battery drains kind of quickly. It's not the worst, but it certainly isn't great. If you're not using it, the battery won't just sit there and drain fast. But while you're using it, it does. So far, $181 for an s10 has been so worth it and awesome. Again, will update if anything changes!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    }
+  ],
+  "contexts": [
+    "I couldn’t see a single indication of damage. -The phone works like it’s new. Its fast and responsive, the screen looks great, and the battery holds a charge the entire day with average use. -I am so happy with this that I will probably order refurbished phones in the future to save myself a lot of money, as long as I can get a few years out of this one. Cons: -None that I have noticed. I am so happy I took a chance on a refurbished product after only buying new flagship devices my whole life. If I experience any problems, I will be sure to return and update my review.",
+    "It's ok for daily use in almost everything except gaming. The main boxes I wanted to check were the convenience and freedom that android offers such as simple drag and drop file transfer from my computer, processing speed, reliability with apps. and a headphone jack. This model has a headphone jack, so now I can listen to music while charging the phone. However I noticed a great delay when I want to pausey music using the control button on my wired headphones. Sometimes the music just doesn't pause at all, and that's annoying, because I need to pause the music immediately so I can hear my environment and talk to people in it. If the fingerprint, input lag, and music pause faulty issue were optimized, this would be that much closer to a 5 star phone.",
+    "Great phone for the price. Got this as present and it is working great. The screen is pretty bright and clear, it is snappy and responsive and overall works great. You can watch the tons of reviews on youtube for the details, but overall the camera is great, the phone works great, you can run games and anything else you would expect, at a fraction of the cost of the latest flagship phones",
+    "I'll probably forget they're there in a week or so. * It's as responsive as I'd expect a new phone to be. * Testing of sensors (i.e. GPS, proximity, accelerometer, etc.) shows them all to be working properly. * Testing of battery shows it to be at about 79% of it's original 3400mAh capacity. (This about where I expected it to be. My typical screen on time is probably lower than average, and this will be sufficient for me. If it becomes problematic, I'll take the time to replace the battery.) * There is some screen burn in. This is something that happens to all AMOLED screens over time, but poor handling can cause it sooner.",
+    "No battery life. I was hesitant on buying a phone here and I'm not sure if I'll regret it yet, I have contacted the seller and will update my review according to their response. The phone looks good. Screen is clean only one tiny scratch. I was able to set it up with my carrier, no problem. The problem I am having is the phone doesn't keep enough charge to last an entire day. I do not use the phone all day, it sits on a desk while I'm working. I don't scroll social media apps all day or use it to play music. It literally just sits there. I can't imagine how fast it is going to die this weekend when I do actually have time to use apps and make phone calls. I'm disappointed that I have to put it on charge every 8-9 hours.",
+    "A Nicely Refurbished S10, As Amazon Promised. When I received the phone, it came in an original S10 box and came with mostly OEM (Samsung) accesories like a pair of AKG earbuds, a Samsung fast charger and a type - C cable, along with a user manual and other documents. The only non-OEM accesories I got were third-party USB to USB C adapter and a screen protector. The phone itself had no visible signs of damage and, as I'm writing this review, I have been using this phone for about 3 days. I have had no issues with this phone so far but I will update this review if I so. As for the performance of the S10, I'm quite sure I could get at least 1 day of use of this phone if I lowered my usage a bit and used the screen at the 1080p or 720p resolution.",
+    "Awesome phone... Enough said.... Is super responsive and never lags... Fingerprint reader is a tad slow at times... If you can afford to wait a bit longer and save for the S10+, I would suggest that as the battery on the S10 leaves a little to be desired...",
+    "The sellers I received it from are super responsive and answered any questions I had right away, and relieved any stresses I had. Super satisfied with my purchase, and will definitely be recommending renewed phones, especially this one, to anyone looking for a phone.",
+    "Overall Impression: With everything from purchase cost, minimal wait time for delivery, setup, use, and functionality I am very impressed. At this time, there is not a single thing about the phone where I would say \"this could be better\". I will say that I am not a gamer, thus the phone will not be used for them. I cannot comment on how well it would be used for games. I do take many pictures than range from people to panoramic vista views of National Parks and the phone is used as my main daily use camera. Samsung has never let me down in this area. Very happy with this purchase.",
+    "To be updated. I would like to start off by saying I have been using the phone for 24 hours so far and will update my review if anything changes. I had a samsung galaxy a51 before this phone, it's been a while since I have had an s-series phone. I have never bought anything renewed or refurbished. This phone is excellent! It's so much faster than my a51. The camera is about the same as the a51, which is okay. No issues setting up, cosmetically, or functionally so far. The only downside is that the battery drains kind of quickly. It's not the worst, but it certainly isn't great. If you're not using it, the battery won't just sit there and drain fast. But while you're using it, it does. So far, $181 for an s10 has been so worth it and awesome. Again, will update if anything changes!"
+  ],
+  "timing": {
+    "classification_s": 2.9771165999991354,
+    "generation_s": 1.8346928000028129,
+    "verification_s": 2.539255100004084,
+    "total_s": 7.3510877000007895
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2091,
+        "completion_tokens": 649,
+        "total_tokens": 2740,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 171
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1966,
+        "completion_tokens": 237,
+        "total_tokens": 2203,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 174
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1641,
+        "completion_tokens": 452,
+        "total_tokens": 2093,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 1257
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

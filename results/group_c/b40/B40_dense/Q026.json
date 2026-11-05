@@ -1,0 +1,464 @@
+{
+  "question": "What experiences do iPhone 8 buyers describe when seeking help or returning a faulty phone?",
+  "answer": "One reviewer said they tried to email and call the vendor for a replacement but never got a response. [95fb8dc8823e_0]\nAnother reviewer reported having no problem at all returning the iPhone, noting the package came with a card listing the seller's phone number and email address, backed by Amazon. [cbe492bdc069_0]\nA reviewer who received a phone with a stuck home button, broken vibrate mode, nonfunctioning speakerphone, and random shutoffs started the return process within several hours of receiving it. [f611762d96d5_0]\nOne reviewer said that once they started the return process with a request for a replacement, the seller communicated very quickly and provided a return label the same day, with the replacement arriving as quickly as the old phone went out. [857a873a85e7_0]\nA reviewer who sent the phone back said they had not yet received a refund. [50194e7ca456_0]\nAnother reviewer complained that it took too long to get a refund for a defective phone and felt they should get a refund with no questions asked. [21a7489b41d4_0]",
+  "draft_answer": "One reviewer said they tried to email and call the vendor for a replacement but never got a response. [95fb8dc8823e_0]\nAnother reviewer reported having no problem at all returning the iPhone, noting the package came with a card listing the seller's phone number and email address, backed by Amazon. [cbe492bdc069_0]\nA reviewer who received a phone with a stuck home button, broken vibrate mode, nonfunctioning speakerphone, and random shutoffs started the return process within several hours of receiving it. [f611762d96d5_0]\nOne reviewer said that once they started the return process with a request for a replacement, the seller communicated very quickly and provided a return label the same day, with the replacement arriving as quickly as the old phone went out. [857a873a85e7_0]\nA reviewer who sent the phone back said they had not yet received a refund. [50194e7ca456_0]\nAnother reviewer complained that it took too long to get a refund for a defective phone and felt they should get a refund with no questions asked. [21a7489b41d4_0]",
+  "sentences": [
+    {
+      "text": "One reviewer said they tried to email and call the vendor for a replacement but never got a response.",
+      "citations": [
+        "95fb8dc8823e_0"
+      ]
+    },
+    {
+      "text": "Another reviewer reported having no problem at all returning the iPhone, noting the package came with a card listing the seller's phone number and email address, backed by Amazon.",
+      "citations": [
+        "cbe492bdc069_0"
+      ]
+    },
+    {
+      "text": "A reviewer who received a phone with a stuck home button, broken vibrate mode, nonfunctioning speakerphone, and random shutoffs started the return process within several hours of receiving it.",
+      "citations": [
+        "f611762d96d5_0"
+      ]
+    },
+    {
+      "text": "One reviewer said that once they started the return process with a request for a replacement, the seller communicated very quickly and provided a return label the same day, with the replacement arriving as quickly as the old phone went out.",
+      "citations": [
+        "857a873a85e7_0"
+      ]
+    },
+    {
+      "text": "A reviewer who sent the phone back said they had not yet received a refund.",
+      "citations": [
+        "50194e7ca456_0"
+      ]
+    },
+    {
+      "text": "Another reviewer complained that it took too long to get a refund for a defective phone and felt they should get a refund with no questions asked.",
+      "citations": [
+        "21a7489b41d4_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer said they tried to email and call the vendor for a replacement but never got a response.",
+      "citations": [
+        "95fb8dc8823e_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reported having no problem at all returning the iPhone, noting the package came with a card listing the seller's phone number and email address, backed by Amazon.",
+      "citations": [
+        "cbe492bdc069_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who received a phone with a stuck home button, broken vibrate mode, nonfunctioning speakerphone, and random shutoffs started the return process within several hours of receiving it.",
+      "citations": [
+        "f611762d96d5_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said that once they started the return process with a request for a replacement, the seller communicated very quickly and provided a return label the same day, with the replacement arriving as quickly as the old phone went out.",
+      "citations": [
+        "857a873a85e7_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who sent the phone back said they had not yet received a refund.",
+      "citations": [
+        "50194e7ca456_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer complained that it took too long to get a refund for a defective phone and felt they should get a refund with no questions asked.",
+      "citations": [
+        "21a7489b41d4_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer said they tried to email and call the vendor for a replacement but never got a response.",
+      "citations": [
+        "95fb8dc8823e_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reported having no problem at all returning the iPhone, noting the package came with a card listing the seller's phone number and email address, backed by Amazon.",
+      "citations": [
+        "cbe492bdc069_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who received a phone with a stuck home button, broken vibrate mode, nonfunctioning speakerphone, and random shutoffs started the return process within several hours of receiving it.",
+      "citations": [
+        "f611762d96d5_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said that once they started the return process with a request for a replacement, the seller communicated very quickly and provided a return label the same day, with the replacement arriving as quickly as the old phone went out.",
+      "citations": [
+        "857a873a85e7_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who sent the phone back said they had not yet received a refund.",
+      "citations": [
+        "50194e7ca456_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer complained that it took too long to get a refund for a defective phone and felt they should get a refund with no questions asked.",
+      "citations": [
+        "21a7489b41d4_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "95fb8dc8823e_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "I tried to email and call the vendor for a replacement but I never got a response"
+      ],
+      "reason": "Complains vendor never responded to replacement requests, criticizing service.",
+      "doc_id": "95fb8dc8823e",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "cbe492bdc069_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Great service",
+        "I did not have any problem at all returning the iPhone"
+      ],
+      "reason": "Praises service and easy return process.",
+      "doc_id": "cbe492bdc069",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "f611762d96d5_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses defective phone and return process, not service quality.",
+      "doc_id": "f611762d96d5",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "5b065d89a741_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses phone functionality and reception, not service.",
+      "doc_id": "5b065d89a741",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "261840e45be1_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses product quality control and deficiencies, not service.",
+      "doc_id": "261840e45be1",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "857a873a85e7_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Great seller: PDI Mobile - backs up the products",
+        "the seller communicated very quickly and had a label for me to mail the old phone back that same day"
+      ],
+      "reason": "Praises seller responsiveness and quick replacement service.",
+      "doc_id": "857a873a85e7",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "50194e7ca456_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses compatibility and refund status, not service quality.",
+      "doc_id": "50194e7ca456",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "89fb415e2c46_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses phone defects and warranty; delivery mention is not service evaluation.",
+      "doc_id": "89fb415e2c46",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "6d6dba7e0fc7_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses speaker defect and return window, not service.",
+      "doc_id": "6d6dba7e0fc7",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "21a7489b41d4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Take too long for refund for a defective phone"
+      ],
+      "reason": "Criticizes slow refund process, a service complaint.",
+      "doc_id": "21a7489b41d4",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 4,
+      "n_excluded_aspect_absent": 6,
+      "counts": {
+        "positive": 2,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5,
+      "polarized_denominator": 4
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "95fb8dc8823e_0",
+      "doc_id": "95fb8dc8823e",
+      "text": "Phone has issues. My refurbished iPhone 8 has had issues from day one. I tried to email and call the vendor for a replacement but I never got a response.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "cbe492bdc069_0",
+      "doc_id": "cbe492bdc069",
+      "text": "Great service. I bought the iPhone 8 256. It looked like new when I received it. It did not come in the original iPhone box. It came in a cardboard box with the plug in to charge it and the little metal piece for SIM card. It worked great in every aspect except that I noticed the sound quality was not as good as my iPhone 5s, the sound was more “tinny” sound, probably not noticeable to others, but it was for me. I don’t know if it was a defect or how the iPhone 8 was made. It just startled me when I would use it for an alarm clock playing music. I did not have any problem at all returning the iPhone. The package came with a card that had their phone number and email address, backed by Amazon.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "f611762d96d5_0",
+      "doc_id": "f611762d96d5",
+      "text": "Broken phone, going back today. Received this iPhone 8 in the mail this afternoon. Came with a stuck home button, broken vibrate mode, nonfunctioning speaker phone, and randomly shuts off. Started the return process within several hours of receiving phone. Seller is CR Land.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "5b065d89a741_0",
+      "doc_id": "5b065d89a741",
+      "text": "Conversations interrupted/broken up;reception lost/disconnected.. Senior citizen. Employer requested upgrade. Technologically challenged. Didn't need bells, whistles, apps. Felt used/refurbished would be acceptable. Son assisted with product selection. Apple iPhone 8 functionality good, battery recharging frequent, conversations interrupted/broken up, reception lost/disconnected. Request refund. Will probably purchase brand new now. Thank you.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "261840e45be1_0",
+      "doc_id": "261840e45be1",
+      "text": "Avant Solutions Quality Control. This is the second refurbished Iphone 8 I have ordered from Avant Solutions in the last month. Both Iphones had deficiencies that rendered a return for refund; the first had a worn-out recharge plug port that allowed the plug to fall out easily. The second was a malfunctioning speaker. If you can overlook these items, the rest of the Iphone functions worked as expected, and so the price you pay for the refurb phone may excuse these deficiencies.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "857a873a85e7_0",
+      "doc_id": "857a873a85e7",
+      "text": "Great seller: PDI Mobile - backs up the products. I was looking for an older model iPhone with a good amount of life left in it. Since the 8 isn’t sold new anywhere, this refurbished option seemed worth a try. Upon arrival the phone was unlocked and in great shape with only a few minor scrapes on the outside edge; battery life was at 88% of original. The only small problem I was having was that the response to touch on the screen was intermittent, something with which I could probably manage. I decided to ask the seller about a replacement; once I started the return process (with a request for a replacement) the seller communicated very quickly and had a label for me to mail the old phone back that same day. The replacement came in as quickly as the old went out. It had a more responsive touch screen and even better battery life.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "50194e7ca456_0",
+      "doc_id": "50194e7ca456",
+      "text": "Refund. The iPhone 8 was not compatible with my service. But when I ordered it, it said unlock. I’ve bought a few and they were good. I don't know why this one didn’t. I’ve sent it back but have not got refund back yet",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "89fb415e2c46_0",
+      "doc_id": "89fb415e2c46",
+      "text": "Warning. Problems I’m having with my iPhone 8. Touchscreen doesn’t always work, screen flickers/glitches, volume doesn’t always work. Sometimes my phone doesn’t even ring at all and sometimes it rings super loud. Lastly the battery I’m having issues with the battery, it dies very quickly and takes a lot longer to charge than it should. Unfortunately I bought the phone on July 5th 2020 and started having all these problems in October 2020 which puts me past the warranty date so I am stuck either using a phone with problems or paying out of pocket to get it fixed. Pros: I received my phone promptly by guaranteed delivery date.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "6d6dba7e0fc7_0",
+      "doc_id": "6d6dba7e0fc7",
+      "text": "Bad phone. We purchased a iPhone 8 in November, it was working ok. The speaker goes in and out only when the phone is used, and we couldn’t figure out why. Well now The speaker doesn’t work at all and the return ran out 1 month ago. I don’t feel this phone was completely checked before it was sent to us.",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    },
+    {
+      "chunk_id": "21a7489b41d4_0",
+      "doc_id": "21a7489b41d4",
+      "text": "Bad iPhone 8. Take too long for refund for a defective phone. The only review needed is the quality of the phone. It had a shaky camera. I should get a refund no questions asked!",
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "source_url": "https://www.amazon.com/dp/B086RM3DQS"
+    }
+  ],
+  "contexts": [
+    "Phone has issues. My refurbished iPhone 8 has had issues from day one. I tried to email and call the vendor for a replacement but I never got a response.",
+    "Great service. I bought the iPhone 8 256. It looked like new when I received it. It did not come in the original iPhone box. It came in a cardboard box with the plug in to charge it and the little metal piece for SIM card. It worked great in every aspect except that I noticed the sound quality was not as good as my iPhone 5s, the sound was more “tinny” sound, probably not noticeable to others, but it was for me. I don’t know if it was a defect or how the iPhone 8 was made. It just startled me when I would use it for an alarm clock playing music. I did not have any problem at all returning the iPhone. The package came with a card that had their phone number and email address, backed by Amazon.",
+    "Broken phone, going back today. Received this iPhone 8 in the mail this afternoon. Came with a stuck home button, broken vibrate mode, nonfunctioning speaker phone, and randomly shuts off. Started the return process within several hours of receiving phone. Seller is CR Land.",
+    "Conversations interrupted/broken up;reception lost/disconnected.. Senior citizen. Employer requested upgrade. Technologically challenged. Didn't need bells, whistles, apps. Felt used/refurbished would be acceptable. Son assisted with product selection. Apple iPhone 8 functionality good, battery recharging frequent, conversations interrupted/broken up, reception lost/disconnected. Request refund. Will probably purchase brand new now. Thank you.",
+    "Avant Solutions Quality Control. This is the second refurbished Iphone 8 I have ordered from Avant Solutions in the last month. Both Iphones had deficiencies that rendered a return for refund; the first had a worn-out recharge plug port that allowed the plug to fall out easily. The second was a malfunctioning speaker. If you can overlook these items, the rest of the Iphone functions worked as expected, and so the price you pay for the refurb phone may excuse these deficiencies.",
+    "Great seller: PDI Mobile - backs up the products. I was looking for an older model iPhone with a good amount of life left in it. Since the 8 isn’t sold new anywhere, this refurbished option seemed worth a try. Upon arrival the phone was unlocked and in great shape with only a few minor scrapes on the outside edge; battery life was at 88% of original. The only small problem I was having was that the response to touch on the screen was intermittent, something with which I could probably manage. I decided to ask the seller about a replacement; once I started the return process (with a request for a replacement) the seller communicated very quickly and had a label for me to mail the old phone back that same day. The replacement came in as quickly as the old went out. It had a more responsive touch screen and even better battery life.",
+    "Refund. The iPhone 8 was not compatible with my service. But when I ordered it, it said unlock. I’ve bought a few and they were good. I don't know why this one didn’t. I’ve sent it back but have not got refund back yet",
+    "Warning. Problems I’m having with my iPhone 8. Touchscreen doesn’t always work, screen flickers/glitches, volume doesn’t always work. Sometimes my phone doesn’t even ring at all and sometimes it rings super loud. Lastly the battery I’m having issues with the battery, it dies very quickly and takes a lot longer to charge than it should. Unfortunately I bought the phone on July 5th 2020 and started having all these problems in October 2020 which puts me past the warranty date so I am stuck either using a phone with problems or paying out of pocket to get it fixed. Pros: I received my phone promptly by guaranteed delivery date.",
+    "Bad phone. We purchased a iPhone 8 in November, it was working ok. The speaker goes in and out only when the phone is used, and we couldn’t figure out why. Well now The speaker doesn’t work at all and the return ran out 1 month ago. I don’t feel this phone was completely checked before it was sent to us.",
+    "Bad iPhone 8. Take too long for refund for a defective phone. The only review needed is the quality of the phone. It had a shaky camera. I should get a refund no questions asked!"
+  ],
+  "timing": {
+    "classification_s": 2.5224006999997073,
+    "generation_s": 2.0284343999956036,
+    "verification_s": 7.700000423938036e-06,
+    "total_s": 4.550854699999036
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1707,
+        "completion_tokens": 590,
+        "total_tokens": 2297,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1451
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1584,
+        "completion_tokens": 303,
+        "total_tokens": 1887,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1456
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

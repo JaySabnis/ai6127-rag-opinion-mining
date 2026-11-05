@@ -1,0 +1,623 @@
+{
+  "question": "What do Samsung Galaxy S10 users say about screen quality and everyday performance?",
+  "answer": "One reviewer said the Galaxy S10 ran really well for games, texting, Facebook, video chats, web surfing, and pictures until the bottom of the screen went pure white and the phone later showed slow performance and heating. [11e1ecd180e5_0]\nAnother reviewer described the S10's performance as great and very fast overall. [0bcb83d06772_0]\nA reviewer called the screen quality awesome and noted the settings can be adjusted for a clearer picture or to save battery life. [22a77e021071_1]\nOne reviewer reported the screen cracked within a few weeks despite a protective cover and case being on. [e86ebf1056a4_0]\nA reviewer upgrading from the Galaxy S7 noted a noticeable difference in performance with the S10. [a025d0475c57_0]\nAnother reviewer listed resolution and speed as pros but said the sides of the screen sometimes cause unnecessary actions when holding the phone. [a4a2b2db0ca4_0] [97f408119485_0]",
+  "draft_answer": "One reviewer said the Galaxy S10 ran really well for games, texting, Facebook, video chats, web surfing, and pictures until the bottom of the screen went pure white and the phone later showed slow performance and heating. [11e1ecd180e5_0]\nAnother reviewer described the S10's performance as great and very fast overall. [0bcb83d06772_0]\nA reviewer called the screen quality awesome and noted the settings can be adjusted for a clearer picture or to save battery life. [22a77e021071_1]\nOne reviewer reported the screen cracked within a few weeks despite a protective cover and case being on. [e86ebf1056a4_0]\nA reviewer upgrading from the Galaxy S7 noted a noticeable difference in performance with the S10. [a025d0475c57_0]\nAnother reviewer listed resolution and speed as pros but said the sides of the screen sometimes cause unnecessary actions when holding the phone. [a4a2b2db0ca4_0] [97f408119485_0]",
+  "sentences": [
+    {
+      "text": "One reviewer said the Galaxy S10 ran really well for games, texting, Facebook, video chats, web surfing, and pictures until the bottom of the screen went pure white and the phone later showed slow performance and heating.",
+      "citations": [
+        "11e1ecd180e5_0"
+      ]
+    },
+    {
+      "text": "Another reviewer described the S10's performance as great and very fast overall.",
+      "citations": [
+        "0bcb83d06772_0"
+      ]
+    },
+    {
+      "text": "A reviewer called the screen quality awesome and noted the settings can be adjusted for a clearer picture or to save battery life.",
+      "citations": [
+        "22a77e021071_1"
+      ]
+    },
+    {
+      "text": "One reviewer reported the screen cracked within a few weeks despite a protective cover and case being on.",
+      "citations": [
+        "e86ebf1056a4_0"
+      ]
+    },
+    {
+      "text": "A reviewer upgrading from the Galaxy S7 noted a noticeable difference in performance with the S10.",
+      "citations": [
+        "a025d0475c57_0"
+      ]
+    },
+    {
+      "text": "Another reviewer listed resolution and speed as pros but said the sides of the screen sometimes cause unnecessary actions when holding the phone.",
+      "citations": [
+        "a4a2b2db0ca4_0",
+        "97f408119485_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One reviewer said the Galaxy S10 ran really well for games, texting, Facebook, video chats, web surfing, and pictures until the bottom of the screen went pure white and the phone later showed slow performance and heating.",
+      "citations": [
+        "11e1ecd180e5_0"
+      ],
+      "status": "supported",
+      "reason": "引文明确提到游戏、短信、Facebook、视频聊天、网页、拍照运行良好，直到屏幕底部变纯白，之后出现慢性能和发热。",
+      "evidence": [
+        {
+          "chunk_id": "11e1ecd180e5_0",
+          "quote": "it ran really well. Did all her games, texting, facebook, video chats, websurfing, pictures, etc... really well. Until one evening she was watching a streaming movie, and when she quit watching and picked the phone up, the bottom inch or so of the screen went pure white."
+        },
+        {
+          "chunk_id": "11e1ecd180e5_0",
+          "quote": "slow performance, short battery life, heating up"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "Another reviewer described the S10's performance as great and very fast overall.",
+      "citations": [
+        "0bcb83d06772_0"
+      ],
+      "status": "supported",
+      "reason": "引文直接称性能很棒且整体非常快。",
+      "evidence": [
+        {
+          "chunk_id": "0bcb83d06772_0",
+          "quote": "But great performance, and very fast overall."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "A reviewer called the screen quality awesome and noted the settings can be adjusted for a clearer picture or to save battery life.",
+      "citations": [
+        "22a77e021071_1"
+      ],
+      "status": "supported",
+      "reason": "引文称屏幕质量很棒，并可调整设置使画面更清晰或稍低以省电。",
+      "evidence": [
+        {
+          "chunk_id": "22a77e021071_1",
+          "quote": "The screen quality is awesome as well and you can change the settings to make it over over top crystal clear or a Lil less so to save battery life."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s3",
+      "text": "One reviewer reported the screen cracked within a few weeks despite a protective cover and case being on.",
+      "citations": [
+        "e86ebf1056a4_0"
+      ],
+      "status": "supported",
+      "reason": "引文称几周后屏幕无故开裂，且当时装有保护膜和手机壳。",
+      "evidence": [
+        {
+          "chunk_id": "e86ebf1056a4_0",
+          "quote": "The phone screen cracked in a few weeks after use due to no apparent reason. A protective screen cover and case was on."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "A reviewer upgrading from the Galaxy S7 noted a noticeable difference in performance with the S10.",
+      "citations": [
+        "a025d0475c57_0"
+      ],
+      "status": "supported",
+      "reason": "引文称从Galaxy S7换到S10后性能有明显差异。",
+      "evidence": [
+        {
+          "chunk_id": "a025d0475c57_0",
+          "quote": "I went from a Galaxy S7 to this S10 and have seen a noticeable difference in performance."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "Another reviewer listed resolution and speed as pros but said the sides of the screen sometimes cause unnecessary actions when holding the phone.",
+      "citations": [
+        "a4a2b2db0ca4_0",
+        "97f408119485_0"
+      ],
+      "status": "supported",
+      "reason": "一条引文列出分辨率、快速等优点；另一条称屏幕两侧在握持时有时会误触。",
+      "evidence": [
+        {
+          "chunk_id": "a4a2b2db0ca4_0",
+          "quote": "Pros: Resolution, Camera, User friendly interface, Handy & fast."
+        },
+        {
+          "chunk_id": "97f408119485_0",
+          "quote": "The downside of the phone is that is the sides of the screen. When I hold the phone, it sometimes take unnecessary actions."
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "11e1ecd180e5_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the bottom inch or so of the screen went pure white",
+        "nothing was visible within that white band"
+      ],
+      "reason": "Reports screen turning white and unusable, a display defect.",
+      "doc_id": "11e1ecd180e5",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "0bcb83d06772_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "Minor scratches on the screen but with the screen protector, you can't even tell"
+      ],
+      "reason": "Mentions minor screen scratches but mitigated by protector; mild mixed display view.",
+      "doc_id": "0bcb83d06772",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "22a77e021071_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The screen quality is awesome as well",
+        "crystal clear"
+      ],
+      "reason": "Praises screen quality and clarity settings.",
+      "doc_id": "22a77e021071",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "e86ebf1056a4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The phone screen cracked in a few weeks after use due to no apparent reason"
+      ],
+      "reason": "Criticizes screen cracking unexpectedly despite protection.",
+      "doc_id": "e86ebf1056a4",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "87d77985951f_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Screen crack refers to prior S8, not the S10 display.",
+      "doc_id": "87d77985951f",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "a025d0475c57_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses camera and performance, not display.",
+      "doc_id": "a025d0475c57",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "a4a2b2db0ca4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Resolution"
+      ],
+      "reason": "Lists resolution as a pro; positive display evidence.",
+      "doc_id": "a4a2b2db0ca4",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "97f408119485_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "it sometimes take unnecessary actions"
+      ],
+      "reason": "Criticizes curved screen sides causing accidental touches.",
+      "doc_id": "97f408119485",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "27f15c37b4f4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the screen had burn in when I got it"
+      ],
+      "reason": "Reports screen burn-in on a supposedly new phone.",
+      "doc_id": "27f15c37b4f4",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "e0cc1140527d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "great display"
+      ],
+      "reason": "Explicitly praises the display.",
+      "doc_id": "e0cc1140527d",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "11e1ecd180e5_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "it was the highest performance phone she had ever had",
+        "it ran really well",
+        "slow performance"
+      ],
+      "reason": "Praises initial performance but later reports slow performance after issues.",
+      "doc_id": "11e1ecd180e5",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "0bcb83d06772_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "great performance, and very fast overall"
+      ],
+      "reason": "Explicitly praises performance as great and fast.",
+      "doc_id": "0bcb83d06772",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "22a77e021071_1",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses screen and sound quality, not performance.",
+      "doc_id": "22a77e021071",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "e86ebf1056a4_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Discusses screen cracking/quality, not performance.",
+      "doc_id": "e86ebf1056a4",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "87d77985951f_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "haven't had an issue with their build quality or performance yet"
+      ],
+      "reason": "No issues with performance, positive.",
+      "doc_id": "87d77985951f",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "a025d0475c57_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "have seen a noticeable difference in performance"
+      ],
+      "reason": "Notes noticeable performance improvement, positive.",
+      "doc_id": "a025d0475c57",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "a4a2b2db0ca4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Handy & fast"
+      ],
+      "reason": "Lists fast as a pro, positive performance.",
+      "doc_id": "a4a2b2db0ca4",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "97f408119485_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The performance is a lot better as well"
+      ],
+      "reason": "Performance better than prior phone, positive.",
+      "doc_id": "97f408119485",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "27f15c37b4f4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "the performance was great",
+        "I notice some flaws from day one"
+      ],
+      "reason": "Praises performance but overall negative with flaws.",
+      "doc_id": "27f15c37b4f4",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    },
+    {
+      "chunk_id": "e0cc1140527d_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Praises cameras, display, fingerprint, audio; not performance.",
+      "doc_id": "e0cc1140527d",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 8,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 3,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.375,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.42857142857142855,
+      "polarized_denominator": 7
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 7,
+      "n_excluded_aspect_absent": 3,
+      "counts": {
+        "positive": 5,
+        "negative": 0,
+        "mixed": 2,
+        "neutral": 0
+      },
+      "positive_ratio": 0.7142857142857143,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 5
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "11e1ecd180e5_0",
+      "doc_id": "11e1ecd180e5",
+      "text": "Good phone, for a while.. I got this phone for my wife, it was the highest performance phone she had ever had. I have the S9, and have no complaints, so I got her the next model since it has been about 2.5 years since getting mine. Well, it ran really well. Did all her games, texting, facebook, video chats, websurfing, pictures, etc... really well. Until one evening she was watching a streaming movie, and when she quit watching and picked the phone up, the bottom inch or so of the screen went pure white. The screen still responded to touch, but nothing was visible within that white band. The phone started being weird about sending and recieving messages, slow performance, short battery life, heating up, and very slow charging (if it would charge at all). So, I will be returning it. I really wish it had worked out.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "0bcb83d06772_0",
+      "doc_id": "0bcb83d06772",
+      "text": "Worth every penny.. For the price, Excellent condition. Minor scratches on the screen but with the screen protector, you can't even tell. I think they might of tested the water resistance because the phone was a little damp when I received it(USB port). But great performance, and very fast overall. Very much of what I was expecting and more!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "22a77e021071_1",
+      "doc_id": "22a77e021071",
+      "text": "The screen quality is awesome as well and you can change the settings to make it over over top crystal clear or a Lil less so to save battery life. The sound is really good I used to think I had a bad aux cord in the work truck or at least the sound system was weak but now that I'm using this phone for Spotify at work it's crisp and clear I am very pleased with this purchase I'd say for the price it was more then worth it",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "e86ebf1056a4_0",
+      "doc_id": "e86ebf1056a4",
+      "text": "Poor quality. The quality of the phone was a let down. The phone screen cracked in a few weeks after use due to no apparent reason. A protective screen cover and case was on. Still I noticed a screen crack one day and another one few days later.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "87d77985951f_0",
+      "doc_id": "87d77985951f",
+      "text": "Team Samsung Galaxy!. A natural upgrade from my galaxy s8 which served me well but had to retire due to an excessively cracked screen. Very reliable phones however, haven't had an issue with their build quality or performance yet! Keep up the good work!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07XJ2BWMP"
+    },
+    {
+      "chunk_id": "a025d0475c57_0",
+      "doc_id": "a025d0475c57",
+      "text": "Good phone. Everything is great about the phone if you're a regular Samsung user. I went from a Galaxy S7 to this S10 and have seen a noticeable difference in performance. The only thing I'm bummed about is a close-up picture setting that was on the S7 but not on the S10. Despite that, the camera is of excellent quality and has a fast response.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07VZNDZY6"
+    },
+    {
+      "chunk_id": "a4a2b2db0ca4_0",
+      "doc_id": "a4a2b2db0ca4",
+      "text": "Nice phone. Pros: Resolution, Camera, User friendly interface, Handy & fast. Cons: Battery life, Fingerprint sensor is not working when you add a screen protector(may be due to thinkness of the protector).",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07VZNDZY6"
+    },
+    {
+      "chunk_id": "97f408119485_0",
+      "doc_id": "97f408119485",
+      "text": "Great Buy. I upgraded my phone from S7 mostly due to the depleting battery life. I do not regret my decision. For general use, a charge lasts for a whole day. The performance is a lot better as well. The downside of the phone is that is the sides of the screen. When I hold the phone, it sometimes take unnecessary actions. I had some difficulty using one hand. Overall, it is a great buy.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07XJ2BWMP"
+    },
+    {
+      "chunk_id": "27f15c37b4f4_0",
+      "doc_id": "27f15c37b4f4",
+      "text": "Worse buy ever. I loved this phone and the performance was great. But I notice some flaws from day one when I purchased it. The speaker sounded muffled, the screen had burn in when I got it and it supposed to be brand new and the charger set was generic. I wouldn't recommend this at all to anyone",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07VZNDZY6"
+    },
+    {
+      "chunk_id": "e0cc1140527d_0",
+      "doc_id": "e0cc1140527d",
+      "text": "Great phone dude below is probably a iPhone user. Amazing phone awesome cameras great display finger print scanner is fast once you get used to it love the phone don't listen to the guy below he has 10e and is nit picking and audio quality is fine I'm coming form a note 9",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07PHLC3PS"
+    }
+  ],
+  "contexts": [
+    "Good phone, for a while.. I got this phone for my wife, it was the highest performance phone she had ever had. I have the S9, and have no complaints, so I got her the next model since it has been about 2.5 years since getting mine. Well, it ran really well. Did all her games, texting, facebook, video chats, websurfing, pictures, etc... really well. Until one evening she was watching a streaming movie, and when she quit watching and picked the phone up, the bottom inch or so of the screen went pure white. The screen still responded to touch, but nothing was visible within that white band. The phone started being weird about sending and recieving messages, slow performance, short battery life, heating up, and very slow charging (if it would charge at all). So, I will be returning it. I really wish it had worked out.",
+    "Worth every penny.. For the price, Excellent condition. Minor scratches on the screen but with the screen protector, you can't even tell. I think they might of tested the water resistance because the phone was a little damp when I received it(USB port). But great performance, and very fast overall. Very much of what I was expecting and more!",
+    "The screen quality is awesome as well and you can change the settings to make it over over top crystal clear or a Lil less so to save battery life. The sound is really good I used to think I had a bad aux cord in the work truck or at least the sound system was weak but now that I'm using this phone for Spotify at work it's crisp and clear I am very pleased with this purchase I'd say for the price it was more then worth it",
+    "Poor quality. The quality of the phone was a let down. The phone screen cracked in a few weeks after use due to no apparent reason. A protective screen cover and case was on. Still I noticed a screen crack one day and another one few days later.",
+    "Team Samsung Galaxy!. A natural upgrade from my galaxy s8 which served me well but had to retire due to an excessively cracked screen. Very reliable phones however, haven't had an issue with their build quality or performance yet! Keep up the good work!",
+    "Good phone. Everything is great about the phone if you're a regular Samsung user. I went from a Galaxy S7 to this S10 and have seen a noticeable difference in performance. The only thing I'm bummed about is a close-up picture setting that was on the S7 but not on the S10. Despite that, the camera is of excellent quality and has a fast response.",
+    "Nice phone. Pros: Resolution, Camera, User friendly interface, Handy & fast. Cons: Battery life, Fingerprint sensor is not working when you add a screen protector(may be due to thinkness of the protector).",
+    "Great Buy. I upgraded my phone from S7 mostly due to the depleting battery life. I do not regret my decision. For general use, a charge lasts for a whole day. The performance is a lot better as well. The downside of the phone is that is the sides of the screen. When I hold the phone, it sometimes take unnecessary actions. I had some difficulty using one hand. Overall, it is a great buy.",
+    "Worse buy ever. I loved this phone and the performance was great. But I notice some flaws from day one when I purchased it. The speaker sounded muffled, the screen had burn in when I got it and it supposed to be brand new and the charger set was generic. I wouldn't recommend this at all to anyone",
+    "Great phone dude below is probably a iPhone user. Amazing phone awesome cameras great display finger print scanner is fast once you get used to it love the phone don't listen to the guy below he has 10e and is nit picking and audio quality is fine I'm coming form a note 9"
+  ],
+  "timing": {
+    "classification_s": 5.096948499995051,
+    "generation_s": 1.899965600001451,
+    "verification_s": 2.697908299996925,
+    "total_s": 9.694844500001636
+  },
+  "api": {
+    "api_calls": 4,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1583,
+        "completion_tokens": 618,
+        "total_tokens": 2201,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 175
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1583,
+        "completion_tokens": 581,
+        "total_tokens": 2164,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 175
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1461,
+        "completion_tokens": 270,
+        "total_tokens": 1731,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 181
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1573,
+        "completion_tokens": 572,
+        "total_tokens": 2145,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1445
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

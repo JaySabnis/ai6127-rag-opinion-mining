@@ -1,0 +1,495 @@
+{
+  "question": "What screen-quality or touchscreen feedback is reported for the Galaxy S20 FE?",
+  "answer": "One reviewer described the S20 FE as having a nice, flat, vibrant screen with Samsung screen brilliance and a nearly bezel-less 6.5-inch form factor, and noted it supports 120Hz though they dialed theirs back to 60Hz for battery life. [cf1e6025f832_3]\nAnother reviewer rated the display 8.7/10, calling 120Hz great but saying the screen looks washed compared to the S10/S20. [f2d11785958f_0]\nA reviewer comparing it to their S9 said browsing feels about the same despite the 120Hz display and lower pixel density, with colors, contrast and brightness about the same. [75b11548d2d3_4]\nOne reviewer reported horrendous ghosting in a touchscreen test app and called it undeniably a hardware issue that updates have not entirely fixed, though they said they haven't noticed it in actual use aside from jitter when pinching/zooming with fingers close together. [5a3eda0efa5d_3]\nAnother reviewer reported touchscreen issues where the screen randomly registers scrolling as clicks, most noticeable on Instagram. [86a6b180a06c_3]\nOne reviewer simply described the S20 FE screen as smooth. [a6195b4c15c6_0]",
+  "draft_answer": "One reviewer described the S20 FE as having a nice, flat, vibrant screen with Samsung screen brilliance and a nearly bezel-less 6.5-inch form factor, and noted it supports 120Hz though they dialed theirs back to 60Hz for battery life. [cf1e6025f832_3]\nAnother reviewer rated the display 8.7/10, calling 120Hz great but saying the screen looks washed compared to the S10/S20. [f2d11785958f_0]\nA reviewer comparing it to their S9 said browsing feels about the same despite the 120Hz display and lower pixel density, with colors, contrast and brightness about the same. [75b11548d2d3_4]\nOne reviewer reported horrendous ghosting in a touchscreen test app and called it undeniably a hardware issue that updates have not entirely fixed, though they said they haven't noticed it in actual use aside from jitter when pinching/zooming with fingers close together. [5a3eda0efa5d_3]\nAnother reviewer reported touchscreen issues where the screen randomly registers scrolling as clicks, most noticeable on Instagram. [86a6b180a06c_3]\nOne reviewer simply described the S20 FE screen as smooth. [a6195b4c15c6_0]",
+  "sentences": [
+    {
+      "text": "One reviewer described the S20 FE as having a nice, flat, vibrant screen with Samsung screen brilliance and a nearly bezel-less 6.5-inch form factor, and noted it supports 120Hz though they dialed theirs back to 60Hz for battery life.",
+      "citations": [
+        "cf1e6025f832_3"
+      ]
+    },
+    {
+      "text": "Another reviewer rated the display 8.7/10, calling 120Hz great but saying the screen looks washed compared to the S10/S20.",
+      "citations": [
+        "f2d11785958f_0"
+      ]
+    },
+    {
+      "text": "A reviewer comparing it to their S9 said browsing feels about the same despite the 120Hz display and lower pixel density, with colors, contrast and brightness about the same.",
+      "citations": [
+        "75b11548d2d3_4"
+      ]
+    },
+    {
+      "text": "One reviewer reported horrendous ghosting in a touchscreen test app and called it undeniably a hardware issue that updates have not entirely fixed, though they said they haven't noticed it in actual use aside from jitter when pinching/zooming with fingers close together.",
+      "citations": [
+        "5a3eda0efa5d_3"
+      ]
+    },
+    {
+      "text": "Another reviewer reported touchscreen issues where the screen randomly registers scrolling as clicks, most noticeable on Instagram.",
+      "citations": [
+        "86a6b180a06c_3"
+      ]
+    },
+    {
+      "text": "One reviewer simply described the S20 FE screen as smooth.",
+      "citations": [
+        "a6195b4c15c6_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer described the S20 FE as having a nice, flat, vibrant screen with Samsung screen brilliance and a nearly bezel-less 6.5-inch form factor, and noted it supports 120Hz though they dialed theirs back to 60Hz for battery life.",
+      "citations": [
+        "cf1e6025f832_3"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer rated the display 8.7/10, calling 120Hz great but saying the screen looks washed compared to the S10/S20.",
+      "citations": [
+        "f2d11785958f_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer comparing it to their S9 said browsing feels about the same despite the 120Hz display and lower pixel density, with colors, contrast and brightness about the same.",
+      "citations": [
+        "75b11548d2d3_4"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported horrendous ghosting in a touchscreen test app and called it undeniably a hardware issue that updates have not entirely fixed, though they said they haven't noticed it in actual use aside from jitter when pinching/zooming with fingers close together.",
+      "citations": [
+        "5a3eda0efa5d_3"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reported touchscreen issues where the screen randomly registers scrolling as clicks, most noticeable on Instagram.",
+      "citations": [
+        "86a6b180a06c_3"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer simply described the S20 FE screen as smooth.",
+      "citations": [
+        "a6195b4c15c6_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer described the S20 FE as having a nice, flat, vibrant screen with Samsung screen brilliance and a nearly bezel-less 6.5-inch form factor, and noted it supports 120Hz though they dialed theirs back to 60Hz for battery life.",
+      "citations": [
+        "cf1e6025f832_3"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer rated the display 8.7/10, calling 120Hz great but saying the screen looks washed compared to the S10/S20.",
+      "citations": [
+        "f2d11785958f_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer comparing it to their S9 said browsing feels about the same despite the 120Hz display and lower pixel density, with colors, contrast and brightness about the same.",
+      "citations": [
+        "75b11548d2d3_4"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported horrendous ghosting in a touchscreen test app and called it undeniably a hardware issue that updates have not entirely fixed, though they said they haven't noticed it in actual use aside from jitter when pinching/zooming with fingers close together.",
+      "citations": [
+        "5a3eda0efa5d_3"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reported touchscreen issues where the screen randomly registers scrolling as clicks, most noticeable on Instagram.",
+      "citations": [
+        "86a6b180a06c_3"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer simply described the S20 FE screen as smooth.",
+      "citations": [
+        "a6195b4c15c6_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "b2f20f477c6e_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General praise, no mention of display.",
+      "doc_id": "b2f20f477c6e",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "cf1e6025f832_3",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The S20 FE has a nice, flat, vibrant screen",
+        "You get Samsung screen brilliance",
+        "it does 120hz"
+      ],
+      "reason": "Praises flat vibrant screen and 120Hz.",
+      "doc_id": "cf1e6025f832",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "97c82b91fa3d_3",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "a stunning display"
+      ],
+      "reason": "Calls display stunning in overall summary.",
+      "doc_id": "97c82b91fa3d",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "75b11548d2d3_4",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "touts the 120Hz display, but has a lower pixel density",
+        "Colorwise, they are about the same in terms of vivid colors or contrast/brightness"
+      ],
+      "reason": "Notes 120Hz but lower pixel density; colors comparable.",
+      "doc_id": "75b11548d2d3",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "5a3eda0efa5d_3",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "Pretty horrendous ghosting",
+        "I really haven't noticed it in actual use",
+        "the screen to jitter"
+      ],
+      "reason": "Ghosting/touchscreen issue but rarely noticed in daily use.",
+      "doc_id": "5a3eda0efa5d",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "a6195b4c15c6_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The Samsung s20 fe screen is smooth"
+      ],
+      "reason": "Describes screen as smooth.",
+      "doc_id": "a6195b4c15c6",
+      "brand": "Samsung",
+      "model": "S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "f2d11785958f_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "120ghz is great but screen is washed compared to s10/s20"
+      ],
+      "reason": "120Hz praised but screen washed out versus older models.",
+      "doc_id": "f2d11785958f",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "31341abd8ba3_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No display discussion; mentions bulk/weight.",
+      "doc_id": "31341abd8ba3",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "93e465586633_0",
+      "aspect_present": true,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [
+        "besides the screen size we haven't been able to tell a notable difference"
+      ],
+      "reason": "Mentions screen size only factually, no evaluative opinion.",
+      "doc_id": "93e465586633",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "86a6b180a06c_3",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Touchscreen issues",
+        "instead of scrolling the screen will randomly register it as clicks"
+      ],
+      "reason": "Reports touchscreen scrolling/click issues.",
+      "doc_id": "86a6b180a06c",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 7,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 3,
+        "neutral": 1
+      },
+      "positive_ratio": 0.2857142857142857,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6666666666666666,
+      "polarized_denominator": 3
+    },
+    {
+      "brand": "Samsung",
+      "model": "S20 FE",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 1,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 1.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 1
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "b2f20f477c6e_0",
+      "doc_id": "b2f20f477c6e",
+      "text": "Samsung s20 fe. It is simply great!",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "cf1e6025f832_3",
+      "doc_id": "cf1e6025f832",
+      "text": "So what follows is a quick rundown of the good, the bad, and the meh. I don't think there's really anything \"ugly,\" just a little \"meh.\" The Good... * I've never been a fan of the Samsung \"Edge\" style screen. I always turn it off. The S20 FE has a nice, flat, vibrant screen. You get Samsung screen brilliance in a no edgy gimmicks, 6.5\" form factor. Nearly bezel-less. Oh yeah, and it does 120hz, but for battery life purposes I've dialed mine back to 60hz. I'm not a big gamer and frankly 60hz works for me. * The performance is perfectly acceptable. I've seen benchmarks that indicate Samsung isn't squeezing every ounce of power out of the Qualcomm 865, but I don't have any complaints.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "97c82b91fa3d_3",
+      "doc_id": "97c82b91fa3d",
+      "text": "Samsung's One UI provides a user-friendly interface, packed with useful features and customization options. The device also receives regular software updates, ensuring it stays up to date with the latest security patches and improvements. Overall, the Samsung Galaxy S20 FE 5G is an exceptional smartphone that offers outstanding performance, a stunning display, impressive camera capabilities, and reliable connectivity. It is a device that truly delivers on all fronts and provides an unparalleled user experience. If you're in the market for a flagship-level phone at a more accessible price point, I highly recommend considering the Samsung Galaxy S20 FE 5G.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09Q6J3RYV"
+    },
+    {
+      "chunk_id": "75b11548d2d3_4",
+      "doc_id": "75b11548d2d3",
+      "text": "Browsing feels about the same, even though the S20 FE touts the 120Hz display, but has a lower pixel density in terms of screen resolution. Colorwise, they are about the same in terms of vivid colors or contrast/brightness. - In terms of battery life, I see to get about the same performance as my S9, even though the S20 FE touts a larger battery, but also has a bigger display so it evens out. - In terms of 5G performance, I tested it in a few places and I don't see much improvements in terms of Upload or Download performance over 4G LTE. It's very uneven depending on where you are. On T-mobile, I get about 40Mb/s to 90Mb/s downlink with 5G vs 50Mb/s to 75Mb/s with 4G downlink. and around 25Mb/s uplink for 5G and 4G similarly when I'm in a good area.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "5a3eda0efa5d_3",
+      "doc_id": "5a3eda0efa5d",
+      "text": "And yes, my phone (ordered in early November) has the issue too. Pretty horrendous ghosting when testing it in the touchscreen test app. There's undeniably a hardware issue with the S20 FE. There have been updates since the phone released, but none have fixed it entirely; merely a band-aid on a bloody gash. The real question is: does it affect everyday use? Will you notice it every moment you use the S20 FE? The answer to both is no, at least for me. While I'm sure it does affect certain tasks (most notably those that involve fast touches or 3+ fingers), I really haven't noticed it in actual use. Pinching/zooming with your fingers close together will cause the screen to jitter, but that's about all I've seen. If that worries you enough to pass on the S20 FE, I don't blame you.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "a6195b4c15c6_0",
+      "doc_id": "a6195b4c15c6",
+      "text": "The Samsung s20 fe screen is smooth. The features is awesome. I love the phone. I like fingerprint reader it is easy and fun to use. The batter life is fantastic. The face recognition is awesome.",
+      "brand": "Samsung",
+      "model": "S20 FE",
+      "source_url": "https://www.amazon.com/dp/B0982LX8RC"
+    },
+    {
+      "chunk_id": "f2d11785958f_0",
+      "doc_id": "f2d11785958f",
+      "text": "My Review of the S20 FE. Performance = 9 / 10 - fast Snapdragon cpu but only only 6gb ram Display = 8.7 / 10 - 120ghz is great but screen is washed compared to s10/s20 Battery = 8.8 / 10 - all day battery Design = 8.7 / 10 - flat screen but bezels could be smaller Camera = 9 /10 - great main cameras - selfie camera is MEH and pictures can be blurry on moving objects Features = 9/10 - three years of software updates... 5g... a lot of color options ... ip68 ... wireless charging ... dex",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "31341abd8ba3_0",
+      "doc_id": "31341abd8ba3",
+      "text": "Great Deal for the Quality. The 2020 Black Friday price ($549) made Samsung Galaxy S20 FE 5G a great deal at Amazon. It is a function-rich phone with good quality. Everything works as expected. I have no problem with it so far. It does feel a little bulky and heavy, needing some time to get use to it.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "93e465586633_0",
+      "doc_id": "93e465586633",
+      "text": "Very Similar to not FE models. I bought this phone for my wife and I have the Galaxy S20+, but besides the screen size we haven't been able to tell a notable difference other than the FE being much more affordable. Having Galaxy phones since 2011, they are the best and will continue being the best over the fruit phone.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "86a6b180a06c_3",
+      "doc_id": "86a6b180a06c",
+      "text": "Cons: No headphone jack - By far my biggest complaint with the S20 FE is the lack of a headphone jack. I don't see why it's necessary to exclude the jack on Samsung's newer phones. Seems like a ploy to get consumers to buy their overpriced wireless earbuds. I had to buy some dongles on Amazon so I could use my existing headphones. Front camera quality - While the back cameras are impressive, the front camera is less so. The selfies I took with my girlfriend were kind of washed out and overly smooth. The 32mp photos don't look any better than the 8mp ones from my Note 8. Touchscreen issues - I have had touchscreen issues where instead of scrolling the screen will randomly register it as clicks instead. Most noticeable on Instragram where it'll click on random profiles instead of scrolling.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    }
+  ],
+  "contexts": [
+    "Samsung s20 fe. It is simply great!",
+    "So what follows is a quick rundown of the good, the bad, and the meh. I don't think there's really anything \"ugly,\" just a little \"meh.\" The Good... * I've never been a fan of the Samsung \"Edge\" style screen. I always turn it off. The S20 FE has a nice, flat, vibrant screen. You get Samsung screen brilliance in a no edgy gimmicks, 6.5\" form factor. Nearly bezel-less. Oh yeah, and it does 120hz, but for battery life purposes I've dialed mine back to 60hz. I'm not a big gamer and frankly 60hz works for me. * The performance is perfectly acceptable. I've seen benchmarks that indicate Samsung isn't squeezing every ounce of power out of the Qualcomm 865, but I don't have any complaints.",
+    "Samsung's One UI provides a user-friendly interface, packed with useful features and customization options. The device also receives regular software updates, ensuring it stays up to date with the latest security patches and improvements. Overall, the Samsung Galaxy S20 FE 5G is an exceptional smartphone that offers outstanding performance, a stunning display, impressive camera capabilities, and reliable connectivity. It is a device that truly delivers on all fronts and provides an unparalleled user experience. If you're in the market for a flagship-level phone at a more accessible price point, I highly recommend considering the Samsung Galaxy S20 FE 5G.",
+    "Browsing feels about the same, even though the S20 FE touts the 120Hz display, but has a lower pixel density in terms of screen resolution. Colorwise, they are about the same in terms of vivid colors or contrast/brightness. - In terms of battery life, I see to get about the same performance as my S9, even though the S20 FE touts a larger battery, but also has a bigger display so it evens out. - In terms of 5G performance, I tested it in a few places and I don't see much improvements in terms of Upload or Download performance over 4G LTE. It's very uneven depending on where you are. On T-mobile, I get about 40Mb/s to 90Mb/s downlink with 5G vs 50Mb/s to 75Mb/s with 4G downlink. and around 25Mb/s uplink for 5G and 4G similarly when I'm in a good area.",
+    "And yes, my phone (ordered in early November) has the issue too. Pretty horrendous ghosting when testing it in the touchscreen test app. There's undeniably a hardware issue with the S20 FE. There have been updates since the phone released, but none have fixed it entirely; merely a band-aid on a bloody gash. The real question is: does it affect everyday use? Will you notice it every moment you use the S20 FE? The answer to both is no, at least for me. While I'm sure it does affect certain tasks (most notably those that involve fast touches or 3+ fingers), I really haven't noticed it in actual use. Pinching/zooming with your fingers close together will cause the screen to jitter, but that's about all I've seen. If that worries you enough to pass on the S20 FE, I don't blame you.",
+    "The Samsung s20 fe screen is smooth. The features is awesome. I love the phone. I like fingerprint reader it is easy and fun to use. The batter life is fantastic. The face recognition is awesome.",
+    "My Review of the S20 FE. Performance = 9 / 10 - fast Snapdragon cpu but only only 6gb ram Display = 8.7 / 10 - 120ghz is great but screen is washed compared to s10/s20 Battery = 8.8 / 10 - all day battery Design = 8.7 / 10 - flat screen but bezels could be smaller Camera = 9 /10 - great main cameras - selfie camera is MEH and pictures can be blurry on moving objects Features = 9/10 - three years of software updates... 5g... a lot of color options ... ip68 ... wireless charging ... dex",
+    "Great Deal for the Quality. The 2020 Black Friday price ($549) made Samsung Galaxy S20 FE 5G a great deal at Amazon. It is a function-rich phone with good quality. Everything works as expected. I have no problem with it so far. It does feel a little bulky and heavy, needing some time to get use to it.",
+    "Very Similar to not FE models. I bought this phone for my wife and I have the Galaxy S20+, but besides the screen size we haven't been able to tell a notable difference other than the FE being much more affordable. Having Galaxy phones since 2011, they are the best and will continue being the best over the fruit phone.",
+    "Cons: No headphone jack - By far my biggest complaint with the S20 FE is the lack of a headphone jack. I don't see why it's necessary to exclude the jack on Samsung's newer phones. Seems like a ploy to get consumers to buy their overpriced wireless earbuds. I had to buy some dongles on Amazon so I could use my existing headphones. Front camera quality - While the back cameras are impressive, the front camera is less so. The selfies I took with my girlfriend were kind of washed out and overly smooth. The 32mp photos don't look any better than the 8mp ones from my Note 8. Touchscreen issues - I have had touchscreen issues where instead of scrolling the screen will randomly register it as clicks instead. Most noticeable on Instragram where it'll click on random profiles instead of scrolling."
+  ],
+  "timing": {
+    "classification_s": 2.8544790000014473,
+    "generation_s": 2.157038500001363,
+    "verification_s": 2.3699998564552516e-05,
+    "total_s": 5.011557300000277
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2013,
+        "completion_tokens": 658,
+        "total_tokens": 2671,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1757
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1889,
+        "completion_tokens": 327,
+        "total_tokens": 2216,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1761
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

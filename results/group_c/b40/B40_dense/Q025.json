@@ -1,0 +1,471 @@
+{
+  "question": "What do Galaxy S10 buyers report about customer support, returns, or replacements?",
+  "answer": "One reviewer reported that Samsung sent a shipping label, then billed $550 to repair the device after saying the IMEI was linked to a blue Galaxy S10 and the warranty was void because the sent device was prism white. [d722e7b8ef8b_1]\nOne reviewer said they would not recommend purchasing from ElectroWireless or any Amazon Renewed device because the device breaks right after the warranty or return policy expires. [a05ea76a46e8_0]\nOne reviewer reported requesting a refund, receiving a shipping label, returning the phone and charger in original packaging, and then getting a refund short $18.04 over an alleged missing original charger. [8ee467d2bb6e_0]\nOne reviewer reported that the telephone did not work and that a refund was not yet done after more than three weeks of reporting it. [c57340e7f4a7_0]\nOne reviewer reported not being offered a replacement, but the phone was sent back and a full refund was given. [a04d016a168b_0]\nOne reviewer reported being promised a refund of $513 by a representative who could not say when it would arrive, and said they had yet to receive it. [84cb0e4bbd7c_4]",
+  "draft_answer": "One reviewer reported that Samsung sent a shipping label, then billed $550 to repair the device after saying the IMEI was linked to a blue Galaxy S10 and the warranty was void because the sent device was prism white. [d722e7b8ef8b_1]\nOne reviewer said they would not recommend purchasing from ElectroWireless or any Amazon Renewed device because the device breaks right after the warranty or return policy expires. [a05ea76a46e8_0]\nOne reviewer reported requesting a refund, receiving a shipping label, returning the phone and charger in original packaging, and then getting a refund short $18.04 over an alleged missing original charger. [8ee467d2bb6e_0]\nOne reviewer reported that the telephone did not work and that a refund was not yet done after more than three weeks of reporting it. [c57340e7f4a7_0]\nOne reviewer reported not being offered a replacement, but the phone was sent back and a full refund was given. [a04d016a168b_0]\nOne reviewer reported being promised a refund of $513 by a representative who could not say when it would arrive, and said they had yet to receive it. [84cb0e4bbd7c_4]",
+  "sentences": [
+    {
+      "text": "One reviewer reported that Samsung sent a shipping label, then billed $550 to repair the device after saying the IMEI was linked to a blue Galaxy S10 and the warranty was void because the sent device was prism white.",
+      "citations": [
+        "d722e7b8ef8b_1"
+      ]
+    },
+    {
+      "text": "One reviewer said they would not recommend purchasing from ElectroWireless or any Amazon Renewed device because the device breaks right after the warranty or return policy expires.",
+      "citations": [
+        "a05ea76a46e8_0"
+      ]
+    },
+    {
+      "text": "One reviewer reported requesting a refund, receiving a shipping label, returning the phone and charger in original packaging, and then getting a refund short $18.04 over an alleged missing original charger.",
+      "citations": [
+        "8ee467d2bb6e_0"
+      ]
+    },
+    {
+      "text": "One reviewer reported that the telephone did not work and that a refund was not yet done after more than three weeks of reporting it.",
+      "citations": [
+        "c57340e7f4a7_0"
+      ]
+    },
+    {
+      "text": "One reviewer reported not being offered a replacement, but the phone was sent back and a full refund was given.",
+      "citations": [
+        "a04d016a168b_0"
+      ]
+    },
+    {
+      "text": "One reviewer reported being promised a refund of $513 by a representative who could not say when it would arrive, and said they had yet to receive it.",
+      "citations": [
+        "84cb0e4bbd7c_4"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reported that Samsung sent a shipping label, then billed $550 to repair the device after saying the IMEI was linked to a blue Galaxy S10 and the warranty was void because the sent device was prism white.",
+      "citations": [
+        "d722e7b8ef8b_1"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said they would not recommend purchasing from ElectroWireless or any Amazon Renewed device because the device breaks right after the warranty or return policy expires.",
+      "citations": [
+        "a05ea76a46e8_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported requesting a refund, receiving a shipping label, returning the phone and charger in original packaging, and then getting a refund short $18.04 over an alleged missing original charger.",
+      "citations": [
+        "8ee467d2bb6e_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported that the telephone did not work and that a refund was not yet done after more than three weeks of reporting it.",
+      "citations": [
+        "c57340e7f4a7_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported not being offered a replacement, but the phone was sent back and a full refund was given.",
+      "citations": [
+        "a04d016a168b_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported being promised a refund of $513 by a representative who could not say when it would arrive, and said they had yet to receive it.",
+      "citations": [
+        "84cb0e4bbd7c_4"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reported that Samsung sent a shipping label, then billed $550 to repair the device after saying the IMEI was linked to a blue Galaxy S10 and the warranty was void because the sent device was prism white.",
+      "citations": [
+        "d722e7b8ef8b_1"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said they would not recommend purchasing from ElectroWireless or any Amazon Renewed device because the device breaks right after the warranty or return policy expires.",
+      "citations": [
+        "a05ea76a46e8_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported requesting a refund, receiving a shipping label, returning the phone and charger in original packaging, and then getting a refund short $18.04 over an alleged missing original charger.",
+      "citations": [
+        "8ee467d2bb6e_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported that the telephone did not work and that a refund was not yet done after more than three weeks of reporting it.",
+      "citations": [
+        "c57340e7f4a7_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported not being offered a replacement, but the phone was sent back and a full refund was given.",
+      "citations": [
+        "a04d016a168b_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported being promised a refund of $513 by a representative who could not say when it would arrive, and said they had yet to receive it.",
+      "citations": [
+        "84cb0e4bbd7c_4"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "d722e7b8ef8b_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Samsung sent me a shipping label and I sent off my device, only to receive a $550 bill to repair it",
+        "they informed me that the IMEI number of my device was originally linked to a blue Galaxy S10",
+        "My TWO experiences with purchasing refurbished Galaxy S10 devices have been overwhelmingly negative"
+      ],
+      "reason": "Criticizes Samsung's warranty/repair handling and refurbished device quality.",
+      "doc_id": "d722e7b8ef8b",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "a05ea76a46e8_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Complains about seller ElectroWireless/Amazon Renewed, not Samsung service.",
+      "doc_id": "a05ea76a46e8",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "df3c7ba843e9_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Mentions device malfunction and return, no Samsung service discussion.",
+      "doc_id": "df3c7ba843e9",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "009c5b1d40a9_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Criticizes Amazon renewed advertising and phone defect, not Samsung service.",
+      "doc_id": "009c5b1d40a9",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "8ee467d2bb6e_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The seller recommended a factory reset",
+        "I requested a refund and the seller sent a shipping label",
+        "A week later I received a refund short $18.04"
+      ],
+      "reason": "Negative about seller's support/refund process for the refurbished S10.",
+      "doc_id": "8ee467d2bb6e",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "c57340e7f4a7_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The telephone did not work and refund is not yet done after 3+ weeks of reported it"
+      ],
+      "reason": "Criticizes slow refund handling after reporting non-working phone.",
+      "doc_id": "c57340e7f4a7",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "a04d016a168b_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "We were not offered a replacement",
+        "the phone was sent back and we were given a full refund"
+      ],
+      "reason": "Negative no replacement offered, but positive full refund given.",
+      "doc_id": "a04d016a168b",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "6030ec41edad_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Praises phone condition, no service aspect discussed.",
+      "doc_id": "6030ec41edad",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "1c860f85ba36_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Praises phone and Amazon renewed, no Samsung service discussion.",
+      "doc_id": "1c860f85ba36",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "service"
+    },
+    {
+      "chunk_id": "84cb0e4bbd7c_4",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "she couldn’t tell me when",
+        "I have yet to get my refund of $513",
+        "nothing but trouble from Samsung refurbished/renewed"
+      ],
+      "reason": "Criticizes Samsung's unresolved refund and poor refurbished service experience.",
+      "doc_id": "84cb0e4bbd7c",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "service"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 5,
+      "n_excluded_aspect_absent": 5,
+      "counts": {
+        "positive": 0,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.0,
+      "polarized_denominator": 4
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "d722e7b8ef8b_1",
+      "doc_id": "d722e7b8ef8b",
+      "text": "Samsung sent me a shipping label and I sent off my device, only to receive a $550 bill to repair it. When I called Samsung to address this, thinking it was because of the battle with my purchase date, they informed me that the IMEI number of my device was originally linked to a blue Galaxy S10. Because the device I sent them was prism white, the device was proven to be modified without authorization, and the manufacturer's warranty was void. This was my first experience with a refurbished device, and I have not been impressed. However, I took a chance and ordered another one. The second one I received has 3 obvious strokes over the majority of the screen, which does not clean or wipe away. (See photos) My TWO experiences with purchasing refurbished Galaxy S10 devices have been overwhelmingly negative.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "a05ea76a46e8_0",
+      "doc_id": "a05ea76a46e8",
+      "text": "S10 Renewed. I purchased my s10 from ElectroWireless on Amazon. I would NOT recommend purchasing from ElectroWireless or any Amazon Renewed device from any company. The device breaks right after the warranty or return policy expires. Save yourself the pain and buy a new device.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "df3c7ba843e9_0",
+      "doc_id": "df3c7ba843e9",
+      "text": "Returned. The device that I purchased has some malfunctions. Now S10 is a great device but my very one wasn’t.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07XJ2BWMP"
+    },
+    {
+      "chunk_id": "009c5b1d40a9_0",
+      "doc_id": "009c5b1d40a9",
+      "text": "BUYERS BEAWARE!!. Buyers be aware the galaxy10s Amazon sells and advertise as renewed is a lie. Be aware the phone crackle when using speaker. This is Mt 2nd galaxy renewed phone I purchase with same problem going back immediately. I'm blogging and Utubing the phone as well I want people to know how Amazon is false advertising phone getting customers money.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "8ee467d2bb6e_0",
+      "doc_id": "8ee467d2bb6e",
+      "text": "Disappointed and lesson learned.. I purchased a refurbished Galaxy S10. It consistently would restart randomly and apps would malfunction. The seller recommended a factory reset. After 2 factory resets, the problem was not resolved. I requested a refund and the seller sent a shipping label. I returned the phone and charger in original packaging. A week later I received a refund short $18.04 alleging I did not return the original charger. Disappointing experience all around. I lost money on a case I purchased for the failed phone, I lost money on a charger I can't prove I returned and in the end I lost all of my texts from my dad who passed away last year while trying to switch and reset the phone. Lesson learned.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "c57340e7f4a7_0",
+      "doc_id": "c57340e7f4a7",
+      "text": "Samsung Galaxy S10 - Fully Unlocked (Renewed). The telephone did not work and refund is not yet done after 3+ weeks of reported it.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "a04d016a168b_0",
+      "doc_id": "a04d016a168b",
+      "text": "No bueno.. Although we did receive the s10, the battery life was terrible. It came charged at 75%, within a couple hours it was dead and would take almost a full week plugged in to charge to 100%. We were not offered a replacement, however, the phone was sent back and we were given a full refund.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B0BM3F9RK1"
+    },
+    {
+      "chunk_id": "6030ec41edad_0",
+      "doc_id": "6030ec41edad",
+      "text": "Galaxy S10. Renewed phone arrived in excellent condition. Could not find any flaws. Working great.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "1c860f85ba36_0",
+      "doc_id": "1c860f85ba36",
+      "text": "Galaxy S10. This phone looks and works like new. I'll always buy Amazon renewed.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "84cb0e4bbd7c_4",
+      "doc_id": "84cb0e4bbd7c",
+      "text": "I argued that I wanted the whole amount of the phone and the “repairs” as it was never fixed, which would be $513. The representative said that she promised that I would get a refund back, but she couldn’t tell me when. So, I have yet to get my refund of $513. I have been without a phone for over 2 months (9 weeks so far). If I were you I’d consider buying a new phone under contract or somewhere else besides Samsung. I only got 1 year out of this phone, countless hours of phone calls, and nothing but trouble from Samsung refurbished/renewed. I’ve always used Samsung for everything. My whole family uses Apple products; phones/watches/iPads/laptops. I’m the only one that has a Samsung phone and Samsung watch Active 2. I will probably switch to a Google Pixel 6 or dare I say Iphone.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07ZQZ15YK"
+    }
+  ],
+  "contexts": [
+    "Samsung sent me a shipping label and I sent off my device, only to receive a $550 bill to repair it. When I called Samsung to address this, thinking it was because of the battle with my purchase date, they informed me that the IMEI number of my device was originally linked to a blue Galaxy S10. Because the device I sent them was prism white, the device was proven to be modified without authorization, and the manufacturer's warranty was void. This was my first experience with a refurbished device, and I have not been impressed. However, I took a chance and ordered another one. The second one I received has 3 obvious strokes over the majority of the screen, which does not clean or wipe away. (See photos) My TWO experiences with purchasing refurbished Galaxy S10 devices have been overwhelmingly negative.",
+    "S10 Renewed. I purchased my s10 from ElectroWireless on Amazon. I would NOT recommend purchasing from ElectroWireless or any Amazon Renewed device from any company. The device breaks right after the warranty or return policy expires. Save yourself the pain and buy a new device.",
+    "Returned. The device that I purchased has some malfunctions. Now S10 is a great device but my very one wasn’t.",
+    "BUYERS BEAWARE!!. Buyers be aware the galaxy10s Amazon sells and advertise as renewed is a lie. Be aware the phone crackle when using speaker. This is Mt 2nd galaxy renewed phone I purchase with same problem going back immediately. I'm blogging and Utubing the phone as well I want people to know how Amazon is false advertising phone getting customers money.",
+    "Disappointed and lesson learned.. I purchased a refurbished Galaxy S10. It consistently would restart randomly and apps would malfunction. The seller recommended a factory reset. After 2 factory resets, the problem was not resolved. I requested a refund and the seller sent a shipping label. I returned the phone and charger in original packaging. A week later I received a refund short $18.04 alleging I did not return the original charger. Disappointing experience all around. I lost money on a case I purchased for the failed phone, I lost money on a charger I can't prove I returned and in the end I lost all of my texts from my dad who passed away last year while trying to switch and reset the phone. Lesson learned.",
+    "Samsung Galaxy S10 - Fully Unlocked (Renewed). The telephone did not work and refund is not yet done after 3+ weeks of reported it.",
+    "No bueno.. Although we did receive the s10, the battery life was terrible. It came charged at 75%, within a couple hours it was dead and would take almost a full week plugged in to charge to 100%. We were not offered a replacement, however, the phone was sent back and we were given a full refund.",
+    "Galaxy S10. Renewed phone arrived in excellent condition. Could not find any flaws. Working great.",
+    "Galaxy S10. This phone looks and works like new. I'll always buy Amazon renewed.",
+    "I argued that I wanted the whole amount of the phone and the “repairs” as it was never fixed, which would be $513. The representative said that she promised that I would get a refund back, but she couldn’t tell me when. So, I have yet to get my refund of $513. I have been without a phone for over 2 months (9 weeks so far). If I were you I’d consider buying a new phone under contract or somewhere else besides Samsung. I only got 1 year out of this phone, countless hours of phone calls, and nothing but trouble from Samsung refurbished/renewed. I’ve always used Samsung for everything. My whole family uses Apple products; phones/watches/iPads/laptops. I’m the only one that has a Samsung phone and Samsung watch Active 2. I will probably switch to a Google Pixel 6 or dare I say Iphone."
+  ],
+  "timing": {
+    "classification_s": 3.6326099000070826,
+    "generation_s": 2.8766277999966405,
+    "verification_s": 6.399997801054269e-06,
+    "total_s": 6.509255599994503
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1614,
+        "completion_tokens": 714,
+        "total_tokens": 2328,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1358
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1490,
+        "completion_tokens": 315,
+        "total_tokens": 1805,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1362
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

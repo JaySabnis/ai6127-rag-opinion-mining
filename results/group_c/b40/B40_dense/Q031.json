@@ -1,0 +1,480 @@
+{
+  "question": "What do Galaxy S10 owners report about carrier compatibility and SIM activation?",
+  "answer": "A USA-based reviewer using T-Mobile reported that the international version had no carrier bloatware and that the SIM card from their old Galaxy S6 worked flawlessly in the S10. [e942f94394af_0]\nOne reviewer described needing to get the S10 activated with a new SIM through AT&T, after which a notification about activating the phone kept appearing even though the phone had service and mobile data access with AT&T. [7252b9862b90_2]\nA reviewer reported using a Tracfone/Verizon SIM and transferring a Tracfone account to the S10, with activation on the old phone number taking a couple of hours. [569f847bb1f8_0]\nOne reviewer said their unlocked S10 initially would not work with their SIM card and stated it would only work with Verizon SIM cards, but it worked after contacting Verizon. [129613791eea_0]\nA reviewer reported that their cellular provider changed the SIM card and moved data, after which the S10 was fully functional. [2bc6e52051a0_0]\nA reviewer using Verizon pre-paid service said they moved the SIM card over to the unlocked S10 and it worked fine after the initial setup wizard. [dc800c2868a5_0]",
+  "draft_answer": "A USA-based reviewer using T-Mobile reported that the international version had no carrier bloatware and that the SIM card from their old Galaxy S6 worked flawlessly in the S10. [e942f94394af_0]\nOne reviewer described needing to get the S10 activated with a new SIM through AT&T, after which a notification about activating the phone kept appearing even though the phone had service and mobile data access with AT&T. [7252b9862b90_2]\nA reviewer reported using a Tracfone/Verizon SIM and transferring a Tracfone account to the S10, with activation on the old phone number taking a couple of hours. [569f847bb1f8_0]\nOne reviewer said their unlocked S10 initially would not work with their SIM card and stated it would only work with Verizon SIM cards, but it worked after contacting Verizon. [129613791eea_0]\nA reviewer reported that their cellular provider changed the SIM card and moved data, after which the S10 was fully functional. [2bc6e52051a0_0]\nA reviewer using Verizon pre-paid service said they moved the SIM card over to the unlocked S10 and it worked fine after the initial setup wizard. [dc800c2868a5_0]",
+  "sentences": [
+    {
+      "text": "A USA-based reviewer using T-Mobile reported that the international version had no carrier bloatware and that the SIM card from their old Galaxy S6 worked flawlessly in the S10.",
+      "citations": [
+        "e942f94394af_0"
+      ]
+    },
+    {
+      "text": "One reviewer described needing to get the S10 activated with a new SIM through AT&T, after which a notification about activating the phone kept appearing even though the phone had service and mobile data access with AT&T.",
+      "citations": [
+        "7252b9862b90_2"
+      ]
+    },
+    {
+      "text": "A reviewer reported using a Tracfone/Verizon SIM and transferring a Tracfone account to the S10, with activation on the old phone number taking a couple of hours.",
+      "citations": [
+        "569f847bb1f8_0"
+      ]
+    },
+    {
+      "text": "One reviewer said their unlocked S10 initially would not work with their SIM card and stated it would only work with Verizon SIM cards, but it worked after contacting Verizon.",
+      "citations": [
+        "129613791eea_0"
+      ]
+    },
+    {
+      "text": "A reviewer reported that their cellular provider changed the SIM card and moved data, after which the S10 was fully functional.",
+      "citations": [
+        "2bc6e52051a0_0"
+      ]
+    },
+    {
+      "text": "A reviewer using Verizon pre-paid service said they moved the SIM card over to the unlocked S10 and it worked fine after the initial setup wizard.",
+      "citations": [
+        "dc800c2868a5_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "A USA-based reviewer using T-Mobile reported that the international version had no carrier bloatware and that the SIM card from their old Galaxy S6 worked flawlessly in the S10.",
+      "citations": [
+        "e942f94394af_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer described needing to get the S10 activated with a new SIM through AT&T, after which a notification about activating the phone kept appearing even though the phone had service and mobile data access with AT&T.",
+      "citations": [
+        "7252b9862b90_2"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer reported using a Tracfone/Verizon SIM and transferring a Tracfone account to the S10, with activation on the old phone number taking a couple of hours.",
+      "citations": [
+        "569f847bb1f8_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said their unlocked S10 initially would not work with their SIM card and stated it would only work with Verizon SIM cards, but it worked after contacting Verizon.",
+      "citations": [
+        "129613791eea_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer reported that their cellular provider changed the SIM card and moved data, after which the S10 was fully functional.",
+      "citations": [
+        "2bc6e52051a0_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer using Verizon pre-paid service said they moved the SIM card over to the unlocked S10 and it worked fine after the initial setup wizard.",
+      "citations": [
+        "dc800c2868a5_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "A USA-based reviewer using T-Mobile reported that the international version had no carrier bloatware and that the SIM card from their old Galaxy S6 worked flawlessly in the S10.",
+      "citations": [
+        "e942f94394af_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer described needing to get the S10 activated with a new SIM through AT&T, after which a notification about activating the phone kept appearing even though the phone had service and mobile data access with AT&T.",
+      "citations": [
+        "7252b9862b90_2"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer reported using a Tracfone/Verizon SIM and transferring a Tracfone account to the S10, with activation on the old phone number taking a couple of hours.",
+      "citations": [
+        "569f847bb1f8_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said their unlocked S10 initially would not work with their SIM card and stated it would only work with Verizon SIM cards, but it worked after contacting Verizon.",
+      "citations": [
+        "129613791eea_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer reported that their cellular provider changed the SIM card and moved data, after which the S10 was fully functional.",
+      "citations": [
+        "2bc6e52051a0_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer using Verizon pre-paid service said they moved the SIM card over to the unlocked S10 and it worked fine after the initial setup wizard.",
+      "citations": [
+        "dc800c2868a5_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "e942f94394af_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "This international version does not have any carrier bloatware",
+        "it works flawlessly"
+      ],
+      "reason": "Praises lack of carrier bloatware and flawless SIM use with T-Mobile.",
+      "doc_id": "e942f94394af",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "7252b9862b90_2",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "there'd be a message that would pop up in the notification tray about activating the phone"
+      ],
+      "reason": "Complains about persistent activation notification after ATT SIM activation.",
+      "doc_id": "7252b9862b90",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "87a79eb885b5_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "It may not be locked to a specific carrier, but the bootloader is NOT unlocked"
+      ],
+      "reason": "Criticizes carrier-lock claims and bootloader restrictions.",
+      "doc_id": "87a79eb885b5",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "569f847bb1f8_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The S10 was fully unlocked",
+        "now on Verizon"
+      ],
+      "reason": "Positive that unlocked phone worked with Tracfone/Verizon SIM.",
+      "doc_id": "569f847bb1f8",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "129613791eea_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "initially the device would not work with my SIM card",
+        "it now works"
+      ],
+      "reason": "Initial carrier SIM issue resolved after contacting Verizon; mixed.",
+      "doc_id": "129613791eea",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "18c9524e3e7f_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "there can be some restrictions still on it",
+        "Service providers are the ones who push out the updates"
+      ],
+      "reason": "Notes carrier restrictions and update dependency as concerns.",
+      "doc_id": "18c9524e3e7f",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "2bc6e52051a0_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "They changed the SIM card, moved data and the phone is fully functional"
+      ],
+      "reason": "Positive that carrier set up SIM and phone works.",
+      "doc_id": "2bc6e52051a0",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "1ff21e65c294_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Manufacturer unlocked and working great with my sim card"
+      ],
+      "reason": "Praises unlocked status working with their SIM.",
+      "doc_id": "1ff21e65c294",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "dc800c2868a5_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The phone is fully unlocked and functional for me",
+        "worked fine after the initial setup wizard"
+      ],
+      "reason": "Positive unlocked phone works with Verizon prepaid SIM.",
+      "doc_id": "dc800c2868a5",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "5345422ae757_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Was skeptical of the unlocked phone, but worked fine",
+        "phone detected verizon sim"
+      ],
+      "reason": "Positive that unlocked phone worked on Verizon.",
+      "doc_id": "5345422ae757",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 6,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.6,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6666666666666666,
+      "polarized_denominator": 9
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "e942f94394af_0",
+      "doc_id": "e942f94394af",
+      "text": "samsung galaxy s10 international. I received the phone earlier than the expected arrival date and it was new and sealed as advertised. I am from the USA and I have T-mobile USA as my service provider. I upgraded to this from a Samsung Galaxy S6 I got from T-mobile in 2015. This international version does not have any carrier bloatware and I used the SIM card from my old S6 and put it into the S10 and it works flawlessly.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B07VZNDZY6"
+    },
+    {
+      "chunk_id": "7252b9862b90_2",
+      "doc_id": "7252b9862b90",
+      "text": "With two identical S10's, the model numbers had different suffixes, but both started with SM-G973. It blew my mind that it wasn't enough to just slap the SIM card in the phone - as an iPhone user myself, this was one of those moments where I gained appreciation for the simplicity that their system offers. Challenge #2: Android SDK literally was the saving grace for my dad's S10. Here's the story: I ran updates, used Smart Switch, installed apps, did all of the things that one would do to prep a phone for daily use. However, after getting it activated with a new SIM through ATT and doing a restart, there'd be a message that would pop up in the notification tray about activating the phone. Keep in mind, the phone [at this point] had service and mobile data access with ATT.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "87a79eb885b5_0",
+      "doc_id": "87a79eb885b5",
+      "text": "\"Unlocked\" is a lie. It may not be locked to a specific carrier, but the bootloader is NOT unlocked. You're still locked into the default samsung bloatware and cannot even root the phone. To be clear, this is Samsung's fault, not the reseller. But I'm very displeased with the product, anyway. I'd heard that there was custom modding for the S10, but it turned out that was only available for the European version? Confusing!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "569f847bb1f8_0",
+      "doc_id": "569f847bb1f8",
+      "text": "fully unlocked and looks like new. The S10 arrive quickly and looks new. It only came with a usb cord and power adapter. No sim removal tool and no documentation. I already had a sim removal tool and the manual was available from the Samsung web site. The S10 was fully unlocked and I used a Tracfone/Verizon sim and transferred by wife's Tracfone account over to the S!0. Her previous phone was on Tracfone ATT network so it took a couple of hours for the S10 to be activated with the old phone number but now on Verizon.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "129613791eea_0",
+      "doc_id": "129613791eea",
+      "text": "EDIT: Device now works after contacting Verizon.. Bought unlocked S10, initially the device would not work with my SIM card, and stated it would only work with Verizon SIM cards, contacted Verizon to know the status of the device, they claimed it was unlocked so I gave it another try and it now works Device looks and works like new, the only thing wrong with the device is the fact that there is a little scratch around the part that covers the back camera, which is no bother to me at all.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "18c9524e3e7f_1",
+      "doc_id": "18c9524e3e7f",
+      "text": "I was told that the phone was originally registered with the service provider Sprint, and although Sprint may have unlocked the device there can be some restrictions still on it. Service providers are the ones who push out the updates apparently. I was told to call Amazon and request a phone that was originally with my current service provider. Battery port: Not sure if all Samsung S10 battery ports are like this, but the slightest movement of the phone while it was charging would lead to a cease in charging. I couldn't use the phone while it was charging, I had to sit it on a flat surface and walk away for an hour or so. Also, the pre-applied screen protector makes it hard for the touch screen to recognize my touches, so I have to tap hard.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "2bc6e52051a0_0",
+      "doc_id": "2bc6e52051a0",
+      "text": "Samsung S10 refurbished. We carried the S10 to our cellular provider. They changed the SIM card, moved data and the phone is fully functional (to the best of my knowledge) and my wife is happy.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "1ff21e65c294_0",
+      "doc_id": "1ff21e65c294",
+      "text": "Renewed feels and looks brand new!. Renewed unlocked S10 looks and feels completely brand new for hundreds less. The box(with the exception of the tape), manuals, chargers, headphones, and usb phone switch piece, all brand new and working. Manufacturer unlocked and working great with my sim card. So happy I saved so much money.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "dc800c2868a5_0",
+      "doc_id": "dc800c2868a5",
+      "text": "Unlocked and Like New. My S10 shipped quickly. It arrived like new. It only had a tiny scratch on the bottom of the rear panel. I wouldn't have noticed if I wasn't actively searching for scratches. The phone is fully unlocked and functional for me. I use Verizon's pre-paid service and I just moved the SIM card over to the new phone, and it worked fine after the initial setup wizard. I was prompted shortly after setup to verify my emergency address, and wifi calling was re-activated. The phone arrived via FedEx, packaged in a generic box, with a single-port charger, and the proper cable. It doesn't come with the little tool to remove your SIM card, so be ready for that. A paper clip has worked for me on other phones in the past.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "5345422ae757_0",
+      "doc_id": "5345422ae757",
+      "text": "Worked on Verizon. Was skeptical of the unlocked phone, but worked fine. on initial setup phone detected verizon sim removed from galaxy s8. no issues noted after month on regular use. overall not much different from s8, but it is faster and has more memory.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B082VZG34N"
+    }
+  ],
+  "contexts": [
+    "samsung galaxy s10 international. I received the phone earlier than the expected arrival date and it was new and sealed as advertised. I am from the USA and I have T-mobile USA as my service provider. I upgraded to this from a Samsung Galaxy S6 I got from T-mobile in 2015. This international version does not have any carrier bloatware and I used the SIM card from my old S6 and put it into the S10 and it works flawlessly.",
+    "With two identical S10's, the model numbers had different suffixes, but both started with SM-G973. It blew my mind that it wasn't enough to just slap the SIM card in the phone - as an iPhone user myself, this was one of those moments where I gained appreciation for the simplicity that their system offers. Challenge #2: Android SDK literally was the saving grace for my dad's S10. Here's the story: I ran updates, used Smart Switch, installed apps, did all of the things that one would do to prep a phone for daily use. However, after getting it activated with a new SIM through ATT and doing a restart, there'd be a message that would pop up in the notification tray about activating the phone. Keep in mind, the phone [at this point] had service and mobile data access with ATT.",
+    "\"Unlocked\" is a lie. It may not be locked to a specific carrier, but the bootloader is NOT unlocked. You're still locked into the default samsung bloatware and cannot even root the phone. To be clear, this is Samsung's fault, not the reseller. But I'm very displeased with the product, anyway. I'd heard that there was custom modding for the S10, but it turned out that was only available for the European version? Confusing!",
+    "fully unlocked and looks like new. The S10 arrive quickly and looks new. It only came with a usb cord and power adapter. No sim removal tool and no documentation. I already had a sim removal tool and the manual was available from the Samsung web site. The S10 was fully unlocked and I used a Tracfone/Verizon sim and transferred by wife's Tracfone account over to the S!0. Her previous phone was on Tracfone ATT network so it took a couple of hours for the S10 to be activated with the old phone number but now on Verizon.",
+    "EDIT: Device now works after contacting Verizon.. Bought unlocked S10, initially the device would not work with my SIM card, and stated it would only work with Verizon SIM cards, contacted Verizon to know the status of the device, they claimed it was unlocked so I gave it another try and it now works Device looks and works like new, the only thing wrong with the device is the fact that there is a little scratch around the part that covers the back camera, which is no bother to me at all.",
+    "I was told that the phone was originally registered with the service provider Sprint, and although Sprint may have unlocked the device there can be some restrictions still on it. Service providers are the ones who push out the updates apparently. I was told to call Amazon and request a phone that was originally with my current service provider. Battery port: Not sure if all Samsung S10 battery ports are like this, but the slightest movement of the phone while it was charging would lead to a cease in charging. I couldn't use the phone while it was charging, I had to sit it on a flat surface and walk away for an hour or so. Also, the pre-applied screen protector makes it hard for the touch screen to recognize my touches, so I have to tap hard.",
+    "Samsung S10 refurbished. We carried the S10 to our cellular provider. They changed the SIM card, moved data and the phone is fully functional (to the best of my knowledge) and my wife is happy.",
+    "Renewed feels and looks brand new!. Renewed unlocked S10 looks and feels completely brand new for hundreds less. The box(with the exception of the tape), manuals, chargers, headphones, and usb phone switch piece, all brand new and working. Manufacturer unlocked and working great with my sim card. So happy I saved so much money.",
+    "Unlocked and Like New. My S10 shipped quickly. It arrived like new. It only had a tiny scratch on the bottom of the rear panel. I wouldn't have noticed if I wasn't actively searching for scratches. The phone is fully unlocked and functional for me. I use Verizon's pre-paid service and I just moved the SIM card over to the new phone, and it worked fine after the initial setup wizard. I was prompted shortly after setup to verify my emergency address, and wifi calling was re-activated. The phone arrived via FedEx, packaged in a generic box, with a single-port charger, and the proper cable. It doesn't come with the little tool to remove your SIM card, so be ready for that. A paper clip has worked for me on other phones in the past.",
+    "Worked on Verizon. Was skeptical of the unlocked phone, but worked fine. on initial setup phone detected verizon sim removed from galaxy s8. no issues noted after month on regular use. overall not much different from s8, but it is faster and has more memory."
+  ],
+  "timing": {
+    "classification_s": 3.3221253999945475,
+    "generation_s": 2.329562699997041,
+    "verification_s": 6.200003554113209e-06,
+    "total_s": 5.651704199997766
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1868,
+        "completion_tokens": 687,
+        "total_tokens": 2555,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1612
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1742,
+        "completion_tokens": 317,
+        "total_tokens": 2059,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1614
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

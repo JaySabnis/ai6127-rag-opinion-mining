@@ -1,0 +1,436 @@
+{
+  "question": "How do reviewers rate the camera quality on the Samsung Galaxy S10?",
+  "answer": "One reviewer said the quality of the pictures from the camera is terrific. [d44bba0da53b_1]\nOne reviewer reported that all the cameras work. [5a9c6c0583be_0]\nOne reviewer said the camera is just so good. [d12e34a1ffb4_0]\nOne reviewer reported that the camera stopped working two weeks after purchase. [3ccc78934f25_0]\nOne reviewer said the camera is not too great in certain lighting. [546e5d313faf_0]",
+  "draft_answer": "One reviewer said the quality of the pictures from the camera is terrific. [d44bba0da53b_1]\nOne reviewer reported that all the cameras work. [5a9c6c0583be_0]\nOne reviewer said the camera is just so good. [d12e34a1ffb4_0]\nOne reviewer reported that the camera stopped working two weeks after purchase. [3ccc78934f25_0]\nOne reviewer said the camera is not too great in certain lighting. [546e5d313faf_0]",
+  "sentences": [
+    {
+      "text": "One reviewer said the quality of the pictures from the camera is terrific.",
+      "citations": [
+        "d44bba0da53b_1"
+      ]
+    },
+    {
+      "text": "One reviewer reported that all the cameras work.",
+      "citations": [
+        "5a9c6c0583be_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the camera is just so good.",
+      "citations": [
+        "d12e34a1ffb4_0"
+      ]
+    },
+    {
+      "text": "One reviewer reported that the camera stopped working two weeks after purchase.",
+      "citations": [
+        "3ccc78934f25_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the camera is not too great in certain lighting.",
+      "citations": [
+        "546e5d313faf_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer said the quality of the pictures from the camera is terrific.",
+      "citations": [
+        "d44bba0da53b_1"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported that all the cameras work.",
+      "citations": [
+        "5a9c6c0583be_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the camera is just so good.",
+      "citations": [
+        "d12e34a1ffb4_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported that the camera stopped working two weeks after purchase.",
+      "citations": [
+        "3ccc78934f25_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the camera is not too great in certain lighting.",
+      "citations": [
+        "546e5d313faf_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer said the quality of the pictures from the camera is terrific.",
+      "citations": [
+        "d44bba0da53b_1"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported that all the cameras work.",
+      "citations": [
+        "5a9c6c0583be_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the camera is just so good.",
+      "citations": [
+        "d12e34a1ffb4_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported that the camera stopped working two weeks after purchase.",
+      "citations": [
+        "3ccc78934f25_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the camera is not too great in certain lighting.",
+      "citations": [
+        "546e5d313faf_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "d44bba0da53b_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The quality of the pictures from the camera(s) is terrific"
+      ],
+      "reason": "Direct praise of camera picture quality.",
+      "doc_id": "d44bba0da53b",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "77267e5b61cd_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No mention of camera.",
+      "doc_id": "77267e5b61cd",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "5a9c6c0583be_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "all the cameras work"
+      ],
+      "reason": "States cameras work, a positive functional note.",
+      "doc_id": "5a9c6c0583be",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "3ccc78934f25_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "two weeks after camera stopped working"
+      ],
+      "reason": "Camera stopped working, clear criticism.",
+      "doc_id": "3ccc78934f25",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "d12e34a1ffb4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The camera is just so good"
+      ],
+      "reason": "Explicit praise of the camera.",
+      "doc_id": "d12e34a1ffb4",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "c4bc0d0e3983_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No camera discussion.",
+      "doc_id": "c4bc0d0e3983",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "89bf2ec780ff_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No camera mention.",
+      "doc_id": "89bf2ec780ff",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "dccf717c1608_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No camera mention.",
+      "doc_id": "dccf717c1608",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "546e5d313faf_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The camera is not too great in certain lighting"
+      ],
+      "reason": "Criticism of camera in certain lighting.",
+      "doc_id": "546e5d313faf",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "a8b91556b7bf_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Generic quality comment, no camera mention.",
+      "doc_id": "a8b91556b7bf",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 5,
+      "n_excluded_aspect_absent": 5,
+      "counts": {
+        "positive": 3,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.6,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.6,
+      "polarized_denominator": 5
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "d44bba0da53b_1",
+      "doc_id": "d44bba0da53b",
+      "text": "The quality of the pictures from the camera(s) is terrific. I'm about a week into operating this Galaxy S-10 and so far it was definitely worth the deeply discounted investment!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "77267e5b61cd_0",
+      "doc_id": "77267e5b61cd",
+      "text": "Galaxy S10. Works and looks brand new, no problems so far!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "5a9c6c0583be_0",
+      "doc_id": "5a9c6c0583be",
+      "text": "Samsung Galaxy S10 Sold from RE-CELL. This phone came in great condition! All the buttons work, all the cameras work, and the battery life is awesome!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "3ccc78934f25_0",
+      "doc_id": "3ccc78934f25",
+      "text": "S10 is a good phone.. Phone is nice .feels good. Features ok. But two weeks after camera stopped working. Choice of returing or delete and factory restore. Which I did .lost some of my pictures and stuff... now so far so good.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "d12e34a1ffb4_0",
+      "doc_id": "d12e34a1ffb4",
+      "text": "Basically brand new. The renewed samsung galaxy s10 prism black great it is basically brand new when I got it I thought it was brand new after a while it was still brand new but my only issue is the battery it slightly overheats or it just might be me using it a lot. I saw all the other reviews I thought the fingerprint reader said it was bad and if it is just add it again like 3 or 4 times. The camera is just so good. So overall it is brand new.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "c4bc0d0e3983_0",
+      "doc_id": "c4bc0d0e3983",
+      "text": "Samsung s10. So far its been great. Very lightweight. Battery life seems good. Quite fast upgrading from s6.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "89bf2ec780ff_0",
+      "doc_id": "89bf2ec780ff",
+      "text": "S10. Phone works well, battery dies a little quicker than my A50 but all features works and look like brand new.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "dccf717c1608_0",
+      "doc_id": "dccf717c1608",
+      "text": "This S10 looks and acts brand new.. The phone looks brand new. It works great.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "546e5d313faf_0",
+      "doc_id": "546e5d313faf",
+      "text": "Renewed Galaxy s10 128GB. I received the phone at a great time and I have not had any issues since I purchased it in October. The battery life is great and it does well with my phone service, too. The camera is not too great in certain lighting, however.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "a8b91556b7bf_0",
+      "doc_id": "a8b91556b7bf",
+      "text": "S10. Good quality",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    }
+  ],
+  "contexts": [
+    "The quality of the pictures from the camera(s) is terrific. I'm about a week into operating this Galaxy S-10 and so far it was definitely worth the deeply discounted investment!",
+    "Galaxy S10. Works and looks brand new, no problems so far!",
+    "Samsung Galaxy S10 Sold from RE-CELL. This phone came in great condition! All the buttons work, all the cameras work, and the battery life is awesome!",
+    "S10 is a good phone.. Phone is nice .feels good. Features ok. But two weeks after camera stopped working. Choice of returing or delete and factory restore. Which I did .lost some of my pictures and stuff... now so far so good.",
+    "Basically brand new. The renewed samsung galaxy s10 prism black great it is basically brand new when I got it I thought it was brand new after a while it was still brand new but my only issue is the battery it slightly overheats or it just might be me using it a lot. I saw all the other reviews I thought the fingerprint reader said it was bad and if it is just add it again like 3 or 4 times. The camera is just so good. So overall it is brand new.",
+    "Samsung s10. So far its been great. Very lightweight. Battery life seems good. Quite fast upgrading from s6.",
+    "S10. Phone works well, battery dies a little quicker than my A50 but all features works and look like brand new.",
+    "This S10 looks and acts brand new.. The phone looks brand new. It works great.",
+    "Renewed Galaxy s10 128GB. I received the phone at a great time and I have not had any issues since I purchased it in October. The battery life is great and it does well with my phone service, too. The camera is not too great in certain lighting, however.",
+    "S10. Good quality"
+  ],
+  "timing": {
+    "classification_s": 2.1426356000010855,
+    "generation_s": 1.0485138000003644,
+    "verification_s": 5.800000508315861e-06,
+    "total_s": 3.191164600000775
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1171,
+        "completion_tokens": 515,
+        "total_tokens": 1686,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 915
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1045,
+        "completion_tokens": 158,
+        "total_tokens": 1203,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 917
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

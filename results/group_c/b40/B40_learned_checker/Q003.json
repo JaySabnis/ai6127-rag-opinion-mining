@@ -1,0 +1,500 @@
+{
+  "question": "Are people happy with the pictures they get from the Google Pixel 4a?",
+  "answer": "One reviewer with a photography background said the Pixel 4a captures the \"soul\" of the subject with an old-fashioned Kodachrome feel, though they found night mode produced distracting pixelated halos around store signs and that zoomed-in daylight photos looked pixelated and artifacty. [be4526fdf865_6]\nAnother reviewer said the 4a shoots great pictures with nice colors, good dynamic range and good contrast, and was really happy with how the pictures turned out for a $350 device. [994cdda37a2b_7]\nOne reviewer described the pictures as crystal clear and easy to get, saying they use the camera more than phone calls and texts. [94522cb4ef30_1]\nA long-term owner said the camera is still working nicely and they still get really nice pictures. [e6b5a7fa545c_10]\nSeveral reviewers called the photo quality stunning, beautiful, or amazing, with one saying the cameras are comparable to an iPhone's. [bb9cf688a0d4_0] [f459cffad3d1_0] [f7c163b8a631_0]\nOne reviewer praised the autofocus and camera app coaching, and another said the pictures a friend sends are really good. [ed9f54247847_0] [a989bbd26c43_0]",
+  "draft_answer": "One reviewer with a photography background said the Pixel 4a captures the \"soul\" of the subject with an old-fashioned Kodachrome feel, though they found night mode produced distracting pixelated halos around store signs and that zoomed-in daylight photos looked pixelated and artifacty. [be4526fdf865_6]\nAnother reviewer said the 4a shoots great pictures with nice colors, good dynamic range and good contrast, and was really happy with how the pictures turned out for a $350 device. [994cdda37a2b_7]\nOne reviewer described the pictures as crystal clear and easy to get, saying they use the camera more than phone calls and texts. [94522cb4ef30_1]\nA long-term owner said the camera is still working nicely and they still get really nice pictures. [e6b5a7fa545c_10]\nSeveral reviewers called the photo quality stunning, beautiful, or amazing, with one saying the cameras are comparable to an iPhone's. [bb9cf688a0d4_0] [f459cffad3d1_0] [f7c163b8a631_0]\nOne reviewer praised the autofocus and camera app coaching, and another said the pictures a friend sends are really good. [ed9f54247847_0] [a989bbd26c43_0]",
+  "sentences": [
+    {
+      "text": "One reviewer with a photography background said the Pixel 4a captures the \"soul\" of the subject with an old-fashioned Kodachrome feel, though they found night mode produced distracting pixelated halos around store signs and that zoomed-in daylight photos looked pixelated and artifacty.",
+      "citations": [
+        "be4526fdf865_6"
+      ]
+    },
+    {
+      "text": "Another reviewer said the 4a shoots great pictures with nice colors, good dynamic range and good contrast, and was really happy with how the pictures turned out for a $350 device.",
+      "citations": [
+        "994cdda37a2b_7"
+      ]
+    },
+    {
+      "text": "One reviewer described the pictures as crystal clear and easy to get, saying they use the camera more than phone calls and texts.",
+      "citations": [
+        "94522cb4ef30_1"
+      ]
+    },
+    {
+      "text": "A long-term owner said the camera is still working nicely and they still get really nice pictures.",
+      "citations": [
+        "e6b5a7fa545c_10"
+      ]
+    },
+    {
+      "text": "Several reviewers called the photo quality stunning, beautiful, or amazing, with one saying the cameras are comparable to an iPhone's.",
+      "citations": [
+        "bb9cf688a0d4_0",
+        "f459cffad3d1_0",
+        "f7c163b8a631_0"
+      ]
+    },
+    {
+      "text": "One reviewer praised the autofocus and camera app coaching, and another said the pictures a friend sends are really good.",
+      "citations": [
+        "ed9f54247847_0",
+        "a989bbd26c43_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One reviewer with a photography background said the Pixel 4a captures the \"soul\" of the subject with an old-fashioned Kodachrome feel, though they found night mode produced distracting pixelated halos around store signs and that zoomed-in daylight photos looked pixelated and artifacty.",
+      "citations": [
+        "be4526fdf865_6"
+      ],
+      "status": "supported",
+      "reason": "引文明确提到摄影背景、捕捉\"soul\"、Kodachrome感觉、夜间模式在商店招牌周围产生像素化光晕，以及放大白天照片后像素化和\"artifacty\"。",
+      "evidence": [
+        {
+          "chunk_id": "be4526fdf865_6",
+          "quote": "I've been into photography for a long time now and I've got to say that the 4a is one of those cameras that captures the \"soul\" of the subject--a real old-fashioned Kodachrome feel. Night mode is decent overall, though it tends to capture weird pixelated halos around store signs that are quite distracting"
+        },
+        {
+          "chunk_id": "be4526fdf865_6",
+          "quote": "Zoom in on a photo and the pictures become very pixelated and \"artifacty\"."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "Another reviewer said the 4a shoots great pictures with nice colors, good dynamic range and good contrast, and was really happy with how the pictures turned out for a $350 device.",
+      "citations": [
+        "994cdda37a2b_7"
+      ],
+      "status": "supported",
+      "reason": "引文包含拍摄好照片、色彩好、动态范围好、对比度好，以及350美元设备照片很棒并对此感到满意。",
+      "evidence": [
+        {
+          "chunk_id": "994cdda37a2b_7",
+          "quote": "The 4a shoots great pictures with nice colors and good dynamic ranges. The contrast is at a good level as well. Overall the pictures look amazing for a $350 device."
+        },
+        {
+          "chunk_id": "994cdda37a2b_7",
+          "quote": "I am really happy with how the pictures from the 4a turned out."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "One reviewer described the pictures as crystal clear and easy to get, saying they use the camera more than phone calls and texts.",
+      "citations": [
+        "94522cb4ef30_1"
+      ],
+      "status": "supported",
+      "reason": "引文提到照片crystal clear、容易拍好，以及使用相机多于电话和短信。",
+      "evidence": [
+        {
+          "chunk_id": "94522cb4ef30_1",
+          "quote": "the pictures are just crystal clear and I don’t have to stand on my head and pray just for a good picture"
+        },
+        {
+          "chunk_id": "94522cb4ef30_1",
+          "quote": "I use the camera more than phone calls and text"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s3",
+      "text": "A long-term owner said the camera is still working nicely and they still get really nice pictures.",
+      "citations": [
+        "e6b5a7fa545c_10"
+      ],
+      "status": "supported",
+      "reason": "引文明确说相机仍运作良好，仍能拍到很好的照片。",
+      "evidence": [
+        {
+          "chunk_id": "e6b5a7fa545c_10",
+          "quote": "my camera is still working nicely I I still get really nice pictures"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "Several reviewers called the photo quality stunning, beautiful, or amazing, with one saying the cameras are comparable to an iPhone's.",
+      "citations": [
+        "bb9cf688a0d4_0",
+        "f459cffad3d1_0",
+        "f7c163b8a631_0"
+      ],
+      "status": "supported",
+      "reason": "三条引文分别称照片质量stunning、Beautiful pictures、AMAZING PICTURES，且其中一条说相机可与iPhone相比。",
+      "evidence": [
+        {
+          "chunk_id": "bb9cf688a0d4_0",
+          "quote": "the camera photo quality is stunning!"
+        },
+        {
+          "chunk_id": "f459cffad3d1_0",
+          "quote": "Beautiful pictures."
+        },
+        {
+          "chunk_id": "f459cffad3d1_0",
+          "quote": "well the cameras are comparable!"
+        },
+        {
+          "chunk_id": "f7c163b8a631_0",
+          "quote": "AMAZING PICTURES!"
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "One reviewer praised the autofocus and camera app coaching, and another said the pictures a friend sends are really good.",
+      "citations": [
+        "ed9f54247847_0",
+        "a989bbd26c43_0"
+      ],
+      "status": "supported",
+      "reason": "第一条引文称赞自动对焦和相机应用指导，第二条说朋友发来的照片really good。",
+      "evidence": [
+        {
+          "chunk_id": "ed9f54247847_0",
+          "quote": "The autofocus works impressively well and the camera app coaches you to hold the phone in the way that will get the best results."
+        },
+        {
+          "chunk_id": "a989bbd26c43_0",
+          "quote": "the pictures they send me are really good!"
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "be4526fdf865_6",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "captures the \"soul\" of the subject",
+        "Night mode is decent overall",
+        "weird pixelated halos around store signs",
+        "takes a nosedive on most other photos",
+        "pictures become very pixelated and \"artifacty\""
+      ],
+      "reason": "Praises soulful look and decent night mode but criticizes halos and pixelated, mushy zoomed photos.",
+      "doc_id": "be4526fdf865",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "994cdda37a2b_7",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "shoots great pictures with nice colors and good dynamic ranges",
+        "Overall the pictures look amazing for a $350 device",
+        "really happy with how the pictures from the 4a turned out"
+      ],
+      "reason": "Positive opinion on camera picture quality, colors, dynamic range, and value.",
+      "doc_id": "994cdda37a2b",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "94522cb4ef30_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "pictures are just crystal clear",
+        "I can get perfect pictures",
+        "I really love this phone",
+        "camera functions can do very extensive things and for once they are easy to use"
+      ],
+      "reason": "Strong praise for clear pictures and easy, extensive camera functions.",
+      "doc_id": "94522cb4ef30",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "e6b5a7fa545c_10",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "my camera is still working nicely I I still get really nice pictures"
+      ],
+      "reason": "Brief positive opinion that camera works nicely and yields nice pictures; rest is unrelated.",
+      "doc_id": "e6b5a7fa545c",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "bb9cf688a0d4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "the camera photo quality is stunning"
+      ],
+      "reason": "Positive opinion on camera photo quality and value.",
+      "doc_id": "bb9cf688a0d4",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "f459cffad3d1_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Beautiful pictures",
+        "the camera was awesome",
+        "the cameras are comparable"
+      ],
+      "reason": "Praises camera and pictures; storage complaint is unrelated to camera.",
+      "doc_id": "f459cffad3d1",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "8ab37963effb_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Great Camera"
+      ],
+      "reason": "Camera praised; the complaint concerns photo filing system, not camera quality.",
+      "doc_id": "8ab37963effb",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "a989bbd26c43_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Great Camera",
+        "the pictures they send me are really good",
+        "ridiculously nice camera"
+      ],
+      "reason": "Positive opinion on camera and picture quality.",
+      "doc_id": "a989bbd26c43",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "ed9f54247847_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The cameras on this phone are incredible!",
+        "autofocus works impressively well",
+        "camera app coaches you",
+        "blurs some background and foreground in a desirable way"
+      ],
+      "reason": "Strong praise for camera, autofocus, and app coaching; battery comments unrelated.",
+      "doc_id": "ed9f54247847",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "f7c163b8a631_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "AMAZING PICTURES!",
+        "quality of pictures this phone takes more than makes up for any issues",
+        "the pictures it takes are amazing"
+      ],
+      "reason": "Positive opinion on picture quality and value.",
+      "doc_id": "f7c163b8a631",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 9,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.9,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 9
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "be4526fdf865_6",
+      "doc_id": "be4526fdf865",
+      "text": "I've been into photography for a long time now and I've got to say that the 4a is one of those cameras that captures the \"soul\" of the subject--a real old-fashioned Kodachrome feel. Night mode is decent overall, though it tends to capture weird pixelated halos around store signs that are quite distracting and that I never witnessed in my Zenfone's better days. Aside from the above, the 4a takes a nosedive on most other photos. If you're a pixel peeper, you're not going to be happy. Let's imagine a daylight photo taken of a row of building 50 meters away. Upon initial inspection the photo will look pretty good. Colors are vivid and accurate. Zoom in on a photo and the pictures become very pixelated and \"artifacty\". Distinct lines are broken and edgy. Actually, I'd call them mushy, not unlike my sick Zenfone.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "994cdda37a2b_7",
+      "doc_id": "994cdda37a2b",
+      "text": "It can shoot 4K videos at 30fps or 1080p video at 60 fps. The front facing camera has an 8 MP sensor, an f/2.0 aperture and an 88 degrees field of view. The 4a shoots great pictures with nice colors and good dynamic ranges. The contrast is at a good level as well. Overall the pictures look amazing for a $350 device. I have attached some images that show the same picture shot with the Google Pixel 4a, the iPhone X and the iPhone XR. I am really happy with how the pictures from the 4a turned out. The Pixel 4a of this article is rocking the Android 10, June 2020 build. As all Google Android phones, it has a simple but very smooth and to the point GUI.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "94522cb4ef30_1",
+      "doc_id": "94522cb4ef30",
+      "text": "With this camera I have none of that the pictures are just crystal clear and I don’t have to stand on my head and pray just for a good picture. Thanks Google. I like google everything it just works! Thank you! I can get perfect pictures for my reviews on Google maps and Amazon etc. I couldn’t do that before! The camera is important to me because I don’t carry my big digital camera anymore it’s just to much hassle. I want a nice clear picture taking camera that’s easy to use and quick! I use the camera more than phone calls and text so I really love this phone! I find that the camera functions can do very extensive things and for once they are easy to use which I didn’t have before.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "e6b5a7fa545c_10",
+      "doc_id": "e6b5a7fa545c",
+      "text": "As for phone calls and stuff I don't have an issue with the speaker or the earpiece very simple to use and my camera is still working nicely I I still get really nice pictures. this one does say that it's for all carriers and I have Xfinity mobile, and when I got the phone I checked the number against their oh is your phone compatible on the website and it wasn't. I was very frustrated I even set up to start a new return with this but then, I was on with the people on chat and I was trying to figure it out and I even said I was going to try and go somewhere else. But here's the thing even though that they wouldn't help me and they kind of have some sucky customer service.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "bb9cf688a0d4_0",
+      "doc_id": "bb9cf688a0d4",
+      "text": "Great phonr. Love this phone. You can download many apps that allow you to customize pretty much anything. And the camera photo quality is stunning! Very happy with what it offers for the price. Gestures will take some time to get used to if you get this phone. I had an iPhone 6s before getting this phone and don't care that my bubbles are green now.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "f459cffad3d1_0",
+      "doc_id": "f459cffad3d1",
+      "text": "Beautiful pictures. The reason I got it was because I read reviews that the camera was awesome. And it is! So many people think thia is an Iphone... well the cameras are comparable! Love my new phone. Only thing I don't like is I have no idea how to open it for an external disk or if there even is a way to put extra storage... it mostly seems to push for google drive for storage of pix.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08H85VZNX"
+    },
+    {
+      "chunk_id": "8ab37963effb_0",
+      "doc_id": "8ab37963effb",
+      "text": "Great phone, Great Camera, pain in the butt filing system for pics. Great phone. Great camera. My one issue is a little technical. I would like to sort favorites into folders from my \"Camera\" selection of photos. Instead, favorites get their own folder within \"Camera\" which is separate from the other folders. I cannot select photos from \"Favorites\" and move them to folders from there. I can only create a private album from favorites. It's not intuitive. It makes sorting my pictures difficult.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4K5L2F"
+    },
+    {
+      "chunk_id": "a989bbd26c43_0",
+      "doc_id": "a989bbd26c43",
+      "text": "Great Camera. I purchased this for a friend who didn't want to spend a bunch of money on a cellphone, but also wanted a nice camera. They've had this phone for a while now and the pictures they send me are really good! If you don't need a flagship phone, but you still want a ridiculously nice camera, then get this phone!",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "ed9f54247847_0",
+      "doc_id": "ed9f54247847",
+      "text": "The cameras on this phone are incredible!. Many people have coveted my Pixel and asked me to take picture for them. The autofocus works impressively well and the camera app coaches you to hold the phone in the way that will get the best results. It blurs some background and foreground in a desirable way to enhance to contrast with the subject. A circle on the screen is there for you to aim it and indicate the subject. I take photos of insects. It finds them from their movements and the focus follows them automatically. The battery charge life is impressive - about 3 days! It uses USBc to USBa cords. It comes with a couple, but you may need new accessories for a battery bank or car chager. The speed at which the phone can charge is well worth needing new cords and adapters.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    },
+    {
+      "chunk_id": "f7c163b8a631_0",
+      "doc_id": "f7c163b8a631",
+      "text": "AMAZING PICTURES!. The quality of pictures this phone takes more than makes up for any issues it might have. It is not the fastest or biggest or fanciest, but did I mention that the pictures it takes are amazing! For the price of this phone and the quality of pictures it takes, this phone is more than enough for almost everyone.",
+      "brand": "Google",
+      "model": "Pixel 4a",
+      "source_url": "https://www.amazon.com/dp/B08Z4JTDVN"
+    }
+  ],
+  "contexts": [
+    "I've been into photography for a long time now and I've got to say that the 4a is one of those cameras that captures the \"soul\" of the subject--a real old-fashioned Kodachrome feel. Night mode is decent overall, though it tends to capture weird pixelated halos around store signs that are quite distracting and that I never witnessed in my Zenfone's better days. Aside from the above, the 4a takes a nosedive on most other photos. If you're a pixel peeper, you're not going to be happy. Let's imagine a daylight photo taken of a row of building 50 meters away. Upon initial inspection the photo will look pretty good. Colors are vivid and accurate. Zoom in on a photo and the pictures become very pixelated and \"artifacty\". Distinct lines are broken and edgy. Actually, I'd call them mushy, not unlike my sick Zenfone.",
+    "It can shoot 4K videos at 30fps or 1080p video at 60 fps. The front facing camera has an 8 MP sensor, an f/2.0 aperture and an 88 degrees field of view. The 4a shoots great pictures with nice colors and good dynamic ranges. The contrast is at a good level as well. Overall the pictures look amazing for a $350 device. I have attached some images that show the same picture shot with the Google Pixel 4a, the iPhone X and the iPhone XR. I am really happy with how the pictures from the 4a turned out. The Pixel 4a of this article is rocking the Android 10, June 2020 build. As all Google Android phones, it has a simple but very smooth and to the point GUI.",
+    "With this camera I have none of that the pictures are just crystal clear and I don’t have to stand on my head and pray just for a good picture. Thanks Google. I like google everything it just works! Thank you! I can get perfect pictures for my reviews on Google maps and Amazon etc. I couldn’t do that before! The camera is important to me because I don’t carry my big digital camera anymore it’s just to much hassle. I want a nice clear picture taking camera that’s easy to use and quick! I use the camera more than phone calls and text so I really love this phone! I find that the camera functions can do very extensive things and for once they are easy to use which I didn’t have before.",
+    "As for phone calls and stuff I don't have an issue with the speaker or the earpiece very simple to use and my camera is still working nicely I I still get really nice pictures. this one does say that it's for all carriers and I have Xfinity mobile, and when I got the phone I checked the number against their oh is your phone compatible on the website and it wasn't. I was very frustrated I even set up to start a new return with this but then, I was on with the people on chat and I was trying to figure it out and I even said I was going to try and go somewhere else. But here's the thing even though that they wouldn't help me and they kind of have some sucky customer service.",
+    "Great phonr. Love this phone. You can download many apps that allow you to customize pretty much anything. And the camera photo quality is stunning! Very happy with what it offers for the price. Gestures will take some time to get used to if you get this phone. I had an iPhone 6s before getting this phone and don't care that my bubbles are green now.",
+    "Beautiful pictures. The reason I got it was because I read reviews that the camera was awesome. And it is! So many people think thia is an Iphone... well the cameras are comparable! Love my new phone. Only thing I don't like is I have no idea how to open it for an external disk or if there even is a way to put extra storage... it mostly seems to push for google drive for storage of pix.",
+    "Great phone, Great Camera, pain in the butt filing system for pics. Great phone. Great camera. My one issue is a little technical. I would like to sort favorites into folders from my \"Camera\" selection of photos. Instead, favorites get their own folder within \"Camera\" which is separate from the other folders. I cannot select photos from \"Favorites\" and move them to folders from there. I can only create a private album from favorites. It's not intuitive. It makes sorting my pictures difficult.",
+    "Great Camera. I purchased this for a friend who didn't want to spend a bunch of money on a cellphone, but also wanted a nice camera. They've had this phone for a while now and the pictures they send me are really good! If you don't need a flagship phone, but you still want a ridiculously nice camera, then get this phone!",
+    "The cameras on this phone are incredible!. Many people have coveted my Pixel and asked me to take picture for them. The autofocus works impressively well and the camera app coaches you to hold the phone in the way that will get the best results. It blurs some background and foreground in a desirable way to enhance to contrast with the subject. A circle on the screen is there for you to aim it and indicate the subject. I take photos of insects. It finds them from their movements and the focus follows them automatically. The battery charge life is impressive - about 3 days! It uses USBc to USBa cords. It comes with a couple, but you may need new accessories for a battery bank or car chager. The speed at which the phone can charge is well worth needing new cords and adapters.",
+    "AMAZING PICTURES!. The quality of pictures this phone takes more than makes up for any issues it might have. It is not the fastest or biggest or fanciest, but did I mention that the pictures it takes are amazing! For the price of this phone and the quality of pictures it takes, this phone is more than enough for almost everyone."
+  ],
+  "timing": {
+    "classification_s": 3.96373339999991,
+    "generation_s": 2.2704876999996486,
+    "verification_s": 3.252282899993588,
+    "total_s": 9.48652089999814
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2032,
+        "completion_tokens": 792,
+        "total_tokens": 2824,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 240
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1908,
+        "completion_tokens": 334,
+        "total_tokens": 2242,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 244
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2236,
+        "completion_tokens": 743,
+        "total_tokens": 2979,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 2108
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

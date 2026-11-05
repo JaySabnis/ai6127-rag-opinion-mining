@@ -1,0 +1,465 @@
+{
+  "question": "What do iPhone XR buyers say about unlocking, activation, and carrier compatibility?",
+  "answer": "One reviewer reported that after inserting a Verizon SIM the phone said \"activation required\" and Verizon told them it was only half unlocked and still locked to Boost Mobile. [2ceb900cca08_0]\nAnother reviewer said the phone was advertised as unlocked for any carrier but T-Mobile/Sprint were unable to activate it because the IMEI was for a prepaid phone. [5f991a2a2f3a_0]\nA reviewer reported that setup kept asking for an activation code and their carrier said the IMEI showed the phone was tied to another carrier. [71fe6b3293bf_0]\nOne buyer said the unlocked version came back as not compatible when they tried to activate it on Verizon. [7dfcdc4dc83d_0]\nA reviewer said their carrier (Metro/T-Mobile) informed them the phone was locked to Sprint despite being sold as unlocked. [bff2e622f6e6_0]\nAnother reviewer stated the device was not compatible with Verizon despite reviews claiming it was fully unlocked. [d218873ad7c9_0]",
+  "draft_answer": "One reviewer reported that after inserting a Verizon SIM the phone said \"activation required\" and Verizon told them it was only half unlocked and still locked to Boost Mobile. [2ceb900cca08_0]\nAnother reviewer said the phone was advertised as unlocked for any carrier but T-Mobile/Sprint were unable to activate it because the IMEI was for a prepaid phone. [5f991a2a2f3a_0]\nA reviewer reported that setup kept asking for an activation code and their carrier said the IMEI showed the phone was tied to another carrier. [71fe6b3293bf_0]\nOne buyer said the unlocked version came back as not compatible when they tried to activate it on Verizon. [7dfcdc4dc83d_0]\nA reviewer said their carrier (Metro/T-Mobile) informed them the phone was locked to Sprint despite being sold as unlocked. [bff2e622f6e6_0]\nAnother reviewer stated the device was not compatible with Verizon despite reviews claiming it was fully unlocked. [d218873ad7c9_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported that after inserting a Verizon SIM the phone said \"activation required\" and Verizon told them it was only half unlocked and still locked to Boost Mobile.",
+      "citations": [
+        "2ceb900cca08_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said the phone was advertised as unlocked for any carrier but T-Mobile/Sprint were unable to activate it because the IMEI was for a prepaid phone.",
+      "citations": [
+        "5f991a2a2f3a_0"
+      ]
+    },
+    {
+      "text": "A reviewer reported that setup kept asking for an activation code and their carrier said the IMEI showed the phone was tied to another carrier.",
+      "citations": [
+        "71fe6b3293bf_0"
+      ]
+    },
+    {
+      "text": "One buyer said the unlocked version came back as not compatible when they tried to activate it on Verizon.",
+      "citations": [
+        "7dfcdc4dc83d_0"
+      ]
+    },
+    {
+      "text": "A reviewer said their carrier (Metro/T-Mobile) informed them the phone was locked to Sprint despite being sold as unlocked.",
+      "citations": [
+        "bff2e622f6e6_0"
+      ]
+    },
+    {
+      "text": "Another reviewer stated the device was not compatible with Verizon despite reviews claiming it was fully unlocked.",
+      "citations": [
+        "d218873ad7c9_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "sentence_id": "s0",
+      "text": "One reviewer reported that after inserting a Verizon SIM the phone said \"activation required\" and Verizon told them it was only half unlocked and still locked to Boost Mobile.",
+      "citations": [
+        "2ceb900cca08_0"
+      ],
+      "status": "supported",
+      "reason": "评论者称插入SIM卡后显示\"activation required\"，Verizon称只解锁一半、仍锁在Boost Mobile，均与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "2ceb900cca08_0",
+          "quote": "when i put my sim card in new phone it says \"activation required\" Verizon says its only 1/2 unlocked, the phones are still locked to Boost Mobile."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s1",
+      "text": "Another reviewer said the phone was advertised as unlocked for any carrier but T-Mobile/Sprint were unable to activate it because the IMEI was for a prepaid phone.",
+      "citations": [
+        "5f991a2a2f3a_0"
+      ],
+      "status": "supported",
+      "reason": "评论者称广告为任意运营商解锁，但T-Mobile/Sprint无法激活，IMEI为预付费手机，均与句子相符。",
+      "evidence": [
+        {
+          "chunk_id": "5f991a2a2f3a_0",
+          "quote": "Advertised as an unlocked for any carrier. However T-Mobile/sprint unable to activate this unlocked phone. The IMEI # was for a prepaid phone, so unable to use."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s2",
+      "text": "A reviewer reported that setup kept asking for an activation code and their carrier said the IMEI showed the phone was tied to another carrier.",
+      "citations": [
+        "71fe6b3293bf_0"
+      ],
+      "status": "supported",
+      "reason": "评论者称设置时一直要求激活码，运营商称IMEI显示手机归属另一运营商，均与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "71fe6b3293bf_0",
+          "quote": "When I tried to get the iPhone set up it kept asking for an activation code. Called my phone carrier and was told that the iPhone was not unlocked per the imei and said the phone was accountable to another phone carrier."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s3",
+      "text": "One buyer said the unlocked version came back as not compatible when they tried to activate it on Verizon.",
+      "citations": [
+        "7dfcdc4dc83d_0"
+      ],
+      "status": "supported",
+      "reason": "买家称购买解锁版但在Verizon激活时显示不兼容，与句子相符。",
+      "evidence": [
+        {
+          "chunk_id": "7dfcdc4dc83d_0",
+          "quote": "Bought the Unlocked version but when we tried to activate on Verizon, it came back as not compatible."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s4",
+      "text": "A reviewer said their carrier (Metro/T-Mobile) informed them the phone was locked to Sprint despite being sold as unlocked.",
+      "citations": [
+        "bff2e622f6e6_0"
+      ],
+      "status": "supported",
+      "reason": "评论者称运营商Metro/T-Mobile告知手机锁在Sprint，且以解锁名义出售，与句子一致。",
+      "evidence": [
+        {
+          "chunk_id": "bff2e622f6e6_0",
+          "quote": "I took it back to the phone store where they informed me it was locked onto a Sprint carrier ."
+        }
+      ],
+      "flagged": false
+    },
+    {
+      "sentence_id": "s5",
+      "text": "Another reviewer stated the device was not compatible with Verizon despite reviews claiming it was fully unlocked.",
+      "citations": [
+        "d218873ad7c9_0"
+      ],
+      "status": "supported",
+      "reason": "评论者称尽管评论说完全解锁兼容任何运营商，但该设备不兼容Verizon，与句子相符。",
+      "evidence": [
+        {
+          "chunk_id": "d218873ad7c9_0",
+          "quote": "Despite all the reviews saying that this device is fully unlocked and compatible with any phone carrier, it is wrong. It is not compatible with Verizon"
+        }
+      ],
+      "flagged": false
+    }
+  ],
+  "flagged_sentences": [],
+  "verification_enabled": true,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "2ceb900cca08_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Verizon says its only 1/2 unlocked, the phones are still locked to Boost Mobile",
+        "i was deceived into buying \"unlocked\" phones"
+      ],
+      "reason": "Complains phone not unlocked for Verizon carrier, still locked to Boost Mobile.",
+      "doc_id": "2ceb900cca08",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "5f991a2a2f3a_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Advertised as an unlocked for any carrier. However T-Mobile/sprint unable to activate this unlocked phone",
+        "unlocked phones will not work for T-Mobile/Sprint"
+      ],
+      "reason": "Unlocked phone failed to activate on T-Mobile/Sprint carrier.",
+      "doc_id": "5f991a2a2f3a",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "71fe6b3293bf_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Called my phone carrier and was told that the iPhone was not unlocked per the imei"
+      ],
+      "reason": "Carrier confirmed phone not unlocked, returned it.",
+      "doc_id": "71fe6b3293bf",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "7dfcdc4dc83d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "when we tried to activate on Verizon, it came back as not compatible",
+        "Verizon support said there was nothing they could do"
+      ],
+      "reason": "Unlocked phone not compatible with Verizon carrier.",
+      "doc_id": "7dfcdc4dc83d",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "bff2e622f6e6_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "it was locked onto a Sprint carrier",
+        "sold under false pretenses of being an unlocked phone"
+      ],
+      "reason": "Phone locked to Sprint, carrier activation failed.",
+      "doc_id": "bff2e622f6e6",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "d218873ad7c9_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "It is not compatible with Verizon"
+      ],
+      "reason": "Claims not compatible with Verizon carrier despite unlocked claims.",
+      "doc_id": "d218873ad7c9",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "32d515928b8d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "when trying to get it activated with carrier it was not unlocked"
+      ],
+      "reason": "Carrier activation failed because phone not unlocked.",
+      "doc_id": "32d515928b8d",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "791cda528381_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "LOCKED CARRIERS!",
+        "NONE OF THE PHONES THAT SAY \"UNLOCKED, OR UNLOCKED FOR ALL CARRIERS\" IS TRUE"
+      ],
+      "reason": "Phones locked to carriers despite unlocked claims.",
+      "doc_id": "791cda528381",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "598b5307b63b_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "it suppose to be a all carrier unlock phone and I still had to spend more money to get an activation kit because my sim isn’t compatible"
+      ],
+      "reason": "All-carrier unlocked claim false, needed activation kit.",
+      "doc_id": "598b5307b63b",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "c01119df0ffe_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "I would now have to pay two activation fees with my carrier",
+        "I was told they don’t know what an activation fee is, that their phones are all unlocked"
+      ],
+      "reason": "Carrier activation fees incurred; seller denied, unhelpful.",
+      "doc_id": "c01119df0ffe",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "aspect": "carrier",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 0,
+        "negative": 10,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.0,
+      "polarized_denominator": 10
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "2ceb900cca08_0",
+      "doc_id": "2ceb900cca08",
+      "text": "The ad says phones are unlocked but that is not true. Upon receiving the phones, i brought them to my carrier(Verizon) and told when i put my sim card in new phone it says \"activation required\" Verizon says its only 1/2 unlocked, the phones are still locked to Boost Mobile. and with that being the case i was deceived into buying \"unlocked\" phones and certainly they are still locked to Boost Mobile. i even went to an authorized Apple dealer and told that these phones were still locked. I have been texting Synergy many times but all they do is ask me the same question \"what does the phone say when you insert your old sim card?\" I have told Synergy three times the same answer which is \"activation required' I still have 2 phones that are locked. Synergy has said nothing else.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "5f991a2a2f3a_0",
+      "doc_id": "5f991a2a2f3a",
+      "text": "Activation issues, works now. Updated*** Arrived early, well packaged, no external issues, only a few very light scratches on front screen, none on back. Problem was with activation. Advertised as an unlocked for any carrier. However T-Mobile/sprint unable to activate this unlocked phone. The IMEI # was for a prepaid phone, so unable to use. Wall plug and cord worked! Waiting on a replacement to arrive. Refund issued, got unlocked replacement and same issue, unable to activate, returned and got a refund, bought another coral colored this time locked for T-Mobile/Sprint. Arrived early, great condition with a screen protector installed. Works great, no complaints. So after all the fiasco, unlocked phones will not work for T-Mobile/Sprint, locked ones to them will.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "71fe6b3293bf_0",
+      "doc_id": "71fe6b3293bf",
+      "text": "Feedback. iPhone said it was unlocked. When I tried to get the iPhone set up it kept asking for an activation code. Called my phone carrier and was told that the iPhone was not unlocked per the imei and said the phone was accountable to another phone carrier. Didn’t want to reach out to the other phone carrier to try and unlock a phone that was listed as unlocked. Ended up returning the phone.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "7dfcdc4dc83d_0",
+      "doc_id": "7dfcdc4dc83d",
+      "text": "NOT unlocked as advertised. Bought the Unlocked version but when we tried to activate on Verizon, it came back as not compatible. Obviously it was not checked or flashed prior to sending out... Verizon support said there was nothing they could do. Then Spent 3 days to get an answer from seller only to learn it would have to be returned, a big inconvenience. The phone itself was in good and packaged well.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "bff2e622f6e6_0",
+      "doc_id": "bff2e622f6e6",
+      "text": "Carrier problems. We recently went to our carrier (metro/T-Mobile) to activate the phone . Once we got home I tried started downloading my normal apps and tried to access them and was unable to unless the phone was connected to WIFI. I took it back to the phone store where they informed me it was locked onto a Sprint carrier . We tried going through the settings, factory reset, taking them off the towers and putting them back on and replacing a SIM card. All which went unsuccessful. I am very upset that this phone was sold under false pretenses of being an unlocked phone!",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "d218873ad7c9_0",
+      "doc_id": "d218873ad7c9",
+      "text": "NOT VERIZON COMPATIBLE. Despite all the reviews saying that this device is fully unlocked and compatible with any phone carrier, it is wrong. It is not compatible with Verizon so don't let them scheme you as they did me.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "32d515928b8d_0",
+      "doc_id": "32d515928b8d",
+      "text": "Not what it said. Phone was advertised to be unlocked, however when trying to get it activated with carrier it was not unlocked. Stuck with phone that we can’t use",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "791cda528381_0",
+      "doc_id": "791cda528381",
+      "text": "LOCKED CARRIERS! LOCKED CARRIERS! ALL LOCKED CARRIER FROM THIS SELLER!. THE PRODUCT DOES NOT WORK BECAUSE THE SELLER IS A SCAM. NONE OF THE PHONES THAT SAY \"UNLOCKED, OR UNLOCKED FOR ALL CARRIERS\" IS TRUE WITH THIS SELLER. AND YOU WILL HAVE TO TAKE IT TO WHOEVER IT IS LOCKED WITH AND PAY THEM DEARLY TO GET THE PHONE RELEASED.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "598b5307b63b_0",
+      "doc_id": "598b5307b63b",
+      "text": "I feel like I wasted my time buying this phone. The phone is running hot and it suppose to be a all carrier unlock phone and I still had to spend more money to get an activation kit because my sim isn’t compatible with this phone smh",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    },
+    {
+      "chunk_id": "c01119df0ffe_1",
+      "doc_id": "c01119df0ffe",
+      "text": "I’m not sure the relevance of this either as there is a tracking number on the return label. I respectfully asked for a $20 credit as I would now have to pay two activation fees with my carrier (which actually turned out to be three fees as I needed to reactivate my old phone while waiting for the replacement to come in which equals out to $40 extra I should not be shelling out). I was told they don’t know what an activation fee is, that their phones are all unlocked, and to send proof of the activation fee and they would research it and make a decision. I’m not sure what planet these people are from but it’s definitely not here... Do better.",
+      "brand": "Apple",
+      "model": "iPhone XR",
+      "source_url": "https://www.amazon.com/dp/B08L97BW9J"
+    }
+  ],
+  "contexts": [
+    "The ad says phones are unlocked but that is not true. Upon receiving the phones, i brought them to my carrier(Verizon) and told when i put my sim card in new phone it says \"activation required\" Verizon says its only 1/2 unlocked, the phones are still locked to Boost Mobile. and with that being the case i was deceived into buying \"unlocked\" phones and certainly they are still locked to Boost Mobile. i even went to an authorized Apple dealer and told that these phones were still locked. I have been texting Synergy many times but all they do is ask me the same question \"what does the phone say when you insert your old sim card?\" I have told Synergy three times the same answer which is \"activation required' I still have 2 phones that are locked. Synergy has said nothing else.",
+    "Activation issues, works now. Updated*** Arrived early, well packaged, no external issues, only a few very light scratches on front screen, none on back. Problem was with activation. Advertised as an unlocked for any carrier. However T-Mobile/sprint unable to activate this unlocked phone. The IMEI # was for a prepaid phone, so unable to use. Wall plug and cord worked! Waiting on a replacement to arrive. Refund issued, got unlocked replacement and same issue, unable to activate, returned and got a refund, bought another coral colored this time locked for T-Mobile/Sprint. Arrived early, great condition with a screen protector installed. Works great, no complaints. So after all the fiasco, unlocked phones will not work for T-Mobile/Sprint, locked ones to them will.",
+    "Feedback. iPhone said it was unlocked. When I tried to get the iPhone set up it kept asking for an activation code. Called my phone carrier and was told that the iPhone was not unlocked per the imei and said the phone was accountable to another phone carrier. Didn’t want to reach out to the other phone carrier to try and unlock a phone that was listed as unlocked. Ended up returning the phone.",
+    "NOT unlocked as advertised. Bought the Unlocked version but when we tried to activate on Verizon, it came back as not compatible. Obviously it was not checked or flashed prior to sending out... Verizon support said there was nothing they could do. Then Spent 3 days to get an answer from seller only to learn it would have to be returned, a big inconvenience. The phone itself was in good and packaged well.",
+    "Carrier problems. We recently went to our carrier (metro/T-Mobile) to activate the phone . Once we got home I tried started downloading my normal apps and tried to access them and was unable to unless the phone was connected to WIFI. I took it back to the phone store where they informed me it was locked onto a Sprint carrier . We tried going through the settings, factory reset, taking them off the towers and putting them back on and replacing a SIM card. All which went unsuccessful. I am very upset that this phone was sold under false pretenses of being an unlocked phone!",
+    "NOT VERIZON COMPATIBLE. Despite all the reviews saying that this device is fully unlocked and compatible with any phone carrier, it is wrong. It is not compatible with Verizon so don't let them scheme you as they did me.",
+    "Not what it said. Phone was advertised to be unlocked, however when trying to get it activated with carrier it was not unlocked. Stuck with phone that we can’t use",
+    "LOCKED CARRIERS! LOCKED CARRIERS! ALL LOCKED CARRIER FROM THIS SELLER!. THE PRODUCT DOES NOT WORK BECAUSE THE SELLER IS A SCAM. NONE OF THE PHONES THAT SAY \"UNLOCKED, OR UNLOCKED FOR ALL CARRIERS\" IS TRUE WITH THIS SELLER. AND YOU WILL HAVE TO TAKE IT TO WHOEVER IT IS LOCKED WITH AND PAY THEM DEARLY TO GET THE PHONE RELEASED.",
+    "I feel like I wasted my time buying this phone. The phone is running hot and it suppose to be a all carrier unlock phone and I still had to spend more money to get an activation kit because my sim isn’t compatible with this phone smh",
+    "I’m not sure the relevance of this either as there is a tracking number on the return label. I respectfully asked for a $20 credit as I would now have to pay two activation fees with my carrier (which actually turned out to be three fees as I needed to reactivate my old phone while waiting for the replacement to come in which equals out to $40 extra I should not be shelling out). I was told they don’t know what an activation fee is, that their phones are all unlocked, and to send proof of the activation fee and they would research it and make a decision. I’m not sure what planet these people are from but it’s definitely not here... Do better."
+  ],
+  "timing": {
+    "classification_s": 3.5474094999954104,
+    "generation_s": 1.8645057999965502,
+    "verification_s": 5.375132499997562,
+    "total_s": 10.787064099997224
+  },
+  "api": {
+    "api_calls": 4,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1783,
+        "completion_tokens": 775,
+        "total_tokens": 2558,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "prompt_cache_hit_tokens": 1536,
+        "prompt_cache_miss_tokens": 247
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1659,
+        "completion_tokens": 289,
+        "total_tokens": 1948,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 251
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1591,
+        "completion_tokens": 538,
+        "total_tokens": 2129,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1463
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1631,
+        "completion_tokens": 566,
+        "total_tokens": 2197,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 223
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

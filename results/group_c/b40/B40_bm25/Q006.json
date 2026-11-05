@@ -1,0 +1,466 @@
+{
+  "question": "How well does the Samsung Galaxy S20 FE take photos according to owners?",
+  "answer": "One reviewer described the Galaxy S20 FE as by far the best phone they have ever had and said it takes great photos. [f11730a7b247_0]\nAnother reviewer said the renewed Galaxy S20 FE takes pictures that are clear and bright. [cfe336b9e8d0_0]\nA reviewer called the S20 FE an amazing phone and camera. [8deadfb07099_0]\nOne owner said the camera quality is awesome. [948c162b0427_0]\nA reviewer said the camera seems decent. [d2008c439931_0]\nAnother reviewer reported great photos along with lots of space and excellent quality at an affordable price. [4d4238175518_0]",
+  "draft_answer": "One reviewer described the Galaxy S20 FE as by far the best phone they have ever had and said it takes great photos. [f11730a7b247_0]\nAnother reviewer said the renewed Galaxy S20 FE takes pictures that are clear and bright. [cfe336b9e8d0_0]\nA reviewer called the S20 FE an amazing phone and camera. [8deadfb07099_0]\nOne owner said the camera quality is awesome. [948c162b0427_0]\nA reviewer said the camera seems decent. [d2008c439931_0]\nAnother reviewer reported great photos along with lots of space and excellent quality at an affordable price. [4d4238175518_0]",
+  "sentences": [
+    {
+      "text": "One reviewer described the Galaxy S20 FE as by far the best phone they have ever had and said it takes great photos.",
+      "citations": [
+        "f11730a7b247_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said the renewed Galaxy S20 FE takes pictures that are clear and bright.",
+      "citations": [
+        "cfe336b9e8d0_0"
+      ]
+    },
+    {
+      "text": "A reviewer called the S20 FE an amazing phone and camera.",
+      "citations": [
+        "8deadfb07099_0"
+      ]
+    },
+    {
+      "text": "One owner said the camera quality is awesome.",
+      "citations": [
+        "948c162b0427_0"
+      ]
+    },
+    {
+      "text": "A reviewer said the camera seems decent.",
+      "citations": [
+        "d2008c439931_0"
+      ]
+    },
+    {
+      "text": "Another reviewer reported great photos along with lots of space and excellent quality at an affordable price.",
+      "citations": [
+        "4d4238175518_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer described the Galaxy S20 FE as by far the best phone they have ever had and said it takes great photos.",
+      "citations": [
+        "f11730a7b247_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the renewed Galaxy S20 FE takes pictures that are clear and bright.",
+      "citations": [
+        "cfe336b9e8d0_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer called the S20 FE an amazing phone and camera.",
+      "citations": [
+        "8deadfb07099_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One owner said the camera quality is awesome.",
+      "citations": [
+        "948c162b0427_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer said the camera seems decent.",
+      "citations": [
+        "d2008c439931_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reported great photos along with lots of space and excellent quality at an affordable price.",
+      "citations": [
+        "4d4238175518_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer described the Galaxy S20 FE as by far the best phone they have ever had and said it takes great photos.",
+      "citations": [
+        "f11730a7b247_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the renewed Galaxy S20 FE takes pictures that are clear and bright.",
+      "citations": [
+        "cfe336b9e8d0_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer called the S20 FE an amazing phone and camera.",
+      "citations": [
+        "8deadfb07099_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One owner said the camera quality is awesome.",
+      "citations": [
+        "948c162b0427_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer said the camera seems decent.",
+      "citations": [
+        "d2008c439931_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reported great photos along with lots of space and excellent quality at an affordable price.",
+      "citations": [
+        "4d4238175518_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "f11730a7b247_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Great photos"
+      ],
+      "reason": "Explicit praise of the phone's photos.",
+      "doc_id": "f11730a7b247",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "cfe336b9e8d0_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "takes pictures clear and bright"
+      ],
+      "reason": "Positive opinion on picture quality.",
+      "doc_id": "cfe336b9e8d0",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "4ecd2f77b469_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Only battery life discussed, no camera mention.",
+      "doc_id": "4ecd2f77b469",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "8deadfb07099_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "amazing phone and camera"
+      ],
+      "reason": "Camera explicitly praised as amazing.",
+      "doc_id": "8deadfb07099",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "948c162b0427_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "camera quality is awesome"
+      ],
+      "reason": "Direct praise of camera quality.",
+      "doc_id": "948c162b0427",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "e6dcf580e0f8_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "'Photos' refers to transferring, not camera quality.",
+      "doc_id": "e6dcf580e0f8",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "d2008c439931_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Camera seems decent"
+      ],
+      "reason": "Mild positive opinion on camera.",
+      "doc_id": "d2008c439931",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "b2f20f477c6e_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "General praise, no camera mention.",
+      "doc_id": "b2f20f477c6e",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "4d4238175518_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Great photos"
+      ],
+      "reason": "Explicit praise of photos.",
+      "doc_id": "4d4238175518",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "aaa0f59c7280_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "Generic statement, no camera mention.",
+      "doc_id": "aaa0f59c7280",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 6,
+      "n_excluded_aspect_absent": 4,
+      "counts": {
+        "positive": 6,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 1.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 6
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "f11730a7b247_0",
+      "doc_id": "f11730a7b247",
+      "text": "Galaxy S20 FE. By far the best phone we've ever had. Great photos. I doubt I'll ever figure out how to use it to it's full capabilities. Thanks Samsung.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "cfe336b9e8d0_0",
+      "doc_id": "cfe336b9e8d0",
+      "text": "Samsung Galaxy S20 FE. This is such a good renewed phone. No visible scratches and it looks brand new. It's very fast and takes pictures clear and bright.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09HGHDV9L"
+    },
+    {
+      "chunk_id": "4ecd2f77b469_0",
+      "doc_id": "4ecd2f77b469",
+      "text": "Excellent phone SAMSUNG Galaxy S20 FE 5G. The phone has a long battery life which what I was I wanted,",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "8deadfb07099_0",
+      "doc_id": "8deadfb07099",
+      "text": "Samsung S20 FE. The S20-FE is an amazing phone and camera, I love my S7 which is a keeper and this S20 is so many levels more impressive.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B094RG8YDS"
+    },
+    {
+      "chunk_id": "948c162b0427_0",
+      "doc_id": "948c162b0427",
+      "text": "LOVING IT..... I'm Loving my new Samsung Galaxy S20 FE Phone. Great features and the camera quality is awesome...",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B08KZ9Y5C7"
+    },
+    {
+      "chunk_id": "e6dcf580e0f8_0",
+      "doc_id": "e6dcf580e0f8",
+      "text": "Photos. So far I am enjoying the Samsung Galaxy 20 FE. Very pleased.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "d2008c439931_0",
+      "doc_id": "d2008c439931",
+      "text": "So happy with my S20. I had a Galaxy S8 and this was so incredibly easy and quick to wirelessly transfer my contacts files and photos over to the S20 FE. No scratches or dents, brand new. Camera seems decent. So far so good.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "b2f20f477c6e_0",
+      "doc_id": "b2f20f477c6e",
+      "text": "Samsung s20 fe. It is simply great!",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "4d4238175518_0",
+      "doc_id": "4d4238175518",
+      "text": "Excellent cell phone, good price. My wife is very happy with her new Samsung Galaxy S20 FE 5G. Great photos, lots of space, excellent quality at an affordable price. The speakers are very strong, I suggest to lower it a little before your phone rings.",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B09PPWVQSB"
+    },
+    {
+      "chunk_id": "aaa0f59c7280_0",
+      "doc_id": "aaa0f59c7280",
+      "text": "Samsung S20 FE. Product performs as promis3d",
+      "brand": "Samsung",
+      "model": "Galaxy S20 FE",
+      "source_url": "https://www.amazon.com/dp/B08Y7YRMBZ"
+    }
+  ],
+  "contexts": [
+    "Galaxy S20 FE. By far the best phone we've ever had. Great photos. I doubt I'll ever figure out how to use it to it's full capabilities. Thanks Samsung.",
+    "Samsung Galaxy S20 FE. This is such a good renewed phone. No visible scratches and it looks brand new. It's very fast and takes pictures clear and bright.",
+    "Excellent phone SAMSUNG Galaxy S20 FE 5G. The phone has a long battery life which what I was I wanted,",
+    "Samsung S20 FE. The S20-FE is an amazing phone and camera, I love my S7 which is a keeper and this S20 is so many levels more impressive.",
+    "LOVING IT..... I'm Loving my new Samsung Galaxy S20 FE Phone. Great features and the camera quality is awesome...",
+    "Photos. So far I am enjoying the Samsung Galaxy 20 FE. Very pleased.",
+    "So happy with my S20. I had a Galaxy S8 and this was so incredibly easy and quick to wirelessly transfer my contacts files and photos over to the S20 FE. No scratches or dents, brand new. Camera seems decent. So far so good.",
+    "Samsung s20 fe. It is simply great!",
+    "Excellent cell phone, good price. My wife is very happy with her new Samsung Galaxy S20 FE 5G. Great photos, lots of space, excellent quality at an affordable price. The speakers are very strong, I suggest to lower it a little before your phone rings.",
+    "Samsung S20 FE. Product performs as promis3d"
+  ],
+  "timing": {
+    "classification_s": 2.4720397999990382,
+    "generation_s": 1.4885034000035375,
+    "verification_s": 6.499998562503606e-06,
+    "total_s": 3.960560400002578
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1112,
+        "completion_tokens": 511,
+        "total_tokens": 1623,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 856
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 987,
+        "completion_tokens": 201,
+        "total_tokens": 1188,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 987
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}
