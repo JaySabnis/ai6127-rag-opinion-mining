@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_dense/Q024.json",
+  "source_sha256": "6b3e7a981d3d52590e893f3fcbeb250a8e176e4856a16c5e61110d91a94871a5",
+  "question": "What do Samsung Galaxy S5 reviewers report about speed, lag, and freezing?",
+  "statistics_before": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 4,
+        "negative": 6,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.4,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.4,
+      "polarized_denominator": 10
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S5",
+      "aspect": "performance",
+      "product_id": "phone-v1:1e49186f9c50a12593a81a99673f721c7a17f0fb9eff0f56fa711963910d7a80",
+      "canonical_model": null,
+      "model_aliases": [
+        "Galaxy S5"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 4,
+        "negative": 6,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.4,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.4,
+      "polarized_denominator": 10
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_learned/Q039.json",
+  "source_sha256": "a3192cb78d85332377ba5eef8187ce916d72ef043608d01ea8c0847a61112609",
+  "question": "How does user feedback on camera quality compare between the Google Pixel 4a and the Essential PH-1?",
+  "statistics_before": [
+    {
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 2,
+        "negative": 3,
+        "mixed": 4,
+        "neutral": 1
+      },
+      "positive_ratio": 0.2,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.4,
+      "polarized_denominator": 5
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera",
+      "product_id": "phone-v1:0f55b5847ebeeb0b8adb171d10ad9463d7ca6bef0e3fc79210467c1ed623055a",
+      "canonical_model": null,
+      "model_aliases": [
+        "Ph-1"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 2,
+        "negative": 3,
+        "mixed": 4,
+        "neutral": 1
+      },
+      "positive_ratio": 0.2,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.4,
+      "polarized_denominator": 5
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

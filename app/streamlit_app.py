@@ -1,10 +1,10 @@
 """Chat interface for query rewrite, reranking, and review-chunk inspection.
 
-Input : user questions and sample/uploaded candidate chunks
-Output: rewritten query, extracted products/aspects, and expandable evidence
+Input : user questions, with full-corpus or sample/uploaded candidate search
+Output: retrieved evidence and optional API sentiment, summary and checks
 
-Each new question runs rewrite -> rerank once. Saved replies are displayed from
-session history; full-corpus retrieval and answer generation are not connected.
+Each new question runs its selected stages once. Saved replies are displayed
+from session history without repeating retrieval or API requests.
 """
 
 import json

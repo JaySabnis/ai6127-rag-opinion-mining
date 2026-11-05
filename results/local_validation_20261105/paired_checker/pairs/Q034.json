@@ -1,0 +1,607 @@
+{
+  "query_id": "Q034",
+  "identity_sha256": "e54e392eff593671a85cbb98d6b81e92e65d37232822ce8e988e1ec2c38b1ed7",
+  "input_sha256": "72dcdcf94b597ba5c48cbbe12a6fedc4ab8f3f3cfaa8c16fd08ab9e43e36a6ba",
+  "core_sha256": "8cca3cef73d3161932bf21a745e04f2b6db08a5a47e3805801ad40c73ff470c9",
+  "frozen": {
+    "question": "What carrier, SIM, or mobile-network compatibility issues do Moto G7 users describe?",
+    "chunks": [
+      {
+        "chunk_id": "d96aee7eaabd_0",
+        "doc_id": "d96aee7eaabd",
+        "text": "Inexpensive global phone that might work on T-Mobile or AT&T. Wonderful budget phone that might work for you if you can read the description! This is a GSM global phone. In basic English this means it will work for GSM carriers like T-Mobile and AT&T IF the towers in your area have the correct bands. From a Whistle Out article (* denotes carrier's main band; phone must be compatible with at least one main band to work on network sad Carrier AT&T: 2, 4, 5, 12*, 14, 17*, 29, 30, 66 T-Mobile: 2*, 4*, 5, 12*, 66, 71* What about budget phone carriers; MVNOs (mobile virtual network operators) like Boost and Straight Talk? They might work IF you pick a service that utilizes GSM AT&T or T-Mobile and has service in your area. Straight Talk includes SIM chips for all the networks.",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "source_url": "https://www.amazon.com/dp/B07PZZLR4D"
+      },
+      {
+        "chunk_id": "10d9a1abd787_1",
+        "doc_id": "10d9a1abd787",
+        "text": "Comes with a see through case that I plan to look for something a little sturdier/better looking. One negative is that the phone feels light for it's size and I would not want to drop it. Carrier compatibility: This phone works on Google Fi which is the most important thing for me. I live in a midsized city with good 4G coverage and so far my calls have been crystal clear and no connection issues. Previous phones and carriers have had issues with reception in my home (sound dropping out, calls dropping) and so far no issues. I have noticed that I get pushed over to HSPDA/3g for calls but that is fine for me. I generally use wifi for everything so it's not really an issue.",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "source_url": "https://www.amazon.com/dp/B07RK4XYDF"
+      },
+      {
+        "chunk_id": "5d7f8b77d7f4_0",
+        "doc_id": "5d7f8b77d7f4",
+        "text": "Incompatible with T-Mobile - proof included - Moto G7 Plus (International version). See the screenshot for proof. This seems to be a great phone with one HUGE problem: it is not fully compatible with US carriers (T-Mobile in particular). Some of the calls will go directly to voicemail after long silence, and there is nothing you can do. For the calls that DO get through, network type instantly changes from LTE to 3G or even \"H\" (which is 2G) for the duration of the call. Bottom line: this is the international version, and it cannot reliably receive phone calls in the US. Huge disappointment. I will try a Moto G7 (not Plus, US version) and see if it is any better.",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "source_url": "https://www.amazon.com/dp/B07RK4XYDF"
+      },
+      {
+        "chunk_id": "d14d79450f3f_1",
+        "doc_id": "d14d79450f3f",
+        "text": "I checked the IMEI #s on each carrier's website (they have Moto G7 listed as a compatible device) and it comes back as incompatible on every carrier I've tried (even the ones that allow you to purchase Moto G 7 on their site i.e. mint mobile). The customer service reps also checked the IMEI #s for the phone I just purchased and said that the device is not compatible with their networks. Save yourself the trouble and buy the US Unlocked version of the Moto G7 Power. Roughly the same exact phone, a few more $ and is compatible with the carriers listed in the title/descriptions. I tried Cricket wireless, Mint Mobile and also T-mobile directly for anyone curious. I hope this helps save someone the time and frustration.",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "source_url": "https://www.amazon.com/dp/B07Q4J5GF1"
+      },
+      {
+        "chunk_id": "4361e84bdbec_0",
+        "doc_id": "4361e84bdbec",
+        "text": "T-mobile issues. First off, I'd like to say this is a PREMIUM phone and I liked it for the time I had it. But from day 1 it has been a hassle with getting it to work with T-mobile. Had to call a rep to help me guide to get my network back working and to send SMS and MMS. After getting it to work after 40 mins later on a chat with a rep. The next day I could not receive or send MMS, fixed it then the next day the same issue. Its just a hassle I don't feel i should go through all this. So I'm requesting a refund. Once again, loved the phone and some of its features. Coming from a note 8 it was not a down grade. Giving it 4 out 5 stars only because of the network issues I had with it.",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "source_url": "https://www.amazon.com/dp/B07N92347B"
+      },
+      {
+        "chunk_id": "7236deb2d909_0",
+        "doc_id": "7236deb2d909",
+        "text": "Great phone, not completely compatible, NO MOBILE DATA!!!. Text & calls work fine though. Found out, after the fact, that this is an ongoing issue between Android 9 & Sprint. I've been in some forums with others having issues with other carriers as well. Currently have an investigation open with Tello/Sprint. Will follow up with the fix if it ever happens.",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "source_url": "https://www.amazon.com/dp/B07N8ZTKHX"
+      },
+      {
+        "chunk_id": "53a74e87465b_1",
+        "doc_id": "53a74e87465b",
+        "text": "If you are on Boost Mobile, there may be an issue activating your phone. I was on the phone for two days to Boost Mobile and Motorola and both have advised me that there is an issue activating the phone on the Boost network. Boost needs to have the IMEI in their system, and it took three days for the problem to be resolved. Also Boost Mobile said they would have to send me a sim card that was compatible. None of the Boost Mobile sim card kits I found had the proper card, not even their own stores So if you don't want to wait for them to send you a card, go to Best Buy and get a Sprint bring your own phone sim card kit with part number SIMOLW516TQ.",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "source_url": "https://www.amazon.com/dp/B07N92347B"
+      },
+      {
+        "chunk_id": "7b41ff8d50a5_0",
+        "doc_id": "7b41ff8d50a5",
+        "text": "Poor reception not due to carrier.. I like the user interface and it's got good hardware for the most part. The antenna is just really bad. I have a work phone (iPhone 7) and use the Motorola when not using the iPhone. Verizon is the carrier for both. The Motorola has a decidedly unstable connection, often not working in places the iPhone has no problem. Even in the middle of the city, I often can't load pictures on websites. It's just useable enough to where I'd feel wasteful buying a replacement. Absolutely frustrating purchase.",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "source_url": "https://www.amazon.com/dp/B0887GDHH5"
+      },
+      {
+        "chunk_id": "f986fb38cda5_0",
+        "doc_id": "f986fb38cda5",
+        "text": "Not compatible with T-Mobile. This phone is advertised as being compatible with T-Mobile, but it is not: T-Mobile said that the phone I received is incompatible and cannot be used on their network. I purchased it directly from Amazon.",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "source_url": "https://www.amazon.com/dp/B07Q4J5GF1"
+      },
+      {
+        "chunk_id": "779835b1796d_0",
+        "doc_id": "779835b1796d",
+        "text": "NOT compatible with AT&T, T-Mobile, or Google Fi (soon). This phone is not compatible with VoLTE on any You.S. carrier, AFAICT. This will means that voice calls will stop working when those carriers turn off their 3G networks in early 2022.",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "source_url": "https://www.amazon.com/dp/B07Q4J5GF1"
+      }
+    ],
+    "sentences": [
+      {
+        "text": "One reviewer describes the Moto G7 as a GSM global phone that will work for GSM carriers like T-Mobile and AT&T only if the towers in the area have the correct bands.",
+        "citations": [
+          "d96aee7eaabd_0"
+        ]
+      },
+      {
+        "text": "One reviewer reports that the phone works on Google Fi with crystal-clear calls and no connection issues, though calls get pushed to HSPDA/3G.",
+        "citations": [
+          "10d9a1abd787_1"
+        ]
+      },
+      {
+        "text": "A reviewer of the Moto G7 Plus international version reports it is not fully compatible with US carriers, particularly T-Mobile, with some calls going straight to voicemail and network type dropping from LTE to 3G or 2G during calls.",
+        "citations": [
+          "5d7f8b77d7f4_0"
+        ]
+      },
+      {
+        "text": "One reviewer reports that IMEI checks came back as incompatible on every carrier tried, including Cricket Wireless, Mint Mobile, and T-Mobile directly.",
+        "citations": [
+          "d14d79450f3f_1"
+        ]
+      },
+      {
+        "text": "One reviewer describes ongoing T-Mobile hassles with SMS and MMS not working and needing rep assistance to restore the network.",
+        "citations": [
+          "4361e84bdbec_0"
+        ]
+      },
+      {
+        "text": "Reviewers also describe activation problems on Boost Mobile requiring a compatible SIM card and a reported lack of mobile data tied to an Android 9 and Sprint issue.",
+        "citations": [
+          "53a74e87465b_1",
+          "7236deb2d909_0"
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "chunk_id": "d96aee7eaabd_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "mixed",
+        "evidence_quotes": [
+          "might work on T-Mobile or AT&T",
+          "it will work for GSM carriers like T-Mobile and AT&T IF the towers in your area have the correct bands",
+          "They might work IF you pick a service that utilizes GSM AT&T or T-Mobile"
+        ],
+        "reason": "Conditional compatibility with carriers; works only if bands match, so mixed/uncertain.",
+        "doc_id": "d96aee7eaabd",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "aspect": "carrier"
+      },
+      {
+        "chunk_id": "10d9a1abd787_1",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "This phone works on Google Fi which is the most important thing for me",
+          "so far my calls have been crystal clear and no connection issues",
+          "so far no issues"
+        ],
+        "reason": "Positive carrier compatibility and reception on Google Fi.",
+        "doc_id": "10d9a1abd787",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "aspect": "carrier"
+      },
+      {
+        "chunk_id": "5d7f8b77d7f4_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "it is not fully compatible with US carriers (T-Mobile in particular)",
+          "it cannot reliably receive phone calls in the US",
+          "Huge disappointment"
+        ],
+        "reason": "Criticizes carrier incompatibility with T-Mobile/US networks.",
+        "doc_id": "5d7f8b77d7f4",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "aspect": "carrier"
+      },
+      {
+        "chunk_id": "d14d79450f3f_1",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "it comes back as incompatible on every carrier I've tried",
+          "the device is not compatible with their networks",
+          "Save yourself the trouble"
+        ],
+        "reason": "Negative carrier compatibility across multiple carriers.",
+        "doc_id": "d14d79450f3f",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "aspect": "carrier"
+      },
+      {
+        "chunk_id": "4361e84bdbec_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "it has been a hassle with getting it to work with T-mobile",
+          "Its just a hassle I don't feel i should go through all this",
+          "only because of the network issues I had with it"
+        ],
+        "reason": "Carrier/T-Mobile network issues cause negative sentiment despite liking phone.",
+        "doc_id": "4361e84bdbec",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "aspect": "carrier"
+      },
+      {
+        "chunk_id": "7236deb2d909_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "not completely compatible, NO MOBILE DATA!!!",
+          "ongoing issue between Android 9 & Sprint",
+          "others having issues with other carriers as well"
+        ],
+        "reason": "Carrier compatibility issues, no mobile data on Sprint.",
+        "doc_id": "7236deb2d909",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "aspect": "carrier"
+      },
+      {
+        "chunk_id": "53a74e87465b_1",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "there may be an issue activating your phone",
+          "there is an issue activating the phone on the Boost network",
+          "took three days for the problem to be resolved"
+        ],
+        "reason": "Activation problems with Boost Mobile carrier.",
+        "doc_id": "53a74e87465b",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "aspect": "carrier"
+      },
+      {
+        "chunk_id": "7b41ff8d50a5_0",
+        "aspect_present": true,
+        "subjectivity": "neutral",
+        "label": "neutral",
+        "evidence_quotes": [
+          "Poor reception not due to carrier",
+          "Verizon is the carrier for both"
+        ],
+        "reason": "Carrier mentioned only as context; blame placed on antenna, not carrier.",
+        "doc_id": "7b41ff8d50a5",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "aspect": "carrier"
+      },
+      {
+        "chunk_id": "f986fb38cda5_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "Not compatible with T-Mobile",
+          "the phone I received is incompatible and cannot be used on their network"
+        ],
+        "reason": "Negative carrier incompatibility with T-Mobile.",
+        "doc_id": "f986fb38cda5",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "aspect": "carrier"
+      },
+      {
+        "chunk_id": "779835b1796d_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "NOT compatible with AT&T, T-Mobile, or Google Fi",
+          "not compatible with VoLTE on any You.S. carrier",
+          "voice calls will stop working"
+        ],
+        "reason": "Negative carrier compatibility and future VoLTE concerns.",
+        "doc_id": "779835b1796d",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "aspect": "carrier"
+      }
+    ],
+    "statistics": [
+      {
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "aspect": "carrier",
+        "scope": "retrieved_sample",
+        "count_unit": "unique_doc_id",
+        "n_relevant_reviews": 10,
+        "n_excluded_aspect_absent": 0,
+        "counts": {
+          "positive": 1,
+          "negative": 7,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "positive_ratio": 0.1,
+        "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+        "polarized_positive_ratio": 0.125,
+        "polarized_denominator": 8
+      }
+    ],
+    "draft_answer": "One reviewer describes the Moto G7 as a GSM global phone that will work for GSM carriers like T-Mobile and AT&T only if the towers in the area have the correct bands. [d96aee7eaabd_0]\nOne reviewer reports that the phone works on Google Fi with crystal-clear calls and no connection issues, though calls get pushed to HSPDA/3G. [10d9a1abd787_1]\nA reviewer of the Moto G7 Plus international version reports it is not fully compatible with US carriers, particularly T-Mobile, with some calls going straight to voicemail and network type dropping from LTE to 3G or 2G during calls. [5d7f8b77d7f4_0]\nOne reviewer reports that IMEI checks came back as incompatible on every carrier tried, including Cricket Wireless, Mint Mobile, and T-Mobile directly. [d14d79450f3f_1]\nOne reviewer describes ongoing T-Mobile hassles with SMS and MMS not working and needing rep assistance to restore the network. [4361e84bdbec_0]\nReviewers also describe activation problems on Boost Mobile requiring a compatible SIM card and a reported lack of mobile data tied to an Android 9 and Sprint issue. [53a74e87465b_1] [7236deb2d909_0]"
+  },
+  "off": {
+    "status": "not_checked",
+    "verification_enabled": false,
+    "answer": "One reviewer describes the Moto G7 as a GSM global phone that will work for GSM carriers like T-Mobile and AT&T only if the towers in the area have the correct bands. [d96aee7eaabd_0]\nOne reviewer reports that the phone works on Google Fi with crystal-clear calls and no connection issues, though calls get pushed to HSPDA/3G. [10d9a1abd787_1]\nA reviewer of the Moto G7 Plus international version reports it is not fully compatible with US carriers, particularly T-Mobile, with some calls going straight to voicemail and network type dropping from LTE to 3G or 2G during calls. [5d7f8b77d7f4_0]\nOne reviewer reports that IMEI checks came back as incompatible on every carrier tried, including Cricket Wireless, Mint Mobile, and T-Mobile directly. [d14d79450f3f_1]\nOne reviewer describes ongoing T-Mobile hassles with SMS and MMS not working and needing rep assistance to restore the network. [4361e84bdbec_0]\nReviewers also describe activation problems on Boost Mobile requiring a compatible SIM card and a reported lack of mobile data tied to an Android 9 and Sprint issue. [53a74e87465b_1] [7236deb2d909_0]",
+    "abstained": false
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "completed",
+      "started_at": "2026-11-05T10:56:17.719833+00:00",
+      "checker_elapsed_s": 3.4692988749593496,
+      "finished_at": "2026-11-05T10:56:21.189781+00:00",
+      "api": {
+        "api_calls": 1,
+        "cache_hits": 0,
+        "usage": [
+          {
+            "model": "deepseek-flash",
+            "prompt_tokens": 2104,
+            "completion_tokens": 833,
+            "total_tokens": 2937,
+            "prompt_tokens_details": {
+              "cached_tokens": 1920
+            },
+            "prompt_cache_hit_tokens": 1920,
+            "prompt_cache_miss_tokens": 184
+          }
+        ],
+        "prompt_tokens": 2104,
+        "cached_prompt_tokens": 1920,
+        "completion_tokens": 833,
+        "total_tokens": 2937,
+        "requests_without_usage": 0,
+        "estimated_cost": null,
+        "currency": null,
+        "cost_scope": "estimate_for_recorded_usage_only; requests_without_usage_may_have_unknown_cost",
+        "pricing": null
+      }
+    }
+  ],
+  "status": "completed",
+  "new": {
+    "status": "completed",
+    "verification_enabled": true,
+    "checks": [
+      {
+        "sentence_id": "s0",
+        "text": "One reviewer describes the Moto G7 as a GSM global phone that will work for GSM carriers like T-Mobile and AT&T only if the towers in the area have the correct bands.",
+        "citations": [
+          "d96aee7eaabd_0"
+        ],
+        "status": "supported",
+        "reason": "The cited review states it is a GSM global phone that will work for GSM carriers like T-Mobile and AT&T only if towers in the area have the correct bands, matching the claim.",
+        "evidence": [
+          {
+            "chunk_id": "d96aee7eaabd_0",
+            "quote": "This is a GSM global phone. In basic English this means it will work for GSM carriers like T-Mobile and AT&T IF the towers in your area have the correct bands."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s1",
+        "text": "One reviewer reports that the phone works on Google Fi with crystal-clear calls and no connection issues, though calls get pushed to HSPDA/3G.",
+        "citations": [
+          "10d9a1abd787_1"
+        ],
+        "status": "supported",
+        "reason": "The review reports the phone works on Google Fi, calls crystal clear with no connection issues, and that calls get pushed to HSPDA/3G.",
+        "evidence": [
+          {
+            "chunk_id": "10d9a1abd787_1",
+            "quote": "This phone works on Google Fi which is the most important thing for me. I live in a midsized city with good 4G coverage and so far my calls have been crystal clear and no connection issues."
+          },
+          {
+            "chunk_id": "10d9a1abd787_1",
+            "quote": "I have noticed that I get pushed over to HSPDA/3g for calls but that is fine for me."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s2",
+        "text": "A reviewer of the Moto G7 Plus international version reports it is not fully compatible with US carriers, particularly T-Mobile, with some calls going straight to voicemail and network type dropping from LTE to 3G or 2G during calls.",
+        "citations": [
+          "5d7f8b77d7f4_0"
+        ],
+        "status": "supported",
+        "reason": "The review of the Moto G7 Plus international version states it is not fully compatible with US carriers (T-Mobile in particular), some calls go to voicemail, and network type changes from LTE to 3G or 2G during calls.",
+        "evidence": [
+          {
+            "chunk_id": "5d7f8b77d7f4_0",
+            "quote": "it is not fully compatible with US carriers (T-Mobile in particular). Some of the calls will go directly to voicemail after long silence"
+          },
+          {
+            "chunk_id": "5d7f8b77d7f4_0",
+            "quote": "network type instantly changes from LTE to 3G or even \"H\" (which is 2G) for the duration of the call."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s3",
+        "text": "One reviewer reports that IMEI checks came back as incompatible on every carrier tried, including Cricket Wireless, Mint Mobile, and T-Mobile directly.",
+        "citations": [
+          "d14d79450f3f_1"
+        ],
+        "status": "supported",
+        "reason": "The review states IMEI checks came back incompatible on every carrier tried, and lists Cricket Wireless, Mint Mobile, and T-Mobile directly.",
+        "evidence": [
+          {
+            "chunk_id": "d14d79450f3f_1",
+            "quote": "it comes back as incompatible on every carrier I've tried"
+          },
+          {
+            "chunk_id": "d14d79450f3f_1",
+            "quote": "I tried Cricket wireless, Mint Mobile and also T-mobile directly for anyone curious."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s4",
+        "text": "One reviewer describes ongoing T-Mobile hassles with SMS and MMS not working and needing rep assistance to restore the network.",
+        "citations": [
+          "4361e84bdbec_0"
+        ],
+        "status": "supported",
+        "reason": "The review describes T-Mobile hassles, needing a rep to restore network and send SMS/MMS, and ongoing MMS issues.",
+        "evidence": [
+          {
+            "chunk_id": "4361e84bdbec_0",
+            "quote": "Had to call a rep to help me guide to get my network back working and to send SMS and MMS."
+          },
+          {
+            "chunk_id": "4361e84bdbec_0",
+            "quote": "The next day I could not receive or send MMS, fixed it then the next day the same issue."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s5",
+        "text": "Reviewers also describe activation problems on Boost Mobile requiring a compatible SIM card and a reported lack of mobile data tied to an Android 9 and Sprint issue.",
+        "citations": [
+          "53a74e87465b_1",
+          "7236deb2d909_0"
+        ],
+        "status": "supported",
+        "reason": "One review describes Boost Mobile activation issues requiring a compatible SIM card, and another reports no mobile data tied to an Android 9 and Sprint issue.",
+        "evidence": [
+          {
+            "chunk_id": "53a74e87465b_1",
+            "quote": "If you are on Boost Mobile, there may be an issue activating your phone."
+          },
+          {
+            "chunk_id": "53a74e87465b_1",
+            "quote": "Also Boost Mobile said they would have to send me a sim card that was compatible."
+          },
+          {
+            "chunk_id": "7236deb2d909_0",
+            "quote": "NO MOBILE DATA!!!. Text & calls work fine though. Found out, after the fact, that this is an ongoing issue between Android 9 & Sprint."
+          }
+        ],
+        "flagged": false
+      }
+    ],
+    "retained_sentences": [
+      {
+        "sentence_id": "s0",
+        "text": "One reviewer describes the Moto G7 as a GSM global phone that will work for GSM carriers like T-Mobile and AT&T only if the towers in the area have the correct bands.",
+        "citations": [
+          "d96aee7eaabd_0"
+        ],
+        "status": "supported",
+        "reason": "The cited review states it is a GSM global phone that will work for GSM carriers like T-Mobile and AT&T only if towers in the area have the correct bands, matching the claim.",
+        "evidence": [
+          {
+            "chunk_id": "d96aee7eaabd_0",
+            "quote": "This is a GSM global phone. In basic English this means it will work for GSM carriers like T-Mobile and AT&T IF the towers in your area have the correct bands."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s1",
+        "text": "One reviewer reports that the phone works on Google Fi with crystal-clear calls and no connection issues, though calls get pushed to HSPDA/3G.",
+        "citations": [
+          "10d9a1abd787_1"
+        ],
+        "status": "supported",
+        "reason": "The review reports the phone works on Google Fi, calls crystal clear with no connection issues, and that calls get pushed to HSPDA/3G.",
+        "evidence": [
+          {
+            "chunk_id": "10d9a1abd787_1",
+            "quote": "This phone works on Google Fi which is the most important thing for me. I live in a midsized city with good 4G coverage and so far my calls have been crystal clear and no connection issues."
+          },
+          {
+            "chunk_id": "10d9a1abd787_1",
+            "quote": "I have noticed that I get pushed over to HSPDA/3g for calls but that is fine for me."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s2",
+        "text": "A reviewer of the Moto G7 Plus international version reports it is not fully compatible with US carriers, particularly T-Mobile, with some calls going straight to voicemail and network type dropping from LTE to 3G or 2G during calls.",
+        "citations": [
+          "5d7f8b77d7f4_0"
+        ],
+        "status": "supported",
+        "reason": "The review of the Moto G7 Plus international version states it is not fully compatible with US carriers (T-Mobile in particular), some calls go to voicemail, and network type changes from LTE to 3G or 2G during calls.",
+        "evidence": [
+          {
+            "chunk_id": "5d7f8b77d7f4_0",
+            "quote": "it is not fully compatible with US carriers (T-Mobile in particular). Some of the calls will go directly to voicemail after long silence"
+          },
+          {
+            "chunk_id": "5d7f8b77d7f4_0",
+            "quote": "network type instantly changes from LTE to 3G or even \"H\" (which is 2G) for the duration of the call."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s3",
+        "text": "One reviewer reports that IMEI checks came back as incompatible on every carrier tried, including Cricket Wireless, Mint Mobile, and T-Mobile directly.",
+        "citations": [
+          "d14d79450f3f_1"
+        ],
+        "status": "supported",
+        "reason": "The review states IMEI checks came back incompatible on every carrier tried, and lists Cricket Wireless, Mint Mobile, and T-Mobile directly.",
+        "evidence": [
+          {
+            "chunk_id": "d14d79450f3f_1",
+            "quote": "it comes back as incompatible on every carrier I've tried"
+          },
+          {
+            "chunk_id": "d14d79450f3f_1",
+            "quote": "I tried Cricket wireless, Mint Mobile and also T-mobile directly for anyone curious."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s4",
+        "text": "One reviewer describes ongoing T-Mobile hassles with SMS and MMS not working and needing rep assistance to restore the network.",
+        "citations": [
+          "4361e84bdbec_0"
+        ],
+        "status": "supported",
+        "reason": "The review describes T-Mobile hassles, needing a rep to restore network and send SMS/MMS, and ongoing MMS issues.",
+        "evidence": [
+          {
+            "chunk_id": "4361e84bdbec_0",
+            "quote": "Had to call a rep to help me guide to get my network back working and to send SMS and MMS."
+          },
+          {
+            "chunk_id": "4361e84bdbec_0",
+            "quote": "The next day I could not receive or send MMS, fixed it then the next day the same issue."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s5",
+        "text": "Reviewers also describe activation problems on Boost Mobile requiring a compatible SIM card and a reported lack of mobile data tied to an Android 9 and Sprint issue.",
+        "citations": [
+          "53a74e87465b_1",
+          "7236deb2d909_0"
+        ],
+        "status": "supported",
+        "reason": "One review describes Boost Mobile activation issues requiring a compatible SIM card, and another reports no mobile data tied to an Android 9 and Sprint issue.",
+        "evidence": [
+          {
+            "chunk_id": "53a74e87465b_1",
+            "quote": "If you are on Boost Mobile, there may be an issue activating your phone."
+          },
+          {
+            "chunk_id": "53a74e87465b_1",
+            "quote": "Also Boost Mobile said they would have to send me a sim card that was compatible."
+          },
+          {
+            "chunk_id": "7236deb2d909_0",
+            "quote": "NO MOBILE DATA!!!. Text & calls work fine though. Found out, after the fact, that this is an ongoing issue between Android 9 & Sprint."
+          }
+        ],
+        "flagged": false
+      }
+    ],
+    "answer": "One reviewer describes the Moto G7 as a GSM global phone that will work for GSM carriers like T-Mobile and AT&T only if the towers in the area have the correct bands. [d96aee7eaabd_0]\nOne reviewer reports that the phone works on Google Fi with crystal-clear calls and no connection issues, though calls get pushed to HSPDA/3G. [10d9a1abd787_1]\nA reviewer of the Moto G7 Plus international version reports it is not fully compatible with US carriers, particularly T-Mobile, with some calls going straight to voicemail and network type dropping from LTE to 3G or 2G during calls. [5d7f8b77d7f4_0]\nOne reviewer reports that IMEI checks came back as incompatible on every carrier tried, including Cricket Wireless, Mint Mobile, and T-Mobile directly. [d14d79450f3f_1]\nOne reviewer describes ongoing T-Mobile hassles with SMS and MMS not working and needing rep assistance to restore the network. [4361e84bdbec_0]\nReviewers also describe activation problems on Boost Mobile requiring a compatible SIM card and a reported lack of mobile data tied to an Android 9 and Sprint issue. [53a74e87465b_1] [7236deb2d909_0]",
+    "abstained": false,
+    "display_answer": "One reviewer describes the Moto G7 as a GSM global phone that will work for GSM carriers like T-Mobile and AT&T only if the towers in the area have the correct bands. [d96aee7eaabd_0]\nOne reviewer reports that the phone works on Google Fi with crystal-clear calls and no connection issues, though calls get pushed to HSPDA/3G. [10d9a1abd787_1]\nA reviewer of the Moto G7 Plus international version reports it is not fully compatible with US carriers, particularly T-Mobile, with some calls going straight to voicemail and network type dropping from LTE to 3G or 2G during calls. [5d7f8b77d7f4_0]\nOne reviewer reports that IMEI checks came back as incompatible on every carrier tried, including Cricket Wireless, Mint Mobile, and T-Mobile directly. [d14d79450f3f_1]\nOne reviewer describes ongoing T-Mobile hassles with SMS and MMS not working and needing rep assistance to restore the network. [4361e84bdbec_0]\nReviewers also describe activation problems on Boost Mobile requiring a compatible SIM card and a reported lack of mobile data tied to an Android 9 and Sprint issue. [53a74e87465b_1] [7236deb2d909_0]"
+  }
+}

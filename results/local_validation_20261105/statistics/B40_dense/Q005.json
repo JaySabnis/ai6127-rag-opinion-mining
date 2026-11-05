@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_dense/Q005.json",
+  "source_sha256": "018f60f43f35fa9927c4361f5b82036185a5734affc52489a825db64108601f4",
+  "question": "What is the user feedback on the Essential PH-1 camera?",
+  "statistics_before": [
+    {
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 7,
+      "n_excluded_aspect_absent": 3,
+      "counts": {
+        "positive": 3,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.42857142857142855,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5,
+      "polarized_denominator": 6
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "camera",
+      "product_id": "phone-v1:0f55b5847ebeeb0b8adb171d10ad9463d7ca6bef0e3fc79210467c1ed623055a",
+      "canonical_model": null,
+      "model_aliases": [
+        "Ph-1"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 7,
+      "n_excluded_aspect_absent": 3,
+      "counts": {
+        "positive": 3,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.42857142857142855,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5,
+      "polarized_denominator": 6
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

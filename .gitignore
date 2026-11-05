@@ -33,3 +33,8 @@ indexes_*/
 
 # Local editor settings
 .vscode/
+
+# Superseded local audit batches; publish only final validation evidence.
+/results/local_validation_20261105/end_to_end_initial/
+/results/local_validation_20261105/paired_checker_before_cache_isolation/
+/results/local_validation_20261105/usage_estimates_before_cache_isolation.json

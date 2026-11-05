@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_learned_checker/Q029.json",
+  "source_sha256": "99c502c512b30ba9c77d69612518bd86ee940225178d13cd764e18ec859a9c7a",
+  "question": "What do Essential PH-1 owners report about getting help from customer support?",
+  "statistics_before": [
+    {
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 8,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.1,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.1111111111111111,
+      "polarized_denominator": 9
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Essential",
+      "model": "Ph-1",
+      "aspect": "service",
+      "product_id": "phone-v1:0f55b5847ebeeb0b8adb171d10ad9463d7ca6bef0e3fc79210467c1ed623055a",
+      "canonical_model": null,
+      "model_aliases": [
+        "Ph-1"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 8,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.1,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.1111111111111111,
+      "polarized_denominator": 9
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

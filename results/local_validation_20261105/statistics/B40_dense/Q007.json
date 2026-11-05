@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_dense/Q007.json",
+  "source_sha256": "b4b0573ffe01ea04f4722d708c5b3432b3a222028b9809bad4257b520b20a852",
+  "question": "How long does the Samsung Galaxy S10 last between charges in everyday use?",
+  "statistics_before": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 7,
+      "n_excluded_aspect_absent": 3,
+      "counts": {
+        "positive": 2,
+        "negative": 5,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.2857142857142857,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.2857142857142857,
+      "polarized_denominator": 7
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "battery",
+      "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+      "canonical_model": null,
+      "model_aliases": [
+        "Galaxy S10"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 7,
+      "n_excluded_aspect_absent": 3,
+      "counts": {
+        "positive": 2,
+        "negative": 5,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.2857142857142857,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.2857142857142857,
+      "polarized_denominator": 7
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

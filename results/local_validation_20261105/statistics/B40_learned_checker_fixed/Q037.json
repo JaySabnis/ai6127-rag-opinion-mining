@@ -1,0 +1,97 @@
+{
+  "source": "results/group_c/b40/B40_learned_checker_fixed/Q037.json",
+  "source_sha256": "024a7f8174f5c22a80c20b4e586865b6cb06f8a5a5c919e2ee735a33db554f12",
+  "question": "How do iPhone 11 owners describe both the camera quality and battery life?",
+  "statistics_before": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 8,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 6,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.75,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.75,
+      "polarized_denominator": 8
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 5,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5555555555555556,
+      "polarized_denominator": 9
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera",
+      "product_id": "phone-v1:486837df56e9f62ec1fb775ca8361468a39f3f8cd18668ffa7cafe4c9662bdf4",
+      "canonical_model": null,
+      "model_aliases": [
+        "iPhone 11"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 8,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 6,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.75,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.75,
+      "polarized_denominator": 8
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "battery",
+      "product_id": "phone-v1:486837df56e9f62ec1fb775ca8361468a39f3f8cd18668ffa7cafe4c9662bdf4",
+      "canonical_model": null,
+      "model_aliases": [
+        "iPhone 11"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 5,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5555555555555556,
+      "polarized_denominator": 9
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

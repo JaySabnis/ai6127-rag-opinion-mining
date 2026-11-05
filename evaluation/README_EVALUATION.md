@@ -28,9 +28,9 @@ The sampling and the annotation tool have their own READMEs:
 | 6    | `summarize_latency.py` | `timings/` ← full pipeline        | `results/latency_<run>.json`               |
 | 7    | `ablation_table.py`    | `results/` (from steps 4--6)      | `results/ablation.md`                      |
 
-The input folders are **empty placeholders** until the data arrives.
+The repository now includes saved predictions, annotations and evaluation runs. Keep historical results separate from new validation outputs.
 
-All commands run from the repository root. After pulling, run `uv sync`
+All commands run from the repository root. After pulling, run `uv sync --all-groups`
 once to install the new dependencies (scikit-learn, ragas, xlwt, xlrd).
 
 ------------------------------------------------------------------------
@@ -116,7 +116,7 @@ Stage 2  polarity       positive / negative / mixed    (gold-opinionated chunks)
 Overall  4 labels
 ```
 
-plus a confusion matrix. Saved to `results/classifier_<run_name>.json`.
+plus a confusion matrix. Saved to `results/classifier_<run_name>.json`. Use `--gold PATH --output-dir PATH` for an explicit read-only gold input and separate results. Duplicate IDs, invalid labels and missing predictions fail instead of silently changing the sample; input hashes are recorded.
 
 ------------------------------------------------------------------------
 
@@ -151,7 +151,7 @@ LLM_MODEL=
 EMBEDDING_MODEL=     # optional; needed only for answer_relevancy
 ```
 
-`llm_config.env` is git-ignored. **Never commit an API key.**
+`llm_config.env` is git-ignored. **Never commit an API key.** Alternatively use `--env-file .env` with the existing `DEEPSEEK_API_KEY`, `DEEPSEEK_BASE_URL` and `DEEPSEEK_MODEL`. Set `EMBEDDING_PROVIDER=huggingface` and `EMBEDDING_MODEL=BAAI/bge-small-en-v1.5` to compute answer relevancy with local embeddings.
 
 ### Run
 
@@ -176,8 +176,7 @@ uv run python evaluation/eval_rag.py evaluation/rag_outputs/<run_name>.jsonl
 | `context_precision` | Are the useful contexts ranked first?               | LLM             |
 | `context_relevance` | Are the retrieved contexts relevant to the question?| LLM             |
 
-`context_precision` uses the without-reference variant, so no
-hand-written reference answers are needed.
+`context_precision` uses the generated answer as its reference. It is answer-conditioned and should not be presented as an independent retrieval-accuracy measure.
 
 ### Output
 
@@ -186,8 +185,9 @@ results/rag_<run_name>.csv     # score per query and metric
 results/rag_<run_name>.json    # mean per metric
 ```
 
-Failed judge calls are printed, left empty, and counted in
-`<metric>_failed`, instead of being averaged in.
+Use `--output-dir PATH` to keep new results separate. Failed judge calls remain empty, are counted in `<metric>_failed`, and cause a nonzero exit. Abstained answers are excluded from answer metrics and reported separately; context relevance can still be scored. Always report valid sample counts and answer coverage. `--metrics` merges only when source hashes, row order, judge settings, evaluator version and the earlier CSV digest match.
+
+For checker ablations, use [the paired runner](report/PAIRED_CHECKER_README.md): both arms share identical evidence and draft sentences. Historical B40 checker variants regenerated drafts and cannot isolate the checker effect.
 
 ------------------------------------------------------------------------
 
@@ -205,8 +205,7 @@ One line per query, **in the order the queries were run**:
 {"query": "...", "retrieval_s": 0.21, "classification_s": 0.35, "generation_s": 2.8, "n_chunks": 20}
 ```
 
-Every field ending in `_s` is treated as a stage time in seconds. They can
-be recorded with `time.perf_counter()` around each stage.
+Record disjoint stages with `time.perf_counter()` and set `scope` to `downstream`, `retrieval` or `end_to_end`. An explicit `total_s` is authoritative and is never added to stage times. Without it, only recognized query stages are summed; missing stages remain unmeasured. Startup and arbitrary `_s` fields are not silently included.
 
 ### Run
 
@@ -216,8 +215,7 @@ uv run python evaluation/summarize_latency.py evaluation/timings/<run_name>.json
 
 ### Output
 
-Mean, median, p95 and max per stage and in total; cold (first query) vs
-warm; queries per minute; chunks classified per second.
+Mean, median, p95 and max per stage and in total; first-query and subsequent-query observations; serial queries-per-minute estimate; chunks classified per second. Query order does not establish cold/warm system state, and the serial estimate is not concurrent throughput.
 Saved to `results/latency_<run_name>.json`.
 
 ------------------------------------------------------------------------
@@ -260,3 +258,7 @@ predictions, timings and RAG outputs):
 
 **Not yet tested:** `eval_rag.py` against a real LLM endpoint. Run it with
 `--limit 2` first once `llm_config.env` is filled in.
+
+## November 5 local validation
+
+Read [the local validation report](../results/local_validation_20261105/VALIDATION_REPORT.md) for fixed product ratios, paired checker results, five live full-index queries and reproducible commands. Human labels and `eval.xls` are unchanged. The index/model warmup is reported separately from query latency.

@@ -59,8 +59,9 @@ def main() -> None:
         table("Latency", "latency", {
             "Mean total (s)": lambda r: r["total_s"]["mean"],
             "p95 total (s)": lambda r: r["total_s"]["p95"],
-            "Cold total (s)": lambda r: r["cold_total_s"],
-            "Queries/min": lambda r: r["queries_per_minute"],
+            "First query (s)": lambda r: r.get("first_query_total_s", r.get("cold_total_s")),
+            "Queries/min (serial estimate)": lambda r: r["queries_per_minute"],
+            "Scope": lambda r: r.get("scope", "historical; inspect source"),
         }),
     ]
     text = "\n".join(s for s in sections if s)

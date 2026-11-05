@@ -1,0 +1,53 @@
+{
+  "run": "B40_learned",
+  "n_queries": 40,
+  "timing_scope": "downstream",
+  "scope": "downstream",
+  "total_basis": "sum_of_available_stages",
+  "throughput_basis": "sequential_estimate_from_summed_query_durations",
+  "concurrent_throughput_measured": false,
+  "classification_s": {
+    "n": 40,
+    "mean": 3.714,
+    "median": 3.519,
+    "p95": 4.702,
+    "max": 6.839
+  },
+  "generation_s": {
+    "n": 40,
+    "mean": 2.291,
+    "median": 2.31,
+    "p95": 2.885,
+    "max": 3.244
+  },
+  "total_s": {
+    "n": 40,
+    "mean": 6.005,
+    "median": 5.895,
+    "p95": 7.244,
+    "max": 8.865
+  },
+  "verification_s": {
+    "n": 40,
+    "mean": 0.0,
+    "median": 0.0,
+    "p95": 0.0,
+    "max": 0.0
+  },
+  "first_query_total_s": 4.958,
+  "subsequent_query_total_mean_s": 6.032,
+  "query_states": [
+    "unspecified"
+  ],
+  "serial_queries_per_minute_estimate": 9.99,
+  "queries_per_minute": 9.99,
+  "chunks_classified_per_second": 2.7,
+  "classification_rate_basis": "input_chunks / classification stage time (not aspect-label decisions)",
+  "classification_rate_n_queries": 40,
+  "warnings": [
+    "Query latency excludes startup or file-writing outside the declared scope; the first row is not a cold-start measurement.",
+    "Serial throughput is an estimate, not a concurrent load test or a scalability result.",
+    "Some totals sum only recorded stages; omitted stages and orchestration overhead are not measured.",
+    "Downstream scope excludes query rewriting, retrieval, reranking and index/model loading."
+  ]
+}

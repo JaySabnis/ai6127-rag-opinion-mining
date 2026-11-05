@@ -92,14 +92,21 @@ class DeepSeekClient:
             time.sleep(2 ** attempt)
         raise RuntimeError("DeepSeek retries exhausted")
 
-    def json(self, system, payload, *, validate, max_tokens=4096):
+    def json(self, system, payload, *, validate, max_tokens=4096, cache_namespace=None):
         messages = [{"role": "system", "content": system},
                     {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}]
         body = {"model": self.model, "messages": messages,
                 "thinking": {"type": "disabled"}, "temperature": 0,
                 "response_format": {"type": "json_object"},
                 "max_tokens": max_tokens, "stream": False}
-        digest = hashlib.sha256(json.dumps([self.base_url, body], sort_keys=True,
+        # Validators may discard information before caching. Version their cache
+        # independently of the API request so old sanitized data is not reused.
+        cache_key = [self.base_url, body]
+        if cache_namespace is not None:
+            if not isinstance(cache_namespace, str) or not cache_namespace.strip():
+                raise ValueError("cache_namespace must be a nonempty string")
+            cache_key.append(cache_namespace)
+        digest = hashlib.sha256(json.dumps(cache_key, sort_keys=True,
                                 ensure_ascii=False).encode()).hexdigest()
         cache = self.cache_dir / (digest + ".json") if self.cache_dir else None
         if cache and cache.exists():

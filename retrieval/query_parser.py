@@ -20,36 +20,7 @@ from dataclasses import dataclass, field
 import pandas as pd
 
 from chunking.metadata import detect_aspects
-
-_NON_ALNUM = re.compile(r"[^a-z0-9]+")
-_LETTER_DIGIT = re.compile(r"(?<=[a-z])(?=\d)|(?<=\d)(?=[a-z])")
-
-
-def model_tokens(text: str) -> tuple[str, ...]:
-    """Lowercase, drop punctuation, split letter/digit runs: 'iPhone15-Pro' -> (iphone, 15, pro).
-
-    '+' becomes the word 'plus', so "S10+" and "S10 Plus" give the same tokens.
-    """
-    t = _NON_ALNUM.sub(" ", text.lower().replace("+", " plus "))
-    t = _LETTER_DIGIT.sub(" ", t)
-    return tuple(t.split())
-
-
-def variant_key(model: str, brand: str | None) -> tuple:
-    """Key shared by spellings of the same phone within one brand.
-
-    Ignores case, spacing and punctuation ("Galaxy Note9" = "Galaxy Note 9",
-    "G8X Thinq™" = "G8X Thinq"), a leading brand name ("Motorola Razr" = "Razr")
-    and Samsung's leading "Galaxy" ("Galaxy S20 FE" = "S20 FE"). Checked by hand
-    on all 85 groups this forms in the corpus catalogue.
-    """
-    btoks = model_tokens(brand) if brand else ()
-    toks = model_tokens(model)
-    if btoks and toks[: len(btoks)] == btoks and len(toks) > len(btoks):
-        toks = toks[len(btoks):]
-    if toks and toks[0] == "galaxy" and len(toks) > 1:
-        toks = toks[1:]
-    return (btoks, toks)
+from retrieval.product_identity import model_tokens, variant_key
 
 
 @dataclass

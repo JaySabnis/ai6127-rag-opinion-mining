@@ -1,0 +1,483 @@
+{
+  "question": "What do Galaxy S10 owners report about carrier compatibility and SIM activation?",
+  "answer": "One reviewer reported that the phone was not unlocked for AT&T, so a Sprint SIM card didn't work and service couldn't be activated on the card. [6fa0cdac7784_0]\nOne reviewer stated the phone received was a Verizon S10 and that activating it on another carrier required a Verizon SIM and a month of Verizon service to get past the anti-theft security. [054248fe914b_0]\nOne reviewer advised calling Metro PCS customer support to activate the phone, saying replacing the SIM card produced an error because the SIM was not from Verizon. [608d0dc2014a_0]\nOne reviewer said the phone was actually a Sprint carrier device unlocked for other carriers, so features like Wi-Fi calling and Hotspot would only work with the original carrier. [4539157de2ca_0]\nOne reviewer said the phones were not compatible with their carrier service plan. [47699717a7d4_0]\nOne reviewer said the phone only works with Verizon and was not truly unlocked. [fbd8bb183b9a_0]",
+  "draft_answer": "One reviewer reported that the phone was not unlocked for AT&T, so a Sprint SIM card didn't work and service couldn't be activated on the card. [6fa0cdac7784_0]\nOne reviewer stated the phone received was a Verizon S10 and that activating it on another carrier required a Verizon SIM and a month of Verizon service to get past the anti-theft security. [054248fe914b_0]\nOne reviewer advised calling Metro PCS customer support to activate the phone, saying replacing the SIM card produced an error because the SIM was not from Verizon. [608d0dc2014a_0]\nOne reviewer said the phone was actually a Sprint carrier device unlocked for other carriers, so features like Wi-Fi calling and Hotspot would only work with the original carrier. [4539157de2ca_0]\nOne reviewer said the phones were not compatible with their carrier service plan. [47699717a7d4_0]\nOne reviewer said the phone only works with Verizon and was not truly unlocked. [fbd8bb183b9a_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported that the phone was not unlocked for AT&T, so a Sprint SIM card didn't work and service couldn't be activated on the card.",
+      "citations": [
+        "6fa0cdac7784_0"
+      ]
+    },
+    {
+      "text": "One reviewer stated the phone received was a Verizon S10 and that activating it on another carrier required a Verizon SIM and a month of Verizon service to get past the anti-theft security.",
+      "citations": [
+        "054248fe914b_0"
+      ]
+    },
+    {
+      "text": "One reviewer advised calling Metro PCS customer support to activate the phone, saying replacing the SIM card produced an error because the SIM was not from Verizon.",
+      "citations": [
+        "608d0dc2014a_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the phone was actually a Sprint carrier device unlocked for other carriers, so features like Wi-Fi calling and Hotspot would only work with the original carrier.",
+      "citations": [
+        "4539157de2ca_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the phones were not compatible with their carrier service plan.",
+      "citations": [
+        "47699717a7d4_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the phone only works with Verizon and was not truly unlocked.",
+      "citations": [
+        "fbd8bb183b9a_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reported that the phone was not unlocked for AT&T, so a Sprint SIM card didn't work and service couldn't be activated on the card.",
+      "citations": [
+        "6fa0cdac7784_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer stated the phone received was a Verizon S10 and that activating it on another carrier required a Verizon SIM and a month of Verizon service to get past the anti-theft security.",
+      "citations": [
+        "054248fe914b_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer advised calling Metro PCS customer support to activate the phone, saying replacing the SIM card produced an error because the SIM was not from Verizon.",
+      "citations": [
+        "608d0dc2014a_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the phone was actually a Sprint carrier device unlocked for other carriers, so features like Wi-Fi calling and Hotspot would only work with the original carrier.",
+      "citations": [
+        "4539157de2ca_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the phones were not compatible with their carrier service plan.",
+      "citations": [
+        "47699717a7d4_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the phone only works with Verizon and was not truly unlocked.",
+      "citations": [
+        "fbd8bb183b9a_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reported that the phone was not unlocked for AT&T, so a Sprint SIM card didn't work and service couldn't be activated on the card.",
+      "citations": [
+        "6fa0cdac7784_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer stated the phone received was a Verizon S10 and that activating it on another carrier required a Verizon SIM and a month of Verizon service to get past the anti-theft security.",
+      "citations": [
+        "054248fe914b_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer advised calling Metro PCS customer support to activate the phone, saying replacing the SIM card produced an error because the SIM was not from Verizon.",
+      "citations": [
+        "608d0dc2014a_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the phone was actually a Sprint carrier device unlocked for other carriers, so features like Wi-Fi calling and Hotspot would only work with the original carrier.",
+      "citations": [
+        "4539157de2ca_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the phones were not compatible with their carrier service plan.",
+      "citations": [
+        "47699717a7d4_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the phone only works with Verizon and was not truly unlocked.",
+      "citations": [
+        "fbd8bb183b9a_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "6fa0cdac7784_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Phone was not unlocked for AT&T",
+        "Which is a lie"
+      ],
+      "reason": "Complains phone not unlocked for carrier, calls claim a lie.",
+      "doc_id": "6fa0cdac7784",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "054248fe914b_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "These are Verizon S10 phones",
+        "has to be on their Network for 60 days before it will become unlocked"
+      ],
+      "reason": "Criticizes carrier lock to Verizon requiring 60 days.",
+      "doc_id": "054248fe914b",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "608d0dc2014a_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "You must call your own carrier and let em know the IMEI",
+        "Great phone though!"
+      ],
+      "reason": "Carrier activation hassle noted but overall praises phone.",
+      "doc_id": "608d0dc2014a",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "ad0bd4824e3e_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "CDMA is assigned to a specific carrier and its a pain",
+        "The fact that CDMA carriers have their limits to 3G like support is upsettin"
+      ],
+      "reason": "Criticizes CDMA carrier limitations and unclear carrier info.",
+      "doc_id": "ad0bd4824e3e",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "4ef9fc29fbfa_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "when I installed the SIM card from Verizon I got a message saying invalid sim card",
+        "Verdict: Defective device"
+      ],
+      "reason": "Verizon SIM failed, device defective.",
+      "doc_id": "4ef9fc29fbfa",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "4539157de2ca_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "It's a carrier unlocked device not a factory unlock",
+        "features such as your wifi calling and Hotspot will not work unless your carrier is the original carrier"
+      ],
+      "reason": "Criticizes carrier unlock limiting features on other carriers.",
+      "doc_id": "4539157de2ca",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "47699717a7d4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The phones were not compatible with our carrier service plan"
+      ],
+      "reason": "Phones incompatible with buyer's carrier plan.",
+      "doc_id": "47699717a7d4",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "fbd8bb183b9a_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "ONLY COMPATIBLE WITH VERIZON",
+        "This is in no way an unlocked phone because it only works with Verizon"
+      ],
+      "reason": "Claims phone only works with Verizon, not unlocked.",
+      "doc_id": "fbd8bb183b9a",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "8ee4017535fe_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "it was a base unlocked phone",
+        "it will not load available networks"
+      ],
+      "reason": "Carrier mismatch causes network selection problems.",
+      "doc_id": "8ee4017535fe",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "a143064ec261_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "The phone is in great working order",
+        "i bought an UNLOCKED GSM phone and it is definitely Verizon"
+      ],
+      "reason": "Phone works well but unlock/carrier status incorrect.",
+      "doc_id": "a143064ec261",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "aspect": "carrier",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 0,
+        "negative": 8,
+        "mixed": 2,
+        "neutral": 0
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.0,
+      "polarized_denominator": 8
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "6fa0cdac7784_0",
+      "doc_id": "6fa0cdac7784",
+      "text": "Not unlocked. Phone was not unlocked for AT&T and so Sprint sim card didn't work and couldn't activate service on card. The product says \"Fully Unlocked: Fully unlocked and compatible with any carrier of choice (e.g. AT&T, T-Mobile, Sprint, Verizon, US-Cellular, Cricket, Metro, etc.), both domestically and internationally.\" -Which is a lie.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "054248fe914b_0",
+      "doc_id": "054248fe914b",
+      "text": "Do not buy this phone.. Do not buy these phones. These are Verizon S10 phones. That means if you are not planning on using Verizon you have to buy a Verizon sim card and buy one month of Verizon to get by the phone's anti-theft security before it will let you activate your phone on another carrier. Or else you will have service for 5 minutes before getting the change carrier sorry your device cannot be activated on another carrier's Network right now. I spent 4 hours on the phone with Verizon for them to tell me that there is nothing they can do because the phone has to be on their Network for 60 days before it will become unlocked. Again do not buy this phone.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "608d0dc2014a_0",
+      "doc_id": "608d0dc2014a",
+      "text": "Metro PCS Tip:. Unlike the seller's instructs, you have to call metro PCS at their customer support number and activate the phone. Replacing the sim card will tell you there's an error because the sim is not from Verizon. I tried first changing the APN settings, but that didn't work. I thought maybe if I get another phone it will be from a T-mobile carrier so that they match. I got the other phone and it was from Verizon aswell. You must call your own carrier and let em know the IMEI, Great phone though!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B0BM3F9RK1"
+    },
+    {
+      "chunk_id": "ad0bd4824e3e_0",
+      "doc_id": "ad0bd4824e3e",
+      "text": "Carrier options. The ad should have clearly mentioned if the phone was CDMA or GDM carriers when purchasing an unlocked. I didn't see any GSM options even if out of stock and now they have added a option to choose it as GSM from carriers. GSM unlocked phones supports any carriers on any country while CDMA is assigned to a specific carrier and its a pain to keep assigning them on a carrier each time a new sim has has been changed. The fact that I bought this phone two weeks ago rather than today is upsetting. The fact that CDMA carriers have their limits to 3G like support is upsettin. And yea 3G has has already been disregarded for CDMA phones from all carriers except for verizon until this december. So should I be happy that I can use it for another 6 months?",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "4ef9fc29fbfa_0",
+      "doc_id": "4ef9fc29fbfa",
+      "text": "Could not read SIM card. True to the description, the phone looks and feels like new, nice! But, when I installed the SIM card from Verizon I got a message saying invalid sim card. The phone tried to activate anyway but failed of course. Verizon customer service walked me through steps to retry, and also verified I had added a line for the phone and had successfully ported in a number from my Dad's prior carrier. I made an appointment at a Verizon store, to get a new SIM card. The store manager waited on me, installed a new SIM card, same results. Verdict: Defective device. Note to Amazon: please add \"install and use SIM card\" to your vaunted testing of Renewed phones. I returned the phone, which was easy (Thanks Amazon!). But, my Dad has no phone and is now waiting for a replacement to ship from the same seller.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "4539157de2ca_0",
+      "doc_id": "4539157de2ca",
+      "text": "False advertisement.. Do not buy this device. It's a carrier unlocked device not a factory unlock. There is a big difference. The phone I received is actually a sprint carrier device that was unlocked for other carries. With a carrier unlock there is certain features of the device that will only work with the original carrier. You can use this device on another carrier for instance AT&T like I am. At least until I ship it back for false advertisement and the broken camera lens I received it with. It will work on other carries but features such as your wifi calling and Hotspot will not work unless your carrier is the original carrier the device was made for. For me it would have to sprint. The issue is you have no idea what carrier device you are going to get.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "47699717a7d4_0",
+      "doc_id": "47699717a7d4",
+      "text": "check compatibility with carrier before buying. The phones were not compatible with our carrier service plan and the charging cables they sent us were for an older galaxy phone and were not compatible with the phones we received which needed type c charging cables.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "fbd8bb183b9a_0",
+      "doc_id": "fbd8bb183b9a",
+      "text": "ONLY COMPATIBLE WITH VERIZON. This is in no way an unlocked phone because it only works with Verizon. I assumed by the name and description that the phone was shipped ready to use with Verizon, but could be used with a CDMA or GSM carrier network. THIS IS A LIE. Do not make the mistake I made. You need to know the IMEI to test whether or not it's compatible with your network and the ONLY way to know that is to purchase the phone!",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "8ee4017535fe_0",
+      "doc_id": "8ee4017535fe",
+      "text": "What network does the product belong to? The phone doesn't know either.. Okay, so the phone I bought was suppose to be a registered phone on the AT&T network, upon its arrival found that it was a base unlocked phone. For most that will not be a problem however when trying to establish service in areas that service is limited the phone begins to search for a better carrier when I only have service through AT&T. When I go and attempt to select a network, it will not load available networks. When I purchased the phone description reported that it was a AT&T phone which just meant it was just a GSM compatible phone. So know what your getting.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    },
+    {
+      "chunk_id": "a143064ec261_0",
+      "doc_id": "a143064ec261",
+      "text": "great phone, incorrect unlock status. The phone is in great working order, so it gets 3 stars. However, i bought an UNLOCKED GSM phone and it is definitely Verizon. I have tracfone so it's not a big deal, but I could see how this would ruin someone else's day. To make up for this error, on tracfone I had to buy a new compatible SIM-card and transfer my account, which is annoying but doable. TLDR; don't buy \"UNLOCKED ALL\" buy unlocked and whatever carrier-compatibility you need.",
+      "brand": "Samsung",
+      "model": "Galaxy S10",
+      "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+    }
+  ],
+  "contexts": [
+    "Not unlocked. Phone was not unlocked for AT&T and so Sprint sim card didn't work and couldn't activate service on card. The product says \"Fully Unlocked: Fully unlocked and compatible with any carrier of choice (e.g. AT&T, T-Mobile, Sprint, Verizon, US-Cellular, Cricket, Metro, etc.), both domestically and internationally.\" -Which is a lie.",
+    "Do not buy this phone.. Do not buy these phones. These are Verizon S10 phones. That means if you are not planning on using Verizon you have to buy a Verizon sim card and buy one month of Verizon to get by the phone's anti-theft security before it will let you activate your phone on another carrier. Or else you will have service for 5 minutes before getting the change carrier sorry your device cannot be activated on another carrier's Network right now. I spent 4 hours on the phone with Verizon for them to tell me that there is nothing they can do because the phone has to be on their Network for 60 days before it will become unlocked. Again do not buy this phone.",
+    "Metro PCS Tip:. Unlike the seller's instructs, you have to call metro PCS at their customer support number and activate the phone. Replacing the sim card will tell you there's an error because the sim is not from Verizon. I tried first changing the APN settings, but that didn't work. I thought maybe if I get another phone it will be from a T-mobile carrier so that they match. I got the other phone and it was from Verizon aswell. You must call your own carrier and let em know the IMEI, Great phone though!",
+    "Carrier options. The ad should have clearly mentioned if the phone was CDMA or GDM carriers when purchasing an unlocked. I didn't see any GSM options even if out of stock and now they have added a option to choose it as GSM from carriers. GSM unlocked phones supports any carriers on any country while CDMA is assigned to a specific carrier and its a pain to keep assigning them on a carrier each time a new sim has has been changed. The fact that I bought this phone two weeks ago rather than today is upsetting. The fact that CDMA carriers have their limits to 3G like support is upsettin. And yea 3G has has already been disregarded for CDMA phones from all carriers except for verizon until this december. So should I be happy that I can use it for another 6 months?",
+    "Could not read SIM card. True to the description, the phone looks and feels like new, nice! But, when I installed the SIM card from Verizon I got a message saying invalid sim card. The phone tried to activate anyway but failed of course. Verizon customer service walked me through steps to retry, and also verified I had added a line for the phone and had successfully ported in a number from my Dad's prior carrier. I made an appointment at a Verizon store, to get a new SIM card. The store manager waited on me, installed a new SIM card, same results. Verdict: Defective device. Note to Amazon: please add \"install and use SIM card\" to your vaunted testing of Renewed phones. I returned the phone, which was easy (Thanks Amazon!). But, my Dad has no phone and is now waiting for a replacement to ship from the same seller.",
+    "False advertisement.. Do not buy this device. It's a carrier unlocked device not a factory unlock. There is a big difference. The phone I received is actually a sprint carrier device that was unlocked for other carries. With a carrier unlock there is certain features of the device that will only work with the original carrier. You can use this device on another carrier for instance AT&T like I am. At least until I ship it back for false advertisement and the broken camera lens I received it with. It will work on other carries but features such as your wifi calling and Hotspot will not work unless your carrier is the original carrier the device was made for. For me it would have to sprint. The issue is you have no idea what carrier device you are going to get.",
+    "check compatibility with carrier before buying. The phones were not compatible with our carrier service plan and the charging cables they sent us were for an older galaxy phone and were not compatible with the phones we received which needed type c charging cables.",
+    "ONLY COMPATIBLE WITH VERIZON. This is in no way an unlocked phone because it only works with Verizon. I assumed by the name and description that the phone was shipped ready to use with Verizon, but could be used with a CDMA or GSM carrier network. THIS IS A LIE. Do not make the mistake I made. You need to know the IMEI to test whether or not it's compatible with your network and the ONLY way to know that is to purchase the phone!",
+    "What network does the product belong to? The phone doesn't know either.. Okay, so the phone I bought was suppose to be a registered phone on the AT&T network, upon its arrival found that it was a base unlocked phone. For most that will not be a problem however when trying to establish service in areas that service is limited the phone begins to search for a better carrier when I only have service through AT&T. When I go and attempt to select a network, it will not load available networks. When I purchased the phone description reported that it was a AT&T phone which just meant it was just a GSM compatible phone. So know what your getting.",
+    "great phone, incorrect unlock status. The phone is in great working order, so it gets 3 stars. However, i bought an UNLOCKED GSM phone and it is definitely Verizon. I have tracfone so it's not a big deal, but I could see how this would ruin someone else's day. To make up for this error, on tracfone I had to buy a new compatible SIM-card and transfer my account, which is annoying but doable. TLDR; don't buy \"UNLOCKED ALL\" buy unlocked and whatever carrier-compatibility you need."
+  ],
+  "timing": {
+    "classification_s": 3.326807400000689,
+    "generation_s": 2.078388999994786,
+    "verification_s": 7.700000423938036e-06,
+    "total_s": 5.405215099999623
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 2029,
+        "completion_tokens": 732,
+        "total_tokens": 2761,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1773
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1903,
+        "completion_tokens": 272,
+        "total_tokens": 2175,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1775
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_bm25/Q014.json",
+  "source_sha256": "9d00d44b6f4a315897556ee05e8d792a4a0a157c237068c3823dcf5921f86ee2",
+  "question": "What screen or touch-response issues do iPhone X reviewers describe?",
+  "statistics_before": [
+    {
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 7,
+      "n_excluded_aspect_absent": 3,
+      "counts": {
+        "positive": 2,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.2857142857142857,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.3333333333333333,
+      "polarized_denominator": 6
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone X",
+      "aspect": "display",
+      "product_id": "phone-v1:960e5674727a5a30ec6b875cffc08a3153855f5001fe235a09b0e98be4422828",
+      "canonical_model": null,
+      "model_aliases": [
+        "iPhone X"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 7,
+      "n_excluded_aspect_absent": 3,
+      "counts": {
+        "positive": 2,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.2857142857142857,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.3333333333333333,
+      "polarized_denominator": 6
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

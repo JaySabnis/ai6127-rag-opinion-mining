@@ -1,0 +1,979 @@
+{
+  "query_id": "Q001",
+  "query": "How do reviewers rate the camera quality on the Samsung Galaxy S10?",
+  "result": {
+    "chunks": [
+      {
+        "rank": 1,
+        "row_id": 312453,
+        "chunk_id": "acef1f9eece3_0",
+        "doc_id": "acef1f9eece3",
+        "text": "'Ol Reliable. I'm not used to such good camera quality, theres a certain pleasure in it. I've been living off of the Galaxy series of phones for what feels like nearly 5 years now. Has yet to do me wrong. This review was written on the phone in question.",
+        "score": 0.03971036895415531,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 5,
+        "timestamp": "2020-09-17",
+        "aspect_tags": [
+          "camera"
+        ],
+        "helpful_votes": 1,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 8.162367820739746,
+        "bm25_rank": 2,
+        "dense_score": 0.6395043134689331,
+        "dense_rank": 5,
+        "aspect_boosted": true,
+        "rrf_score": 0.0315136476426799,
+        "rrf_normalized": 0.961166253101737,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 1,
+        "semantic_rank": 2,
+        "cross_encoder_raw_score": -2.843985080718994,
+        "cross_encoder_score": 0.0016875152793657255,
+        "cross_encoder_contribution": 0.06666666666666667,
+        "retrieval_rank_contribution": 0.018181818181818177,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.3404773724281762,
+        "rerank_strategy": "learned",
+        "scoring_query": "How do reviewers rate the camera quality on the ?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.15949495565058158,
+          "semantic_rank": 0.12505547322536917,
+          "retrieval_rank": 0.060621208040769245,
+          "aspect_coverage": 0.016606736992198345,
+          "keyword_count": -0.053643122817355955,
+          "keyword_density": -0.05554480798810213,
+          "length": 0.08788692932471599
+        },
+        "final_rank": 1
+      },
+      {
+        "rank": 11,
+        "row_id": 298787,
+        "chunk_id": "8e51bc830f71_0",
+        "doc_id": "8e51bc830f71",
+        "text": "Disappointed with battery. The battery on this phone absolutely su.ks. It doesn't last all day. It lasts about 6 hours. I had read the same comment from other reviewers. I needed a new phone because the battery on my old one was only lasting a couple of hours. Very disappointed with the battery charge. The real good thing is the camera is outstanding. I have not been able to check out all the camera features, but the pictures I've taken so far are much superior to any other phone camera I've used.",
+        "score": 0.02986963602562724,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 3,
+        "timestamp": "2020-06-09",
+        "aspect_tags": [
+          "camera",
+          "battery"
+        ],
+        "helpful_votes": 0,
+        "verified": true,
+        "is_renewed": false,
+        "source_url": "https://www.amazon.com/dp/B07XJ2BWMP",
+        "bm25_score": 5.495177745819092,
+        "bm25_rank": 28,
+        "dense_score": 0.5807496905326843,
+        "dense_rank": 37,
+        "aspect_boosted": true,
+        "rrf_score": 0.02167291471415183,
+        "rrf_normalized": 0.6610238987816308,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 11,
+        "semantic_rank": 9,
+        "cross_encoder_raw_score": -6.189853668212891,
+        "cross_encoder_score": 2.101500971962711e-06,
+        "cross_encoder_contribution": 0.042105263157894736,
+        "retrieval_rank_contribution": 0.009523809523809521,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.33455479641339814,
+        "rerank_strategy": "learned",
+        "scoring_query": "How do reviewers rate the camera quality on the ?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.019615910543420566,
+          "semantic_rank": -0.0027872488933839905,
+          "retrieval_rank": -0.009158744587294732,
+          "aspect_coverage": 0.016606736992198345,
+          "keyword_count": 0.14740987098792144,
+          "keyword_density": -0.033092359928773685,
+          "length": 0.19596063129931016
+        },
+        "final_rank": 2
+      },
+      {
+        "rank": 8,
+        "row_id": 272729,
+        "chunk_id": "ab1f64e4c1fc_1",
+        "doc_id": "ab1f64e4c1fc",
+        "text": "I have yet to use the camera for a whole lot. But it takes excellent pictures (as did my S7). The night mode is really neat. It doesn't seem to do completly realistic pictures, but makes for some very pretty sunset/ sunrises pictures. I've posted a few photos to see. The case I bought and really enjoy: Hopefully this review helps!",
+        "score": 0.03239488855087976,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 5,
+        "timestamp": "2019-12-20",
+        "aspect_tags": [
+          "camera"
+        ],
+        "helpful_votes": 39,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 4.956843852996826,
+        "bm25_rank": 37,
+        "dense_score": 0.6036124229431152,
+        "dense_rank": 12,
+        "aspect_boosted": true,
+        "rrf_score": 0.02419816723940435,
+        "rrf_normalized": 0.7380441008018327,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 8,
+        "semantic_rank": 11,
+        "cross_encoder_raw_score": -7.057209014892578,
+        "cross_encoder_score": 3.7081373888137037e-07,
+        "cross_encoder_contribution": 0.0380952380952381,
+        "retrieval_rank_contribution": 0.011111111111111108,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.2970660585497319,
+        "rerank_strategy": "learned",
+        "scoring_query": "How do reviewers rate the camera quality on the ?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": -0.016645178166288545,
+          "semantic_rank": -0.023659530055629402,
+          "retrieval_rank": 0.003634246727850329,
+          "aspect_coverage": 0.016606736992198345,
+          "keyword_count": 0.18741496277105862,
+          "keyword_density": 0.004366137905389661,
+          "length": 0.1253486823751529
+        },
+        "final_rank": 3
+      },
+      {
+        "rank": 18,
+        "row_id": 266271,
+        "chunk_id": "c1cfbdf36f8c_0",
+        "doc_id": "c1cfbdf36f8c",
+        "text": "Make sure your carrier is compatible.. Absolutely love this phone, it is perfect. Don't listen to all the bad reviews on here. Just make sure your Carrier is compatible, and you're good. I have metro, so I had to go to the store. They charged me 15 bucks to switch my phone, took them 10 minutes and I was good to go. The sound quality is the best. I love it. Charge lasts all day long, camera quality is awesome. I must have saved hundreds buying this. If this is the phone you want, get it .",
+        "score": 0.024069737184491284,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 5,
+        "timestamp": "2019-11-08",
+        "aspect_tags": [
+          "camera",
+          "battery",
+          "carrier"
+        ],
+        "helpful_votes": 36,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 7.155604362487793,
+        "bm25_rank": 3,
+        "dense_score": null,
+        "dense_rank": null,
+        "aspect_boosted": true,
+        "rrf_score": 0.015873015873015872,
+        "rrf_normalized": 0.4841269841269841,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 18,
+        "semantic_rank": 4,
+        "cross_encoder_raw_score": -3.358729839324951,
+        "cross_encoder_score": 0.0006040728617130453,
+        "cross_encoder_contribution": 0.05714285714285715,
+        "retrieval_rank_contribution": 0.007142857142857141,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.2877816922090835,
+        "rerank_strategy": "learned",
+        "scoring_query": "How do reviewers rate the camera quality on the ?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.1379752804377401,
+          "semantic_rank": 0.0754838054650363,
+          "retrieval_rank": -0.02834823156001232,
+          "aspect_coverage": 0.016606736992198345,
+          "keyword_count": -0.053643122817355955,
+          "keyword_density": -0.065373318161575,
+          "length": 0.20508054185305202
+        },
+        "final_rank": 4
+      },
+      {
+        "rank": 3,
+        "row_id": 375354,
+        "chunk_id": "d44bba0da53b_1",
+        "doc_id": "d44bba0da53b",
+        "text": "The quality of the pictures from the camera(s) is terrific. I'm about a week into operating this Galaxy S-10 and so far it was definitely worth the deeply discounted investment!",
+        "score": 0.03783926708305344,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 5,
+        "timestamp": "2021-09-29",
+        "aspect_tags": [
+          "camera"
+        ],
+        "helpful_votes": 1,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 6.004489421844482,
+        "bm25_rank": 14,
+        "dense_score": 0.6528016328811646,
+        "dense_rank": 2,
+        "aspect_boosted": true,
+        "rrf_score": 0.02964254577157803,
+        "rrf_normalized": 0.9040976460331299,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 3,
+        "semantic_rank": 5,
+        "cross_encoder_raw_score": -3.4211268424987793,
+        "cross_encoder_score": 0.0005332778418140616,
+        "cross_encoder_contribution": 0.05333333333333334,
+        "retrieval_rank_contribution": 0.015384615384615382,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.2751417028264694,
+        "rerank_strategy": "learned",
+        "scoring_query": "How do reviewers rate the camera quality on the ?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.13536668031096674,
+          "semantic_rank": 0.055655138360903175,
+          "retrieval_rank": 0.038076915653240895,
+          "aspect_coverage": 0.016606736992198345,
+          "keyword_count": 0.035324244234352944,
+          "keyword_density": -0.010524771110166626,
+          "length": 0.004636758384973952
+        },
+        "final_rank": 5
+      },
+      {
+        "rank": 16,
+        "row_id": 431884,
+        "chunk_id": "6816ca0ca230_0",
+        "doc_id": "6816ca0ca230",
+        "text": "Amazing Phone. The best I've ever had!!. I would leave a picture review but I'm actually leaving this review on the s10. Everything about it is absolutely impeccable. The graphics, amazing, the sound, amazing. Not one scratch on it. The camera is amazing. I want to thank Refoned for such amazing phones and the quality is outstanding. Love, love, love it! red heart",
+        "score": 0.02459016393442623,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 5,
+        "timestamp": "2022-11-18",
+        "aspect_tags": [
+          "camera"
+        ],
+        "helpful_votes": 0,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 8.364092826843262,
+        "bm25_rank": 1,
+        "dense_score": null,
+        "dense_rank": null,
+        "aspect_boosted": true,
+        "rrf_score": 0.01639344262295082,
+        "rrf_normalized": 0.5,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 16,
+        "semantic_rank": 6,
+        "cross_encoder_raw_score": -4.548336982727051,
+        "cross_encoder_score": 5.6012640047259366e-05,
+        "cross_encoder_contribution": 0.05,
+        "retrieval_rank_contribution": 0.007692307692307691,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.24092536906026998,
+        "rerank_strategy": "learned",
+        "scoring_query": "How do reviewers rate the camera quality on the ?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.08824197295109429,
+          "semantic_rank": 0.03830505464478668,
+          "retrieval_rank": -0.023919888412462103,
+          "aspect_coverage": 0.016606736992198345,
+          "keyword_count": 0.035324244234352944,
+          "keyword_density": -0.044510485223902246,
+          "length": 0.1308777338742021
+        },
+        "final_rank": 6
+      },
+      {
+        "rank": 14,
+        "row_id": 354237,
+        "chunk_id": "8bd807f8181d_0",
+        "doc_id": "8bd807f8181d",
+        "text": "bad camera at every level. worse camera camera ever, I regret that I bought it because camera is everything these days but with that phone you can forget about camera camera . So disappointing disappointed face",
+        "score": 0.02614365408783497,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 2,
+        "timestamp": "2021-05-22",
+        "aspect_tags": [
+          "camera"
+        ],
+        "helpful_votes": 0,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 4.0850114822387695,
+        "bm25_rank": 79,
+        "dense_score": 0.5843403339385986,
+        "dense_rank": 33,
+        "aspect_boosted": true,
+        "rrf_score": 0.01794693277635956,
+        "rrf_normalized": 0.5473814496789665,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 14,
+        "semantic_rank": 17,
+        "cross_encoder_raw_score": -9.556730270385742,
+        "cross_encoder_score": 2.500918611092473e-09,
+        "cross_encoder_contribution": 0.02962962962962963,
+        "retrieval_rank_contribution": 0.008333333333333331,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.15247467835503517,
+        "rerank_strategy": "learned",
+        "scoring_query": "How do reviewers rate the camera quality on the ?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": -0.12114140606665401,
+          "semantic_rank": -0.06772323473148083,
+          "retrieval_rank": -0.018753488073653526,
+          "aspect_coverage": 0.016606736992198345,
+          "keyword_count": 0.2212387859292368,
+          "keyword_density": 0.08679795567007628,
+          "length": 0.035449328635312145
+        },
+        "final_rank": 7
+      },
+      {
+        "rank": 7,
+        "row_id": 310609,
+        "chunk_id": "8b5b2f242cb6_0",
+        "doc_id": "8b5b2f242cb6",
+        "text": "The camera quality is perfect. It's perfect OK hand",
+        "score": 0.03316751570399878,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 5,
+        "timestamp": "2020-09-03",
+        "aspect_tags": [
+          "camera"
+        ],
+        "helpful_votes": 0,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 6.973733901977539,
+        "bm25_rank": 4,
+        "dense_score": 0.5770961046218872,
+        "dense_rank": 47,
+        "aspect_boosted": true,
+        "rrf_score": 0.024970794392523366,
+        "rrf_normalized": 0.7616092289719627,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 7,
+        "semantic_rank": 1,
+        "cross_encoder_raw_score": -2.427677631378174,
+        "cross_encoder_score": 0.0038632022111367015,
+        "cross_encoder_contribution": 0.07272727272727274,
+        "retrieval_rank_contribution": 0.01176470588235294,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.14569825072809736,
+        "rerank_strategy": "learned",
+        "scoring_query": "How do reviewers rate the camera quality on the ?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.17689931178771515,
+          "semantic_rank": 0.15660107998194464,
+          "retrieval_rank": 0.008901949034086535,
+          "aspect_coverage": 0.016606736992198345,
+          "keyword_count": -0.053643122817355955,
+          "keyword_density": 0.03272977412549689,
+          "length": -0.19239747837598822
+        },
+        "final_rank": 8
+      },
+      {
+        "rank": 9,
+        "row_id": 292309,
+        "chunk_id": "a83d3473712f_0",
+        "doc_id": "a83d3473712f",
+        "text": "Good phone other than the cameras. The 3 cameras on the back of the phone take very low quality pictures. Not sure if they are refurbished using cheap parts...",
+        "score": 0.03159667071699021,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 3,
+        "timestamp": "2020-04-17",
+        "aspect_tags": [
+          "camera"
+        ],
+        "helpful_votes": 0,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 6.454207420349121,
+        "bm25_rank": 7,
+        "dense_score": 0.5718584060668945,
+        "dense_rank": 58,
+        "aspect_boosted": true,
+        "rrf_score": 0.0233999494055148,
+        "rrf_normalized": 0.7136984568682013,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 9,
+        "semantic_rank": 10,
+        "cross_encoder_raw_score": -6.413337707519531,
+        "cross_encoder_score": 1.3440470840453411e-06,
+        "cross_encoder_contribution": 0.04,
+        "retrieval_rank_contribution": 0.010526315789473682,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.13470148978181665,
+        "rerank_strategy": "learned",
+        "scoring_query": "How do reviewers rate the camera quality on the ?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.010272825721814089,
+          "semantic_rank": -0.013745196503562809,
+          "retrieval_rank": -0.0010789605987820618,
+          "aspect_coverage": 0.016606736992198345,
+          "keyword_count": 0.09844759571934975,
+          "keyword_density": 0.025272093912451457,
+          "length": -0.0010736054616521137
+        },
+        "final_rank": 9
+      },
+      {
+        "rank": 2,
+        "row_id": 244716,
+        "chunk_id": "c6c008718756_0",
+        "doc_id": "c6c008718756",
+        "text": "Quality product. The camera is excellent. A value for the money I paid for.",
+        "score": 0.038499751614505716,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 5,
+        "timestamp": "2019-05-29",
+        "aspect_tags": [
+          "camera"
+        ],
+        "helpful_votes": 0,
+        "verified": true,
+        "is_renewed": false,
+        "source_url": "https://www.amazon.com/dp/B07VZNDZY6",
+        "bm25_score": 6.835804462432861,
+        "bm25_rank": 6,
+        "dense_score": 0.636600136756897,
+        "dense_rank": 6,
+        "aspect_boosted": true,
+        "rrf_score": 0.030303030303030304,
+        "rrf_normalized": 0.9242424242424243,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 2,
+        "semantic_rank": 3,
+        "cross_encoder_raw_score": -3.0179998874664307,
+        "cross_encoder_score": 0.0011927005107902344,
+        "cross_encoder_contribution": 0.06153846153846154,
+        "retrieval_rank_contribution": 0.016666666666666663,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.13428048839587314,
+        "rerank_strategy": "learned",
+        "scoring_query": "How do reviewers rate the camera quality on the ?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.15222000615217038,
+          "semantic_rank": 0.09836303673903612,
+          "retrieval_rank": 0.04840971633085804,
+          "aspect_coverage": 0.016606736992198345,
+          "keyword_count": -0.053643122817355955,
+          "keyword_density": -0.005890355549202682,
+          "length": -0.12178552945183109
+        },
+        "final_rank": 10
+      }
+    ],
+    "reranked": true,
+    "candidate_count": 50,
+    "rewrite": {
+      "query": "How do reviewers rate the camera quality on the Samsung Galaxy S10?",
+      "product": [
+        {
+          "brand": "Samsung",
+          "model": "Galaxy S10"
+        }
+      ],
+      "aspects": [
+        "camera"
+      ]
+    },
+    "rewrite_error": null,
+    "retrieval": [
+      {
+        "filters": {
+          "model": "Galaxy S10"
+        },
+        "model_variants": [
+          "Galaxy S10"
+        ],
+        "n_candidates": 3383,
+        "search_text": "How do reviewers rate the camera quality on the ?",
+        "hits": 50,
+        "aspect_weight": 0.5
+      }
+    ],
+    "timing_ms": {
+      "rewrite": 1221.9350417144597,
+      "retrieve": 57.96325020492077,
+      "rerank": 57.25429207086563,
+      "total": 8590.844001155347,
+      "classification": 2660.8162499032915,
+      "generation": 1948.464916087687,
+      "verification": 2644.3438748829067
+    },
+    "question": "How do reviewers rate the camera quality on the Samsung Galaxy S10?",
+    "answer": "One reviewer said they were not used to such good camera quality and found pleasure in it. [acef1f9eece3_0]\nA reviewer who was disappointed with the battery called the camera outstanding and said their pictures were superior to any other phone camera they had used. [8e51bc830f71_0]\nOne reviewer said the phone takes excellent pictures and found the night mode really neat, though it doesn't seem to produce completely realistic pictures. [ab1f64e4c1fc_1]\nA reviewer described the camera quality as awesome and the picture quality as terrific. [c1cfbdf36f8c_0] [d44bba0da53b_1]\nOther reviewers called the camera amazing, perfect, and excellent. [6816ca0ca230_0] [8b5b2f242cb6_0] [c6c008718756_0]\nIn contrast, one reviewer called it a bad camera at every level, and another said the three rear cameras take very low quality pictures. [8bd807f8181d_0] [a83d3473712f_0]",
+    "draft_answer": "One reviewer said they were not used to such good camera quality and found pleasure in it. [acef1f9eece3_0]\nA reviewer who was disappointed with the battery called the camera outstanding and said their pictures were superior to any other phone camera they had used. [8e51bc830f71_0]\nOne reviewer said the phone takes excellent pictures and found the night mode really neat, though it doesn't seem to produce completely realistic pictures. [ab1f64e4c1fc_1]\nA reviewer described the camera quality as awesome and the picture quality as terrific. [c1cfbdf36f8c_0] [d44bba0da53b_1]\nOther reviewers called the camera amazing, perfect, and excellent. [6816ca0ca230_0] [8b5b2f242cb6_0] [c6c008718756_0]\nIn contrast, one reviewer called it a bad camera at every level, and another said the three rear cameras take very low quality pictures. [8bd807f8181d_0] [a83d3473712f_0]",
+    "abstained": false,
+    "status": "completed",
+    "sentences": [
+      {
+        "text": "One reviewer said they were not used to such good camera quality and found pleasure in it.",
+        "citations": [
+          "acef1f9eece3_0"
+        ]
+      },
+      {
+        "text": "A reviewer who was disappointed with the battery called the camera outstanding and said their pictures were superior to any other phone camera they had used.",
+        "citations": [
+          "8e51bc830f71_0"
+        ]
+      },
+      {
+        "text": "One reviewer said the phone takes excellent pictures and found the night mode really neat, though it doesn't seem to produce completely realistic pictures.",
+        "citations": [
+          "ab1f64e4c1fc_1"
+        ]
+      },
+      {
+        "text": "A reviewer described the camera quality as awesome and the picture quality as terrific.",
+        "citations": [
+          "c1cfbdf36f8c_0",
+          "d44bba0da53b_1"
+        ]
+      },
+      {
+        "text": "Other reviewers called the camera amazing, perfect, and excellent.",
+        "citations": [
+          "6816ca0ca230_0",
+          "8b5b2f242cb6_0",
+          "c6c008718756_0"
+        ]
+      },
+      {
+        "text": "In contrast, one reviewer called it a bad camera at every level, and another said the three rear cameras take very low quality pictures.",
+        "citations": [
+          "8bd807f8181d_0",
+          "a83d3473712f_0"
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "sentence_id": "s0",
+        "text": "One reviewer said they were not used to such good camera quality and found pleasure in it.",
+        "citations": [
+          "acef1f9eece3_0"
+        ],
+        "status": "supported",
+        "reason": "The cited review states the reviewer is not used to such good camera quality and finds a certain pleasure in it.",
+        "evidence": [
+          {
+            "chunk_id": "acef1f9eece3_0",
+            "quote": "I'm not used to such good camera quality, theres a certain pleasure in it."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s1",
+        "text": "A reviewer who was disappointed with the battery called the camera outstanding and said their pictures were superior to any other phone camera they had used.",
+        "citations": [
+          "8e51bc830f71_0"
+        ],
+        "status": "supported",
+        "reason": "The review expresses disappointment with the battery and calls the camera outstanding, saying pictures are much superior to any other phone camera used.",
+        "evidence": [
+          {
+            "chunk_id": "8e51bc830f71_0",
+            "quote": "Disappointed with battery. The battery on this phone absolutely su.ks."
+          },
+          {
+            "chunk_id": "8e51bc830f71_0",
+            "quote": "The real good thing is the camera is outstanding. I have not been able to check out all the camera features, but the pictures I've taken so far are much superior to any other phone camera I've used."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s2",
+        "text": "One reviewer said the phone takes excellent pictures and found the night mode really neat, though it doesn't seem to produce completely realistic pictures.",
+        "citations": [
+          "ab1f64e4c1fc_1"
+        ],
+        "status": "supported",
+        "reason": "The review says it takes excellent pictures, the night mode is really neat, and it doesn't seem to do completely realistic pictures.",
+        "evidence": [
+          {
+            "chunk_id": "ab1f64e4c1fc_1",
+            "quote": "But it takes excellent pictures (as did my S7). The night mode is really neat. It doesn't seem to do completly realistic pictures, but makes for some very pretty sunset/ sunrises pictures."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s3",
+        "text": "A reviewer described the camera quality as awesome and the picture quality as terrific.",
+        "citations": [
+          "c1cfbdf36f8c_0",
+          "d44bba0da53b_1"
+        ],
+        "status": "supported",
+        "reason": "One cited review says camera quality is awesome; the other says picture quality is terrific.",
+        "evidence": [
+          {
+            "chunk_id": "c1cfbdf36f8c_0",
+            "quote": "camera quality is awesome"
+          },
+          {
+            "chunk_id": "d44bba0da53b_1",
+            "quote": "The quality of the pictures from the camera(s) is terrific."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s4",
+        "text": "Other reviewers called the camera amazing, perfect, and excellent.",
+        "citations": [
+          "6816ca0ca230_0",
+          "8b5b2f242cb6_0",
+          "c6c008718756_0"
+        ],
+        "status": "supported",
+        "reason": "The three cited reviews respectively call the camera amazing, perfect, and excellent.",
+        "evidence": [
+          {
+            "chunk_id": "6816ca0ca230_0",
+            "quote": "The camera is amazing."
+          },
+          {
+            "chunk_id": "8b5b2f242cb6_0",
+            "quote": "The camera quality is perfect."
+          },
+          {
+            "chunk_id": "c6c008718756_0",
+            "quote": "The camera is excellent."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s5",
+        "text": "In contrast, one reviewer called it a bad camera at every level, and another said the three rear cameras take very low quality pictures.",
+        "citations": [
+          "8bd807f8181d_0",
+          "a83d3473712f_0"
+        ],
+        "status": "supported",
+        "reason": "One review says bad camera at every level; the other says the three rear cameras take very low quality pictures.",
+        "evidence": [
+          {
+            "chunk_id": "8bd807f8181d_0",
+            "quote": "bad camera at every level. worse camera camera ever"
+          },
+          {
+            "chunk_id": "a83d3473712f_0",
+            "quote": "The 3 cameras on the back of the phone take very low quality pictures."
+          }
+        ],
+        "flagged": false
+      }
+    ],
+    "flagged_sentences": [],
+    "verification_enabled": true,
+    "checker_error": null,
+    "predictions": [
+      {
+        "chunk_id": "acef1f9eece3_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "such good camera quality"
+        ],
+        "reason": "Praises camera quality positively.",
+        "doc_id": "acef1f9eece3",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "camera"
+      },
+      {
+        "chunk_id": "8e51bc830f71_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "the camera is outstanding",
+          "pictures I've taken so far are much superior"
+        ],
+        "reason": "Camera praised as outstanding and superior despite battery complaints.",
+        "doc_id": "8e51bc830f71",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "camera"
+      },
+      {
+        "chunk_id": "ab1f64e4c1fc_1",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "mixed",
+        "evidence_quotes": [
+          "takes excellent pictures",
+          "doesn't seem to do completly realistic pictures"
+        ],
+        "reason": "Praises pictures and night mode but notes not completely realistic.",
+        "doc_id": "ab1f64e4c1fc",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "camera"
+      },
+      {
+        "chunk_id": "c1cfbdf36f8c_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "camera quality is awesome"
+        ],
+        "reason": "Camera quality praised as awesome.",
+        "doc_id": "c1cfbdf36f8c",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "camera"
+      },
+      {
+        "chunk_id": "d44bba0da53b_1",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "quality of the pictures from the camera(s) is terrific"
+        ],
+        "reason": "Camera picture quality praised as terrific.",
+        "doc_id": "d44bba0da53b",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "camera"
+      },
+      {
+        "chunk_id": "6816ca0ca230_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "The camera is amazing"
+        ],
+        "reason": "Camera described as amazing.",
+        "doc_id": "6816ca0ca230",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "camera"
+      },
+      {
+        "chunk_id": "8bd807f8181d_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "bad camera at every level",
+          "worse camera camera ever"
+        ],
+        "reason": "Strongly criticizes camera quality.",
+        "doc_id": "8bd807f8181d",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "camera"
+      },
+      {
+        "chunk_id": "8b5b2f242cb6_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "The camera quality is perfect"
+        ],
+        "reason": "Camera quality called perfect.",
+        "doc_id": "8b5b2f242cb6",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "camera"
+      },
+      {
+        "chunk_id": "a83d3473712f_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "take very low quality pictures"
+        ],
+        "reason": "Criticizes rear cameras for low quality pictures.",
+        "doc_id": "a83d3473712f",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "camera"
+      },
+      {
+        "chunk_id": "c6c008718756_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "The camera is excellent"
+        ],
+        "reason": "Camera praised as excellent.",
+        "doc_id": "c6c008718756",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "camera"
+      }
+    ],
+    "statistics": [
+      {
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "aspect": "camera",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "model_aliases": [
+          "Galaxy S10"
+        ],
+        "scope": "retrieved_sample",
+        "count_unit": "unique_doc_id",
+        "n_relevant_reviews": 10,
+        "n_excluded_aspect_absent": 0,
+        "counts": {
+          "positive": 7,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "positive_ratio": 0.7,
+        "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+        "polarized_positive_ratio": 0.7777777777777778,
+        "polarized_denominator": 9
+      }
+    ],
+    "contexts": [
+      "'Ol Reliable. I'm not used to such good camera quality, theres a certain pleasure in it. I've been living off of the Galaxy series of phones for what feels like nearly 5 years now. Has yet to do me wrong. This review was written on the phone in question.",
+      "Disappointed with battery. The battery on this phone absolutely su.ks. It doesn't last all day. It lasts about 6 hours. I had read the same comment from other reviewers. I needed a new phone because the battery on my old one was only lasting a couple of hours. Very disappointed with the battery charge. The real good thing is the camera is outstanding. I have not been able to check out all the camera features, but the pictures I've taken so far are much superior to any other phone camera I've used.",
+      "I have yet to use the camera for a whole lot. But it takes excellent pictures (as did my S7). The night mode is really neat. It doesn't seem to do completly realistic pictures, but makes for some very pretty sunset/ sunrises pictures. I've posted a few photos to see. The case I bought and really enjoy: Hopefully this review helps!",
+      "Make sure your carrier is compatible.. Absolutely love this phone, it is perfect. Don't listen to all the bad reviews on here. Just make sure your Carrier is compatible, and you're good. I have metro, so I had to go to the store. They charged me 15 bucks to switch my phone, took them 10 minutes and I was good to go. The sound quality is the best. I love it. Charge lasts all day long, camera quality is awesome. I must have saved hundreds buying this. If this is the phone you want, get it .",
+      "The quality of the pictures from the camera(s) is terrific. I'm about a week into operating this Galaxy S-10 and so far it was definitely worth the deeply discounted investment!",
+      "Amazing Phone. The best I've ever had!!. I would leave a picture review but I'm actually leaving this review on the s10. Everything about it is absolutely impeccable. The graphics, amazing, the sound, amazing. Not one scratch on it. The camera is amazing. I want to thank Refoned for such amazing phones and the quality is outstanding. Love, love, love it! red heart",
+      "bad camera at every level. worse camera camera ever, I regret that I bought it because camera is everything these days but with that phone you can forget about camera camera . So disappointing disappointed face",
+      "The camera quality is perfect. It's perfect OK hand",
+      "Good phone other than the cameras. The 3 cameras on the back of the phone take very low quality pictures. Not sure if they are refurbished using cheap parts...",
+      "Quality product. The camera is excellent. A value for the money I paid for."
+    ],
+    "timing": {
+      "classification_s": 2.6608162499032915,
+      "generation_s": 1.948464916087687,
+      "verification_s": 2.6443438748829067,
+      "total_s": 7.25368770910427
+    },
+    "timing_scope": "downstream",
+    "api": {
+      "api_calls": 3,
+      "cache_hits": 0,
+      "model": "deepseek-flash",
+      "usage": [
+        {
+          "model": "deepseek-flash",
+          "prompt_tokens": 1372,
+          "completion_tokens": 582,
+          "total_tokens": 1954,
+          "prompt_tokens_details": {
+            "cached_tokens": 1152
+          },
+          "prompt_cache_hit_tokens": 1152,
+          "prompt_cache_miss_tokens": 220
+        },
+        {
+          "model": "deepseek-flash",
+          "prompt_tokens": 1246,
+          "completion_tokens": 285,
+          "total_tokens": 1531,
+          "prompt_tokens_details": {
+            "cached_tokens": 1024
+          },
+          "prompt_cache_hit_tokens": 1024,
+          "prompt_cache_miss_tokens": 222
+        },
+        {
+          "model": "deepseek-flash",
+          "prompt_tokens": 1667,
+          "completion_tokens": 615,
+          "total_tokens": 2282,
+          "prompt_tokens_details": {
+            "cached_tokens": 128
+          },
+          "prompt_cache_hit_tokens": 128,
+          "prompt_cache_miss_tokens": 1539
+        }
+      ]
+    },
+    "language": "en",
+    "statistics_note": "Ratios cover deduplicated reviews in this retrieved sample only, not all buyers; missing review fragments could change the picture."
+  },
+  "benchmark_timing": {
+    "query_id": "Q001",
+    "query": "How do reviewers rate the camera quality on the Samsung Galaxy S10?",
+    "timing_scope": "end_to_end",
+    "query_state": "after_local_search_warmup",
+    "query_position": 1,
+    "n_chunks": 10,
+    "total_s": 8.592143584042788,
+    "rewrite_s": 1.2219350417144597,
+    "retrieve_s": 0.05796325020492077,
+    "rerank_s": 0.05725429207086563,
+    "classification_s": 2.6608162499032915,
+    "generation_s": 1.948464916087687,
+    "verification_s": 2.6443438748829067,
+    "degraded": false
+  }
+}

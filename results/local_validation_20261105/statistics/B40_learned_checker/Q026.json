@@ -1,0 +1,54 @@
+{
+  "source": "results/group_c/b40/B40_learned_checker/Q026.json",
+  "source_sha256": "d5773dbf741b5f8c1a579608fa29acecd32324484a720b33c3382d4674fa6a79",
+  "question": "What experiences do iPhone 8 buyers describe when seeking help or returning a faulty phone?",
+  "statistics_before": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 1,
+      "counts": {
+        "positive": 2,
+        "negative": 7,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.2222222222222222,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.2222222222222222,
+      "polarized_denominator": 9
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "aspect": "service",
+      "product_id": "phone-v1:2862e7c492174c84988682b5273d510153ea6c3cc660f480f4398e7034d180cb",
+      "canonical_model": null,
+      "model_aliases": [
+        "iPhone 8"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 1,
+      "counts": {
+        "positive": 2,
+        "negative": 7,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.2222222222222222,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.2222222222222222,
+      "polarized_denominator": 9
+    }
+  ],
+  "numerical_change": false,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

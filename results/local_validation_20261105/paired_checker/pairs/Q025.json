@@ -1,0 +1,506 @@
+{
+  "query_id": "Q025",
+  "identity_sha256": "e54e392eff593671a85cbb98d6b81e92e65d37232822ce8e988e1ec2c38b1ed7",
+  "input_sha256": "28748e7ea8994d10b82592e4d5de16ba437d6b7ac2038aec1ee1962fd000ad50",
+  "core_sha256": "07f42f3c92ebc68c32df971b80d5e4c991ef583bba32474f9163fec1a9b13f5a",
+  "frozen": {
+    "question": "What do Galaxy S10 buyers report about customer support, returns, or replacements?",
+    "chunks": [
+      {
+        "chunk_id": "efb8a471d5bb_0",
+        "doc_id": "efb8a471d5bb",
+        "text": "The seller is non responsive when asking for a return or replacement. The phone was a little slow and we requested a replacement shortly after receiving it, the seller ignored our request until the acceptable return/replace date passed. Bad customer service from this seller.",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "source_url": "https://www.amazon.com/dp/B0BM3F9RK1"
+      },
+      {
+        "chunk_id": "3d6598e4c5dd_0",
+        "doc_id": "3d6598e4c5dd",
+        "text": "Buyer Beware - Selling defective products. Received the supposedly reconditioned phone. Unfortunately, nither the cellular or LTE service would stay active. Calls would disconnect after 1-2 minutes, and cell service would drop out completely. Same for the networking service. Data service would continue to drop off. Worked with the carrier T-Mobile, and confirmed after full network resets, new SIM cards, and hours of troubleshooting, that the phone was defective. When purchasing a reconditioned device, you roll the dice. I took that chance, and would have been OK with trying again. Unfortunately, after eventually getting a hold of the supplier, seems like I can return it, but doesn't look like a replacement is available. Go figure. Avoid the supplier and if possible, avoid doing these reconditioned phones. Chances are, you will roll snake eyes.",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+      },
+      {
+        "chunk_id": "911850fe69cf_0",
+        "doc_id": "911850fe69cf",
+        "text": "Excellent customer service from ReNew Pro's. Received a phone (Galaxy S10) that did not fit my cell service needs. I really hated having to send it back because it looked like an unused \"new\" phone. I contacted ReNew Pro's and they sent a replacement the next day by overnight delivery. The new phone worked on my cell service. And once again, I can't call it \"excellent condition\" it's \"new\"! Quality, Service, and Price. They hit all 3 of my 5 Star buttons.",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+      },
+      {
+        "chunk_id": "294133f9f2d4_0",
+        "doc_id": "294133f9f2d4",
+        "text": "Great customer service.. Seller was everthing you could ask for. While the phone was BEAUTIFUL, service with my carrier was spotty, carriers fault?. Dealer accepted return without question, and refunded promptly. Highest marks for custo",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+      },
+      {
+        "chunk_id": "dfb6aa4c3895_0",
+        "doc_id": "dfb6aa4c3895",
+        "text": "Excellent customer service. Re-Cell actually picked up the phone when I called. My error with my first purchase of a refurbished cell phone. Swift replacement, phone is in perfect shape and works well. I am happy to recommend this company to anyone.",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+      },
+      {
+        "chunk_id": "f54be6a2a1cb_0",
+        "doc_id": "f54be6a2a1cb",
+        "text": "First phone was locked. the replacment was fine.. The description specifically states that the phone is unlocked, however like many other reviewers, my first phone was locked. Amazon support will simply assist you with a return\\refund. However the actual seller of my phone was \"CTNY\" (CellTradeNY). They had a paper in the box with the phone, so I called them. They were quick to answer the phone, super helpful and worked to get the locked phone returned and a new one shipped out. If you can purchase a phone from the seller CTNY specifically- do so. They were great to work with!",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+      },
+      {
+        "chunk_id": "f25bdc455a33_0",
+        "doc_id": "f25bdc455a33",
+        "text": "Phone defective. Phone defective My phone is defective, I do not trust this seller, can't get a replacement, they keep updating the delivery date till my phone is not returnable anymore. Buyers be aware when you buy used items from 3rd parties.",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "source_url": "https://www.amazon.com/dp/B0BM3F9RK1"
+      },
+      {
+        "chunk_id": "bba6e50e0640_0",
+        "doc_id": "bba6e50e0640",
+        "text": "Do not purchase. Lasted 1 month, alot of scratches, can't call, bad battery, accepted my return and received the phone then denied me a refund. Seller just double his money. Wow good customer service",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+      },
+      {
+        "chunk_id": "6b5a860c4aed_0",
+        "doc_id": "6b5a860c4aed",
+        "text": "Takes care of their customer!. Great phone! Customer service was outstanding. 1st phone sent had an issue with the sim/sd card reader. They sent a paid return label via email that same day and replaced it with another phone the moment they saw the fist USPS scan that the defective device was in their system. A pleasure to do business with. I would recommend and use them again!",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ"
+      },
+      {
+        "chunk_id": "23dfc254452c_0",
+        "doc_id": "23dfc254452c",
+        "text": "Did not come with promised accessories. To be clear, the phone, so far, is great. The one star is because Amazon renewed premium promised charger and a charging cord with a renewed premium product. However, it only came with the cord. When I contacted customer service, they were nice and tried to help, but could not send me the charger. The only option was to return the phone, that I had already set up, and they'd send a new phone and promised the charger would be in the box this time. I declined to do that considering my time to reset a phone. They also offered me $5 for a credit. I declined on principle. It was actually insulting to offer the $5 to make it better when an official Samsung charger on their own website is $49.99. The representative, Steve, was nice. He did what he could.",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "source_url": "https://www.amazon.com/dp/B07ZQZ15YK"
+      }
+    ],
+    "sentences": [
+      {
+        "text": "One reviewer reported that the seller was non-responsive when asked for a return or replacement and ignored the request until the acceptable return date passed.",
+        "citations": [
+          "efb8a471d5bb_0"
+        ]
+      },
+      {
+        "text": "One reviewer said that after eventually reaching the supplier it seemed a return was possible but a replacement was not available.",
+        "citations": [
+          "3d6598e4c5dd_0"
+        ]
+      },
+      {
+        "text": "One reviewer praised ReNew Pro's customer service, saying they sent a replacement the next day by overnight delivery.",
+        "citations": [
+          "911850fe69cf_0"
+        ]
+      },
+      {
+        "text": "One reviewer said the dealer accepted a return without question and refunded promptly.",
+        "citations": [
+          "294133f9f2d4_0"
+        ]
+      },
+      {
+        "text": "One reviewer said Re-Cell answered the phone and provided a swift replacement.",
+        "citations": [
+          "dfb6aa4c3895_0"
+        ]
+      },
+      {
+        "text": "One reviewer reported that the seller CTNY was quick to answer, helpful, and worked to get a locked phone returned and a new one shipped.",
+        "citations": [
+          "f54be6a2a1cb_0"
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "chunk_id": "efb8a471d5bb_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "The seller is non responsive",
+          "Bad customer service from this seller"
+        ],
+        "reason": "Seller unresponsive and bad customer service explicitly criticized.",
+        "doc_id": "efb8a471d5bb",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "aspect": "service"
+      },
+      {
+        "chunk_id": "3d6598e4c5dd_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "after eventually getting a hold of the supplier",
+          "Avoid the supplier"
+        ],
+        "reason": "Supplier hard to reach and advised to avoid; negative service.",
+        "doc_id": "3d6598e4c5dd",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "aspect": "service"
+      },
+      {
+        "chunk_id": "911850fe69cf_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "Excellent customer service from ReNew Pro's",
+          "they sent a replacement the next day by overnight delivery"
+        ],
+        "reason": "Praise for excellent customer service and fast replacement.",
+        "doc_id": "911850fe69cf",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "aspect": "service"
+      },
+      {
+        "chunk_id": "294133f9f2d4_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "Great customer service",
+          "Dealer accepted return without question, and refunded promptly"
+        ],
+        "reason": "Positive service: easy return and prompt refund.",
+        "doc_id": "294133f9f2d4",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "aspect": "service"
+      },
+      {
+        "chunk_id": "dfb6aa4c3895_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "Excellent customer service",
+          "Swift replacement"
+        ],
+        "reason": "Praise for excellent customer service and swift replacement.",
+        "doc_id": "dfb6aa4c3895",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "aspect": "service"
+      },
+      {
+        "chunk_id": "f54be6a2a1cb_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "They were quick to answer the phone, super helpful",
+          "They were great to work with!"
+        ],
+        "reason": "Seller CTNY praised as helpful and great to work with.",
+        "doc_id": "f54be6a2a1cb",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "aspect": "service"
+      },
+      {
+        "chunk_id": "f25bdc455a33_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "I do not trust this seller",
+          "can't get a replacement"
+        ],
+        "reason": "Distrust of seller and inability to get replacement; negative service.",
+        "doc_id": "f25bdc455a33",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "aspect": "service"
+      },
+      {
+        "chunk_id": "bba6e50e0640_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "accepted my return and received the phone then denied me a refund",
+          "Wow good customer service"
+        ],
+        "reason": "Sarcastic criticism; refund denied after return.",
+        "doc_id": "bba6e50e0640",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "aspect": "service"
+      },
+      {
+        "chunk_id": "6b5a860c4aed_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "Customer service was outstanding",
+          "A pleasure to do business with"
+        ],
+        "reason": "Outstanding customer service and fast replacement praised.",
+        "doc_id": "6b5a860c4aed",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "aspect": "service"
+      },
+      {
+        "chunk_id": "23dfc254452c_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "mixed",
+        "evidence_quotes": [
+          "they were nice and tried to help, but could not send me the charger",
+          "It was actually insulting to offer the $5"
+        ],
+        "reason": "Rep was nice but resolution inadequate; both positive and negative service views.",
+        "doc_id": "23dfc254452c",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "aspect": "service"
+      }
+    ],
+    "statistics": [
+      {
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "aspect": "service",
+        "scope": "retrieved_sample",
+        "count_unit": "unique_doc_id",
+        "n_relevant_reviews": 10,
+        "n_excluded_aspect_absent": 0,
+        "counts": {
+          "positive": 5,
+          "negative": 4,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "positive_ratio": 0.5,
+        "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+        "polarized_positive_ratio": 0.5555555555555556,
+        "polarized_denominator": 9
+      }
+    ],
+    "draft_answer": "One reviewer reported that the seller was non-responsive when asked for a return or replacement and ignored the request until the acceptable return date passed. [efb8a471d5bb_0]\nOne reviewer said that after eventually reaching the supplier it seemed a return was possible but a replacement was not available. [3d6598e4c5dd_0]\nOne reviewer praised ReNew Pro's customer service, saying they sent a replacement the next day by overnight delivery. [911850fe69cf_0]\nOne reviewer said the dealer accepted a return without question and refunded promptly. [294133f9f2d4_0]\nOne reviewer said Re-Cell answered the phone and provided a swift replacement. [dfb6aa4c3895_0]\nOne reviewer reported that the seller CTNY was quick to answer, helpful, and worked to get a locked phone returned and a new one shipped. [f54be6a2a1cb_0]"
+  },
+  "off": {
+    "status": "not_checked",
+    "verification_enabled": false,
+    "answer": "One reviewer reported that the seller was non-responsive when asked for a return or replacement and ignored the request until the acceptable return date passed. [efb8a471d5bb_0]\nOne reviewer said that after eventually reaching the supplier it seemed a return was possible but a replacement was not available. [3d6598e4c5dd_0]\nOne reviewer praised ReNew Pro's customer service, saying they sent a replacement the next day by overnight delivery. [911850fe69cf_0]\nOne reviewer said the dealer accepted a return without question and refunded promptly. [294133f9f2d4_0]\nOne reviewer said Re-Cell answered the phone and provided a swift replacement. [dfb6aa4c3895_0]\nOne reviewer reported that the seller CTNY was quick to answer, helpful, and worked to get a locked phone returned and a new one shipped. [f54be6a2a1cb_0]",
+    "abstained": false
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "completed",
+      "started_at": "2026-11-05T10:55:52.987824+00:00",
+      "checker_elapsed_s": 2.251497166696936,
+      "finished_at": "2026-11-05T10:55:55.239964+00:00",
+      "api": {
+        "api_calls": 1,
+        "cache_hits": 0,
+        "usage": [
+          {
+            "model": "deepseek-flash",
+            "prompt_tokens": 1465,
+            "completion_tokens": 516,
+            "total_tokens": 1981,
+            "prompt_tokens_details": {
+              "cached_tokens": 1280
+            },
+            "prompt_cache_hit_tokens": 1280,
+            "prompt_cache_miss_tokens": 185
+          }
+        ],
+        "prompt_tokens": 1465,
+        "cached_prompt_tokens": 1280,
+        "completion_tokens": 516,
+        "total_tokens": 1981,
+        "requests_without_usage": 0,
+        "estimated_cost": null,
+        "currency": null,
+        "cost_scope": "estimate_for_recorded_usage_only; requests_without_usage_may_have_unknown_cost",
+        "pricing": null
+      }
+    }
+  ],
+  "status": "completed",
+  "new": {
+    "status": "completed",
+    "verification_enabled": true,
+    "checks": [
+      {
+        "sentence_id": "s0",
+        "text": "One reviewer reported that the seller was non-responsive when asked for a return or replacement and ignored the request until the acceptable return date passed.",
+        "citations": [
+          "efb8a471d5bb_0"
+        ],
+        "status": "supported",
+        "reason": "The cited review states the seller was non-responsive to a return/replacement request and ignored it until the acceptable return date passed.",
+        "evidence": [
+          {
+            "chunk_id": "efb8a471d5bb_0",
+            "quote": "The seller is non responsive when asking for a return or replacement. The phone was a little slow and we requested a replacement shortly after receiving it, the seller ignored our request until the acceptable return/replace date passed."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s1",
+        "text": "One reviewer said that after eventually reaching the supplier it seemed a return was possible but a replacement was not available.",
+        "citations": [
+          "3d6598e4c5dd_0"
+        ],
+        "status": "supported",
+        "reason": "The review says that after eventually getting a hold of the supplier, it seems a return is possible but a replacement doesn't look available.",
+        "evidence": [
+          {
+            "chunk_id": "3d6598e4c5dd_0",
+            "quote": "Unfortunately, after eventually getting a hold of the supplier, seems like I can return it, but doesn't look like a replacement is available."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s2",
+        "text": "One reviewer praised ReNew Pro's customer service, saying they sent a replacement the next day by overnight delivery.",
+        "citations": [
+          "911850fe69cf_0"
+        ],
+        "status": "unverifiable",
+        "reason": "The review praises ReNew Pro's customer service and states they sent a replacement the next day by overnight delivery. [evidence validation: original_status=supported; evidence[0]: invalid_or_nonverbatim_quote]",
+        "evidence": [],
+        "flagged": true
+      },
+      {
+        "sentence_id": "s3",
+        "text": "One reviewer said the dealer accepted a return without question and refunded promptly.",
+        "citations": [
+          "294133f9f2d4_0"
+        ],
+        "status": "supported",
+        "reason": "The review states the dealer accepted the return without question and refunded promptly.",
+        "evidence": [
+          {
+            "chunk_id": "294133f9f2d4_0",
+            "quote": "Dealer accepted return without question, and refunded promptly."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s4",
+        "text": "One reviewer said Re-Cell answered the phone and provided a swift replacement.",
+        "citations": [
+          "dfb6aa4c3895_0"
+        ],
+        "status": "unverifiable",
+        "reason": "The review states Re-Cell picked up the phone when called and provided a swift replacement. [evidence validation: original_status=supported; evidence[0]: invalid_or_nonverbatim_quote]",
+        "evidence": [],
+        "flagged": true
+      },
+      {
+        "sentence_id": "s5",
+        "text": "One reviewer reported that the seller CTNY was quick to answer, helpful, and worked to get a locked phone returned and a new one shipped.",
+        "citations": [
+          "f54be6a2a1cb_0"
+        ],
+        "status": "supported",
+        "reason": "The review states CTNY was quick to answer, super helpful, and worked to get the locked phone returned and a new one shipped.",
+        "evidence": [
+          {
+            "chunk_id": "f54be6a2a1cb_0",
+            "quote": "They were quick to answer the phone, super helpful and worked to get the locked phone returned and a new one shipped out."
+          }
+        ],
+        "flagged": false
+      }
+    ],
+    "retained_sentences": [
+      {
+        "sentence_id": "s0",
+        "text": "One reviewer reported that the seller was non-responsive when asked for a return or replacement and ignored the request until the acceptable return date passed.",
+        "citations": [
+          "efb8a471d5bb_0"
+        ],
+        "status": "supported",
+        "reason": "The cited review states the seller was non-responsive to a return/replacement request and ignored it until the acceptable return date passed.",
+        "evidence": [
+          {
+            "chunk_id": "efb8a471d5bb_0",
+            "quote": "The seller is non responsive when asking for a return or replacement. The phone was a little slow and we requested a replacement shortly after receiving it, the seller ignored our request until the acceptable return/replace date passed."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s1",
+        "text": "One reviewer said that after eventually reaching the supplier it seemed a return was possible but a replacement was not available.",
+        "citations": [
+          "3d6598e4c5dd_0"
+        ],
+        "status": "supported",
+        "reason": "The review says that after eventually getting a hold of the supplier, it seems a return is possible but a replacement doesn't look available.",
+        "evidence": [
+          {
+            "chunk_id": "3d6598e4c5dd_0",
+            "quote": "Unfortunately, after eventually getting a hold of the supplier, seems like I can return it, but doesn't look like a replacement is available."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s3",
+        "text": "One reviewer said the dealer accepted a return without question and refunded promptly.",
+        "citations": [
+          "294133f9f2d4_0"
+        ],
+        "status": "supported",
+        "reason": "The review states the dealer accepted the return without question and refunded promptly.",
+        "evidence": [
+          {
+            "chunk_id": "294133f9f2d4_0",
+            "quote": "Dealer accepted return without question, and refunded promptly."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s5",
+        "text": "One reviewer reported that the seller CTNY was quick to answer, helpful, and worked to get a locked phone returned and a new one shipped.",
+        "citations": [
+          "f54be6a2a1cb_0"
+        ],
+        "status": "supported",
+        "reason": "The review states CTNY was quick to answer, super helpful, and worked to get the locked phone returned and a new one shipped.",
+        "evidence": [
+          {
+            "chunk_id": "f54be6a2a1cb_0",
+            "quote": "They were quick to answer the phone, super helpful and worked to get the locked phone returned and a new one shipped out."
+          }
+        ],
+        "flagged": false
+      }
+    ],
+    "answer": "One reviewer reported that the seller was non-responsive when asked for a return or replacement and ignored the request until the acceptable return date passed. [efb8a471d5bb_0]\nOne reviewer said that after eventually reaching the supplier it seemed a return was possible but a replacement was not available. [3d6598e4c5dd_0]\nOne reviewer said the dealer accepted a return without question and refunded promptly. [294133f9f2d4_0]\nOne reviewer reported that the seller CTNY was quick to answer, helpful, and worked to get a locked phone returned and a new one shipped. [f54be6a2a1cb_0]",
+    "abstained": false,
+    "display_answer": "One reviewer reported that the seller was non-responsive when asked for a return or replacement and ignored the request until the acceptable return date passed. [efb8a471d5bb_0]\nOne reviewer said that after eventually reaching the supplier it seemed a return was possible but a replacement was not available. [3d6598e4c5dd_0]\nOne reviewer said the dealer accepted a return without question and refunded promptly. [294133f9f2d4_0]\nOne reviewer reported that the seller CTNY was quick to answer, helpful, and worked to get a locked phone returned and a new one shipped. [f54be6a2a1cb_0]"
+  }
+}

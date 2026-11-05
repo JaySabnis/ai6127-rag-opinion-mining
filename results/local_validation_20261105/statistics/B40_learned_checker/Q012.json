@@ -1,0 +1,74 @@
+{
+  "source": "results/group_c/b40/B40_learned_checker/Q012.json",
+  "source_sha256": "d7d68bd7d12532b92b6419063a9912ba815d5d4dcc6b06d354105f621be58a7f",
+  "question": "What do Samsung Galaxy Note 9 owners say about how long a charge lasts?",
+  "statistics_before": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 9,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 2,
+        "negative": 6,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "positive_ratio": 0.2222222222222222,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.25,
+      "polarized_denominator": 8
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note9",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 1,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 1.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 1.0,
+      "polarized_denominator": 1
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note 9",
+      "aspect": "battery",
+      "product_id": "phone-v1:3295740ca5da72c8672fd1769be5262cc4facfb1e3a3bee74f8f20259eb67ed0",
+      "canonical_model": null,
+      "model_aliases": [
+        "Galaxy Note 9",
+        "Galaxy Note9"
+      ],
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 3,
+        "negative": 6,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "positive_ratio": 0.3,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.3333333333333333,
+      "polarized_denominator": 9
+    }
+  ],
+  "numerical_change": true,
+  "scope": "reaggregate frozen predictions only; no model inference or human-label edits"
+}

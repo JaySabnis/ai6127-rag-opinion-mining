@@ -1,0 +1,655 @@
+{
+  "question": "How do iPhone 11 owners describe both the camera quality and battery life?",
+  "answer": "One reviewer said the iPhone 11 has a good camera but that the battery is a little low, calling battery life the only real problem. [e798a484e5ab_0]\nAnother reviewer said the phone works great and battery life could be better but is good for the price, noting minor scratches on the edge of the camera. [d1ce410afbb8_0]\nOne reviewer said the battery life is amazing and lasts a whole day, and also likes the camera quality. [8d31c5076b4f_0]\nAnother reviewer said battery life is good and camera quality is great. [80dbc0343fc0_0]\nOne reviewer was disappointed with short battery life, saying their iPhone 6S Pro still has better battery life than this newer phone. [7fc4fcbb2941_0]\nOther reviewers were impressed with both battery life and camera quality, with one calling the picture quality excellent and another saying the battery life is amazing and the camera is great. [733173e34082_0] [5525512a1c15_0] [1bb07b6c34e4_0]",
+  "draft_answer": "One reviewer said the iPhone 11 has a good camera but that the battery is a little low, calling battery life the only real problem. [e798a484e5ab_0]\nAnother reviewer said the phone works great and battery life could be better but is good for the price, noting minor scratches on the edge of the camera. [d1ce410afbb8_0]\nOne reviewer said the battery life is amazing and lasts a whole day, and also likes the camera quality. [8d31c5076b4f_0]\nAnother reviewer said battery life is good and camera quality is great. [80dbc0343fc0_0]\nOne reviewer was disappointed with short battery life, saying their iPhone 6S Pro still has better battery life than this newer phone. [7fc4fcbb2941_0]\nOther reviewers were impressed with both battery life and camera quality, with one calling the picture quality excellent and another saying the battery life is amazing and the camera is great. [733173e34082_0] [5525512a1c15_0] [1bb07b6c34e4_0]",
+  "sentences": [
+    {
+      "text": "One reviewer said the iPhone 11 has a good camera but that the battery is a little low, calling battery life the only real problem.",
+      "citations": [
+        "e798a484e5ab_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said the phone works great and battery life could be better but is good for the price, noting minor scratches on the edge of the camera.",
+      "citations": [
+        "d1ce410afbb8_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the battery life is amazing and lasts a whole day, and also likes the camera quality.",
+      "citations": [
+        "8d31c5076b4f_0"
+      ]
+    },
+    {
+      "text": "Another reviewer said battery life is good and camera quality is great.",
+      "citations": [
+        "80dbc0343fc0_0"
+      ]
+    },
+    {
+      "text": "One reviewer was disappointed with short battery life, saying their iPhone 6S Pro still has better battery life than this newer phone.",
+      "citations": [
+        "7fc4fcbb2941_0"
+      ]
+    },
+    {
+      "text": "Other reviewers were impressed with both battery life and camera quality, with one calling the picture quality excellent and another saying the battery life is amazing and the camera is great.",
+      "citations": [
+        "733173e34082_0",
+        "5525512a1c15_0",
+        "1bb07b6c34e4_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer said the iPhone 11 has a good camera but that the battery is a little low, calling battery life the only real problem.",
+      "citations": [
+        "e798a484e5ab_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the phone works great and battery life could be better but is good for the price, noting minor scratches on the edge of the camera.",
+      "citations": [
+        "d1ce410afbb8_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the battery life is amazing and lasts a whole day, and also likes the camera quality.",
+      "citations": [
+        "8d31c5076b4f_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said battery life is good and camera quality is great.",
+      "citations": [
+        "80dbc0343fc0_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer was disappointed with short battery life, saying their iPhone 6S Pro still has better battery life than this newer phone.",
+      "citations": [
+        "7fc4fcbb2941_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Other reviewers were impressed with both battery life and camera quality, with one calling the picture quality excellent and another saying the battery life is amazing and the camera is great.",
+      "citations": [
+        "733173e34082_0",
+        "5525512a1c15_0",
+        "1bb07b6c34e4_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer said the iPhone 11 has a good camera but that the battery is a little low, calling battery life the only real problem.",
+      "citations": [
+        "e798a484e5ab_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said the phone works great and battery life could be better but is good for the price, noting minor scratches on the edge of the camera.",
+      "citations": [
+        "d1ce410afbb8_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the battery life is amazing and lasts a whole day, and also likes the camera quality.",
+      "citations": [
+        "8d31c5076b4f_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer said battery life is good and camera quality is great.",
+      "citations": [
+        "80dbc0343fc0_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer was disappointed with short battery life, saying their iPhone 6S Pro still has better battery life than this newer phone.",
+      "citations": [
+        "7fc4fcbb2941_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Other reviewers were impressed with both battery life and camera quality, with one calling the picture quality excellent and another saying the battery life is amazing and the camera is great.",
+      "citations": [
+        "733173e34082_0",
+        "5525512a1c15_0",
+        "1bb07b6c34e4_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "e798a484e5ab_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Good camera",
+        "Camera looks good"
+      ],
+      "reason": "Praises the camera as good; battery complaints are a different aspect.",
+      "doc_id": "e798a484e5ab",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "d1ce410afbb8_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Minor scratches on the edge of the camera"
+      ],
+      "reason": "Only camera mention is criticism of scratches on camera edge.",
+      "doc_id": "d1ce410afbb8",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "8d31c5076b4f_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "one thing i do like is the camera quality"
+      ],
+      "reason": "Explicitly likes the camera quality.",
+      "doc_id": "8d31c5076b4f",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "80dbc0343fc0_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Camera quality is great"
+      ],
+      "reason": "Direct praise of camera quality.",
+      "doc_id": "80dbc0343fc0",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "7fc4fcbb2941_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No camera discussion; only battery complaints.",
+      "doc_id": "7fc4fcbb2941",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "9c22a494ea96_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "a few scratches on the back and around the outside of the camera"
+      ],
+      "reason": "Camera mentioned only as scratched, a criticism.",
+      "doc_id": "9c22a494ea96",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "733173e34082_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "grateful for battery life and the camera quality"
+      ],
+      "reason": "Grateful for camera quality, positive.",
+      "doc_id": "733173e34082",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "5525512a1c15_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The picture quality is excellent"
+      ],
+      "reason": "Praises picture quality, a camera-related aspect.",
+      "doc_id": "5525512a1c15",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "1bb07b6c34e4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "the camera is great"
+      ],
+      "reason": "Direct praise of the camera.",
+      "doc_id": "1bb07b6c34e4",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "0f6701967524_0",
+      "aspect_present": false,
+      "subjectivity": "neutral",
+      "label": "neutral",
+      "evidence_quotes": [],
+      "reason": "No camera discussion; only battery guarantee complaint.",
+      "doc_id": "0f6701967524",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera"
+    },
+    {
+      "chunk_id": "e798a484e5ab_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "battery is a little low",
+        "Only real problem is the battery life",
+        "guaranteed\" to be 90% or more, and on purchase it was 89%"
+      ],
+      "reason": "Complains battery low and below guaranteed 90%.",
+      "doc_id": "e798a484e5ab",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "d1ce410afbb8_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "Battery life was at 83%",
+        "Battery life could be better but for the price it's good"
+      ],
+      "reason": "Notes 83% health, says could be better but acceptable for price.",
+      "doc_id": "d1ce410afbb8",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "8d31c5076b4f_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "The battery life is amazing it last me a whole day"
+      ],
+      "reason": "Praises battery lasting a whole day.",
+      "doc_id": "8d31c5076b4f",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "80dbc0343fc0_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Battery life is good"
+      ],
+      "reason": "States battery life is good.",
+      "doc_id": "80dbc0343fc0",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "7fc4fcbb2941_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Short battery life from seller",
+        "Expected better than 82% battery life",
+        "My iPhone 6S Pro still has better battery life now than this newer phone"
+      ],
+      "reason": "Criticizes received battery health as too low.",
+      "doc_id": "7fc4fcbb2941",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "9c22a494ea96_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "disappointed in is the battery life is 81%",
+        "that definitely could be better"
+      ],
+      "reason": "Disappointed battery at 81%, could be better.",
+      "doc_id": "9c22a494ea96",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "733173e34082_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "grateful for battery life"
+      ],
+      "reason": "Grateful for battery life, positive.",
+      "doc_id": "733173e34082",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "5525512a1c15_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "the battery life is really good",
+        "it last all day"
+      ],
+      "reason": "Praises battery lasting all day.",
+      "doc_id": "5525512a1c15",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "1bb07b6c34e4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "Battery life is amazing"
+      ],
+      "reason": "Calls battery life amazing.",
+      "doc_id": "1bb07b6c34e4",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "battery"
+    },
+    {
+      "chunk_id": "0f6701967524_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Battery Guarantee is False",
+        "I am not satisfied"
+      ],
+      "reason": "Battery below guaranteed 90%, dissatisfied.",
+      "doc_id": "0f6701967524",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "battery"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "camera",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 8,
+      "n_excluded_aspect_absent": 2,
+      "counts": {
+        "positive": 6,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "positive_ratio": 0.75,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.75,
+      "polarized_denominator": 8
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "aspect": "battery",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 5,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.5,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.5555555555555556,
+      "polarized_denominator": 9
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "e798a484e5ab_0",
+      "doc_id": "e798a484e5ab",
+      "text": "Good camera, but battery is a little low. Delivery was prompt, phone is clear and scratch free. Camera looks good. Packaging was nice. Only real problem is the battery life. The battery was \"guaranteed\" to be 90% or more, and on purchase it was 89%. Come on!",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B099RCQZ8Z"
+    },
+    {
+      "chunk_id": "d1ce410afbb8_0",
+      "doc_id": "d1ce410afbb8",
+      "text": "Battery life was at 83%. The phone works great. Minor scratches on the edge of the camera. Battery life could be better but for the price it's good. A charger was provided but no SIM card ejector tool was included which is fine since I have plenty of them. The phone came with a screen protector pre installed.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "8d31c5076b4f_0",
+      "doc_id": "8d31c5076b4f",
+      "text": "iPhone. The battery life is amazing it last me a whole day, it took me awhile to get use to not having a home button but one thing i do like is the camera quality",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "80dbc0343fc0_0",
+      "doc_id": "80dbc0343fc0",
+      "text": "Everything I was expecting. Battery life is good. Didn’t come damaged or cracked. Camera quality is great",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "7fc4fcbb2941_0",
+      "doc_id": "7fc4fcbb2941",
+      "text": "Short battery life from seller. Expected better than 82% battery life from a “excellent” quality phone. My iPhone 6S Pro still has better battery life now than this newer phone. The phone itself is fine, just not fond of received battery life on phone.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "9c22a494ea96_0",
+      "doc_id": "9c22a494ea96",
+      "text": "Good purchase overall. The one came in and it worked so that was good off the bat. There were a few scratches on the back and around the outside of the camera. The only thing I was disappointed in is the battery life is 81%, I know they are renewed but that definitely could be better",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "733173e34082_0",
+      "doc_id": "733173e34082",
+      "text": "Impressed. Especially grateful for battery life and the camera quality. Very favorably impressed",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "5525512a1c15_0",
+      "doc_id": "5525512a1c15",
+      "text": "Great purchase. I love the sharpness of the face recognition and the battery life is really good. I charge my iPhone in the night and it last all day. The picture quality is excellent",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "1bb07b6c34e4_0",
+      "doc_id": "1bb07b6c34e4",
+      "text": "Amazing!. I received it a day early actually and it’s been working so good! No problems at all. Battery life is amazing and the camera is great!",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B097M74GSR"
+    },
+    {
+      "chunk_id": "0f6701967524_0",
+      "doc_id": "0f6701967524",
+      "text": "Battery Guarantee is False. The phone works, but when you make a guarantee that the battery life should be 90% or better and you charge based on that claim the company should make it right. The overall battery health (which apparently went through \"quality check\") was in the 80s and I reached out to customer service to give them a chance to make it right. They did not and I am not satisfied.",
+      "brand": "Apple",
+      "model": "iPhone 11",
+      "source_url": "https://www.amazon.com/dp/B099RCQZ8Z"
+    }
+  ],
+  "contexts": [
+    "Good camera, but battery is a little low. Delivery was prompt, phone is clear and scratch free. Camera looks good. Packaging was nice. Only real problem is the battery life. The battery was \"guaranteed\" to be 90% or more, and on purchase it was 89%. Come on!",
+    "Battery life was at 83%. The phone works great. Minor scratches on the edge of the camera. Battery life could be better but for the price it's good. A charger was provided but no SIM card ejector tool was included which is fine since I have plenty of them. The phone came with a screen protector pre installed.",
+    "iPhone. The battery life is amazing it last me a whole day, it took me awhile to get use to not having a home button but one thing i do like is the camera quality",
+    "Everything I was expecting. Battery life is good. Didn’t come damaged or cracked. Camera quality is great",
+    "Short battery life from seller. Expected better than 82% battery life from a “excellent” quality phone. My iPhone 6S Pro still has better battery life now than this newer phone. The phone itself is fine, just not fond of received battery life on phone.",
+    "Good purchase overall. The one came in and it worked so that was good off the bat. There were a few scratches on the back and around the outside of the camera. The only thing I was disappointed in is the battery life is 81%, I know they are renewed but that definitely could be better",
+    "Impressed. Especially grateful for battery life and the camera quality. Very favorably impressed",
+    "Great purchase. I love the sharpness of the face recognition and the battery life is really good. I charge my iPhone in the night and it last all day. The picture quality is excellent",
+    "Amazing!. I received it a day early actually and it’s been working so good! No problems at all. Battery life is amazing and the camera is great!",
+    "Battery Guarantee is False. The phone works, but when you make a guarantee that the battery life should be 90% or better and you charge based on that claim the company should make it right. The overall battery health (which apparently went through \"quality check\") was in the 80s and I reached out to customer service to give them a chance to make it right. They did not and I am not satisfied."
+  ],
+  "timing": {
+    "classification_s": 6.838904600001115,
+    "generation_s": 2.0265136000016355,
+    "verification_s": 9.10000380827114e-06,
+    "total_s": 8.865443000002415
+  },
+  "api": {
+    "api_calls": 3,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1247,
+        "completion_tokens": 566,
+        "total_tokens": 1813,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 991
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1247,
+        "completion_tokens": 683,
+        "total_tokens": 1930,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 991
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1126,
+        "completion_tokens": 286,
+        "total_tokens": 1412,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 998
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

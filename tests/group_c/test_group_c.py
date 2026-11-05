@@ -179,9 +179,12 @@ class IntegrationTests(unittest.TestCase):
             p = Path(temp) / "run.json"
             write_run(p, result)
             rag = json.loads(p.with_suffix(".rag.jsonl").read_text())
-            self.assertEqual(set(rag), {"question", "contexts", "answer"})
+            self.assertEqual(rag["answer"], result["answer"])
+            self.assertFalse(rag["abstained"])
+            self.assertEqual(rag["status"], "completed")
             timing = json.loads(p.with_suffix(".timings.jsonl").read_text())
-            self.assertNotIn("total_s", timing)
+            self.assertEqual(timing["total_s"], result["timing"]["total_s"])
+            self.assertEqual(timing["scope"], "downstream")
 
     def test_checker_outage_keeps_draft_but_does_not_approve_it(self):
         result = OpinionPipeline(self.client(RuntimeError("HTTP 503"))).run("Battery?", [chunk()])
@@ -189,6 +192,27 @@ class IntegrationTests(unittest.TestCase):
         self.assertTrue(result["flagged_sentences"])
         self.assertEqual(result["checks"][0]["status"], "unverifiable")
         self.assertNotIn("[a_0]", result["answer"])
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "run.json"
+            write_run(path, result)
+            exported = json.loads(path.with_suffix(".rag.jsonl").read_text())
+            self.assertEqual(exported["answer"], "")
+            self.assertTrue(exported["abstained"])
+            self.assertEqual(exported["status"], "failed")
+            self.assertTrue(exported["checker_error"])
+
+    def test_no_supported_claims_exports_abstention_not_display_placeholder(self):
+        checker = {"judgments": [{"sentence_id": "s0", "status": "unsupported",
+                                   "reason": "Not entailed", "evidence": []}]}
+        result = OpinionPipeline(self.client(checker)).run("Battery?", [chunk()])
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "run.json"
+            write_run(path, result)
+            exported = json.loads(path.with_suffix(".rag.jsonl").read_text())
+            self.assertEqual(exported["answer"], "")
+            self.assertTrue(exported["display_answer"])
+            self.assertTrue(exported["abstained"])
+            self.assertEqual(exported["status"], "completed")
 
     def test_english_run_has_no_hardcoded_chinese(self):
         result = OpinionPipeline(self.client(RuntimeError("HTTP 503"))).run("Battery?", [chunk()])

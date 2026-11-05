@@ -1,0 +1,486 @@
+{
+  "question": "What is the feedback on the Moto G6 screen and touchscreen?",
+  "answer": "One reviewer called the Moto G6 touchscreen the worst they had used, saying apps opened above the one selected and games became frustrating to play. [7a8dc0905687_0]\nAnother reviewer reported random touches making the phone unusable, though a replacement unit seemed to work correctly at the time. [9013d48eb2ea_0]\nA reviewer who otherwise loved how the phone operates found the touchscreen too sensitive, causing incorrect letters when texting. [64991bb6be97_0]\nOne reviewer described the touchscreen as iffy, working sometimes and failing to register when dirt, water, or any substance was on the phone. [dca44312d978_0]\nA reviewer reported that part of the screen stopped recognizing touch within six months of purchase, making the phone partly unusable. [c41a1f43a26d_0]\nIn contrast, one reviewer called the screen great and rated it A++, while also noting two small slightly brighter spots and that the screen could not be dimmed enough at night. [f98c10cfc52c_0] [3d7c6c678a07_3]",
+  "draft_answer": "One reviewer called the Moto G6 touchscreen the worst they had used, saying apps opened above the one selected and games became frustrating to play. [7a8dc0905687_0]\nAnother reviewer reported random touches making the phone unusable, though a replacement unit seemed to work correctly at the time. [9013d48eb2ea_0]\nA reviewer who otherwise loved how the phone operates found the touchscreen too sensitive, causing incorrect letters when texting. [64991bb6be97_0]\nOne reviewer described the touchscreen as iffy, working sometimes and failing to register when dirt, water, or any substance was on the phone. [dca44312d978_0]\nA reviewer reported that part of the screen stopped recognizing touch within six months of purchase, making the phone partly unusable. [c41a1f43a26d_0]\nIn contrast, one reviewer called the screen great and rated it A++, while also noting two small slightly brighter spots and that the screen could not be dimmed enough at night. [f98c10cfc52c_0] [3d7c6c678a07_3]",
+  "sentences": [
+    {
+      "text": "One reviewer called the Moto G6 touchscreen the worst they had used, saying apps opened above the one selected and games became frustrating to play.",
+      "citations": [
+        "7a8dc0905687_0"
+      ]
+    },
+    {
+      "text": "Another reviewer reported random touches making the phone unusable, though a replacement unit seemed to work correctly at the time.",
+      "citations": [
+        "9013d48eb2ea_0"
+      ]
+    },
+    {
+      "text": "A reviewer who otherwise loved how the phone operates found the touchscreen too sensitive, causing incorrect letters when texting.",
+      "citations": [
+        "64991bb6be97_0"
+      ]
+    },
+    {
+      "text": "One reviewer described the touchscreen as iffy, working sometimes and failing to register when dirt, water, or any substance was on the phone.",
+      "citations": [
+        "dca44312d978_0"
+      ]
+    },
+    {
+      "text": "A reviewer reported that part of the screen stopped recognizing touch within six months of purchase, making the phone partly unusable.",
+      "citations": [
+        "c41a1f43a26d_0"
+      ]
+    },
+    {
+      "text": "In contrast, one reviewer called the screen great and rated it A++, while also noting two small slightly brighter spots and that the screen could not be dimmed enough at night.",
+      "citations": [
+        "f98c10cfc52c_0",
+        "3d7c6c678a07_3"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer called the Moto G6 touchscreen the worst they had used, saying apps opened above the one selected and games became frustrating to play.",
+      "citations": [
+        "7a8dc0905687_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reported random touches making the phone unusable, though a replacement unit seemed to work correctly at the time.",
+      "citations": [
+        "9013d48eb2ea_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who otherwise loved how the phone operates found the touchscreen too sensitive, causing incorrect letters when texting.",
+      "citations": [
+        "64991bb6be97_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer described the touchscreen as iffy, working sometimes and failing to register when dirt, water, or any substance was on the phone.",
+      "citations": [
+        "dca44312d978_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer reported that part of the screen stopped recognizing touch within six months of purchase, making the phone partly unusable.",
+      "citations": [
+        "c41a1f43a26d_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "In contrast, one reviewer called the screen great and rated it A++, while also noting two small slightly brighter spots and that the screen could not be dimmed enough at night.",
+      "citations": [
+        "f98c10cfc52c_0",
+        "3d7c6c678a07_3"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer called the Moto G6 touchscreen the worst they had used, saying apps opened above the one selected and games became frustrating to play.",
+      "citations": [
+        "7a8dc0905687_0"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Another reviewer reported random touches making the phone unusable, though a replacement unit seemed to work correctly at the time.",
+      "citations": [
+        "9013d48eb2ea_0"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer who otherwise loved how the phone operates found the touchscreen too sensitive, causing incorrect letters when texting.",
+      "citations": [
+        "64991bb6be97_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer described the touchscreen as iffy, working sometimes and failing to register when dirt, water, or any substance was on the phone.",
+      "citations": [
+        "dca44312d978_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "A reviewer reported that part of the screen stopped recognizing touch within six months of purchase, making the phone partly unusable.",
+      "citations": [
+        "c41a1f43a26d_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "In contrast, one reviewer called the screen great and rated it A++, while also noting two small slightly brighter spots and that the screen could not be dimmed enough at night.",
+      "citations": [
+        "f98c10cfc52c_0",
+        "3d7c6c678a07_3"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "7a8dc0905687_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Touch screen sucks",
+        "WORSE TOUCH SCREEN EVER",
+        "horrible touchscreen is a deal breaker"
+      ],
+      "reason": "Strong criticism of the touchscreen performance.",
+      "doc_id": "7a8dc0905687",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "9013d48eb2ea_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Random touches on the touchscreen make the phone unusable",
+        "The proximity sensor does not always disable the touch screen while taking calls"
+      ],
+      "reason": "Criticizes faulty touchscreen and proximity sensor issues.",
+      "doc_id": "9013d48eb2ea",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "64991bb6be97_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "touchscreen too sensitive",
+        "It types the incorrect letters when texting"
+      ],
+      "reason": "Complains touchscreen is too sensitive causing typing errors.",
+      "doc_id": "64991bb6be97",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "dca44312d978_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Touch screen is iffy",
+        "you find yourself violently tapping the screen and wanting to scream"
+      ],
+      "reason": "Criticizes inconsistent touchscreen responsiveness.",
+      "doc_id": "dca44312d978",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "3d7c6c678a07_3",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "slightly brighter than the rest of the screen",
+        "I can't dim the screen enough to make it tolerable in dark rooms"
+      ],
+      "reason": "Notes minor bright spots and insufficient dimming, but mostly tolerable.",
+      "doc_id": "3d7c6c678a07",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "c41a1f43a26d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "part of the screen does not recognize touch",
+        "It has made the phone partly unusable"
+      ],
+      "reason": "Criticizes dead touchscreen area making phone unusable.",
+      "doc_id": "c41a1f43a26d",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "bf13f5f6334f_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "screen goes black,tapping the screen does not turn it on"
+      ],
+      "reason": "Reports screen going black and unresponsive.",
+      "doc_id": "bf13f5f6334f",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "f98c10cfc52c_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "positive",
+      "evidence_quotes": [
+        "This phone has a great screen",
+        "screen is A++"
+      ],
+      "reason": "Praises the screen quality.",
+      "doc_id": "f98c10cfc52c",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "ef244506d6ac_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "The screen will flip from portrait to landscape by itself",
+        "The motion sensor screen stopped working"
+      ],
+      "reason": "Criticizes screen orientation and sensor failures.",
+      "doc_id": "ef244506d6ac",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    },
+    {
+      "chunk_id": "8c4ddcb12b1a_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "I only don't like how the screen keeps auto dimming but then it turns the screen off"
+      ],
+      "reason": "Dislikes screen auto-dimming behavior.",
+      "doc_id": "8c4ddcb12b1a",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "aspect": "display",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 1,
+        "negative": 8,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.1,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.1111111111111111,
+      "polarized_denominator": 9
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "7a8dc0905687_0",
+      "doc_id": "7a8dc0905687",
+      "text": "Touch screen sucks. Hate the touchscreen! If you play Pokemon Go, expect to have to throw you poke ball like a noob as you can't throw curve balls anymore. If you play words with Friends or lexulous, expect to take up to 5 mins to place tiles and make a word. Even when not playing a game, you choose an app to open and it opens the app above the one you picked. WORSE TOUCH SCREEN EVER! The phone does have some great features, but the horrible touchscreen is a deal breaker. Makes the phone so frustrating to use.",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "9013d48eb2ea_0",
+      "doc_id": "9013d48eb2ea",
+      "text": "Proximity Sensor Issues, Falling off of Tables, and Faulty Touchscreens. [[VIDEOID:bd31e6cda6c8f48763e3636af4724f5d]] Random touches on the touchscreen make the phone unusable. I have experienced this before in a Moto G4, but they seemed to have worked this out on the G5s Plus. Update: Got a replacement that seems to be working correctly at the moment. The proximity sensor does not always disable the touch screen while taking calls. Another notable design flaw is that the back of the phone has zero friction on hard surfaces and will fall off of anything that is not totally flat. Luckily it is easy to snap the buttons back on.",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "64991bb6be97_0",
+      "doc_id": "64991bb6be97",
+      "text": "Great phone...touchscreen too sensitive. I love everything about how this phone operates except the touchscreen. It types the incorrect letters when texting. I am not sure if it is only touch screen or if the auto-correct does not recognize words. I have to retype every message.",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "dca44312d978_0",
+      "doc_id": "dca44312d978",
+      "text": "Decent. Touch screen is iffy. Sometimes it will work, other times you find yourself violently tapping the screen and wanting to scream. (Dirtx water or any substance on the phone and it won't register) Other than that it's a good phone for the price.",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07M6Q5W3R"
+    },
+    {
+      "chunk_id": "3d7c6c678a07_3",
+      "doc_id": "3d7c6c678a07",
+      "text": "There is one spot near the top of the screen and one near the bottom of the screen where it is slightly brighter than the rest of the screen. They are about 2-3mm in diameter. It's only annoying when you look for them because then you can't unsee them; however, the vast majority of the time I don't even notice them. The second annoyance is the screen brightness. I don't have an issue during the day, but at night I can't dim the screen enough to make it tolerable in dark rooms. I have the brightness turned all the way down and it still feels like I'm lighting up the entire room. This is especially annoying when I'm trying to get my kids to bed but want to play on my phone. Battery - For normal use the battery appears to last forever.",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "c41a1f43a26d_0",
+      "doc_id": "c41a1f43a26d",
+      "text": "Touchscreen goes dead.. I really like the simplicity of this phone. HOWEVER part of the screen does not recognize touch. This started within 6 months after I purchased the phone. It has made the phone partly unusable. I can not transfer my information to a new phone because the screen is dead in the area I need to confirm the transfer. Hmm. My carrier will not do an instore transfer of information.",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "bf13f5f6334f_0",
+      "doc_id": "bf13f5f6334f",
+      "text": "black screen. screen goes black,tapping the screen does not turn it on, happens frequently. I use it for personal use",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GC5QKW3"
+    },
+    {
+      "chunk_id": "f98c10cfc52c_0",
+      "doc_id": "f98c10cfc52c",
+      "text": "Great screen, very slippery;buy a case, no notification lights. This phone has a great screen. It comes filled with bloatware that will drain your battery in less than a say unless you disable a bunch of software. I got mine to last 4days after disabling many installs. I wish it had a handsfree option to check for missed calls, etc. like a flashing notification light. You must wake the screen to check on any status' Other than that, it's an okay phone. Keyboard works great, screen is A++. Battery life is B-, it's very slippery so buy a cover with your phone",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "ef244506d6ac_1",
+      "doc_id": "ef244506d6ac",
+      "text": "The screen will flip from portrait to landscape by itself self and you will have to shake it to go back to the proper orientation... a lot. The motion sensor screen stopped working as of last night and this morning I struggled to get into the phone because the fingerprint reader wouldn't work and keypad would just toggle you back and forth without actually unlocking the phone. Caveat emptor!",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    },
+    {
+      "chunk_id": "8c4ddcb12b1a_0",
+      "doc_id": "8c4ddcb12b1a",
+      "text": "Screen likes to auto dim to black after 3 secs. I only don't like how the screen keeps auto dimming but then it turns the screen off. I have no idea how to turn it off so if anyone else does let me know please.",
+      "brand": "Motorola",
+      "model": "Moto G6",
+      "source_url": "https://www.amazon.com/dp/B07GYY6VTD"
+    }
+  ],
+  "contexts": [
+    "Touch screen sucks. Hate the touchscreen! If you play Pokemon Go, expect to have to throw you poke ball like a noob as you can't throw curve balls anymore. If you play words with Friends or lexulous, expect to take up to 5 mins to place tiles and make a word. Even when not playing a game, you choose an app to open and it opens the app above the one you picked. WORSE TOUCH SCREEN EVER! The phone does have some great features, but the horrible touchscreen is a deal breaker. Makes the phone so frustrating to use.",
+    "Proximity Sensor Issues, Falling off of Tables, and Faulty Touchscreens. [[VIDEOID:bd31e6cda6c8f48763e3636af4724f5d]] Random touches on the touchscreen make the phone unusable. I have experienced this before in a Moto G4, but they seemed to have worked this out on the G5s Plus. Update: Got a replacement that seems to be working correctly at the moment. The proximity sensor does not always disable the touch screen while taking calls. Another notable design flaw is that the back of the phone has zero friction on hard surfaces and will fall off of anything that is not totally flat. Luckily it is easy to snap the buttons back on.",
+    "Great phone...touchscreen too sensitive. I love everything about how this phone operates except the touchscreen. It types the incorrect letters when texting. I am not sure if it is only touch screen or if the auto-correct does not recognize words. I have to retype every message.",
+    "Decent. Touch screen is iffy. Sometimes it will work, other times you find yourself violently tapping the screen and wanting to scream. (Dirtx water or any substance on the phone and it won't register) Other than that it's a good phone for the price.",
+    "There is one spot near the top of the screen and one near the bottom of the screen where it is slightly brighter than the rest of the screen. They are about 2-3mm in diameter. It's only annoying when you look for them because then you can't unsee them; however, the vast majority of the time I don't even notice them. The second annoyance is the screen brightness. I don't have an issue during the day, but at night I can't dim the screen enough to make it tolerable in dark rooms. I have the brightness turned all the way down and it still feels like I'm lighting up the entire room. This is especially annoying when I'm trying to get my kids to bed but want to play on my phone. Battery - For normal use the battery appears to last forever.",
+    "Touchscreen goes dead.. I really like the simplicity of this phone. HOWEVER part of the screen does not recognize touch. This started within 6 months after I purchased the phone. It has made the phone partly unusable. I can not transfer my information to a new phone because the screen is dead in the area I need to confirm the transfer. Hmm. My carrier will not do an instore transfer of information.",
+    "black screen. screen goes black,tapping the screen does not turn it on, happens frequently. I use it for personal use",
+    "Great screen, very slippery;buy a case, no notification lights. This phone has a great screen. It comes filled with bloatware that will drain your battery in less than a say unless you disable a bunch of software. I got mine to last 4days after disabling many installs. I wish it had a handsfree option to check for missed calls, etc. like a flashing notification light. You must wake the screen to check on any status' Other than that, it's an okay phone. Keyboard works great, screen is A++. Battery life is B-, it's very slippery so buy a cover with your phone",
+    "The screen will flip from portrait to landscape by itself self and you will have to shake it to go back to the proper orientation... a lot. The motion sensor screen stopped working as of last night and this morning I struggled to get into the phone because the fingerprint reader wouldn't work and keypad would just toggle you back and forth without actually unlocking the phone. Caveat emptor!",
+    "Screen likes to auto dim to black after 3 secs. I only don't like how the screen keeps auto dimming but then it turns the screen off. I have no idea how to turn it off so if anyone else does let me know please."
+  ],
+  "timing": {
+    "classification_s": 3.500243500006036,
+    "generation_s": 2.884142900002189,
+    "verification_s": 6.800000846851617e-06,
+    "total_s": 6.384404199998244
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1710,
+        "completion_tokens": 701,
+        "total_tokens": 2411,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1454
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1585,
+        "completion_tokens": 290,
+        "total_tokens": 1875,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1457
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

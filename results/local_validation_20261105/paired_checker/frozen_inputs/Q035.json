@@ -1,0 +1,491 @@
+{
+  "question": "What do Samsung Galaxy S10e reviewers say about using the phone on their carrier network?",
+  "answer": "One reviewer reported that the phone was tied to Sprint and had a Sprint ROM that by default kept trying to connect to the Sprint network, and that a Visible Wireless prepaid SIM would not connect even though LTE did connect through Visible. [65d911be6913_1]\nOne reviewer described an AT&T customer service agent having them check the network mode settings, finding no \"Global\" or \"LTE/CDMA\" option, and concluding the phone was not compatible. [488b51ac6bf3_1]\nOne reviewer said their carrier told them in February 2022 that the phone no longer worked on the network after 3G shutdown. [a9c81195f83b_0]\nOne reviewer reported that an unlocked phone did not connect with their existing SIM card on AT&T and also failed with a new SIM card from an AT&T store. [84cda9aff64d_0]\nOne reviewer said the phone needed tweaking by the seller and carrier to work on their Straight Talk network and that setup for network and calling was a bit of a pain. [91d68e4907e1_0]\nOther reviewers reported a phone still locked to T-Mobile despite being advertised as unlocked, a phone blocked by a carrier that could not register on T-Mobile, a phone that only worked on Wi-Fi and would not connect to a carrier, and network errors with GSM carriers despite a clean IMEI. [fea2f19ec1cb_0] [4d874223d3f4_0] [e7d38c338a05_0] [a08f9d1b9276_0]",
+  "draft_answer": "One reviewer reported that the phone was tied to Sprint and had a Sprint ROM that by default kept trying to connect to the Sprint network, and that a Visible Wireless prepaid SIM would not connect even though LTE did connect through Visible. [65d911be6913_1]\nOne reviewer described an AT&T customer service agent having them check the network mode settings, finding no \"Global\" or \"LTE/CDMA\" option, and concluding the phone was not compatible. [488b51ac6bf3_1]\nOne reviewer said their carrier told them in February 2022 that the phone no longer worked on the network after 3G shutdown. [a9c81195f83b_0]\nOne reviewer reported that an unlocked phone did not connect with their existing SIM card on AT&T and also failed with a new SIM card from an AT&T store. [84cda9aff64d_0]\nOne reviewer said the phone needed tweaking by the seller and carrier to work on their Straight Talk network and that setup for network and calling was a bit of a pain. [91d68e4907e1_0]\nOther reviewers reported a phone still locked to T-Mobile despite being advertised as unlocked, a phone blocked by a carrier that could not register on T-Mobile, a phone that only worked on Wi-Fi and would not connect to a carrier, and network errors with GSM carriers despite a clean IMEI. [fea2f19ec1cb_0] [4d874223d3f4_0] [e7d38c338a05_0] [a08f9d1b9276_0]",
+  "sentences": [
+    {
+      "text": "One reviewer reported that the phone was tied to Sprint and had a Sprint ROM that by default kept trying to connect to the Sprint network, and that a Visible Wireless prepaid SIM would not connect even though LTE did connect through Visible.",
+      "citations": [
+        "65d911be6913_1"
+      ]
+    },
+    {
+      "text": "One reviewer described an AT&T customer service agent having them check the network mode settings, finding no \"Global\" or \"LTE/CDMA\" option, and concluding the phone was not compatible.",
+      "citations": [
+        "488b51ac6bf3_1"
+      ]
+    },
+    {
+      "text": "One reviewer said their carrier told them in February 2022 that the phone no longer worked on the network after 3G shutdown.",
+      "citations": [
+        "a9c81195f83b_0"
+      ]
+    },
+    {
+      "text": "One reviewer reported that an unlocked phone did not connect with their existing SIM card on AT&T and also failed with a new SIM card from an AT&T store.",
+      "citations": [
+        "84cda9aff64d_0"
+      ]
+    },
+    {
+      "text": "One reviewer said the phone needed tweaking by the seller and carrier to work on their Straight Talk network and that setup for network and calling was a bit of a pain.",
+      "citations": [
+        "91d68e4907e1_0"
+      ]
+    },
+    {
+      "text": "Other reviewers reported a phone still locked to T-Mobile despite being advertised as unlocked, a phone blocked by a carrier that could not register on T-Mobile, a phone that only worked on Wi-Fi and would not connect to a carrier, and network errors with GSM carriers despite a clean IMEI.",
+      "citations": [
+        "fea2f19ec1cb_0",
+        "4d874223d3f4_0",
+        "e7d38c338a05_0",
+        "a08f9d1b9276_0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "text": "One reviewer reported that the phone was tied to Sprint and had a Sprint ROM that by default kept trying to connect to the Sprint network, and that a Visible Wireless prepaid SIM would not connect even though LTE did connect through Visible.",
+      "citations": [
+        "65d911be6913_1"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer described an AT&T customer service agent having them check the network mode settings, finding no \"Global\" or \"LTE/CDMA\" option, and concluding the phone was not compatible.",
+      "citations": [
+        "488b51ac6bf3_1"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said their carrier told them in February 2022 that the phone no longer worked on the network after 3G shutdown.",
+      "citations": [
+        "a9c81195f83b_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported that an unlocked phone did not connect with their existing SIM card on AT&T and also failed with a new SIM card from an AT&T store.",
+      "citations": [
+        "84cda9aff64d_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the phone needed tweaking by the seller and carrier to work on their Straight Talk network and that setup for network and calling was a bit of a pain.",
+      "citations": [
+        "91d68e4907e1_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Other reviewers reported a phone still locked to T-Mobile despite being advertised as unlocked, a phone blocked by a carrier that could not register on T-Mobile, a phone that only worked on Wi-Fi and would not connect to a carrier, and network errors with GSM carriers despite a clean IMEI.",
+      "citations": [
+        "fea2f19ec1cb_0",
+        "4d874223d3f4_0",
+        "e7d38c338a05_0",
+        "a08f9d1b9276_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "flagged_sentences": [
+    {
+      "text": "One reviewer reported that the phone was tied to Sprint and had a Sprint ROM that by default kept trying to connect to the Sprint network, and that a Visible Wireless prepaid SIM would not connect even though LTE did connect through Visible.",
+      "citations": [
+        "65d911be6913_1"
+      ],
+      "sentence_id": "s0",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer described an AT&T customer service agent having them check the network mode settings, finding no \"Global\" or \"LTE/CDMA\" option, and concluding the phone was not compatible.",
+      "citations": [
+        "488b51ac6bf3_1"
+      ],
+      "sentence_id": "s1",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said their carrier told them in February 2022 that the phone no longer worked on the network after 3G shutdown.",
+      "citations": [
+        "a9c81195f83b_0"
+      ],
+      "sentence_id": "s2",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer reported that an unlocked phone did not connect with their existing SIM card on AT&T and also failed with a new SIM card from an AT&T store.",
+      "citations": [
+        "84cda9aff64d_0"
+      ],
+      "sentence_id": "s3",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "One reviewer said the phone needed tweaking by the seller and carrier to work on their Straight Talk network and that setup for network and calling was a bit of a pain.",
+      "citations": [
+        "91d68e4907e1_0"
+      ],
+      "sentence_id": "s4",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    },
+    {
+      "text": "Other reviewers reported a phone still locked to T-Mobile despite being advertised as unlocked, a phone blocked by a carrier that could not register on T-Mobile, a phone that only worked on Wi-Fi and would not connect to a carrier, and network errors with GSM carriers despite a clean IMEI.",
+      "citations": [
+        "fea2f19ec1cb_0",
+        "4d874223d3f4_0",
+        "e7d38c338a05_0",
+        "a08f9d1b9276_0"
+      ],
+      "sentence_id": "s5",
+      "status": "unverifiable",
+      "flagged": true,
+      "reason": "消融实验关闭了检查器",
+      "evidence": []
+    }
+  ],
+  "verification_enabled": false,
+  "checker_error": null,
+  "predictions": [
+    {
+      "chunk_id": "65d911be6913_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "it is not Samsung unlocked Samson did not unlock this phone",
+        "it will not connect to any carrier you want only certain carriers",
+        "that will not connect"
+      ],
+      "reason": "Complains phone is carrier-locked to Sprint and won't connect to certain carriers like Visible.",
+      "doc_id": "65d911be6913",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "488b51ac6bf3_1",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "he said the phone was not compatible"
+      ],
+      "reason": "Carrier CS agent determined the phone was not compatible with the network.",
+      "doc_id": "488b51ac6bf3",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "a9c81195f83b_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "carrier says no longer works on network",
+        "false advertisers ripping people off"
+      ],
+      "reason": "Phone no longer works on carrier network; user criticizes false advertising.",
+      "doc_id": "a9c81195f83b",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "84cda9aff64d_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "Unlocked Phone didn't work on AT&T Network",
+        "Phone didn't connect with my existing Sim card"
+      ],
+      "reason": "Unlocked phone failed to work on AT&T carrier network despite new SIM.",
+      "doc_id": "84cda9aff64d",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "91d68e4907e1_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "mixed",
+      "evidence_quotes": [
+        "needs some tweaking by the seller and your carrier to work on your carriers network",
+        "Getting this phone setup for network and calling was a bit of a pain, but we'll worth the savings"
+      ],
+      "reason": "Setup for carrier network was a pain but ultimately worth it; mixed view.",
+      "doc_id": "91d68e4907e1",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "fea2f19ec1cb_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "was sent a phone still locked to T-Mobile",
+        "Super deceptive practices"
+      ],
+      "reason": "Phone locked to T-Mobile despite advertised unlocked; criticizes deceptive carrier locking.",
+      "doc_id": "fea2f19ec1cb",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "31c88a76f54b_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "My carrier said this was compatible with my network, but it wasn't"
+      ],
+      "reason": "Carrier said compatible but phone wasn't; couldn't get SIM working on network.",
+      "doc_id": "31c88a76f54b",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "4d874223d3f4_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "the phone was blocked by a carrier"
+      ],
+      "reason": "Phone was blocked by a carrier and couldn't register on network.",
+      "doc_id": "4d874223d3f4",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "e7d38c338a05_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "won’t connect to carrier",
+        "will not connect to carrier so it cannot be used"
+      ],
+      "reason": "Phone won't connect to carrier, making it unusable.",
+      "doc_id": "e7d38c338a05",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    },
+    {
+      "chunk_id": "a08f9d1b9276_0",
+      "aspect_present": true,
+      "subjectivity": "opinionated",
+      "label": "negative",
+      "evidence_quotes": [
+        "many issues activating with gsm carriers",
+        "It just doesn't connect to mobile networks"
+      ],
+      "reason": "Difficulty activating with GSM carriers; phone won't connect to mobile networks.",
+      "doc_id": "a08f9d1b9276",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier"
+    }
+  ],
+  "statistics": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "aspect": "carrier",
+      "scope": "retrieved_sample",
+      "count_unit": "unique_doc_id",
+      "n_relevant_reviews": 10,
+      "n_excluded_aspect_absent": 0,
+      "counts": {
+        "positive": 0,
+        "negative": 9,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "positive_ratio": 0.0,
+      "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+      "polarized_positive_ratio": 0.0,
+      "polarized_denominator": 9
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "65d911be6913_1",
+      "doc_id": "65d911be6913",
+      "text": "They combine reviews the actual review for the 256 GB blue phone that you see in the picture is what I am writing right now. That phone is not unlocked it is tied to Sprint it is not Samsung unlocked Samson did not unlock this phone. This is carrier unlocked. So it will not connect to any carrier you want only certain carriers such as Verizon T-Mobile and Sprint and possibly AT&T. I have a prepaid which is called Visible wireless and that will not connect. I have other unlock phones that will work with Visible no problem. This phone has a Sprint rom Meaning by default it is always trying to connect to the sprint network. You can choose another net work manually, but certain carriers will not connect such as visible wireless. I should mention LTE does connect through Visible wireless.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "488b51ac6bf3_1",
+      "doc_id": "488b51ac6bf3",
+      "text": "AT&T uses GSM and Verizon uses CDMA so I thought the incompatibility verdict seemed reasonable. In working with the carriers CS agent, he had me go into settings>connections>mobile networks>network mode. There you will see a list with one of the choices checked indicating the setting the phone is on. He told me to select \"Global\" . When I told him there was no \"Global\" or \"LTE/CDMA\" selection, he said the phone was not compatible. Picture 1 is my old S6, which I am replacing, and Picture 2 is the S10e. The CS agent also had me go into the Access Point Names. There was no access point listed, just some text saying \"not available to this user\" or something similar.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "a9c81195f83b_0",
+      "doc_id": "a9c81195f83b",
+      "text": "No longer works on network. Bought to replace old phone in August 2021. Everything said it would work on network when they shut down 3G. Come February 2022, carrier says no longer works on network and have to buy a new phone to keep account. I seriously think something should be done about these false advertisers ripping people off.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "84cda9aff64d_0",
+      "doc_id": "84cda9aff64d",
+      "text": "Unlocked Phone didn't work on AT&T Network. I was under the impression that an unlocked phone worked on any mobile carrier network. I was wrong. Phone didn't connect with my existing Sim card. I called At&t and was on the phone with customer service for an hour and was told that I needed a new Sim card. I went to the At&t store and was provided with a new Sim card. This didn't work either. So after wasting a week waiting for the phone and hours to set it up, ultimately I had to return it. Then I had to wait another week for another phone that did work right out of the box. I also haven't been issued a refund for the item even though it was returned to them (I checked the return and it made it) almost a week ago.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09DRHTSYZ"
+    },
+    {
+      "chunk_id": "91d68e4907e1_0",
+      "doc_id": "91d68e4907e1",
+      "text": "Great phone. The functionality of the phone is fantastic, but the phone needs some tweaking by the seller and your carrier to work on your carriers network (in my case Straight Talk). Getting this phone setup for network and calling was a bit of a pain, but we'll worth the savings of a brand new phone.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "fea2f19ec1cb_0",
+      "doc_id": "fea2f19ec1cb",
+      "text": "Phone was advertised as Unlocked, but was sent a phone still locked to T-Mobile. I guess it's a good thing that's the carrier I needed. Phone is in excellent used condition- which is the reason for the 3 stars. But now I'm out the money I spent on this phone if I ever want to switch carriers. Super deceptive practices, and from the hundreds of reviews saying the same thing, I can see I'm not alone.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "31c88a76f54b_0",
+      "doc_id": "31c88a76f54b",
+      "text": "When you sell an item make sure everything works before you send it to the customer.. I love the phone! But i couldn't get a sim for it. You need to know before you buy which network your phone will work on. My carrier said this was compatible with my network, but it wasn't. It was a great phone! I would highly suggest this seller! The phone was near perfect and not a scratch!",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "4d874223d3f4_0",
+      "doc_id": "4d874223d3f4",
+      "text": "Phone was blocked. after reading some of the comments before buying I was a little worried. I got the phone it looked great but when I swapped SIM cards it couldn't register on a network and I had T-Mobile. I took it there to see if they could do it. They read the numbers that identified that phone and put it into their system. Turns out the phone was blocked by a carrier. The refund was fast.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "e7d38c338a05_0",
+      "doc_id": "e7d38c338a05",
+      "text": "Only works on Wi-Fi —won’t connect to carrier. Phone only works with Wi-Fi- will not connect to carrier so it cannot be used.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    },
+    {
+      "chunk_id": "a08f9d1b9276_0",
+      "doc_id": "a08f9d1b9276",
+      "text": "I've had a difficult time. For me personally, I've had many issues activating with gsm carriers. It definitely is unlocked. As all of these services say my imei is clean. However I think there is an issue with the device because anytime I put in a sim card. Doesn't matter if it's activated in store or not. It comes up with network errors. I'd love to get a replacement and use this device because I'm plenty happy with the product I've gotten from the seller. It just doesn't connect to mobile networks. Which is a stressor on my work. If possible I'd love to update this posting when I can get an available replacement or refund. Again. Not an issue with the seller. I just believe this device has a fault in it. I messaged the seller and we're currently in communication about how to best solve this problem. To sum it up.",
+      "brand": "Samsung",
+      "model": "Galaxy S10e",
+      "source_url": "https://www.amazon.com/dp/B09JJCXC2M"
+    }
+  ],
+  "contexts": [
+    "They combine reviews the actual review for the 256 GB blue phone that you see in the picture is what I am writing right now. That phone is not unlocked it is tied to Sprint it is not Samsung unlocked Samson did not unlock this phone. This is carrier unlocked. So it will not connect to any carrier you want only certain carriers such as Verizon T-Mobile and Sprint and possibly AT&T. I have a prepaid which is called Visible wireless and that will not connect. I have other unlock phones that will work with Visible no problem. This phone has a Sprint rom Meaning by default it is always trying to connect to the sprint network. You can choose another net work manually, but certain carriers will not connect such as visible wireless. I should mention LTE does connect through Visible wireless.",
+    "AT&T uses GSM and Verizon uses CDMA so I thought the incompatibility verdict seemed reasonable. In working with the carriers CS agent, he had me go into settings>connections>mobile networks>network mode. There you will see a list with one of the choices checked indicating the setting the phone is on. He told me to select \"Global\" . When I told him there was no \"Global\" or \"LTE/CDMA\" selection, he said the phone was not compatible. Picture 1 is my old S6, which I am replacing, and Picture 2 is the S10e. The CS agent also had me go into the Access Point Names. There was no access point listed, just some text saying \"not available to this user\" or something similar.",
+    "No longer works on network. Bought to replace old phone in August 2021. Everything said it would work on network when they shut down 3G. Come February 2022, carrier says no longer works on network and have to buy a new phone to keep account. I seriously think something should be done about these false advertisers ripping people off.",
+    "Unlocked Phone didn't work on AT&T Network. I was under the impression that an unlocked phone worked on any mobile carrier network. I was wrong. Phone didn't connect with my existing Sim card. I called At&t and was on the phone with customer service for an hour and was told that I needed a new Sim card. I went to the At&t store and was provided with a new Sim card. This didn't work either. So after wasting a week waiting for the phone and hours to set it up, ultimately I had to return it. Then I had to wait another week for another phone that did work right out of the box. I also haven't been issued a refund for the item even though it was returned to them (I checked the return and it made it) almost a week ago.",
+    "Great phone. The functionality of the phone is fantastic, but the phone needs some tweaking by the seller and your carrier to work on your carriers network (in my case Straight Talk). Getting this phone setup for network and calling was a bit of a pain, but we'll worth the savings of a brand new phone.",
+    "Phone was advertised as Unlocked, but was sent a phone still locked to T-Mobile. I guess it's a good thing that's the carrier I needed. Phone is in excellent used condition- which is the reason for the 3 stars. But now I'm out the money I spent on this phone if I ever want to switch carriers. Super deceptive practices, and from the hundreds of reviews saying the same thing, I can see I'm not alone.",
+    "When you sell an item make sure everything works before you send it to the customer.. I love the phone! But i couldn't get a sim for it. You need to know before you buy which network your phone will work on. My carrier said this was compatible with my network, but it wasn't. It was a great phone! I would highly suggest this seller! The phone was near perfect and not a scratch!",
+    "Phone was blocked. after reading some of the comments before buying I was a little worried. I got the phone it looked great but when I swapped SIM cards it couldn't register on a network and I had T-Mobile. I took it there to see if they could do it. They read the numbers that identified that phone and put it into their system. Turns out the phone was blocked by a carrier. The refund was fast.",
+    "Only works on Wi-Fi —won’t connect to carrier. Phone only works with Wi-Fi- will not connect to carrier so it cannot be used.",
+    "I've had a difficult time. For me personally, I've had many issues activating with gsm carriers. It definitely is unlocked. As all of these services say my imei is clean. However I think there is an issue with the device because anytime I put in a sim card. Doesn't matter if it's activated in store or not. It comes up with network errors. I'd love to get a replacement and use this device because I'm plenty happy with the product I've gotten from the seller. It just doesn't connect to mobile networks. Which is a stressor on my work. If possible I'd love to update this posting when I can get an available replacement or refund. Again. Not an issue with the seller. I just believe this device has a fault in it. I messaged the seller and we're currently in communication about how to best solve this problem. To sum it up."
+  ],
+  "timing": {
+    "classification_s": 3.981237699998019,
+    "generation_s": 2.602303400002711,
+    "verification_s": 9.499999578110874e-06,
+    "total_s": 6.583567999994557
+  },
+  "api": {
+    "api_calls": 2,
+    "cache_hits": 0,
+    "model": "deepseek-flash",
+    "usage": [
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1898,
+        "completion_tokens": 760,
+        "total_tokens": 2658,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1642
+      },
+      {
+        "model": "deepseek-flash",
+        "prompt_tokens": 1776,
+        "completion_tokens": 403,
+        "total_tokens": 2179,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1648
+      }
+    ]
+  },
+  "statistics_note": "本次检索样本的去重评论比例，不代表全体买家；缺失的完整评论片段可能改变判断。"
+}

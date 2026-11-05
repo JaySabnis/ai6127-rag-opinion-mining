@@ -1,0 +1,976 @@
+{
+  "query_id": "Q007",
+  "query": "How long does the Samsung Galaxy S10 last between charges in everyday use?",
+  "result": {
+    "chunks": [
+      {
+        "rank": 6,
+        "row_id": 378230,
+        "chunk_id": "a73a5c64b22d_0",
+        "doc_id": "a73a5c64b22d",
+        "text": "Below Average Battery Life. This phones battery life is \"okay\" at best. I was shocked when it went from 11% to 2% a few minutes after I started the device for the first time. Having used it for a couple of days, I would say that the battery life is \"not bad\" which is of course not good. Coming from a Tecno phone that had an outstanding battery, this was quite a shock for me. I have learned to live with shorter battery life and carry a charger whenever I can. To its credit, the phone has got excellent fast charging.",
+        "score": 0.03526824134074192,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 3,
+        "timestamp": "2021-10-21",
+        "aspect_tags": [
+          "battery",
+          "performance"
+        ],
+        "helpful_votes": 0,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 8.348248481750488,
+        "bm25_rank": 11,
+        "dense_score": 0.6612027883529663,
+        "dense_rank": 17,
+        "aspect_boosted": true,
+        "rrf_score": 0.027071520029266508,
+        "rrf_normalized": 0.8256813608926284,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 6,
+        "semantic_rank": 11,
+        "cross_encoder_raw_score": -2.593952178955078,
+        "cross_encoder_score": 0.0027763457249130874,
+        "cross_encoder_contribution": 0.0380952380952381,
+        "retrieval_rank_contribution": 0.012499999999999997,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.49914832004387255,
+        "rerank_strategy": "learned",
+        "scoring_query": "What is the everyday battery life of the between charges?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": -0.00706451781009084,
+          "semantic_rank": -0.02365953005562949,
+          "retrieval_rank": 0.014828114128602264,
+          "aspect_coverage": 0.0,
+          "keyword_count": 0.2599779781462418,
+          "keyword_density": -0.06696485058877404,
+          "length": 0.32203112622352287
+        },
+        "final_rank": 1
+      },
+      {
+        "rank": 11,
+        "row_id": 301699,
+        "chunk_id": "8b615d3582a4_0",
+        "doc_id": "8b615d3582a4",
+        "text": "S10 is for moms. Tiny screen, tiny battery life. Luckily some bloatware can be uninstalled via adb, even without root. Search xda for details. Battery life - 1 day, need to charge nightly. Compared to my other Samsung A70 with its 6.7\" screen and 3 day battery life - abysmal.",
+        "score": 0.033352000814581,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 5,
+        "timestamp": "2020-07-01",
+        "aspect_tags": [
+          "battery",
+          "display"
+        ],
+        "helpful_votes": 0,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 8.421014785766602,
+        "bm25_rank": 10,
+        "dense_score": 0.6487376689910889,
+        "dense_rank": 32,
+        "aspect_boosted": true,
+        "rrf_score": 0.025155279503105588,
+        "rrf_normalized": 0.7672360248447204,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 11,
+        "semantic_rank": 5,
+        "cross_encoder_raw_score": -1.1561203002929688,
+        "cross_encoder_score": 0.04505713040670631,
+        "cross_encoder_contribution": 0.05333333333333334,
+        "retrieval_rank_contribution": 0.009523809523809521,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.41502553104384676,
+        "rerank_strategy": "learned",
+        "scoring_query": "What is the everyday battery life of the between charges?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.10384728223604853,
+          "semantic_rank": 0.05565513836090309,
+          "retrieval_rank": -0.009158744587294732,
+          "aspect_coverage": 0.0,
+          "keyword_count": 0.13670337532757038,
+          "keyword_density": -0.05024253263568711,
+          "length": 0.1782210123423066
+        },
+        "final_rank": 2
+      },
+      {
+        "rank": 2,
+        "row_id": 444763,
+        "chunk_id": "c9c4dbc07327_0",
+        "doc_id": "c9c4dbc07327",
+        "text": "Battery life less than 80%. The phone itself is clean. The battery life on this phone I would say is approximately 55%. The charge does not last 80% as stated on ad",
+        "score": 0.0377106102003643,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 1,
+        "timestamp": "2023-02-11",
+        "aspect_tags": [
+          "battery"
+        ],
+        "helpful_votes": 1,
+        "verified": false,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 9.256915092468262,
+        "bm25_rank": 4,
+        "dense_score": 0.6671758890151978,
+        "dense_rank": 12,
+        "aspect_boosted": true,
+        "rrf_score": 0.029513888888888888,
+        "rrf_normalized": 0.900173611111111,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 2,
+        "semantic_rank": 3,
+        "cross_encoder_raw_score": -0.5593240261077881,
+        "cross_encoder_score": 0.12313107104230711,
+        "cross_encoder_contribution": 0.06153846153846154,
+        "retrieval_rank_contribution": 0.016666666666666663,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.39229633826093335,
+        "rerank_strategy": "learned",
+        "scoring_query": "What is the everyday battery life of the between charges?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.14988308796063618,
+          "semantic_rank": 0.09836303673903603,
+          "retrieval_rank": 0.04840971633085804,
+          "aspect_coverage": 0.0,
+          "keyword_count": 0.04923865269085721,
+          "keyword_density": -0.04150192615781963,
+          "length": 0.08790377069736552
+        },
+        "final_rank": 3
+      },
+      {
+        "rank": 8,
+        "row_id": 403084,
+        "chunk_id": "da666557ef7c_0",
+        "doc_id": "da666557ef7c",
+        "text": "When you buy a phone on line now a days you got to send it back because of the battery 🔋 life smh. The battery life, it wouldn't hold a charge. person shrugging Once i took the phone off the charger the batter life would go down quickly without me even using the phone.",
+        "score": 0.034737667705748154,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 1,
+        "timestamp": "2022-04-30",
+        "aspect_tags": [
+          "battery"
+        ],
+        "helpful_votes": 0,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 8.613255500793457,
+        "bm25_rank": 9,
+        "dense_score": 0.6556277275085449,
+        "dense_rank": 23,
+        "aspect_boosted": true,
+        "rrf_score": 0.026540946394272742,
+        "rrf_normalized": 0.8094988650253186,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 8,
+        "semantic_rank": 6,
+        "cross_encoder_raw_score": -1.3873789310455322,
+        "cross_encoder_score": 0.02935177674248543,
+        "cross_encoder_contribution": 0.05,
+        "retrieval_rank_contribution": 0.011111111111111108,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.2953310388556419,
+        "rerank_strategy": "learned",
+        "scoring_query": "What is the everyday battery life of the between charges?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.08600840177052514,
+          "semantic_rank": 0.03830505464478659,
+          "retrieval_rank": 0.003634246727850329,
+          "aspect_coverage": 0.0,
+          "keyword_count": 0.04923865269085721,
+          "keyword_density": -0.0757421936993233,
+          "length": 0.19388687672094593
+        },
+        "final_rank": 4
+      },
+      {
+        "rank": 5,
+        "row_id": 421283,
+        "chunk_id": "f215c5bf9de7_0",
+        "doc_id": "f215c5bf9de7",
+        "text": "Battery life is poor compared to other phones.. Battery life is poor. Loses charge very quickly.",
+        "score": 0.03609045945189287,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 3,
+        "timestamp": "2022-09-06",
+        "aspect_tags": [
+          "battery"
+        ],
+        "helpful_votes": 0,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 10.136080741882324,
+        "bm25_rank": 2,
+        "dense_score": 0.6544161438941956,
+        "dense_rank": 25,
+        "aspect_boosted": true,
+        "rrf_score": 0.027893738140417457,
+        "rrf_normalized": 0.8507590132827324,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 5,
+        "semantic_rank": 4,
+        "cross_encoder_raw_score": -1.0175687074661255,
+        "cross_encoder_score": 0.057781399511436765,
+        "cross_encoder_contribution": 0.05714285714285715,
+        "retrieval_rank_contribution": 0.01333333333333333,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.2536315405211706,
+        "rerank_strategy": "learned",
+        "scoring_query": "What is the everyday battery life of the between charges?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.11453490628148548,
+          "semantic_rank": 0.07548380546503622,
+          "retrieval_rank": 0.02154443456905342,
+          "aspect_coverage": 0.0,
+          "keyword_count": 0.04923865269085721,
+          "keyword_density": 0.04254236689859849,
+          "length": -0.0497126253838602
+        },
+        "final_rank": 5
+      },
+      {
+        "rank": 9,
+        "row_id": 309523,
+        "chunk_id": "8cf8d931cb9c_0",
+        "doc_id": "8cf8d931cb9c",
+        "text": "Battery life. Battery lasts all day",
+        "score": 0.03384942319368549,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 5,
+        "timestamp": "2020-08-27",
+        "aspect_tags": [
+          "battery"
+        ],
+        "helpful_votes": 0,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 6.6661529541015625,
+        "bm25_rank": 48,
+        "dense_score": 0.7241201400756836,
+        "dense_rank": 1,
+        "aspect_boosted": true,
+        "rrf_score": 0.02565270188221008,
+        "rrf_normalized": 0.7824074074074074,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 9,
+        "semantic_rank": 2,
+        "cross_encoder_raw_score": 0.054738156497478485,
+        "cross_encoder_score": 0.26367088797970295,
+        "cross_encoder_contribution": 0.06666666666666667,
+        "retrieval_rank_contribution": 0.010526315789473682,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.15678174526856228,
+        "rerank_strategy": "learned",
+        "scoring_query": "What is the everyday battery life of the between charges?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.19725075522670346,
+          "semantic_rank": 0.12505547322536906,
+          "retrieval_rank": -0.0010789605987820618,
+          "aspect_coverage": 0.0,
+          "keyword_count": -0.07403595012781417,
+          "keyword_density": 0.14339551856630026,
+          "length": -0.2338050910232143
+        },
+        "final_rank": 6
+      },
+      {
+        "rank": 15,
+        "row_id": 406976,
+        "chunk_id": "8dbe1111007e_0",
+        "doc_id": "8dbe1111007e",
+        "text": "that battery life is more than 2 days. personal use",
+        "score": 0.03126398178880783,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 5,
+        "timestamp": "2022-06-01",
+        "aspect_tags": [
+          "battery"
+        ],
+        "helpful_votes": 0,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 6.061141014099121,
+        "bm25_rank": 79,
+        "dense_score": 0.684350311756134,
+        "dense_rank": 3,
+        "aspect_boosted": true,
+        "rrf_score": 0.02306726047733242,
+        "rrf_normalized": 0.7035514445586388,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 15,
+        "semantic_rank": 1,
+        "cross_encoder_raw_score": 0.4661409258842468,
+        "cross_encoder_score": 0.35876899717560184,
+        "cross_encoder_contribution": 0.07272727272727274,
+        "retrieval_rank_contribution": 0.007999999999999998,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.04464663476241007,
+        "rerank_strategy": "learned",
+        "scoring_query": "What is the everyday battery life of the between charges?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.22898563492565063,
+          "semantic_rank": 0.15660107998194456,
+          "retrieval_rank": -0.021440016249833986,
+          "aspect_coverage": 0.0,
+          "keyword_count": -0.16150067276452734,
+          "keyword_density": -0.01796952410202255,
+          "length": -0.14002986702880127
+        },
+        "final_rank": 7
+      },
+      {
+        "rank": 12,
+        "row_id": 427707,
+        "chunk_id": "1acf5874a5be_0",
+        "doc_id": "1acf5874a5be",
+        "text": "Battery drains fast with normal use. Battery drains way faster than my last phone.last the whole day on average but if you listen to music or play videos you will be charging by 5 o'clock.phone is fast.screen is vivid.takes amazing photos.just battery life and it's feels dainty.i bought a heavy duty case for it and I like it alot more",
+        "score": 0.03324922656200047,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 4,
+        "timestamp": "2022-10-19",
+        "aspect_tags": [
+          "camera",
+          "battery",
+          "display",
+          "performance"
+        ],
+        "helpful_votes": 2,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 6.8387131690979,
+        "bm25_rank": 41,
+        "dense_score": 0.6744205355644226,
+        "dense_rank": 6,
+        "aspect_boosted": true,
+        "rrf_score": 0.025052505250525055,
+        "rrf_normalized": 0.7641014101410142,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 12,
+        "semantic_rank": 20,
+        "cross_encoder_raw_score": -4.760167121887207,
+        "cross_encoder_score": 3.666988298955953e-05,
+        "cross_encoder_contribution": 0.02666666666666667,
+        "retrieval_rank_contribution": 0.009090909090909089,
+        "aspect_bonus": 0.0,
+        "rerank_score": 0.01932334942054581,
+        "rerank_strategy": "learned",
+        "scoring_query": "What is the everyday battery life of the between charges?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": -0.17416249510004098,
+          "semantic_rank": -0.08314553136802891,
+          "retrieval_rank": -0.012647742218697924,
+          "aspect_coverage": 0.0,
+          "keyword_count": 0.13670337532757038,
+          "keyword_density": -0.06279314706544556,
+          "length": 0.2153688898451888
+        },
+        "final_rank": 8
+      },
+      {
+        "rank": 7,
+        "row_id": 452851,
+        "chunk_id": "880e3056e9fe_0",
+        "doc_id": "880e3056e9fe",
+        "text": "Battery life. The battery life is not good",
+        "score": 0.035075589569654016,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 1,
+        "timestamp": "2023-04-07",
+        "aspect_tags": [
+          "battery"
+        ],
+        "helpful_votes": 0,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 7.23241662979126,
+        "bm25_rank": 27,
+        "dense_score": 0.67451411485672,
+        "dense_rank": 5,
+        "aspect_boosted": true,
+        "rrf_score": 0.026878868258178604,
+        "rrf_normalized": 0.8198054818744475,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 7,
+        "semantic_rank": 8,
+        "cross_encoder_raw_score": -2.3424787521362305,
+        "cross_encoder_score": 0.004574328133699845,
+        "cross_encoder_contribution": 0.044444444444444446,
+        "retrieval_rank_contribution": 0.01176470588235294,
+        "aspect_bonus": 0.0,
+        "rerank_score": -0.013837474973571545,
+        "rerank_strategy": "learned",
+        "scoring_query": "What is the everyday battery life of the between charges?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": 0.01233369615787472,
+          "semantic_rank": 0.009388248451259079,
+          "retrieval_rank": 0.008901949034086535,
+          "aspect_coverage": 0.0,
+          "keyword_count": -0.006193040566114397,
+          "keyword_density": 0.14339551856630026,
+          "length": -0.18166384661697774
+        },
+        "final_rank": 9
+      },
+      {
+        "rank": 20,
+        "row_id": 294244,
+        "chunk_id": "5b5a21970449_0",
+        "doc_id": "5b5a21970449",
+        "text": "Great deal 👍. Buy it! Before its gone.. Battery life is great but I'm a power user. Soni got to keep a charger on deck. Best deal on Amazon . I got it at 430 . It has dropped since then. No glitches or scratches. Looks brand new. I would recommend buying a quick charging brick and wireless chargers.",
+        "score": 0.029973536046036628,
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "rating": 5,
+        "timestamp": "2020-05-04",
+        "aspect_tags": [
+          "battery"
+        ],
+        "helpful_votes": 2,
+        "verified": true,
+        "is_renewed": true,
+        "source_url": "https://www.amazon.com/dp/B09J3G4TVZ",
+        "bm25_score": 6.204457759857178,
+        "bm25_rank": 70,
+        "dense_score": 0.6675690412521362,
+        "dense_rank": 11,
+        "aspect_boosted": true,
+        "rrf_score": 0.021776814734561216,
+        "rrf_normalized": 0.664192849404117,
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "retrieval_rank": 20,
+        "semantic_rank": 18,
+        "cross_encoder_raw_score": -4.338657855987549,
+        "cross_encoder_score": 8.51894220742222e-05,
+        "cross_encoder_contribution": 0.028571428571428574,
+        "retrieval_rank_contribution": 0.006666666666666665,
+        "aspect_bonus": 0.0,
+        "rerank_score": -0.06585007892987721,
+        "rerank_strategy": "learned",
+        "scoring_query": "What is the everyday battery life of the between charges?",
+        "ranker_version": 2,
+        "feature_contributions": {
+          "semantic_raw": -0.14164801819154546,
+          "semantic_rank": -0.07323119781596234,
+          "retrieval_rank": -0.03218612895455584,
+          "aspect_coverage": 0.0,
+          "keyword_count": 0.04923865269085721,
+          "keyword_density": -0.0799628738277059,
+          "length": 0.2119394871690351
+        },
+        "final_rank": 10
+      }
+    ],
+    "reranked": true,
+    "candidate_count": 50,
+    "rewrite": {
+      "query": "What is the everyday battery life of the Samsung Galaxy S10 between charges?",
+      "product": [
+        {
+          "brand": "Samsung",
+          "model": "Galaxy S10"
+        }
+      ],
+      "aspects": [
+        "battery"
+      ]
+    },
+    "rewrite_error": null,
+    "retrieval": [
+      {
+        "filters": {
+          "model": "Galaxy S10"
+        },
+        "model_variants": [
+          "Galaxy S10"
+        ],
+        "n_candidates": 3383,
+        "search_text": "What is the everyday battery life of the between charges?",
+        "hits": 50,
+        "aspect_weight": 0.5
+      }
+    ],
+    "timing_ms": {
+      "rewrite": 855.469792149961,
+      "retrieve": 65.50512509420514,
+      "rerank": 57.423457968980074,
+      "total": 8494.80533413589,
+      "classification": 3277.1431249566376,
+      "generation": 1675.2771250903606,
+      "verification": 2563.9269170351326
+    },
+    "question": "How long does the Samsung Galaxy S10 last between charges in everyday use?",
+    "answer": "One reviewer said the Galaxy S10's battery life is \"okay\" at best and that they carry a charger whenever they can. [a73a5c64b22d_0]\nAnother reviewer reported the S10's battery life lasts 1 day and needs to be charged nightly. [8b615d3582a4_0]\nOne reviewer said the battery lasts all day. [8cf8d931cb9c_0]\nAnother reviewer said the battery life is more than 2 days for personal use. [8dbe1111007e_0]\nOne reviewer said the phone lasts the whole day on average but requires charging by 5 o'clock if listening to music or playing videos. [1acf5874a5be_0]\nOther reviewers described the battery as poor, draining fast with normal use, or not holding a charge. [f215c5bf9de7_0] [1acf5874a5be_0] [da666557ef7c_0]",
+    "draft_answer": "One reviewer said the Galaxy S10's battery life is \"okay\" at best and that they carry a charger whenever they can. [a73a5c64b22d_0]\nAnother reviewer reported the S10's battery life lasts 1 day and needs to be charged nightly. [8b615d3582a4_0]\nOne reviewer said the battery lasts all day. [8cf8d931cb9c_0]\nAnother reviewer said the battery life is more than 2 days for personal use. [8dbe1111007e_0]\nOne reviewer said the phone lasts the whole day on average but requires charging by 5 o'clock if listening to music or playing videos. [1acf5874a5be_0]\nOther reviewers described the battery as poor, draining fast with normal use, or not holding a charge. [f215c5bf9de7_0] [1acf5874a5be_0] [da666557ef7c_0]",
+    "abstained": false,
+    "status": "completed",
+    "sentences": [
+      {
+        "text": "One reviewer said the Galaxy S10's battery life is \"okay\" at best and that they carry a charger whenever they can.",
+        "citations": [
+          "a73a5c64b22d_0"
+        ]
+      },
+      {
+        "text": "Another reviewer reported the S10's battery life lasts 1 day and needs to be charged nightly.",
+        "citations": [
+          "8b615d3582a4_0"
+        ]
+      },
+      {
+        "text": "One reviewer said the battery lasts all day.",
+        "citations": [
+          "8cf8d931cb9c_0"
+        ]
+      },
+      {
+        "text": "Another reviewer said the battery life is more than 2 days for personal use.",
+        "citations": [
+          "8dbe1111007e_0"
+        ]
+      },
+      {
+        "text": "One reviewer said the phone lasts the whole day on average but requires charging by 5 o'clock if listening to music or playing videos.",
+        "citations": [
+          "1acf5874a5be_0"
+        ]
+      },
+      {
+        "text": "Other reviewers described the battery as poor, draining fast with normal use, or not holding a charge.",
+        "citations": [
+          "f215c5bf9de7_0",
+          "1acf5874a5be_0",
+          "da666557ef7c_0"
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "sentence_id": "s0",
+        "text": "One reviewer said the Galaxy S10's battery life is \"okay\" at best and that they carry a charger whenever they can.",
+        "citations": [
+          "a73a5c64b22d_0"
+        ],
+        "status": "supported",
+        "reason": "The cited review states battery life is \"okay\" at best and that the reviewer carries a charger whenever they can.",
+        "evidence": [
+          {
+            "chunk_id": "a73a5c64b22d_0",
+            "quote": "This phones battery life is \"okay\" at best."
+          },
+          {
+            "chunk_id": "a73a5c64b22d_0",
+            "quote": "I have learned to live with shorter battery life and carry a charger whenever I can."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s1",
+        "text": "Another reviewer reported the S10's battery life lasts 1 day and needs to be charged nightly.",
+        "citations": [
+          "8b615d3582a4_0"
+        ],
+        "status": "supported",
+        "reason": "The cited review explicitly states battery life is 1 day and needs to be charged nightly.",
+        "evidence": [
+          {
+            "chunk_id": "8b615d3582a4_0",
+            "quote": "Battery life - 1 day, need to charge nightly."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s2",
+        "text": "One reviewer said the battery lasts all day.",
+        "citations": [
+          "8cf8d931cb9c_0"
+        ],
+        "status": "supported",
+        "reason": "The cited review states the battery lasts all day.",
+        "evidence": [
+          {
+            "chunk_id": "8cf8d931cb9c_0",
+            "quote": "Battery lasts all day"
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s3",
+        "text": "Another reviewer said the battery life is more than 2 days for personal use.",
+        "citations": [
+          "8dbe1111007e_0"
+        ],
+        "status": "supported",
+        "reason": "The cited review states battery life is more than 2 days for personal use.",
+        "evidence": [
+          {
+            "chunk_id": "8dbe1111007e_0",
+            "quote": "that battery life is more than 2 days. personal use"
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s4",
+        "text": "One reviewer said the phone lasts the whole day on average but requires charging by 5 o'clock if listening to music or playing videos.",
+        "citations": [
+          "1acf5874a5be_0"
+        ],
+        "status": "supported",
+        "reason": "The cited review states it lasts the whole day on average but requires charging by 5 o'clock when listening to music or playing videos.",
+        "evidence": [
+          {
+            "chunk_id": "1acf5874a5be_0",
+            "quote": "last the whole day on average but if you listen to music or play videos you will be charging by 5 o'clock."
+          }
+        ],
+        "flagged": false
+      },
+      {
+        "sentence_id": "s5",
+        "text": "Other reviewers described the battery as poor, draining fast with normal use, or not holding a charge.",
+        "citations": [
+          "f215c5bf9de7_0",
+          "1acf5874a5be_0",
+          "da666557ef7c_0"
+        ],
+        "status": "supported",
+        "reason": "The cited reviews describe poor battery life, fast draining with normal use, and not holding a charge.",
+        "evidence": [
+          {
+            "chunk_id": "f215c5bf9de7_0",
+            "quote": "Battery life is poor. Loses charge very quickly."
+          },
+          {
+            "chunk_id": "1acf5874a5be_0",
+            "quote": "Battery drains fast with normal use."
+          },
+          {
+            "chunk_id": "da666557ef7c_0",
+            "quote": "The battery life, it wouldn't hold a charge."
+          }
+        ],
+        "flagged": false
+      }
+    ],
+    "flagged_sentences": [],
+    "verification_enabled": true,
+    "checker_error": null,
+    "predictions": [
+      {
+        "chunk_id": "a73a5c64b22d_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "mixed",
+        "evidence_quotes": [
+          "battery life is \"okay\" at best",
+          "the battery life is \"not bad\" which is of course not good",
+          "the phone has got excellent fast charging"
+        ],
+        "reason": "Criticizes battery life as mediocre but praises fast charging, both about this phone.",
+        "doc_id": "a73a5c64b22d",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "8b615d3582a4_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "tiny battery life",
+          "Battery life - 1 day, need to charge nightly",
+          "abysmal"
+        ],
+        "reason": "Calls battery life tiny and abysmal, needing nightly charging.",
+        "doc_id": "8b615d3582a4",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "c9c4dbc07327_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "Battery life less than 80%",
+          "approximately 55%",
+          "does not last 80%"
+        ],
+        "reason": "Reports battery capacity far below stated, a criticism.",
+        "doc_id": "c9c4dbc07327",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "da666557ef7c_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "it wouldn't hold a charge",
+          "the batter life would go down quickly without me even using the phone"
+        ],
+        "reason": "Complains battery won't hold charge and drains quickly.",
+        "doc_id": "da666557ef7c",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "f215c5bf9de7_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "Battery life is poor",
+          "Loses charge very quickly"
+        ],
+        "reason": "Explicitly states battery life is poor and drains fast.",
+        "doc_id": "f215c5bf9de7",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "8cf8d931cb9c_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "Battery lasts all day"
+        ],
+        "reason": "Positive statement that battery lasts all day.",
+        "doc_id": "8cf8d931cb9c",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "8dbe1111007e_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "that battery life is more than 2 days"
+        ],
+        "reason": "Praises battery lasting more than two days.",
+        "doc_id": "8dbe1111007e",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "1acf5874a5be_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "Battery drains fast with normal use",
+          "Battery drains way faster than my last phone",
+          "you will be charging by 5 o'clock"
+        ],
+        "reason": "Criticizes fast battery drain despite other praised aspects.",
+        "doc_id": "1acf5874a5be",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "880e3056e9fe_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "negative",
+        "evidence_quotes": [
+          "The battery life is not good"
+        ],
+        "reason": "Direct negative opinion on battery life.",
+        "doc_id": "880e3056e9fe",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "battery"
+      },
+      {
+        "chunk_id": "5b5a21970449_0",
+        "aspect_present": true,
+        "subjectivity": "opinionated",
+        "label": "positive",
+        "evidence_quotes": [
+          "Battery life is great but I'm a power user"
+        ],
+        "reason": "States battery life is great, with caveat about power use.",
+        "doc_id": "5b5a21970449",
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "aspect": "battery"
+      }
+    ],
+    "statistics": [
+      {
+        "brand": "Samsung",
+        "model": "Galaxy S10",
+        "aspect": "battery",
+        "product_id": "phone-v1:e74455fe24a84e977a84ff516c0cb55630effdad0491d7c52a3f358e5d6d1271",
+        "canonical_model": "Galaxy S10",
+        "model_aliases": [
+          "Galaxy S10"
+        ],
+        "scope": "retrieved_sample",
+        "count_unit": "unique_doc_id",
+        "n_relevant_reviews": 10,
+        "n_excluded_aspect_absent": 0,
+        "counts": {
+          "positive": 3,
+          "negative": 6,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "positive_ratio": 0.3,
+        "positive_ratio_denominator": "positive + negative + mixed + neutral (relevant unique reviews)",
+        "polarized_positive_ratio": 0.3333333333333333,
+        "polarized_denominator": 9
+      }
+    ],
+    "contexts": [
+      "Below Average Battery Life. This phones battery life is \"okay\" at best. I was shocked when it went from 11% to 2% a few minutes after I started the device for the first time. Having used it for a couple of days, I would say that the battery life is \"not bad\" which is of course not good. Coming from a Tecno phone that had an outstanding battery, this was quite a shock for me. I have learned to live with shorter battery life and carry a charger whenever I can. To its credit, the phone has got excellent fast charging.",
+      "S10 is for moms. Tiny screen, tiny battery life. Luckily some bloatware can be uninstalled via adb, even without root. Search xda for details. Battery life - 1 day, need to charge nightly. Compared to my other Samsung A70 with its 6.7\" screen and 3 day battery life - abysmal.",
+      "Battery life less than 80%. The phone itself is clean. The battery life on this phone I would say is approximately 55%. The charge does not last 80% as stated on ad",
+      "When you buy a phone on line now a days you got to send it back because of the battery 🔋 life smh. The battery life, it wouldn't hold a charge. person shrugging Once i took the phone off the charger the batter life would go down quickly without me even using the phone.",
+      "Battery life is poor compared to other phones.. Battery life is poor. Loses charge very quickly.",
+      "Battery life. Battery lasts all day",
+      "that battery life is more than 2 days. personal use",
+      "Battery drains fast with normal use. Battery drains way faster than my last phone.last the whole day on average but if you listen to music or play videos you will be charging by 5 o'clock.phone is fast.screen is vivid.takes amazing photos.just battery life and it's feels dainty.i bought a heavy duty case for it and I like it alot more",
+      "Battery life. The battery life is not good",
+      "Great deal 👍. Buy it! Before its gone.. Battery life is great but I'm a power user. Soni got to keep a charger on deck. Best deal on Amazon . I got it at 430 . It has dropped since then. No glitches or scratches. Looks brand new. I would recommend buying a quick charging brick and wireless chargers."
+    ],
+    "timing": {
+      "classification_s": 3.2771431249566376,
+      "generation_s": 1.6752771250903606,
+      "verification_s": 2.5639269170351326,
+      "total_s": 7.516403125133365
+    },
+    "timing_scope": "downstream",
+    "api": {
+      "api_calls": 3,
+      "cache_hits": 0,
+      "model": "deepseek-flash",
+      "usage": [
+        {
+          "model": "deepseek-flash",
+          "prompt_tokens": 1288,
+          "completion_tokens": 705,
+          "total_tokens": 1993,
+          "prompt_tokens_details": {
+            "cached_tokens": 1152
+          },
+          "prompt_cache_hit_tokens": 1152,
+          "prompt_cache_miss_tokens": 136
+        },
+        {
+          "model": "deepseek-flash",
+          "prompt_tokens": 1163,
+          "completion_tokens": 259,
+          "total_tokens": 1422,
+          "prompt_tokens_details": {
+            "cached_tokens": 1024
+          },
+          "prompt_cache_hit_tokens": 1024,
+          "prompt_cache_miss_tokens": 139
+        },
+        {
+          "model": "deepseek-flash",
+          "prompt_tokens": 1440,
+          "completion_tokens": 507,
+          "total_tokens": 1947,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 800
+        }
+      ]
+    },
+    "language": "en",
+    "statistics_note": "Ratios cover deduplicated reviews in this retrieved sample only, not all buyers; missing review fragments could change the picture."
+  },
+  "benchmark_timing": {
+    "query_id": "Q007",
+    "query": "How long does the Samsung Galaxy S10 last between charges in everyday use?",
+    "timing_scope": "end_to_end",
+    "query_state": "after_local_search_warmup",
+    "query_position": 2,
+    "n_chunks": 10,
+    "total_s": 8.495093165896833,
+    "rewrite_s": 0.855469792149961,
+    "retrieve_s": 0.06550512509420514,
+    "rerank_s": 0.057423457968980074,
+    "classification_s": 3.2771431249566376,
+    "generation_s": 1.6752771250903606,
+    "verification_s": 2.5639269170351326,
+    "degraded": false
+  }
+}

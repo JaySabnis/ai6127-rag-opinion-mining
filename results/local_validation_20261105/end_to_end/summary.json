@@ -1,0 +1,77 @@
+{
+  "run": "end_to_end",
+  "n_queries": 5,
+  "timing_scope": "end_to_end",
+  "scope": "end_to_end",
+  "total_basis": "measured_total",
+  "throughput_basis": "sequential_estimate_from_summed_query_durations",
+  "concurrent_throughput_measured": false,
+  "classification_s": {
+    "n": 5,
+    "mean": 3.203,
+    "median": 3.261,
+    "p95": 3.641,
+    "max": 3.732
+  },
+  "generation_s": {
+    "n": 5,
+    "mean": 1.891,
+    "median": 1.948,
+    "p95": 2.146,
+    "max": 2.192
+  },
+  "rerank_s": {
+    "n": 5,
+    "mean": 0.064,
+    "median": 0.06,
+    "p95": 0.075,
+    "max": 0.077
+  },
+  "retrieve_s": {
+    "n": 5,
+    "mean": 0.068,
+    "median": 0.067,
+    "p95": 0.077,
+    "max": 0.079
+  },
+  "rewrite_s": {
+    "n": 5,
+    "mean": 0.971,
+    "median": 0.94,
+    "p95": 1.172,
+    "max": 1.222
+  },
+  "total_s": {
+    "n": 5,
+    "mean": 8.882,
+    "median": 8.592,
+    "p95": 9.842,
+    "max": 10.07
+  },
+  "verification_s": {
+    "n": 5,
+    "mean": 2.686,
+    "median": 2.644,
+    "p95": 3.026,
+    "max": 3.062
+  },
+  "first_query_total_s": 8.592,
+  "subsequent_query_total_mean_s": 8.955,
+  "query_states": [
+    "after_local_search_warmup"
+  ],
+  "serial_queries_per_minute_estimate": 6.75,
+  "queries_per_minute": 6.75,
+  "chunks_classified_per_second": 3.1,
+  "classification_rate_basis": "input_chunks / classification stage time (not aspect-label decisions)",
+  "classification_rate_n_queries": 5,
+  "warnings": [
+    "Query latency excludes startup or file-writing outside the declared scope; the first row is not a cold-start measurement.",
+    "Serial throughput is an estimate, not a concurrent load test or a scalability result."
+  ],
+  "n_degraded_queries": 0,
+  "sequential_batch_wall_s": 44.435,
+  "sequential_batch_wall_includes_output_writes": true,
+  "observed_serial_batch_queries_per_minute": 6.75,
+  "api_usage_note": "Per-query result.api covers downstream calls only; rewrite request usage/cost is not captured."
+}

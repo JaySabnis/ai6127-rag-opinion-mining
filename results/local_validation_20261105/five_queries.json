@@ -1,0 +1,22 @@
+[
+  {
+    "query_id": "Q001",
+    "query": "How do reviewers rate the camera quality on the Samsung Galaxy S10?"
+  },
+  {
+    "query_id": "Q007",
+    "query": "How long does the Samsung Galaxy S10 last between charges in everyday use?"
+  },
+  {
+    "query_id": "Q014",
+    "query": "What screen or touch-response issues do iPhone X reviewers describe?"
+  },
+  {
+    "query_id": "Q021",
+    "query": "What do reviewers say about the Google Pixel 4a speed when running apps?"
+  },
+  {
+    "query_id": "Q032",
+    "query": "What experiences do iPhone 11 buyers report when using SIM cards with different carriers?"
+  }
+]

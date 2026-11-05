@@ -1,0 +1,7 @@
+{
+  "index_chunks": 459418,
+  "unique_brand_model_pairs": 4531,
+  "variant_key_changes_on_actual_catalogue": 0,
+  "changed_pairs": [],
+  "note": "Read-only comparison of pre-fix query_parser rules and shared product_identity rules; no retrieval scoring or labels changed."
+}
